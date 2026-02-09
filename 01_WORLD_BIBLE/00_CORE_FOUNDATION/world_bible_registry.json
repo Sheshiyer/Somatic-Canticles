@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "generated_at": "2026-02-09",
+    "description": "Master Index of the Somatic Canticles World Bible. Maps physical files to narrative domains."
+  },
+  "domains": [
+    {
+      "id": "core",
+      "name": "Core Foundation",
+      "directory": "00_CORE_FOUNDATION",
+      "description": "The axiomatic truths and definitions of the universe.",
+      "key_files": [
+        { "path": "00_SERIES_BIBLE.md", "role": "Master Source", "status": "Canon" },
+        { "path": "01_KEY_CONCEPTS.md", "role": "Glossary", "status": "Canon" },
+        { "path": "03_LEXICON_OF_NOESIS.md", "role": "Dictionary", "status": "Canon" },
+        { "path": "somatic_canticles_data_tapestry.json", "role": "Graph Database", "status": "Live" }
+      ]
+    },
+    {
+      "id": "systems",
+      "name": "Protocols & Systems",
+      "directory": "01_PROTOCOLS_AND_SYSTEMS",
+      "description": "Operational rules for writing and world mechanics.",
+      "key_files": [
+        { "path": "00_TRYAMBAKAM_PROTOCOL.md", "role": "Magic System", "status": "Canon" },
+        { "path": "01_BIOLOGICAL_STYLE_GUIDE.md", "role": "Style Guide", "status": "Canon" },
+        { "path": "The_13_Symbolic_Lenses.md", "role": "Framework", "status": "Canon" }
+      ]
+    },
+    {
+      "id": "characters",
+      "name": "Character System",
+      "directory": "02_CHARACTER_SYSTEM",
+      "description": "The cast, their arcs, and their relationships.",
+      "key_files": [
+        { "path": "02-SOMANAUT-TEAM-ROSTER.md", "role": "Roster", "status": "Canon" },
+        { "path": "TRILOGY-CHARACTER-ARCS.md", "role": "Narrative Arc", "status": "Canon" },
+        { "path": "CONSCIOUSNESS_TERRITORIES.md", "role": "Map", "status": "Canon" }
+      ]
+    },
+    {
+      "id": "technology",
+      "name": "Technology",
+      "directory": "03_TECHNOLOGY",
+      "description": "The hardware and wetware of the Somanauts.",
+      "subdomains": [
+        {
+          "id": "bio_engineering",
+          "files": [
+            "Amrita_Fluid_Dynamics.md",
+            "The_Panopticon_Surveillance_Grid.md",
+            "The_Stages_of_Ripening.md"
+          ]
+        },
+        {
+          "id": "consciousness_interfaces",
+          "files": [
+            "The_Somanaut_HUD_v3.md",
+            "The_Neural_Bridge_Protocols.md"
+          ]
+        },
+        {
+          "id": "system_operations",
+          "files": [
+            "The_Severance_Sequence.md",
+            "WitnessOS_Core_Architecture.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "World Building",
+      "directory": "04_WORLD_BUILDING",
+      "description": "The wider universe, history, and cultures.",
+      "key_files": [
+        { "path": "01_SEVEN_GALACTIC_CULTURES.md", "role": "Sociology", "status": "Canon" },
+        { "path": "00_GALACTIC_FEDERATION_CHARTER.md", "role": "Politics", "status": "Canon" },
+        { "path": "Cosmic_Mathematics/SACRED_MATHEMATICS_FRAMEWORK.md", "role": "Metaphysics", "status": "Canon" }
+      ]
+    }
+  ]
+}

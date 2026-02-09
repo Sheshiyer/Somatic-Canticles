@@ -1,0 +1,37 @@
+# System Files
+.DS_Store
+Thumbs.db
+*.log
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build & Dist
+dist/
+build/
+out/
+*.tmp
+tmp/
+
+# Environment Variables
+.env
+.env.local
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project Specific
+.claude/
+skills/
+04_SOURCES/External-Research/GLOSSOPETRAE/skills/
+*.bak
+_ARCHIVE/
+
+# Agent Memory (Optional - keep if you want to track history, exclude if personal)
+# memory.md
+# todo.md

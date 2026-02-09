@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "description": "Somatic Canticles Data Tapestry - A Graph Database of Relationships",
+    "last_updated": "2026-02-07",
+    "schema_type": "node_edge_graph"
+  },
+  "nodes": [
+    {
+      "id": "char_aris_thorne",
+      "type": "character",
+      "label": "Dr. Aris Thorne",
+      "properties": {
+        "archetype": "The Architect",
+        "lens": "Proprioception",
+        "status": "Severed"
+      }
+    },
+    {
+      "id": "char_elara_vance",
+      "type": "character",
+      "label": "Elara Vance",
+      "properties": {
+        "archetype": "The Catalyst",
+        "lens": "Interoception",
+        "status": "Integrated"
+      }
+    },
+    {
+      "id": "conc_anamnesis_engine",
+      "type": "concept",
+      "label": "The Anamnesis Engine",
+      "properties": {
+        "domain": "Technology",
+        "function": "Simulation",
+        "somatic_correlate": "Neocortex"
+      }
+    },
+    {
+      "id": "conc_myocardial_chorus",
+      "type": "concept",
+      "label": "The Myocardial Chorus",
+      "properties": {
+        "domain": "Biology",
+        "function": "Resonance",
+        "somatic_correlate": "Heart"
+      }
+    },
+    {
+      "id": "loc_varanasi",
+      "type": "location",
+      "label": "Varanasi",
+      "properties": {
+        "realm": "Physical",
+        "significance": "Spiritual Center",
+        "somatic_correlate": "The Heart Chakra"
+      }
+    },
+    {
+      "id": "event_severance",
+      "type": "event",
+      "label": "The Severance",
+      "properties": {
+        "book": "Book 3",
+        "impact": "Global",
+        "theme": "Liberation"
+      }
+    },
+    {
+      "id": "doc_tryambakam",
+      "type": "document",
+      "label": "Tryambakam Protocol",
+      "properties": {
+        "path": "01_PROTOCOLS_AND_SYSTEMS/00_TRYAMBAKAM_PROTOCOL.md",
+        "status": "Canon"
+      }
+    },
+    {
+      "id": "doc_hud_spec",
+      "type": "document",
+      "label": "Somanaut HUD v3",
+      "properties": {
+        "path": "03_TECHNOLOGY/Consciousness_Interfaces/The_Somanaut_HUD_v3.md",
+        "status": "Canon"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "doc_tryambakam",
+      "target": "conc_myocardial_chorus",
+      "relation": "DEFINES_MECHANICS_FOR",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_hud_spec",
+      "target": "conc_anamnesis_engine",
+      "relation": "INTERFACES_WITH",
+      "weight": 0.9
+    },
+    {
+      "source": "char_aris_thorne",
+      "target": "conc_anamnesis_engine",
+      "relation": "CREATED",
+      "weight": 1.0
+    },
+    {
+      "source": "char_elara_vance",
+      "target": "conc_myocardial_chorus",
+      "relation": "HOSTS",
+      "weight": 0.9
+    },
+    {
+      "source": "conc_myocardial_chorus",
+      "target": "loc_varanasi",
+      "relation": "ORIGINATED_AT",
+      "weight": 0.8
+    },
+    {
+      "source": "event_severance",
+      "target": "conc_anamnesis_engine",
+      "relation": "DESTROYED",
+      "weight": 1.0
+    },
+    {
+      "source": "char_aris_thorne",
+      "target": "char_elara_vance",
+      "relation": "LINKED_BY_FATE",
+      "weight": 0.7
+    }
+  ]
+}
