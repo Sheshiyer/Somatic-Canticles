@@ -1,0 +1,256 @@
+---
+import { getCollection } from 'astro:content';
+import SiteLogo from './SiteLogo.astro';
+import { archiveStats, categoryMeta, categoryOrder, orderDocs } from '../data/wiki';
+
+const docs = orderDocs(await getCollection('docs'));
+const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
+
+const groupedDocs = categoryOrder
+  .map((category) => ({
+    category,
+    items: docs.filter((doc) => (doc.data.category ?? 'overview') === category),
+  }))
+  .filter((group) => group.items.length > 0);
+
+const utilityLinks = [
+  { href: '/docs/index', label: 'Start with the brief' },
+  { href: '/visual-atlas', label: 'Open visual atlas' },
+];
+
+function isActive(href: string) {
+  return currentPath === href || currentPath.startsWith(`${href}/`);
+}
+---
+
+<nav class="archive-nav" aria-label="Archive navigation">
+  <div class="archive-nav__brand">
+    <SiteLogo />
+    <p class="archive-nav__lede">
+      A navigable archive of product logic, visual systems, reader strategy, and launch proof for the trilogy.
+    </p>
+  </div>
+
+  <div class="archive-nav__metrics">
+    {archiveStats.map((stat) => (
+      <div class="archive-nav__metric">
+        <span class="archive-nav__metric-value">{stat.value}</span>
+        <span class="archive-nav__metric-label">{stat.label}</span>
+      </div>
+    ))}
+  </div>
+
+  <div class="archive-nav__utilities">
+    {utilityLinks.map((link) => (
+      <a href={link.href} class:list={['nav-link-card', isActive(link.href) && 'nav-link-card--active']}>
+        <span class="nav-link-card__eyebrow">Utility</span>
+        <span class="nav-link-card__label">{link.label}</span>
+      </a>
+    ))}
+  </div>
+
+  <div class="archive-nav__groups">
+    {groupedDocs.map((group) => {
+      const meta = categoryMeta[group.category];
+      return (
+        <section class="archive-nav__group">
+          <div class="archive-nav__group-head">
+            <p class="archive-nav__group-kicker">{meta.kicker}</p>
+            <h2 class="archive-nav__group-title">{meta.label}</h2>
+            <p class="archive-nav__group-count">{group.items.length} dossier{group.items.length > 1 ? 's' : ''}</p>
+          </div>
+          <ul class="archive-nav__list">
+            {group.items.map((doc) => {
+              const href = `/docs/${doc.slug}`;
+              return (
+                <li>
+                  <a href={href} class:list={['archive-nav__item', isActive(href) && 'archive-nav__item--active']}>
+                    <span class="archive-nav__item-rule" aria-hidden="true"></span>
+                    <span class="archive-nav__item-copy">
+                      <span class="archive-nav__item-title">{doc.data.title}</span>
+                      {doc.data.description && <span class="archive-nav__item-description">{doc.data.description}</span>}
+                    </span>
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+      );
+    })}
+  </div>
+</nav>
+
+<style>
+  .archive-nav {
+    display: grid;
+    gap: 1.6rem;
+  }
+
+  .archive-nav__brand {
+    display: grid;
+    gap: 0.95rem;
+    padding-bottom: 1.4rem;
+    border-bottom: 1px solid var(--color-divider);
+  }
+
+  .archive-nav__lede {
+    color: var(--color-text-secondary);
+    font-size: 0.86rem;
+    line-height: 1.65;
+    max-width: 30ch;
+  }
+
+  .archive-nav__metrics {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.65rem;
+  }
+
+  .archive-nav__metric {
+    padding: 0.85rem 0.8rem;
+    border: 1px solid var(--color-border-soft);
+    border-radius: 1rem;
+    background: var(--surface-panel-soft);
+  }
+
+  .archive-nav__metric-value {
+    display: block;
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    font-weight: 650;
+    letter-spacing: 0.03em;
+  }
+
+  .archive-nav__metric-label {
+    display: block;
+    margin-top: 0.25rem;
+    color: var(--color-text-tertiary);
+    font-size: 0.72rem;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  .archive-nav__utilities {
+    display: grid;
+    gap: 0.7rem;
+  }
+
+  .nav-link-card {
+    display: grid;
+    gap: 0.25rem;
+    padding: 0.9rem 1rem;
+    border: 1px solid var(--color-border-soft);
+    border-radius: 1rem;
+    color: var(--color-text-primary);
+    text-decoration: none;
+    background: var(--surface-panel-soft);
+    transition: border-color var(--duration-fast) var(--ease-out-quart), transform var(--duration-fast) var(--ease-out-quart), background var(--duration-fast) var(--ease-out-quart);
+  }
+
+  .nav-link-card:hover,
+  .nav-link-card--active {
+    transform: translateY(-1px);
+    border-color: var(--color-accent-muted);
+    background: var(--surface-panel-strong);
+  }
+
+  .nav-link-card__eyebrow {
+    font-family: var(--font-sans);
+    color: var(--color-text-tertiary);
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+
+  .nav-link-card__label {
+    font-size: 0.92rem;
+    line-height: 1.45;
+  }
+
+  .archive-nav__groups {
+    display: grid;
+    gap: 1.4rem;
+  }
+
+  .archive-nav__group {
+    display: grid;
+    gap: 0.7rem;
+  }
+
+  .archive-nav__group-head {
+    display: grid;
+    gap: 0.18rem;
+  }
+
+  .archive-nav__group-kicker,
+  .archive-nav__group-count {
+    font-family: var(--font-sans);
+    color: var(--color-text-tertiary);
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+
+  .archive-nav__group-title {
+    font-size: 1.05rem;
+    line-height: 1.2;
+  }
+
+  .archive-nav__list {
+    list-style: none;
+    display: grid;
+    gap: 0.45rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .archive-nav__item {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.7rem;
+    padding: 0.85rem 0.9rem;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    color: var(--color-text-primary);
+    text-decoration: none;
+    background: transparent;
+    transition: border-color var(--duration-fast) var(--ease-out-quart), background var(--duration-fast) var(--ease-out-quart), transform var(--duration-fast) var(--ease-out-quart);
+  }
+
+  .archive-nav__item:hover,
+  .archive-nav__item--active {
+    background: var(--surface-panel-soft);
+    border-color: var(--color-border-soft);
+    transform: translateY(-1px);
+  }
+
+  .archive-nav__item-rule {
+    width: 2px;
+    min-height: 100%;
+    border-radius: 999px;
+    background: linear-gradient(180deg, transparent 0%, var(--color-accent) 25%, var(--color-accent) 75%, transparent 100%);
+    opacity: 0.35;
+  }
+
+  .archive-nav__item--active .archive-nav__item-rule {
+    opacity: 1;
+  }
+
+  .archive-nav__item-copy {
+    display: grid;
+    gap: 0.22rem;
+  }
+
+  .archive-nav__item-title {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .archive-nav__item-description {
+    color: var(--color-text-secondary);
+    font-size: 0.74rem;
+    line-height: 1.55;
+  }
+</style>

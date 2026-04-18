@@ -1,0 +1,67 @@
+{
+  "source": "/Volumes/madara/2026/Somatic-Canticles/somatic-canticles/generated",
+  "target": "/Volumes/madara/2026/Somatic-Canticles/brand-wiki-site/src/images",
+  "format": "webp",
+  "categories": {
+    "arcana": [
+      "00-fool-stem-cell.webp",
+      "01-magician-neuroplasticity.webp",
+      "02-high-priestess-pineal.webp",
+      "03-empress-oxytocin.webp",
+      "04-emperor-prefrontal.webp",
+      "05-hierophant-mirror-neurons.webp",
+      "06-lovers-dopamine.webp",
+      "07-chariot-cardiac-coherence.webp",
+      "08-strength-immune.webp",
+      "09-hermit-autophagy.webp",
+      "10-wheel-circadian.webp",
+      "11-justice-hormonal.webp",
+      "12-hangedman-parasympathetic.webp",
+      "13-death-apoptosis.webp",
+      "14-temperance-metabolic.webp",
+      "15-devil-addiction.webp",
+      "16-tower-severance.webp",
+      "17-star-neurogenesis.webp",
+      "18-moon-rem-sleep.webp",
+      "19-sun-mitochondria.webp",
+      "20-judgement-epigenetics.webp",
+      "21-world-homeostasis.webp"
+    ],
+    "anatomy": [
+      "anatomy-cardiac-coherence.webp",
+      "anatomy-heart-brain-axis.webp",
+      "anatomy-khaloree-field-architecture.webp",
+      "anatomy-neural-dendrites.webp",
+      "anatomy-severance-pathways.webp",
+      "anatomy-somatic-mapping.webp",
+      "anatomy-triangulation-engine.webp",
+      "anatomy-vagal-nerve.webp"
+    ],
+    "covers": [
+      "book-cover-1-anamnesis-engine.webp",
+      "book-cover-2-myocardial-chorus.webp",
+      "book-cover-3-the-ripening.webp"
+    ],
+    "logos": [
+      "logo-glass-classic.webp",
+      "logo-glass-fractured.webp",
+      "logo-glass-gradient.webp",
+      "logo-wax-seal-broken.webp",
+      "logo-wax-seal-classic.webp",
+      "logo-wax-seal-melting.webp",
+      "logo-wax-seal-signet-ring.webp",
+      "logo-wax-seal-triple.webp"
+    ],
+    "brand-kit": [
+      "brand-kit-bento-grid.webp"
+    ]
+  },
+  "counts": {
+    "arcana": 22,
+    "anatomy": 8,
+    "covers": 3,
+    "logos": 8,
+    "brand-kit": 1
+  },
+  "total": 42
+}

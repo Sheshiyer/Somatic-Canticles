@@ -1,0 +1,73 @@
+---
+import { categoryLabel } from '../data/wiki';
+
+interface Props {
+  category?: string;
+  title: string;
+}
+
+const { category, title } = Astro.props;
+const label = categoryLabel(category);
+---
+
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <ol class="breadcrumb-list">
+    <li class="breadcrumb-item">
+      <a href="/">Archive</a>
+    </li>
+    {category && (
+      <li class="breadcrumb-item">
+        <span class="breadcrumb-sep">/</span>
+        <span>{label}</span>
+      </li>
+    )}
+    <li class="breadcrumb-item breadcrumb-current">
+      <span class="breadcrumb-sep">/</span>
+      <span>{title}</span>
+    </li>
+  </ol>
+</nav>
+
+<style>
+  .breadcrumb {
+    margin-bottom: 1.2rem;
+  }
+
+  .breadcrumb-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.45rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .breadcrumb-item {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    font-family: var(--font-sans);
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-text-tertiary);
+  }
+
+  .breadcrumb-item a {
+    color: var(--color-text-secondary);
+    text-decoration: none;
+  }
+
+  .breadcrumb-item a:hover {
+    color: var(--color-accent);
+  }
+
+  .breadcrumb-sep {
+    opacity: 0.45;
+  }
+
+  .breadcrumb-current {
+    color: var(--color-text-primary);
+  }
+</style>

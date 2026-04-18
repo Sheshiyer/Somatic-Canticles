@@ -1,0 +1,77 @@
+---
+import logoGlassClassic from '../images/logos/logo-glass-classic.webp';
+
+interface Props {
+  compact?: boolean;
+}
+
+const { compact = false } = Astro.props;
+---
+
+<a href="/" class:list={['site-logo', compact && 'site-logo--compact']}>
+  <img
+    src={logoGlassClassic.src}
+    width={logoGlassClassic.width}
+    height={logoGlassClassic.height}
+    alt="Somatic Canticles glass sigil logo"
+    class="site-logo__mark"
+    loading="eager"
+  />
+  <span class="site-logo__copy">
+    <span class="site-logo__title">Somatic Canticles</span>
+    <span class="site-logo__subtitle">Brand Archive</span>
+  </span>
+</a>
+
+<style>
+  .site-logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.9rem;
+    color: var(--color-text-primary);
+    text-decoration: none;
+  }
+
+  .site-logo__mark {
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 1rem;
+    border: 1px solid var(--color-border-strong);
+    background: rgba(255, 255, 255, 0.06);
+    box-shadow: var(--shadow-panel-soft);
+    object-fit: cover;
+  }
+
+  .site-logo__copy {
+    display: grid;
+    gap: 0.15rem;
+  }
+
+  .site-logo__title {
+    font-family: var(--font-sans);
+    font-size: 0.95rem;
+    font-weight: 650;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .site-logo__subtitle {
+    color: var(--color-text-secondary);
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .site-logo--compact .site-logo__mark {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+
+  .site-logo--compact .site-logo__title {
+    font-size: 0.84rem;
+  }
+
+  .site-logo--compact .site-logo__subtitle {
+    font-size: 0.68rem;
+  }
+</style>

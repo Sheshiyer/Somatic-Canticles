@@ -1,0 +1,339 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { archiveStats, categoryMeta, categoryOrder, orderDocs, primaryReadingPath } from '../data/wiki';
+
+const docs = orderDocs(await getCollection('docs'));
+const docsBySlug = new Map(docs.map((doc) => [doc.slug, doc]));
+const readingPath = primaryReadingPath
+  .map((slug) => docsBySlug.get(slug))
+  .filter(Boolean);
+
+const categories = categoryOrder
+  .map((category) => ({
+    meta: categoryMeta[category],
+    docs: docs.filter((doc) => (doc.data.category ?? 'overview') === category),
+  }))
+  .filter((group) => group.docs.length > 0);
+
+const featuredDocs = docs.slice(0, 3);
+---
+<BaseLayout
+  title="Somatic Canticles Brand Archive"
+  description="An editorial archive for the Somatic Canticles trilogy spanning brand strategy, reader positioning, market proof, and the full visual system."
+>
+  <div class="home-page">
+    <section class="home-hero rich-card rich-card--hero">
+      <div class="home-hero__copy">
+        <p class="kicker">Editorial archive</p>
+        <h1>Where clinical mysticism gets documented with actual precision.</h1>
+        <p class="home-hero__body">
+          This wiki is the operating archive for Somatic Canticles: trilogy architecture, voice doctrine,
+          visual identity, audience strategy, and market proof arranged as a readable editorial system rather
+          than a pile of disconnected notes.
+        </p>
+
+        <div class="home-hero__actions">
+          <a href="/docs/index" class="button button--primary">Start with the brief</a>
+          <a href="/visual-atlas" class="button button--secondary">Browse the visual atlas</a>
+          <button type="button" class="button button--ghost" data-search-trigger>Search dossiers</button>
+        </div>
+
+        <div class="home-stats">
+          {archiveStats.map((stat) => (
+            <article class="rich-card home-stats__card">
+              <span class="home-stats__value">{stat.value}</span>
+              <span class="home-stats__label">{stat.label}</span>
+            </article>
+          ))}
+        </div>
+      </div>
+
+      <div class="home-hero__media">
+        <figure class="image-frame image-frame--portrait">
+          <img
+            src={categoryMeta.product.featureImage.src}
+            width={categoryMeta.product.featureImage.width}
+            height={categoryMeta.product.featureImage.height}
+            alt={categoryMeta.product.featureAlt}
+            loading="eager"
+          />
+          <figcaption>Primary trilogy cover system</figcaption>
+        </figure>
+
+        <figure class="image-frame image-frame--wide">
+          <img
+            src={categoryMeta.overview.featureImage.src}
+            width={categoryMeta.overview.featureImage.width}
+            height={categoryMeta.overview.featureImage.height}
+            alt={categoryMeta.overview.featureAlt}
+            loading="eager"
+          />
+          <figcaption>Brand board spanning covers, logos, and symbolic anatomy</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section-block">
+      <div class="section-heading">
+        <p class="section-heading__eyebrow">Recommended sequence</p>
+        <h2>Read the archive in five moves</h2>
+        <p>
+          The shortest path from orientation to proof: what the trilogy is, how it should look, who it serves,
+          and why the market case is real.
+        </p>
+      </div>
+
+      <div class="reading-path">
+        {readingPath.map((doc, index) => (
+          <a href={`/docs/${doc.slug}`} class="rich-card reading-path__card">
+            <span class="reading-path__step">0{index + 1}</span>
+            <strong>{doc.data.title}</strong>
+            {doc.data.description && <p>{doc.data.description}</p>}
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <section class="section-block">
+      <div class="section-heading">
+        <p class="section-heading__eyebrow">Archive map</p>
+        <h2>Five sections, one coherent thesis</h2>
+        <p>
+          Every section uses the real Somatic Canticles assets instead of placeholders: covers, logos, anatomy,
+          arcana studies, and the consolidated brand board.
+        </p>
+      </div>
+
+      <div class="category-shelf">
+        {categories.map(({ meta, docs: sectionDocs }) => (
+          <article class="rich-card category-card">
+            <div class="category-card__content">
+              <p class="section-heading__eyebrow">{meta.kicker}</p>
+              <h3>{meta.label}</h3>
+              <p>{meta.description}</p>
+              <ul>
+                {sectionDocs.slice(0, 3).map((doc) => (
+                  <li>
+                    <a href={`/docs/${doc.slug}`}>{doc.data.title}</a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <figure class="category-card__media image-frame">
+              <img
+                src={meta.featureImage.src}
+                width={meta.featureImage.width}
+                height={meta.featureImage.height}
+                alt={meta.featureAlt}
+                loading="lazy"
+              />
+              <figcaption>{meta.featureAlt}</figcaption>
+            </figure>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <section class="section-block home-featured">
+      <div class="section-heading">
+        <p class="section-heading__eyebrow">Featured dossiers</p>
+        <h2>High-signal entries worth opening first</h2>
+      </div>
+
+      <div class="home-featured__grid">
+        {featuredDocs.map((doc) => (
+          <a href={`/docs/${doc.slug}`} class="rich-card home-featured__card">
+            <span class="section-heading__eyebrow">{doc.data.category ?? 'Archive'}</span>
+            <strong>{doc.data.title}</strong>
+            {doc.data.description && <p>{doc.data.description}</p>}
+          </a>
+        ))}
+      </div>
+    </section>
+  </div>
+</BaseLayout>
+
+<style>
+  .home-page {
+    display: grid;
+    gap: 2rem;
+  }
+
+  .home-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(18rem, 28rem);
+    gap: 1.5rem;
+    align-items: stretch;
+  }
+
+  .home-hero__copy {
+    display: grid;
+    align-content: start;
+    gap: 1rem;
+  }
+
+  .home-hero__copy h1 {
+    max-width: 11ch;
+    font-size: clamp(3rem, 6vw, 5.3rem);
+    line-height: 0.92;
+  }
+
+  .home-hero__body {
+    max-width: 42rem;
+    font-size: 1.08rem;
+    line-height: 1.82;
+    color: var(--color-text-secondary);
+  }
+
+  .home-hero__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+  }
+
+  .home-stats {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.9rem;
+    margin-top: 0.25rem;
+  }
+
+  .home-stats__card {
+    display: grid;
+    gap: 0.28rem;
+  }
+
+  .home-stats__value {
+    font-family: var(--font-sans);
+    font-size: 1.45rem;
+    font-weight: 650;
+    letter-spacing: 0.04em;
+  }
+
+  .home-stats__label {
+    font-family: var(--font-sans);
+    font-size: 0.74rem;
+    color: var(--color-text-tertiary);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .home-hero__media {
+    display: grid;
+    gap: 1rem;
+    grid-template-rows: 1.2fr 0.85fr;
+  }
+
+  .reading-path {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 0.9rem;
+  }
+
+  .reading-path__card,
+  .home-featured__card {
+    display: grid;
+    gap: 0.55rem;
+    color: var(--color-text-primary);
+    transition: transform var(--duration-fast) var(--ease-out-quart), border-color var(--duration-fast) var(--ease-out-quart), background var(--duration-fast) var(--ease-out-quart);
+  }
+
+  .reading-path__card:hover,
+  .home-featured__card:hover,
+  .category-card a:hover {
+    transform: translateY(-2px);
+  }
+
+  .reading-path__step {
+    font-family: var(--font-sans);
+    color: var(--color-accent);
+    font-size: 0.74rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+  }
+
+  .reading-path__card p,
+  .home-featured__card p {
+    color: var(--color-text-secondary);
+    font-size: 0.92rem;
+    line-height: 1.65;
+  }
+
+  .category-shelf {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .category-card {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(14rem, 20rem);
+    gap: 1.25rem;
+    align-items: center;
+  }
+
+  .category-card__content {
+    display: grid;
+    gap: 0.75rem;
+  }
+
+  .category-card__content p {
+    color: var(--color-text-secondary);
+    line-height: 1.75;
+  }
+
+  .category-card__content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 0.45rem;
+  }
+
+  .category-card__content a {
+    color: var(--color-text-primary);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: color var(--duration-fast) var(--ease-out-quart), border-color var(--duration-fast) var(--ease-out-quart);
+  }
+
+  .category-card__content a:hover {
+    color: var(--color-accent);
+    border-color: var(--color-accent-muted);
+  }
+
+  .home-featured__grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  @media (max-width: 1100px) {
+    .home-hero,
+    .category-card,
+    .reading-path,
+    .home-featured__grid {
+      grid-template-columns: 1fr;
+    }
+
+    .home-hero__copy h1 {
+      max-width: 100%;
+    }
+
+    .home-hero__media {
+      grid-template-rows: auto;
+    }
+  }
+
+  @media (max-width: 760px) {
+    .home-stats {
+      grid-template-columns: 1fr;
+    }
+
+    .home-hero__actions {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  }
+</style>

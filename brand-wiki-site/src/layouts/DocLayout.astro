@@ -1,0 +1,367 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from './BaseLayout.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import TableOfContents from '../components/TableOfContents.astro';
+import { getCategoryMeta, getDocMeta, orderDocs, primaryReadingPath } from '../data/wiki';
+
+interface Props {
+  title: string;
+  description?: string;
+  category?: string;
+  headings?: { depth: number; slug: string; text: string }[];
+  slug: string;
+}
+
+const { title, description, category, headings = [], slug } = Astro.props;
+const visual = getDocMeta(slug);
+const categoryInfo = getCategoryMeta(category);
+const content = await Astro.slots.render('default');
+const plainText = content.replace(/<[^>]+>/g, ' ');
+const wordCount = plainText.split(/\s+/).filter(Boolean).length;
+const readingTime = Math.max(1, Math.ceil(wordCount / 225));
+
+const docs = orderDocs(await getCollection('docs'));
+const currentIndex = docs.findIndex((doc) => doc.slug === slug);
+const previousDoc = currentIndex > 0 ? docs[currentIndex - 1] : null;
+const nextDoc = currentIndex >= 0 && currentIndex < docs.length - 1 ? docs[currentIndex + 1] : null;
+
+const relatedDocs = docs
+  .filter((doc) => doc.slug !== slug)
+  .filter((doc) => {
+    if (category && doc.data.category === category) return true;
+    return primaryReadingPath.includes(doc.slug as (typeof primaryReadingPath)[number]);
+  })
+  .slice(0, 3);
+---
+<BaseLayout title={title} description={description}>
+  <article class="doc-page">
+    <section class="doc-hero rich-card rich-card--hero">
+      <div class="doc-hero__copy">
+        <Breadcrumb title={title} category={category} />
+        <p class="kicker">{visual.eyebrow}</p>
+        <h1 class="doc-hero__title">{title}</h1>
+        {description && <p class="doc-hero__summary">{description}</p>}
+        <p class="doc-hero__body">{visual.summary}</p>
+
+        <div class="doc-hero__meta">
+          <span class="stat-chip">{categoryInfo?.label ?? 'Archive'}</span>
+          <span class="stat-chip">{readingTime} min read</span>
+          <span class="stat-chip">{wordCount.toLocaleString()} words</span>
+        </div>
+      </div>
+
+      <figure class="doc-hero__media image-frame image-frame--tall">
+        <img
+          src={visual.heroImage.src}
+          width={visual.heroImage.width}
+          height={visual.heroImage.height}
+          alt={visual.heroAlt}
+          loading="eager"
+        />
+        <figcaption>{visual.heroAlt}</figcaption>
+      </figure>
+    </section>
+
+    <section class="doc-highlights section-block">
+      <div class="section-heading">
+        <p class="section-heading__eyebrow">Reading lens</p>
+        <h2>What this dossier resolves</h2>
+      </div>
+
+      <div class="doc-highlights__grid">
+        {visual.highlights.map((highlight, index) => (
+          <article class="rich-card">
+            <span class="doc-highlights__index">0{index + 1}</span>
+            <p>{highlight}</p>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <div class="doc-body">
+      <div class="doc-body__main">
+        <div class="doc-content rich-card prose">
+          <slot />
+        </div>
+      </div>
+
+      <aside class="doc-body__rail">
+        {headings.length > 0 && (
+          <div class="rich-card doc-rail-card">
+            <TableOfContents headings={headings} />
+          </div>
+        )}
+
+        <div class="rich-card doc-rail-card">
+          <p class="section-heading__eyebrow">Context gallery</p>
+          <div class="doc-gallery">
+            {visual.gallery.map((item) => (
+              <figure class="doc-gallery__item">
+                <img
+                  src={item.image.src}
+                  width={item.image.width}
+                  height={item.image.height}
+                  alt={item.alt}
+                  loading="lazy"
+                />
+                <figcaption>
+                  <span>{item.label}</span>
+                  <small>{item.alt}</small>
+                </figcaption>
+              </figure>
+            ))}
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <section class="doc-related section-block">
+      <div class="section-heading">
+        <p class="section-heading__eyebrow">Continue reading</p>
+        <h2>Move through the archive intentionally</h2>
+      </div>
+
+      <div class="doc-related__nav">
+        {previousDoc ? (
+          <a href={`/docs/${previousDoc.slug}`} class="rich-card doc-related__jump">
+            <span class="section-heading__eyebrow">Previous dossier</span>
+            <strong>{previousDoc.data.title}</strong>
+            {previousDoc.data.description && <p>{previousDoc.data.description}</p>}
+          </a>
+        ) : (
+          <div class="rich-card doc-related__jump doc-related__jump--empty">
+            <span class="section-heading__eyebrow">Previous dossier</span>
+            <strong>Start of archive path</strong>
+            <p>The archive brief is the first entry in the sequence.</p>
+          </div>
+        )}
+
+        {nextDoc ? (
+          <a href={`/docs/${nextDoc.slug}`} class="rich-card doc-related__jump">
+            <span class="section-heading__eyebrow">Next dossier</span>
+            <strong>{nextDoc.data.title}</strong>
+            {nextDoc.data.description && <p>{nextDoc.data.description}</p>}
+          </a>
+        ) : (
+          <div class="rich-card doc-related__jump doc-related__jump--empty">
+            <span class="section-heading__eyebrow">Next dossier</span>
+            <strong>End of archive path</strong>
+            <p>This dossier currently closes the ordered reading path.</p>
+          </div>
+        )}
+      </div>
+
+      <div class="doc-related__grid">
+        {relatedDocs.map((doc) => (
+          <a href={`/docs/${doc.slug}`} class="rich-card doc-related__card">
+            <span class="section-heading__eyebrow">{doc.data.category ?? 'Archive'}</span>
+            <strong>{doc.data.title}</strong>
+            {doc.data.description && <p>{doc.data.description}</p>}
+          </a>
+        ))}
+      </div>
+    </section>
+  </article>
+</BaseLayout>
+
+<style>
+  .doc-page {
+    display: grid;
+    gap: 2rem;
+  }
+
+  .doc-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1.25fr) minmax(17rem, 24rem);
+    gap: 1.5rem;
+    align-items: stretch;
+  }
+
+  .doc-hero__copy {
+    display: grid;
+    gap: 1rem;
+    align-content: start;
+  }
+
+  .doc-hero__title {
+    font-size: clamp(2.4rem, 4.8vw, 4.5rem);
+    line-height: 0.97;
+    max-width: 12ch;
+  }
+
+  .doc-hero__summary {
+    max-width: 45rem;
+    font-family: var(--font-sans);
+    font-size: 1.06rem;
+    line-height: 1.7;
+    color: var(--color-text-secondary);
+  }
+
+  .doc-hero__body {
+    max-width: 46rem;
+    font-size: 1.03rem;
+    line-height: 1.82;
+    color: var(--color-text-secondary);
+  }
+
+  .doc-hero__meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+  }
+
+  .doc-hero__media {
+    min-height: 100%;
+  }
+
+  .doc-highlights__grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .doc-highlights__grid .rich-card {
+    display: grid;
+    gap: 0.75rem;
+    min-height: 100%;
+  }
+
+  .doc-highlights__index {
+    font-family: var(--font-sans);
+    font-size: 0.72rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--color-accent);
+  }
+
+  .doc-body {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(16rem, 20rem);
+    gap: 1.25rem;
+    align-items: start;
+  }
+
+  .doc-body__main {
+    min-width: 0;
+  }
+
+  .doc-content {
+    padding: clamp(1.3rem, 3vw, 2rem);
+  }
+
+  .doc-body__rail {
+    display: grid;
+    gap: 1rem;
+    position: sticky;
+    top: 1.5rem;
+  }
+
+  .doc-rail-card {
+    display: grid;
+    gap: 0.9rem;
+  }
+
+  .doc-gallery {
+    display: grid;
+    gap: 0.85rem;
+  }
+
+  .doc-gallery__item {
+    display: grid;
+    gap: 0.6rem;
+  }
+
+  .doc-gallery__item img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 1.05rem;
+    border: 1px solid var(--color-border-soft);
+  }
+
+  .doc-gallery__item figcaption {
+    display: grid;
+    gap: 0.2rem;
+  }
+
+  .doc-gallery__item span {
+    font-family: var(--font-sans);
+    font-size: 0.77rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-text-primary);
+  }
+
+  .doc-gallery__item small {
+    color: var(--color-text-secondary);
+    font-size: 0.78rem;
+    line-height: 1.55;
+  }
+
+  .doc-related {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .doc-related__nav,
+  .doc-related__grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .doc-related__grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .doc-related__jump,
+  .doc-related__card {
+    display: grid;
+    gap: 0.45rem;
+    color: var(--color-text-primary);
+    transition: transform var(--duration-fast) var(--ease-out-quart), border-color var(--duration-fast) var(--ease-out-quart), background var(--duration-fast) var(--ease-out-quart);
+  }
+
+  .doc-related__jump:hover,
+  .doc-related__card:hover {
+    transform: translateY(-2px);
+    border-color: var(--color-accent-muted);
+    background: var(--surface-panel-strong);
+  }
+
+  .doc-related__jump p,
+  .doc-related__card p {
+    color: var(--color-text-secondary);
+    font-size: 0.92rem;
+    line-height: 1.65;
+  }
+
+  .doc-related__jump--empty {
+    opacity: 0.75;
+  }
+
+  @media (max-width: 1100px) {
+    .doc-hero,
+    .doc-body,
+    .doc-related__grid {
+      grid-template-columns: 1fr;
+    }
+
+    .doc-body__rail {
+      position: static;
+    }
+  }
+
+  @media (max-width: 760px) {
+    .doc-highlights__grid,
+    .doc-related__nav,
+    .doc-related__grid {
+      grid-template-columns: 1fr;
+    }
+
+    .doc-hero__title {
+      max-width: 100%;
+    }
+  }
+</style>

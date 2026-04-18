@@ -1,0 +1,126 @@
+---
+import ThemeToggle from '../components/ThemeToggle.astro';
+import Navigation from '../components/Navigation.astro';
+import SearchModal from '../components/SearchModal.astro';
+import SiteLogo from '../components/SiteLogo.astro';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description } = Astro.props;
+const pageTitle = title.includes('Somatic Canticles') ? title : `${title} | Somatic Canticles`;
+---
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{pageTitle}</title>
+  {description && <meta name="description" content={description} />}
+  <meta name="theme-color" content="#16110d" />
+  <script is:inline>
+    const theme = localStorage.getItem('theme') ||
+      (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', theme);
+  </script>
+</head>
+<body>
+  <div class="site-shell">
+    <div class="site-shell__backdrop" id="sidebar-backdrop"></div>
+
+    <aside class="site-sidebar" id="site-sidebar">
+      <div class="site-sidebar__inner">
+        <Navigation />
+      </div>
+    </aside>
+
+    <div class="site-main">
+      <header class="mobile-bar">
+        <button
+          type="button"
+          class="mobile-bar__toggle"
+          id="sidebar-toggle"
+          aria-controls="site-sidebar"
+          aria-expanded="false"
+          aria-label="Open archive navigation"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <SiteLogo compact />
+
+        <div class="mobile-bar__actions">
+          <button type="button" class="toolbar-search toolbar-search--compact" data-search-trigger>
+            Search
+          </button>
+        </div>
+      </header>
+
+      <div class="page-shell">
+        <header class="page-toolbar">
+          <div class="page-toolbar__label">
+            <span class="page-toolbar__eyebrow">Somatic Canticles</span>
+            <span class="page-toolbar__trail">Editorial archive</span>
+          </div>
+
+          <div class="page-toolbar__actions">
+            <button type="button" class="toolbar-search" data-search-trigger>
+              Search the archive
+            </button>
+          </div>
+        </header>
+
+        <main id="main-content" class="page-content">
+          <slot />
+        </main>
+      </div>
+    </div>
+  </div>
+
+  <ThemeToggle />
+  <SearchModal />
+
+  <script is:inline>
+    const root = document.documentElement;
+    const sidebarToggle = document.getElementById('sidebar-toggle');
+    const sidebarBackdrop = document.getElementById('sidebar-backdrop');
+
+    const closeSidebar = () => {
+      root.classList.remove('nav-open');
+      sidebarToggle?.setAttribute('aria-expanded', 'false');
+    };
+
+    const openSidebar = () => {
+      root.classList.add('nav-open');
+      sidebarToggle?.setAttribute('aria-expanded', 'true');
+    };
+
+    sidebarToggle?.addEventListener('click', () => {
+      if (root.classList.contains('nav-open')) {
+        closeSidebar();
+      } else {
+        openSidebar();
+      }
+    });
+
+    sidebarBackdrop?.addEventListener('click', closeSidebar);
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && root.classList.contains('nav-open')) {
+        closeSidebar();
+      }
+    });
+
+    window.addEventListener('resize', () => {
+      if (window.innerWidth > 1080) {
+        closeSidebar();
+      }
+    });
+  </script>
+</body>
+</html>
