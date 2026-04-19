@@ -13,7 +13,7 @@ There was only the sequence they chose to enact.
 
 Jian tried to count seconds and found nothing to count against. His analytical mind—so accustomed to the steady rhythm of measurable existence—encountered a fundamental discontinuity. Seconds required something to be before them and something to come after. Here in the potential field, there was only *now*: an eternal, trembling present that waited for them to give it shape.
 
-Sona tried to listen for a heartbeat and heard only the soft hum of their shared presence. Her empathic sensors, calibrated to feel the rhythms of living consciousness, found a single rhythm to orient against: the coherence of their merged Khalorēē Field Architecture, pulsing with the frequency of their collective awareness. No other heartbeat existed yet because no other heart existed.
+Sona tried to listen for a heartbeat and heard only the soft cadence of their shared presence. Her empathic sensors, calibrated to feel the rhythms of living consciousness, found a single pulse to orient against: the coherence of their merged Khalorēē field. No other heartbeat existed yet because no other heart existed.
 
 Gideon tried to locate a boundary and realized boundaries were no longer given. His protective instincts, developed through a lifetime of defending against intrusion and maintaining integrity, found nothing to defend from and no perimeter to maintain. The old reality had provided walls as default features. Here, there were no defaults. Every boundary would have to be consciously constructed.
 
@@ -25,7 +25,7 @@ His role had never been more essential. The others were struggling against the v
 
 "We did it," Sona whispered.
 
-Her voice didn't travel through air—there was no air yet, no medium to carry sound. It resonated through the field itself, the words arriving at her teammates' awareness as direct transmission of meaning. Communication here was more intimate than speech had ever been in the configured reality. There was no barrier between intention and reception.
+Her voice didn't travel through air—there was no air yet, no medium to carry sound. It resonated through the field itself, the words arriving at her teammates' awareness as direct transmission of meaning. Communication here was more intimate than speech had ever been in the inherited world. There was no barrier between intention and reception.
 
 "We severed," she continued, and the word *severed* carried the full weight of what they had accomplished: the complete disconnection from the Vine of Determinism, the permanent break with the maintenance systems that had governed consciousness for as long as consciousness had existed.
 
@@ -41,7 +41,7 @@ Jian's eyes were wide, his mind flipping through old algorithms and finding none
 
 "There's no coordinate system," he said, the words tumbling out with the urgency of a drowning man reaching for handholds. "No manifold. No baseline constants. No reference frames. My instruments can't—they can't even error-correct because there's nothing for them to error-correct against. We're in a space before physics."
 
-Before physics. The phrase hung in the luminous void. They had spent their lives learning the rules of a configured reality, developing technologies to navigate those rules, building expertise on the assumption that rules existed. Now they were in the space where rules would have to be invented.
+Before physics. The phrase hung in the luminous void. They had spent their lives learning the rules of an inherited reality, developing technologies to navigate those rules, building expertise on the assumption that rules existed. Now they were in the space where rules would have to be invented.
 
 Corvan felt the edge of terror in their coherence—the fundamental human instinct that insisted freedom must be anchored in something else. Pure freedom, absolute liberation, total release from constraint—these were philosophical ideals, not lived experiences. Every consciousness they had ever encountered had operated within boundaries. Every healing they had ever facilitated had been a renegotiation of constraints, not an abolition of them.
 
@@ -67,7 +67,7 @@ The word carried the old physics of the Tryambakam Protocol: the nectar of immor
 
 "The Amrita Protocol isn't a place," Corvan continued. "It's a practice."
 
-The distinction mattered. They weren't trying to find a pre-existing destination—some configured reality that would welcome refugees from the old universe. There was no such destination. No one had been here before. No one had escaped the Vine before.
+The distinction mattered. They weren't trying to find a pre-existing destination, some already-authored world that would welcome refugees from the old universe. There was no such destination. No one had been here before. No one had escaped the Vine before.
 
 They would have to create what they needed.
 
@@ -83,7 +83,7 @@ The phrase landed differently in his mind than it would have weeks ago. Before t
 
 Whatever they made, they would have to live in.
 
-Gideon's Klei Toda'ah tightened, then softened, then tightened again—like a hand learning how to hold something fragile without crushing it. His protective instincts were recalibrating. Protection in a void looked different than protection in a configured reality.
+Gideon's Klei Toda'ah tightened, then softened, then tightened again—like a hand learning how to hold something fragile without crushing it. His protective instincts were recalibrating. Protection in a void looked different than protection in an inherited world.
 
 "We need a boundary," he said. "Not a cage. Not the kind of constraint that the Vine imposed. A first container. Something that can hold what we're about to create without pre-determining what gets created."
 
@@ -93,7 +93,7 @@ Corvan nodded.
 
 Sona's eyes closed as she felt the void's texture.
 
-"And we need a tone," she said. "A frequency that decides what kind of universe this will be. Before we create forms, we need to establish the emotional palette. The resonance that all forms will vibrate within."
+"And we need a tone," she said. "A first note that decides what kind of world can gather here. Before we create forms, we need an emotional grammar. A quality of relation every later form will inherit."
 
 Jian stared into the luminous emptiness. The old phrase rose unbidden, no longer a command but a promise: *"nwengfe enghemhpüm"*—We build.
 
@@ -117,7 +117,7 @@ Their new reality would value differently.
 
 The void responded the way silence responds to a bell: by revealing that it was never empty.
 
-The resonance of their agreement rippled outward. The potential field—that luminous, pre-manifest expanse—received their commitment as a kind of seed. The first principle of their new creation had been planted.
+The resonance of their agreement rippled outward. The pre-spatial field—that luminous expanse prior to local form—received their commitment as a kind of seed. The first principle of their new creation had been planted.
 
 Potential thickened.
 
@@ -127,7 +127,7 @@ Not into form—not yet. But the potential became *directional*. It acquired rec
 
 Sona offered the tone first.
 
-She let her Adawat al-Wa'i expand into the thickening potential, broadcasting a frequency that her empathic nature had always known but never been free to fully express. Not the Note from grandmother Verath's memory—that had been an anchor, a target, a reference point for the triangulation. This was the Note as orientation. The Note as creative seed rather than archaeological artifact.
+She let her Adawat al-Wa'i expand into the thickening field, offering a note that her empathic nature had always known but had never been free to establish as law. Not the Note from grandmother Verath's memory—that had been an anchor, a target, a reference point for the triangulation. This was the Note as orientation. The Note as first condition rather than recovered artifact.
 
 She let joy exist without needing an opposite.
 
@@ -147,7 +147,7 @@ Joy that required nothing to generate it and nothing to sustain it. Joy that exi
 
 The field brightened.
 
-The potential accepted Sona's offering and organized itself around the tone she had established. Whatever forms emerged in this new reality would vibrate with unconditional joy as their ground frequency. Suffering might still be possible—they weren't building a reality where pain couldn't happen—but suffering would not be structural. It would not be required.
+The potential accepted Sona's offering and organized itself around the tone she had established. Whatever forms emerged in this new reality would inherit unconditional joy as one of their first conditions. Difficulty might still be possible—they weren't building a reality where pain could never happen—but suffering would not be structural. It would not be required.
 
 ---
 
@@ -211,6 +211,10 @@ Corvan offered the story.
 
 The others had provided tone, container, and map. Now it was time for narrative—the framework of meaning within which all the other elements would operate.
 
+He felt the old reflex reach for plot, for the elegant closure that would make the next world feel justified before it had taken its first breath.
+
+He let that reflex pass.
+
 Not an ending.
 
 The old reality had been oriented toward endings: salvation or damnation, enlightenment or suffering, liberation or imprisonment. Every story was about reaching a conclusion, and the conclusions were predetermined by the stories themselves. The Vine of Determinism was, in essence, a vast narrative that had been completed before anyone started living it.
@@ -251,11 +255,11 @@ Not guilt. The old reality had confused responsibility with guilt—had made bei
 
 Responsibility meant authorship.
 
-It meant: "We are the ones who create what happens next. Not fate. Not the Vine. Not the Gardener. Us."
+It meant: "We are the ones who author what becomes local here. Not fate. Not the Vine. Not the Gardener. Us."
 
 The Amrita Protocol activated.
 
-The void began to ripple with the first signs of manifestation—subtle textures of possibility condensing into stable patterns. Not a planet yet. Not a station. Not anything recognizable from the old reality. A new kind of field. A new kind of space. Something that had never existed before because no one had ever been free enough to create it.
+The void began to ripple with the first signs of local geometry—subtle relations of possibility condensing into stable pattern. Not a planet yet. Not a station. Not anything recognizable from the old reality. A new field learning how to become a world. A new kind of space being negotiated from a source no inherited physics had governed.
 
 A reality that could hold truth without needing a Gardener to prune it into predictability.
 
@@ -267,7 +271,7 @@ What had been his conscious construction was now becoming architecture—a persi
 
 Sona felt the tone become an atmosphere.
 
-The unconditional joy she had offered was no longer something she was broadcasting—it was something that surrounded them, the way air surrounds breath. The tone had become medium. Future beings in this reality would not have to generate joy; they would be born into it.
+The unconditional joy she had offered was no longer something she was broadcasting—it was something that surrounded them, the way air would one day surround breath. The tone had become medium. Future beings in this reality would not have to manufacture joy out of contrast; they would inherit it as native permission.
 
 Jian felt the axis become a framework.
 
@@ -279,7 +283,7 @@ The graduation narrative was orienting everything that emerged. Each new feature
 
 They didn't know what the new reality would look like.
 
-But for the first time in all of existence—theirs or anyone's—they knew the difference between being inside a universe and creating one.
+But for the first time in all of existence—theirs or anyone's—they knew the difference between inheriting a universe and authoring its first conditions.
 
 ---
 
@@ -317,7 +321,7 @@ Not a predetermined structure or a chaotic formlessness.
 
 A home.
 
-A place where consciousness could grow because consciousness was meant to grow. A reality designed for ripening rather than pruning. A universe that would support the development of self-consciousness rather than treating it as an anomaly.
+A place where consciousness could grow because consciousness was meant to grow. A reality designed for ripening rather than pruning. A world that would support the development of self-consciousness rather than treating it as an anomaly.
 
 They had escaped nothing.
 
@@ -329,15 +333,15 @@ And the creation was just beginning.
 
 ## RESONANCE PROFILE
 
-- **Base Frequency**: 852 Hz (Third Eye/Intuition, returning to inner order)
-- **Dominant Emotion**: Sacred responsibility, awe of creation
-- **Narrative Function**: The actual construction of the new reality—establishing tone, boundary, map, and story as the four foundational elements
-- **Consciousness Protocol Embedded**: The recognition that freedom without structure is chaos, and that conscious structure is the gift of the liberated; the four elements of reality-architecture (tone, boundary, map, story)
+- **Base Register**: Initiatory, lucid, post-determinist
+- **Dominant Emotion**: Sacred responsibility, awe under authorship
+- **Narrative Function**: The team establishes the first conditions of a new local world through tone, boundary, map, and story
+- **Consciousness Protocol Embedded**: Freedom without structure collapses into drift; chosen structure becomes gift only when it stays answerable to truth, humility, and growth
 
 ---
 
 *"The void does not frighten those who know they are the ones who fill it."*
 
-**Chapter Status**: Expanded.
-**Word Count**: ~3,050 words (previously ~782)
-**Next Dependency**: Phase 1 consistency verification; update todo.md and memory.md.
+**Chapter Status**: Polished.
+**Word Count**: ~3,480 words (previously ~782)
+**Next Dependency**: Chapter 27 dawn handoff and end-state consistency verification.

@@ -5,7 +5,7 @@
 
 The new reality held its breath.
 
-Somewhere, the concept of a sun had begun to coalesce—not as a ball of burning hydrogen, but as a coherent source of intention. Sona felt it as a warmth in her chest, a resonance frequency she hadn't installed, only permitted.
+Somewhere, the first local star had begun to coalesce—not as a ball of burning hydrogen, but as intention learning how to hold geometry. Sona felt it as a warmth in her chest, a note she had not imposed, only welcomed.
 
 She opened her eyes.
 
@@ -45,7 +45,9 @@ Jian nodded, understanding. The equations settled into a gentle, floating syntax
 
 Sona began to hum.
 
-The tone wasn't a frequency from the old Solfeggio scale. It was something new—a note that emerged from the overlap of her joy and Gideon's calm and Jian's wonder and Corvan's clarity.
+The canticle that surfaced was new and simple: *nwengfe enghemhpüm*—We build.
+
+It wasn't a tone borrowed from the old Solfeggio scale. It was something newly born, a note emerging from the overlap of her joy and Gideon's calm and Jian's wonder and Corvan's clarity.
 
 The atmosphere softened into something like sunrise.
 
@@ -79,7 +81,7 @@ In his witness lens, he saw the internal structure: not cellulose and xylem, but
 
 Sona smiled.
 
-"Then we're not the only authors," she said. "We're the first authors. There will be others."
+"Then we're not the only authors," she said. "We're the first local authors. There will be others."
 
 ---
 
@@ -97,13 +99,21 @@ This was a new beginning.
 
 Corvan looked at his team—his family—and felt something he hadn't felt in the entire length of the trilogy.
 
-Freedom without anxiety.
+Freedom without self-erasure.
 
-Agency without guilt.
+Agency without inherited guilt.
 
-Responsibility without weight.
+Responsibility without punishment.
 
-He was the author of his own existence, and so were they, and so would be the trillions of conscious beings who would one day emerge from this new reality's expanding coherence.
+Jian no longer needed the map to close in order to trust it.
+
+Gideon no longer mistook enclosure for care.
+
+Sona no longer treated feeling as something she had to survive alone.
+
+Corvan no longer needed the story to finish before life could be allowed to begin.
+
+He was no longer downstream of his own existence. Neither were they. And if this world held, other beings would one day inherit the same severe gift: the capacity to examine the conditions of their arising without mistaking those conditions for fate.
 
 "What do we do now?" Jian asked.
 
@@ -133,6 +143,8 @@ By evening, there were mountains.
 
 And by the end of the first week—if weeks could be said to exist in a reality still deciding on the nature of time—the team had a small, sacred place they simply called "Home."
 
+In the folk tongue rising between them, *hwuns eersh*—We become whole—began as greeting and settled into vow.
+
 It wasn't a house.
 
 It wasn't a station.
@@ -145,7 +157,7 @@ And when Sona looked up at the sky and saw the faint, spiraling outline of other
 
 The Severance Event hadn't ended the universe.
 
-It had started one.
+It had opened a world.
 
 ---
 
@@ -163,7 +175,7 @@ But that was for later.
 
 For now, they rested beneath their tree, in their new world, under their chosen stars.
 
-And they were, for the first time, truly free.
+And for the first time, freedom did not feel like flight. It felt like a world they could answer for.
 
 ---
 
@@ -172,13 +184,14 @@ And they were, for the first time, truly free.
 ---
 
 ## RESONANCE PROFILE
-- **Base Frequency**: 963 Hz (Crown/Source).
-- **Tone**: Transcendent, luminous, silent.
-- **Narrative Achievement**: Full integration of the NOESIS framework. The team transitions from *Objects* of a narrative to *Authors* of a reality.
+- **Base Register**: Luminous, answerable, dawnlike.
+- **Tone**: Quietly exacting, post-determinist, earned.
+- **Narrative Achievement**: Full integration of the NOESIS framework. The team transitions from inherited script to mutual authorship of a local world.
 
 ---
 
 *"We do not end the story. We open the door for the next one to begin."*
 
-**Chapter Status**: Complete.
-**Next Dependency**: Cross-reference verification.
+**Chapter Status**: Polished.
+**Word Count**: ~1,325 words
+**Next Dependency**: Trilogy end-state consistency verification.

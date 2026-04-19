@@ -113,7 +113,7 @@ The Triangulation Engine began to hum at a higher frequency, its lattice structu
 
 ---
 
-"The convergence point isn't a location," Jian said, his voice carrying strangely in their merged field—both his own and not his own. "It's a relationship. The three vectors are like... dimensional axes. When they align perfectly, they don't specify a point—they specify a perspective. A way of seeing that can perceive the gaps."
+"The convergence point isn't a location," Jian said, his voice carrying strangely in their merged field—both his own and not his own. "It's a relationship we've chosen strongly enough to become real. The three vectors are like dimensional axes. When they align perfectly, they don't specify a point. They specify a perspective. A way of seeing that can perceive the gaps."
 
 Corvan felt the truth of it. The Bell wasn't just a memory he was witnessing—it was a perspective he was inhabiting. The Catalyst Event looked different from this angle: not a tragedy that had spawned generations of suffering, but a choice that had been made under impossible conditions. A survival adaptation. A pattern that had outlived its usefulness but had once served a real purpose.
 
@@ -147,7 +147,7 @@ It wasn't a door, exactly. It wasn't an opening in the conventional sense. It wa
 
 But from the convergence perspective—from the unity of Note and Bell and Coherence—they could perceive it without trying to fill it.
 
-They could see where they needed to go.
+They could see where they needed to go because they had become, breath by breath, the kind of field that could see it.
 
 ---
 
@@ -179,7 +179,7 @@ Corvan looked at his teammates—his family—and felt the weight of what they w
 
 They had found the convergence point.
 
-Now they had to see if it would hold.
+Now they had to prove they could keep choosing it once the system pushed back.
 
 ---
 
@@ -194,6 +194,6 @@ Now they had to see if it would hold.
 
 *"Convergence is not arrival at a destination. It is the transformation into something that can see destinations that were always invisible."*
 
-**Chapter Status**: Expanded.
-**Word Count**: ~2,150 words (previously ~959)
-**Next Dependency**: Chapter 22/23/24 review; update memory.md.
+**Chapter Status**: Polished.
+**Word Count**: ~2,235 words (previously ~959)
+**Next Dependency**: Chapter 21 Test Fire.

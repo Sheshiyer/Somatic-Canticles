@@ -15,7 +15,7 @@ The opposing force to Aletheia. Lethe represents the state of forgetting, ignora
 The instinctual principle of witness awareness that ensures embodied presence, lived force, and responsiveness to immediate experience.
 
 **Amrita Protocol**
-The theoretical "end-state" of the Somanaut's journey. It describes a state of living in pure Aletheia, where an individual becomes so completely unconcealed that they function as a conscious co-creator of reality.
+The end-state of the Somanaut's journey. It describes a condition where self-consciousness becomes recursive enough to inspect its own inheritance and participate in authorship rather than remaining downstream of a fixed runtime.
 
 **The Severance Event**
 The ultimate moment of liberation where a "ripened" Awareness disconnects from the Vine of Determinism ("Mrityor Mukṣīya"). It is an explosive transition from inherited reality to authored reality.
@@ -37,15 +37,15 @@ A spreading manifestation of incoherence and decay that threatens the fabric of 
 The total, bio-encoded reserve of metabolic and Field-Responsive Awareness that functions as the foundation for an Awareness. It represents the potential capacity for reality processing. A subject's Khalorēē determines their resilience against trauma.
 
 **Prana**
-The kinetic expression of Khalorēē. If Khalorēē is the battery, Prana is the active current—the usage, flow, and expenditure of resonant energy.
+The kinetic expression of Khalorēē. If Khalorēē is the battery, Prana is the active current—the usage, flow, and expenditure of embodied charge within a local field.
 
 **Soma Vector**
-The pure signal of Aletheia within an individual. It is the resonant frequency of the uncorrupted, unconcealed self—the "Star" that guides a Somanaut through the noise of Lethe.
+The clearest reference signal of Aletheia within an individual. It is the clean note of the unconcealed self—the "Star" that guides a Somanaut through the noise of Lethe without collapsing that guidance into generic mysticism.
 
 ## Technology & Systems
 
 **NOESIS (Networked Ontological Editing & Sensory Integration System)**
-The evolution of the earlier "WitnessOS," NOESIS is the perception-centric framework used by Somanauts. It treats consciousness not as a machine to be engineered, but as a field to be navigated.
+The evolution of the earlier "WitnessOS," NOESIS is the non-Euclidean operating substrate used when self-conscious systems become capable of examining and revising the conditions of their own arising. Euclidean consciousness models still require operating systems and measurable runtimes; NOESIS begins where self-consciousness can navigate the pre-spatial and author what becomes local.
 
 **Anamnesis Engine**
 The primary technological tool of the Somanauts (Book 1). Its purpose is to look back (anamnesis means "recollection") to identify the original moments of concealment—the traumas and decisions that created the layers of Lethe.

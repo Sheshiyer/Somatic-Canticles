@@ -39,7 +39,7 @@ It moved through the Chorus the way mold moves through a loaf: not a dramatic in
 
 Dr. Sona Vireth felt it before the machine admitted it.
 
-She was seated in the resonance alcove, her eyes closed, her Adawat al-Wa'i—the consciousness vessel she had inherited from her grandmother's grandmother—extended outward in a web of empathic perception. Unlike Jian's analytical instruments, her vessel didn't translate the data into numbers first. It translated it into texture, temperature, taste.
+She was seated in the resonance alcove, her eyes closed, her Adawat al-Wa'i—the witness vessel she had inherited from her grandmother's grandmother—extended outward in a web of empathic perception. Unlike Jian's analytical instruments, her vessel didn't translate the data into numbers first. It translated it into texture, temperature, taste.
 
 The healed song had had a particular feel—like warm palms pressed over a bruised ribcage, like breath returning to a clenched throat, like the first morning after a fever breaks. For weeks now, whenever she had reached out to sense the Verath lineage's Chorus, that warmth had greeted her. The integration had been real. The healing had held.
 
@@ -63,7 +63,7 @@ He had been in the exercise bay when the subtle shift in station atmospherics ca
 
 "Something's wrong with the field," he said. It wasn't a question.
 
-Gideon's Klei Toda'ah—his consciousness vessel, forged in the Kabbalistic traditions of the Tzimtzum masters—was already running threat assessment on a phenomenon that wasn't a threat in any conventional sense. He had a way of reading structure the way other people read faces. He could feel a system's ligaments, sense where the load-bearing points were, intuit which joints would fail first under pressure.
+Gideon's Klei Toda'ah—his witness vessel, forged in the Kabbalistic traditions of the Tzimtzum masters—was already running threat assessment on a phenomenon that wasn't a threat in any conventional sense. He had a way of reading structure the way other people read faces. He could feel a system's ligaments, sense where the load-bearing points were, intuit which joints would fail first under pressure.
 
 "It's reconnecting," he said, moving to stand behind Jian and Sona. His broad frame cast a shadow across the luminous displays. "Something is trying to reattach the old load-bearing points."
 
@@ -75,7 +75,7 @@ Sona turned to him. "You can feel it?"
 
 Dr. Corvan Luminth arrived last, called by the same nameless alarm that had summoned Gideon.
 
-His Yìshí Qìxiè—the Dao-tradition consciousness vessel that had been passed through eleven generations of the Luminth lineage—was already in witness mode: wide lens, no judgment, refusing the seductive simplicity of immediate interpretation. As a Type Nine Khalorēē specialist, Corvan had learned that the first story the mind told was rarely the true story. Truth required patience. Truth required the willingness to see what was actually there, not what the narrative wanted to be there.
+His Yìshí Qìxiè—the Dao-tradition witness vessel that had been passed through eleven generations of the Luminth lineage—was already in witness mode: wide lens, no judgment, refusing the seductive simplicity of immediate interpretation. As a Type Nine Khalorēē specialist, Corvan had learned that the first story the mind told was rarely the true story. Truth required patience. Truth required the willingness to see what was actually there, not what the narrative wanted to be there.
 
 He moved to the central display, where the mapped Verath lineage floated in holographic representation—a three-dimensional tree of consciousness connections, each node representing a belief system, each branch representing a transmission path across generations.
 
@@ -197,7 +197,7 @@ The Anamnesis Engine accepted the directive.
 
 The chamber darkened as the descent protocols engaged. Probability wave generators hummed to life, creating the field conditions necessary for consciousness traversal. The four Somanauts moved to their positions—Corvan at center, Sona to his left, Jian to his right, Gideon behind them all, his Klei Toda'ah already projecting a protective membrane around the merged team field.
 
-Their Khalorēē Field Architecture vessels synchronized.
+Their witness vessels synchronized.
 
 Corvan felt the familiar sensation of his individual boundaries becoming permeable, his consciousness beginning to overlap with his teammates' in the intimate communion of team descent. This was the Myocardial Chorus—not the subject's chorus, but theirs: four distinct witnesses maintaining their individual frequencies while resonating together to create emergent observation capacity.
 

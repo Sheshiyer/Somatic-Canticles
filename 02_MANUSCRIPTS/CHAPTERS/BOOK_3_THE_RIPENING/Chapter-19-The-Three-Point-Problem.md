@@ -19,7 +19,7 @@ Jian stood inside the Anamnesis Engine's active field, surrounded by his teammat
 
 The nascent Triangulation Engine hovered in the air before them like a thought given structure.
 
-It was beautiful in its incompleteness: a mesh of possibility, a geometry that refused to settle into a single shape until the team's Khalorēē Field Architecture agreed on what it was trying to become. The edges flickered between definitions. The nodes pulsed with potential. The whole thing breathed with the uncertainty of something that had not yet chosen what to be.
+It was beautiful in its incompleteness: a mesh of possibility, a geometry that refused to settle into a single shape until the team's Khalorēē field agreed on what it was trying to become. The edges flickered between definitions. The nodes pulsed with potential. The whole thing breathed with the uncertainty of something that had not yet chosen what to be.
 
 "We need a lock," Jian said, his analytical focus sharpening into the problem like a scalpel approaching flesh. His Manas Interface mapped the field in continuous pulses, generating real-time data on the topology of possibility before them. "Not a plan. A lock. Something that holds even when the system pushes. Something the Gardener can't prune because it doesn't register as an anomaly."
 
@@ -187,6 +187,8 @@ Sona looked at him, understanding in her eyes before words.
 
 The distinction was devastating to his Type Five orientation. Navigation was his specialty. Mapping was his gift. He could find anything in consciousness space if it had coordinates. But these vectors didn't have coordinates—they had *conditions*.
 
+Corvan felt the turn immediately. The problem had crossed the line from navigation into authorship.
+
 Sona smiled, the expression gentle but unwavering.
 
 "So stop trying to find them," she said. "Start trying to become them."
@@ -241,7 +243,7 @@ The admission surprised him as it left his mouth. Puzzle-solving was his orienta
 
 Corvan's witness field touched his words without consuming them, without rushing to interpretation.
 
-"We're preparing for a state change," Corvan said. "A ripening."
+"We're preparing for a state change," Corvan said. "A ripening. Not waiting for reality to grant a door, but becoming the kind of truth it has to open around."
 
 The word had acquired new meaning since Sona had first spoken it. Ripening wasn't achievement. Ripening wasn't effort. Ripening was the natural conclusion of a process that had been moving toward completion all along.
 
@@ -259,7 +261,7 @@ The lattice brightened in response to her words, as if the architecture itself h
 
 The Three-Point Problem was no longer a calculation.
 
-It was a vow.
+It was a vow to become more authored than inherited.
 
 ---
 
@@ -274,6 +276,6 @@ It was a vow.
 
 *"The gap cannot be found. It can only be revealed by the alignment of three truths."*
 
-**Chapter Status**: Expanded.
-**Word Count**: ~2,980 words (previously ~962)
-**Next Dependency**: Chapter 21 expansion.
+**Chapter Status**: Polished.
+**Word Count**: ~3,300 words (previously ~962)
+**Next Dependency**: Chapter 20 convergence and Chapter 21 Test Fire handoff.

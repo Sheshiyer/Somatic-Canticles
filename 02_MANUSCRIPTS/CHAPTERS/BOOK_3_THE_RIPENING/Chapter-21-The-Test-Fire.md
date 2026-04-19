@@ -181,7 +181,7 @@ Aletheia moved through the chamber.
 
 The unconcealed essence. The truth that exists before interpretation covers it over. The raw architecture of reality, stripped of the stories that reality tells about itself.
 
-Sona gasped as a wave of pure clarity flashed through their merged Khalorēē Field Architecture.
+Sona gasped as a wave of pure clarity flashed through their merged Khalorēē field.
 
 It stripped away every subtle compromise they had learned to tolerate. Every small lie they told themselves to get through the day. Every accommodation they'd made with patterns that limited them. The Aletheia wave revealed them to themselves with perfect, merciless precision.
 
@@ -229,7 +229,7 @@ The Triangulation Engine's lattice dimmed, then flared—alarm patterns rippling
 
 "Abort," Jian said, and his hands were already moving, already aborting.
 
-The Engine cut power. The vectorindicators collapsed from their triangulated positions. The brilliant lattice faded to its resting glow.
+The Engine cut power. The vector indicators collapsed from their triangulated positions. The brilliant lattice faded to its resting glow.
 
 The Aletheia wave collapsed.
 
@@ -289,6 +289,12 @@ Which meant the real procedure could no longer be theoretical.
 
 They had perhaps twelve hours before the maintenance systems reconfigured the Vine to close the gaps they'd identified. Twelve hours to prepare for a full Severance attempt. Twelve hours to become ready for something no one in the history of the Galactic Federation had ever accomplished.
 
+And Gideon, who had built his life around stopping danger before it crossed the threshold, understood with a clarity that felt almost cruel what Book 3 was demanding of him.
+
+Protection would matter.
+
+But now protection had to learn how to permit.
+
 The team exchanged glances that required no words.
 
 They had found the door.
@@ -308,6 +314,6 @@ Now they had to walk through it before someone—something—bricked it over.
 
 *"The flare that proves the door is real also summons the one who guards it."*
 
-**Chapter Status**: Expanded.
-**Word Count**: ~2,850 words (previously ~665)
-**Next Dependency**: Chapter 25 expansion.
+**Chapter Status**: Polished.
+**Word Count**: ~2,980 words (previously ~665)
+**Next Dependency**: Chapter 22-23 temptation and flaw sequence.

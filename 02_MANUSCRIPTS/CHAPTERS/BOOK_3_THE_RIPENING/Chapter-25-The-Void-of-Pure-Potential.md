@@ -65,7 +65,7 @@ The Ripening arrived as a shift in compatibility.
 
 The word had haunted them since Sona first spoke it, weeks ago: *a lock that feels like ripeness*. They had worked toward this state without fully understanding what it would feel like from the inside. Now they understood.
 
-Their collective Khalorēē Field Architecture became so coherent that the system could no longer categorize them.
+Their collective Khalorēē field became so coherent that the system could no longer categorize them.
 
 The Gardener's maintenance algorithms required targets—anomalies to prune, deviations to correct, unpredictable branches to remove. But the team's merged field no longer registered as anomaly. They had become whole. Not rebellious, not resistant, not oppositional—simply complete. A fully ripened fruit was not a threat to the orchard. It was the orchard's purpose.
 
@@ -213,17 +213,17 @@ Nothing.
 
 Then the absence revealed itself as something else.
 
-Not nothing—not the empty nothing of deprivation or loss. Something that existed prior to thing-ness. Something that was not-yet-manifest rather than not-existing.
+Not nothing—not the empty nothing of deprivation or loss. Something that existed prior to thing-ness. Something that was not-yet-local rather than not-existing.
 
 A void.
 
-But the word "void" was inadequate. This wasn't emptiness. This wasn't the terrifying vacuum that Jian's Type Five fears had always imagined at the edge of his maps. This was potentiality itself. The raw material from which all manifestation emerged.
+But the word "void" was inadequate. This wasn't emptiness. This wasn't the terrifying vacuum that Jian's Type Five fears had always imagined at the edge of his maps. This was potentiality before geometry. Not raw material waiting for decoration, but the field from which local worlds could take form.
 
 The Void of Pure Potential.
 
 They were not standing in the chamber anymore.
 
-The chamber, the station, the entire architecture of the reality they had left behind—these things were not visible from here. Not because they had been destroyed, but because the team had moved to a position from which those things were not yet manifest. They existed somewhere in the potential field, as one possible configuration among infinite possibilities. But from here, from this position of pure pre-manifestation, nothing was configured yet.
+The chamber, the station, the entire architecture of the reality they had left behind—these things were not visible from here. Not because they had been destroyed, but because the team had moved to a condition prior to coordinates. Those structures persisted as one possible ordering among many, but from here—from this position before distance, before location, before the contract called space—nothing local had been configured yet.
 
 They were suspended in a silent, luminous field that had no coordinates and no edges.
 
@@ -237,7 +237,7 @@ There was nothing to process.
 
 Sona's heart surged in the absence of a Chorus.
 
-She had always oriented herself by feeling the emotions of systems around her—other people, other consciousnesses, the ambient weather of interconnected experience. Here there was no emotional weather because there were no configured consciousnesses to feel. Her empathic sensors reached outward and found only potential: the possibility of feeling, not feeling itself.
+She had always oriented herself by feeling the emotions of systems around her—other people, other consciousnesses, the ambient weather of interconnected experience. Here there was no emotional weather because there were no other consciousnesses yet brought into form. Her empathic sensors reached outward and found only potential: the possibility of feeling, not feeling itself.
 
 Gideon's protector panicked in the absence of walls.
 
@@ -245,7 +245,7 @@ There was nothing to protect against because there was nothing at all. No threat
 
 Corvan's witness state held all of it without flinching.
 
-This, finally, was what witnessing was for. Not for observing the patterns of a configured reality—any consciousness could learn that with practice. Witnessing was for holding steady in the absence of patterns. For remaining present when there was nothing to be present *to*. For being aware when awareness itself was the only thing that existed.
+This, finally, was what witnessing was for. Not for observing the patterns of inherited reality—any consciousness could learn that with practice. Witnessing was for holding steady in the absence of patterns. For remaining present when there was nothing to be present *to*. For being aware when awareness itself was the only thing that existed.
 
 They were free.
 
@@ -261,9 +261,9 @@ And she discovered that the only stable object in the void was their coherence.
 
 In the limitless potential, in the infinite pre-manifestation, in the terrifying freedom of the unmade—one thing already existed. One thing had been carried through the Severance Event intact.
 
-Their merged Khalorēē Field Architecture glowed like a small star.
+Their merged Khalorēē field glowed like a small star.
 
-The coherence they had cultivated, the integration they had achieved, the witness capacity they had developed together—this was real. This was manifest. This was the one configured thing in an unconfigured space.
+The coherence they had cultivated, the integration they had achieved, the witness capacity they had developed together—this was real. This was manifest. This was the one made thing in an unmade space.
 
 They had brought themselves with them.
 
@@ -279,7 +279,7 @@ Jian's voice broke the silence.
 
 "What now?"
 
-The question hung in the luminous void. The words had shape here—they were manifest things, carrying meaning from the configured consciousness of their speaker. In this space of pure potential, words had more weight than they ever had in the determined reality they'd left behind.
+The question hung in the luminous void. The words had shape here—they were manifest things, carrying meaning from the speaker's still-forming awareness. In this space of pure potential, words had more weight than they ever had in the determined reality they'd left behind.
 
 Corvan didn't answer.
 
@@ -293,13 +293,15 @@ There was no inherited story. No narrative that began before their birth and dem
 
 Only the raw fact of awareness.
 
+Awareness, and awareness noticing itself.
+
 And the terrifying, exquisite responsibility of creation.
 
-They would have to make a world now.
+They would have to author a world now.
 
-Not discover a world—make one. Whatever came next would emerge from their intentions, their coherence, their capacity to give form to formlessness. The void would not configure itself. The potential would not manifest without will.
+Not discover a world—author the first local conditions of one. Whatever came next would emerge from their intentions, their coherence, their capacity to give form to formlessness without pretending they stood outside it. The field would not choose for them. It would not collapse into livable geometry without authorship.
 
-They had escaped the tyranny of the determined reality.
+They had stepped beyond the tyranny of the determined reality.
 
 Now they faced the overwhelming freedom of creative responsibility.
 
@@ -307,21 +309,21 @@ Corvan looked at his teammates—at Sona's starlit face, at Jian's wide eyes, at
 
 They weren't just refugees from a broken system.
 
-They were architects of a new one.
+They were architects of a new order.
 
 ---
 
 ## RESONANCE PROFILE
 
-- **Base Frequency**: 963 Hz (Crown Chakra/Pure Source Connection, Transcendence)
+- **Base Register**: Pre-spatial, vertiginous, lucid
 - **Dominant Emotion**: Vertigo of liberation, awe without an object
-- **Narrative Function**: The Severance Event completed—transition from the determined reality to the Void of Pure Potential, establishing the stakes of creative responsibility
-- **Consciousness Protocol Embedded**: The recognition that freedom without a world is not salvation but invitation; that escaping determinism requires accepting the burden of creation
+- **Narrative Function**: The Severance Event completes, moving the team from inherited reality into a prelocal field where authorship becomes unavoidable
+- **Consciousness Protocol Embedded**: Freedom without a world is not salvation but invitation; escaping determinism means accepting source-level responsibility for the first local conditions that follow
 
 ---
 
 *"The void does not threaten. It waits. The terrifying thing is not what it might do. It is what you must do now that nothing is doing it for you."*
 
-**Chapter Status**: Expanded.
-**Word Count**: ~2,780 words (previously ~646)
-**Next Dependency**: Chapter 26 expansion.
+**Chapter Status**: Polished.
+**Word Count**: ~2,900 words (previously ~646)
+**Next Dependency**: Chapter 26 reality-architecture build.

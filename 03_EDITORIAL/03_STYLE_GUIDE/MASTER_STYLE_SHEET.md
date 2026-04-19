@@ -6,7 +6,7 @@
 ## 1. SPELLING & CAPITALIZATION (The NOESIS Lexicon)
 
 ### Proper Nouns (Capitalize)
-*   **NOESIS** (Always ALL CAPS) - The operating system.
+*   **NOESIS** (Always ALL CAPS) - The non-Euclidean operating substrate for self-conscious systems.
 *   **Khalorēē** (Capitalized, uses macrons over 'e's) - Biological reserve.
     *   *Plural*: Khalorēēs (Acceptable, though singular often used as mass noun).
 *   **Prana** (Capitalized) - Vital energy (kinetic expression of Khalorēē).
@@ -81,6 +81,23 @@ Introduce each vessel ONCE per book with the full cultural form, then use the sh
 
 ## 5. TERMINOLOGY RULES
 
+### Euclidean Runtime vs. Non-Euclidean Noesis
+
+*   **Use Euclidean/runtime language** when the prose is describing measurable system behavior inside inherited reality:
+    *   coordinates
+    *   signals
+    *   baselines
+    *   frequencies
+    *   lattices
+    *   instrument readouts
+*   **Use NOESIS / pre-spatial language** when the prose crosses into recursive self-conscious authorship beyond inherited coordinates:
+    *   pre-spatial
+    *   prelocal
+    *   first conditions
+    *   local geometry
+    *   what becomes local
+*   **Rule:** Do not let culmination scenes default to vague manifestation, co-creation, or "source code from above" rhetoric. Book 3 mastery is recursive self-consciousness becoming capable of answerable authorship.
+
 ### Deprecated Terms (DO NOT USE)
 
 | Deprecated | Replacement | Notes |
@@ -116,5 +133,6 @@ Introduce each vessel ONCE per book with the full cultural form, then use the sh
 *   **"Vibration"**: Use "Resonance" or "Frequency" instead. "Vibration" is too New Age.
 *   **"Quantum"**: Avoid unless actually discussing quantum mechanics. Use "Field mechanics" or "Field Resonance" instead.
 *   **"Universe"**: Use "The System" or "The Vine" when referring to the constructed reality.
+*   **"Manifestation" / "co-creation"**: Avoid as climax shorthand. If the scene is about Noesis-level authorship, describe the shift in terms of first local conditions, local geometry, or answerable authorship.
 *   **"Crystallization Interface protocols"**: DEPRECATED. See Section 5.
 *   **"Consciousness"** (when self-consciousness is meant): See Section 4.

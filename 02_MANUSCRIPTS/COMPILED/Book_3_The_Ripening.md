@@ -2345,17 +2345,17 @@ Nothing.
 
 Then the absence revealed itself as something else.
 
-Not nothing—not the empty nothing of deprivation or loss. Something that existed prior to thing-ness. Something that was not-yet-manifest rather than not-existing.
+Not nothing—not the empty nothing of deprivation or loss. Something that existed prior to thing-ness. Something that was not-yet-local rather than not-existing.
 
 A *Void*.
 
-But the word "*Void*" was inadequate. This wasn't emptiness. This wasn't the terrifying vacuum that Jian's Type Five fears had always imagined at the edge of his maps. This was potentiality itself. The raw material from which all manifestation emerged.
+But the word "*Void*" was inadequate. This wasn't emptiness. This wasn't the terrifying vacuum that Jian's Type Five fears had always imagined at the edge of his maps. This was potentiality before geometry. Not raw material waiting for decoration, but the field from which local worlds could take form.
 
 The Void of Pure Potential.
 
 They were not standing in the chamber anymore.
 
-The chamber, the station, the entire architecture of the reality they had left behind—these things were not visible from here. Not because they had been destroyed, but because the team had moved to a position from which those things were not yet manifest. They existed somewhere in the potential field, as one possible configuration among infinite possibilities. But from here, from this position of pure pre-manifestation, nothing was configured yet.
+The chamber, the station, the entire architecture of the reality they had left behind—these things were not visible from here. Not because they had been destroyed, but because the team had moved to a condition prior to coordinates. Those structures persisted as one possible ordering among many, but from here—from this position before distance, before location, before the contract called space—nothing local had been configured yet.
 
 They were suspended in a silent, luminous field that had no coordinates and no edges.
 
@@ -2395,7 +2395,7 @@ In the limitless potential, in the infinite pre-manifestation, in the terrifying
 
 Their merged Khalorēē field glowed like a small star.
 
-The coherence they had cultivated, the integration they had achieved, the witness capacity they had developed together—this was real. This was manifest. This was the one configured thing in an unconfigured space.
+The coherence they had cultivated, the integration they had achieved, the witness capacity they had developed together—this was real. This was manifest. This was the one made thing in an unmade space.
 
 They had brought themselves with them.
 
@@ -2425,11 +2425,13 @@ There was no inherited story. No narrative that began before their birth and dem
 
 Only the raw fact of awareness.
 
+Awareness, and awareness noticing itself.
+
 And the terrifying, exquisite responsibility of creation.
 
-They would have to make a world now.
+They would have to author a world now.
 
-Not discover a world—make one. Whatever came next would emerge from their intentions, their coherence, their capacity to give form to formlessness. The *Void* would not configure itself. The potential would not manifest without will.
+Not discover a world—author the first local conditions of one. Whatever came next would emerge from their intentions, their coherence, their capacity to give form to formlessness without pretending they stood outside it. The field would not choose for them. It would not collapse into livable geometry without authorship.
 
 They had escaped the tyranny of the determined reality.
 
@@ -2439,24 +2441,24 @@ Corvan looked at his teammates—at Sona's starlit face, at Jian's wide eyes, at
 
 They weren't just refugees from a broken system.
 
-They were architects of a new one.
+They were architects of a new order.
 
 ---
 
 ## RESONANCE PROFILE
 
-- **Base Frequency**: 963 Hz (Crown Chakra/Pure Source Connection, Transcendence)
+- **Base Register**: Pre-spatial, vertiginous, lucid
 - **Dominant Emotion**: Vertigo of liberation, awe without an object
-- **Narrative Function**: The Severance Event completed—transition from the determined reality to the Void of Pure Potential, establishing the stakes of creative responsibility
-- **Consciousness Protocol Embedded**: The recognition that freedom without a world is not salvation but invitation; that escaping determinism requires accepting the burden of creation
+- **Narrative Function**: The Severance Event completes, moving the team from inherited reality into a prelocal field where authorship becomes unavoidable
+- **Consciousness Protocol Embedded**: Freedom without a world is not salvation but invitation; escaping determinism means accepting the burden of writing the first local conditions
 
 ---
 
 *"The void does not threaten. It waits. The terrifying thing is not what it might do. It is what you must do now that nothing is doing it for you."*
 
-**Chapter Status**: Expanded.
-**Word Count**: ~2,780 words (previously ~646)
-**Next Dependency**: Chapter 26 expansion.
+**Chapter Status**: Polished.
+**Word Count**: ~2,900 words
+**Next Dependency**: Chapter 26 end-state calibration.
 # Chapter 26: The Architecture of New Reality
 *The First Day of Creation*
 
@@ -2552,7 +2554,7 @@ Corvan nodded.
 
 Sona's eyes closed as she sensed the *Void's* texture.
 
-"And we need a tone," she said. "A frequency that decides what kind of universe this will be. Before we create forms, we need to establish the emotional palette. The resonance that all forms will vibrate within."
+"And we need a tone," she said. "A first note that decides what kind of world can gather here. Before we create forms, we need an emotional grammar. A quality of relation every later form will inherit."
 
 Jian stared into the luminous emptiness. The old phrase rose unbidden, no longer a command but a promise: *"nwengfe enghemhpüm"*—We build.
 
@@ -2576,7 +2578,7 @@ Their new reality would value differently.
 
 The *Void* responded the way silence responds to a bell: by revealing that it was never empty.
 
-The resonance of their agreement rippled outward. The potential field—that luminous, pre-manifest expanse—received their commitment as a kind of seed. The first principle of their new creation had been planted.
+The resonance of their agreement rippled outward. The pre-spatial field—that luminous expanse prior to local form—received their commitment as a kind of seed. The first principle of their new creation had been planted.
 
 Potential thickened.
 
@@ -2586,7 +2588,7 @@ Not into form—not yet. But the potential became *directional*. It acquired rec
 
 Sona offered the tone first.
 
-She let her Adawat al-Wa'i expand into the thickening potential, broadcasting a frequency that her empathic nature had always known but never been free to fully express. Not the Note from grandmother Verath's memory—that had been an anchor, a target, a reference point for the triangulation. This was the Note as orientation. The Note as creative seed rather than archaeological artifact.
+She let her Adawat al-Wa'i expand into the thickening field, offering a note that her empathic nature had always known but had never been free to establish as law. Not the Note from grandmother Verath's memory—that had been an anchor, a target, a reference point for the triangulation. This was the Note as orientation. The Note as first condition rather than recovered artifact.
 
 She let joy exist without needing an opposite.
 
@@ -2606,7 +2608,7 @@ Joy that required nothing to generate it and nothing to sustain it. Joy that exi
 
 The field brightened.
 
-The potential accepted Sona's offering and organized itself around the tone she had established. Whatever forms emerged in this new reality would vibrate with unconditional joy as their ground frequency. Suffering might still be possible—they weren't building a reality where pain couldn't happen—but suffering would not be structural. It would not be required.
+The potential accepted Sona's offering and organized itself around the tone she had established. Whatever forms emerged in this new reality would inherit unconditional joy as one of their first conditions. Difficulty might still be possible—they weren't building a reality where pain could never happen—but suffering would not be structural. It would not be required.
 
 ---
 
@@ -2710,11 +2712,11 @@ Not guilt. The old reality had confused responsibility with guilt—had made bei
 
 Responsibility meant authorship.
 
-It meant: "We are the ones who create what happens next. Not fate. Not the Vine. Not the Gardener. Us."
+It meant: "We are the ones who author what becomes local here. Not fate. Not the Vine. Not the Gardener. Us."
 
 The Amrita Protocol activated.
 
-The *Void* began to ripple with the first signs of manifestation—subtle textures of possibility condensing into stable patterns. Not a planet yet. Not a station. Not anything recognizable from the old reality. A new kind of field. A new kind of space. Something that had never existed before because no one had ever been free enough to create it.
+The *Void* began to ripple with the first signs of local geometry—subtle relations of possibility condensing into stable pattern. Not a planet yet. Not a station. Not anything recognizable from the old reality. A new field learning how to become a world. A new kind of space being negotiated from a source no inherited physics had governed.
 
 A reality that could hold truth without needing a Gardener to prune it into predictability.
 
@@ -2738,7 +2740,7 @@ The graduation narrative was orienting everything that emerged. Each new feature
 
 They didn't know what the new reality would look like.
 
-But for the first time in all of existence—theirs or anyone's—the difference between being inside a universe and creating one became clear.
+But for the first time in all of existence—theirs or anyone's—they knew the difference between inheriting a universe and authoring its first conditions.
 
 ---
 
@@ -2776,7 +2778,7 @@ Not a predetermined structure or a chaotic formlessness.
 
 A home.
 
-A place where consciousness could grow because consciousness was meant to grow. A reality designed for ripening rather than pruning. A universe that would support the development of self-consciousness rather than treating it as an anomaly.
+A place where consciousness could grow because consciousness was meant to grow. A reality designed for ripening rather than pruning. A world that would support the development of self-consciousness rather than treating it as an anomaly.
 
 They had escaped nothing.
 
@@ -2788,18 +2790,18 @@ And the creation was just beginning.
 
 ## RESONANCE PROFILE
 
-- **Base Frequency**: 852 Hz (Third Eye/Intuition, returning to inner order)
-- **Dominant Emotion**: Sacred responsibility, awe of creation
-- **Narrative Function**: The actual construction of the new reality—establishing tone, boundary, map, and story as the four foundational elements
-- **Consciousness Protocol Embedded**: The recognition that freedom without structure is chaos, and that conscious structure is the gift of the liberated; the four elements of reality-architecture (tone, boundary, map, story)
+- **Base Register**: Initiatory, lucid, post-determinist
+- **Dominant Emotion**: Sacred responsibility, awe under authorship
+- **Narrative Function**: The team establishes the first conditions of a new local world through tone, boundary, map, and story
+- **Consciousness Protocol Embedded**: Freedom without structure collapses into drift; chosen structure becomes gift only when it stays answerable to truth, humility, and growth
 
 ---
 
 *"The void does not frighten those who know they are the ones who fill it."*
 
-**Chapter Status**: Expanded.
-**Word Count**: ~3,050 words (previously ~782)
-**Next Dependency**: Phase 1 consistency verification; update todo.md and memory.md.
+**Chapter Status**: Polished.
+**Word Count**: ~3,480 words (previously ~782)
+**Next Dependency**: Chapter 27 dawn handoff and end-state consistency verification.
 # Chapter 27: The New Beginning
 *The First Note of the Uncorrupted Song*
 
@@ -2807,7 +2809,7 @@ And the creation was just beginning.
 
 The new reality held its breath.
 
-Somewhere, the concept of a sun had begun to coalesce—not as a ball of burning hydrogen, but as a coherent source of intention. Sona felt it as a warmth in her chest, a resonance frequency she hadn't installed, only permitted.
+Somewhere, the first local star had begun to coalesce—not as a ball of burning hydrogen, but as intention learning how to hold geometry. Sona felt it as a warmth in her chest, a note she had not imposed, only welcomed.
 
 She opened her eyes.
 
@@ -2849,7 +2851,7 @@ Sona began to hum.
 
 The canticle that surfaced was new and simple: "nwengfe enghemhpüm"—We build.
 
-The tone wasn't a frequency from the old Solfeggio scale. It was something new—a note that emerged from the overlap of her joy and Gideon's calm and Jian's wonder and Corvan's clarity.
+It wasn't a tone borrowed from the old Solfeggio scale. It was something newly born, a note emerging from the overlap of her joy and Gideon's calm and Jian's wonder and Corvan's clarity.
 
 The atmosphere softened into something like sunrise.
 
@@ -2885,7 +2887,7 @@ In his witness lens, he observed the internal structure: not cellulose and xylem
 
 Sona smiled.
 
-"Then we're not the only authors," she said. "We're the first authors. There will be others."
+"Then we're not the only authors," she said. "We're the first local authors. There will be others."
 
 ---
 
@@ -2903,13 +2905,13 @@ This was a new beginning.
 
 Corvan looked at his team—his family—and felt something he hadn't felt in the entire length of the trilogy.
 
-Freedom without anxiety.
+Freedom without self-erasure.
 
-Agency without guilt.
+Agency without inherited guilt.
 
-Responsibility without weight.
+Responsibility without punishment.
 
-He was the author of his own existence, and so were they, and so would be the trillions of conscious beings who would one day emerge from this new reality's expanding coherence.
+He was no longer downstream of his own existence. Neither were they. And if this world held, other beings would one day inherit the same severe gift: the capacity to examine the conditions of their arising without mistaking those conditions for fate.
 
 "What do we do now?" Jian asked.
 
@@ -2953,7 +2955,7 @@ And when Sona looked up at the sky and witnessed the faint, spiraling outline of
 
 The Severance Event hadn't ended the universe.
 
-It had started one.
+It had opened a world.
 
 ---
 
@@ -2971,7 +2973,7 @@ But that was for later.
 
 For now, they rested beneath their tree, in their new world, under their chosen stars.
 
-And they were, for the first time, truly free.
+And for the first time, freedom did not feel like flight. It felt like a world they could answer for.
 
 ---
 
@@ -2980,13 +2982,14 @@ And they were, for the first time, truly free.
 ---
 
 ## RESONANCE PROFILE
-- **Base Frequency**: 963 Hz (Crown/Source).
-- **Tone**: Transcendent, luminous, silent.
-- **Narrative Achievement**: Full integration of the NOESIS framework. The team transitions from *Objects* of a narrative to *Authors* of a reality.
+- **Base Register**: Luminous, answerable, dawnlike.
+- **Tone**: Quietly exacting, post-determinist, earned.
+- **Narrative Achievement**: Full integration of the NOESIS framework. The team transitions from inherited script to mutual authorship of a local world.
 
 ---
 
 *"We do not end the story. We open the door for the next one to begin."*
 
-**Chapter Status**: Complete.
-**Next Dependency**: Cross-reference verification.
+**Chapter Status**: Polished.
+**Word Count**: ~1,325 words
+**Next Dependency**: Trilogy end-state consistency verification.

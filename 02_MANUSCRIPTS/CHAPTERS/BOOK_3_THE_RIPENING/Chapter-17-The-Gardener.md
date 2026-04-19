@@ -109,7 +109,7 @@ The distinction was devastating. They had come thinking they would locate and co
 
 Gideon raised his protective field instinctively.
 
-The Klei Toda'ah responded to his will, projecting a shield of kinetic integrity around their merged Khalorēē Field Architecture. The membrane was dense, stable, born from generations of Tzimtzum mastery—the art of sacred contraction, of creating a protected space within the infinite by establishing clear boundaries.
+The Klei Toda'ah responded to his will, projecting a shield of kinetic integrity around their merged Khalorēē field. The membrane was dense, stable, born from generations of Tzimtzum mastery—the art of sacred contraction, of creating a protected space within the infinite by establishing clear boundaries.
 
 The shield held for one breath.
 
@@ -219,7 +219,7 @@ The Vine's old pathways brightened, their recursive loops humming with renewed s
 
 They surfaced in the Anamnesis Engine chamber gasping.
 
-The transition back was rough—rougher than any they'd experienced before. Their consciousness vessels were out of phase for the first time in months, their individual frequencies failing to harmonize properly with each other or with the station's ambient field.
+The transition back was rough—rougher than any they'd experienced before. Their witness vessels were out of phase for the first time in months, their individual frequencies failing to harmonize properly with each other or with the station's ambient field.
 
 The room's lights were too bright. The air felt too thin. The separation between their individual selves felt too abrupt, too isolating.
 
