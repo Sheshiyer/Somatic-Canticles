@@ -1,21 +1,16 @@
 ---
+import { getCollection } from 'astro:content';
 import type { ImageMetadata } from 'astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { assetFamilyMeta, assetFamilyOrder, orderDocs } from '../data/wiki';
+
+const docs = orderDocs(await getCollection('docs'));
+const docsBySlug = new Map(docs.map((doc) => [doc.slug, doc]));
 
 const imageModules = import.meta.glob<{ default: ImageMetadata }>(
   '../images/**/*.{webp,png,jpg,jpeg,avif}',
   { eager: true }
 );
-
-const labelMap: Record<string, string> = {
-  'brand-kit': 'Brand Kit',
-  covers: 'Book Covers',
-  logos: 'Logo System',
-  anatomy: 'Anatomy Diagrams',
-  arcana: 'Arcana Studies',
-};
-
-const order = ['brand-kit', 'covers', 'logos', 'anatomy', 'arcana'];
 
 const atlas = Object.entries(imageModules)
   .map(([path, module]) => {
@@ -38,11 +33,11 @@ const atlas = Object.entries(imageModules)
   })
   .filter((entry) => entry.filename !== 'README');
 
-const grouped = order
-  .map((category) => ({
-    category,
-    label: labelMap[category] ?? category,
-    items: atlas.filter((entry) => entry.category === category),
+const grouped = assetFamilyOrder
+  .map((family) => ({
+    meta: assetFamilyMeta[family],
+    items: atlas.filter((entry) => entry.category === family),
+    docs: assetFamilyMeta[family].relatedDocs.map((slug) => docsBySlug.get(slug)).filter(Boolean),
   }))
   .filter((group) => group.items.length > 0);
 
@@ -67,13 +62,49 @@ const totalAssets = atlas.length;
           <span class="stat-chip">Source-mapped from project visuals</span>
         </div>
       </div>
+
+      <div class="atlas-hero__jump-grid">
+        {grouped.map((group) => (
+          <a href={`#${group.meta.id}`} class="atlas-jump-card">
+            <span class="atlas-jump-card__count">{group.items.length} assets</span>
+            <strong>{group.meta.label}</strong>
+            <span>{group.meta.kicker}</span>
+          </a>
+        ))}
+      </div>
     </section>
 
     {grouped.map((group) => (
-      <section class="section-block atlas-section">
+      <section id={group.meta.id} class="section-block atlas-section">
         <div class="section-heading">
-          <p class="section-heading__eyebrow">{group.items.length} assets</p>
-          <h2>{group.label}</h2>
+          <p class="section-heading__eyebrow">{group.items.length} assets · {group.meta.kicker}</p>
+          <h2>{group.meta.label}</h2>
+          <p>{group.meta.description}</p>
+        </div>
+
+        <div class="atlas-section__context rich-card">
+          <figure class="image-frame image-frame--wide atlas-section__hero-image">
+            <img
+              src={group.meta.featureImage.src}
+              width={group.meta.featureImage.width}
+              height={group.meta.featureImage.height}
+              alt={group.meta.featureAlt}
+              loading="lazy"
+            />
+            <figcaption>{group.meta.featureAlt}</figcaption>
+          </figure>
+
+          <div class="atlas-section__entrypoints">
+            <p class="section-heading__eyebrow">Entry dossiers</p>
+            <div class="atlas-section__entrypoint-grid">
+              {group.docs.map((doc) => (
+                <a href={`/docs/${doc.slug}`} class="atlas-entry-card">
+                  <strong>{doc.data.title}</strong>
+                  {doc.data.description && <span>{doc.data.description}</span>}
+                </a>
+              ))}
+            </div>
+          </div>
         </div>
 
         <div class="atlas-grid">
@@ -106,7 +137,9 @@ const totalAssets = atlas.length;
 
   .atlas-hero {
     display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(18rem, 26rem);
     gap: 1rem;
+    align-items: start;
   }
 
   .atlas-hero__copy {
@@ -131,6 +164,90 @@ const totalAssets = atlas.length;
     display: flex;
     flex-wrap: wrap;
     gap: 0.65rem;
+  }
+
+  .atlas-hero__jump-grid {
+    display: grid;
+    gap: 0.75rem;
+  }
+
+  .atlas-jump-card {
+    display: grid;
+    gap: 0.18rem;
+    padding: 0.9rem 1rem;
+    border: 1px solid var(--color-border-soft);
+    border-radius: 1rem;
+    background: var(--surface-panel-soft);
+    color: var(--color-text-primary);
+    text-decoration: none;
+    transition: border-color var(--duration-fast) var(--ease-out-quart), transform var(--duration-fast) var(--ease-out-quart), background var(--duration-fast) var(--ease-out-quart);
+  }
+
+  .atlas-jump-card:hover {
+    transform: translateY(-1px);
+    border-color: var(--color-accent-muted);
+    background: var(--surface-panel-strong);
+  }
+
+  .atlas-jump-card__count,
+  .atlas-jump-card span:last-child {
+    font-family: var(--font-sans);
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .atlas-jump-card__count {
+    color: var(--color-accent);
+  }
+
+  .atlas-jump-card span:last-child {
+    color: var(--color-text-tertiary);
+  }
+
+  .atlas-section {
+    scroll-margin-top: 6rem;
+  }
+
+  .atlas-section__context {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(16rem, 20rem);
+    gap: 1rem;
+    align-items: start;
+  }
+
+  .atlas-section__entrypoints {
+    display: grid;
+    gap: 0.75rem;
+  }
+
+  .atlas-section__entrypoint-grid {
+    display: grid;
+    gap: 0.75rem;
+  }
+
+  .atlas-entry-card {
+    display: grid;
+    gap: 0.3rem;
+    padding: 0.9rem 1rem;
+    border: 1px solid var(--color-border-soft);
+    border-radius: 1rem;
+    color: var(--color-text-primary);
+    text-decoration: none;
+    background: color-mix(in srgb, var(--surface-panel-soft) 94%, transparent);
+    transition: border-color var(--duration-fast) var(--ease-out-quart), transform var(--duration-fast) var(--ease-out-quart), background var(--duration-fast) var(--ease-out-quart);
+  }
+
+  .atlas-entry-card:hover {
+    transform: translateY(-1px);
+    border-color: var(--color-accent-muted);
+    background: var(--surface-panel-strong);
+  }
+
+  .atlas-entry-card span {
+    color: var(--color-text-secondary);
+    font-size: 0.84rem;
+    line-height: 1.55;
   }
 
   .atlas-grid {
@@ -168,5 +285,12 @@ const totalAssets = atlas.length;
     font-size: 0.72rem;
     letter-spacing: 0.08em;
     text-transform: uppercase;
+  }
+
+  @media (max-width: 960px) {
+    .atlas-hero,
+    .atlas-section__context {
+      grid-template-columns: 1fr;
+    }
   }
 </style>

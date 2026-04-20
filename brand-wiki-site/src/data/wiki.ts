@@ -33,12 +33,25 @@ export interface CategoryMeta {
   featureAlt: string;
 }
 
+export interface AssetFamilyMeta {
+  id: string;
+  label: string;
+  kicker: string;
+  description: string;
+  count: number;
+  href: string;
+  featureImage: ImageMetadata;
+  featureAlt: string;
+  relatedDocs: string[];
+}
+
 export interface DocVisualMeta {
   eyebrow: string;
   summary: string;
   heroImage: ImageMetadata;
   heroAlt: string;
   highlights: string[];
+  assetFamilies: string[];
   gallery: Array<{
     image: ImageMetadata;
     alt: string;
@@ -48,11 +61,13 @@ export interface DocVisualMeta {
 
 export const archiveStats = [
   { label: 'Core dossiers', value: '9' },
-  { label: 'Curated visuals', value: '42' },
-  { label: 'Book phases', value: '3' },
+  { label: 'Mapped visuals', value: '42' },
+  { label: 'Asset families', value: '5' },
 ] as const;
 
 export const categoryOrder = ['overview', 'product', 'brand', 'audience', 'market'] as const;
+
+export const assetFamilyOrder = ['brand-kit', 'covers', 'logos', 'anatomy', 'arcana'] as const;
 
 export const categoryMeta: Record<string, CategoryMeta> = {
   overview: {
@@ -97,6 +112,64 @@ export const categoryMeta: Record<string, CategoryMeta> = {
   },
 };
 
+export const assetFamilyMeta: Record<string, AssetFamilyMeta> = {
+  'brand-kit': {
+    id: 'brand-kit',
+    label: 'Brand Board',
+    kicker: 'System overview',
+    description: 'The single board that compresses covers, logos, palette, anatomy, and arcana into one inspectable operating sheet.',
+    count: 1,
+    href: '/visual-atlas#brand-kit',
+    featureImage: brandKitImage,
+    featureAlt: 'Somatic Canticles brand board composed of covers, logos, anatomy, and arcana studies.',
+    relatedDocs: ['index', 'brand/visual-identity'],
+  },
+  covers: {
+    id: 'covers',
+    label: 'Book Covers',
+    kicker: 'Trilogy arc',
+    description: 'Three title-specific cover treatments that track the narrative movement from anamnesis to myocardial chorus to ripening.',
+    count: 3,
+    href: '/visual-atlas#covers',
+    featureImage: coverRipening,
+    featureAlt: 'The Ripening cover artwork for Somatic Canticles.',
+    relatedDocs: ['product/overview', 'product/positioning'],
+  },
+  logos: {
+    id: 'logos',
+    label: 'Logo System',
+    kicker: 'Identity marks',
+    description: 'Glass sigils and wax seals that hold the project between sacred object, clinical artifact, and archival stamp.',
+    count: 8,
+    href: '/visual-atlas#logos',
+    featureImage: logoGlassClassic,
+    featureAlt: 'Somatic Canticles glass sigil logo treatment.',
+    relatedDocs: ['brand/visual-identity', 'brand/voice-tone'],
+  },
+  anatomy: {
+    id: 'anatomy',
+    label: 'Anatomy Diagrams',
+    kicker: 'Embodied rigor',
+    description: 'Somatic and neuroscientific diagrams that keep the trilogy grounded in felt biology instead of untethered metaphor.',
+    count: 8,
+    href: '/visual-atlas#anatomy',
+    featureImage: anatomyHeartBrain,
+    featureAlt: 'Heart-brain axis diagram used in the Somatic Canticles archive.',
+    relatedDocs: ['product/features', 'market/niche-validation'],
+  },
+  arcana: {
+    id: 'arcana',
+    label: 'Arcana Studies',
+    kicker: 'Mythic-biological deck',
+    description: 'Twenty-two tarot-biological correspondences that translate symbolic states into concrete physiological and psychological imagery.',
+    count: 22,
+    href: '/visual-atlas#arcana',
+    featureImage: arcanaChariot,
+    featureAlt: 'Chariot arcana illustration paired with cardiac coherence symbolism.',
+    relatedDocs: ['audience/primary-persona', 'market/competitive-landscape'],
+  },
+};
+
 export const docMeta: Record<string, DocVisualMeta> = {
   index: {
     eyebrow: 'Master archive brief',
@@ -108,6 +181,7 @@ export const docMeta: Record<string, DocVisualMeta> = {
       'Explains the Philosopher-Healer reader identity and why the brand exists.',
       'Links the most important product, audience, brand, and market dossiers.',
     ],
+    assetFamilies: ['brand-kit', 'covers', 'logos'],
     gallery: [
       { image: coverAnamnesis, alt: 'Cover for book one, Anamnesis Engine.', label: 'Book one cover' },
       { image: logoGlassClassic, alt: 'Classic glass sigil logo.', label: 'Glass sigil' },
@@ -124,6 +198,7 @@ export const docMeta: Record<string, DocVisualMeta> = {
       'Clarifies the core value propositions for readers and practitioners.',
       'Captures the intended emotional progression from curiosity to integration.',
     ],
+    assetFamilies: ['covers', 'brand-kit', 'anatomy'],
     gallery: [
       { image: coverChorus, alt: 'The Myocardial Chorus cover artwork.', label: 'Book two cover' },
       { image: coverRipening, alt: 'The Ripening cover artwork.', label: 'Book three cover' },
@@ -140,6 +215,7 @@ export const docMeta: Record<string, DocVisualMeta> = {
       'Connects story mechanics to concrete neuroscience and somatic concepts.',
       'Positions the trilogy as a designed experience rather than a generic lore deck.',
     ],
+    assetFamilies: ['anatomy', 'arcana', 'covers'],
     gallery: [
       { image: anatomySomaticMapping, alt: 'Somatic mapping system diagram.', label: 'Somatic mapping' },
       { image: anatomyVagal, alt: 'Vagal nerve anatomy diagram.', label: 'Vagal system' },
@@ -156,6 +232,7 @@ export const docMeta: Record<string, DocVisualMeta> = {
       'Benchmarks the trilogy against Watts, Egan, Chiang, and van der Kolk.',
       'Provides the clearest one-sentence articulation of the project’s market position.',
     ],
+    assetFamilies: ['covers', 'logos', 'brand-kit'],
     gallery: [
       { image: coverRipening, alt: 'The Ripening cover artwork.', label: 'Final arc cover' },
       { image: logoWaxSealTriple, alt: 'Triple wax seal logo variant.', label: 'Wax seal system' },
@@ -172,6 +249,7 @@ export const docMeta: Record<string, DocVisualMeta> = {
       'Keeps the brand from slipping into startup filler or vague spirituality.',
       'Turns the archive into a coherent authored voice rather than disconnected docs.',
     ],
+    assetFamilies: ['logos', 'arcana', 'brand-kit'],
     gallery: [
       { image: logoGlassGradient, alt: 'Gradient glass sigil logo.', label: 'Glass sigil' },
       { image: logoWaxSealBroken, alt: 'Broken wax seal logo.', label: 'Broken seal' },
@@ -188,6 +266,7 @@ export const docMeta: Record<string, DocVisualMeta> = {
       'Documents palette, typography, logo usage, and graphic system rules.',
       'Provides the visual bridge between neuroscience precision and sacred imagery.',
     ],
+    assetFamilies: ['brand-kit', 'logos', 'covers'],
     gallery: [
       { image: logoGlassClassic, alt: 'Classic glass sigil logo.', label: 'Primary logo' },
       { image: coverAnamnesis, alt: 'Anamnesis Engine cover.', label: 'Cover application' },
@@ -204,6 +283,7 @@ export const docMeta: Record<string, DocVisualMeta> = {
       'Captures purchase triggers, pain points, and social proof requirements.',
       'Turns audience strategy into a concrete operator brief for brand and launch decisions.',
     ],
+    assetFamilies: ['arcana', 'anatomy', 'covers'],
     gallery: [
       { image: coverAnamnesis, alt: 'Anamnesis Engine cover artwork.', label: 'Reader-facing cover' },
       { image: anatomyNeural, alt: 'Neural dendrites anatomy image.', label: 'Embodied cognition' },
@@ -220,6 +300,7 @@ export const docMeta: Record<string, DocVisualMeta> = {
       'Turns competition into a strategic framing tool instead of a generic comparison list.',
       'Helps the archive explain why the project matters now.',
     ],
+    assetFamilies: ['anatomy', 'arcana', 'logos'],
     gallery: [
       { image: coverRipening, alt: 'The Ripening cover artwork.', label: 'Endgame cover' },
       { image: logoWaxSealBroken, alt: 'Broken wax seal logo variant.', label: 'Fracture motif' },
@@ -236,6 +317,7 @@ export const docMeta: Record<string, DocVisualMeta> = {
       'Names the specific market tensions the trilogy resolves better than adjacent works.',
       'Provides a concrete launch thesis rather than abstract optimism.',
     ],
+    assetFamilies: ['brand-kit', 'anatomy', 'arcana'],
     gallery: [
       { image: brandKitImage, alt: 'Brand board collage.', label: 'Brand evidence' },
       { image: anatomyVagal, alt: 'Vagal nerve anatomy image.', label: 'Biology cue' },
@@ -256,8 +338,18 @@ export function getCategoryMeta(category?: string) {
   return category ? categoryMeta[category] : undefined;
 }
 
+export function getAssetFamilyMeta(family?: string) {
+  return family ? assetFamilyMeta[family] : undefined;
+}
+
 export function getDocMeta(slug: string) {
   return docMeta[slug] ?? docMeta.index;
+}
+
+export function getDocAssetFamilies(slug: string) {
+  return getDocMeta(slug).assetFamilies
+    .map((family) => assetFamilyMeta[family])
+    .filter(Boolean);
 }
 
 export function orderDocs(docs: DocEntry[]) {

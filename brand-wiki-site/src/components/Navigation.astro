@@ -1,7 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import SiteLogo from './SiteLogo.astro';
-import { archiveStats, categoryMeta, categoryOrder, orderDocs } from '../data/wiki';
+import { archiveStats, assetFamilyMeta, assetFamilyOrder, categoryMeta, categoryOrder, orderDocs } from '../data/wiki';
 
 const docs = orderDocs(await getCollection('docs'));
 const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
@@ -13,9 +13,11 @@ const groupedDocs = categoryOrder
   }))
   .filter((group) => group.items.length > 0);
 
+const assetFamilies = assetFamilyOrder.map((family) => assetFamilyMeta[family]);
+
 const utilityLinks = [
-  { href: '/docs/index', label: 'Start with the brief' },
-  { href: '/visual-atlas', label: 'Open visual atlas' },
+  { href: '/docs/index', label: 'Start with the brief', eyebrow: 'Read first' },
+  { href: '/visual-atlas', label: 'Open atlas overview', eyebrow: 'Inspect system' },
 ];
 
 function isActive(href: string) {
@@ -43,11 +45,29 @@ function isActive(href: string) {
   <div class="archive-nav__utilities">
     {utilityLinks.map((link) => (
       <a href={link.href} class:list={['nav-link-card', isActive(link.href) && 'nav-link-card--active']}>
-        <span class="nav-link-card__eyebrow">Utility</span>
+        <span class="nav-link-card__eyebrow">{link.eyebrow}</span>
         <span class="nav-link-card__label">{link.label}</span>
       </a>
     ))}
   </div>
+
+  <section class="archive-nav__asset-map">
+    <div class="archive-nav__group-head">
+      <p class="archive-nav__group-kicker">Asset map</p>
+      <h2 class="archive-nav__group-title">Visual families</h2>
+      <p class="archive-nav__group-count">42 mapped visuals</p>
+    </div>
+
+    <div class="archive-nav__asset-grid">
+      {assetFamilies.map((family) => (
+        <a href={family.href} class="asset-link-card">
+          <span class="asset-link-card__eyebrow">{family.count} assets</span>
+          <strong class="asset-link-card__title">{family.label}</strong>
+          <span class="asset-link-card__copy">{family.kicker}</span>
+        </a>
+      ))}
+    </div>
+  </section>
 
   <div class="archive-nav__groups">
     {groupedDocs.map((group) => {
@@ -137,7 +157,8 @@ function isActive(href: string) {
     gap: 0.7rem;
   }
 
-  .nav-link-card {
+  .nav-link-card,
+  .asset-link-card {
     display: grid;
     gap: 0.25rem;
     padding: 0.9rem 1rem;
@@ -150,13 +171,15 @@ function isActive(href: string) {
   }
 
   .nav-link-card:hover,
-  .nav-link-card--active {
+  .nav-link-card--active,
+  .asset-link-card:hover {
     transform: translateY(-1px);
     border-color: var(--color-accent-muted);
     background: var(--surface-panel-strong);
   }
 
-  .nav-link-card__eyebrow {
+  .nav-link-card__eyebrow,
+  .asset-link-card__eyebrow {
     font-family: var(--font-sans);
     color: var(--color-text-tertiary);
     font-size: 0.68rem;
@@ -164,14 +187,27 @@ function isActive(href: string) {
     letter-spacing: 0.1em;
   }
 
-  .nav-link-card__label {
+  .nav-link-card__label,
+  .asset-link-card__title {
     font-size: 0.92rem;
     line-height: 1.45;
   }
 
+  .asset-link-card__copy {
+    color: var(--color-text-secondary);
+    font-size: 0.78rem;
+    line-height: 1.5;
+  }
+
+  .archive-nav__asset-map,
   .archive-nav__groups {
     display: grid;
     gap: 1.4rem;
+  }
+
+  .archive-nav__asset-grid {
+    display: grid;
+    gap: 0.7rem;
   }
 
   .archive-nav__group {
@@ -221,21 +257,16 @@ function isActive(href: string) {
 
   .archive-nav__item:hover,
   .archive-nav__item--active {
-    background: var(--surface-panel-soft);
-    border-color: var(--color-border-soft);
     transform: translateY(-1px);
+    border-color: var(--color-border-soft);
+    background: color-mix(in srgb, var(--surface-panel-soft) 92%, transparent);
   }
 
   .archive-nav__item-rule {
-    width: 2px;
-    min-height: 100%;
-    border-radius: 999px;
-    background: linear-gradient(180deg, transparent 0%, var(--color-accent) 25%, var(--color-accent) 75%, transparent 100%);
-    opacity: 0.35;
-  }
-
-  .archive-nav__item--active .archive-nav__item-rule {
-    opacity: 1;
+    width: 0.28rem;
+    border-radius: var(--radius-full);
+    background: linear-gradient(180deg, var(--color-accent) 0%, transparent 100%);
+    opacity: 0.5;
   }
 
   .archive-nav__item-copy {
@@ -244,13 +275,13 @@ function isActive(href: string) {
   }
 
   .archive-nav__item-title {
-    font-size: 0.9rem;
-    line-height: 1.4;
+    font-size: 0.92rem;
+    line-height: 1.38;
   }
 
   .archive-nav__item-description {
     color: var(--color-text-secondary);
-    font-size: 0.74rem;
-    line-height: 1.55;
+    font-size: 0.78rem;
+    line-height: 1.5;
   }
 </style>

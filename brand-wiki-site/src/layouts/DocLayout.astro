@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content';
 import BaseLayout from './BaseLayout.astro';
 import Breadcrumb from '../components/Breadcrumb.astro';
 import TableOfContents from '../components/TableOfContents.astro';
-import { getCategoryMeta, getDocMeta, orderDocs, primaryReadingPath } from '../data/wiki';
+import { getCategoryMeta, getDocAssetFamilies, getDocMeta, orderDocs, primaryReadingPath } from '../data/wiki';
 
 interface Props {
   title: string;
@@ -16,6 +16,7 @@ interface Props {
 const { title, description, category, headings = [], slug } = Astro.props;
 const visual = getDocMeta(slug);
 const categoryInfo = getCategoryMeta(category);
+const docAssetFamilies = getDocAssetFamilies(slug);
 const content = await Astro.slots.render('default');
 const plainText = content.replace(/<[^>]+>/g, ' ');
 const wordCount = plainText.split(/\s+/).filter(Boolean).length;
@@ -90,6 +91,21 @@ const relatedDocs = docs
         {headings.length > 0 && (
           <div class="rich-card doc-rail-card">
             <TableOfContents headings={headings} />
+          </div>
+        )}
+
+        {docAssetFamilies.length > 0 && (
+          <div class="rich-card doc-rail-card">
+            <p class="section-heading__eyebrow">Asset flow</p>
+            <div class="doc-asset-links">
+              {docAssetFamilies.map((family) => (
+                <a href={family.href} class="doc-asset-link">
+                  <span class="doc-asset-link__count">{family.count} assets</span>
+                  <strong>{family.label}</strong>
+                  <small>{family.kicker}</small>
+                </a>
+              ))}
+            </div>
           </div>
         )}
 
@@ -239,27 +255,65 @@ const relatedDocs = docs
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(16rem, 20rem);
     gap: 1.25rem;
-    align-items: start;
   }
 
-  .doc-body__main {
+  .doc-body__main,
+  .doc-body__rail {
     min-width: 0;
-  }
-
-  .doc-content {
-    padding: clamp(1.3rem, 3vw, 2rem);
   }
 
   .doc-body__rail {
     display: grid;
+    align-content: start;
     gap: 1rem;
-    position: sticky;
-    top: 1.5rem;
+  }
+
+  .doc-content {
+    min-width: 0;
   }
 
   .doc-rail-card {
     display: grid;
     gap: 0.9rem;
+  }
+
+  .doc-asset-links {
+    display: grid;
+    gap: 0.65rem;
+  }
+
+  .doc-asset-link {
+    display: grid;
+    gap: 0.15rem;
+    padding: 0.85rem 0.9rem;
+    border: 1px solid var(--color-border-soft);
+    border-radius: 1rem;
+    color: var(--color-text-primary);
+    text-decoration: none;
+    background: color-mix(in srgb, var(--surface-panel-soft) 94%, transparent);
+    transition: border-color var(--duration-fast) var(--ease-out-quart), transform var(--duration-fast) var(--ease-out-quart), background var(--duration-fast) var(--ease-out-quart);
+  }
+
+  .doc-asset-link:hover {
+    transform: translateY(-1px);
+    border-color: var(--color-accent-muted);
+    background: var(--surface-panel-strong);
+  }
+
+  .doc-asset-link__count,
+  .doc-asset-link small {
+    font-family: var(--font-sans);
+    font-size: 0.68rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .doc-asset-link__count {
+    color: var(--color-accent);
+  }
+
+  .doc-asset-link small {
+    color: var(--color-text-tertiary);
   }
 
   .doc-gallery {
@@ -274,94 +328,69 @@ const relatedDocs = docs
 
   .doc-gallery__item img {
     width: 100%;
-    aspect-ratio: 4 / 3;
-    object-fit: cover;
-    border-radius: 1.05rem;
+    border-radius: calc(var(--radius-lg) - 0.2rem);
     border: 1px solid var(--color-border-soft);
+    object-fit: cover;
+    aspect-ratio: 5 / 4;
   }
 
   .doc-gallery__item figcaption {
     display: grid;
-    gap: 0.2rem;
+    gap: 0.18rem;
+  }
+
+  .doc-gallery__item span,
+  .doc-gallery__item small {
+    font-family: var(--font-sans);
+    line-height: 1.45;
   }
 
   .doc-gallery__item span {
-    font-family: var(--font-sans);
-    font-size: 0.77rem;
+    font-size: 0.76rem;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: var(--color-text-primary);
   }
 
   .doc-gallery__item small {
     color: var(--color-text-secondary);
-    font-size: 0.78rem;
-    line-height: 1.55;
-  }
-
-  .doc-related {
-    display: grid;
-    gap: 1rem;
+    font-size: 0.76rem;
   }
 
   .doc-related__nav,
   .doc-related__grid {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1rem;
+  }
+
+  .doc-related__nav {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .doc-related__jump,
+  .doc-related__card {
+    display: grid;
+    gap: 0.55rem;
+    min-height: 100%;
+    color: var(--color-text-primary);
+    text-decoration: none;
+  }
+
+  .doc-related__jump p,
+  .doc-related__card p {
+    color: var(--color-text-secondary);
   }
 
   .doc-related__grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .doc-related__jump,
-  .doc-related__card {
-    display: grid;
-    gap: 0.45rem;
-    color: var(--color-text-primary);
-    transition: transform var(--duration-fast) var(--ease-out-quart), border-color var(--duration-fast) var(--ease-out-quart), background var(--duration-fast) var(--ease-out-quart);
-  }
-
-  .doc-related__jump:hover,
-  .doc-related__card:hover {
-    transform: translateY(-2px);
-    border-color: var(--color-accent-muted);
-    background: var(--surface-panel-strong);
-  }
-
-  .doc-related__jump p,
-  .doc-related__card p {
-    color: var(--color-text-secondary);
-    font-size: 0.92rem;
-    line-height: 1.65;
-  }
-
-  .doc-related__jump--empty {
-    opacity: 0.75;
-  }
-
-  @media (max-width: 1100px) {
-    .doc-hero,
+  @media (max-width: 1120px) {
     .doc-body,
-    .doc-related__grid {
-      grid-template-columns: 1fr;
-    }
-
-    .doc-body__rail {
-      position: static;
-    }
-  }
-
-  @media (max-width: 760px) {
+    .doc-hero,
     .doc-highlights__grid,
     .doc-related__nav,
     .doc-related__grid {
       grid-template-columns: 1fr;
-    }
-
-    .doc-hero__title {
-      max-width: 100%;
     }
   }
 </style>
