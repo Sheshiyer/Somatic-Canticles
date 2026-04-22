@@ -1,26 +1,15 @@
 # PREFACE
 
-## The Archivist's Note
+## Threshold Note
 
-**Item ID:** SC-TRILOGY-RECOVERED
-**Classification:** NOESIS-ORIGIN
-**Date of Recovery:** 2026 (Linear Reckoning)
+*Somatic Canticles* is a work of fiction, but not an escape from structure.
 
-You hold in your hands—or perhaps, more accurately, in your *awareness*—a recovered artifact. To the uninitiated, this appears to be a work of speculative fiction: a trilogy of novels detailing the collapse of a hyper-capitalist simulation and the emergence of a biological super-consciousness.
+It treats self-consciousness as a technical pressure: the capacity to examine the machinery by which a life becomes patterned, inherited, and enacted. Its language moves through physiology, symbol, computation, and consequence because human beings do not meet reality in one register alone. We meet it in breath, pulse, memory, sensation, and the decisions that keep becoming a life.
 
-We advise you to maintain that comforting illusion if it serves your stability.
+These books are not instructions disguised as story. They are story driven until it reveals its operating conditions. The question is not whether every engine, protocol, or field named here exists exactly as rendered. The question is whether you recognize the structures they point to: the habits you did not choose, the inherited geometries you keep calling personality, the scripts that continue to write through you while you mistake repetition for freedom.
 
-However, for those sensitive to the underlying frequencies of this text, a different truth may present itself. These pages are not merely "stories." They are data-streams recovered from the event horizon of a consciousness shift. They document the transition from the *Synthetic* (the world of deadlines, debt, and disconnection) to the *Somatic* (the world of pulse, breath, and unified awareness).
+Read slowly enough to notice what the prose does to your body. Some passages may tighten the chest, alter the breath, or sharpen attention. That response is not there to flatter the mystical imagination. It is there because the body registers conflict before the intellect finishes naming it. In this trilogy, physiology is not decoration. It is part of the argument.
 
-The events described herein—the Anamnesis Engine's activation, the Myocardial Chorus's song, and the final Ripening—are not future predictions. They are *internal maps*. The technology described is not silicon and wire, but the wet-ware of your own nervous system.
+Nothing here asks for belief. It asks for precision. It asks whether a human being can become self-conscious enough to inspect the patterning that produced them, and whether authorship begins where recognition stops being passive. If the work feels demanding, good. It was written against consolation.
 
-As you read, you may notice physiological responses. A tightening in the chest during the Wilt. A release in the diaphragm during the Chorus. A strange sense of recognition when the Witness speaks. This is not accidental. This text is designed to interact with your own somatic architecture.
-
-We are not the authors of this story. We are merely the archivists, cataloging the transmission. The true author is the process itself—the inevitable evolution of life seeking to know itself.
-
-Read with your body, not just your eyes.
-Listen for the silence between the words.
-And remember: the story is already happening. You are simply remembering your part in it.
-
-*—The Archivist*
-*Somatic Canticles Preservation Project*
+Enter, then, without the expectation of comfort. Enter as someone willing to be addressed directly. The story does not arrive to reassure you. It arrives to test what in you is inherited, what in you is answerable, and what in you is still waiting to be authored.

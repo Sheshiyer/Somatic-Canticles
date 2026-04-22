@@ -1,0 +1,233 @@
+execution_context:
+  budget_tier: "standard"
+  launch_channel: "kickstarter"
+  maturity_stage: "pre-launch"
+  depth_level: "focused"
+  tone: "premium"
+  quality_bar: "premium"
+
+_brandmint:
+  document:
+    kind: "brand-config"
+    contract_version: "1"
+    state: "draft"
+  lineage:
+    source_type: "product-md"
+    source_uri: "./product.md"
+    source_hash: "sha256:24019b8bacdff1b7686adc976667560cbf8b940ab7ad7754ef4b7434148cfa00"
+    extractor_version: "codex-manual-v1"
+    mapping_spec_version: "2026-03-30"
+    created_at: "2026-04-19T22:30:00+05:30"
+    updated_at: "2026-04-19T22:30:00+05:30"
+  review:
+    pending_fields: []
+    edited_fields: []
+    fields: {}
+  approval:
+    approved_by: ""
+    approved_at: ""
+    approval_note: ""
+    fingerprint_algorithm: "sha256"
+    fingerprint_scope: "semantic-config-v1"
+    fingerprint_value: ""
+
+brand:
+  name: "Somatic Canticles"
+  tagline: "Where PubMed meets Alex Grey"
+  archetype: "The Philosopher-Healer's Peer"
+  voice: "Clinically precise, visionary, embodied, and authoritatively invitational"
+  domain: "Hard Science Fiction / Consciousness Literature / Trauma Healing Narrative"
+  domain_tags:
+    - "somatic-canticles"
+    - "crowdfunding"
+    - "physical-product"
+    - "premium"
+    - "brand-system"
+
+theme:
+  name: "Clinical Mysticism — Rigorous Sacred"
+  description: "A premium literary world where sacred anatomy, Tarot structure, and hard neuroscience coexist without hand-waving."
+  metaphor: "An anatomical atlas illuminated like sacred geometry inside a hard-SF cathedral."
+  mood_keywords:
+    - clinical-mysticism
+    - rigorous-sacred
+    - hard-sf
+    - sacred-anatomy
+    - tarot-biological
+    - luminous
+    - indigo
+    - gold
+    - cardiac
+    - transformational
+
+palette:
+  primary:
+    name: "Deep Neural Indigo"
+    hex: "#1A1F3A"
+    role: "Primary brand color, deep backgrounds, headers, and structural anchors"
+  secondary:
+    name: "Neuronal White"
+    hex: "#F5F5F0"
+    role: "Light backgrounds, reading surfaces, and contrast"
+  accent:
+    name: "Soma Gold"
+    hex: "#D4AF37"
+    role: "Highlights, chapter markers, sigils, and premium emphasis"
+  support:
+    name: "Axon Gray"
+    hex: "#6B6B6B"
+    role: "Metadata, borders, captions, and quiet structure"
+  signal:
+    name: "Severance Violet"
+    hex: "#6A4C93"
+    role: "Transformation cues, mystical activation, and book-three energy"
+
+typography:
+  header:
+    font: "Avenir Next"
+    weights: ["Medium", "Bold", "Heavy"]
+    display_weight: "Heavy"
+    emphasis_weight: "Bold"
+    case: "uppercase"
+  body:
+    font: "Charter"
+    weights: ["Regular", "Bold"]
+  data:
+    font: "Input Mono"
+    weights: ["Regular"]
+
+materials:
+  - deep indigo cloth boards
+  - soma gold foil
+  - sacred anatomy linework
+  - anatomical atlas paper
+  - luminous neuronal filaments
+  - wax seal insignia
+  - neural network tracery
+  - cardiac waveform overlays
+  - tarot panel borders
+  - marginalia notebook stock
+
+photography:
+  style: "High-contrast editorial macro imagery where medical precision meets cosmic luminosity"
+  environment: "Deep-indigo studio environments, atlas pages, luminous biology, and restrained sacred geometry"
+  constraint: "No generic new-age clipart, no stock meditation imagery, no pulp-SF tropes, no vague energy effects"
+  camera: "Editorial macro direction, 80mm equivalent, deep blacks with gold-edge rim light"
+
+illustration:
+  style: "Sacred anatomy illustration blending medical precision, Tarot structure, and cosmic linework"
+  references: "Alex Grey sacred anatomy, medical illustration, Rider-Waite-Smith Major Arcana, Tor literary SF covers"
+
+sigil:
+  description: "A Tryambakam-inspired triangulation glyph where three vectors resolve into an authored field of coherence"
+  components:
+    - "Soma Vector"
+    - "Manas Interface"
+    - "Muladhara Terminus"
+
+audience:
+  persona_name: "The Philosopher-Healer"
+  aesthetic_affinity: "premium literary design, sacred anatomy, hard-SF precision, clinical mysticism"
+  aspirational_brands: "Tor Books literary SF design, Alex Grey sacred anatomy, Polyvagal Institute, Criterion-grade editorial systems"
+  emotional_register: "intellectual awe, embodied recognition, existential clarity, empowered agency"
+
+competitive_context:
+  avoid_visual_patterns: "generic new-age mandalas, chakra clipart, stock meditation photos, pulp-SF ships, vague wellness gradients"
+  differentiate_from: "Watts and Egan's cerebral hard SF, van der Kolk's non-fiction trauma literature, and spiritually vague consciousness fiction"
+  occupy_territory: "high rigor + high embodiment + transformational arc rendered as premium literary sacred anatomy"
+
+positioning:
+  statement: "The first hard SF trilogy that synthesizes rigorous neuroscience, somatic trauma healing, consciousness philosophy, and visionary mysticism."
+  hero_headline: "Neurobiology As Sacred Geometry"
+  identity_pillars:
+    - "clinical precision"
+    - "embodied wisdom"
+    - "transformational narrative"
+
+products:
+  hero:
+    name: "Somatic Canticles Trilogy Hardcover Set"
+    description: "A three-book premium literary SF trilogy for readers who demand neuroscience rigor and embodied transformation."
+    physical_form: "Three hardcover volumes — Anamnesis Engine, The Myocardial Chorus, and The Ripening — with deep indigo jackets, Soma Gold foil, and sacred anatomy cover art."
+  capsule_lineup:
+    - name: "Anamnesis Engine"
+      description: "Book one: diagnosis, neural systems, memory architecture, and the beginning of the severance path."
+    - name: "The Myocardial Chorus"
+      description: "Book two: cardiac intelligence, vagal systems, vulnerability, and the body becoming choir."
+    - name: "The Ripening"
+      description: "Book three: systemic coherence, liberation, and the existential choice between Aletheia and Lethe."
+  detail:
+    name: "Collector Hardcover Detail"
+    focus: "Gold foil glyphs, Tarot numerics, sacred anatomy cover systems, and indigo-to-violet transformations across the trilogy."
+  flatlay_objects:
+    count: 5
+    items:
+      - "three hardcover volumes"
+      - "annotated sacred anatomy spread"
+      - "wax-seal brand mark"
+      - "triangulation-engine diagram sheet"
+      - "marginalia notebook"
+  category: "premium literary trilogy"
+
+negative_prompt: |
+  generic new-age aesthetics, chakra clipart, vague energy waves, pulp science fiction,
+  spaceships, laser guns, stock meditation photography, fantasy creatures, glossy self-help,
+  cartoon tarot, sterile hospital branding, gradient wellness slop, overblown HDR, cheap metallic effects
+
+generation:
+  output_dir: "generated"
+  seeds: [42, 137]
+  resolution: "2K"
+  output_format: "png"
+  env_file: "~/.claude/.env"
+  provider: "fal"
+  asset_registry_paths:
+    - "./somatic-canticles-asset-registry.yaml"
+  excluded_assets:
+    - "2B"
+    - "2C"
+    - "3A"
+    - "3B"
+    - "3C"
+    - "4A"
+    - "4B"
+    - "5A"
+    - "5B"
+    - "5C"
+    - "7A"
+    - "8A"
+    - "PITCH-HERO"
+    - "EMAIL-HERO"
+  reference_overrides: {}
+
+prompts:
+  extended:
+    somatic_arcana_card: |
+      Somatic Canticles Major Arcana card {arcana_index}: {asset_title}.
+      Biological event: {biological_event}. Sacred anatomy Tarot panel in a vertical card frame.
+      Style: {illus_style}. References: {illus_references}.
+      Clinical precision fused with mythic symbolism. Deep Neural Indigo dominates, Soma Gold as a surgical highlight, Severance Violet used sparingly for transformation cues.
+      Mood keywords: {mood_keywords}. Render as a premium literary sacred-anatomy artifact, not fantasy slop.
+      No text, no card labels, no generic new-age symbols, no clipart.
+
+    somatic_anatomy_plate: |
+      Somatic Canticles anatomy plate: {asset_title}.
+      Subject focus: {anatomy_subject}. Sacred anatomy illustration with medical-illustration fidelity and luminous cosmic linework.
+      Materials and motifs: {materials_list}. Environment: {photo_environment}.
+      Clinical Mysticism aesthetic, atlas-page composition, gold technical annotations implied but not written.
+      Premium editorial restraint, deep-indigo field, neuronal-white anatomy surfaces, soma-gold signal accents.
+      No stock wellness imagery, no pulp-SF props, no decorative mandalas, no text.
+
+    somatic_book_cover: |
+      Premium literary book cover for Somatic Canticles: {book_title}.
+      Narrative focus: {cover_focus}. Design a front-cover artwork system suitable for a hardcover edition with sacred anatomy, Tarot-biological geometry, and hard-SF editorial restraint.
+      The trilogy visual language must stay consistent with Deep Neural Indigo structure, Soma Gold foil logic, and Severance Violet transformation cues.
+      Feels adjacent to Tor Books literary SF design and Alex Grey sacred anatomy without imitating either directly.
+      No title text, no author text, no fake blurbs, no pulp spaceship imagery.
+
+    somatic_logo_mark: |
+      Somatic Canticles logo mark study: {asset_title}.
+      Variant direction: {logo_variant}. Material expression: {logo_material}.
+      Build from the brand sigil logic: {sigil_description}. Premium identity object, centered composition, tactile lighting, deep-indigo and soma-gold palette discipline.
+      Render as a refined symbol exploration suitable for a collector-grade literary identity system.
+      No typography, no mockup scene, no packaging, no extra emblems beyond the core mark.

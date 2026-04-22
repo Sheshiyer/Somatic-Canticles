@@ -5,6 +5,7 @@ import {
   archiveStats,
   assetFamilyMeta,
   assetFamilyOrder,
+  brandmintRunStats,
   categoryMeta,
   categoryOrder,
   orderDocs,
@@ -72,7 +73,7 @@ const featuredDocs = docs.slice(0, 3);
 
         <div class="home-hero__actions">
           <a href="/docs/index" class="button button--primary">Start with the brief</a>
-          <a href="#asset-flow" class="button button--secondary">Follow the asset flow</a>
+          <a href="#asset-flow" class="button button--secondary">Follow the Brandmint asset flow</a>
           <button type="button" class="button button--ghost" data-search-trigger>Search dossiers</button>
         </div>
 
@@ -114,10 +115,12 @@ const featuredDocs = docs.slice(0, 3);
     <section class="section-block" id="asset-flow">
       <div class="section-heading">
         <p class="section-heading__eyebrow">Asset flow</p>
-        <h2>The visual system is now part of the reading path</h2>
+        <h2>The visual system now follows the Brandmint handoff</h2>
         <p>
-          The archive no longer treats imagery as a side appendix. Covers, logos, anatomy, arcana, and the
-          consolidated brand board are now explicit wayfinding layers tied back to the dossiers that explain them.
+          The archive no longer treats imagery as a side appendix or a hand-sorted gallery. Covers, logos, anatomy,
+          arcana, and the consolidated brand board are mapped from the current Brandmint run
+          ({brandmintRunStats.totalAssets} assets, {brandmintRunStats.totalApiCalls} calls) and tied back to the
+          dossiers that explain them.
         </p>
       </div>
 

@@ -1,0 +1,25 @@
+{
+  "generated_at_utc": "2026-04-21T18:54:22.788280+00:00",
+  "source_file": "/Volumes/madara/2026/twc-vault/01-Projects/Somatic-Canticles/02_MANUSCRIPTS/COMPILED/Somatic_Canticles_Trilogy_Omnibus_CLEAN.md",
+  "source_sha256": "7c5adba5a8531473f09e1b70daad5f7cae82f755985e51f160683da4955a2522",
+  "output_dir": "/Volumes/madara/2026/twc-vault/01-Projects/Somatic-Canticles/02_MANUSCRIPTS/EXPORTS",
+  "artifacts": {
+    "html": {
+      "path": "/Volumes/madara/2026/twc-vault/01-Projects/Somatic-Canticles/02_MANUSCRIPTS/EXPORTS/Somatic_Canticles_Trilogy_Omnibus_CLEAN.html",
+      "bytes": 292941,
+      "sha256": "04ac1fe44d57de393d82ad405e56b2d31d6dfa10c62866bb387843bab9d82fc1"
+    },
+    "epub": {
+      "path": "/Volumes/madara/2026/twc-vault/01-Projects/Somatic-Canticles/02_MANUSCRIPTS/EXPORTS/Somatic_Canticles_Trilogy_Omnibus_CLEAN.epub",
+      "bytes": 136690,
+      "sha256": "c515dbadf900aa369cd965f0b517888eaea0ebb5f7c5138afa3a4a08e1236640"
+    }
+  },
+  "pdf_status": {
+    "state": "generated",
+    "engine": "tectonic",
+    "path": "/Volumes/madara/2026/twc-vault/01-Projects/Somatic-Canticles/02_MANUSCRIPTS/EXPORTS/Somatic_Canticles_Trilogy_Omnibus_CLEAN.pdf",
+    "bytes": 368323,
+    "sha256": "cffc8ab278b8a1f8b8f172efc123a1ef1a5c1c31696f94cf5532a33912fc50c5"
+  }
+}

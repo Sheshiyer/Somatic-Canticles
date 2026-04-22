@@ -178,7 +178,8 @@ For automated book generation, process directories in this sequence:
 Development tracking and project status are maintained at the project root level:
 - **Current Status**: See `/Somatic-Canticles/todo.md`
 - **Session Memory**: See `/Somatic-Canticles/memory.md`
-- **Manuscript Files**: See `/Somatic-Canticles/CLEAN/` directory
+- **Manuscript Source of Truth**: See `/Somatic-Canticles/02_MANUSCRIPTS/COMPILED/`
+- **Chapter Working Files**: See `/Somatic-Canticles/02_MANUSCRIPTS/CHAPTERS/`
 
 ---
 

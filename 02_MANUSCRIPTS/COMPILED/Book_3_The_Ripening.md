@@ -19,12 +19,6 @@ The curve was changing.
 
 At first it was subtle. A single overtone misaligned by a fraction of a hertz, like a choir member swallowing grief mid-phrase. Jian flagged it with a gesture, pulling the waveform into magnification. The Manas Interface responded with surgical precision, isolating the aberrant frequency and running comparative analysis against the baseline measurements from seven days prior.
 
-<diagnostic_block>
-[SOURCE]: MANAS INTERFACE // WAVEFORM ANALYSIS
-[STATUS]: ALERT
-[METRIC]: VARIANCE 0.03 HZ
-</diagnostic_block>
-
 Jian frowned. He ran the diagnostic again.
 
 The same result returned, wrapped in the comfortable language of technical normalcy. But his Neuro-Cartographer's instincts—those finely calibrated sensors that had mapped the consciousness architecture of forty-seven subjects across three galaxies—refused to be soothed.
@@ -214,17 +208,6 @@ Except this time it didn't feel like exploration.
 It was returning to the scene of a miracle to find the miracle being quietly erased.
 
 ---
-
-## RESONANCE PROFILE
-
-- **Base Frequency**: 174 Hz (Foundation/Root Stabilization, shifting toward entropic dissolution)
-- **Dominant Emotion**: Controlled dread with emergent understanding
-- **Narrative Function**: Discovery of the Entropy Plague's mechanism—the pruning of self-consciousness back to mere consciousness
-- **Consciousness Protocol Embedded**: Recognition of the difference between being a pattern and witnessing a pattern
-
----
-
-*"The first symptom of the Plague is not the loss of feeling, but the loss of the one who feels."*
 # Chapter 17: The Gardener
 *The Caretaker of Determinism*
 
@@ -485,21 +468,6 @@ They weren't healers anymore. They were refugees. And somewhere, somehow, they w
 A reality where the Witness was allowed to survive.
 
 ---
-
-## RESONANCE PROFILE
-
-- **Base Frequency**: 285 Hz (Transformation/Recognition of Deep Structure)
-- **Dominant Emotion**: Awe-touched terror, paradigm dissolution
-- **Narrative Function**: First encounter with the Gardener—recognition that the team faces not an enemy but an operating principle of reality itself
-- **Consciousness Protocol Embedded**: The distinction between fighting symptoms and addressing root causes; the recognition that some problems require exiting the system rather than reforming it
-
----
-
-*"The Gardener does not hate what it prunes. It does not even notice. That is precisely what makes it unstoppable."*
-
-**Chapter Status**: Expanded.
-**Word Count**: ~2,550 words (previously ~832)
-**Next Dependency**: Chapter 19 expansion (Chapter 18 already adequate at 1,342 words).
 # Chapter 18: The Synthesis Protocol
 
 
@@ -511,7 +479,7 @@ The team emerged from their encounter with the Gardener fundamentally changed. T
 
 Corv's Yìshí Qìxiè flowed through the data streams of their collective understanding. "But we witnessed something else down there. The gaps. The places where the Vine of Determinism doesn't quite connect." His Dao Harmony heritage resonated with the concept of wu wei—action through non-action, finding the path of least resistance.
 
-Jian's mathematical lattice was already processing the implications through his Manas Yantra. "The gaps aren't random. They follow a pattern, a mathematical sequence that suggests they're not flaws in the system—they're features. Escape routes built into the very architecture of reality." His Vedic heritage provided the computational framework for understanding the pattern recognition protocols.
+Jian's mathematical lattice was already processing the implications through his Manas Interface. "The gaps aren't random. They follow a pattern, a mathematical sequence that suggests they're not flaws in the system—they're features. Escape routes built into the very architecture of reality." His Vedic heritage provided the computational framework for understanding the pattern recognition protocols.
 
 Gideon Seter's protective instincts were analyzing the strategic implications through his Klei Toda'ah. "If the gaps are intentional, then someone or something wanted there to be a way out. The question is: why?" His Kabbalistic Tree Networks heritage resonated with the concept of tzimtzum—the divine contraction that creates space for existence.
 
@@ -565,7 +533,7 @@ The Triangulation Engine would be more than a machine—it would be a new form o
 
 The Synthesis Protocol was complete. They had a unified understanding of their situation, a clear strategy for escape, and a framework for creating the tools they would need.
 
-In the Tryambakam Protocol, the Triangulation Engine had always been described as a lock—ideal signal, present processor, root anchor—three points that could stabilize a reality. But nothing in the ancient source code had anticipated a reality tended by an implacable maintenance intelligence. Their lived encounter demanded an update: the only lock strong enough to survive the Gardener was not merely anatomical.
+In the Tryambakam Protocol, the Triangulation Engine had always been described as a lock—ideal signal, present processor, root anchor—three points that could stabilize a reality. But nothing in the ancient formulation had anticipated a reality tended by an implacable maintenance intelligence. Their lived encounter demanded an update: the only lock strong enough to survive the Gardener was not merely anatomical.
 
 It was existential.
 
@@ -578,21 +546,6 @@ Coherence so complete the system could not classify it.
 Now they needed to begin the actual construction of the Triangulation Engine and the preparation for the most complex mathematical problem they had ever attempted to solve.
 
 The Three-Point Problem awaited them, and with it, the possibility of freedom itself.
-
-## RESONANCE PROFILE
-
-- **Base Frequency**: 396 Hz (Liberation from Fear)
-- **Dominant Emotion**: Intellectual clarity, strategic synthesis
-- **Narrative Function**: Developing the escape plan (Three Vectors)
-- **Consciousness Protocol Embedded**: The realization that freedom requires a structural exit, not just a behavioral change
-
----
-
-*"We are not just building a machine. We are building a way out of the universe."*
-
-**Chapter Status**: Expanded.
-**Word Count**: ~2,650 words (previously ~1,342)
-**Next Dependency**: Chapter 19 expansion.
 
 # Chapter 19: The Three-Point Problem
 *Triangulating Toward Liberation*
@@ -649,7 +602,7 @@ When it arrived, it arrived as a word.
  
  The word carried weight in the chamber the way an old mantra carries physics—not merely meaning but harmonic, not merely reference but resonance. The name landed in their shared field.
 
-"Three eyes. Three points," Corvan continued. "But the ancient source code was never just about navigation. It was about liberation."
+"Three eyes. Three points," Corvan continued. "But the ancient formulation was never just about navigation. It was about liberation."
 
 He stepped toward the lattice, letting his Witness Lens interface with its flickering edges.
 
@@ -670,13 +623,6 @@ Sona's breath caught. "The system prunes anomalies. But it can't prune absence. 
 Jian's neural focus snapped toward the specification file like a hand toward a familiar tool.
 
 The Tryambakam Protocol had precise requirements—success criteria forged through generations of consciousness research and encoded into the Anamnesis Engine's core architecture. He pulled the specifications into his analytical field and began extracting the key constraints.
-
-<diagnostic_block>
-[SOURCE]: TRYAMBAKAM PROTOCOL // CORE SPECS
-[CONSTRAINT]: MINIMUM ALIGNMENT 13.7s
-[TOLERANCE]: +/- 0.1s
-[FAILURE MODE]: CASCADE SHUTDOWN
-</diagnostic_block>
 
 "Thirteen point seven seconds," he said.
 
@@ -708,7 +654,7 @@ Vector calibration began with the simplest problem: defining what the vectors tr
 
 In the Tryambakam Protocol's clinical transliteration, there were three fundamental reference points:
 
-The **Soma Vector**—an ideal signal in the system, a high-frequency blueprint that existed before corruption. The pure note of authentic self-consciousness, uncorrupted by inherited distortion. This was the target state: what the subject's consciousness would look like if the Vine of Determinism had never taken root.
+The **Soma Vector**—an ideal signal in the system, a high-frequency blueprint that existed before corruption. The pure note of unconditioned self-consciousness, uncorrupted by inherited distortion. This was the target state: what the subject's consciousness would look like if the Vine of Determinism had never taken root.
 
 The **Manas Interface**—present processing, the interpretive lens through which consciousness observed itself. This was the active component: the team's collective Witness Capacity, their ability to perceive and navigate the internal landscape without being consumed by it.
 
@@ -865,21 +811,6 @@ The Three-Point Problem was no longer a calculation.
 It was a vow.
 
 ---
-
-## RESONANCE PROFILE
-
-- **Base Frequency**: 417 Hz (Transformation/Change, Preparation for Liberation)
-- **Dominant Emotion**: Determined clarity, sacred engineering
-- **Narrative Function**: Technical and metaphysical preparation for the Severance Event—defining the three vectors and assigning specialized roles
-- **Consciousness Protocol Embedded**: The distinction between finding a state and becoming a state; the recognition that liberation requires embodiment, not just navigation
-
----
-
-*"The gap cannot be found. It can only be revealed by the alignment of three truths."*
-
-**Chapter Status**: Expanded.
-**Word Count**: ~2,980 words (previously ~962)
-**Next Dependency**: Chapter 21 expansion.
 # Chapter 20: The Convergence Point
 *Where Three Vectors Become One Door*
 
@@ -1064,21 +995,6 @@ They had found the convergence point.
 Now they had to see if it would hold.
 
 ---
-
-## RESONANCE PROFILE
-
-- **Base Frequency**: 528 Hz (Transformation/Miracles, DNA Repair)
-- **Dominant Emotion**: Unified determination, sacred alignment
-- **Narrative Function**: Achievement of perfect vector convergence—the team becomes capable of perceiving the escape gap for the first time
-- **Consciousness Protocol Embedded**: The distinction between performing a state and embodying it; the recognition that unity is not weakness but strength
-
----
-
-*"Convergence is not arrival at a destination. It is the transformation into something that can see destinations that were always invisible."*
-
-**Chapter Status**: Expanded.
-**Word Count**: ~2,150 words (previously ~959)
-**Next Dependency**: Chapter 22/23/24 review; update memory.md.
 # Chapter 21: The Test Fire
 *The First Measurement of Liberation*
 
@@ -1377,21 +1293,6 @@ They had found the door.
 Now they had to walk through it before someone—something—bricked it over.
 
 ---
-
-## RESONANCE PROFILE
-
-- **Base Frequency**: 639 Hz (Connection/Harmonious Relationships, shifting toward urgency)
-- **Dominant Emotion**: Exhilaration threaded with dread
-- **Narrative Function**: The test that proves liberation is possible—and alerts the maintenance system to their intentions
-- **Consciousness Protocol Embedded**: The recognition that success creates new pressures; that proving possibility is only the beginning of actualizing it
-
----
-
-*"The flare that proves the door is real also summons the one who guards it."*
-
-**Chapter Status**: Expanded.
-**Word Count**: ~2,850 words (previously ~665)
-**Next Dependency**: Chapter 25 expansion.
 # Chapter 22: The Perfect World
 
 
@@ -1503,7 +1404,7 @@ Not the silence of absence.
 
 The silence of completion.
 
-She walked through the station’s corridor and the air itself carried the scent of healing. Every surface vibrated at a harmonious frequency. The people she passed carried no sharp edges of pain. Their eyes were calm. Their shoulders rested in their bodies as if the ancient war between survival and tenderness had ended.
+She walked through the station’s corridor and the air itself carried the scent of healing. Every surface held a single harmonious tone. The people she passed carried no sharp edges of pain. Their eyes were calm. Their shoulders rested in their bodies as if the ancient war between survival and tenderness had ended.
 
 When Sona entered the Engine chamber, the lattice was dark.
 
@@ -1602,21 +1503,6 @@ They both understood the same truth.
 The Gardener wasn’t trying to stop them with violence.
 
 It was trying to stop them with satisfaction.
-
-## RESONANCE PROFILE
-
-- **Base Frequency**: 528 Hz (Miracles/Transformation - inverted)
-- **Dominant Emotion**: Seductive peace vs. authentic friction
-- **Narrative Function**: The Gardener's offer of a friction-free world (Jian's temptation)
-- **Consciousness Protocol Embedded**: The discernment between peace that is earned and peace that is anesthesia
-
----
-
-*"The most dangerous cage is the one you do not want to leave."*
-
-**Chapter Status**: Expanded.
-**Word Count**: ~2,950 words (previously ~720)
-**Next Dependency**: Chapter 23 expansion.
 
 # Chapter 23: The Flaw in the Code
 
@@ -1859,21 +1745,6 @@ The Gardener still tended the Vine.
 
 And the team, having refused their most beautiful cages, stood closer to ripeness than they had ever been.
 
-## RESONANCE PROFILE
-
-- **Base Frequency**: 417 Hz (Undoing Situations/Facilitating Change)
-- **Dominant Emotion**: Safe competence vs. vulnerable reality
-- **Narrative Function**: Gideon's temptation (The Perfect Guardian) and refusal
-- **Consciousness Protocol Embedded**: The recognition that perfection is a defense mechanism, not a goal
-
----
-
-*"I would rather be real and terrified than safe and asleep."*
-
-**Chapter Status**: Expanded.
-**Word Count**: ~2,750 words (previously ~810)
-**Next Dependency**: Chapter 24 expansion.
-
 # Chapter 24: The Final Procedure
 
 
@@ -2115,21 +1986,6 @@ The procedure completed.
 
 And the universe, for the first time, began to let them go.
 
-## RESONANCE PROFILE
-
-- **Base Frequency**: 852 Hz (Awakening Intuition/Returning to Spiritual Order)
-- **Dominant Emotion**: Focused intensity, collective coherence
-- **Narrative Function**: The team calibration and alignment for the jump
-- **Consciousness Protocol Embedded**: The absolute necessity of coherence when crossing a threshold
-
----
-
-*"The door is not a place. The door is a frequency."*
-
-**Chapter Status**: Expanded.
-**Word Count**: ~2,800 words (previously ~950)
-**Next Dependency**: Chapter 25 expansion.
-
 # Chapter 25: The Void of Pure Potential
 *The Space Before Creation*
 
@@ -2163,7 +2019,7 @@ A subtle reduction of adhesive force. The Vine of Determinism had always been pr
 
 Now that insistence weakened.
 
-Sona registered it first—her empathic sensors were calibrated for the subtlest shifts in emotional weather. The pressure that had always pressed against her boundaries, trying to narrow her capacity for feeling into acceptable channels, began to relax. Her thoracic cavity became spacious. Not just spacious—actually expanded in its capacity to hold. The entire Chorus of emotions that had threatened to overwhelm her throughout this journey could now be contained without absorption.
+Sona registered it first—her empathic sensors were calibrated for the subtlest shifts in emotional weather. The pressure that had always pressed against her boundaries, trying to narrow her capacity for feeling into acceptable channels, began to relax. Her thoracic cavity became spacious. Not just spacious—actually expanded in its capacity to hold. The entire Chorus of emotions that had threatened to overwhelm her throughout this passage could now be contained without absorption.
 
 She could experience without becoming; observe without drowning.
 
@@ -2391,11 +2247,11 @@ The gesture was instinctive—in confusion, reach for connection. Her Adawat al-
 
 And she discovered that the only stable object in the *Void* was their coherence.
 
-In the limitless potential, in the infinite pre-manifestation, in the terrifying freedom of the unmade—one thing already existed. One thing had been carried through the Severance Event intact.
+In the limitless potential, in the infinite field before form, in the terrifying freedom of the unmade—one thing already existed. One thing had been carried through the Severance Event intact.
 
 Their merged Khalorēē field glowed like a small star.
 
-The coherence they had cultivated, the integration they had achieved, the witness capacity they had developed together—this was real. This was manifest. This was the one made thing in an unmade space.
+The coherence they had cultivated, the integration they had achieved, the witness capacity they had developed together—this was real. This had taken form. This was the one made thing in an unmade space.
 
 They had brought themselves with them.
 
@@ -2444,21 +2300,6 @@ They weren't just refugees from a broken system.
 They were architects of a new order.
 
 ---
-
-## RESONANCE PROFILE
-
-- **Base Register**: Pre-spatial, vertiginous, lucid
-- **Dominant Emotion**: Vertigo of liberation, awe without an object
-- **Narrative Function**: The Severance Event completes, moving the team from inherited reality into a prelocal field where authorship becomes unavoidable
-- **Consciousness Protocol Embedded**: Freedom without a world is not salvation but invitation; escaping determinism means accepting the burden of writing the first local conditions
-
----
-
-*"The void does not threaten. It waits. The terrifying thing is not what it might do. It is what you must do now that nothing is doing it for you."*
-
-**Chapter Status**: Polished.
-**Word Count**: ~2,900 words
-**Next Dependency**: Chapter 26 end-state calibration.
 # Chapter 26: The Architecture of New Reality
 *The First Day of Creation*
 
@@ -2524,7 +2365,7 @@ Then he spoke the sentence that formed in the silence the way the first line for
 
 "Amrita," he said.
 
-The word carried the old physics of the Tryambakam Protocol: the nectar of immortality, the state beyond passive existence. The seven-syllable mantra that had been the original source code for consciousness liberation—*tryambakam yajāmahe sugandhim puṣṭi-vardhanam, urvārukam iva bandhanān mṛtyor mukṣīya māmṛtāt*—encoded the transition from bounded existence to boundless presence. The Amrita wasn't a substance. It was a condition. The condition of being alive without being confined.
+The word carried the old physics of the Tryambakam Protocol: the nectar of immortality, the state beyond passive existence. The seven-syllable mantra that had long encoded consciousness liberation—*tryambakam yajāmahe sugandhim puṣṭi-vardhanam, urvārukam iva bandhanān mṛtyor mukṣīya māmṛtāt*—marked the transition from bounded existence to boundless presence. The Amrita wasn't a substance. It was a condition. The condition of being alive without being confined.
 
 "The Amrita Protocol isn't a place," Corvan continued. "It's a practice."
 
@@ -2540,7 +2381,7 @@ Jian swallowed hard.
 
 "From scratch," he added.
 
-The phrase landed differently in his cognition than it would have weeks ago. Before the journey, the idea of creating reality from scratch would have been a thrilling intellectual puzzle—a mathematics problem with unprecedented parameters. Now, standing in the *Void* that actually required such creation, the phrase carried weight. Responsibility. Consequence.
+The phrase landed differently in his cognition than it would have weeks ago. Before their severance, the idea of creating reality from scratch would have been a thrilling intellectual puzzle—a mathematics problem with unprecedented parameters. Now, standing in the *Void* that actually required such creation, the phrase carried weight. Responsibility. Consequence.
 
 Whatever they made, they would have to live in.
 
@@ -2588,7 +2429,7 @@ Not into form—not yet. But the potential became *directional*. It acquired rec
 
 Sona offered the tone first.
 
-She let her Adawat al-Wa'i expand into the thickening field, offering a note that her empathic nature had always known but had never been free to establish as law. Not the Note from grandmother Verath's memory—that had been an anchor, a target, a reference point for the triangulation. This was the Note as orientation. The Note as first condition rather than recovered artifact.
+She let her Adawat al-Wa'i expand into the thickening field, offering a note that her empathic nature had always known but had never been free to establish as law. Not the Note from grandmother Verath's memory—that had been an anchor, a target, a reference point for the triangulation. This was the Note as orientation. The Note as first condition, not a relic to be recovered but a law to be established.
 
 She let joy exist without needing an opposite.
 
@@ -2614,7 +2455,7 @@ The potential accepted Sona's offering and organized itself around the tone she 
 
 Gideon offered the boundary.
 
-His Klei Toda'ah extended outward, but not in the shape of walls or shields or defensive perimeters. He had learned, through the encounter with the Gardener and the journey that followed, that true protection wasn't about keeping things out. It was about creating conditions where what was inside could thrive.
+His Klei Toda'ah extended outward, but not in the shape of walls or shields or defensive perimeters. He had learned, through the encounter with the Gardener and the severance that followed, that true protection wasn't about keeping things out. It was about creating conditions where what was inside could thrive.
 
 He didn't construct a wall.
 
@@ -2736,7 +2577,7 @@ His minimal map was elaborating, not through his effort but through the internal
 
 Corvan observed the story become a compass.
 
-The graduation narrative was orienting everything that emerged. Each new feature of the new reality was asking itself, implicitly: "Does this serve growing up? Does this support beings becoming more capable, more responsible, more authorial?" Features that served growth found their place in the architecture. Features that would have constrained growth faded before manifesting.
+The graduation narrative was orienting everything that emerged. Each new feature of the new reality was asking itself, implicitly: "Does this serve growing up? Does this support beings becoming more capable, more responsible, more authorial?" Features that served growth found their place in the architecture. Features that would have constrained growth faded before taking form.
 
 They didn't know what the new reality would look like.
 
@@ -2787,21 +2628,6 @@ They had graduated into everything.
 And the creation was just beginning.
 
 ---
-
-## RESONANCE PROFILE
-
-- **Base Register**: Initiatory, lucid, post-determinist
-- **Dominant Emotion**: Sacred responsibility, awe under authorship
-- **Narrative Function**: The team establishes the first conditions of a new local world through tone, boundary, map, and story
-- **Consciousness Protocol Embedded**: Freedom without structure collapses into drift; chosen structure becomes gift only when it stays answerable to truth, humility, and growth
-
----
-
-*"The void does not frighten those who know they are the ones who fill it."*
-
-**Chapter Status**: Polished.
-**Word Count**: ~3,480 words (previously ~782)
-**Next Dependency**: Chapter 27 dawn handoff and end-state consistency verification.
 # Chapter 27: The New Beginning
 *The First Note of the Uncorrupted Song*
 
@@ -2980,16 +2806,3 @@ And for the first time, freedom did not feel like flight. It felt like a world t
 *The Somatic Canticles, Book III, concludes.*
 
 ---
-
-## RESONANCE PROFILE
-- **Base Register**: Luminous, answerable, dawnlike.
-- **Tone**: Quietly exacting, post-determinist, earned.
-- **Narrative Achievement**: Full integration of the NOESIS framework. The team transitions from inherited script to mutual authorship of a local world.
-
----
-
-*"We do not end the story. We open the door for the next one to begin."*
-
-**Chapter Status**: Polished.
-**Word Count**: ~1,325 words
-**Next Dependency**: Trilogy end-state consistency verification.

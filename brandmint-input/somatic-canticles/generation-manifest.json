@@ -1,0 +1,355 @@
+{
+  "brand": "Somatic Canticles",
+  "depth_level": "focused",
+  "budget_tier": "standard",
+  "launch_channel": "kickstarter",
+  "mode": "domain-aware",
+  "domain_tags": [
+    "somatic-canticles",
+    "crowdfunding",
+    "physical-product",
+    "premium",
+    "brand-system"
+  ],
+  "total_assets": 42,
+  "total_api_calls": 84,
+  "estimated_cost_usd": 6.72,
+  "assets": [
+    {
+      "id": "2A",
+      "name": "Brand Kit Bento Grid",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "COVER-ANAMNESIS-ENGINE",
+      "name": "Book Cover - Anamnesis Engine",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "COVER-MYOCARDIAL-CHORUS",
+      "name": "Book Cover - The Myocardial Chorus",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "COVER-THE-RIPENING",
+      "name": "Book Cover - The Ripening",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "ARCANA-00-FOOL",
+      "name": "Arcana 00 - The Fool / Stem Cell",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "ARCANA-01-MAGICIAN",
+      "name": "Arcana 01 - The Magician / Neuroplasticity",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "ARCANA-02-HIGH-PRIESTESS",
+      "name": "Arcana 02 - The High Priestess / Pineal",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "ARCANA-03-EMPRESS",
+      "name": "Arcana 03 - The Empress / Oxytocin",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "ARCANA-04-EMPEROR",
+      "name": "Arcana 04 - The Emperor / Prefrontal Cortex",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "ARCANA-05-HIEROPHANT",
+      "name": "Arcana 05 - The Hierophant / Mirror Neurons",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "ARCANA-06-LOVERS",
+      "name": "Arcana 06 - The Lovers / Dopamine",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "ARCANA-07-CHARIOT",
+      "name": "Arcana 07 - The Chariot / Cardiac Coherence",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "ARCANA-08-STRENGTH",
+      "name": "Arcana 08 - Strength / Immune Intelligence",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "ARCANA-09-HERMIT",
+      "name": "Arcana 09 - The Hermit / Autophagy",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "ARCANA-10-WHEEL",
+      "name": "Arcana 10 - Wheel of Fortune / Circadian",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "ARCANA-11-JUSTICE",
+      "name": "Arcana 11 - Justice / Hormonal Balance",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "ARCANA-12-HANGED-MAN",
+      "name": "Arcana 12 - The Hanged Man / Parasympathetic",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "ARCANA-13-DEATH",
+      "name": "Arcana 13 - Death / Apoptosis",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "ARCANA-14-TEMPERANCE",
+      "name": "Arcana 14 - Temperance / Metabolic Balance",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "ARCANA-15-DEVIL",
+      "name": "Arcana 15 - The Devil / Addiction",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "ARCANA-16-TOWER",
+      "name": "Arcana 16 - The Tower / Severance",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "ARCANA-17-STAR",
+      "name": "Arcana 17 - The Star / Neurogenesis",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "ARCANA-18-MOON",
+      "name": "Arcana 18 - The Moon / REM Sleep",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "ARCANA-19-SUN",
+      "name": "Arcana 19 - The Sun / Mitochondria",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "ARCANA-20-JUDGEMENT",
+      "name": "Arcana 20 - Judgement / Epigenetics",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "ARCANA-21-WORLD",
+      "name": "Arcana 21 - The World / Homeostasis",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "ANATOMY-CARDIAC-COHERENCE",
+      "name": "Anatomy Plate - Cardiac Coherence",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "ANATOMY-HEART-BRAIN-AXIS",
+      "name": "Anatomy Plate - Heart Brain Axis",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "ANATOMY-KHALOREE-FIELD-ARCHITECTURE",
+      "name": "Anatomy Plate - Khaloree Field Architecture",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "ANATOMY-NEURAL-DENDRITES",
+      "name": "Anatomy Plate - Neural Dendrites",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "ANATOMY-SEVERANCE-PATHWAYS",
+      "name": "Anatomy Plate - Severance Pathways",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "ANATOMY-SOMATIC-MAPPING",
+      "name": "Anatomy Plate - Somatic Mapping",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "ANATOMY-TRIANGULATION-ENGINE",
+      "name": "Anatomy Plate - Triangulation Engine",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "ANATOMY-VAGAL-NERVE",
+      "name": "Anatomy Plate - Vagal Nerve",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "LOGO-GLASS-CLASSIC",
+      "name": "Logo Variant - Glass Classic",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "LOGO-GLASS-FRACTURED",
+      "name": "Logo Variant - Glass Fractured",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "LOGO-GLASS-GRADIENT",
+      "name": "Logo Variant - Glass Gradient",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "LOGO-WAX-SEAL-BROKEN",
+      "name": "Logo Variant - Wax Seal Broken",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "LOGO-WAX-SEAL-CLASSIC",
+      "name": "Logo Variant - Wax Seal Classic",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "LOGO-WAX-SEAL-MELTING",
+      "name": "Logo Variant - Wax Seal Melting",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "LOGO-WAX-SEAL-SIGNET-RING",
+      "name": "Logo Variant - Wax Seal Signet Ring",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "LOGO-WAX-SEAL-TRIPLE",
+      "name": "Logo Variant - Wax Seal Triple",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    }
+  ]
+}

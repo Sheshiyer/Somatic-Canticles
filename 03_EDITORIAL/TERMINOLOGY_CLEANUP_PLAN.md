@@ -2,7 +2,7 @@
 
 **Created:** 2026-02-03
 **Status:** ACTIVE
-**Scope:** All 27 chapters in `/CLEAN/`, all World Bible files, all Editorial files
+**Scope:** All 27 chapter working files in `02_MANUSCRIPTS/CHAPTERS/`, the canonical compiled manuscripts in `02_MANUSCRIPTS/COMPILED/`, all World Bible files, and all Editorial files
 
 ---
 

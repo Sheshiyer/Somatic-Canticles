@@ -1,7 +1,15 @@
 ---
 import { getCollection } from 'astro:content';
 import SiteLogo from './SiteLogo.astro';
-import { archiveStats, assetFamilyMeta, assetFamilyOrder, categoryMeta, categoryOrder, orderDocs } from '../data/wiki';
+import {
+  archiveStats,
+  assetFamilyMeta,
+  assetFamilyOrder,
+  brandmintRunStats,
+  categoryMeta,
+  categoryOrder,
+  orderDocs,
+} from '../data/wiki';
 
 const docs = orderDocs(await getCollection('docs'));
 const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
@@ -17,7 +25,7 @@ const assetFamilies = assetFamilyOrder.map((family) => assetFamilyMeta[family]);
 
 const utilityLinks = [
   { href: '/docs/index', label: 'Start with the brief', eyebrow: 'Read first' },
-  { href: '/visual-atlas', label: 'Open atlas overview', eyebrow: 'Inspect system' },
+  { href: '/visual-atlas', label: 'Inspect Brandmint asset atlas', eyebrow: 'Current run' },
 ];
 
 function isActive(href: string) {
@@ -55,7 +63,7 @@ function isActive(href: string) {
     <div class="archive-nav__group-head">
       <p class="archive-nav__group-kicker">Asset map</p>
       <h2 class="archive-nav__group-title">Visual families</h2>
-      <p class="archive-nav__group-count">42 mapped visuals</p>
+      <p class="archive-nav__group-count">{brandmintRunStats.totalAssets} manifest-backed visuals</p>
     </div>
 
     <div class="archive-nav__asset-grid">

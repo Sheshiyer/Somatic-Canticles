@@ -1,0 +1,607 @@
+assets:
+  ARCANA-00-FOOL:
+    name: "Arcana 00 - The Fool / Stem Cell"
+    slug: "00-fool-stem-cell"
+    generator: "illustrations"
+    model: "nano-banana-pro"
+    tags: ["somatic-canticles", "brand-system", "premium", "crowdfunding"]
+    priority: 8
+    required: false
+    aspect: "portrait_3_4"
+    cost_usd: 0.08
+    prompt_key: "somatic_arcana_card"
+    arcana_index: "00"
+    asset_title: "The Fool"
+    biological_event: "stem cell potential"
+
+  ARCANA-01-MAGICIAN:
+    name: "Arcana 01 - The Magician / Neuroplasticity"
+    slug: "01-magician-neuroplasticity"
+    generator: "illustrations"
+    model: "nano-banana-pro"
+    tags: ["somatic-canticles", "brand-system", "premium", "crowdfunding"]
+    priority: 8
+    required: false
+    aspect: "portrait_3_4"
+    cost_usd: 0.08
+    prompt_key: "somatic_arcana_card"
+    arcana_index: "01"
+    asset_title: "The Magician"
+    biological_event: "neuroplasticity"
+
+  ARCANA-02-HIGH-PRIESTESS:
+    name: "Arcana 02 - The High Priestess / Pineal"
+    slug: "02-high-priestess-pineal"
+    generator: "illustrations"
+    model: "nano-banana-pro"
+    tags: ["somatic-canticles", "brand-system", "premium", "crowdfunding"]
+    priority: 8
+    required: false
+    aspect: "portrait_3_4"
+    cost_usd: 0.08
+    prompt_key: "somatic_arcana_card"
+    arcana_index: "02"
+    asset_title: "The High Priestess"
+    biological_event: "pineal awakening"
+
+  ARCANA-03-EMPRESS:
+    name: "Arcana 03 - The Empress / Oxytocin"
+    slug: "03-empress-oxytocin"
+    generator: "illustrations"
+    model: "nano-banana-pro"
+    tags: ["somatic-canticles", "brand-system", "premium", "crowdfunding"]
+    priority: 8
+    required: false
+    aspect: "portrait_3_4"
+    cost_usd: 0.08
+    prompt_key: "somatic_arcana_card"
+    arcana_index: "03"
+    asset_title: "The Empress"
+    biological_event: "oxytocin bonding"
+
+  ARCANA-04-EMPEROR:
+    name: "Arcana 04 - The Emperor / Prefrontal Cortex"
+    slug: "04-emperor-prefrontal"
+    generator: "illustrations"
+    model: "nano-banana-pro"
+    tags: ["somatic-canticles", "brand-system", "premium", "crowdfunding"]
+    priority: 8
+    required: false
+    aspect: "portrait_3_4"
+    cost_usd: 0.08
+    prompt_key: "somatic_arcana_card"
+    arcana_index: "04"
+    asset_title: "The Emperor"
+    biological_event: "prefrontal regulation"
+
+  ARCANA-05-HIEROPHANT:
+    name: "Arcana 05 - The Hierophant / Mirror Neurons"
+    slug: "05-hierophant-mirror-neurons"
+    generator: "illustrations"
+    model: "nano-banana-pro"
+    tags: ["somatic-canticles", "brand-system", "premium", "crowdfunding"]
+    priority: 8
+    required: false
+    aspect: "portrait_3_4"
+    cost_usd: 0.08
+    prompt_key: "somatic_arcana_card"
+    arcana_index: "05"
+    asset_title: "The Hierophant"
+    biological_event: "mirror neuron entrainment"
+
+  ARCANA-06-LOVERS:
+    name: "Arcana 06 - The Lovers / Dopamine"
+    slug: "06-lovers-dopamine"
+    generator: "illustrations"
+    model: "nano-banana-pro"
+    tags: ["somatic-canticles", "brand-system", "premium", "crowdfunding"]
+    priority: 8
+    required: false
+    aspect: "portrait_3_4"
+    cost_usd: 0.08
+    prompt_key: "somatic_arcana_card"
+    arcana_index: "06"
+    asset_title: "The Lovers"
+    biological_event: "dopamine pairing"
+
+  ARCANA-07-CHARIOT:
+    name: "Arcana 07 - The Chariot / Cardiac Coherence"
+    slug: "07-chariot-cardiac-coherence"
+    generator: "illustrations"
+    model: "nano-banana-pro"
+    tags: ["somatic-canticles", "brand-system", "premium", "crowdfunding"]
+    priority: 8
+    required: false
+    aspect: "portrait_3_4"
+    cost_usd: 0.08
+    prompt_key: "somatic_arcana_card"
+    arcana_index: "07"
+    asset_title: "The Chariot"
+    biological_event: "cardiac coherence"
+
+  ARCANA-08-STRENGTH:
+    name: "Arcana 08 - Strength / Immune Intelligence"
+    slug: "08-strength-immune"
+    generator: "illustrations"
+    model: "nano-banana-pro"
+    tags: ["somatic-canticles", "brand-system", "premium", "crowdfunding"]
+    priority: 8
+    required: false
+    aspect: "portrait_3_4"
+    cost_usd: 0.08
+    prompt_key: "somatic_arcana_card"
+    arcana_index: "08"
+    asset_title: "Strength"
+    biological_event: "immune intelligence"
+
+  ARCANA-09-HERMIT:
+    name: "Arcana 09 - The Hermit / Autophagy"
+    slug: "09-hermit-autophagy"
+    generator: "illustrations"
+    model: "nano-banana-pro"
+    tags: ["somatic-canticles", "brand-system", "premium", "crowdfunding"]
+    priority: 8
+    required: false
+    aspect: "portrait_3_4"
+    cost_usd: 0.08
+    prompt_key: "somatic_arcana_card"
+    arcana_index: "09"
+    asset_title: "The Hermit"
+    biological_event: "autophagy"
+
+  ARCANA-10-WHEEL:
+    name: "Arcana 10 - Wheel of Fortune / Circadian"
+    slug: "10-wheel-circadian"
+    generator: "illustrations"
+    model: "nano-banana-pro"
+    tags: ["somatic-canticles", "brand-system", "premium", "crowdfunding"]
+    priority: 8
+    required: false
+    aspect: "portrait_3_4"
+    cost_usd: 0.08
+    prompt_key: "somatic_arcana_card"
+    arcana_index: "10"
+    asset_title: "Wheel of Fortune"
+    biological_event: "circadian timing"
+
+  ARCANA-11-JUSTICE:
+    name: "Arcana 11 - Justice / Hormonal Balance"
+    slug: "11-justice-hormonal"
+    generator: "illustrations"
+    model: "nano-banana-pro"
+    tags: ["somatic-canticles", "brand-system", "premium", "crowdfunding"]
+    priority: 8
+    required: false
+    aspect: "portrait_3_4"
+    cost_usd: 0.08
+    prompt_key: "somatic_arcana_card"
+    arcana_index: "11"
+    asset_title: "Justice"
+    biological_event: "hormonal balance"
+
+  ARCANA-12-HANGED-MAN:
+    name: "Arcana 12 - The Hanged Man / Parasympathetic"
+    slug: "12-hangedman-parasympathetic"
+    generator: "illustrations"
+    model: "nano-banana-pro"
+    tags: ["somatic-canticles", "brand-system", "premium", "crowdfunding"]
+    priority: 8
+    required: false
+    aspect: "portrait_3_4"
+    cost_usd: 0.08
+    prompt_key: "somatic_arcana_card"
+    arcana_index: "12"
+    asset_title: "The Hanged Man"
+    biological_event: "parasympathetic surrender"
+
+  ARCANA-13-DEATH:
+    name: "Arcana 13 - Death / Apoptosis"
+    slug: "13-death-apoptosis"
+    generator: "illustrations"
+    model: "nano-banana-pro"
+    tags: ["somatic-canticles", "brand-system", "premium", "crowdfunding"]
+    priority: 8
+    required: false
+    aspect: "portrait_3_4"
+    cost_usd: 0.08
+    prompt_key: "somatic_arcana_card"
+    arcana_index: "13"
+    asset_title: "Death"
+    biological_event: "apoptosis"
+
+  ARCANA-14-TEMPERANCE:
+    name: "Arcana 14 - Temperance / Metabolic Balance"
+    slug: "14-temperance-metabolic"
+    generator: "illustrations"
+    model: "nano-banana-pro"
+    tags: ["somatic-canticles", "brand-system", "premium", "crowdfunding"]
+    priority: 8
+    required: false
+    aspect: "portrait_3_4"
+    cost_usd: 0.08
+    prompt_key: "somatic_arcana_card"
+    arcana_index: "14"
+    asset_title: "Temperance"
+    biological_event: "metabolic equilibrium"
+
+  ARCANA-15-DEVIL:
+    name: "Arcana 15 - The Devil / Addiction"
+    slug: "15-devil-addiction"
+    generator: "illustrations"
+    model: "nano-banana-pro"
+    tags: ["somatic-canticles", "brand-system", "premium", "crowdfunding"]
+    priority: 8
+    required: false
+    aspect: "portrait_3_4"
+    cost_usd: 0.08
+    prompt_key: "somatic_arcana_card"
+    arcana_index: "15"
+    asset_title: "The Devil"
+    biological_event: "addiction loops"
+
+  ARCANA-16-TOWER:
+    name: "Arcana 16 - The Tower / Severance"
+    slug: "16-tower-severance"
+    generator: "illustrations"
+    model: "nano-banana-pro"
+    tags: ["somatic-canticles", "brand-system", "premium", "crowdfunding"]
+    priority: 8
+    required: false
+    aspect: "portrait_3_4"
+    cost_usd: 0.08
+    prompt_key: "somatic_arcana_card"
+    arcana_index: "16"
+    asset_title: "The Tower"
+    biological_event: "the severance event"
+
+  ARCANA-17-STAR:
+    name: "Arcana 17 - The Star / Neurogenesis"
+    slug: "17-star-neurogenesis"
+    generator: "illustrations"
+    model: "nano-banana-pro"
+    tags: ["somatic-canticles", "brand-system", "premium", "crowdfunding"]
+    priority: 8
+    required: false
+    aspect: "portrait_3_4"
+    cost_usd: 0.08
+    prompt_key: "somatic_arcana_card"
+    arcana_index: "17"
+    asset_title: "The Star"
+    biological_event: "neurogenesis"
+
+  ARCANA-18-MOON:
+    name: "Arcana 18 - The Moon / REM Sleep"
+    slug: "18-moon-rem-sleep"
+    generator: "illustrations"
+    model: "nano-banana-pro"
+    tags: ["somatic-canticles", "brand-system", "premium", "crowdfunding"]
+    priority: 8
+    required: false
+    aspect: "portrait_3_4"
+    cost_usd: 0.08
+    prompt_key: "somatic_arcana_card"
+    arcana_index: "18"
+    asset_title: "The Moon"
+    biological_event: "REM sleep"
+
+  ARCANA-19-SUN:
+    name: "Arcana 19 - The Sun / Mitochondria"
+    slug: "19-sun-mitochondria"
+    generator: "illustrations"
+    model: "nano-banana-pro"
+    tags: ["somatic-canticles", "brand-system", "premium", "crowdfunding"]
+    priority: 8
+    required: false
+    aspect: "portrait_3_4"
+    cost_usd: 0.08
+    prompt_key: "somatic_arcana_card"
+    arcana_index: "19"
+    asset_title: "The Sun"
+    biological_event: "mitochondrial radiance"
+
+  ARCANA-20-JUDGEMENT:
+    name: "Arcana 20 - Judgement / Epigenetics"
+    slug: "20-judgement-epigenetics"
+    generator: "illustrations"
+    model: "nano-banana-pro"
+    tags: ["somatic-canticles", "brand-system", "premium", "crowdfunding"]
+    priority: 8
+    required: false
+    aspect: "portrait_3_4"
+    cost_usd: 0.08
+    prompt_key: "somatic_arcana_card"
+    arcana_index: "20"
+    asset_title: "Judgement"
+    biological_event: "epigenetic awakening"
+
+  ARCANA-21-WORLD:
+    name: "Arcana 21 - The World / Homeostasis"
+    slug: "21-world-homeostasis"
+    generator: "illustrations"
+    model: "nano-banana-pro"
+    tags: ["somatic-canticles", "brand-system", "premium", "crowdfunding"]
+    priority: 8
+    required: false
+    aspect: "portrait_3_4"
+    cost_usd: 0.08
+    prompt_key: "somatic_arcana_card"
+    arcana_index: "21"
+    asset_title: "The World"
+    biological_event: "homeostasis"
+
+  ANATOMY-CARDIAC-COHERENCE:
+    name: "Anatomy Plate - Cardiac Coherence"
+    slug: "anatomy-cardiac-coherence"
+    generator: "illustrations"
+    model: "nano-banana-pro"
+    tags: ["somatic-canticles", "brand-system", "premium"]
+    priority: 7
+    required: false
+    aspect: "portrait_3_4"
+    cost_usd: 0.08
+    prompt_key: "somatic_anatomy_plate"
+    asset_title: "Cardiac Coherence"
+    anatomy_subject: "cardiac coherence field geometry"
+
+  ANATOMY-HEART-BRAIN-AXIS:
+    name: "Anatomy Plate - Heart Brain Axis"
+    slug: "anatomy-heart-brain-axis"
+    generator: "illustrations"
+    model: "nano-banana-pro"
+    tags: ["somatic-canticles", "brand-system", "premium"]
+    priority: 7
+    required: false
+    aspect: "portrait_3_4"
+    cost_usd: 0.08
+    prompt_key: "somatic_anatomy_plate"
+    asset_title: "Heart Brain Axis"
+    anatomy_subject: "heart-brain axis circuitry"
+
+  ANATOMY-KHALOREE-FIELD-ARCHITECTURE:
+    name: "Anatomy Plate - Khaloree Field Architecture"
+    slug: "anatomy-khaloree-field-architecture"
+    generator: "illustrations"
+    model: "nano-banana-pro"
+    tags: ["somatic-canticles", "brand-system", "premium"]
+    priority: 7
+    required: false
+    aspect: "portrait_3_4"
+    cost_usd: 0.08
+    prompt_key: "somatic_anatomy_plate"
+    asset_title: "Khaloree Field Architecture"
+    anatomy_subject: "Khaloree field architecture"
+
+  ANATOMY-NEURAL-DENDRITES:
+    name: "Anatomy Plate - Neural Dendrites"
+    slug: "anatomy-neural-dendrites"
+    generator: "illustrations"
+    model: "nano-banana-pro"
+    tags: ["somatic-canticles", "brand-system", "premium"]
+    priority: 7
+    required: false
+    aspect: "portrait_3_4"
+    cost_usd: 0.08
+    prompt_key: "somatic_anatomy_plate"
+    asset_title: "Neural Dendrites"
+    anatomy_subject: "luminous neural dendrite arbor"
+
+  ANATOMY-SEVERANCE-PATHWAYS:
+    name: "Anatomy Plate - Severance Pathways"
+    slug: "anatomy-severance-pathways"
+    generator: "illustrations"
+    model: "nano-banana-pro"
+    tags: ["somatic-canticles", "brand-system", "premium"]
+    priority: 7
+    required: false
+    aspect: "portrait_3_4"
+    cost_usd: 0.08
+    prompt_key: "somatic_anatomy_plate"
+    asset_title: "Severance Pathways"
+    anatomy_subject: "severance pathways through the nervous system"
+
+  ANATOMY-SOMATIC-MAPPING:
+    name: "Anatomy Plate - Somatic Mapping"
+    slug: "anatomy-somatic-mapping"
+    generator: "illustrations"
+    model: "nano-banana-pro"
+    tags: ["somatic-canticles", "brand-system", "premium"]
+    priority: 7
+    required: false
+    aspect: "portrait_3_4"
+    cost_usd: 0.08
+    prompt_key: "somatic_anatomy_plate"
+    asset_title: "Somatic Mapping"
+    anatomy_subject: "somatic mapping overlays"
+
+  ANATOMY-TRIANGULATION-ENGINE:
+    name: "Anatomy Plate - Triangulation Engine"
+    slug: "anatomy-triangulation-engine"
+    generator: "illustrations"
+    model: "nano-banana-pro"
+    tags: ["somatic-canticles", "brand-system", "premium"]
+    priority: 7
+    required: false
+    aspect: "portrait_3_4"
+    cost_usd: 0.08
+    prompt_key: "somatic_anatomy_plate"
+    asset_title: "Triangulation Engine"
+    anatomy_subject: "triangulation engine architecture"
+
+  ANATOMY-VAGAL-NERVE:
+    name: "Anatomy Plate - Vagal Nerve"
+    slug: "anatomy-vagal-nerve"
+    generator: "illustrations"
+    model: "nano-banana-pro"
+    tags: ["somatic-canticles", "brand-system", "premium"]
+    priority: 7
+    required: false
+    aspect: "portrait_3_4"
+    cost_usd: 0.08
+    prompt_key: "somatic_anatomy_plate"
+    asset_title: "Vagal Nerve"
+    anatomy_subject: "vagal nerve pathway"
+
+  COVER-ANAMNESIS-ENGINE:
+    name: "Book Cover - Anamnesis Engine"
+    slug: "book-cover-1-anamnesis-engine"
+    generator: "illustrations"
+    model: "nano-banana-pro"
+    tags: ["somatic-canticles", "brand-system", "premium", "crowdfunding"]
+    priority: 10
+    required: false
+    aspect: "portrait_3_4"
+    cost_usd: 0.08
+    prompt_key: "somatic_book_cover"
+    asset_title: "Anamnesis Engine"
+    book_title: "Anamnesis Engine"
+    cover_focus: "diagnosis, neural systems, and memory architecture"
+
+  COVER-MYOCARDIAL-CHORUS:
+    name: "Book Cover - The Myocardial Chorus"
+    slug: "book-cover-2-myocardial-chorus"
+    generator: "illustrations"
+    model: "nano-banana-pro"
+    tags: ["somatic-canticles", "brand-system", "premium", "crowdfunding"]
+    priority: 10
+    required: false
+    aspect: "portrait_3_4"
+    cost_usd: 0.08
+    prompt_key: "somatic_book_cover"
+    asset_title: "The Myocardial Chorus"
+    book_title: "The Myocardial Chorus"
+    cover_focus: "cardiac intelligence, vagal systems, and the body becoming choir"
+
+  COVER-THE-RIPENING:
+    name: "Book Cover - The Ripening"
+    slug: "book-cover-3-the-ripening"
+    generator: "illustrations"
+    model: "nano-banana-pro"
+    tags: ["somatic-canticles", "brand-system", "premium", "crowdfunding"]
+    priority: 10
+    required: false
+    aspect: "portrait_3_4"
+    cost_usd: 0.08
+    prompt_key: "somatic_book_cover"
+    asset_title: "The Ripening"
+    book_title: "The Ripening"
+    cover_focus: "systemic coherence, liberation, and the Aletheia versus Lethe choice"
+
+  LOGO-GLASS-CLASSIC:
+    name: "Logo Variant - Glass Classic"
+    slug: "logo-glass-classic"
+    generator: "identity"
+    model: "nano-banana-pro"
+    tags: ["somatic-canticles", "brand-system", "premium", "crowdfunding"]
+    priority: 9
+    required: false
+    aspect: "square_hd"
+    cost_usd: 0.08
+    prompt_key: "somatic_logo_mark"
+    asset_title: "Glass Classic"
+    logo_variant: "glass classic"
+    logo_material: "indigo cathedral glass"
+
+  LOGO-GLASS-FRACTURED:
+    name: "Logo Variant - Glass Fractured"
+    slug: "logo-glass-fractured"
+    generator: "identity"
+    model: "nano-banana-pro"
+    tags: ["somatic-canticles", "brand-system", "premium", "crowdfunding"]
+    priority: 9
+    required: false
+    aspect: "square_hd"
+    cost_usd: 0.08
+    prompt_key: "somatic_logo_mark"
+    asset_title: "Glass Fractured"
+    logo_variant: "glass fractured"
+    logo_material: "fractured stained glass"
+
+  LOGO-GLASS-GRADIENT:
+    name: "Logo Variant - Glass Gradient"
+    slug: "logo-glass-gradient"
+    generator: "identity"
+    model: "nano-banana-pro"
+    tags: ["somatic-canticles", "brand-system", "premium", "crowdfunding"]
+    priority: 9
+    required: false
+    aspect: "square_hd"
+    cost_usd: 0.08
+    prompt_key: "somatic_logo_mark"
+    asset_title: "Glass Gradient"
+    logo_variant: "glass gradient"
+    logo_material: "indigo-to-violet glass gradient"
+
+  LOGO-WAX-SEAL-BROKEN:
+    name: "Logo Variant - Wax Seal Broken"
+    slug: "logo-wax-seal-broken"
+    generator: "identity"
+    model: "nano-banana-pro"
+    tags: ["somatic-canticles", "brand-system", "premium", "crowdfunding"]
+    priority: 9
+    required: false
+    aspect: "square_hd"
+    cost_usd: 0.08
+    prompt_key: "somatic_logo_mark"
+    asset_title: "Wax Seal Broken"
+    logo_variant: "broken wax seal"
+    logo_material: "cracked indigo wax with soma gold edge"
+
+  LOGO-WAX-SEAL-CLASSIC:
+    name: "Logo Variant - Wax Seal Classic"
+    slug: "logo-wax-seal-classic"
+    generator: "identity"
+    model: "nano-banana-pro"
+    tags: ["somatic-canticles", "brand-system", "premium", "crowdfunding"]
+    priority: 9
+    required: false
+    aspect: "square_hd"
+    cost_usd: 0.08
+    prompt_key: "somatic_logo_mark"
+    asset_title: "Wax Seal Classic"
+    logo_variant: "classic wax seal"
+    logo_material: "deep indigo wax seal"
+
+  LOGO-WAX-SEAL-MELTING:
+    name: "Logo Variant - Wax Seal Melting"
+    slug: "logo-wax-seal-melting"
+    generator: "identity"
+    model: "nano-banana-pro"
+    tags: ["somatic-canticles", "brand-system", "premium", "crowdfunding"]
+    priority: 9
+    required: false
+    aspect: "square_hd"
+    cost_usd: 0.08
+    prompt_key: "somatic_logo_mark"
+    asset_title: "Wax Seal Melting"
+    logo_variant: "melting wax seal"
+    logo_material: "molten indigo wax"
+
+  LOGO-WAX-SEAL-SIGNET-RING:
+    name: "Logo Variant - Wax Seal Signet Ring"
+    slug: "logo-wax-seal-signet-ring"
+    generator: "identity"
+    model: "nano-banana-pro"
+    tags: ["somatic-canticles", "brand-system", "premium", "crowdfunding"]
+    priority: 9
+    required: false
+    aspect: "square_hd"
+    cost_usd: 0.08
+    prompt_key: "somatic_logo_mark"
+    asset_title: "Wax Seal Signet Ring"
+    logo_variant: "signet ring impression"
+    logo_material: "signet-ring wax impression"
+
+  LOGO-WAX-SEAL-TRIPLE:
+    name: "Logo Variant - Wax Seal Triple"
+    slug: "logo-wax-seal-triple"
+    generator: "identity"
+    model: "nano-banana-pro"
+    tags: ["somatic-canticles", "brand-system", "premium", "crowdfunding"]
+    priority: 9
+    required: false
+    aspect: "square_hd"
+    cost_usd: 0.08
+    prompt_key: "somatic_logo_mark"
+    asset_title: "Wax Seal Triple"
+    logo_variant: "triple wax seal"
+    logo_material: "three interlocking indigo wax seals"

@@ -1,6 +1,6 @@
 # SOMATIC CANTICLES
 
-## A Trilogy of Consciousness
+## A Trilogy of Self-Consciousness
 
 ### Book I: The Anamnesis Engine
 ### Book II: The Myocardial Chorus
@@ -13,7 +13,7 @@ All rights reserved. No part of this book may be reproduced in any form without 
 
 **ISBN:** [PENDING-ISSUANCE]
 
-*This is a work of fiction. While the somatic protocols described herein are based on real neurophysiological principles, the events and characters are products of the author's imagination.*
+*This is a work of fiction. Its physiological, symbolic, and systems language is grounded in real disciplines; its characters, institutions, and events are imagined.*
 
 ---
 

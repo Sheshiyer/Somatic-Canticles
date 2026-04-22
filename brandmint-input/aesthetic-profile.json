@@ -1,0 +1,34 @@
+{
+  "profile": {
+    "composition_density": 0.5375,
+    "temporal_register": 0.5025000000000002,
+    "material_richness": 0.5650000000000001,
+    "visual_boldness": 0.5,
+    "editorial_vs_commercial": 0.5,
+    "dominant_register": "natural-editorial",
+    "confidence": 0.04,
+    "signal_sources": [
+      "mood:clinical",
+      "mood:sacred",
+      "mood:sacred",
+      "material:wax",
+      "voice:technical"
+    ],
+    "archetype_cluster": "the philosopher-healer's peer"
+  },
+  "variant_selections": {
+    "2A": "standard_bento",
+    "2B": "oxidized_seal",
+    "2C": "stained_glass_emboss",
+    "3A": "architectural_lineup",
+    "3B": "contextual_hero",
+    "3C": "clean_closeup",
+    "4A": "technical_catalog",
+    "4B": "precision_knolling",
+    "5A": "botanical_scientific",
+    "5B": "duotone_campaign",
+    "5C": "illustrative_scene",
+    "7A": "ritual_hands",
+    "8A": "seeker_split"
+  }
+}
