@@ -4,12 +4,19 @@ This file is the active source of truth for repository execution status.
 
 ## Next Up
 
-- [ ] Run the full Book 1 coherence pass across `Chapter 01-08` and record the highest-value merge-back deltas against the compiled Book 1 surface
-- [ ] Merge back Book 1 first so the recalibrated `Chapter 08 -> Chapter 09` handoff becomes canonical before Book 2 compiled surfaces change
-- [ ] Merge back Book 2 second using the `Packet 09-15` compiled comparison notes and the completed lane-level coherence pass
+- [ ] Merge back Book 2 second using the `Packet 09-15` compiled comparison notes and the now-canonical Book 1 `Chapter 08` exit state as the controlling boundary
+- [ ] Resync `Somatic_Canticles_Trilogy_Omnibus_CLEAN.md` again after the Book 2 merge so the current hybrid `Chapter 08 -> Chapter 09` boundary disappears
 - [ ] Keep `Book 3` frozen to projection and governance validation while downstream Book 1 / Book 2 work advances
 
 ## Completed This Session
+
+### Run the full Book 1 coherence pass and merge it back to canon
+
+- [x] Audit `Chapter 01-08` for residual metadata, terminology, and register drift before merge-back
+- [x] Normalize the remaining chapter-surface drift in `Chapter 02`, `Chapter 05`, and `Chapter 06`
+- [x] Replace `02_MANUSCRIPTS/COMPILED/Book_1_Anamnesis_Engine.md` with the active `Chapter 01-08` working lane
+- [x] Sync the omnibus `Chapter 01-08` block to the new Book 1 compiled surface while intentionally leaving the old Book 2 text in place
+- [x] Confirm the recalibrated `Chapter 08` ending is now the canonical Book 1 exit state that will govern the later Book 2 merge
 
 ### Run the full Book 2 coherence pass and decide merge-back order
 
@@ -114,6 +121,14 @@ This file is the active source of truth for repository execution status.
 
 ## Review
 
+- The Book 1 coherence pass found smaller but real residual drift in the active lane: `Chapter 02` still carried an older Quoril doctrine label, and `Chapter 05-06` were missing the fuller chapter metadata frame already present elsewhere in the lane. That drift is now normalized before merge-back.
+- `02_MANUSCRIPTS/COMPILED/Book_1_Anamnesis_Engine.md` now matches the active Book 1 working lane rather than the older, more expository compiled surface.
+- The highest-value compiled Book 1 deltas are now resolved in canon:
+  - continuity: the compiled Book 1 surface now carries the active lane's chapter-to-chapter pressure instead of resetting at key turns
+  - register: the compiled surface now uses the tighter working-lane prose instead of older consciousness-theory exposition and inflated metaphysical framing
+  - role specificity: Jian, Sona, Gideon, and Corv now keep their sharper operational voices instead of flattening into shared revelation language
+  - boundary logic: the `Chapter 08` ending now preserves the faint forward-bearing and withheld anomaly notice that Book 2 `Chapter 09` is built to inherit
+- `02_MANUSCRIPTS/COMPILED/Somatic_Canticles_Trilogy_Omnibus_CLEAN.md` now carries the merged Book 1 `Chapter 01-08` surface, but it intentionally remains hybrid at the `Chapter 08 -> Chapter 09` boundary until Book 2 is merged back.
 - The Book 2 coherence pass found one real residual inconsistency: `Chapter 12-15` still carried older metadata framing (`mastery`, `harmonization`, `cathedral`, `purification`) even though the active body prose had already been tightened. That top-matter drift is now normalized.
 - The highest-value compiled Book 2 deltas are now clear across the whole lane:
   - continuity: the active lane carries exact chamber-to-chamber handoffs, while the compiled surface still resets too often at chapter openings
@@ -157,10 +172,12 @@ This file is the active source of truth for repository execution status.
   - the Book 2 lane, packet metadata, and chapter-lane README now consistently report `Chapter 09-15` as active working copies
   - Packet `01-03` mark the diagnostic architecture lane as active prose work, `04-06` mark patterned captivity as active prose work, and `07-08` mark calibration/reorientation as active prose work
   - the current `Chapter 01-08` working copies resolve on disk and differ from their source chapters only in the intended first-pass edits
+  - `02_MANUSCRIPTS/COMPILED/Book_1_Anamnesis_Engine.md` now resolves to the active `Chapter 01-08` working lane rather than the older compiled prose branch
   - Packet `01-08` are now baseline-ready for compiled comparison rather than open-ended drafting
   - Packet `09-15` are now baseline-ready for compiled comparison rather than provisional stubs
   - the Book 2 coherence pass now confirms `Chapter 09-15` share one working register at both metadata and body-prose level
   - the current `Chapter 09-15` working copies resolve on disk and differ from their source chapters only in the intended first-pass edits
+  - `02_MANUSCRIPTS/COMPILED/Somatic_Canticles_Trilogy_Omnibus_CLEAN.md` now matches the merged Book 1 surface through `Chapter 08` and remains intentionally hybrid at `Chapter 09` until the Book 2 merge lands
   - no active Book 2 packet or working chapter now uses the stale `Manas Yantra` or `Khalorēē Field Architecture programming` terminology as live prose
   - all eight Book 1 starter packet files now exist under `story/chapters/book_1_anamnesis_engine/packets/`
   - all seven Book 2 packet files now exist under `story/chapters/book_2_myocardial_chorus/packets/`

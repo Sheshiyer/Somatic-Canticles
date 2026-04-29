@@ -1,11 +1,11 @@
 # Chapter 2: Signal Transduction
 
-**Somatic Event:** Discovering the redacted `Khalorēē` module in the memory palace.
-**Character Focus:** Dr. Jian Quoril (Sahasrara Galaxy - Vedic Khalorēē Field Architecture Collective)
-**Family Context:** Quoril family succession crisis and corporate pressure
-**Political Context:** House Quoril competing with House Luminth for mapping patents
-**Territory Context:** Navigation through Memory Archives with connection to the Vine
-**Cultural Context:** Vedic Rishi Level - Grihastha (Householder) stage, developing Manas Interface
+**Somatic Event:** Discovering the authored absence at the center of a sanctuary memory without breaking the calm that conceals it.
+**Character Focus:** Dr. Jian Quoril
+**Family Context:** Quoril succession pressure trains Jian to trust clean architecture, even when the real evidence is the shape of what has been removed.
+**Political Context:** House Quoril's competition logic pressures every mystery toward extraction, ownership, and proof.
+**Territory Context:** The memory archives, where sanctuary, relation, and redaction are rendered as one load-bearing scene.
+**Cultural Context:** Jian's Grihastha discipline can stabilize the archive, but only if it reads the metadata around the void instead of trying to conquer it.
 
 ---
 

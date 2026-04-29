@@ -2,6 +2,10 @@
 
 **Somatic Event:** Witnessing the HPA-axis feedback loop as a religious ceremony in the pituitary gland.
 **Character Focus:** Dr. Corvan Luminth
+**Family Context:** Luminth interpretation can read doctrine quickly, but that same elegance risks missing what the doctrine is burying.
+**Political Context:** Control survives here by teaching vigilance as obedience and making endocrine command feel morally necessary.
+**Territory Context:** The pituitary / HPA-axis chamber, where hormone signaling behaves like liturgy and stress law.
+**Cultural Context:** Corv has to read the chamber with hermeneutic precision without turning physiology into sermon.
 
 ---
 

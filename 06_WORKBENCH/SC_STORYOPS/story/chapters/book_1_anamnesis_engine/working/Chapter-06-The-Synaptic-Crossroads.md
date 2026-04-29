@@ -2,6 +2,10 @@
 
 **Somatic Event:** Choosing between the neocortical and limbic pathways to the source trauma.
 **Character Focus:** The Jian/Sona dynamic
+**Family Context:** Quoril analysis and Vireth resonance collide before they learn how to become one usable method.
+**Political Context:** Any system that explains pain too early ends up preserving the order that produced it.
+**Territory Context:** The synaptic crossroads, where cognitive rerouting and limbic weather compete to define the truth of the wound.
+**Cultural Context:** Analysis and felt signal are both necessary here, but neither gets to claim sovereignty alone.
 
 ---
 
