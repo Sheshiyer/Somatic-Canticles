@@ -1,13 +1,32 @@
 # Packet 11: The Avatar Mutation
 
+## Scaffold Status
+
+- Packet state: active prose lane
+- Working source: `story/chapters/book_2_myocardial_chorus/working/Chapter-11-The-Avatar-Mutation.md`
+- Baseline status: ready for compiled comparison
+
 ## Source Paths
 
-- Working source: `story/chapters/book_2_myocardial_chorus/working/Chapter-11-The-Avatar-Mutation.md`
+- Canonical chapter source: `02_MANUSCRIPTS/CHAPTERS/BOOK_2_THE_MYOCARDIAL_CHORUS/Chapter-11-The-Avatar-Mutation.md`
 - Canonical compiled reference: `02_MANUSCRIPTS/COMPILED/Book_2_The_Myocardial_Chorus.md`
 
 ## Canonical Source Excerpt
 
 > "The debug field shifted and reconfigured, depositing them in a vast, three-dimensional transformation chamber: the subject's avatar evolution space."
+
+## Compiled Comparison
+
+- Compiled posture:
+  - the compiled Book 2 chapter currently mirrors the canonical chapter source and remains the older, thesis-heavy prose surface
+- Meaningful divergences:
+  - identity drift: the compiled/current source treats the core archetype like a recoverable pure form; the active lane should treat identity as continuity that survives adaptive reconfiguration
+  - dialogue drift: the compiled/current source lets the team speak in parallel abstractions; the active lane should give Sona, Jian, Gideon, and Corv distinct jobs in the mutation
+  - register drift: the compiled/current source explains compassion, synthesis, and evolution in declarative beats; the active lane should keep those ideas embodied in choices, forms, and handoffs
+  - political drift: the compiled/current source names synthesis triumphantly; the active lane should keep cross-house pressure alive without collapsing into purity-versus-contamination caricature
+- Merge-back posture:
+  - when this chapter returns to compiled surfaces, the working lane should be treated as the live source candidate
+  - the compiled chapter should be treated as a baseline mirror of the old source, not as the controlling authority for local prose choices
 
 ## Mapped Sources
 

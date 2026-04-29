@@ -1,13 +1,31 @@
 # Packet 13: The Myocardial Chorus
 
+## Scaffold Status
+
+- Packet state: active prose lane
+- Working source: `story/chapters/book_2_myocardial_chorus/working/Chapter-13-The-Myocardial-Chorus.md`
+- Baseline status: ready for compiled comparison
+
 ## Source Paths
 
-- Working source: `story/chapters/book_2_myocardial_chorus/working/Chapter-13-The-Myocardial-Chorus.md`
+- Canonical chapter source: `02_MANUSCRIPTS/CHAPTERS/BOOK_2_THE_MYOCARDIAL_CHORUS/Chapter-13-The-Myocardial-Chorus.md`
 - Canonical compiled reference: `02_MANUSCRIPTS/COMPILED/Book_2_The_Myocardial_Chorus.md`
 
 ## Canonical Source Excerpt
 
 > "Warmth met them first, then space, then a pressure so intimate it felt like being placed inside a listening organ."
+
+## Compiled Comparison
+
+- Compiled posture:
+  - the compiled Book 2 chapter is a materially older heart-field surface, heavier on explanation and uplift than the current working lane should be
+- Meaningful divergences:
+  - merger drift: the compiled chapter edges toward unified-field and compassion-unified language; the active lane must keep resonance without fusion or loss of authorship
+  - abstraction drift: the compiled chapter states heart theory in generalized terms; the active lane keeps the chorus concrete through pulse, interval, pressure, and boundary
+  - escalation drift: the compiled chapter resolves quickly into collective evolution and family naming; the active lane keeps the intimacy severe, earned, and scene-bound
+- Merge-back posture:
+  - when this chapter returns to compiled surfaces, the working lane should be treated as the live source candidate
+  - the current compiled chapter should be treated as a stale target to update, not as the controlling authority for local prose choices
 
 ## Mapped Sources
 

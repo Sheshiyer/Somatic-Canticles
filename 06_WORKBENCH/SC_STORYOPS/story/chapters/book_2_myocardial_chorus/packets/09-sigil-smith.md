@@ -1,13 +1,32 @@
 # Packet 09: The Sigil Smith
 
+## Scaffold Status
+
+- Packet state: active prose lane
+- Working source: `story/chapters/book_2_myocardial_chorus/working/Chapter-09-The-Sigil-Smith.md`
+- Baseline status: ready for compiled comparison
+
 ## Source Paths
 
-- Working source: `story/chapters/book_2_myocardial_chorus/working/Chapter-09-The-Sigil-Smith.md`
+- Canonical chapter source: `02_MANUSCRIPTS/CHAPTERS/BOOK_2_THE_MYOCARDIAL_CHORUS/Chapter-09-The-Sigil-Smith.md`
 - Canonical compiled reference: `02_MANUSCRIPTS/COMPILED/Book_2_The_Myocardial_Chorus.md`
 
 ## Canonical Source Excerpt
 
 > "The compass field merged into a single resonance field, depositing them in a vast, three-dimensional forge of pure geometry."
+
+## Compiled Comparison
+
+- Compiled posture:
+  - the compiled Book 2 chapter remains materially older than the active working lane and still carries stale terminology plus heavier explanatory overlay
+- Meaningful divergences:
+  - continuity drift: the compiled chapter opens as if the team arrives at a fresh symbolic workshop, while the active lane carries forward the Chapter `08` forward-bearing and treats the forge as the next pressure revealed by that calibration
+  - terminology drift: the compiled chapter still uses `Manas Yantra` and `Khalorēē Field Architecture programming`; the active lane uses the canonical `Manas Interface` naming and keeps sigil work framed as structural care rather than quasi-technical branding
+  - character-focus drift: the compiled chapter lets Gideon sound generically awed and gives Corv too much summarizing voice; the active lane keeps Gideon tactical and foundational, with each teammate contributing only the perception their method earns
+  - thematic drift: the compiled chapter states compassion-coding ideas as thesis language; the active lane makes the realization emerge from Gideon's decision to build a stable perimeter that does not punish contact
+- Merge-back posture:
+  - when this chapter returns to compiled surfaces, the working lane should be treated as the live source candidate
+  - the current compiled chapter should be treated as a stale target to update, not as the controlling authority for local prose choices
 
 ## Mapped Sources
 

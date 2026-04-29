@@ -1,13 +1,31 @@
 # Packet 15: The Witness Integration
 
+## Scaffold Status
+
+- Packet state: active prose lane
+- Working source: `story/chapters/book_2_myocardial_chorus/working/Chapter-15-The-Witness-Integration.md`
+- Baseline status: ready for compiled comparison
+
 ## Source Paths
 
-- Working source: `story/chapters/book_2_myocardial_chorus/working/Chapter-15-The-Witness-Integration.md`
+- Canonical chapter source: `02_MANUSCRIPTS/CHAPTERS/BOOK_2_THE_MYOCARDIAL_CHORUS/Chapter-15-The-Witness-Integration.md`
 - Canonical compiled reference: `02_MANUSCRIPTS/COMPILED/Book_2_The_Myocardial_Chorus.md`
 
 ## Canonical Source Excerpt
 
 > "The final chamber received them without grandeur. That was the first sign it was real."
+
+## Compiled Comparison
+
+- Compiled posture:
+  - the compiled Book 2 chapter currently mirrors the canonical chapter source closely, preserving the older full-realization and mastery-forward posture
+- Meaningful divergences:
+  - threshold drift: the compiled/current source presents the witness chamber like arrival; the active lane should keep it as orientation, capacity, and the beginning of harder work
+  - ontology drift: the compiled/current source edges toward collective transcendence; the active lane should keep distributed witness concrete, dialogic, and explicitly non-fusional
+  - voice drift: the compiled/current source gives everyone revelation-scale language; the active lane should tighten each lead into a distinct concluding register and keep Corv from narrating over the room
+- Merge-back posture:
+  - when this chapter returns to compiled surfaces, the working lane should be treated as the live source candidate
+  - the current compiled chapter should be treated as a baseline mirror of the old source, not as the controlling authority for local prose choices
 
 ## Mapped Sources
 

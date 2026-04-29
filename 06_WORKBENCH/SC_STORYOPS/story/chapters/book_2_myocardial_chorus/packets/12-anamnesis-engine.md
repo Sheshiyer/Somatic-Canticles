@@ -1,13 +1,31 @@
 # Packet 12: The Anamnesis Engine
 
+## Scaffold Status
+
+- Packet state: active prose lane
+- Working source: `story/chapters/book_2_myocardial_chorus/working/Chapter-12-The-Anamnesis-Engine.md`
+- Baseline status: ready for compiled comparison
+
 ## Source Paths
 
-- Working source: `story/chapters/book_2_myocardial_chorus/working/Chapter-12-The-Anamnesis-Engine.md`
+- Canonical chapter source: `02_MANUSCRIPTS/CHAPTERS/BOOK_2_THE_MYOCARDIAL_CHORUS/Chapter-12-The-Anamnesis-Engine.md`
 - Canonical compiled reference: `02_MANUSCRIPTS/COMPILED/Book_2_The_Myocardial_Chorus.md`
 
 ## Canonical Source Excerpt
 
 > "This was where recovery could become dangerous. Reboot fantasies often hid domination inside the language of cleansing."
+
+## Compiled Comparison
+
+- Compiled posture:
+  - the compiled Book 2 chapter remains an older explanatory surface that predates the tighter working-lane pass
+- Meaningful divergences:
+  - reset-theater drift: the compiled chapter leans on total reboot, purification, and rebirth language; the active lane treats restart as hazardous recovery where baseline return must not become erasure
+  - register drift: the compiled chapter relies on collective-voice exposition and systems glossary pressure; the active lane keeps the chamber severe, embodied, and dialogue-led
+  - team-function drift: the compiled chapter tends to flatten the team into a unified revelation surface; the active lane keeps Corv, Jian, Sona, and Gideon distinct inside one disciplined intervention
+- Merge-back posture:
+  - when this chapter returns to compiled surfaces, the working lane should be treated as the live source candidate
+  - the current compiled chapter should be treated as a stale target to update, not as the controlling authority for local prose choices
 
 ## Mapped Sources
 

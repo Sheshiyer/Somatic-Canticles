@@ -4,11 +4,19 @@ This file is the active source of truth for repository execution status.
 
 ## Next Up
 
-- [ ] Run a Book 1 coherence pass across `Chapter 01-08` before opening any Book 2 prose lane
-- [ ] Decide whether the next execution step is compiled Book 1 merge-back or Book 2 Packet `09` activation
-- [ ] Keep `Book 3` frozen to projection and governance validation while downstream Book 1 work advances
+- [ ] Run a full Book 2 coherence pass across `Chapter 09-15` and record any lane-level terminology, voice, or continuity drift before merge-back
+- [ ] Compare the staged `Chapter 09-15` working lane against the compiled Book 2 surface and log the highest-value merge-back deltas
+- [ ] Return to the Book 1 coherence pass and decide whether Book 1 or Book 2 should merge back first
+- [ ] Keep `Book 3` frozen to projection and governance validation while downstream Book 1 / Book 2 work advances
 
 ## Completed This Session
+
+### Batch-execute Book 2 Packet 09-15 and serialize the lane
+
+- [x] Promote Packet `09` into an active prose lane and rewrite `Chapter 09` around Gideon's structural-care logic
+- [x] Batch-execute Packets `10-15` in disjoint parallel chapter groups without crossing file ownership
+- [x] Mark Packet `09-15` active and baseline-ready for compiled comparison
+- [x] Reconcile the Book 2 lane so `Chapter 09-15` now operate as one active working surface
 
 ### Batch-execute Packet 06-08 in parallel
 
@@ -99,6 +107,9 @@ This file is the active source of truth for repository execution status.
 
 ## Review
 
+- `06_WORKBENCH/SC_STORYOPS/story/chapters/book_2_myocardial_chorus/README.md` and `06_WORKBENCH/SC_STORYOPS/story/chapters/README.md` now agree that Book 2 is an active packet lane rather than a provisional stub.
+- `06_WORKBENCH/SC_STORYOPS/story/chapters/book_2_myocardial_chorus/packets/09-15` now all carry active-prose metadata, canonical source references, compiled-surface comparison notes, and `ready for compiled comparison` baseline status.
+- `06_WORKBENCH/SC_STORYOPS/story/chapters/book_2_myocardial_chorus/working/Chapter-09-The-Sigil-Smith.md` through `Chapter-15-The-Witness-Integration.md` now form a complete first-pass Book 2 working lane with differentiated chapter logic instead of carried-over compiled exposition.
 - `tasks/README.md` now defines the planning contract:
   - `tasks/todo.md` = active task tracker
   - `tasks/lessons.md` = recurring lessons log
@@ -120,6 +131,7 @@ This file is the active source of truth for repository execution status.
 - Packet `07` is now promoted into an active prose lane with a `working/Chapter-07-The-Breathfield-Weaver.md` copy, keeping regulation physiological and exposing the healer-shadow beat where imposed calm becomes suppression.
 - Packet `08` is now promoted into an active prose lane with a `working/Chapter-08-The-Compass-Calibration.md` copy, keeping compass/compassion as an operational discovery rather than a slogan.
 - The Book 1 lane now consistently reports `Chapter 01-08` as active working copies, with the full book converted into the first-pass working lane.
+- The Book 2 lane now consistently reports `Chapter 09-15` as active working copies, with the full book converted into the first-pass working lane.
 - Packet `03` now treats Gideon's threshold ethics, the Pattern Weavers, and the repair-versus-replacement distinction as the controlling local posture for any later merge-back.
 - `06_WORKBENCH/SC_STORYOPS/story/chapters/book_3_the_ripening/README.md` now makes the late-trilogy freeze explicit instead of implying it.
 - Root `README.md` now points to `tasks/todo.md` and `tasks/lessons.md`.
@@ -127,10 +139,15 @@ This file is the active source of truth for repository execution status.
 - Root `PLAN.md` is now a strategic sequencing snapshot rather than a live checklist.
 - Verification:
   - the Book 1 lane, packet board, and packet metadata now consistently report `Chapter 01-08` as active working copies
+  - the Book 2 lane, packet metadata, and chapter-lane README now consistently report `Chapter 09-15` as active working copies
   - Packet `01-03` mark the diagnostic architecture lane as active prose work, `04-06` mark patterned captivity as active prose work, and `07-08` mark calibration/reorientation as active prose work
   - the current `Chapter 01-08` working copies resolve on disk and differ from their source chapters only in the intended first-pass edits
   - Packet `01-08` are now baseline-ready for compiled comparison rather than open-ended drafting
+  - Packet `09-15` are now baseline-ready for compiled comparison rather than provisional stubs
+  - the current `Chapter 09-15` working copies resolve on disk and differ from their source chapters only in the intended first-pass edits
+  - no active Book 2 packet or working chapter now uses the stale `Manas Yantra` or `Khalorēē Field Architecture programming` terminology as live prose
   - all eight Book 1 starter packet files now exist under `story/chapters/book_1_anamnesis_engine/packets/`
+  - all seven Book 2 packet files now exist under `story/chapters/book_2_myocardial_chorus/packets/`
   - every packet's canonical chapter source and compiled reference path resolves on disk
   - the story-level README, chapter-lane README, projection board, Book 1 lane, and Book 3 lane now agree on `Book 1` scaffolding and `Book 3` freeze state
   - every world-bible file cited in the new authority registry exists

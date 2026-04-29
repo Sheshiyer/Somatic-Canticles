@@ -1,13 +1,32 @@
 # Packet 10: The Debug Protocol
 
+## Scaffold Status
+
+- Packet state: active prose lane
+- Working source: `story/chapters/book_2_myocardial_chorus/working/Chapter-10-The-Debug-Protocol.md`
+- Baseline status: ready for compiled comparison
+
 ## Source Paths
 
-- Working source: `story/chapters/book_2_myocardial_chorus/working/Chapter-10-The-Debug-Protocol.md`
+- Canonical chapter source: `02_MANUSCRIPTS/CHAPTERS/BOOK_2_THE_MYOCARDIAL_CHORUS/Chapter-10-The-Debug-Protocol.md`
 - Canonical compiled reference: `02_MANUSCRIPTS/COMPILED/Book_2_The_Myocardial_Chorus.md`
 
 ## Canonical Source Excerpt
 
 > "The sigil forge faded into the background geometry, replaced by a vast, three-dimensional debug interface."
+
+## Compiled Comparison
+
+- Compiled posture:
+  - the compiled Book 2 chapter currently mirrors the canonical chapter source and remains the older, more explanatory prose surface
+- Meaningful divergences:
+  - character-focus drift: the compiled/current source centers Corv in premise but diffuses his actual method into generalized revelation; the active lane should keep him exact, procedural, and local to sequence
+  - dialogue drift: the compiled/current source gives Sona, Jian, and Gideon broadly interchangeable support lines; the active lane should give each a distinct operational function inside the repair
+  - register drift: the compiled/current source states compassion, witness, and evolution logic directly; the active lane should let disciplined method produce those meanings through scene action
+  - escalation drift: the compiled/current source pushes quickly into manifesto and schism language; the active lane should keep the Pattern Breaker pressure present but contained to this intervention
+- Merge-back posture:
+  - when this chapter returns to compiled surfaces, the working lane should be treated as the live source candidate
+  - the compiled chapter should be treated as a baseline mirror of the old source, not as the controlling authority for local prose choices
 
 ## Mapped Sources
 

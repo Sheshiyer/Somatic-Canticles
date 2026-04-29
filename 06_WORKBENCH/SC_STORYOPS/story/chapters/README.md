@@ -11,5 +11,5 @@ Current rule:
 Status:
 
 - `book_1_anamnesis_engine/`: starter packet lane open; `Chapter 01-08` working copies active
-- `book_2_myocardial_chorus/`: provisional packet lane retained from the earlier setup pass
+- `book_2_myocardial_chorus/`: active packet lane; `Chapter 09-15` working copies active and baseline-ready for compiled comparison
 - `book_3_the_ripening/`: explicitly frozen to projection and governance validation
