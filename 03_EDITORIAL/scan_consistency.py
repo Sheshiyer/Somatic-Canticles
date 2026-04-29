@@ -1,6 +1,6 @@
-
 import os
 import re
+from pathlib import Path
 
 TERM_PATTERNS = [
     (r"Khaloree", "Khalorēē"),
@@ -25,17 +25,17 @@ BOOKS = [
     "02_MANUSCRIPTS/COMPILED/Book_3_The_Ripening.md"
 ]
 
-BASE_PATH = "/Volumes/madara/2026/twc-vault/01-Projects/Somatic-Canticles"
+REPO_ROOT = Path(__file__).resolve().parents[1]
 
 report = ["# MANUSCRIPT CONSISTENCY REPORT\n"]
 
 for book_rel_path in BOOKS:
-    path = os.path.join(BASE_PATH, book_rel_path)
-    if not os.path.exists(path):
+    path = REPO_ROOT / book_rel_path
+    if not path.exists():
         report.append(f"## {book_rel_path}\n**FILE NOT FOUND**\n")
         continue
 
-    report.append(f"## {os.path.basename(path)}\n")
+    report.append(f"## {path.name}\n")
     
     with open(path, 'r', encoding='utf-8') as f:
         lines = f.readlines()
@@ -69,7 +69,8 @@ for book_rel_path in BOOKS:
     else:
         report.append(f"\nTotal potential issues: {issues_found}\n")
 
-output_path = os.path.join(BASE_PATH, "03_EDITORIAL/consistency_report.md")
+output_path = REPO_ROOT / "03_EDITORIAL" / "consistency_report.md"
+output_path.parent.mkdir(parents=True, exist_ok=True)
 with open(output_path, 'w', encoding='utf-8') as f:
     f.writelines(report)
 

@@ -5,9 +5,14 @@ This file is the active source of truth for repository execution status.
 ## Next Up
 
 - [ ] Keep `Book 3` frozen to projection and governance validation while downstream Book 1 / Book 2 work advances
-- [ ] If automated compiled-surface audits matter for the next phase, repair `03_EDITORIAL/scan_consistency.py` so it writes inside this checkout instead of a stale absolute path
 
 ## Completed This Session
+
+### Repair the compiled-surface audit helper
+
+- [x] Patch `03_EDITORIAL/scan_consistency.py` so it resolves the current repo root instead of a stale absolute workspace path
+- [x] Regenerate `03_EDITORIAL/consistency_report.md` inside this checkout
+- [x] Verify the first successful run against the current compiled books
 
 ### Merge Book 2 back into canonical surfaces
 
@@ -128,10 +133,11 @@ This file is the active source of truth for repository execution status.
 
 ## Review
 
+- `03_EDITORIAL/scan_consistency.py` now resolves paths relative to the current checkout and writes its report back into `03_EDITORIAL/consistency_report.md` instead of a stale absolute path outside the repo.
+- The repaired audit helper now runs successfully against the current compiled trilogy surfaces, and the regenerated consistency report currently finds no terminology issues in Book 1, Book 2, or Book 3.
 - `02_MANUSCRIPTS/COMPILED/Book_2_The_Myocardial_Chorus.md` now matches the active Book 2 working lane rather than the older compiled prose branch.
 - `02_MANUSCRIPTS/COMPILED/Somatic_Canticles_Trilogy_Omnibus_CLEAN.md` is no longer hybrid at the Book 1 / Book 2 boundary; it now carries the merged Book 1 `Chapter 08` exit directly into the merged Book 2 `Chapter 09` opening.
 - The omnibus also now restores a proper `# Chapter 16: The Wilt` heading break instead of leaving that transition glued to the end of old Book 2 prose.
-- Automated consistency scanning is still not trustworthy in this checkout without repair: `03_EDITORIAL/scan_consistency.py` failed because it writes to a stale absolute output path outside the repo.
 - The Book 1 coherence pass found smaller but real residual drift in the active lane: `Chapter 02` still carried an older Quoril doctrine label, and `Chapter 05-06` were missing the fuller chapter metadata frame already present elsewhere in the lane. That drift is now normalized before merge-back.
 - `02_MANUSCRIPTS/COMPILED/Book_1_Anamnesis_Engine.md` now matches the active Book 1 working lane rather than the older, more expository compiled surface.
 - The highest-value compiled Book 1 deltas are now resolved in canon:
