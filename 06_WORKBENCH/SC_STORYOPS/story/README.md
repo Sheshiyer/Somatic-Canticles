@@ -24,30 +24,40 @@ It is intentionally separate from the canonical manuscript surfaces:
    - `/plan`
    - `/tasks`
    - only then book or chapter assignment
+6. World-bible files inherit their use posture from `intake/world_bible_authority_registry.md`; do not treat directory inclusion as automatic canon.
+
+Operational note:
+
+- `tasks/todo.md` is the active repository task board.
+- `tasks/lessons.md` is the active lessons log.
 
 ## Canonical Inputs
 
-- `03_EDITORIAL/TRILOGY_EDITORIAL_DOCTRINE.md`
-- `03_EDITORIAL/TRILOGY_VOCABULARY_REPLACEMENT_MAP.md`
-- `03_EDITORIAL/TRILOGY_BOOK3_TONAL_CALIBRATION.md`
+- `03_EDITORIAL/EDITORIAL_BRIEF.md`
+- `03_EDITORIAL/03_STYLE_GUIDE/MASTER_STYLE_SHEET.md`
+- `03_EDITORIAL/TERMINOLOGY_CLEANUP_PLAN.md`
+- `03_EDITORIAL/Book_3_Editorial_Pass.md`
 - `01_WORLD_BIBLE/01_PROTOCOLS_AND_SYSTEMS/01_BIOLOGICAL_STYLE_GUIDE.md`
 - `01_WORLD_BIBLE/02_CHARACTER_SYSTEM/02-SOMANAUT-TEAM-ROSTER.md`
 - `01_WORLD_BIBLE/02_CHARACTER_SYSTEM/TRILOGY-CHARACTER-ARCS.md`
 - `01_WORLD_BIBLE/04_WORLD_BUILDING/04_TAROT_BIOLOGICAL_EVENT_MAP.md`
-- `brandmint-input/somatic-canticles/generation-manifest.json`
+- `input_availability.md`
+- `image_index.md`
+- `intake/image_principles.md`
 - `/Users/sheshnarayaniyer/Documents/noesis/Research/Excerpts.md`
 - `/Users/sheshnarayaniyer/Documents/noesis/Research/Images.md`
 
 ## Extended Intake Inputs
 
-- `/Volumes/madara/2026/twc-vault/01-Projects/synchronocities-blog/src/content/posts/`
-- `/Volumes/madara/2026/twc-vault/01-Projects/synchronocities-blog/public/cards/`
+- mounted external `03-Resources` inputs under `/Volumes/madara/2026/twc-vault/03-Resources/`
+- Synchronocities article/card paths are currently unavailable in this checkout; use `intake/blog_article_registry.md` and `image_index.md` as the local handle layer until that corpus is remounted
 
 ## Current Execution Priority
 
-- Current cycle: trilogy-wide `v0.2` intake and extraction
-- First loop: `clarify -> vault/image/lore extraction -> concept projection -> book assignment`
+- Current cycle: trilogy-wide `v0.2` intake remains the governing layer, with `Book 1` now open for starter packet scaffolding
+- First loop: `clarify -> vault/image/lore extraction -> concept projection -> book assignment -> starter packet scaffolding where evidence is strong enough`
 - Current proof condition: the workbench can explain how principles from editorial doctrine, world bible, `03-Resources`, and external Noesis images map into the trilogy before those materials are locked to specific books or chapters
+- `Book 3` remains frozen to projection and governance validation even after `Book 1` opens for scaffolding
 
 ## Layout
 
@@ -62,10 +72,12 @@ It is intentionally separate from the canonical manuscript surfaces:
 - `clarify_log.md`: contradictions, decisions, and blockers
 - `source_lattice.md`: trilogy source-domain lattice
 - `image_index.md`: external and Brandmint image registry
+- `input_availability.md`: repo-local versus external input status ledger
 - `intake/README.md`: trilogy-wide intake operating layer
 - `intake/vault_source_domains.md`: vault-domain extraction board
 - `intake/concept_registry.md`: concept and principle registry
 - `intake/lore_worldbuilding_map.md`: lore and worldbuilding authority map
+- `intake/world_bible_authority_registry.md`: explicit world-bible authority and safe-use ledger
 - `intake/image_principles.md`: extracted image principles and tagging rules
 - `intake/noesis_image_cluster_registry.md`: broader external image-cluster semantics
 - `intake/blog_article_registry.md`: high-signal Synchronocities article clusters and use rules

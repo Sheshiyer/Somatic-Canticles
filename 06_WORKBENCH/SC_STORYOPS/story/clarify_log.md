@@ -62,6 +62,14 @@
 - Impact:
   - existing Book 2 packets are provisional support material, not the governing scope of the workbench.
 
+### CL-007: World-bible authority gate
+
+- Decision: `intake/world_bible_authority_registry.md` is the operating ledger for safe world-bible use.
+- Impact:
+  - `00_CORE_FOUNDATION`, `01_PROTOCOLS_AND_SYSTEMS`, and `02_CHARACTER_SYSTEM` may constrain concepts and packets directly,
+  - `03_TECHNOLOGY` and `04_WORLD_BUILDING` require triangulation before they become hard scene promises,
+  - visualization, meta, and machine-index surfaces are support-only until promoted.
+
 ## Open Blockers
 
 ### BL-001: Downstream copy drift
@@ -69,10 +77,10 @@
 - Problem: repo-adjacent marketing and wiki docs still claim `22 chapters` and older production states.
 - Needed next action: one targeted downstream copy audit after this workbench setup is stable.
 
-### BL-002: World-bible ratification pass
+### BL-002: World-bible authority registry adoption
 
-- Problem: the world bible still contains useful but mixed-status material.
-- Needed next action: create a canon registry or status legend before using lower-tier docs as hard inputs for prose rewrites.
+- Problem: lower-tier world-bible docs can still be misused if packets cite them without the new authority gate.
+- Needed next action: enforce `intake/world_bible_authority_registry.md` during downstream packet work, especially in `Book 3`.
 
 ### BL-003: External image semantics
 

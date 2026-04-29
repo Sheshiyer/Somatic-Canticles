@@ -10,6 +10,6 @@ Current rule:
 
 Status:
 
-- `book_1_anamnesis_engine/`: scaffolded, not yet packeted
+- `book_1_anamnesis_engine/`: starter packet lane open; `Chapter 01-05` working copies active
 - `book_2_myocardial_chorus/`: provisional packet lane retained from the earlier setup pass
-- `book_3_the_ripening/`: scaffolded, not yet packeted
+- `book_3_the_ripening/`: explicitly frozen to projection and governance validation

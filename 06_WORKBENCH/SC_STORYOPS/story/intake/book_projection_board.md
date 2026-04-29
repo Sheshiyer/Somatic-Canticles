@@ -34,12 +34,15 @@ Use this board to answer:
 ## Current Decision
 
 - `Book 1` now has a defensible intake spine: diagnosis, patterned captivity, and bodily system legibility.
+- `Book 1` may move into starter packet scaffolding as long as packets remain evidence-backed and do not open prose rewrites yet.
 - `Book 2` now has a defensible ownership zone: witness-as-method, developmental continuity, heart coherence, and three-body governance.
 - `Book 3` now has a defensible ownership zone: structural lie, false perfection, severance, and authored reality.
+- `Book 3` remains projection-only until macro-governance claims and the thinnest image families are strong enough for packet-level downstream work.
 - Cross-trilogy families remain active, but they are no longer floating without placement logic.
 
 ## Remaining Lock Gates
 
-- Expand the Noesis sister-image captioning around each sampled cluster.
-- Tighten lore authority where Book 3 macro-governance depends on mixed-status world-bible material.
-- Only then decide which per-book lanes are ready to move from intake-backed projection into full packet scaffolding.
+- `Book 1` may scaffold packets now, but should not open `working/` chapter copies until a packet is ready for an actual prose pass.
+- `Book 3` must triangulate macro-governance claims through `hard authority` plus corroborating support as defined in `world_bible_authority_registry.md`.
+- `Book 3` still needs deeper sister-image coverage for `Strategic deception layers` and `Cellular polity / authored reality`.
+- Do not treat `Book 1` scaffolding as blanket permission to packet `Book 3`.

@@ -13,7 +13,7 @@
 
 - `01_WORLD_BIBLE/00_CORE_FOUNDATION/01_KEY_CONCEPTS.md`
 - `01_WORLD_BIBLE/01_PROTOCOLS_AND_SYSTEMS/01_BIOLOGICAL_STYLE_GUIDE.md`
-- `03_EDITORIAL/TRILOGY_BOOK3_TONAL_CALIBRATION.md`
+- `03_EDITORIAL/Book_3_Editorial_Pass.md`
 - `/Volumes/madara/2026/twc-vault/03-Resources/Content/Articles/Substack/consciousness-legacy-code.md`
 - `/Volumes/madara/2026/twc-vault/03-Resources/Research/Meru/Man-Bites-Dog-Contrast.md`
 

@@ -13,7 +13,7 @@
 
 - `01_WORLD_BIBLE/02_CHARACTER_SYSTEM/TRILOGY-CHARACTER-ARCS.md`
 - `01_WORLD_BIBLE/00_CORE_FOUNDATION/02_DEFINITIONS.md`
-- `03_EDITORIAL/TRILOGY_BOOK3_TONAL_CALIBRATION.md`
+- `03_EDITORIAL/Book_3_Editorial_Pass.md`
 - `/Volumes/madara/2026/twc-vault/03-Resources/Philosophy-Metaphysics/TWC-Destiny-and-Freedom.md`
 - `/Volumes/madara/2026/twc-vault/03-Resources/Philosophy/Esoteric-Philosophy/TWC-The-Envisionary-Ego-The-Soul-of-The-Future.md`
 

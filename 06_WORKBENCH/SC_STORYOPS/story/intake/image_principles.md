@@ -11,13 +11,18 @@ The goal is not to archive every screenshot. The goal is to extract reusable nar
 | Family | Principle | Why It Matters |
 | --- | --- | --- |
 | Witness gradients | Consciousness must be discriminated by level, not treated as one glowing abstraction | protects the trilogy from flattening witness, awareness, and intelligence into the same register |
+| Layered planes | Consciousness and embodiment should be rendered as nested planes or interfaces rather than vague vertical mysticism | keeps ontology operational and supports body-to-world continuity |
 | Compassionate witness | Witness should function like active sonar: a disciplined sensing instrument, not a passive stare | sharpens Corv/Gideon-style method and prevents compassion from collapsing into softness |
 | Cardiac resonance | Coherence is embodied interval and measurable relation, not sentiment | keeps heart language physiological and field-based |
 | Pain as information | Diagnostic contact requires signal respect, not premature soothing | stabilizes debug scenes and clinical compassion |
+| Sensory gating and predictive learning | Detection, reward prediction, and reflex training shape what a system can hear before conscious interpretation | keeps pain/debug scenes physiological and prevents false compassion or gamified agency |
 | Concealed / revealed truth | Truth can be hidden by system framing without ceasing to be true; falsehood often rides on concealment and mislabeling | supports structural-lie work, false-perfection offers, and downstream code-flaw revelations |
+| Memory collapse | Memory is selective reconstruction under compression, not a pristine archive | helps anamnesis and witness scenes avoid naive recall logic |
+| Invoke/respond loops | Intervention should be pictured as bidirectional circuitry, not one-way declaration | supports witness method, regulation, and consent-aware protocol scenes |
 | Developmental mutation | Growth is continuity through transformation | supports identity change without purity ideology |
 | Deception layers | Distortion operates across scales at once | useful for antagonism, governance, and false-order systems |
 | Developmental staging | Some transformations should be shown as germinal, embryonic, and fetal phases rather than instantaneous leaps | helps the trilogy honor sequence, incubation, and staged embodiment |
+| Mythic recurrence and remnant continuity | Civilizational renewal often travels by recurring carriers, preserved remnants, and guided passage through collapse | useful for late-trilogy renewal logic and cataclysm-survival pressure |
 | Tetramorphic integration | Distinct symbolic or functional powers can belong to one integrated body without losing differentiation | useful for macro-governance, four-force synthesis, and late-trilogy authored order |
 | Diagrammatic stack cards | Layered systems should be pictured as readable strata, flows, and interfaces rather than as mood-only abstraction | useful for making trilogy concepts operational without flattening them |
 | Myth-tech diagnostic cards | Ornate symbolic frames can still carry measurable labels, protocols, and failure modes | useful for bridging arcana/sigil aesthetics with scientific or protocol clarity |

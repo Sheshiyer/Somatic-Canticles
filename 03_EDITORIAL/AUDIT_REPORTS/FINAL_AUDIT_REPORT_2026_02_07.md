@@ -3,6 +3,11 @@
 **Auditor:** Aletheos Narrative Weaver (Simulated)
 **Scope:** Full Trilogy Omnibus (`Somatic_Canticles_Trilogy_Omnibus_CLEAN.md`)
 
+> Historical scope note:
+> This report records the omnibus/export posture as of February 7, 2026.
+> It is not the active project-phase tracker.
+> Current repository operations run through `SC_STORYOPS` trilogy-wide `v0.2` intake and mapping, where manuscript/export readiness and research/image-mapping completeness are tracked separately.
+
 ## 1. EXECUTIVE SUMMARY
 **Status:** [ARTIFACT READY]
 The trilogy has successfully transitioned from a collection of drafts to a unified, production-ready artifact. The narrative arc, somatic voice evolution, and world-building consistency have been validated. The file structure is clean, and the Omnibus is ready for final export.

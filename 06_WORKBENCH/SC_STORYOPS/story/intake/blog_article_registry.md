@@ -6,6 +6,8 @@ This registry treats `01-Projects/synchronocities-blog/` as an explicit intake s
 
 The blog is not canon. It is a synthesis surface: an adjacent corpus that compresses vault-scale research into article-sized architectures, diagnostic frames, and visual handles. Use it to sharpen principles and translation layers, not to overrule trilogy doctrine.
 
+The original Synchronocities project path is not mounted in this checkout. Treat this file as the local handle registry for that source family until the external corpus is restored.
+
 ## High-Signal Clusters
 
 | Cluster | Key Posts | Extracted Use | Visual Handles | Status |

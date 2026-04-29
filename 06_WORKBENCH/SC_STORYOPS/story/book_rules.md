@@ -8,13 +8,14 @@ These are the active rules for staging work inside `SC_STORYOPS`. They govern tr
 
 When sources disagree, use this order:
 
-1. `03_EDITORIAL/TRILOGY_EDITORIAL_DOCTRINE.md`
-2. `03_EDITORIAL/TRILOGY_VOCABULARY_REPLACEMENT_MAP.md`
-3. `03_EDITORIAL/TRILOGY_BOOK3_TONAL_CALIBRATION.md`
-4. `01_WORLD_BIBLE/01_PROTOCOLS_AND_SYSTEMS/01_BIOLOGICAL_STYLE_GUIDE.md`
-5. current canonical manuscripts in `02_MANUSCRIPTS/COMPILED/`
-6. source chapter files in `02_MANUSCRIPTS/CHAPTERS/`
-7. older planning and legacy world-bible surfaces
+1. `03_EDITORIAL/EDITORIAL_BRIEF.md`
+2. `03_EDITORIAL/03_STYLE_GUIDE/MASTER_STYLE_SHEET.md`
+3. `03_EDITORIAL/TERMINOLOGY_CLEANUP_PLAN.md`
+4. `03_EDITORIAL/Book_3_Editorial_Pass.md`
+5. `01_WORLD_BIBLE/01_PROTOCOLS_AND_SYSTEMS/01_BIOLOGICAL_STYLE_GUIDE.md`
+6. current canonical manuscripts in `02_MANUSCRIPTS/COMPILED/`
+7. source chapter files in `02_MANUSCRIPTS/CHAPTERS/`
+8. older planning and legacy world-bible surfaces
 
 ## Staging Rules
 
@@ -50,6 +51,7 @@ When sources disagree, use this order:
 - Every substantive addition must be traceable to at least one project source and one conceptual or research source.
 - `03-Resources` and the external Noesis research folder are input infrastructure, not reader-facing citations.
 - Adjacent synthesis sources such as `01-Projects/synchronocities-blog/` can sharpen compression language and system legibility, but they do not outrank trilogy doctrine, world-bible canon, or manuscript surfaces.
+- Check `input_availability.md` before citing an upstream source family that may be external or unavailable in this checkout.
 - If a scene uses image-derived thinking, the packet must point to the relevant image rows in `image_index.md`.
 - If a scene depends on visual/tarot/anatomy logic, the packet must note whether the link is:
   - canonical,
