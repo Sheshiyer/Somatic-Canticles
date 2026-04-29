@@ -1,11 +1,11 @@
 # Chapter 12: The Anamnesis Engine
 
-**Somatic Event:** Complete system reboot and witness mastery through integrated Khalorēē protocols (Death XIII - Cellular Regeneration Phase)
-**Character Focus:** System Reboot & Purification
-**Family Context:** Emerging team-family dynamic replacing biological lineage
-**Political Context:** Light-Resonance Alliance monitoring the Forbidden Synthesis
-**Territory Context:** The Anamnesis Reboot Chamber (Cellular Regeneration Space)
-**Cultural Context:** Vedic resonance protocols
+**Somatic Event:** Restoring baseline without turning recovery into erasure, cleansing theater, or ceremonial reset.
+**Character Focus:** Collective restart under pressure
+**Family Context:** The team begins replacing bloodline authorization with functional kinship earned inside repair.
+**Political Context:** Light-Resonance Alliance scrutiny shadows any restart that could be mistaken for synthesis drift or covert authorship.
+**Territory Context:** The stripped Anamnesis Engine, where reboot routines and emergency compensations compete to define baseline.
+**Cultural Context:** Restart here is sequence discipline, not purity theater.
 
 ---
 

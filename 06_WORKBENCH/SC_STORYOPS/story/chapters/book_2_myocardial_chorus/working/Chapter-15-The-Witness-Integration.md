@@ -1,11 +1,11 @@
 # Chapter 15: The Witness Integration
 
-**Somatic Event:** Witness-field stabilization through distributed observation and disciplined relation
-**Character Focus:** Collective witness under threshold conditions
-**Family Context:** The team learning how to hold shared observation without loss of self
-**Political Context:** Distributed governance after emergency coordination
-**Territory Context:** The Witness Cathedral (Integration Space)
-**Cultural Context:** Shared perception as practice, not transcendence
+**Somatic Event:** Stabilizing distributed witness so observation becomes exchange without collapsing into a single frame.
+**Character Focus:** Collective witness at threshold
+**Family Context:** The team has to learn that shared seeing only holds if each member keeps authorship and answerability.
+**Political Context:** Distributed governance after coordination has to prove it will not become another throne.
+**Territory Context:** The distributed witness chamber, where observation must become exchange without surrender.
+**Cultural Context:** Shared perception here is disciplined practice, not transcendence.
 
 ---
 

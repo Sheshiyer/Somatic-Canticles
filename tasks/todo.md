@@ -4,12 +4,19 @@ This file is the active source of truth for repository execution status.
 
 ## Next Up
 
-- [ ] Run a full Book 2 coherence pass across `Chapter 09-15` and record any lane-level terminology, voice, or continuity drift before merge-back
-- [ ] Compare the staged `Chapter 09-15` working lane against the compiled Book 2 surface and log the highest-value merge-back deltas
-- [ ] Return to the Book 1 coherence pass and decide whether Book 1 or Book 2 should merge back first
+- [ ] Run the full Book 1 coherence pass across `Chapter 01-08` and record the highest-value merge-back deltas against the compiled Book 1 surface
+- [ ] Merge back Book 1 first so the recalibrated `Chapter 08 -> Chapter 09` handoff becomes canonical before Book 2 compiled surfaces change
+- [ ] Merge back Book 2 second using the `Packet 09-15` compiled comparison notes and the completed lane-level coherence pass
 - [ ] Keep `Book 3` frozen to projection and governance validation while downstream Book 1 / Book 2 work advances
 
 ## Completed This Session
+
+### Run the full Book 2 coherence pass and decide merge-back order
+
+- [x] Audit `Chapter 09-15` for lane-level terminology, voice, metadata, and continuity drift
+- [x] Normalize the residual chapter-surface drift in `Chapter 12-15` so the Book 2 lane presents one active prose surface
+- [x] Compare the staged `Chapter 09-15` lane against the compiled Book 2 surface and confirm the highest-value merge-back deltas
+- [x] Decide merge-back order: Book 1 first, Book 2 second
 
 ### Batch-execute Book 2 Packet 09-15 and serialize the lane
 
@@ -107,6 +114,14 @@ This file is the active source of truth for repository execution status.
 
 ## Review
 
+- The Book 2 coherence pass found one real residual inconsistency: `Chapter 12-15` still carried older metadata framing (`mastery`, `harmonization`, `cathedral`, `purification`) even though the active body prose had already been tightened. That top-matter drift is now normalized.
+- The highest-value compiled Book 2 deltas are now clear across the whole lane:
+  - continuity: the active lane carries exact chamber-to-chamber handoffs, while the compiled surface still resets too often at chapter openings
+  - terminology: the active lane removes stale doctrinal/procedural labels and uses the current `SC_STORYOPS` register
+  - voice: the active lane gives each lead a harder, role-specific function instead of letting revelation language flatten everyone into one chorus
+  - posture: the active lane consistently rejects premature mastery, merger, coronation, and sermonizing in favor of threshold, procedure, and earned coordination
+- Merge-back order is now decided: Book 1 should merge first, then Book 2.
+- The reason is structural rather than sentimental: the active Book 2 opening in `Chapter 09` depends on the recalibrated `Chapter 08` exit state from Book 1, so merging Book 2 first would preserve internal Book 2 coherence while still leaving the compiled cross-book handoff stale.
 - `06_WORKBENCH/SC_STORYOPS/story/chapters/book_2_myocardial_chorus/README.md` and `06_WORKBENCH/SC_STORYOPS/story/chapters/README.md` now agree that Book 2 is an active packet lane rather than a provisional stub.
 - `06_WORKBENCH/SC_STORYOPS/story/chapters/book_2_myocardial_chorus/packets/09-15` now all carry active-prose metadata, canonical source references, compiled-surface comparison notes, and `ready for compiled comparison` baseline status.
 - `06_WORKBENCH/SC_STORYOPS/story/chapters/book_2_myocardial_chorus/working/Chapter-09-The-Sigil-Smith.md` through `Chapter-15-The-Witness-Integration.md` now form a complete first-pass Book 2 working lane with differentiated chapter logic instead of carried-over compiled exposition.
@@ -144,6 +159,7 @@ This file is the active source of truth for repository execution status.
   - the current `Chapter 01-08` working copies resolve on disk and differ from their source chapters only in the intended first-pass edits
   - Packet `01-08` are now baseline-ready for compiled comparison rather than open-ended drafting
   - Packet `09-15` are now baseline-ready for compiled comparison rather than provisional stubs
+  - the Book 2 coherence pass now confirms `Chapter 09-15` share one working register at both metadata and body-prose level
   - the current `Chapter 09-15` working copies resolve on disk and differ from their source chapters only in the intended first-pass edits
   - no active Book 2 packet or working chapter now uses the stale `Manas Yantra` or `Khalorēē Field Architecture programming` terminology as live prose
   - all eight Book 1 starter packet files now exist under `story/chapters/book_1_anamnesis_engine/packets/`

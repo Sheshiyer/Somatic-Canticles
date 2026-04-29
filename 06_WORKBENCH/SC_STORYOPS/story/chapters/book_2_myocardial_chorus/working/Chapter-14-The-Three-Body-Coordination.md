@@ -1,11 +1,11 @@
 # Chapter 14: The Three-Body Coordination
 
-**Somatic Event:** Dynamic three-system coordination through restored trust across instinct, feeling, and thought
-**Character Focus:** Gideon's Three-Brain Integration
-**Family Context:** Neural family-systems integration
-**Political Context:** Three-body governance under pressure
-**Territory Context:** The Coordination Chamber (Neural Architecture)
-**Cultural Context:** Runtime harmonization rather than static balance
+**Somatic Event:** Rebuilding relay trust so instinct, feeling, and thought can hand off without seizure, contempt, or coup logic.
+**Character Focus:** Gideon under triune governance pressure
+**Family Context:** Seter protection logic has to relearn itself as coordination instead of executive override.
+**Political Context:** Internal governance stays unstable whenever emergency powers become permanent habit.
+**Territory Context:** The coordination chamber, where threat, feeling, and thought fight over relay authority.
+**Cultural Context:** Three-body order here is runtime trust, not static balance.
 
 ---
 

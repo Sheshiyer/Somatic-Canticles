@@ -1,11 +1,11 @@
 # Chapter 13: The Myocardial Chorus
 
-**Somatic Event:** Heart field integration and compassion activation through unified Khalorēē harmonization
-**Character Focus:** Heart Field Harmonization
-**Family Context:** The Myocardial Chorus as the new kinship structure
-**Political Context:** Compression-Stability Pact vs Pattern-Breaking Technology tension
-**Territory Context:** The Myocardial Heart Chamber (Resonant Space)
-**Cultural Context:** Universal compassion protocols
+**Somatic Event:** Relearning heart-field relation through pulse, interval, and threshold without collapsing compassion into merger.
+**Character Focus:** Collective heart-field coordination
+**Family Context:** Kinship becomes credible only when contact can hold interval, authorship, and return.
+**Political Context:** Compression-Stability pressure shadows any resonance that looks too mutual, too open, or too hard to govern.
+**Territory Context:** The atrial heart field, where pulse, interval, and return determine whether compassion can carry load.
+**Cultural Context:** Compassion here is conduction and timing, not uplift.
 
 ---
 
