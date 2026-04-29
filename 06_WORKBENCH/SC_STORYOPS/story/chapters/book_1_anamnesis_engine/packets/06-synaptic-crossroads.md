@@ -2,8 +2,9 @@
 
 ## Scaffold Status
 
-- Packet state: starter scaffold
-- Working copy: not created yet; open only when this packet graduates to an active prose pass
+- Packet state: active prose lane
+- Working source: `story/chapters/book_1_anamnesis_engine/working/Chapter-06-The-Synaptic-Crossroads.md`
+- Baseline status: ready for compiled comparison
 
 ## Source Paths
 
@@ -13,6 +14,19 @@
 ## Canonical Source Excerpt
 
 > "It creates the pain, and then it creates a story to explain the pain."
+
+## Compiled Comparison
+
+- Compiled posture:
+  - the compiled Book 1 chapter is a materially older prose surface than the active chapter source and working lane
+- Meaningful divergences:
+  - continuity drift: the compiled chapter drops the endocrine concealment problem too quickly, while the active lane carries the suppressed signature forward into the crossroads as the reason the choice matters
+  - conflict drift: the compiled chapter resolves Jian and Sona's opposition a little too cleanly; the active lane keeps the method conflict sharp until the measurable pulse forces convergence
+  - register drift: the compiled chapter leans more heavily on philosophical framing and uplift; the active lane keeps the crossroads embodied, tactical, and signal-led
+  - role drift: the compiled chapter gives Gideon less structural purpose; the active lane keeps him as ballast and fulcrum so the scene does not collapse into a two-person debate
+- Merge-back posture:
+  - when this chapter returns to compiled surfaces, the working lane should be treated as the live source candidate
+  - the current compiled chapter should be treated as a stale target to update, not as the controlling authority for local prose choices
 
 ## Mapped Sources
 

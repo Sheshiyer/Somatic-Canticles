@@ -2,17 +2,32 @@
 
 ## Scaffold Status
 
-- Packet state: starter scaffold
-- Working copy: not created yet; open only when this packet graduates to an active prose pass
+- Packet state: active prose lane
+- Working source: `story/chapters/book_1_anamnesis_engine/working/Chapter-08-The-Compass-Calibration.md`
+- Baseline status: ready for compiled comparison
 
 ## Source Paths
 
+- Working source: `story/chapters/book_1_anamnesis_engine/working/Chapter-08-The-Compass-Calibration.md`
 - Canonical chapter source: `02_MANUSCRIPTS/CHAPTERS/BOOK_1_ANAMNESIS_ENGINE/Chapter-08-The-Compass-Calibration.md`
 - Canonical compiled reference: `02_MANUSCRIPTS/COMPILED/Book_1_Anamnesis_Engine.md`
 
 ## Canonical Source Excerpt
 
 > "The compass isn't just out of tune; it's fighting the song."
+
+## Compiled Comparison
+
+- Compiled posture:
+  - the compiled Book 1 chapter currently mirrors the canonical chapter source almost line-for-line, so it does not yet function as an independently revised prose surface
+- Meaningful divergences:
+  - explanatory drift: the compiled/current source states compassion, witness, and healing logic directly; the active lane should make Jian discover those as operating conditions inside the decision matrix
+  - character-focus drift: the compiled/current source shares the revelation broadly across the team and expands Corv's authorship beat; the active lane should stay anchored in Jian's map-first failure, recalibration, and operational turn
+  - register drift: the compiled/current source opens into uplift and generalized evolution language; the active lane should stay embodied, navigation-exact, and method-specific
+  - sequel-pressure drift: the compiled/current source pushes hard into future-signal and authorship-protocol escalation; the active lane should keep that threshold present but local enough to remain a Book 1 handoff
+- Merge-back posture:
+  - when this chapter returns to compiled surfaces, the working lane should be treated as the live source candidate
+  - the current compiled chapter should be treated as a baseline mirror of the old source, not as the controlling authority for local prose choices
 
 ## Mapped Sources
 

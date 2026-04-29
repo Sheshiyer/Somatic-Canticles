@@ -5,8 +5,8 @@ This folder now stages the first downstream Book 1 scaffolding pass because the 
 Current scope:
 
 - starter packet scaffolding remains the default
-- active `working/` chapter copies: `Chapter 01-05`
-- the diagnostic lane is fully in prose-pass territory, and the patterned-captivity lane is now live through `Chapter 05`
+- active `working/` chapter copies: `Chapter 01-08`
+- the full Book 1 lane is now in prose-pass territory, with starter packet scaffolding retained only as the controlling metadata surface
 
 Book 1 spine:
 
