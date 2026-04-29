@@ -4,11 +4,18 @@ This file is the active source of truth for repository execution status.
 
 ## Next Up
 
-- [ ] Merge back Book 2 second using the `Packet 09-15` compiled comparison notes and the now-canonical Book 1 `Chapter 08` exit state as the controlling boundary
-- [ ] Resync `Somatic_Canticles_Trilogy_Omnibus_CLEAN.md` again after the Book 2 merge so the current hybrid `Chapter 08 -> Chapter 09` boundary disappears
 - [ ] Keep `Book 3` frozen to projection and governance validation while downstream Book 1 / Book 2 work advances
+- [ ] If automated compiled-surface audits matter for the next phase, repair `03_EDITORIAL/scan_consistency.py` so it writes inside this checkout instead of a stale absolute path
 
 ## Completed This Session
+
+### Merge Book 2 back into canonical surfaces
+
+- [x] Replace `02_MANUSCRIPTS/COMPILED/Book_2_The_Myocardial_Chorus.md` with the active `Chapter 09-15` working lane
+- [x] Resync the omnibus `Chapter 09-15` block so the old hybrid `Chapter 08 -> Chapter 09` boundary disappears
+- [x] Restore a proper `# Chapter 16: The Wilt` break in the omnibus while leaving the Book 3 text itself untouched
+- [x] Confirm the separate Book 2 compiled file matches the working lane exactly
+- [x] Confirm the omnibus now carries a clean canonical handoff from `Chapter 08` through `Chapter 16`
 
 ### Run the full Book 1 coherence pass and merge it back to canon
 
@@ -121,6 +128,10 @@ This file is the active source of truth for repository execution status.
 
 ## Review
 
+- `02_MANUSCRIPTS/COMPILED/Book_2_The_Myocardial_Chorus.md` now matches the active Book 2 working lane rather than the older compiled prose branch.
+- `02_MANUSCRIPTS/COMPILED/Somatic_Canticles_Trilogy_Omnibus_CLEAN.md` is no longer hybrid at the Book 1 / Book 2 boundary; it now carries the merged Book 1 `Chapter 08` exit directly into the merged Book 2 `Chapter 09` opening.
+- The omnibus also now restores a proper `# Chapter 16: The Wilt` heading break instead of leaving that transition glued to the end of old Book 2 prose.
+- Automated consistency scanning is still not trustworthy in this checkout without repair: `03_EDITORIAL/scan_consistency.py` failed because it writes to a stale absolute output path outside the repo.
 - The Book 1 coherence pass found smaller but real residual drift in the active lane: `Chapter 02` still carried an older Quoril doctrine label, and `Chapter 05-06` were missing the fuller chapter metadata frame already present elsewhere in the lane. That drift is now normalized before merge-back.
 - `02_MANUSCRIPTS/COMPILED/Book_1_Anamnesis_Engine.md` now matches the active Book 1 working lane rather than the older, more expository compiled surface.
 - The highest-value compiled Book 1 deltas are now resolved in canon:
@@ -177,7 +188,8 @@ This file is the active source of truth for repository execution status.
   - Packet `09-15` are now baseline-ready for compiled comparison rather than provisional stubs
   - the Book 2 coherence pass now confirms `Chapter 09-15` share one working register at both metadata and body-prose level
   - the current `Chapter 09-15` working copies resolve on disk and differ from their source chapters only in the intended first-pass edits
-  - `02_MANUSCRIPTS/COMPILED/Somatic_Canticles_Trilogy_Omnibus_CLEAN.md` now matches the merged Book 1 surface through `Chapter 08` and remains intentionally hybrid at `Chapter 09` until the Book 2 merge lands
+  - `02_MANUSCRIPTS/COMPILED/Book_2_The_Myocardial_Chorus.md` now resolves exactly to the active `Chapter 09-15` working lane
+  - `02_MANUSCRIPTS/COMPILED/Somatic_Canticles_Trilogy_Omnibus_CLEAN.md` now matches the merged Book 1 and Book 2 surfaces through `Chapter 15`, with a proper `Chapter 16` break restored
   - no active Book 2 packet or working chapter now uses the stale `Manas Yantra` or `Khalorēē Field Architecture programming` terminology as live prose
   - all eight Book 1 starter packet files now exist under `story/chapters/book_1_anamnesis_engine/packets/`
   - all seven Book 2 packet files now exist under `story/chapters/book_2_myocardial_chorus/packets/`
