@@ -4,7 +4,7 @@ This file is the active source of truth for repository execution status.
 
 ## Next Up
 
-- [ ] Review the recorded `Book 3` `Chapter 18` deltas and decide whether `Chapter 19` may open or whether `Chapter 19-27` remain closed
+- [ ] Review `Packet 19` and decide whether `Chapter 19` may promote into an active prose lane while `Chapter 20-27` remain closed
 
 ### Planned Next Wave: Book 3 Unfreeze Prep
 
@@ -184,6 +184,9 @@ This file is the active source of truth for repository execution status.
 - `Chapter 18` is now stabilized to a compiled-comparison baseline: the working copy keeps the Triangulation Engine procedural rather than alive, preserves exact `Pure Joy` / `Catalyst Clarity` / `Present Coherence` language, rejects merger logic, and restores House-level consequence to the synthesis frame.
 - The concrete `Chapter 18` versus compiled-Book-3 deltas are now recorded in `Packet 18`: stronger immediate post-Gardener chamber stakes, normalized lexicon and shorter naming, exact three-vector operational language, preserved non-fusional shared-field discipline, rejection of Engine-as-new-life rhetoric, and removal of embedded production scaffolding plus manifesto closure.
 - `Packet 18` now marks the lane `compiled comparison recorded`, while `Chapter 19-27` remain freeze-controlled pending the next gate decision.
+- The recorded `Chapter 18` deltas are now judged sufficient to open `Chapter 19`, but only as a constrained starter packet rather than a prose lane.
+- `Packet 19` now exists as the first `19-21` packet surface: it captures the compiled branch's hinge reset, stale lexicon, merger drift, scaffolding contamination, and protocol-overexplanation risks without authorizing a `working/` copy yet.
+- `Chapter 19` prose remains closed for now; `Chapter 20-27` remain freeze-controlled until the new packet contract proves the triangulation lane can stay procedural, embodied, and non-sermonic.
 - GitHub umbrella issues `#18-23` are now closed with completion notes, so the remote backlog once again matches the local StoryOps tracker state.
 - `02_MANUSCRIPTS/COMPILED/Book_2_The_Myocardial_Chorus.md` now matches the active Book 2 working lane rather than the older compiled prose branch.
 - `02_MANUSCRIPTS/COMPILED/Somatic_Canticles_Trilogy_Omnibus_CLEAN.md` is no longer hybrid at the Book 1 / Book 2 boundary; it now carries the merged Book 1 `Chapter 08` exit directly into the merged Book 2 `Chapter 09` opening.
