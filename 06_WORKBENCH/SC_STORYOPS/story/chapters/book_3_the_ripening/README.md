@@ -7,15 +7,15 @@ Current scope:
 - `packets/` remain open for `Chapter 16-18`
 - `working/` may contain `Chapter 16-17` only
 - `Chapter 16` is now baseline-ready for compiled comparison
-- `Chapter 17` is now baseline-ready for compiled comparison under the same delta-ledger controls
-- keep `Chapter 18` packet-only while the `Chapter 17` compiled comparison is recorded and reviewed
+- `Chapter 17` now has its compiled-surface deltas recorded under the same delta-ledger controls
+- keep `Chapter 18` packet-only while the recorded `Chapter 17` deltas are reviewed for the next opening decision
 - keep `Chapter 19-27` in the intake and projection surfaces until the remaining gates are closed
 
 Packet-opening gates:
 
 - macro-governance claims must triangulate through `hard authority` plus corroborating support under `intake/world_bible_authority_registry.md`
 - `Chapter 16-17` are open as the only active prose lanes because the delta ledger now fences the main risks: compiled scaffolding contamination, `Chapter 18` exposition collapse, `15 -> 16` hinge softness, Gardener over-mechanization, and witness/vector lexicon drift
-- `Chapter 18` remains starter-packet only while `Chapter 17` is baseline-ready and awaiting compiled comparison
+- `Chapter 18` remains starter-packet only while the recorded `Chapter 17` deltas are used to decide whether the hotspot can open safely
 - `Chapter 19-21` remain soft and packet-closed beyond this narrow opening
 - `Chapter 22-24` remain packet-closed under the current delta-ledger ruling
 - `Chapter 25-27` remain projection-heavy

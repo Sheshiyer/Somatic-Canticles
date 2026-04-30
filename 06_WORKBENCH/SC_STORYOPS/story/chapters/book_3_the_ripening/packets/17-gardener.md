@@ -4,7 +4,7 @@
 
 - Packet state: active prose lane
 - Working source: `story/chapters/book_3_the_ripening/working/Chapter-17-The-Gardener.md`
-- Baseline status: ready for compiled comparison
+- Baseline status: compiled comparison recorded
 
 ## Source Paths
 
@@ -19,15 +19,17 @@
 ## Compiled Comparison
 
 - Compiled posture:
-  - the compiled and source branches carry the right local encounter spine, but they still lean too easily into system-language, cosmology-language, and retrospective explanation
+  - the source chapter and compiled Book 3 chapter still belong to the same older prose branch; the active working lane is now the live comparison candidate rather than a provisional scaffold
 - Highest-risk divergences:
-  - Gardener drift: the reveal can slide from conservational intelligence into `law of nature`, `system`, `gravity`, or `homeostasis`; the active lane has to hold sorrowful tending without inflating into universal thesis
-  - protection drift: Gideon's field can read as simply nullified rather than redefined; the active lane must keep the humiliation structural rather than theatrical
-  - explanation drift: the compiled/source branch pushes too far into cosmic diagnosis and manifesto closure; the active lane has to keep maintenance logic local and end on jurisdiction pressure rather than totalized cosmology
+  - hinge and threshold drift: the compiled/source branch opens through a longer liminal-transition sequence and arrives as a more isolated encounter, while the active lane carries the `Chapter 16` threshold discipline directly into the first paragraph through shared-field continuity, no-fusion rule clarity, and immediate Verath-terrain legibility
+  - lexicon and naming drift: the compiled/source branch still uses `Corvan`, `Witness Lens`, `Witness State`, `algorithm`, `operating principle`, `Witness Awareness`, `consciousness vessels`, `merged Khalorēē field`, and `homeostasis`; the active lane normalizes shorter naming, witness-vessel logic, self-consciousness language, and non-fusional shared-field discipline
+  - Gardener and explanation drift: the compiled/source branch expands toward `system`, `universe`, `disease is the structure of reality itself`, and refugee-manifesto closure; the active lane keeps the Gardener local, conservational, and jurisdiction-bound without turning the reveal into cosmology summary
+  - protection and institutional-stakes drift: the compiled/source branch makes Gideon's failure read more like generic irrelevance and returns to abstraction on resurfacing, while the active lane keeps the reclassification structural and restores the House-level consequence that pruning could be misread as responsible stabilization
+  - scaffolding and residue drift: the compiled/source branch still carries embedded production residue such as `RESONANCE PROFILE`, `Chapter Status`, `Word Count`, and `Next Dependency`; the active lane strips that contamination completely
 - Merge-back posture:
-  - the active working lane must treat the Gardener as an encounter governed by sorrowful necessity, not as a villain speech or a metaphysical white paper
-  - `Chapter 17` should only advance toward compiled comparison if the Gardener remains local, non-sneering, and legible through action rather than doctrine
-  - the stabilized working lane now keeps the `Chapter 16 -> 17` threshold discipline, restores local House consequence on return, and ends on jurisdiction pressure rather than manifesto closure
+  - the active working lane now functions as the live source candidate for any later compiled merge-back
+  - the Gardener must remain an encounter governed by sorrowful necessity, not a villain speech or a metaphysical white paper
+  - the stabilized lane keeps the `Chapter 16 -> 17` threshold discipline, restores local House consequence on return, and ends on jurisdiction pressure rather than manifesto closure
 
 ## Mapped Sources
 

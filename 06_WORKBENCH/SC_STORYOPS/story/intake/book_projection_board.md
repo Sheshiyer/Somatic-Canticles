@@ -38,7 +38,7 @@ Use this board to answer:
 - `Book 2` now has a defensible ownership zone: witness-as-method, developmental continuity, heart coherence, and three-body governance.
 - `Book 3` now has a defensible ownership zone: structural lie, false perfection, severance, and authored reality.
 - `Book 3` is no longer held back by raw singleton image scarcity in the two thinnest image families.
-- `Book 3` now has a narrow downstream opening: `16-18` starter packets may exist under explicit delta-ledger constraints, and `Chapter 16-17` are now baseline-ready working copies awaiting compiled comparison discipline before any wider opening.
+- `Book 3` now has a narrow downstream opening: `16-18` starter packets may exist under explicit delta-ledger constraints, and `Chapter 16-17` now have recorded compiled deltas before any wider opening is considered.
 - `Book 3` `19-24` now read as conceptually strong but still soft for downstream staging, and `25-27` remain projection-heavy.
 - Cross-trilogy families remain active, but they are no longer floating without placement logic.
 
@@ -46,7 +46,7 @@ Use this board to answer:
 
 | Cluster | Current evidence posture | Readiness result | Still blocked by | Next safe move |
 | --- | --- | --- | --- | --- |
-| `16-18` | hard-authority strong; strengthened deception coverage is sufficient for local stakes, Gardener posture, and method synthesis | `Chapter 16-17` baseline-ready; `18` packet-only | the open lane is still fenced by `Chapter 18` hotspot risk, Gardener voice, and lexicon stability | record the `Chapter 17` compiled-surface deltas; keep `18` packet-only |
+| `16-18` | hard-authority strong; strengthened deception coverage is sufficient for local stakes, Gardener posture, and method synthesis | `Chapter 16-17` compiled deltas recorded; `18` packet-only | the open lane is still fenced by `Chapter 18` hotspot risk, Gardener voice, and lexicon stability | decide whether `Chapter 18` stays packet-only or opens under hotspot constraints |
 | `19-21` | hard-authority strong for protocol pressure; support stack now sufficient to stabilize placement | `soft-high` | cross-book carryover validation is now explicit, but packet opening still depends on proving the `16-18` lane can hold the delta-ledger rules | keep in intake and do not open a packet lane yet |
 | `22-24` | temptation and structural-lie material is now clearly owned by `Book 3` | `soft-high` | the delta ledger now confirms sermonizing, lore-monologue, and governance-overreach risk remain too high | keep projection-level only |
 | `25-27` | authorship and post-Severance logic has a stable concept spine but still depends on review-required macro-governance support | `projection-heavy` | authored-reality and macro-governance claims still outrun hard-authority corroboration | hold as projection only |

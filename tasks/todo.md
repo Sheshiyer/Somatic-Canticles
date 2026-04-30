@@ -4,7 +4,7 @@ This file is the active source of truth for repository execution status.
 
 ## Next Up
 
-- [ ] Compare active `Book 3` `Chapter 17` against the compiled Book `3` surface and record the meaningful deltas before deciding anything about `Chapter 18`
+- [ ] Review the recorded `Book 3` `Chapter 17` compiled-surface deltas and decide whether `Chapter 18` stays packet-only or may open under hotspot constraints
 
 ### Planned Next Wave: Book 3 Unfreeze Prep
 
@@ -177,7 +177,9 @@ This file is the active source of truth for repository execution status.
 - `Issue 15` is now decided in favor of a serial opening with a hard stop: `Chapter 17` is promoted into the second active Book `3` prose lane, `Chapter 18` remains packet-only, and `Chapter 19-27` remain freeze-controlled.
 - The `Chapter 17` first pass is allowed because `Chapter 16` proved the lane can hold threshold discipline, while the Gardener reveal still has a local enough risk profile to edit without opening the `Chapter 18` hotspot.
 - `Chapter 17` is now stabilized to a compiled-comparison baseline: the working copy keeps the Gardener local, restores a concrete House-level consequence on return, preserves shared-field / no-fusion discipline, and avoids manifesto closure.
-- `Packet 17` now marks the lane `ready for compiled comparison`, while `Chapter 18` remains packet-only and `Chapter 19-27` remain freeze-controlled.
+- The concrete `Chapter 17` versus compiled-Book-3 deltas are now recorded in `Packet 17`: stronger `Chapter 16 -> 17` threshold carryover, normalized witness-vessel and self-consciousness lexicon, tighter Gardener locality, restored House-level consequence on return, and removal of embedded production scaffolding plus manifesto closure.
+- `Packet 17` now marks the lane `compiled comparison recorded`, while `Chapter 18` remains packet-only and `Chapter 19-27` remain freeze-controlled.
+- GitHub umbrella issues `#18-23` are now closed with completion notes, so the remote backlog once again matches the local StoryOps tracker state.
 - `02_MANUSCRIPTS/COMPILED/Book_2_The_Myocardial_Chorus.md` now matches the active Book 2 working lane rather than the older compiled prose branch.
 - `02_MANUSCRIPTS/COMPILED/Somatic_Canticles_Trilogy_Omnibus_CLEAN.md` is no longer hybrid at the Book 1 / Book 2 boundary; it now carries the merged Book 1 `Chapter 08` exit directly into the merged Book 2 `Chapter 09` opening.
 - The omnibus also now restores a proper `# Chapter 16: The Wilt` heading break instead of leaving that transition glued to the end of old Book 2 prose.
