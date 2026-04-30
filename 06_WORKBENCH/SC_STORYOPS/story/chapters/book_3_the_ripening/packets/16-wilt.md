@@ -4,7 +4,7 @@
 
 - Packet state: active prose lane
 - Working source: `story/chapters/book_3_the_ripening/working/Chapter-16-The-Wilt.md`
-- Baseline status: ready for compiled comparison
+- Baseline status: compiled comparison recorded
 
 ## Source Paths
 

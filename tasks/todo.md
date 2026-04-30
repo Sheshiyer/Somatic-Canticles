@@ -4,7 +4,7 @@ This file is the active source of truth for repository execution status.
 
 ## Next Up
 
-- [ ] Review the recorded `Book 3` `Chapter 17` compiled-surface deltas and decide whether `Chapter 18` stays packet-only or may open under hotspot constraints
+- [ ] Review the recorded `Book 3` `Chapter 18` deltas and decide whether `Chapter 19` may open or whether `Chapter 19-27` remain closed
 
 ### Planned Next Wave: Book 3 Unfreeze Prep
 
@@ -179,6 +179,11 @@ This file is the active source of truth for repository execution status.
 - `Chapter 17` is now stabilized to a compiled-comparison baseline: the working copy keeps the Gardener local, restores a concrete House-level consequence on return, preserves shared-field / no-fusion discipline, and avoids manifesto closure.
 - The concrete `Chapter 17` versus compiled-Book-3 deltas are now recorded in `Packet 17`: stronger `Chapter 16 -> 17` threshold carryover, normalized witness-vessel and self-consciousness lexicon, tighter Gardener locality, restored House-level consequence on return, and removal of embedded production scaffolding plus manifesto closure.
 - `Packet 17` now marks the lane `compiled comparison recorded`, while `Chapter 18` remains packet-only and `Chapter 19-27` remain freeze-controlled.
+- The recorded `Chapter 17` deltas are now judged sufficient to open `Chapter 18` in the narrowest valid way: as an active hotspot-constrained prose lane rather than as a blanket Book `3` unfreeze.
+- `Packet 18` is now promoted into an active prose lane with a `working/Chapter-18-The-Synthesis-Protocol.md` copy, but the lane remains explicitly fenced against vector drift, ontology overclaiming, role flattening, merger logic, and doctrine monologue.
+- `Chapter 18` is now stabilized to a compiled-comparison baseline: the working copy keeps the Triangulation Engine procedural rather than alive, preserves exact `Pure Joy` / `Catalyst Clarity` / `Present Coherence` language, rejects merger logic, and restores House-level consequence to the synthesis frame.
+- The concrete `Chapter 18` versus compiled-Book-3 deltas are now recorded in `Packet 18`: stronger immediate post-Gardener chamber stakes, normalized lexicon and shorter naming, exact three-vector operational language, preserved non-fusional shared-field discipline, rejection of Engine-as-new-life rhetoric, and removal of embedded production scaffolding plus manifesto closure.
+- `Packet 18` now marks the lane `compiled comparison recorded`, while `Chapter 19-27` remain freeze-controlled pending the next gate decision.
 - GitHub umbrella issues `#18-23` are now closed with completion notes, so the remote backlog once again matches the local StoryOps tracker state.
 - `02_MANUSCRIPTS/COMPILED/Book_2_The_Myocardial_Chorus.md` now matches the active Book 2 working lane rather than the older compiled prose branch.
 - `02_MANUSCRIPTS/COMPILED/Somatic_Canticles_Trilogy_Omnibus_CLEAN.md` is no longer hybrid at the Book 1 / Book 2 boundary; it now carries the merged Book 1 `Chapter 08` exit directly into the merged Book 2 `Chapter 09` opening.

@@ -2,12 +2,13 @@
 
 ## Scaffold Status
 
-- Packet state: starter packet scaffold
-- Working source: none; `Issue 14` has not been authorized
-- Baseline status: packet-only, hotspot-constrained
+- Packet state: active prose lane
+- Working source: `story/chapters/book_3_the_ripening/working/Chapter-18-The-Synthesis-Protocol.md`
+- Baseline status: compiled comparison recorded
 
 ## Source Paths
 
+- Working source: `story/chapters/book_3_the_ripening/working/Chapter-18-The-Synthesis-Protocol.md`
 - Canonical chapter source: `02_MANUSCRIPTS/CHAPTERS/BOOK_3_THE_RIPENING/Chapter-18-The-Synthesis-Protocol.md`
 - Canonical compiled reference: `02_MANUSCRIPTS/COMPILED/Book_3_The_Ripening.md`
 
@@ -18,14 +19,18 @@
 ## Compiled Comparison
 
 - Compiled posture:
-  - this chapter is the clearest Book 3 compiled hotspot; both the source chapter and compiled surface still carry stale terminology, exposition collapse, role flattening, and overclaiming around the Engine
+  - this chapter is the clearest Book 3 compiled hotspot; the source chapter and compiled surface still belong to the same older prose branch, while the active working lane now functions as the live comparison candidate
 - Highest-risk divergences:
-  - terminology drift: `Chetana Yantra`, `Crystallization Interface protocols`, and `Khalorēē Field Architecture` compounds still surface here
-  - role drift: Sona, Jian, Gideon, and Corv collapse toward one shared metaphysical voice
-  - vector drift: the chapter mixes old and new vector language instead of holding Joy / Catalyst / Coherence cleanly
-  - ontology drift: the Triangulation Engine is overclaimed as new conscious life and the lane slips into doctrine monologue
+  - hinge and institutional-stakes drift: the compiled/source branch opens as a more isolated aftermath sequence, while the active lane restores immediate post-Gardener chamber pressure, Mira Verath continuity, and the explicit risk that the review Houses will misread pruning as responsible stabilization
+  - lexicon and naming drift: the compiled/source branch still uses `Witness Vessels`, `Manas Yantra`, `Khalorēē Field Architecture`, `Crystallization Interface protocols`, and fuller-name presentation, while the active lane normalizes shorter role-bound naming, current instrument language, and witness-sovereignty vocabulary
+  - vector drift: the compiled/source branch uses `Vector of Pure Joy`, `Vector of Catalyst Event`, and a sprawling explanation frame, while the active lane holds `Pure Joy`, `Catalyst Clarity`, and `Present Coherence` as exact operational functions tied to measured passage conditions
+  - merger drift: the compiled/source branch makes Present Coherence a unified-entity move where identities dissolve into one field, while the active lane preserves `distinct witnesses, shared field, disciplined exchange` and treats shared coherence as pressure-tested passage discipline rather than fusion
+  - ontology and explanation drift: the compiled/source branch turns the Triangulation Engine into conscious new life, birth language, and manifesto closure, while the active lane keeps the Engine procedural as a held lock and ends with the operational handoff into the Three-Point Problem
+  - scaffolding and residue drift: the compiled/source branch still carries embedded production residue such as `RESONANCE PROFILE`, `Chapter Status`, `Word Count`, and `Next Dependency`; the active lane strips that contamination completely
 - Merge-back posture:
-  - no working lane should open until this packet proves the chapter can be constrained back into procedure, role-bound speech, and exact trilogy carryover
+  - the active working lane now functions as the live source candidate for any later compiled merge-back
+  - the chapter remains acceptable only while synthesis stays procedural, role-bound, and non-sermonic under the hotspot constraints
+  - the stabilized lane keeps the Triangulation Engine as a lock, rejects merger logic, and carries House-level consequence forward instead of closing in cosmology or birth rhetoric
 
 ## Mapped Sources
 
@@ -58,7 +63,7 @@
 - preserve `distinct witnesses, shared field, disciplined exchange`; do not let synthesis become identity dissolution
 - do not let the Triangulation Engine become a new-life thesis or a metaphysical mascot
 - reject `it's not X, it's Y` doctrine cascades and summary-voice exposition
-- do not create a `working/` copy yet
+- keep the first pass inside post-Gardener procedure; do not let the chapter harden into a theory lecture
 
 ## Dialogue Targets
 
@@ -67,7 +72,7 @@
 - Gideon should sound structural and passage-protective, not merger-seeking.
 - Corv should synthesize method without narrating the ontology of the entire system.
 
-## Starter Checklist
+## Surgical Pass Checklist
 
 - Keep the chapter in procedure and earned synthesis rather than metaphysical speechmaking.
 - Treat `Chapter 18` as the highest-risk contamination point in the `16-18` lane.

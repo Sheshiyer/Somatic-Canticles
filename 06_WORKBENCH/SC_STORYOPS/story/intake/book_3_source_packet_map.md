@@ -13,7 +13,7 @@ It does not open packets by itself. It defines which source families each late-t
 - Pull `04_WORLD_BUILDING` and mounted `/Volumes/madara/2026/twc-vault/03-Resources/` files only as `review-required` support.
 - Pair image families with authority families; no image cluster may drive a packet by itself.
 - Preserve the current projection ruling:
-  - `16-18` may move through source mapping now, but only `Chapter 16-17` may open as working copies at present
+  - `16-18` may move through source mapping now, but only `Chapter 16-18` may open as working copies at present
   - `19-24` remain soft
   - `25-27` remain projection-heavy
 
@@ -21,7 +21,7 @@ It does not open packets by itself. It defines which source families each late-t
 
 | Cluster | Chapter burden | Mandatory source packet | Support packet | Image packet | Current posture | Next safe move |
 | --- | --- | --- | --- | --- | --- | --- |
-| `16-18` | `Wilt`, `Gardener`, `Synthesis Protocol` | hard-authority strong | debug / inherited-pattern support | concealed-truth + strategic-deception families | `Chapter 16-17` compiled deltas recorded; `18` packet-only under delta constraints | use the recorded `Chapter 17` deltas to decide whether `Chapter 18` stays packet-only or may open under hotspot constraints |
+| `16-18` | `Wilt`, `Gardener`, `Synthesis Protocol` | hard-authority strong | debug / inherited-pattern support | concealed-truth + strategic-deception families | `Chapter 16-18` compiled deltas recorded | review the recorded `Chapter 18` deltas before considering any wider Book `3` opening |
 | `19-21` | `Three-Point Problem`, `Convergence Point`, `Test Fire` | protocol and vector logic strong | triangulation and coherence support | tetramorphic + witness-support families | `soft-high` | keep soft until the `16-18` lane proves it can hold the delta-ledger rules |
 | `22-24` | `Perfect World`, `Flaw in the Code`, `Final Procedure` | temptation / refusal / severance pressure strong | preservation-law and structural-lie support | concealed-truth + strategic-deception families | `soft-high` | remain packet-closed under the current delta-ledger ruling |
 | `25-27` | `Void`, `Architecture of New Reality`, `New Beginning` | authorship and Amrita logic strong in concept | macro-governance and continuous-creation support only | cellular-polity + tetramorphic + remnant-guidance families | `projection-heavy` | hold at projection until authored-reality claims are corroborated more tightly |
