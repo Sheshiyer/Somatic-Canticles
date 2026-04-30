@@ -20,10 +20,11 @@ The goal is not to archive every screenshot. The goal is to extract reusable nar
 | Memory collapse | Memory is selective reconstruction under compression, not a pristine archive | helps anamnesis and witness scenes avoid naive recall logic |
 | Invoke/respond loops | Intervention should be pictured as bidirectional circuitry, not one-way declaration | supports witness method, regulation, and consent-aware protocol scenes |
 | Developmental mutation | Growth is continuity through transformation | supports identity change without purity ideology |
-| Deception layers | Distortion operates across scales at once | useful for antagonism, governance, and false-order systems |
+| Deception layers | Distortion operates across scales at once and survives by policing exposure, memory, and admissible anomaly | useful for antagonism, governance, false-order systems, and institutional blind spots |
+| Cellular polity / border intelligence | Living order is made by differentiated cell roles, border sensing, immune sentinels, exchange, repair, and lawful division | useful for authored reality, distributed governance, New Beginning scenes, and body-scale political metaphors |
 | Developmental staging | Some transformations should be shown as germinal, embryonic, and fetal phases rather than instantaneous leaps | helps the trilogy honor sequence, incubation, and staged embodiment |
 | Mythic recurrence and remnant continuity | Civilizational renewal often travels by recurring carriers, preserved remnants, and guided passage through collapse | useful for late-trilogy renewal logic and cataclysm-survival pressure |
-| Tetramorphic integration | Distinct symbolic or functional powers can belong to one integrated body without losing differentiation | useful for macro-governance, four-force synthesis, and late-trilogy authored order |
+| Tetramorphic integration | Distinct symbolic or functional powers can belong to one radiant integrated body without losing differentiation | useful for macro-governance, four-force synthesis, and late-trilogy authored order |
 | Diagrammatic stack cards | Layered systems should be pictured as readable strata, flows, and interfaces rather than as mood-only abstraction | useful for making trilogy concepts operational without flattening them |
 | Myth-tech diagnostic cards | Ornate symbolic frames can still carry measurable labels, protocols, and failure modes | useful for bridging arcana/sigil aesthetics with scientific or protocol clarity |
 | Receiver constellations | Archetypal families can be rendered as structured channel arrays rather than isolated figures | useful for endocrine, Muse, and ensemble-system thinking |

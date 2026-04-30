@@ -29,9 +29,11 @@ Availability note:
 | Pain as information | `20240827191408.png`, `20240827191449.png` | Symptoms are data-bearing signals; method is compassion, not suppression | nociception and sensory detection precede interpretation | supports debug logic, diagnostic scenes, and narrative conflict framing | cross-trilogy, soft |
 | Predictive learning | `20240827230734.png`, `20240827225252.png` | Reward, forethought, and survival patterning shape what a system thinks it wants | probabilistic learning, novelty, and reflexive threat evaluation | supports choice, compulsion, and false-freedom scenes | cross-trilogy, soft |
 | Concealed truth and authorship lag | `20240828010808.png`, `20240828001617.png`, `20240828002303.png`, `20240828011109.png` | False order survives by relabeling truth, compressing memory, and hiding authorship below conscious narration | memory collapse, startle hierarchy, cortical lag, and proof ceilings | supports structural lie, witness limits, and governance-level distortion | strongest in `Book 3`, soft |
+| Strategic deception and admissibility control | `20240921170304.png`, `20240921172853.png`, `20240919031645.png`, `20240919031705.png` | Distortion survives not only by lying, but by controlling exposure, memory, and what counts as admissible anomaly or valid evidence | substrate mismatch, placebo/nocebo blind spots, developmental anomaly policing, and witness-memory gating | supports false mercy, institutional concealment, and the managed reality behind the Gardener's order | strongest in `Book 3`, soft |
+| Cellular governance and border intelligence | `20240921165748.png`, `20240906135822.png`, `20240922101356.png` | A living order is built from differentiated unit roles, border defense, exchange, repair, and lawful division rather than abstract ideology alone | membrane/border logic, microbiome shielding, immune sentinels, fibroblast support, meiosis, and mitosis | supports authored reality, New Beginning scenes, and body-scale governance metaphors | strongest in `Book 3`, soft |
 | Developmental staging | `20240921164241.png`, `20240921170948.png` | Change should be rendered as staged embodiment rather than instant replacement purity | embryology, ripening, and continuity through transformation | supports avatar mutation, self-revision, and biologically grounded becoming | strongest in `Book 2`, soft |
 | Mythic recurrence and remnant guidance | `20240921164259.png`, `20240922102109.png` | Renewal often travels by repeating carriers, preserved remnant, and guided survival through collapse | inheritance, lineage, and survival-through-cataclysm | supports cataclysm-response logic and late-trilogy renewal stakes | strongest in `Book 3`, soft |
-| Tetramorphic integration | `20240714224530.png`, `20240922102406.png`, `20240922102426.png` | Distinct forces can remain differentiated inside one integrated symbolic body | layered faculties, directional ordering, and four-force differentiation | supports macro-governance, authored reality, and non-fusional unity | strongest in `Book 3`, soft |
+| Tetramorphic integration | `20240714224530.png`, `20240922102406.png`, `20240922102426.png`, `20240921175834.png` | Distinct forces and governance functions can remain differentiated inside one radiant symbolic body | layered faculties, directional ordering, composite body plans, and interface/mask differentiation | supports macro-governance, authored reality, and non-fusional unity | strongest in `Book 3`, soft |
 
 ## Broader Noesis Cluster Families
 
@@ -43,9 +45,11 @@ See `story/intake/noesis_image_cluster_registry.md` for the fuller external imag
 | Compassionate witness | frames compassion as an active sensing instrument rather than a soft emotion | `Witness`, `Pain as information` | Book 2 primary, Book 1 seed |
 | Pain-signal ethics | ties symptom respect to sensory gating and predictive learning instead of moral slogans alone | `Pain as information`, `Signal-State-Story` | Book 1 to Book 2 bridge |
 | Concealed / revealed truth | makes structural lie and hidden truth visually legible | `Concealed truth / structural lie`, `Wilt / false maintenance` | Book 3 primary |
+| Strategic deception layers | shows how false order is maintained through scale, admissibility, and controlled exposure rather than blunt denial alone | `Concealed truth / structural lie`, `Wilt / false maintenance`, `Three-body coordination` | Book 3 primary with stronger support for projection rerun |
+| Cellular polity / authored reality | shows governance as a metabolized unit-scale problem of border, exchange, repair, and lawful division | `Authored reality`, `Khaloree field architecture`, `The New Beginning` | Book 3 endgame support, still soft pending projection rerun |
 | Developmental morphology | shows staged growth and embryonic differentiation rather than instant mutation | `Avatar mutation / developmental continuity`, `Anamnesis` | Book 2 primary, Book 1 seed |
 | Mythic recurrence and remnant guidance | anchors renewal in repeating carriers and guided continuity through collapse | `Anamnesis`, `Authored reality` | Book 3 macro layer, Book 1 mythic seed |
-| Tetramorphic integration | suggests macro-symbolic governance through distinct forces held in one body | `Authored reality`, macro-governance layer | Book 3 candidate, low-confidence soft |
+| Tetramorphic integration | suggests macro-symbolic governance through distinct forces held in one body and reinforced by radiant composite authority forms | `Authored reality`, macro-governance layer | Book 3 candidate, structurally stronger but still soft |
 
 ## Sampled Synchronocities Blog Visual Handles
 
@@ -82,5 +86,5 @@ Every image that becomes usable in this workbench should eventually capture:
 ## Open Image Work
 
 - The Noesis corpus now has a structurally usable second-pass map across the priority clusters above.
-- The thinnest remaining families are `Strategic deception layers` and `Cellular polity / authored reality`, both of which still need sister-image coverage before they can be called editorially mature.
+- `Strategic deception layers` and `Cellular polity / authored reality` now have materially stronger sister-image coverage; the next constraint is corroboration and projection discipline, not raw singleton scarcity.
 - Use this index as a live registry; do not paste the raw `Images.md` dump into working packets.

@@ -12,4 +12,4 @@ Status:
 
 - `book_1_anamnesis_engine/`: starter packet lane open; `Chapter 01-08` working copies active
 - `book_2_myocardial_chorus/`: active packet lane; `Chapter 09-15` working copies active and baseline-ready for compiled comparison
-- `book_3_the_ripening/`: explicitly frozen to projection and governance validation
+- `book_3_the_ripening/`: `Chapter 16-17` active prose lanes and baseline-ready for compiled comparison; `Chapter 18` remains packet-only and `Chapter 19-27` remain freeze-controlled

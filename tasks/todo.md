@@ -4,7 +4,25 @@ This file is the active source of truth for repository execution status.
 
 ## Next Up
 
-- [ ] Keep `Book 3` frozen to projection and governance validation while downstream Book 1 / Book 2 work advances
+- [ ] Compare active `Book 3` `Chapter 17` against the compiled Book `3` surface and record the meaningful deltas before deciding anything about `Chapter 18`
+
+### Planned Next Wave: Book 3 Unfreeze Prep
+
+- [x] `01` Build a Book 3 authority pack from `hard authority` first: `00_TRYAMBAKAM_PROTOCOL.md`, core foundation lexicon/definitions, character arcs, roster, and the active editorial/style surfaces
+- [x] `02` Build a separate `review-required` macro-governance pack from `04_WORLD_BUILDING` and Meru-linked `03-Resources` surfaces without promoting any of it to canon yet
+- [x] `03` Produce a single Book 3 concept-to-authority matrix for `Wilt`, `Gardener`, `Three-Point Problem`, `Perfect World`, `Flaw in the Code`, `Void of Pure Potential`, and `Authored reality`
+- [x] `04` Close the image gap for `Strategic deception layers` by adding sister-image coverage beyond `20240921170304.png`
+- [x] `05` Close the image gap for `Cellular polity / authored reality` by adding sister-image coverage beyond `20240921165748.png`
+- [x] `06` Re-check the tetramorphic / authored-reality family so macro-governance imagery is supported by more than one symbolic lane
+- [x] `07` Update `intake/noesis_image_cluster_registry.md` and `image_index.md` so the Book 3 image families carry explicit narrative utility, biological hook, and governance hook
+- [x] `08` Re-run `intake/book_projection_board.md` for Book 3 using the strengthened authority plus image bundles and restate what is still `soft` versus packet-ready
+- [x] `09` Build a Book 3 source packet map at chapter-cluster level: `16-18`, `19-21`, `22-24`, `25-27`
+- [x] `10` Audit the current Book 3 compiled surface against the trilogy rules: vocabulary, role-bound dialogue, anti-sermon posture, and Gardener conservational voice
+- [x] `11` Extract the highest-risk compiled Book 3 drift into a delta ledger: premature mastery, flattened revelation voice, loose macro-lore, or overclaimed governance logic
+- [x] `12` Validate cross-book carryover from merged Book 1 / Book 2 into Book 3 entry conditions: Verath wound, team integration threshold, three-vector foreshadowing, and house-politics pressure
+- [x] `13` Decide whether Book 3 may open packet scaffolding at all; if yes, open only `Chapter 16-18` starter packets first and keep `working/` closed
+- [x] `14` Only after packet validation, promote `Chapter 16` into the first active prose lane and keep `Chapter 17-27` packet-only
+- [x] `15` After `Chapter 16-18` stabilize, decide whether the rest of Book 3 opens serially or remains partially frozen based on authority, image, and continuity verification
 
 ## Completed This Session
 
@@ -135,6 +153,31 @@ This file is the active source of truth for repository execution status.
 
 - `03_EDITORIAL/scan_consistency.py` now resolves paths relative to the current checkout and writes its report back into `03_EDITORIAL/consistency_report.md` instead of a stale absolute path outside the repo.
 - The repaired audit helper now runs successfully against the current compiled trilogy surfaces, and the regenerated consistency report currently finds no terminology issues in Book 1, Book 2, or Book 3.
+- `06_WORKBENCH/SC_STORYOPS/story/intake/book_3_hard_authority_pack.md` now consolidates the late-trilogy rules that are already safe from `hard authority`, including Gardener posture, vector logic, refusal logic, and the trilogy end-goal continuity inherited from Books `1-2`.
+- `06_WORKBENCH/SC_STORYOPS/story/intake/book_3_macro_governance_pack.md` now separates usable governance pressure from stale worldbuilding bulk and adjacent Meru / vault synthesis without promoting any of it directly to canon.
+- `06_WORKBENCH/SC_STORYOPS/story/intake/book_3_concept_authority_matrix.md` now makes the freeze operational by showing which Book `3` concepts are ready for `16-18` source mapping, which remain `soft-high`, and which stay projection-heavy.
+- `06_WORKBENCH/SC_STORYOPS/story/chapters/book_3_the_ripening/README.md` now points directly at the required intake artifacts before any unfreeze decision is made.
+- `06_WORKBENCH/SC_STORYOPS/story/intake/noesis_image_cluster_registry.md` now expands `Strategic deception layers` with witness/exposure/memory and admissibility-control sisters, expands `Cellular polity / authored reality` with border-intelligence and lawful-division sisters, and strengthens the tetramorphic family with a radiant-authority lane.
+- `06_WORKBENCH/SC_STORYOPS/story/image_index.md` and `intake/image_principles.md` now make the Book `3` image families explicit as narrative arguments rather than thin mood-board handles.
+- The Book `3` freeze no longer depends on raw singleton scarcity in those two image families; the projection rerun now narrows the next blocker to compiled-surface audit, cross-book carryover validation, and macro-governance corroboration.
+- `06_WORKBENCH/SC_STORYOPS/story/intake/book_projection_board.md` now restates Book `3` by chapter cluster: `16-18` are source-packet-map ready, `19-24` remain soft for different reasons, and `25-27` stay projection-heavy.
+- `06_WORKBENCH/SC_STORYOPS/story/intake/book_3_source_packet_map.md` now turns the Book `3` cluster ruling into an executable inheritance map, separating mandatory authority packets, review-required support packets, image packets, carryover constraints, and not-yet-safe imports for `16-18`, `19-21`, `22-24`, and `25-27`.
+- `06_WORKBENCH/SC_STORYOPS/story/chapters/book_3_the_ripening/README.md` now treats the new source packet map as a required intake artifact before any unfreeze decision.
+- `06_WORKBENCH/SC_STORYOPS/story/intake/book_3_compiled_surface_audit.md` now records the actual compiled `Book 3` drift surface: embedded scaffolding still in-body, Chapter `18` as the densest exposition/voice-flattening hotspot, unstable witness/vector lexicon, and an over-mechanized Gardener register.
+- `06_WORKBENCH/SC_STORYOPS/story/intake/book_3_entry_carryover_validation.md` now records the `Chapter 15 -> 16` hinge state: thematic carryover is strong, but the Verath case bridge is recap-heavy, threshold retention is underdramatized, and house-politics pressure thins too sharply at Book `3` entry.
+- `06_WORKBENCH/SC_STORYOPS/story/intake/book_3_delta_ledger.md` now orders the actual packet-opening risks: compiled scaffolding contamination, Chapter `18` exposition collapse, `15 -> 16` threshold softness, Gardener over-mechanization, lexicon instability, `22-24` governance/sermon risk, and `25-27` premature-mastery drift.
+- The delta ledger now sharpens `Issue 13`: either keep the freeze fully intact, or open only `16-18` starter packets under explicit ledger constraints. Nothing later is cleared.
+- `Issue 13` is now decided in favor of a narrow opening: `06_WORKBENCH/SC_STORYOPS/story/chapters/book_3_the_ripening/packet_board.md` plus starter packets `16-18` opened first while `working/` still remained closed and `19-27` stayed freeze-controlled.
+- `Chapter 16`, `17`, and `18` starter packets were first opened as delta-constrained scaffolds; only the later `Issue 14` decision promotes `Chapter 16` beyond packet-only status.
+- `Issue 14` is now decided in favor of the narrowest possible Book `3` prose opening: `Chapter 16` is active under `working/`, `Chapter 17-18` remain packet-only, and `Chapter 19-27` remain freeze-controlled.
+- The first `Chapter 16` pass strips embedded scaffolding, restores the `Chapter 15 -> 16` hinge discipline, normalizes witness-vessel and self-consciousness language, and keeps the descent field explicitly non-fusional.
+- `Chapter 16` is now stabilized to a compiled-comparison baseline: the working copy carries explicit review-House consequence, tighter Verath-case continuity, stronger no-fusion threshold language, and no residual scaffolding or stale witness-vessel phrasing.
+- `Packet 16` now marks the lane `ready for compiled comparison`, while `Chapter 17-18` remain packet-only and outside prose.
+- The concrete `Chapter 16` versus compiled-Book-3 deltas are now recorded in `Packet 16`: stronger `15 -> 16` hinge carryover, tighter House-stakes framing, normalized self-consciousness / witness-vessel lexicon, removal of embedded production scaffolding, and a more role-bound procedural reveal.
+- `Issue 15` is now decided in favor of a serial opening with a hard stop: `Chapter 17` is promoted into the second active Book `3` prose lane, `Chapter 18` remains packet-only, and `Chapter 19-27` remain freeze-controlled.
+- The `Chapter 17` first pass is allowed because `Chapter 16` proved the lane can hold threshold discipline, while the Gardener reveal still has a local enough risk profile to edit without opening the `Chapter 18` hotspot.
+- `Chapter 17` is now stabilized to a compiled-comparison baseline: the working copy keeps the Gardener local, restores a concrete House-level consequence on return, preserves shared-field / no-fusion discipline, and avoids manifesto closure.
+- `Packet 17` now marks the lane `ready for compiled comparison`, while `Chapter 18` remains packet-only and `Chapter 19-27` remain freeze-controlled.
 - `02_MANUSCRIPTS/COMPILED/Book_2_The_Myocardial_Chorus.md` now matches the active Book 2 working lane rather than the older compiled prose branch.
 - `02_MANUSCRIPTS/COMPILED/Somatic_Canticles_Trilogy_Omnibus_CLEAN.md` is no longer hybrid at the Book 1 / Book 2 boundary; it now carries the merged Book 1 `Chapter 08` exit directly into the merged Book 2 `Chapter 09` opening.
 - The omnibus also now restores a proper `# Chapter 16: The Wilt` heading break instead of leaving that transition glued to the end of old Book 2 prose.
