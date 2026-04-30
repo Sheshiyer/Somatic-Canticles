@@ -2,12 +2,13 @@
 
 ## Scaffold Status
 
-- Packet state: starter packet open
-- Working source: not yet authorized; `working/` remains closed for `Chapter 19`
-- Baseline status: packet-only; prose closed pending packet validation
+- Packet state: active prose lane
+- Working source: `story/chapters/book_3_the_ripening/working/Chapter-19-The-Three-Point-Problem.md`
+- Baseline status: ready for compiled comparison
 
 ## Source Paths
 
+- Working source: `story/chapters/book_3_the_ripening/working/Chapter-19-The-Three-Point-Problem.md`
 - Canonical chapter source: `02_MANUSCRIPTS/CHAPTERS/BOOK_3_THE_RIPENING/Chapter-19-The-Three-Point-Problem.md`
 - Canonical compiled reference: `02_MANUSCRIPTS/COMPILED/Book_3_The_Ripening.md`
 
@@ -18,7 +19,7 @@
 ## Compiled Comparison
 
 - Compiled posture:
-  - the source chapter and compiled Book 3 chapter still belong to the same older prose branch; `Chapter 19` is strong enough in hard authority to open as a packet, but not yet as a prose lane
+  - the source chapter and compiled Book 3 chapter still belong to the same older prose branch; `Chapter 19` is strong enough in hard authority to sustain a narrow prose opening, but only under explicit continuity, vector, and anti-sermon constraints
 - Highest-risk divergences:
   - hinge drift: the compiled/source branch inserts a three-day reset after `Chapter 18`, while the active lane should inherit the immediate operational handoff from the newly stabilized synthesis frame rather than cooling into recap
   - lexicon and naming drift: the compiled/source branch still carries `Khalorēē Field Architecture`, `Witness Awareness`, `single Witness`, and older full-name cadence, while any live lane will need shorter role-bound naming and exact witness-vessel / self-consciousness language
@@ -28,7 +29,8 @@
   - scaffolding and residue drift: the compiled/source branch still carries embedded production residue such as `diagnostic_block`, `RESONANCE PROFILE`, `Chapter Status`, `Word Count`, and `Next Dependency`
 - Opening posture:
   - this packet opens only because `Chapter 16-18` now prove the Book `3` lane can hold lexicon control, anti-sermon discipline, and non-fusional field logic through the synthesis hotspot
-  - prose remains closed until this packet proves the triangulation lane can stay procedural, embodied, and continuous with the active `Chapter 18` ending
+  - the active working lane now exists because the packet contract is strong enough to carry triangulation into prose without widening the cluster
+  - the active working lane is now stable enough to serve as the live compiled-comparison candidate; no `Chapter 20` opening is authorized from this move alone
 
 ## Mapped Sources
 
@@ -76,4 +78,4 @@
 - Hold the `Chapter 18 -> 19` handoff as live procedure, not recap.
 - Keep the three vectors as already-earned operational truths rather than freshly discovered metaphysics.
 - Prevent the chapter from inflating planning into sermon, montage, or manifesto.
-- Do not authorize a `working/` copy until the packet contract itself feels exact enough to survive prose pressure.
+- Do not authorize `Chapter 20` or any later lane until active `Chapter 19` proves the packet contract can survive prose pressure.

@@ -38,8 +38,8 @@ Use this board to answer:
 - `Book 2` now has a defensible ownership zone: witness-as-method, developmental continuity, heart coherence, and three-body governance.
 - `Book 3` now has a defensible ownership zone: structural lie, false perfection, severance, and authored reality.
 - `Book 3` is no longer held back by raw singleton image scarcity in the two thinnest image families.
-- `Book 3` now has a narrow downstream opening: `Chapter 16-18` have recorded compiled deltas, and `Chapter 19` may open only as a starter packet while `Chapter 18` remains the proving lane for the cluster transition.
-- `Book 3` now has `Chapter 19` open as a starter packet only, while `Chapter 20-24` still read as conceptually strong but soft for downstream staging and `25-27` remain projection-heavy.
+- `Book 3` now has a narrow downstream opening: `Chapter 16-18` have recorded compiled deltas, and `Chapter 19` is now the only additional active prose lane while `Chapter 20-27` remain closed.
+- `Book 3` now has `Chapter 19` open as a single active prose lane, while `Chapter 20-24` still read as conceptually strong but soft for downstream staging and `25-27` remain projection-heavy.
 - Cross-trilogy families remain active, but they are no longer floating without placement logic.
 
 ## Book 3 Cluster Rerun
@@ -47,7 +47,7 @@ Use this board to answer:
 | Cluster | Current evidence posture | Readiness result | Still blocked by | Next safe move |
 | --- | --- | --- | --- | --- |
 | `16-18` | hard-authority strong; strengthened deception coverage is sufficient for local stakes, Gardener posture, and method synthesis | `Chapter 16-18` compiled deltas recorded | the open lane is still fenced by `Chapter 18` hotspot risk, role flattening, vector lexicon stability, and synthesis-to-sermon drift | review the recorded `Chapter 18` deltas and keep anything later closed until that decision is made |
-| `19-21` | hard-authority strong for protocol pressure; support stack now sufficient to stabilize placement | `Chapter 19` starter packet open; `20-21` soft-high | cross-book carryover validation is explicit now, but prose opening still depends on proving the triangulation lane can hold continuity, non-merger discipline, and anti-sermon pressure | keep `20-21` in intake and validate `Chapter 19` before any wider opening |
+| `19-21` | hard-authority strong for protocol pressure; support stack now sufficient to stabilize placement | `Chapter 19` ready for compiled comparison; `20-21` soft-high | cross-book carryover validation is explicit now, but anything later still depends on proving the triangulation lane can hold continuity, non-merger discipline, and anti-sermon pressure at prose level | keep `20-21` in intake and record the `Chapter 19` compiled-surface deltas before any wider opening |
 | `22-24` | temptation and structural-lie material is now clearly owned by `Book 3` | `soft-high` | the delta ledger now confirms sermonizing, lore-monologue, and governance-overreach risk remain too high | keep projection-level only |
 | `25-27` | authorship and post-Severance logic has a stable concept spine but still depends on review-required macro-governance support | `projection-heavy` | authored-reality and macro-governance claims still outrun hard-authority corroboration | hold as projection only |
 
@@ -55,7 +55,7 @@ Use this board to answer:
 
 - `Book 1` may scaffold packets now, but should not open `working/` chapter copies until a packet is ready for an actual prose pass.
 - `Book 3` must triangulate macro-governance claims through `hard authority` plus corroborating support as defined in `world_bible_authority_registry.md`.
-- `Book 3` now has a compiled-surface audit, carryover validation, and delta ledger; only `Chapter 16-18` have cleared the current prose-promotion decision, while `Chapter 19` has cleared only a packet-opening decision.
+- `Book 3` now has a compiled-surface audit, carryover validation, and delta ledger; only `Chapter 16-19` have cleared the current prose-promotion decision.
 - `Book 3` `Chapter 18` is open only under explicit delta-ledger constraints around exposition collapse, vector drift, role flattening, and lexicon control.
-- `Book 3` `Chapter 19` must not open as prose until the packet contract proves triangulation can stay procedural, embodied, and exact in vector language.
+- `Book 3` `Chapter 19` is open only under exact vector, continuity, non-merger, and anti-sermon constraints; no later chapter may open until those constraints hold under prose pressure.
 - Do not treat `Book 1` scaffolding as blanket permission to packet `Book 3`.

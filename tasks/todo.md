@@ -4,7 +4,7 @@ This file is the active source of truth for repository execution status.
 
 ## Next Up
 
-- [ ] Review `Packet 19` and decide whether `Chapter 19` may promote into an active prose lane while `Chapter 20-27` remain closed
+- [ ] Compare active `Book 3` `Chapter 19` against the compiled Book `3` surface and record the meaningful deltas before considering anything about `Chapter 20`
 
 ### Planned Next Wave: Book 3 Unfreeze Prep
 
@@ -187,6 +187,11 @@ This file is the active source of truth for repository execution status.
 - The recorded `Chapter 18` deltas are now judged sufficient to open `Chapter 19`, but only as a constrained starter packet rather than a prose lane.
 - `Packet 19` now exists as the first `19-21` packet surface: it captures the compiled branch's hinge reset, stale lexicon, merger drift, scaffolding contamination, and protocol-overexplanation risks without authorizing a `working/` copy yet.
 - `Chapter 19` prose remains closed for now; `Chapter 20-27` remain freeze-controlled until the new packet contract proves the triangulation lane can stay procedural, embodied, and non-sermonic.
+- `Packet 19` is now judged strong enough to promote `Chapter 19` into an active prose lane without widening the cluster beyond it.
+- [Chapter-19-The-Three-Point-Problem.md](/Volumes/madara/2026/twc-vault/01-Projects/tryambakam-noesis/Somatic-Canticles-book/Somatic-Canticles/06_WORKBENCH/SC_STORYOPS/story/chapters/book_3_the_ripening/working/Chapter-19-The-Three-Point-Problem.md) now inherits the live `Chapter 18` handoff directly, removes the stale three-day reset and old lexicon, keeps `Pure Joy` / `Catalyst Clarity` / `Present Coherence` exact, and preserves non-fusional shared-field discipline while turning triangulation back into live procedure.
+- `Chapter 19` is now the fourth active Book `3` prose lane; `Chapter 20-27` remain freeze-controlled pending a later gate decision.
+- `Chapter 19` is now stabilized to a compiled-comparison baseline: the working copy keeps triangulation procedural, removes the last filter-word residue from the active lane, and holds the old protocol labels beneath rather than above the earned `Pure Joy` / `Catalyst Clarity` / `Present Coherence` frame.
+- `Packet 19` now marks the lane `ready for compiled comparison`, while `Chapter 20-27` remain freeze-controlled pending the next gate decision.
 - GitHub umbrella issues `#18-23` are now closed with completion notes, so the remote backlog once again matches the local StoryOps tracker state.
 - `02_MANUSCRIPTS/COMPILED/Book_2_The_Myocardial_Chorus.md` now matches the active Book 2 working lane rather than the older compiled prose branch.
 - `02_MANUSCRIPTS/COMPILED/Somatic_Canticles_Trilogy_Omnibus_CLEAN.md` is no longer hybrid at the Book 1 / Book 2 boundary; it now carries the merged Book 1 `Chapter 08` exit directly into the merged Book 2 `Chapter 09` opening.

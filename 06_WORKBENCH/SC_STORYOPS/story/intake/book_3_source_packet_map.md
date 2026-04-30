@@ -14,7 +14,7 @@ It does not open packets by itself. It defines which source families each late-t
 - Pair image families with authority families; no image cluster may drive a packet by itself.
 - Preserve the current projection ruling:
   - `16-18` may move through source mapping now, but only `Chapter 16-18` may open as working copies at present
-  - `Chapter 19` may open as a starter packet only; `20-24` remain soft
+  - `Chapter 19` may open as a single active prose lane; `20-24` remain soft
   - `25-27` remain projection-heavy
 
 ## Cluster Summary
@@ -22,7 +22,7 @@ It does not open packets by itself. It defines which source families each late-t
 | Cluster | Chapter burden | Mandatory source packet | Support packet | Image packet | Current posture | Next safe move |
 | --- | --- | --- | --- | --- | --- | --- |
 | `16-18` | `Wilt`, `Gardener`, `Synthesis Protocol` | hard-authority strong | debug / inherited-pattern support | concealed-truth + strategic-deception families | `Chapter 16-18` compiled deltas recorded | review the recorded `Chapter 18` deltas before considering any wider Book `3` opening |
-| `19-21` | `Three-Point Problem`, `Convergence Point`, `Test Fire` | protocol and vector logic strong | triangulation and coherence support | tetramorphic + witness-support families | `Chapter 19` starter packet open; `20-21` soft-high | validate `Chapter 19` under exact vector, continuity, and anti-sermon constraints before any prose opening or later-cluster widening |
+| `19-21` | `Three-Point Problem`, `Convergence Point`, `Test Fire` | protocol and vector logic strong | triangulation and coherence support | tetramorphic + witness-support families | `Chapter 19` ready for compiled comparison; `20-21` soft-high | compare active `Chapter 19` against the compiled Book `3` surface before any `20-21` opening or later-cluster widening |
 | `22-24` | `Perfect World`, `Flaw in the Code`, `Final Procedure` | temptation / refusal / severance pressure strong | preservation-law and structural-lie support | concealed-truth + strategic-deception families | `soft-high` | remain packet-closed under the current delta-ledger ruling |
 | `25-27` | `Void`, `Architecture of New Reality`, `New Beginning` | authorship and Amrita logic strong in concept | macro-governance and continuous-creation support only | cellular-polity + tetramorphic + remnant-guidance families | `projection-heavy` | hold at projection until authored-reality claims are corroborated more tightly |
 
@@ -219,7 +219,7 @@ It does not open packets by itself. It defines which source families each late-t
 ## Safe Use Outcome
 
 - `16-18` now has a usable source packet map and starter packets open under delta constraints.
-- `19-21` now has a constrained source inheritance set, and `Chapter 19` is allowed to open as a starter packet only.
+- `19-21` now has a constrained source inheritance set, and `Chapter 19` is allowed to open as a single active prose lane under packet constraints.
 - `22-24` now has a constrained temptation / structural-lie inheritance set, but still waits on compiled-surface audit.
 - `25-27` now has a bounded authorship-support stack, but remains projection-heavy.
 
