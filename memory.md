@@ -14,14 +14,14 @@ Somatic Canticles is a three-book sci-fi trilogy about consciousness, embodiment
 - The `22`-asset arcana layer is still valid as symbolic and visual support, but it is **not** chapter parity.
 
 ### Active Phase
-- Current phase: trilogy-wide `v0.2` intake and mapping
-- Current sequence: `clarify -> intake -> projection -> book assignment`
-- `SC_STORYOPS` is the active staging lane for source extraction, lore consolidation, image principle work, dialogue calibration, and later chapter-packet support
+- Current phase: compiled trilogy package complete, with `SC_STORYOPS` retained as the supporting research, intake, and revision-control layer
+- Current sequence for future revision: `clarify -> intake -> projection -> packet / lane revision -> compiled merge-back`
+- `SC_STORYOPS` remains the staging lane for source extraction, lore consolidation, image principle work, dialogue calibration, and any later chapter-level revision support
 
 ### Readiness Language
 - Approved status label: `canon/export ready`
 - Required paired caveat while intake is partial: `research/image mapping incomplete`
-- Avoid calling the trilogy fully release-ready until the mapping loop is complete
+- The compiled manuscript package is complete even though the research/mapping layer remains incomplete
 
 ## Current Authority Stack
 

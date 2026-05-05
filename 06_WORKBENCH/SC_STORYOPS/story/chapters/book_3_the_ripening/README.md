@@ -1,11 +1,11 @@
 # Book 3 Workbench
 
-This folder now stages the full constrained Book 3 working lane: `Chapter 16-27` are active prose lanes with recorded compiled-comparison deltas.
+This folder records the full constrained Book 3 working lane that produced the current compiled manuscript: `Chapter 16-27` are active prose surfaces with recorded compiled-comparison deltas.
 
 Current scope:
 
-- `packets/` remain open for `Chapter 16-22`
-- `working/` may contain `Chapter 16-22` only
+- `packets/` now exist for `Chapter 16-27`
+- `working/` now contains the active `Chapter 16-27` revision lane used to rebuild compiled Book `3`
 - `Chapter 16` now has its compiled-surface deltas recorded
 - `Chapter 17` now has its compiled-surface deltas recorded under the same delta-ledger controls
 - `Chapter 18` now has its compiled-surface deltas recorded under explicit hotspot constraints and should not be mistaken for a general Book `3` unfreeze
@@ -19,7 +19,7 @@ Current scope:
 - `Chapter 26` now has an active `working/` copy under authored-reality-as-practice constraints and its compiled-surface deltas are recorded
 - `Chapter 27` now has an active `working/` copy under habitation and future-contact constraints and its compiled-surface deltas are recorded
 
-Packet-opening gates:
+Lane constraints and future-use gates:
 
 - macro-governance claims must triangulate through `hard authority` plus corroborating support under `intake/world_bible_authority_registry.md`
 - the active Book `3` prose lane remains narrow because the delta ledger still fences the main risks: compiled scaffolding contamination, `Chapter 18` exposition collapse, `15 -> 16` hinge softness, Gardener over-mechanization, witness/vector lexicon drift, temptation-sermon drift, and `22 -> 23` boundary inflation
@@ -32,7 +32,7 @@ Packet-opening gates:
 - `Chapter 25-27` are now open only because the severance lane was executed cleanly enough to carry post-Severance authorship without defaulting back into manifesto logic or production scaffolding
 - Book 1 scaffolding must not be mistaken for permission to harden late-trilogy packet logic prematurely
 
-Required intake artifacts before any further unfreeze decision:
+Required intake artifacts behind the current lane:
 
 - `../../intake/book_3_hard_authority_pack.md`
 - `../../intake/book_3_macro_governance_pack.md`
@@ -43,15 +43,11 @@ Required intake artifacts before any further unfreeze decision:
 - `../../intake/book_3_delta_ledger.md`
 - `../../intake/book_projection_board.md`
 
-Use this folder only when:
+Use this folder when:
 
-- `Chapter 16` needs constrained prose work tied directly to packet and ledger rules
-- `Chapter 17` needs constrained prose work tied directly to packet and ledger rules
-- `Chapter 18` needs constrained prose work tied directly to packet and ledger rules
-- `Chapter 19` needs constrained prose work tied directly to packet and ledger rules
-- `Chapter 20` needs constrained prose work tied directly to packet and ledger rules
-- `Chapter 21` needs constrained prose work tied directly to packet and ledger rules
-- the remaining work is no longer chapter-opening; it is compiled merge-back and endmatter alignment
+- `Chapter 16-27` need future constrained prose revision tied directly to packet and ledger rules
+- compiled Book `3` needs to be audited against its source packets after any future manuscript change
+- glossary, bibliography, or closing surfaces need to stay aligned with late-lane cosmology and vocabulary
 - authored-reality and world-governance material is mapped clearly enough to stage at limited depth
 - lore authority has been separated from legacy spillover
 - packeting would sharpen the book rather than prematurely harden unresolved macro ideas

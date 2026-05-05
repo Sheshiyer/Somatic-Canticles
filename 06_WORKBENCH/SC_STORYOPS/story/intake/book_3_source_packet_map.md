@@ -2,9 +2,9 @@
 
 ## Purpose
 
-This file is the chapter-cluster handoff between projection and any future `Book 3` packet scaffolding.
+This file is the chapter-cluster source handoff that was used to open the late `Book 3` lane and remains the source archive for any future revision of `Chapter 16-27`.
 
-It does not open packets by itself. It defines which source families each late-trilogy cluster is allowed to inherit, which sources are optional support only, which image families are strong enough to travel with the cluster, and which gates still block downstream chapter packets.
+It is no longer a gate to opening packets. It records which source families each late-trilogy cluster inherited, which sources remained support only, which image families traveled with the cluster, and which cautions should still govern future revision.
 
 ## Operating Rule
 
@@ -21,10 +21,10 @@ It does not open packets by itself. It defines which source families each late-t
 
 | Cluster | Chapter burden | Mandatory source packet | Support packet | Image packet | Current posture | Next safe move |
 | --- | --- | --- | --- | --- | --- | --- |
-| `16-18` | `Wilt`, `Gardener`, `Synthesis Protocol` | hard-authority strong | debug / inherited-pattern support | concealed-truth + strategic-deception families | `Chapter 16-18` compiled deltas recorded | review the recorded `Chapter 18` deltas before considering any wider Book `3` opening |
-| `19-21` | `Three-Point Problem`, `Convergence Point`, `Test Fire` | protocol and vector logic strong | triangulation and coherence support | tetramorphic + witness-support families | `Chapter 19-21` compiled deltas recorded | review the recorded `Chapter 21` deltas before any `Chapter 22` decision |
-| `22-24` | `Perfect World`, `Flaw in the Code`, `Final Procedure` | temptation / refusal / severance pressure strong | preservation-law and structural-lie support | concealed-truth + strategic-deception families | `Chapter 22-24` active prose lanes; compiled deltas recorded | merge the lane back into compiled Book `3` only after endmatter and glossary surfaces are aligned with the final vocabulary |
-| `25-27` | `Void`, `Architecture of New Reality`, `New Beginning` | authorship and Amrita logic strong in concept | macro-governance and continuous-creation support only | cellular-polity + tetramorphic + remnant-guidance families | `Chapter 25-27` active prose lanes; compiled deltas recorded | keep macro-governance rhetoric bounded even after prose opening; merge back only after bibliography and closing surfaces are ready |
+| `16-18` | `Wilt`, `Gardener`, `Synthesis Protocol` | hard-authority strong | debug / inherited-pattern support | concealed-truth + strategic-deception families | `Chapter 16-18` compiled deltas recorded and merged | future edits must still honor hotspot, lexicon, and anti-sermon constraints |
+| `19-21` | `Three-Point Problem`, `Convergence Point`, `Test Fire` | protocol and vector logic strong | triangulation and coherence support | tetramorphic + witness-support families | `Chapter 19-21` compiled deltas recorded and merged | future edits must still preserve exact vector logic, non-merger discipline, and bounded Test Fire pressure |
+| `22-24` | `Perfect World`, `Flaw in the Code`, `Final Procedure` | temptation / refusal / severance pressure strong | preservation-law and structural-lie support | concealed-truth + strategic-deception families | `Chapter 22-24` compiled deltas recorded and merged | future edits must still prevent sermon inflation, governance overreach, and boundary bleed |
+| `25-27` | `Void`, `Architecture of New Reality`, `New Beginning` | authorship and Amrita logic strong in concept | macro-governance and continuous-creation support only | cellular-polity + tetramorphic + remnant-guidance families | `Chapter 25-27` compiled deltas recorded and merged | future edits must still keep macro-governance rhetoric bounded and scene-first |
 
 ## Cluster Packets
 
@@ -228,6 +228,6 @@ It does not open packets by itself. It defines which source families each late-t
 
 ## Handoff Rule
 
-- Use this file to build any future `Book 3` starter packets.
-- Do not skip from this map directly into `working/` chapter copies.
-- Re-check `book_projection_board.md`, `book_3_concept_authority_matrix.md`, `book_3_compiled_surface_audit.md`, `book_3_entry_carryover_validation.md`, `book_3_delta_ledger.md`, and `world_bible_authority_registry.md` before any packet is opened.
+- Use this file to audit source inheritance before any future revision of compiled `Book 3`.
+- Treat it as a source archive, not as an unopened-lane decision surface.
+- Re-check `book_projection_board.md`, `book_3_concept_authority_matrix.md`, `book_3_compiled_surface_audit.md`, `book_3_entry_carryover_validation.md`, `book_3_delta_ledger.md`, and `world_bible_authority_registry.md` before any late-book chapter is revised again.
