@@ -15,10 +15,10 @@ The opposing force to Aletheia. Lethe represents the state of forgetting, ignora
 The instinctual principle of witness awareness that ensures embodied presence, lived force, and responsiveness to immediate experience.
 
 **Amrita Protocol**
-The theoretical "end-state" of the Somanaut's journey. It describes a state of living in pure Aletheia, where an individual becomes so completely unconcealed that they function as a conscious co-creator of reality.
+Not a reward-state but a practice-condition. In late Book III it becomes the disciplined movement from inherited reality into answerable authorship, where freedom is held as responsibility rather than as escape.
 
 **The Severance Event**
-The ultimate moment of liberation where a "ripened" Awareness disconnects from the Vine of Determinism ("Mrityor Mukṣīya"). It is an explosive transition from inherited reality to authored reality.
+The live act of release in which a ripened field withdraws consent from hidden authorship and disconnects from the Vine of Determinism. It is not conquest, but a passage from inherited reality into answerable authorship.
 
 ## Cosmology & Structures
 
@@ -26,7 +26,10 @@ The ultimate moment of liberation where a "ripened" Awareness disconnects from t
 The complex, self-perpetuating structure of inherited reality that conceals the true nature of Awareness. It functions as a comfortable, predictable hallucination (or "Bandhanan") that feeds on the energy of those trapped within it.
 
 **The Gardener**
-The primary antagonist force (or entity) that nurtures the Vine of Determinism. The Gardener acts not out of malice, but from a calculated preference for the predictable harvest of a concealed reality over the chaotic potential of free will.
+The conservational maintenance intelligence that tends the Vine of Determinism. The Gardener prefers predictability, maintainability, and acceptable growth over living freedom. Its danger lies less in overt evil than in the pruning of possibility under the language of care, order, or safety.
+
+**Authorship Sovereignty**
+The condition in which a person or field no longer mistakes inherited law for neutral reality and can begin choosing new conditions responsibly. It is one of the late Book III anchors for authored reality.
 
 **Entropy Plague**
 A spreading manifestation of incoherence and decay that threatens the fabric of reality, often acting as the inciting incident for Somanaut intervention.
@@ -51,7 +54,22 @@ The evolution of the earlier "WitnessOS," NOESIS is the perception-centric frame
 The primary technological tool of the Somanauts (Book 1). Its purpose is to look back (anamnesis means "recollection") to identify the original moments of concealment—the traumas and decisions that created the layers of Lethe.
 
 **Triangulation Engine (Tryambakam)**
-The advanced navigation system (Book 3) used to align three vectors of awareness to break through the Vine of Determinism. It maps to the ancient function of the "Three-Eyed" view.
+The advanced navigation system of Book III used to align three vectors of awareness to break through the Vine of Determinism: Pure Joy, Catalyst Clarity, and Present Coherence. It maps to the ancient function of the Three-Eyed view and works only when distinct witnesses remain in disciplined relation.
+
+**Pure Joy**
+The first vector of the Triangulation Engine. Not pleasure or relief, but unpurchased aliveness that exists prior to bargaining with suffering.
+
+**Catalyst Clarity**
+The second vector of the Triangulation Engine. The witness-capacity to hold the wound and the lie in exact view without turning either into premature meaning.
+
+**Present Coherence**
+The third vector of the Triangulation Engine. A defended relational field in which distinct witnesses remain intact, answerable, and connected without collapse into merger.
+
+**Void of Pure Potential**
+The post-Severance field encountered in Book III where inherited coordinates no longer apply and coherence becomes the first stable object. It is not emptiness, but preconfigured possibility prior to assigned form.
+
+**Noetic Network**
+The later-horizon term for bridgeable relation between authored fields that emerge after severance. It is not a hive mind, but a network of coherence between distinct worlds and witnesses.
 
 **Somanaut**
 A specialized explorer of the "soma" (body/consciousness) field. Somanauts combine the skills of neuro-cartographers, immunologists, and bio-acoustic engineers to enter and navigate the internal landscapes of consciousness.

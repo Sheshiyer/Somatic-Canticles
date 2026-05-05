@@ -1,14 +1,5 @@
 # Chapter 9: The Sigil Smith
 
-**Somatic Event:** Creating symbolic tools within Khalorēē through sacred mathematics
-**Character Focus:** Gideon Seter (Muladhara Galaxy - Kabbalistic Tree Networks)
-**Family Context:** Seter family sigil smithing traditions and protective protocols
-**Political Context:** House Seter leading Compression-Stability Pact against Khalorēē expansion
-**Territory Context:** Sigil forge space with connection to sacred geometry
-**Cultural Context:** Kabbalistic Tree Ascension - Yesod (Foundation) level, mastering Klei Toda'ah
-
----
-
 The forward-bearing Jian had refused to name in the last chamber did not vanish.
 
 It tightened.
@@ -220,15 +211,6 @@ The distinction would not stay local for long.
 
 # Chapter 10: The Debug Protocol
 
-**Somatic Event:** Restoring a usable witness method by separating the subject's core procedure from the emergency scripts wrapped around it.
-**Character Focus:** Corv Luminth
-**Family Context:** Luminth diagnostic training taught Corv to trust sequence, but that inheritance can turn care into intervention too quickly.
-**Political Context:** House Luminth's pattern-breaking research shadows the chamber: any act of correction can be read as healing, liberation, or control.
-**Territory Context:** The subject's debug field, where witness logic, compensations, and failed repair loops render themselves as living procedure.
-**Cultural Context:** Corv's Qi discipline is exacting rather than mystical: observe the method, locate the drift, and restore relation without forcing conclusion.
-
----
-
 The forge lost heat and became interface.
 
 Planes of pale geometry rose around them, stacking into a chamber of translucent panes, suspended logs, and branching process lines. Nothing in it held still. One protocol opened while another tried to close. Error threads folded back into repair threads and then split again before either could finish. Whole sections of the field kept attempting recovery in parallel, as if the subject no longer trusted any single method enough to let it complete.
@@ -384,15 +366,6 @@ It looked like identity under revision.
 
 
 # Chapter 11: The Avatar Mutation
-
-**Somatic Event:** Letting identity reconfigure without breaking witness continuity or reducing adaptation to betrayal.
-**Character Focus:** Collective integration under pressure
-**Family Context:** Each house has trained a different instinct about what should remain unchanged when a self mutates.
-**Political Context:** The Forbidden Synthesis controversy shadows the chamber, where mixed inheritance can be read as innovation or breach depending on who is watching.
-**Territory Context:** The avatar field, where survival selves, aspirational forms, and witness continuity appear as living configurations.
-**Cultural Context:** The team must hold four traditions in contact without forcing them into one sanctioned image.
-
----
 
 The surviving line from the debug field did not end at the center.
 
@@ -577,15 +550,6 @@ Then the signal opened again, severe and waiting.
 
 # Chapter 12: The Anamnesis Engine
 
-**Somatic Event:** Restoring baseline without turning recovery into erasure, cleansing theater, or ceremonial reset.
-**Character Focus:** Collective restart under pressure
-**Family Context:** The team begins replacing bloodline authorization with functional kinship earned inside repair.
-**Political Context:** Light-Resonance Alliance scrutiny shadows any restart that could be mistaken for synthesis drift or covert authorship.
-**Territory Context:** The stripped Anamnesis Engine, where reboot routines and emergency compensations compete to define baseline.
-**Cultural Context:** Restart here is sequence discipline, not purity theater.
-
----
-
 The avatar field collapsed into signal.
 
 When the chamber resolved around them, it had none of the false serenity of a healing theater. White lattice. Narrow light. A hum so controlled it felt more like restraint than comfort. The subject's Anamnesis Engine had stripped itself to bare procedure: arrest, isolate, sequence, release.
@@ -642,15 +606,6 @@ The Anamnesis Engine dissolved, leaving one discipline behind: if you wanted to 
 
 
 # Chapter 13: The Myocardial Chorus
-
-**Somatic Event:** Relearning heart-field relation through pulse, interval, and threshold without collapsing compassion into merger.
-**Character Focus:** Collective heart-field coordination
-**Family Context:** Kinship becomes credible only when contact can hold interval, authorship, and return.
-**Political Context:** Compression-Stability pressure shadows any resonance that looks too mutual, too open, or too hard to govern.
-**Territory Context:** The atrial heart field, where pulse, interval, and return determine whether compassion can carry load.
-**Cultural Context:** Compassion here is conduction and timing, not uplift.
-
----
 
 The Anamnesis Engine released them into heat.
 
@@ -730,15 +685,6 @@ The Myocardial Chorus thinned, but its discipline stayed behind. The heart was n
 
 
 # Chapter 14: The Three-Body Coordination
-
-**Somatic Event:** Rebuilding relay trust so instinct, feeling, and thought can hand off without seizure, contempt, or coup logic.
-**Character Focus:** Gideon under triune governance pressure
-**Family Context:** Seter protection logic has to relearn itself as coordination instead of executive override.
-**Political Context:** Internal governance stays unstable whenever emergency powers become permanent habit.
-**Territory Context:** The coordination chamber, where threat, feeling, and thought fight over relay authority.
-**Cultural Context:** Three-body order here is runtime trust, not static balance.
-
----
 
 The ruby chamber drained away by degrees, as if the heart had finished saying what only the heart could say.
 
@@ -892,15 +838,6 @@ They carried it out in their bodies: instinct, feeling, and thought were never m
 
 
 # Chapter 15: The Witness Integration
-
-**Somatic Event:** Stabilizing distributed witness so observation becomes exchange without collapsing into a single frame.
-**Character Focus:** Collective witness at threshold
-**Family Context:** The team has to learn that shared seeing only holds if each member keeps authorship and answerability.
-**Political Context:** Distributed governance after coordination has to prove it will not become another throne.
-**Territory Context:** The distributed witness chamber, where observation must become exchange without surrender.
-**Cultural Context:** Shared perception here is disciplined practice, not transcendence.
-
----
 
 The coordination chamber released them without rupture.
 

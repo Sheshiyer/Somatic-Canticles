@@ -4,7 +4,7 @@
 
 - Packet state: active prose lane
 - Working source: `story/chapters/book_3_the_ripening/working/Chapter-19-The-Three-Point-Problem.md`
-- Baseline status: ready for compiled comparison
+- Baseline status: compiled comparison recorded
 
 ## Source Paths
 
@@ -30,7 +30,9 @@
 - Opening posture:
   - this packet opens only because `Chapter 16-18` now prove the Book `3` lane can hold lexicon control, anti-sermon discipline, and non-fusional field logic through the synthesis hotspot
   - the active working lane now exists because the packet contract is strong enough to carry triangulation into prose without widening the cluster
-  - the active working lane is now stable enough to serve as the live compiled-comparison candidate; no `Chapter 20` opening is authorized from this move alone
+  - the active working lane now functions as the live source candidate for any later compiled merge-back
+  - the recorded comparison confirms the triangulation lane can stay procedural, embodied, continuous with active `Chapter 18`, and non-merger under prose pressure
+  - no `Chapter 20` opening is authorized from this move alone
 
 ## Mapped Sources
 

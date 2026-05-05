@@ -4,7 +4,48 @@ This file is the active source of truth for repository execution status.
 
 ## Next Up
 
-- [ ] Compare active `Book 3` `Chapter 19` against the compiled Book `3` surface and record the meaningful deltas before considering anything about `Chapter 20`
+- [ ] Optional release checkpoint: push the completed late-Book-3 and endmatter package after review
+
+### Completed Optional Cleanup
+
+- [x] Normalize the remaining compiled `**Somatic Event:**` preamble markers out of Book `1`, Book `2`, and the omnibus for a stricter prose-only export surface
+
+### Active Serial Wave: Finish Book 3 and Endmatter
+
+- [x] `23` Open the structural-lie lane from `Chapter 22` without importing `Chapter 24` severance pressure too early
+- [x] `23a` Keep Gideon's safety/control temptation exact, local, and anti-heroic; keep Corv's false-mercy refusal exact and anti-sermonic
+- [x] `23b` Compare active `Chapter 23` against the compiled Book `3` surface and record the meaningful divergences
+- [x] `24` Open the final-procedure lane as live enacted authorship, not battle spectacle or deterministic countdown myth
+- [x] `24a` Hold the Tryambakam / triangulation vocabulary exact while keeping the scene embodied and role-bound
+- [x] `24b` Compare active `Chapter 24` against the compiled Book `3` surface and record the meaningful divergences
+- [x] `25` Open the void lane only after severance is clean, removing `RESONANCE PROFILE`, `Chapter Status`, and all other embedded production residue
+- [x] `25a` Use the topological-pocket and timelessness substrate only to sharpen orientation loss, not to replace scene logic with essay logic
+- [x] `25b` Compare active `Chapter 25` against the compiled Book `3` surface and record the meaningful divergences
+- [x] `26` Open the architecture lane as chosen constraint, shared authorship, and first-principles creation rather than omnipotent metaphysical declaration
+- [x] `26a` Use source-code / compiler language only where it stays embodied and narratively earned
+- [x] `26b` Compare active `Chapter 26` against the compiled Book `3` surface and record the meaningful divergences
+- [x] `27` Open the new-beginning lane as habitable field formation, relational future, and first bridge to others without utopian flattening
+- [x] `27a` Strip all remaining end-of-draft scaffolding and keep `Noetic Network` emergence as later-horizon promise rather than sequel bait
+- [x] `27b` Compare active `Chapter 27` against the compiled Book `3` surface and record the meaningful divergences
+- [x] `B1` Create `02_MANUSCRIPTS/COMPILED/Bibliography.md`
+- [x] `B2` Create `02_MANUSCRIPTS/COMPILED/Closing_Note.md`
+- [x] `B3` Update `Preface.md`, `Backmatter.md`, and `Glossary.md` to match the final trilogy vocabulary and conceptual posture
+- [x] `B4` Merge the refreshed Book `3` and endmatter into the compiled canonical surfaces
+
+### Complete the Late Book 3 and Endmatter Package
+
+- [x] Open, stabilize, and compare `Chapter 23` as the structural-lie lane, making hidden authorship explicit without bleeding into `Chapter 24` procedure
+- [x] Open, stabilize, and compare `Chapter 24` as the live severance lane, keeping the 13.7-second cut exact and anti-spectacular
+- [x] Open, stabilize, and compare `Chapter 25` as the first post-Severance lane, stripping all embedded production residue and grounding the void in lived disorientation
+- [x] Open, stabilize, and compare `Chapter 26` as authored reality in practice, building the new field through chosen conditions rather than manifesto abstraction
+- [x] Open, stabilize, and compare `Chapter 27` as first habitation, relational future, and bounded horizon without sugary transcendence
+- [x] Update the Book `3` packet board, workbench README, source packet map, projection board, concept-authority matrix, and chapter-lane surfaces so `Chapter 16-27` now read as a full constrained prose lane
+- [x] Create `02_MANUSCRIPTS/COMPILED/Bibliography.md` from the research references and synchronocities-blog substrate
+- [x] Create `02_MANUSCRIPTS/COMPILED/Closing_Note.md`
+- [x] Refine `Frontmatter.md`, `Preface.md`, `Backmatter.md`, and `Glossary.md` to match the final late-book authorship frame
+- [x] Rebuild `02_MANUSCRIPTS/COMPILED/Book_3_The_Ripening.md` from the active `working/Chapter-16-27` lane with lane-only metadata stripped from the compiled surface
+- [x] Rebuild `02_MANUSCRIPTS/COMPILED/Somatic_Canticles_Trilogy_Omnibus_CLEAN.md` so the refreshed Book `3`, glossary, bibliography, closing note, and backmatter are all present in one canonical export surface
+- [x] Verify the rebuilt package with `git diff --check`, `scan_consistency.py`, and direct residual-term searches against the compiled Book `3` surface
 
 ### Planned Next Wave: Book 3 Unfreeze Prep
 
@@ -191,7 +232,33 @@ This file is the active source of truth for repository execution status.
 - [Chapter-19-The-Three-Point-Problem.md](/Volumes/madara/2026/twc-vault/01-Projects/tryambakam-noesis/Somatic-Canticles-book/Somatic-Canticles/06_WORKBENCH/SC_STORYOPS/story/chapters/book_3_the_ripening/working/Chapter-19-The-Three-Point-Problem.md) now inherits the live `Chapter 18` handoff directly, removes the stale three-day reset and old lexicon, keeps `Pure Joy` / `Catalyst Clarity` / `Present Coherence` exact, and preserves non-fusional shared-field discipline while turning triangulation back into live procedure.
 - `Chapter 19` is now the fourth active Book `3` prose lane; `Chapter 20-27` remain freeze-controlled pending a later gate decision.
 - `Chapter 19` is now stabilized to a compiled-comparison baseline: the working copy keeps triangulation procedural, removes the last filter-word residue from the active lane, and holds the old protocol labels beneath rather than above the earned `Pure Joy` / `Catalyst Clarity` / `Present Coherence` frame.
-- `Packet 19` now marks the lane `ready for compiled comparison`, while `Chapter 20-27` remain freeze-controlled pending the next gate decision.
+- The concrete `Chapter 19` versus compiled-Book-3 deltas are now recorded in `Packet 19`: direct `Chapter 18 -> 19` handoff instead of a three-day reset, normalized lexicon and naming, exact vector language over older protocol-label drift, rejection of merger rhetoric, procedural rather than montage/manifesto triangulation, and removal of embedded compiled scaffolding.
+- `Packet 19` now marks the lane `compiled comparison recorded`, which is strong enough to open `Packet 20` but not yet strong enough to authorize a `working/Chapter 20` copy.
+- `Packet 20` now exists as a starter packet only: it captures the compiled/source branch's merger rhetoric, explanatory inflation, stale field branding, and premature `Test Fire` escalation without opening prose.
+- `Packet 20` is now judged strong enough to promote `Chapter 20` into an active prose lane without widening the cluster beyond it.
+- [Chapter-20-The-Convergence-Point.md](/Volumes/madara/2026/twc-vault/01-Projects/tryambakam-noesis/Somatic-Canticles-book/Somatic-Canticles/06_WORKBENCH/SC_STORYOPS/story/chapters/book_3_the_ripening/working/Chapter-20-The-Convergence-Point.md) now inherits the live `Chapter 19` exit directly, rejects merger rhetoric and stale field-brand language, keeps convergence procedural, and holds the `Chapter 20 -> 21` boundary by stopping at threshold rather than live fire.
+- `Chapter 20` is now the fifth active Book `3` prose lane; `Chapter 21-27` remain freeze-controlled pending a later gate decision.
+- `Chapter 20` is now stabilized to a compiled-comparison baseline: the working copy keeps convergence embodied and role-bound, removes packet corruption from the review surface, and preserves threshold-without-Test-Fire discipline.
+- The concrete `Chapter 20` versus compiled-Book-3 deltas are now recorded in `Packet 20`: direct `Chapter 19 -> 20` handoff instead of a fresh chamber reset, normalized lexicon over old field branding, rejection of merger rhetoric, embodied convergence over substrate sermon, exact wound-handling instead of uplifted explanation, and a clean stop before `Chapter 21` live-fire pressure.
+- `Packet 20` now marks the lane `compiled comparison recorded`, while `Chapter 21-27` remain freeze-controlled pending the next gate decision.
+- The recorded `Chapter 20` deltas are now judged sufficient to open `Packet 21`, but not yet a `working/Chapter 21` prose lane.
+- `Packet 21` now exists as a starter packet only: it captures the compiled/source branch's reset framing, merged-field rhetoric, stale field branding, live-fire inflation, and scaffolding residue without authorizing prose.
+- `Packet 21` is now judged strong enough to promote `Chapter 21` into an active prose lane without widening the cluster beyond it.
+- [Chapter-21-The-Test-Fire.md](/Volumes/madara/2026/twc-vault/01-Projects/tryambakam-noesis/Somatic-Canticles-book/Somatic-Canticles/06_WORKBENCH/SC_STORYOPS/story/chapters/book_3_the_ripening/working/Chapter-21-The-Test-Fire.md) now inherits the live `Chapter 20` exit directly, rejects reset framing and merger rhetoric, keeps the Test Fire local and procedural, and preserves the boundary to `Chapter 22` by ending at first hostile-contact consequence rather than temptation logic.
+- `Chapter 21` is now the sixth active Book `3` prose lane; `Chapter 22-27` remain freeze-controlled pending a later gate decision.
+- `Chapter 21` is now stabilized to a compiled-comparison baseline: the working copy keeps the Test Fire local, procedural, and role-bound, preserves differentiated shared-field discipline under notice pressure, and makes the House / station review consequence explicit without bleeding into `Chapter 22`.
+- The concrete `Chapter 21` versus compiled-Book-3 deltas are now recorded in `Packet 21`: direct `Chapter 20 -> 21` threshold carryover instead of a three-day reset, normalized vector and witness lexicon over stale field-brand language, rejection of merged-observation rhetoric, local first-contact pressure over proto-liberation theater, explicit House / station review consequence, and removal of embedded compiled scaffolding plus countdown urgency.
+- `Packet 21` now marks the lane `compiled comparison recorded`, while `Chapter 22-27` remain freeze-controlled pending the next gate decision.
+- The recorded `Chapter 21` deltas are now judged sufficient to open `Packet 22`, but not yet a `working/Chapter 22` prose lane.
+- `Packet 22` now exists as a starter packet only: it captures the compiled/source branch's false-peace and false-certainty temptations, reset softness, over-smooth harmony, and scaffolding residue without authorizing prose.
+- `Packet 22` review is now complete: the chapter stays prose-closed because the current branch still lacks the full `Chapter 22` custom-temptation contract, especially Corv's false-mercy / perfect-ending lane.
+- `Packet 22` is now refined against the full `Chapter 22` custom-temptation contract: Jian, Sona, and Corv each have an explicit required offer/refusal lane on the packet surface, and Gideon's `Chapter 23` safety lane is now enforced as a boundary rather than backfilled early.
+- `Packet 22` is now judged strong enough to promote `Chapter 22` into an active prose lane without widening the cluster beyond it.
+- [Chapter-22-The-Perfect-World.md](/Volumes/madara/2026/twc-vault/01-Projects/tryambakam-noesis/Somatic-Canticles-book/Somatic-Canticles/06_WORKBENCH/SC_STORYOPS/story/chapters/book_3_the_ripening/working/Chapter-22-The-Perfect-World.md) now inherits the live `Chapter 21` exit directly, adds Corv's `Perfect Ending / False Mercy of Meaning` refusal lane, and keeps Gideon's `Chapter 23` safety temptation out of the chapter.
+- `Chapter 22` is now the seventh active Book `3` prose lane; `Chapter 23-27` remain freeze-controlled pending the next gate decision.
+- `Chapter 22` is now stabilized to a compiled-comparison baseline: the working copy keeps counterfeit-kindness pressure live from `Chapter 21`, makes Corv's refusal lane local rather than sermonic, and preserves the boundary so Gideon's safety temptation does not bleed forward from `Chapter 23`.
+- The concrete `Chapter 22` versus compiled-Book-3 deltas are now recorded in `Packet 22`: direct `Chapter 21 -> 22` counterfeit-kindness carryover instead of softened aftermath glow, cleaner and less cosmetically elevated refusal language, a fully restored Corv false-mercy lane that the compiled branch lacks entirely, a harder boundary against `Chapter 23` safety pressure, and removal of all embedded compiled scaffolding.
+- `Packet 22` now marks the lane `compiled comparison recorded`, while `Chapter 23-27` remain freeze-controlled pending the next gate decision.
 - GitHub umbrella issues `#18-23` are now closed with completion notes, so the remote backlog once again matches the local StoryOps tracker state.
 - `02_MANUSCRIPTS/COMPILED/Book_2_The_Myocardial_Chorus.md` now matches the active Book 2 working lane rather than the older compiled prose branch.
 - `02_MANUSCRIPTS/COMPILED/Somatic_Canticles_Trilogy_Omnibus_CLEAN.md` is no longer hybrid at the Book 1 / Book 2 boundary; it now carries the merged Book 1 `Chapter 08` exit directly into the merged Book 2 `Chapter 09` opening.

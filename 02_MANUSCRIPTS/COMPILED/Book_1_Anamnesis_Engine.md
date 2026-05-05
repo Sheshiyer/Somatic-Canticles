@@ -1,14 +1,5 @@
 # Chapter 1: The Choroid Plexus
 
-**Somatic Event:** Witnessing a full-system Khalorēē rejection event in the choroid plexus.
-**Character Focus:** Dr. Jian Quoril, with the full Somanaut team entering the subject's first catastrophic breach.
-**Family Context:** The team's house disciplines appear under stress before they have earned synthesis.
-**Political Context:** House traditions remain present as method, but the mission exposes where tradition fails under living trauma.
-**Territory Context:** Resonance-field immersion at the edge of the Trauma Wastes.
-**Cultural Context:** Four specialists entering one body with four incompatible instincts and no guarantee of return.
-
----
-
 The datascapes of the choroid plexus were screaming.
 
 Not in air. Not through the ear. The scream arrived as contradiction so dense it acquired force. It hit Jian first as pressure behind the eyes, a phantom migraine blooming through the immersion gel around his real body half a world away. From the command cradle of the *Vajra*, he watched the subject's cerebrospinal architecture convulse across his display, and every line of data insisted on mutually exclusive truths.
@@ -192,15 +183,6 @@ But they had reached the first honest doorway.
 
 # Chapter 2: Signal Transduction
 
-**Somatic Event:** Discovering the authored absence at the center of a sanctuary memory without breaking the calm that conceals it.
-**Character Focus:** Dr. Jian Quoril
-**Family Context:** Quoril succession pressure trains Jian to trust clean architecture, even when the real evidence is the shape of what has been removed.
-**Political Context:** House Quoril's competition logic pressures every mystery toward extraction, ownership, and proof.
-**Territory Context:** The memory archives, where sanctuary, relation, and redaction are rendered as one load-bearing scene.
-**Cultural Context:** Jian's Grihastha discipline can stabilize the archive, but only if it reads the metadata around the void instead of trying to conquer it.
-
----
-
 The fall into the past was less a journey and more a conclusion. The chaotic, screaming present collapsed into a single point of light, a star that went supernova and then winked out of existence. For a moment, there was nothing. A perfect, silent, un-knowing void. The absence of the informational shriek was so total it was a sound in itself. And then, reality resolved itself. The storm was gone. In its place was a scene of impossible, resonant calm.
 
 They were in a memory. Not a perfect, high-fidelity recording, but a soft-focus reconstruction rendered by the `Anamnesis Engine`. A memory palace. Specifically, a library, vast and cathedral-like, lined with towering shelves of old books that smelled of rich earth, old paper, and time itself. The architecture followed the sacred geometry of the Vedic tradition—each shelf a fractal pattern, each corridor a mandala of knowledge, each reading nook a Khalorēē compression space. Dust motes, thick as stars in a private galaxy, danced in the heavy shafts of late-afternoon sunlight slanting through high, arched windows. The air was thick with the scent of aging paper, worn leather, and the faint, sweet ghost of pipe tobacco. It was the smell of safety, a concept so alien to their recent experience that it took them all a moment to process it.
@@ -255,15 +237,6 @@ The team stood before the empty chair, the silent, redacted heart of the mystery
 
 
 # Chapter 3: The Blood-Brain Barrier
-
-**Somatic Event:** Encountering the subject's breached blood-brain barrier and the first clear signs of active Vine interference.
-**Character Focus:** Gideon Seter.
-**Family Context:** The Seter inheritance of protection, compression, and obedience comes under direct strain.
-**Political Context:** Compression-Stability doctrine collides with the reality of living trauma.
-**Territory Context:** The team reaches a defensive threshold where biology and belief are fused.
-**Cultural Context:** Gideon works from Yesod discipline: foundation, boundary, and the moral question of what protection is for.
-
----
 
 ## Scene 1: The Barrier
 
@@ -504,15 +477,6 @@ For the first time since entering the barrier, Gideon did not mistake the differ
 
 # Chapter 4: The Emperor's Genome
 
-**Somatic Event:** Exploring the Vine of Determinism to understand inherited patterns.
-**Character Focus:** Dr. Corvan Luminth
-**Family Context:** Luminth inheritance splits between pattern guardianship and the instinct to break captivity.
-**Political Context:** Pattern maintenance presents itself as protection even when it is preserving captivity.
-**Territory Context:** Exploration of the inherited layer where lineage, trauma, and external maintenance have become indistinguishable.
-**Cultural Context:** Corv reads inheritance as living architecture rather than fate, asking what in a pattern is truly ancestral and what has been authored later.
-
----
-
 The team moved through the breaches Gideon had named exits and entered a structure older than the subject's own speech.
 
 The Blood-Brain Barrier had been a threshold.
@@ -647,15 +611,6 @@ They followed the black-gold tendril deeper into the lattice while, behind them,
 
 
 # Chapter 5: The Endocrine Dogma
-
-**Somatic Event:** Witnessing the HPA-axis feedback loop as a religious ceremony in the pituitary gland.
-**Character Focus:** Dr. Corvan Luminth
-**Family Context:** Luminth interpretation can read doctrine quickly, but that same elegance risks missing what the doctrine is burying.
-**Political Context:** Control survives here by teaching vigilance as obedience and making endocrine command feel morally necessary.
-**Territory Context:** The pituitary / HPA-axis chamber, where hormone signaling behaves like liturgy and stress law.
-**Cultural Context:** Corv has to read the chamber with hermeneutic precision without turning physiology into sermon.
-
----
 
 The black-gold tendril from the inherited lattice did not end in the past.
 
@@ -850,15 +805,6 @@ And beneath it, almost lost again, the smaller signature flickered once more.
 
 # Chapter 6: The Synaptic Crossroads
 
-**Somatic Event:** Choosing between the neocortical and limbic pathways to the source trauma.
-**Character Focus:** The Jian/Sona dynamic
-**Family Context:** Quoril analysis and Vireth resonance collide before they learn how to become one usable method.
-**Political Context:** Any system that explains pain too early ends up preserving the order that produced it.
-**Territory Context:** The synaptic crossroads, where cognitive rerouting and limbic weather compete to define the truth of the wound.
-**Cultural Context:** Analysis and felt signal are both necessary here, but neither gets to claim sovereignty alone.
-
----
-
 The suppressed signature from the pituitary chamber did not disappear.
 
 It divided.
@@ -1033,15 +979,6 @@ Ahead, beneath the limbic storm, the concealed rhythm kept beating like a signal
 
 
 # Chapter 7: The Breathfield Weaver
-
-**Somatic Event:** Learning to build a custom respiratory pattern that restores coherence without suppressing autonomic truth.
-**Character Focus:** Dr. Sona Vireth
-**Family Context:** Vireth healing training made Sona exquisitely responsive to other people's rhythms, but that inheritance also tempts her to confuse care with carrying.
-**Political Context:** Regulation can become another face of control when stability is valued more than truth.
-**Territory Context:** The breathfield, where diaphragm, vagal tone, and field coherence rise and fall together.
-**Cultural Context:** Sona's Salik discipline asks her to listen for the breath that survives panic rather than the image of peace.
-
----
 
 The next layer did not appear as an organ, archive, or doctrine.
 
@@ -1297,15 +1234,6 @@ She had learned a method.
 
 
 # Chapter 8: The Compass Calibration
-
-**Somatic Event:** Realigning internal navigation by discovering compassion as the motive force inside the subject's decision matrix.
-**Character Focus:** Dr. Jian Quoril
-**Family Context:** Quoril precision and succession pressure have trained Jian to trust maps faster than relation.
-**Political Context:** House Quoril's hunger for navigational control shadows every question of orientation and use.
-**Territory Context:** The team enters the subject's internal navigation lattice, where choices, aversions, and survival routes are rendered as living cartography.
-**Cultural Context:** Jian works from Grihastha discipline at the edge of its limit: exact witness is not enough unless it can also respond.
-
----
 
 ## Scene 1: The Grid
 
