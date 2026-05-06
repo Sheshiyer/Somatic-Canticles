@@ -32,6 +32,8 @@ skills/
 *.bak
 _ARCHIVE/
 .wave_runtime/
+__pycache__/
+*.pyc
 
 # Agent Memory (Optional - keep if you want to track history, exclude if personal)
 # memory.md
