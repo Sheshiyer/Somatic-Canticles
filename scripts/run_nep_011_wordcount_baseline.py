@@ -102,6 +102,7 @@ def main() -> None:
         "# Chapter Wordcount Baseline v1",
         "",
         "This is the committed pre-expansion baseline for the active `working/Chapter-*.md` lane in the isolated NVIDIA expansion worktree.",
+        "The `3x` figures below are an intermediate growth floor only; the later trilogy-scale target profile sets the actual `300k-400k` objective.",
         "",
         "## Summary",
         "",
@@ -134,9 +135,10 @@ def main() -> None:
 
     lines.extend(["", "## Notes", ""])
     lines.append("- `Current` is measured from the active `working/Chapter-*.md` files, not the compiled books.")
-    lines.append("- `3x Floor` is the minimum post-expansion target requested for later chapter passes.")
+    lines.append("- `3x Floor` is an intermediate growth floor, not the final trilogy-length objective.")
     lines.append("- `Matrix Covers 3x?` shows whether the existing v1 target band already reaches that `3x` floor.")
     lines.append("- Use this artifact as the before-state for all future chapter expansion verification.")
+    lines.append("- The actual macro goal is defined separately in `generated/trilogy_length_target_profile_v1.{md,json}`.")
     OUT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
     print(f"Wrote {OUT_MD}")

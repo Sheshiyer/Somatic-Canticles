@@ -50,6 +50,9 @@ def chat_completion(
     temperature: float = 0.3,
     max_tokens: int = 1600,
     extra_body: dict[str, Any] | None = None,
+    timeout_seconds: int = 600,
+    max_attempts: int = 3,
+    retry_backoff_seconds: int = 8,
 ) -> dict[str, Any]:
     settings = load_nvidia_settings()
     context = build_ssl_context()
@@ -74,30 +77,45 @@ def chat_completion(
         method="POST",
     )
 
-    try:
-        with urllib.request.urlopen(req, timeout=600, context=context) as response:
-            raw = response.read().decode("utf-8")
-            parsed = json.loads(raw) if raw else {}
-            if response.status == 202:
-                return poll_request_result(
-                    settings=settings,
-                    context=context,
-                    response_body=parsed,
-                    location=response.headers.get("Location"),
-                )
-            if parsed.get("requestId") and not parsed.get("choices"):
-                return poll_request_result(
-                    settings=settings,
-                    context=context,
-                    response_body=parsed,
-                    location=response.headers.get("Location"),
-                )
-            return parsed
-    except urllib.error.HTTPError as exc:
-        detail = exc.read().decode("utf-8", errors="replace")
-        raise RuntimeError(f"NVIDIA API HTTP {exc.code}: {detail}") from exc
-    except urllib.error.URLError as exc:
-        raise RuntimeError(f"NVIDIA API connection error: {exc}") from exc
+    retryable_codes = {408, 429, 500, 502, 503, 504}
+    last_error: Exception | None = None
+    for attempt in range(1, max_attempts + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=timeout_seconds, context=context) as response:
+                raw = response.read().decode("utf-8")
+                parsed = json.loads(raw) if raw else {}
+                if response.status == 202:
+                    return poll_request_result(
+                        settings=settings,
+                        context=context,
+                        response_body=parsed,
+                        location=response.headers.get("Location"),
+                    )
+                if parsed.get("requestId") and not parsed.get("choices"):
+                    return poll_request_result(
+                        settings=settings,
+                        context=context,
+                        response_body=parsed,
+                        location=response.headers.get("Location"),
+                    )
+                return parsed
+        except urllib.error.HTTPError as exc:
+            detail = exc.read().decode("utf-8", errors="replace")
+            if exc.code in retryable_codes and attempt < max_attempts:
+                time.sleep(retry_backoff_seconds * attempt)
+                last_error = RuntimeError(f"NVIDIA API HTTP {exc.code}: {detail}")
+                continue
+            raise RuntimeError(f"NVIDIA API HTTP {exc.code}: {detail}") from exc
+        except urllib.error.URLError as exc:
+            if attempt < max_attempts:
+                time.sleep(retry_backoff_seconds * attempt)
+                last_error = RuntimeError(f"NVIDIA API connection error: {exc}")
+                continue
+            raise RuntimeError(f"NVIDIA API connection error: {exc}") from exc
+
+    if last_error is not None:
+        raise last_error
+    raise RuntimeError("NVIDIA API call failed without a captured exception")
 
 
 def extract_text(response: dict[str, Any]) -> str:

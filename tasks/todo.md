@@ -8,7 +8,11 @@ This file is the active source of truth for repository execution status.
   - [x] Generate a per-chapter baseline word-count report from the active `working/Chapter-*.md` lane
   - [x] Record a `3x` growth target for each chapter so later expansion passes have a measurable floor
   - [x] Commit the completed dossier wave, runner hardening, and baseline metrics on `codex/nvidia-expansion-lab`
-- [ ] Launch the actual chapter expansion wave by book from the populated dossiers:
+- [ ] Reset the expansion architecture to the real trilogy target:
+  - [x] Generate a trilogy-scale target profile that treats `300,000-400,000` words as the actual objective
+  - [x] Reframe the old `3x` numbers as an intermediate safety floor only
+  - [x] Mark the old v1 matrix length bands as interim so the next expansion wave aims at the macro target profile instead
+- [ ] Launch the actual chapter expansion wave by book from the populated dossiers and macro target bands:
   - `Book 1` dossier-driven long-form expansion
   - `Book 2` dossier-driven long-form expansion
   - `Book 3` dossier-driven long-form expansion
@@ -53,6 +57,22 @@ This file is the active source of truth for repository execution status.
 - [x] Recorded trilogy pre-expansion baseline: `45,902` words
 - [x] Recorded trilogy `3x` floor: `137,706` words
 - [x] Recorded that only `4 / 27` current matrix target bands already cover the requested `3x` floor, so future chapter expansion must treat the baseline artifact as the growth floor
+
+### NEP-012 Trilogy Length Target Reset
+
+- [x] Generate `generated/trilogy_length_target_profile_v1.md`
+- [x] Generate `generated/trilogy_length_target_profile_v1.json`
+- [x] Record the macro trilogy objective: `300,000-400,000` words
+- [x] Record the operational book bands that sum to the macro trilogy objective
+- [x] Mark the v1 matrix target bands as interim dossier-era length bands rather than the final expansion target
+
+### NEP-013 Book 1 Expansion Smoke
+
+- [x] Build the first dossier-driven chapter expansion runner using the populated Chapter `01` dossier and the trilogy target profile
+- [ ] Run a monitored smoke expansion for `Book 1 / Chapter 01`
+- [ ] Verify the expanded Chapter `01` preserves canon while materially increasing length against the baseline
+- [ ] Verify the expanded Chapter `01` preserves the trilogy's biology / philosophy / technology braid and does not drift into over-clinical prose
+- [ ] Record the before/after word count for `Chapter 01` so later chapter waves use the same comparison contract
 
 ### NEP-006 Matrix Revision
 

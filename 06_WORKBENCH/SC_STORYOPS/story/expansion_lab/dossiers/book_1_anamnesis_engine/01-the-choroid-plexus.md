@@ -81,7 +81,15 @@
 - **Nine Muses – Endocrine System** – supplies the “Clio” moment (Ahmed’s warning) as an ancestral memory cue.  
 
 ## 8. Multimodal Evidence
-- needs follow‑up visual candidate  
+- needs follow-up visual candidate
+
+## 8a. Implicit Symbolic Scaffold
+- **Active scaffold:** yes, but submerged.
+- **Framework lane:** endocrine / Nine Muses / enneagram pressure shaping the chapter’s biological dread and threshold logic, with tarot, zodiac, and archetypal recurrence modulating the emotional weather.
+- **Deck basis:** default to **Toth/Crowley**, not Rider–Waite. For future card-level references, use Toth semantics and names where relevant.
+- **Archetypal / zodiac note:** use them as recurrence pressure and tonal coloration, not as named explanatory systems on the page.
+- **What stays implicit:** initiation pressure, descent architecture, field-weather intensification, and the rhythm of refusal / witness / threshold crossing.
+- **Over-explicit misuse to avoid:** characters naming tarot cards, explaining enneagram structure, or unpacking endocrine correspondences aloud inside the scene.
 
 ## 9. Scene Growth Opportunities
 - **Opening Hook Extension** (task B1‑P5‑088): tighten to a three‑beat line, e.g., “The choroid plexus screamed in data, a pressure‑wave that hit Jian’s eyes like a migraine.” Immediately note system coherence < 80 %.  
@@ -98,8 +106,11 @@
   - Sona: sensory, concrete, expresses feeling through body cues.  
   - Jian: precise, acknowledges limits of data.  
   - Gideon: protective, uses “containment” language.  
-- **Anti‑sermon warning:** Corv’s “firewall” line must stay a concise observation, not a lecture on narrative theory.  
-- **Anti‑lore‑dump:** Endocrine‑muse mapping must be woven into scene, not a separate exposition block.  
+- **Anti-sermon warning:** Corv’s “firewall” line must stay a concise observation, not a lecture on narrative theory.
+- **Anti‑lore‑dump:** Endocrine‑muse mapping must be woven into scene, not a separate exposition block.
+- **Anti‑explicit-symbolism warning:** keep the tarot / enneagram / endocrine-muse scaffold submerged in pacing and image pressure rather than naming it directly on the page.
+- **Tone-balance warning:** do not let biology overwhelm the chapter. Maintain the braid of anatomy, field-philosophical pressure, and protocol/technology atmosphere, with short declarative punches cutting through the denser lyrical passages.
+- **Wordplay / humor / emotional-flow note:** allow layered meanings, sly pressure-release wit, and shifts between dread, awe, irony, tenderness, and precision so the chapter does not read in one uninterrupted temperature.
 
 ## 11. Model Routing
 - **Synthesis model:** `openai/gpt-oss-120b`  

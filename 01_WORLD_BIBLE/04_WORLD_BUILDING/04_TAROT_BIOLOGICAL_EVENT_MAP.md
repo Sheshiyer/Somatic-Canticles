@@ -1,5 +1,12 @@
 # 03 - Tarot-Biological Event Map
 
+> Expansion-lab note:
+> for long-form drafting, default this symbolic layer to the **Toth/Crowley** deck basis.
+> Older row names in this legacy table may still reflect Rider–Waite naming.
+> When using the table for chapter expansion, translate at minimum:
+> `Justice -> Adjustment`, `Strength -> Lust`, `Temperance -> Art`, `Judgement -> Aeon`, `World -> Universe`.
+> Keep these correspondences primarily structural and subliminal in the prose unless a dossier explicitly licenses overt naming.
+
 *This document serves as the master key for translating the 22 Major Arcana archetypes into specific, tangible events, environments, and processes within the `Somatic Canticles` universe. It is our guide for ensuring the narrative's archetypal soul is always grounded in its biological body.*
 
 ---
@@ -28,5 +35,3 @@
 | **XIX. The Sun** | Clarity, vitality, Khalorēē Field Architecture Compression Pattern mastery| The Field Resonance production of the mitochondria ("the suns of the cell"). A moment of perfect cellular health, communication, and system-wide coherence. | A moment of profound clarity, joy, and success. The fog lifts, and all is illuminated. Pure vitality. |
 | **XX. Judgement**| Khalorēē Field activation, reckoning, rebirth| A system-wide "re-boot." The moment a key dormant gene is finally expressed. A reckoning with a deep, foundational trauma, leading to rebirth. | A final judgment on a past action. An Khalorēē Field activation to a higher level of Khalorēē Field Architecture. A resurrection. |
 | **XXI. The World** | Completion, integration | Perfect, system-wide homeostasis. The successful integration of all somatic systems. The completion of the `Tryambakam Protocol` and the `Severance Event`. | The successful completion of the entire journey. A moment of wholeness, integration, and unity. The ultimate reward. |
-
-</rewritten_file> 

@@ -90,6 +90,17 @@ If image or diagram material is used, record:
 - chapter beat where it may appear
 - whether it stays atmospheric, metaphorical, or structural
 
+## 8a. Implicit Symbolic Scaffold
+
+If the chapter is using the endocrine / Nine Muses / enneagram / tarot lattice, record:
+
+- whether the scaffold is active in this chapter
+- the symbolic function it is serving
+- Toth/Crowley deck basis or equivalent legacy translation note
+- zodiac or archetypal correspondences that matter for tone or pacing
+- which symbolic elements stay submerged in scene architecture rather than spoken aloud
+- what would count as over-explicit or sermonizing misuse
+
 ## 9. Scene Growth Opportunities
 
 List the best expansion opportunities:
@@ -108,6 +119,8 @@ List the best expansion opportunities:
 - dialogue voice reminders by character
 - anti-sermon warnings
 - anti-lore-dump warnings
+- anti-explicit-symbolism warning: keep tarot / enneagram / endocrine-muse logic implicit unless the dossier explicitly authorizes overt naming
+- wordplay / humor / tonal-flow guidance so the chapter does not collapse into a single stylistic register
 
 ## 11. Model Routing
 

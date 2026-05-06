@@ -4,12 +4,18 @@ This folder is the isolated planning and execution surface for the long-form tri
 
 It exists to lengthen and deepen the current compiled trilogy without discarding the canon, StoryOps rules, editorial doctrine, or chapter-by-chapter logic already proven in the main repo.
 
+Current macro target:
+
+- grow the active working lane from `45,902` words toward a full trilogy band of `300,000-400,000` words
+- treat the earlier `3x` baseline as an intermediate safety floor, not the actual end state
+
 ## Purpose
 
 - preserve the current compiled trilogy as canon while expansion work is staged elsewhere
 - use the existing StoryOps and editorial surfaces as the control plane
 - route different NVIDIA models to distinct jobs so the prose stops inheriting one-model sameness
 - turn vault, blog, noesis, and world-bible material into chapter-bound source dossiers instead of loose inspiration
+- keep the tarot / enneagram / endocrine-muse symbolic spine implicit and defaulted to Toth/Crowley logic rather than Rider–Waite naming drift
 
 ## Control Inputs
 
@@ -97,6 +103,8 @@ Vision-derived output from this root is `review-required support`, not canon.
 - `chapter_source_dossier_template.md`
 - `source_root_intake_v1.md`
 - `vision_worldbuilding_ingestion_plan.md`
+- `generated/chapter_wordcount_baseline_v1.md`
+- `generated/trilogy_length_target_profile_v1.md`
 
 ## Model Routing
 
@@ -145,3 +153,4 @@ flowchart TD
 - no prose expansion that widens doctrine beyond current authority support
 - no same-model end-to-end pass; each model must keep its assigned lane
 - no visual extract may become canon or hard ontology without textual corroboration and dossier review
+- no symbolic-deck drift: use Toth/Crowley logic by default, and keep tarot / enneagram / endocrine correspondences submerged in the prose unless a dossier explicitly calls for overt naming

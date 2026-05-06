@@ -4,12 +4,50 @@
 
 This document is the control surface for the NVIDIA-assisted long-form expansion pass.
 
+Macro length target:
+
+- trilogy objective: `300,000-400,000` words
+- current working-lane baseline: `45,902` words
+- the older `3x` logic is an intermediate growth floor only, not the actual delivery target
+
 It should answer four questions before any chapter is rewritten:
 
 1. What is canon right now?
 2. Which repo surfaces control expansion behavior?
 3. Which external/source families are allowed to deepen a given chapter?
 4. Which model is responsible for which type of work?
+
+## Implicit Symbolic Scaffold
+
+The long-form expansion pass is allowed to use a submerged symbolic architecture built from:
+
+- tarot logic
+- enneagram patterning
+- endocrine / Nine Muses correspondences
+- zodiac recurrence
+- archetypal pressure
+
+Default this symbolic lane to the **Toth/Crowley** deck basis.
+
+If a legacy source still uses Rider–Waite naming, translate it through Toth equivalents before it informs drafting. At minimum, treat:
+
+- `Justice` as `Adjustment`
+- `Strength` as `Lust`
+- `Temperance` as `Art`
+- `Judgement` as `Aeon`
+- `World` as `Universe`
+
+This scaffold is admissible as **structural support**, not as overt exposition. Use it to influence:
+
+- pacing and reversal logic
+- scene-to-scene initiation pressure
+- motif recurrence
+- somatic / endocrine emphasis
+- symbolic image selection
+- emotional flow and tonal contrast
+- layered meanings, verbal play, and strategic wit under pressure
+
+Do not let characters explain the framework aloud unless a chapter dossier explicitly licenses that move.
 
 ## Canonical Export Surfaces
 
@@ -200,6 +238,7 @@ Use for:
 - chapter expansion matrix
 - chapter source dossier for the target chapter
 - explicit target length band
+- explicit alignment to the trilogy macro target profile, not just the old v1 matrix band
 - missing-layer diagnosis
 - source-tier tags for every non-repo input
 - visual extraction registry entries for any image-derived support

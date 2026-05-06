@@ -79,3 +79,39 @@ Review this file at session start when the task touches planning, intake authori
   - pass explicit external-source allowlists into validation and reject invented asset paths
   - if a source is still needed, force the model to write `needs follow-up biological source` or `needs follow-up visual candidate` instead of naming a guessed authority
   - keep a one-pass repair fallback so a malformed dossier can be corrected without silently promoting bad output
+
+### L-010: Long-form chapter expansion needs a smoke-floor target and transport retries
+
+- Pattern:
+  - the first dossier-driven chapter expansion smoke asked for a very large one-pass jump and failed on an upstream NVIDIA `504` before any draft was written
+- Prevention:
+  - first smoke passes should target the validated floor, not the full trilogy ceiling, so the transport can land a usable chapter before later enrichment passes
+  - shared NVIDIA client calls must retry transient `408/429/5xx` failures with backoff
+  - when prompt size is already dominated by dossier context, trim auxiliary excerpts before increasing timeout or token budgets again
+
+### L-011: The symbolic scaffold is Toth/Crowley and stays implicit in prose
+
+- Pattern:
+  - expansion planning already used endocrine/muse/tarot logic, but the deck basis was not frozen tightly enough and could drift back into Rider–Waite language or become too explicit in the prose
+- Prevention:
+  - default all tarot-infused expansion work to the Toth/Crowley deck logic, not Rider–Waite
+  - if legacy docs still use Rider–Waite names, translate them through Toth equivalents before using them for drafting
+  - keep the tarot/enneagram/endocrine-muse scaffold subliminal: scene architecture, image pressure, pacing, and symbolic recurrence, not characters explaining the framework aloud
+
+### L-012: Expansion prose must keep the biology / philosophy / technology braid intact
+
+- Pattern:
+  - the first successful expansion fragments gained length but over-indexed on anatomy and biomarker description, losing some of the trilogy's philosophical charge, technological atmosphere, and punchy delivery
+- Prevention:
+  - expansion prompts must explicitly preserve a three-lane braid: somatic biology, field/philosophical meaning, and technology/protocol pressure
+  - each new biological intensification should be paired by either a technological consequence, a field-intelligence implication, or a sharp philosophical turn
+  - later-stage growth should extend accepted prose additively instead of rewriting it wholesale, so the existing tonal spine does not get flattened into clinical description
+
+### L-013: Symbolic scaffolding must modulate style, not just content
+
+- Pattern:
+  - a chapter can hit the factual scaffold while still feeling stylistically flat if the prose does not change temperature, wit, rhythm, and emotional color as the symbolic lane shifts
+- Prevention:
+  - treat the enneagram / muses / endocrine / tarot / zodiac / archetype chain as a style-and-emotion engine, not just a lore map
+  - require layered meaning, pressure-release humor, and tonal modulation between fear, awe, wit, sorrow, and precision
+  - avoid one-register expansion; each emotional turn should alter sentence texture, image density, and rhetorical pressure

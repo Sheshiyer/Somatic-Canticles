@@ -48,6 +48,8 @@ This revision is derived from `repo_synthesis_report_v1.md`, `source_family_prio
 
 ## Notes
 
+- The `Target band` column in this v1 matrix reflects the earlier dossier-era expansion assumption and is now an interim band only.
+- The actual trilogy-scale length objective is defined in `generated/trilogy_length_target_profile_v1.{md,json}` and should govern the next expansion wave.
 - `wave-1` dossier chapters should be generated first in `NEP-008` to `NEP-010`.
 - Visual motifs remain support-only and require chapter-local provenance in the eventual dossier.
 - This matrix supersedes the pre-synthesis placeholder matrix in the expansion lab.

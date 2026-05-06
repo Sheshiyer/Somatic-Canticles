@@ -25,6 +25,43 @@ What it does not have yet is a fully expanded long-form prose surface. The curre
 
 without losing canon or widening doctrine irresponsibly.
 
+## Symbolic Spine
+
+The expansion program also assumes a submerged symbolic lattice:
+
+- tarot-infused scene architecture
+- enneagram pressure logic
+- endocrine / Nine Muses correspondences
+- zodiac and archetypal recurrence
+
+Default this to the **Toth/Crowley** deck logic, not Rider–Waite.
+
+That lattice should usually remain **implicit** in the actual prose. It belongs in:
+
+- scene sequencing
+- sensory emphasis
+- reversal / initiation structure
+- image pressure
+- chapter-local symbolic recurrence
+
+It should usually **not** appear as characters naming tarot cards, explaining enneagram types, or lecturing about archetypal correspondences aloud unless a planning surface explicitly calls for that.
+
+It should also shape:
+
+- wordplay and layered meanings
+- pressure-release humor
+- shifts in sentence music between dread, wit, awe, intimacy, and protocol severity
+
+The scaffold is not only thematic. It is also a rhythm engine.
+
+## Length Objective
+
+- Current active working-lane baseline: `45,902` words
+- Intermediate anti-regression floor: roughly `3x` current length
+- Actual program target: `300,000-400,000` words across the trilogy
+
+This means the expansion lab is not trying to produce a mildly longer revision. It is trying to move the trilogy into full-length novel territory while preserving the StoryOps and editorial control plane.
+
 ## Start Here
 
 1. [DesignSpec.md](/Volumes/madara/2026/twc-vault/01-Projects/tryambakam-noesis/Somatic-Canticles-book/Somatic-Canticles-nvidia-expansion/DesignSpec.md)
