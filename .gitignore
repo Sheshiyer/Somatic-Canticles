@@ -31,6 +31,7 @@ skills/
 04_SOURCES/External-Research/GLOSSOPETRAE/skills/
 *.bak
 _ARCHIVE/
+.wave_runtime/
 
 # Agent Memory (Optional - keep if you want to track history, exclude if personal)
 # memory.md

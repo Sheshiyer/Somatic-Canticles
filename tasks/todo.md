@@ -4,7 +4,122 @@ This file is the active source of truth for repository execution status.
 
 ## Next Up
 
+- [x] Establish a committed pre-expansion baseline for chapter growth:
+  - [x] Generate a per-chapter baseline word-count report from the active `working/Chapter-*.md` lane
+  - [x] Record a `3x` growth target for each chapter so later expansion passes have a measurable floor
+  - [x] Commit the completed dossier wave, runner hardening, and baseline metrics on `codex/nvidia-expansion-lab`
+- [ ] Launch the actual chapter expansion wave by book from the populated dossiers:
+  - `Book 1` dossier-driven long-form expansion
+  - `Book 2` dossier-driven long-form expansion
+  - `Book 3` dossier-driven long-form expansion
+- [x] Launch Wave `P2/W2` in parallel:
+  - `NEP-003` / issue `#26`: repo-wide synthesis over canon and StoryOps surfaces
+  - `NEP-004` / issue `#27`: source-root filters for blog, vault, and area corpora
+  - `NEP-005` / issue `#28`: multimodal asset inventory and extraction registry
+- [x] Execute the real NVIDIA-backed `P2/W2` model wave:
+  - [x] Smoke-check NVIDIA settings load from the saved Codex config without exposing secrets
+  - [x] Run `openai/gpt-oss-120b` over `generated/repo_synthesis_input_pack_v1.md`
+  - [x] Run `minimaxai/minimax-m2.7` over the source-intake and filter-spec pair
+  - [x] Run the curated visual seed set through a resilient multimodal lane with parser fallback
+  - [x] Watch helper status and logs for graceful fallback if any model job fails
+  - [x] Inspect the generated outputs before opening the next dossier/tooling wave
+- [x] Close `P2/W2`, then execute `NEP-006` / `#29` and `NEP-007` / `#30` before dossier production starts
+  - `NEP-006`: chapter-expansion matrix population from the synthesis report and source priority map
+  - `NEP-007`: dossier builder/tooling scripts tied to the approved source tiers and visual registry
+- [x] Launch `P3/W1` dossier generation in parallel:
+  - [x] `NEP-008` / issue `#31`: generate Book `1` chapter dossiers from the scaffolds and approved source tiers
+  - [x] `NEP-009` / issue `#32`: generate Book `2` chapter dossiers from the scaffolds and approved source tiers
+  - [x] `NEP-010` / issue `#33`: generate Book `3` chapter dossiers from the scaffolds and approved source tiers
+- [x] Stabilize the dossier population runner before full fan-out:
+  - [x] Distinguish selected evidence from follow-up research needs in prompt instructions and validation
+  - [x] Prevent unsupported placeholder sources or invented visual assets from landing in populated dossiers
+  - [x] Re-run the monitored `NEP-008` smoke pass on `Chapter 01` until the output is source-bound and clean
+  - [x] Launch `NEP-008`, `NEP-009`, and `NEP-010` in parallel only after the smoke dossier validates
+  - [x] Verify all populated dossiers write to the expected book folders and preserve the `## 1` through `## 12` contract
 - [ ] Optional release checkpoint: push the completed late-Book-3 and endmatter package after review
+
+### NEP-008 / NEP-009 / NEP-010 Review
+
+- [x] Verified `27` populated dossier files exist across Books `1-3`
+- [x] Verified every dossier contains `# Chapter Source Dossier:`, `## 11. Model Routing`, and `## 12. Validation Checklist`
+- [x] Verified no scaffold residue remains in populated dossiers
+- [x] Verified no unsupported placeholder-source tokens remain in populated dossiers
+- [x] Verified monitored helper statuses: `NEP-008=ok`, `NEP-009=ok`, `NEP-010=ok`
+
+### NEP-011 Wordcount Baseline Review
+
+- [x] Generated `generated/chapter_wordcount_baseline_v1.md`
+- [x] Generated `generated/chapter_wordcount_baseline_v1.json`
+- [x] Recorded trilogy pre-expansion baseline: `45,902` words
+- [x] Recorded trilogy `3x` floor: `137,706` words
+- [x] Recorded that only `4 / 27` current matrix target bands already cover the requested `3x` floor, so future chapter expansion must treat the baseline artifact as the growth floor
+
+### NEP-006 Matrix Revision
+
+- [x] Generate `generated/chapter_expansion_matrix_v1.md` from the current matrix plus `repo_synthesis_report_v1.md` and `source_family_priority_map_v1.md`
+- [x] Generate a machine-readable `generated/chapter_expansion_matrix_v1.json`
+- [x] Update the canonical lab matrix at `story/expansion_lab/chapter_expansion_matrix.md` so it reflects the v1 revision instead of the pre-synthesis placeholder
+- [x] Verify the revised matrix still respects chapter summaries, book boundaries, and source-tier admissibility rules
+
+### NEP-007 Dossier Tooling
+
+- [x] Implement a repeatable script to scaffold chapter dossiers from the template and matrix metadata
+- [x] Implement a repeatable script to generate a layer-gap report by book, layer, and priority cluster
+- [x] Generate an initial dossier manifest/index so `NEP-008` to `NEP-010` can batch-create dossiers without re-deciding file layout
+- [x] Verify the tooling only emits source-bound scaffolds and does not invent canon or prose
+
+### NEP-006 / NEP-007 Review
+
+- [x] Recover baseline target bands from the frozen input pack and explicit late-book fallback map instead of trusting the already-mutated live matrix
+- [x] Add a `--reuse-raw` recovery path to `run_nep_006_matrix_revision.py` so parser fixes do not require a fresh model call
+- [x] Regenerate `chapter_expansion_matrix_v1.{md,json}` from validated raw output and verify field admissibility
+- [x] Regenerate `dossier_manifest_v1.{md,json}` and `layer_gap_report_v1.{md,json}` from the corrected matrix
+- [x] Emit all `27` dossier scaffold files under `story/expansion_lab/dossiers/`
+
+### Monitored Wave Runner
+
+- [x] Create a sourceable shell helper for background task launch, status checks, log tailing, and failure summaries
+- [x] Standardize runtime state under a repo-local `.wave_runtime/` directory so runs are inspectable and restartable
+- [x] Smoke-test the helper with a safe command and verify `running`, `ok`, and `failed` states
+- [x] Keep a dedicated monitoring terminal session available before launching the real P2/W2 jobs
+
+### P2/W2 Source Understanding Launch
+
+- [x] `P2/W2-A` Profile the four named source roots into concrete text, concept, and vision families with exclusions and priority slices
+- [x] `P2/W2-B` Create the first operational intake artifact that synthesis, tooling, and vision lanes can all consume without re-reading chat
+- [x] `P2/W2-C` Record which parts of `03-Resources` and `02-Areas` are admissible by default versus review-required versus excluded
+- [x] `P2/W2-D` Record the first-pass blog post families most likely to deepen Book `1`, Book `2`, and Book `3`
+- [x] `P2/W2-E` Record the first-pass noesis/blog visual families that should enter the multimodal extraction registry before chapter work begins
+
+### P2/W2 Review
+
+- [x] Generate `generated/repo_synthesis_report_v1.md` from the repo synthesis input pack with `openai/gpt-oss-120b`
+- [x] Generate `generated/source_family_priority_map_v1.md` from the intake + filter spec with `minimaxai/minimax-m2.7`
+- [x] Generate `generated/visual_motif_registry_seed_v1.json` and `generated/visual_motif_registry_seed_v1.md` from the curated multimodal seed set
+- [x] Harden the monitored wave runner so long-running jobs survive shell exit via detached subprocess launch
+- [x] Harden the NVIDIA client for explicit CA-bundle loading and 202/status polling
+- [x] Record the multimodal fallback path: `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning` primary, `meta/llama-3.2-11b-vision-instruct` fallback
+
+### Swarm Architecture and GitHub Sync
+
+- [x] Create a durable project spec for the NVIDIA expansion program that captures goal, source material roots, authority boundaries, and target outputs
+- [x] Create a project architecture document that captures model routing, parallel execution boundaries, validation gates, and merge-back flow
+- [x] Create a milestone and phase-wave execution map so the repo has a durable rollout plan independent of chat history
+- [x] Create a GitHub issue map and issue-ready bodies for the expansion program
+- [x] If GitHub auth is available, open the issue set and record the issue IDs back into the repo docs
+- [x] Verify the persistent docs point back to the existing `expansion_lab` control surfaces instead of duplicating conflicting truth
+
+### NVIDIA Expansion Lab
+
+- [x] Create an isolated git lane for long-form expansion work at worktree `../Somatic-Canticles-nvidia-expansion` on branch `codex/nvidia-expansion-lab`
+- [x] Define the multi-model routing architecture so `gpt-oss-120b`, `MiniMax M2.7`, `Kimi`, and control models have non-overlapping jobs
+- [x] Create `story/expansion_lab/repo_synthesis_manifest.md` as the control document for canon understanding, source families, chapter targets, and model roles
+- [x] Create `story/expansion_lab/chapter_expansion_matrix.md` with chapter-by-chapter current length, target length band, missing layers, and source dossier pointers
+- [x] Create `story/expansion_lab/chapter_source_dossier_template.md` so each chapter expansion pass is source-bound to StoryOps, editorial, world-bible, and synchronocities-blog surfaces
+- [x] Verify the expansion lab is isolated from `main`, documented clearly, and ready for the first repo-synthesis pass
+- [x] Classify the four external source roots into published substrate, vault support, area-notebook support, and vision-first support tiers
+- [x] Add a dedicated multimodal ingestion plan so `Documents/noesis/Research`, blog cards/images, and approved vault visuals can deepen lore and worldbuilding without becoming silent canon
+- [x] Extend the chapter dossier template so every non-repo source carries admissibility tags, provenance, and visual-evidence tracking
 
 ### Completed Optional Cleanup
 
