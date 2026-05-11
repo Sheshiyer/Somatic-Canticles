@@ -115,3 +115,150 @@ Review this file at session start when the task touches planning, intake authori
   - treat the enneagram / muses / endocrine / tarot / zodiac / archetype chain as a style-and-emotion engine, not just a lore map
   - require layered meaning, pressure-release humor, and tonal modulation between fear, awe, wit, sorrow, and precision
   - avoid one-register expansion; each emotional turn should alter sentence texture, image density, and rhetorical pressure
+
+### L-014: Character-specific wit must be assigned, not assumed
+
+- Pattern:
+  - asking generally for humor and wordplay improved the intent of the prompt, but still left the prose too solemn because no character had a defined lane for carrying wit or tonal release
+- Prevention:
+  - assign wit lanes by character and scene function
+  - keep Jian's wit dry and precision-based, Gideon's wit blunt and defensive, Corv's wit oblique and double-edged, and Sona's wit gentle and relational
+  - require later-stage passes to vary sentence temperature within a scene instead of sustaining one luminous or one clinical register for too long
+
+### L-015: Expansion smoke passes need an explicit tone gate, not just better prose instructions
+
+- Pattern:
+  - the Chapter `01` smoke could hit the length floor and recover the biology / philosophy / technology braid while still remaining too solemn, wit-thin, and emotionally uniform
+- Prevention:
+  - validate live expansion smoke output against explicit prose criteria before accepting it: humor pressure-release, character-specific wit, sentence-temperature variation, and double-meaning density
+  - if the control pass says the chapter is still flat, force a repair pass with those failures named directly rather than assuming another general rewrite will fix them
+  - treat "good enough style" as a hard gate alongside canon and word-count growth during early expansion waves
+
+### L-016: Shell helpers must be zsh-safe and avoid reserved parameter names
+
+- Pattern:
+  - the monitored wave helper reported false failures because it used `status` as a local variable under `zsh`, colliding with the shell's readonly `$status`, and its file reader depended on brittle external newline stripping
+- Prevention:
+  - do not use reserved shell parameter names like `status` in repo helper scripts
+  - prefer built-in file reads and explicit newline trimming over tiny external subprocess assumptions in control scripts
+  - smoke-test helper status commands in the same shell family the repo actually uses before trusting them during long-running model waves
+
+### L-017: Expansion-stage prompts must enforce additive preservation explicitly, not just ask for it politely
+
+- Pattern:
+  - once the tone prompts improved, the first Kimi stage started producing better wit and emotional modulation but still compressed the chapter by rewriting it too freely
+- Prevention:
+  - tell the draft model that every existing paragraph and scene skeleton must survive in order unless a tiny line edit is unavoidable
+  - say plainly that shorter-than-input output is invalid and that the correct action is insertion, not replacement
+  - if a model keeps collapsing despite the instruction, treat that as a prompt-contract failure first, not as a stylistic failure
+
+### L-018: External tone skills should be layered in as references, not allowed to replace the novel control plane
+
+- Pattern:
+  - the local `noesis-writer-skill` contains useful structure for tone, conviction, and humor, but it is built for brand/publishing workflows rather than trilogy chapter drafting
+- Prevention:
+  - use external writer skills like `noesis-writer-skill` only as supplemental tone references inside the expansion lab
+  - borrow the useful parts: clinical precision at visionary scale, structural humor, directness, and conviction
+  - explicitly ignore platform-format, image-generation, and content-marketing rules when applying that reference to novel chapters
+
+### L-019: When a stage draft collapses, repair from the last accepted draft rather than the collapsed candidate
+
+- Pattern:
+  - the Chapter `01` smoke started producing better tonal fragments, but the stage draft could still shrink the chapter so hard that a repair pass working from the shrunken candidate inherited the collapse
+- Prevention:
+  - if a stage candidate fails growth validation, use the last accepted draft as the mandatory repair spine and treat the failed candidate only as a salvage source for phrasing, wit, or imagery
+  - normalize headings before validation so near-miss repairs do not fail on formatting noise
+  - keep early-stage floors relaxed enough that stylistically promising smoke output can advance to the tone gate instead of dying on a marginal word-count miss
+
+### L-020: Repair passes must clean production residue and prove additive growth before validation
+
+- Pattern:
+  - a Chapter `01` repair pass returned the exact baseline length and reintroduced `**Somatic Event:**`, so the runner failed after spending a model call without gaining usable prose
+- Prevention:
+  - strip known preamble and production labels before validation instead of letting old scaffold residue poison an otherwise inspectable repair
+  - pass explicit accepted-word and required-word floors into repair prompts
+  - allow bounded repair retries from the last accepted draft, and fail only after each retry has demonstrated whether it truly grew the chapter
+
+### L-021: If full-chapter repair keeps compressing, switch to insertion instead of asking for another full rewrite
+
+- Pattern:
+  - repeated full-chapter repair attempts for Chapter `01` preserved the improved tone but converged near the original length despite explicit word floors
+- Prevention:
+  - after bounded full-chapter repair failures, ask the prose model for insert-only material and merge it deterministically into the last accepted draft
+  - validate the merged chapter rather than the standalone insert
+  - use the insert fallback as a growth safety valve, not as the primary drafting path
+
+### L-022: Style and near-miss growth failures need insertion, not another full rewrite
+
+- Pattern:
+  - Chapter `01` smoke runs showed three avoidable slow paths: partial-growth drafts that only needed a few hundred to a few thousand words, repair candidates that passed length but failed tone-temperature, and late-stage drafts over `5,000` words that stalled inside full-chapter repair calls
+- Prevention:
+  - treat initial partial growth as usable base material and add the missing word floor through insertion
+  - route style-gate failures into targeted tonal inserts instead of full-chapter repair
+  - skip full repair once the accepted draft is over the late-stage threshold, because insertion is safer for preserving canon and cheaper to monitor
+  - catch repair and insert call failures so provider delays do not collapse the whole smoke run without a logged reason
+
+### L-023: Insert fallback must be additive, not repetitive
+
+- Pattern:
+  - the monitored Chapter `01` smoke reached the final word floor, but Stage `4` failed because late insert attempts copied existing base paragraphs and overloaded the ending with repeated high-intensity sensory material
+- Prevention:
+  - de-duplicate generated insert paragraphs against the accepted draft before merging
+  - reject inserts that return only duplicate material
+  - make the insert prompt explicitly forbid restating accepted-base paragraphs, looping corridor descriptions, or recapping the current draft
+  - for style-gate repairs, ask for calm counter-rhythm, distinct character voice, a clean technical consequence, and a character-true pressure-release exchange instead of more visionary escalation
+
+### L-024: Duplicate rejection must change the retry lane, not just retry the same scene vector
+
+- Pattern:
+  - the next monitored Chapter `01` smoke correctly rejected duplicate-only Stage `3` inserts, but the remaining retries kept returning the same sensory-architecture family and exhausted the insert budget before reaching the stage floor
+- Prevention:
+  - save raw insert attempts before de-duplication so duplicate failures are inspectable
+  - de-duplicate across paragraph boundaries and strip repeated paragraph clusters after deterministic merge, not only exact paragraph matches before merge
+  - make later insert attempts change vectors explicitly toward dialogue, protocol consequence, consent pressure, and character-specific wit instead of asking for another corridor, palace, door, staircase, card, or CSF-floor set-piece
+  - keep a bounded but wider insert retry budget so provider `504`s and duplicate-only generations do not prematurely kill an otherwise recoverable stage
+
+### L-025: Late duplicate recovery should not keep the full accepted draft in prompt context
+
+- Pattern:
+  - after one valid Stage `3` additive insert, later Kimi retry attempts copied from the newly accepted base because the full accepted draft stayed in every insert prompt
+- Prevention:
+  - for late duplicate-recovery insert attempts, omit the full accepted draft and provide only a short forbidden-ending/context excerpt
+  - omit the failed candidate in late duplicate-recovery prompts when it is more likely to reinforce compression or repetition than provide useful tone
+  - after repeated duplicate-only Kimi inserts, route the next insert attempt to the control model instead of spending additional calls on the same prose-copying behavior
+
+### L-026: Later expansion stages should be insert-first when full rewrites repeatedly compress
+
+- Pattern:
+  - repeated Stage `3` Kimi full-chapter rewrites collapsed accepted drafts by thousands of words and then forced slow repair cycles before the runner could return to the safer insert fallback
+- Prevention:
+  - once an accepted draft is established, use insert-first growth for later stages instead of asking the prose model to rewrite the whole chapter again
+  - preserve the accepted draft as the spine, grow through bounded additive inserts, and validate the merged chapter with the same word-count and style gates
+  - treat full-stage rewrites as an early-stage discovery tool only; later stages are expansion and calibration, not replacement
+
+### L-027: Background stop helpers must kill task process groups, not only wrappers
+
+- Pattern:
+  - stopping `NEP-013-SMOKE` killed the detached wrapper but left a child Python expansion process alive, which later appended stale Stage `3` output into a new run's log
+- Prevention:
+  - when using detached task runners, stop the process group with `kill -TERM -<pid>` and escalate to `kill -KILL -<pid>` if the wrapper still lives
+  - before trusting a fresh monitored run after a stop, check for orphaned command lines matching the task command
+  - if a model runner is killed manually, treat the next log as untrusted until orphan cleanup and status reset are confirmed
+
+### L-028: Final length is not final acceptance
+
+- Pattern:
+  - the Chapter `01` smoke reached `9,041` words, but the control gate still rejected it because the late inserts made the chapter longer without fixing the flattened lyrical / clinical register, weak wit lanes, weak pressure-release, and fragile braid balance
+- Prevention:
+  - after the final-stage word floor is met, route style-gate failures into a full-chapter acceptance repair instead of spending the remaining budget on more additive inserts
+  - use the control model plus the dialogue matrix for this acceptance repair so it can rebalance voice, pronoun consistency, braid, double meanings, and pressure-release without inventing new plot
+  - keep the word floor and canon validation active after acceptance repair so style fixes cannot pass by compressing the chapter
+
+### L-029: Style gates can miss unsupported named operators
+
+- Pattern:
+  - the accepted Chapter `01` smoke passed the literary style gate but introduced `Rook`, an unsupported named teammate, into a scene that should only contain the established Chapter `01` Somanaut team
+- Prevention:
+  - explicitly forbid invented Somanaut teammates or named operators in stage, repair, insert, voice-repair, and control-gate prompts
+  - after a model pass, run a concrete named-entity sanity scan against the chapter dossier and current working draft, not only a style score
+  - patch both the working chapter and raw generated artifact when making post-run canon cleanup so the saved artifact matches the accepted prose lane

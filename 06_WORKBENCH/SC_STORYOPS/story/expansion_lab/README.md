@@ -32,6 +32,27 @@ Current macro target:
 - `../../../../03_EDITORIAL/book1_anamnesis_engine_tasks.json`
 - `../../../../03_EDITORIAL/book2_myocardial_chorus_tasks.json`
 - `../../../../03_EDITORIAL/book3_the_ripening_tasks.json`
+- `/Volumes/madara/2026/twc-vault/.claude/skills/noesis-writer-skill/SKILL.md` as a supplemental structured-tone reference only, not a replacement control plane
+
+## Supplemental Tone Reference
+
+Use the local `noesis-writer-skill` as a secondary tone scaffold when expansion prose starts flattening.
+
+Borrow from it:
+
+- grounded, direct, respectful-challenging sentence posture
+- `PubMed x Alex Grey` precision at visionary scale
+- humor as structural relief: funny because true at multiple scales
+- conviction over hedging
+- source-lattice discipline as a reminder that tonal density should still come from real substrate
+
+Do not borrow from it:
+
+- platform formatting rules
+- content-marketing closure habits
+- publishing/pipeline assumptions
+- editorial image generation requirements
+- public-channel brand constraints that are not trilogy-native
 
 ## Source Material Roots
 

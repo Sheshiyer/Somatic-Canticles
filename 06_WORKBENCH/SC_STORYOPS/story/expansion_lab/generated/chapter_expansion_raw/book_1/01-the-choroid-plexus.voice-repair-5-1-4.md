@@ -173,47 +173,47 @@ Corv studied the compass with the patient gaze of a man memorizing the faces of 
 
 As they stepped off the landing, the brass compass softly closed its lid, a click like a prayer bead snapping shut. Nobody looked back. The staircase narrowed again, violet dusk tightening into a corridor of colored breath. They could feel the grief‑tone deepen, adding harmonics that tasted of winter apples and the metallic tang of old wells. The air itself had begun to taste of something older than grief—something mineral and patient, like stone that had been waiting for conversation since before language existed.
 
-Jian’s lattice dropped a level of encryption and whispered to him privately.
-“Bandwidth is rationed. You have four hundred and twenty‑six heartbeats before the frame forgets it ever had an outside.”
+Jian’s lattice dropped a level of encryption and whispered to him privately.  
+“Bandwidth is rationed. You have four hundred and twenty‑six heartbeats before the frame forgets it ever had an outside.”  
 He answered by tightening the gold lattice—an intimate, almost guilty reflex—then let an extra strand spool outward until it brushed Gideon’s containment field like a fingertip testing a wound. The contact produced a soft, diagnostic spark.
 
-Gideon felt the spark as a hiccup in his three‑brain rhythm. He swallowed hard.
-“Jian, my reptile wants a vote. She says if we stay any longer she’ll start treating your lattice as a graft.”
-His overlay displayed a small amber timer: 5:42 and falling.
+Gideon felt the spark as a hiccup in his three‑brain rhythm. He swallowed hard.  
+“Jian, my reptile wants a vote. She says if we stay any longer she’ll start treating your lattice as a graft.”  
+His overlay displayed a small amber timer: 5:42 and falling.  
 “Talk me down, mathematician.”
 
-Jian’s mouth twisted into the ghost of a smile.
+Jian’s mouth twisted into the ghost of a smile.  
 “Your reptile ever read poetry? I can give her a limerick about the beauty of asymptotes.”
 
 “She prefers haiku,” Gideon deadpanned, “but only if it ends in arterial spray.”
 
-From three steps above, Sona called back without turning.
-“Children, hush. The tone just split. One fork holds grief, the other is… listening to you two argue.”
+From three steps above, Sona called back without turning.  
+“Children, hush. The tone just split. One fork holds grief, the other is… listening to you two argue.”  
 She exhaled the next harmonic directly into the staircase; the bone absorbed it like a secret. A faint rose blush traveled outward along the nearest riser, then vanished.
 
-Corv watched the color bleed and fade, then spoke, almost to himself.
-“Architecture blushes. That’s new.”
-He knelt, fingertips hovering a millimetre above the tread.
+Corv watched the color bleed and fade, then spoke, almost to himself.  
+“Architecture blushes. That’s new.”  
+He knelt, fingertips hovering a millimetre above the tread.  
 “Feels like fever breaking. Or fever deciding whether to break.”
 
 A soft click answered him—not metallic, but osteoid. The staircase adjusted its curvature by a degree too small to measure, yet everyone felt the shift in their knees. Jian’s lattice pinged: *Compensating for 0.012 radian distortion. Updating load vectors.*
 
-Gideon rolled his shoulders again, slower this time.
+Gideon rolled his shoulders again, slower this time.  
 “My overlays just reclassified the entire staircase as ‘patient tissue in remission.’ That’s the closest thing to good news I’ve had since we left our bodies.”
 
-Jian lifted an eyebrow.
+Jian lifted an eyebrow.  
 “Remission can still relapse. Let’s not celebrate until the bone sends us a clean biopsy.”
 
-Sona laughed—a clear note, neither happy nor sad.
+Sona laughed—a clear note, neither happy nor sad.  
 “It already did. Taste your own exhale.”
 
 All four breathed out and tasted: winter apples, iodine, and something like the air just after lightning agreed to be electricity. The flavor steadied them more than any metric.
 
-Gideon glanced at the amber timer. It had stopped counting down. Instead it pulsed one slow beat every three seconds, syncing with the grief‑tone.
+Gideon glanced at the amber timer. It had stopped counting down. Instead it pulsed one slow beat every three seconds, syncing with the grief‑tone.  
 “Well,” he said, “either we’re cured or my code has surrendered to metronome.”
 
-Corv rose.
-“Surrender is the polite word for collaboration.”
+Corv rose.  
+“Surrender is the polite word for collaboration.”  
 He started downward again, and the others followed without discussion, violet dusk folding over them like the second page of a letter that already knows how it will end.
 
 Sona’s hand hovered over the terminal’s cracked interface plate, nail beds paling. “Consent isn’t a toggle,” she said, voice pitched lower than the grief‑tone. “It’s an archive. If I sign us into the choroid, the whole crawl history gets hashed into our endocrine baselines—every fight, every drift. You’ll smell my panic when you sweat; I’ll taste your jokes in my glycogen.”
@@ -230,43 +230,43 @@ Sona lifted a brow. “Cards also said you’d pretend to be the skeptic when yo
 
 A silence, not tense but porous, settled like the moment after a question is asked and before lungs remember the next shape of air.
 
-Jian spoke first, voice rough from disuse. “I’ve been stealing sleep from strangers’ dreams. If I’m going to keep the habit, I’d rather the guilt be evenly distributed.”
+Rook spoke first, voice rough from disuse. “I’ve been stealing sleep from strangers’ dreams. If I’m going to keep the habit, I’d rather the guilt be evenly distributed.”
 
 Gideon snorted, half‑laugh, half‑vent valve. “Democratic larceny. Very on‑brand.” He extended his wrist toward the scanner. “Let’s unionize our nightmares and see what benefits drop out.”
 
-Sona pressed her own wrist beside his. Skin to alloy: warm, then cool. The plate flared once, a soft mauve acknowledgment—not triumph, only receipt. Corv followed, then Jian. The grief‑tone dipped a semitone, as if embarrassed to witness bookkeeping.
+Sona pressed her own wrist beside his. Skin to alloy: warm, then cool. The plate flared once, a soft mauve acknowledgment—not triumph, only receipt. Corv followed, then Rook. The grief‑tone dipped a semitone, as if embarrassed to witness bookkeeping.
 
 A single line appeared on the pane: *Consensus acknowledged. Metabolic sovereignty pooled. Proceed.*
 
 Corv let his hand fall. “We just married our cortisol.”
 
-Sona’s mouth twitched. “Annulment requires unanimous heartbreak.” She wiped faint blood‑oil from her lip where the interface had nicked her, then offered the smear to Jian like communion. He took it on his thumb without comment, rubbed forefinger to thumb, testing viscosity the way one tests silence.
+Sona’s mouth twitched. “Annulment requires unanimous heartbreak.” She wiped faint blood‑oil from her lip where the interface had nicked her, then offered the smear to Rook like communion. He took it on his thumb without comment, rubbed forefinger to thumb, testing viscosity the way one tests silence.
 
 The corridor ahead exhaled a warmer draft carrying faint synaptic brine. No visions, no choirs—just four bodies rearranging the boundary between mine and ours, the way tides negotiate sand without ever signing treaties.
 
-Corv toggled the feed from his implanted subclavian node to the shared buffer.
-“pH seven‑point‑two‑three, glucose eighty‑one, noradrenaline two‑point‑four.”
+Corv toggled the feed from his implanted subclavian node to the shared buffer.  
+“pH seven‑point‑two‑three, glucose eighty‑one, noradrenaline two‑point‑four.”  
 He said it like reading the weather—flat, factual, the old habit of a body that once served as a living lab bench.
 
-Jian exhaled through his teeth. “Two‑point‑four is high for you, priest. Dial it down before you trip the cortisol cascade.”
+Rook exhaled through his teeth. “Two‑point‑four is high for you, priest. Dial it down before you trip the cortisol cascade.”  
 He released tension by flexing the webbing between thumb and forefinger, the micro‑motion of a man who has memorized every ligament in his own hands.
 
-Sona watched the numbers scroll inside her corneal HUD, pupils narrowed to surgical pins.
-“I can shoulder the excess,” she offered. “Transfer fifteen percent across the hemo‑cloud. My ACTH baseline is lower tonight.”
+Sona watched the numbers scroll inside her corneal HUD, pupils narrowed to surgical pins.  
+“I can shoulder the excess,” she offered. “Transfer fifteen percent across the hemo‑cloud. My ACTH baseline is lower tonight.”  
 
-Jian’s eyebrow lifted, skeptical. “That’s not how pooled endocrinology works. You’re not a sink, you’re a membrane.”
+Rook’s eyebrow lifted, skeptical. “That’s not how pooled endocrinology works. You’re not a sink, you’re a membrane.”
 
 “Membranes flow both ways,” Sona said, thin smile. “Let me be the gradient for once.”
 
-Corv’s voice cut through, soft but decisive. “No. If we start redistributing stress like pocket change, we’ll all spike inside thirty seconds. Keep to the protocol—equalise, don’t donate.”
+Corv’s voice cut through, soft but decisive. “No. If we start redistributing stress like pocket change, we’ll all spike inside thirty seconds. Keep to the protocol—equalise, don’t donate.”  
 He tapped the soft pad on his wrist, overriding Sona’s proposal before she could swipe consent. The haptic click felt like a knuckle popping inside the dark.
 
-Jian turned to the wall, pressed two fingers to the polymer. “Ambient temperature rose eight‑tenths of a degree. The plexus is warming its nutrient bath. We’ve got about three minutes before it demands a bigger tithe.”
+Rook turned to the wall, pressed two fingers to the polymer. “Ambient temperature rose eight‑tenths of a degree. The plexus is warming its nutrient bath. We’ve got about three minutes before it demands a bigger tithe.”
 
-Sona sucked the bead of blood from her lip, tasted iron and citrus—an impromptu nutrient panel.
-“Then let’s stop talking like accountants and sync like mammals.”
+Sona sucked the bead of blood from her lip, tasted iron and citrus—an impromptu nutrient panel.  
+“Then let’s stop talking like accountants and sync like mammals.”  
 
-Corv met her gaze, the smallest nod. He reached out, not for ceremony but for telemetry, and placed two fingers on her carotid. Jian mirrored the gesture on Corv’s other side, completing a triangle. Heartbeats staggered, then converged—one lo‑fi rhythm braided from three pulse trains.
+Corv met her gaze, the smallest nod. He reached out, not for ceremony but for telemetry, and placed two fingers on her carotid. Rook mirrored the gesture on Corv’s other side, completing a triangle. Heartbeats staggered, then converged—one lo‑fi rhythm braided from three pulse trains.
 
 The corridor smelled faintly of warm cerebrospinal fluid, like a tidepool left in a cupped hand.
 
@@ -276,7 +276,9 @@ Corv exhaled through his nose—half amusement, half exasperation. “Only if we
 
 Sona tasted the blood on her lip again—less metallic now, more like green apricot. She felt the grief‑tone settle into the spaces between her ribs, an interval widening to admit a second drone. Without turning, she spoke toward the faint warmth ahead. “We’re carrying someone else’s unfinished sentence. The plexus will ask us to recite it back verbatim, but with our own mouths.”
 
-Jian’s fingers drummed once against the polymer wall—three quick taps, a private Morse. “If we flub the pronunciation, it charges compound interest.” He flicked his gaze to his lattice, still hovering in its lighter configuration. “Enough cycles for one phonetic stanza. After that, the rhyme scheme mutates on contact.” The lattice flared briefly, gold threads braiding into a tight helix, then relaxing again. “I can keep us on meter, but I can’t promise the footnotes will survive translation.”
+Rook’s fingers drummed once against the polymer wall—three quick taps, a private Morse. “If we flub the pronunciation, it charges compound interest.” He flicked his gaze to Jian’s lattice, still hovering in its lighter configuration. “You still have enough cycles to run a phonetic buffer?”
+
+Jian nodded, eyes half‑closed, as though listening to music only he could hear. “Enough for one stanza. After that, the rhyme scheme mutates on contact.” The lattice flared briefly, gold threads braiding into a tight helix, then relaxing again. “I can keep us on meter, but I can’t promise the footnotes will survive translation.”
 
 The corridor exhaled a warmer breath, carrying the faint sweetness of warmed cerebrospinal fluid laced with something sharper—ozone, perhaps, or the ghost of citrus peel. The light at the far end shifted from violet to a low, steady amber, the colour of hospital monitors just before they flatline. The grief‑tone answered with a minor third, soft as a finger laid across lips.
 
@@ -292,8 +294,8 @@ Jian’s smile was thin, but real. “Already indexing. Subsection titled: *Syna
 
 The amber light ahead pulsed once, a slow, deliberate heartbeat. The corridor narrowed again, walls close enough to feel the faint warmth of their own respiration reflected back—four breaths, slightly out of phase, beginning to braid.
 
-“Permission to queue a real question,” Jian murmured, thumb still on the lattice’s rim like a man steadying a violin bow that has grown teeth.
-“Denied,” Corv answered reflexively, but the corner of his mouth ticked up—an admission that protocols are elastic once spoken aloud.
+“Permission to queue a real question,” Jian murmured, thumb still on the lattice’s rim like a man steadying a violin bow that has grown teeth.  
+“Denied,” Corv answered reflexively, but the corner of his mouth ticked up—an admission that protocols are elastic once spoken aloud.  
 Sona watched the exchange with the mild impatience she reserves for siblings who insist on fencing with scalpels. “Ask anyway,” she said. “We’re beyond the etiquette that keeps philosophers employed.”
 
 Jian flicked a glance toward the amber node winking thirty metres ahead—now dimmer, now brighter, like a candle negotiating with draughts. “The plexus is sampling our cardiac harmonics. Endocrine‑metaphoric bleed‑through is already at six percent. Crowley’s rule says at ten we lose narrative cohesion. So: do we consent to the bleed or invoke a dampener?”
@@ -360,27 +362,27 @@ They moved again, no longer counting. The corridor had taken over the rhythm, a 
 
 Ten metres on, the amber node hung at chest height, no longer a distant beacon but a tangible sphere the size of a heart. It pulsed once, deliberately slow. The lattice tilted toward it like a compass needle surrendering north.
 
-Sona’s cuff chirped: heart‑rate 112, trending down.
-Corv muttered, “Baseline green, keep me honest,” and she thumbed his med‑slate twice, confirming the read.
-Jian’s voice was dry telemetry over their mesh: “Peristaltic corridor dilating at 0.7 m per breath; we’re the bolus, so don’t linger in the sphincter.”
+Sona’s cuff chirped: heart‑rate 112, trending down.  
+Corv muttered, “Baseline green, keep me honest,” and she thumbed his med‑slate twice, confirming the read.  
+Jian’s voice was dry telemetry over their mesh: “Peristaltic corridor dilating at 0.7 m per breath; we’re the bolus, so don’t linger in the sphincter.”  
 Sona snorted—laugh or pressure equalisation, hard to tell.
 
 Corv checked the three of them in one sweep: Sona, pupils six mm, responsive; Jian, tremor at the wrist only; himself—he couldn’t feel the bruise blooming under the clavicle, so that was probably bad. He tightened the sling on the sample case and clipped its seal status to green.
 
-“New rule,” he said. “No one opens a body cavity until we vote, even if it winks.”
+“New rule,” he said. “No one opens a body cavity until we vote, even if it winks.”  
 Jian’s reply was a click‑tongue like an old modem. “Motion seconded. Also, if the node tries flirting, I call dibs on polite refusal.”
 
-Sona watched the corridor wall pleat and unfold, the way bronchi do under bronchoscope.
-She keyed her mic private to Corv: “Adrenaline’s tapering. I can hold the bridge for nine more minutes before I start hallucinating.”
+Sona watched the corridor wall pleat and unfold, the way bronchi do under bronchoscope.  
+She keyed her mic private to Corv: “Adrenaline’s tapering. I can hold the bridge for nine more minutes before I start hallucinating.”  
 He answered the same channel, soft: “Then we give you eight and carry you for the ninth. Contract amended.”
 
 Behind them, the bio‑lattice had already re‑threaded their footprints into an unmarked seam—no back‑trail, no receipt. Ahead, the amber node ticked another slow pulse. Jian began a silent four‑count with the heel of his palm against his thigh, syncing breath, gear, and sarcasm reserves.
 
-The corridor exhaled moisture that tasted of thawed plasma and cardamom.
-Sona licked her lip, collected the data, tagged it *Taste: Unexplained, Non‑toxic*.
+The corridor exhaled moisture that tasted of thawed plasma and cardamom.  
+Sona licked her lip, collected the data, tagged it *Taste: Unexplained, Non‑toxic*.  
 She nodded once, the smallest possible clearance.
 
-“Forward motion on my mark,” Corv said.
+“Forward motion on my mark,” Corv said.  
 He waited until Sona’s left foot shifted weight—mark.
 
 They glided, not marching, letting the 5/4 sway teach them its lullaby so none had to hum it first.
@@ -389,8 +391,8 @@ Jian’s palm still pressed to the thigh pocket where a spare vial of synthetic 
 
 They were quiet, but the corridor kept talking. Every footfall dripped a faint click of collagen re‑braiding behind them. It wasn’t fear. It was arithmetic: one fewer buffer dose, one more variable in the glandular algebra they were dragging like contraband.
 
-Corv inhaled, let it out through his teeth. “New protocol,” he said. “No solo sampling unless two of us are bored. Jian, that means you.”
-Jian shrugged, economical. “Boredom is a luxury. I’ll settle for terrified and obedient.”
+Corv inhaled, let it out through his teeth. “New protocol,” he said. “No solo sampling unless two of us are bored. Jian, that means you.”  
+Jian shrugged, economical. “Boredom is a luxury. I’ll settle for terrified and obedient.”  
 The joke landed small, a tin coin dropped in deep water. Sona snorted once—half laugh, half nasal filter clearing.
 
 Behind them the lattice stitched faster, a subtle uptempo. They all heard it. Corv lifted two fingers: *pause, re‑sync*. Sona ran the fresh numbers. No pursuit, just the architecture doing what living tissue does—closing gaps, forgetting trauma. The amber node ahead ticked again, a heartbeat that skipped its owner.

@@ -69,10 +69,39 @@ This file is the active source of truth for repository execution status.
 ### NEP-013 Book 1 Expansion Smoke
 
 - [x] Build the first dossier-driven chapter expansion runner using the populated Chapter `01` dossier and the trilogy target profile
-- [ ] Run a monitored smoke expansion for `Book 1 / Chapter 01`
-- [ ] Verify the expanded Chapter `01` preserves canon while materially increasing length against the baseline
-- [ ] Verify the expanded Chapter `01` preserves the trilogy's biology / philosophy / technology braid and does not drift into over-clinical prose
-- [ ] Record the before/after word count for `Chapter 01` so later chapter waves use the same comparison contract
+- [x] Repair the monitored helper so live wave status works cleanly under `zsh`
+- [x] Add a prose-quality gate so Chapter `01` cannot pass on word count alone if wit, humor, and sentence-temperature variation are still under target
+- [x] Harden the repair pass so failed stage drafts strip preamble residue and must add real material before validation
+- [x] Add an insert-only fallback when full-chapter repairs keep compressing the accepted draft
+- [x] Route initial partial-growth candidates, style-gate failures, non-additive repairs, and late-stage drafts over `5,000` words into additive insert fallback instead of repeated full rewrites
+- [x] Add visible model-call logging and repair/insert call failure handling so the monitor shows where a smoke run is waiting
+- [x] Run a monitored smoke expansion for `Book 1 / Chapter 01`
+- [x] Record the first full monitored smoke failure: final Stage `4` reached `8,952` words but failed the control gate because late inserts repeated base material and collapsed voice/temperature
+- [x] Harden insert normalization so generated inserts cannot repeat accepted-base paragraphs before merge
+- [x] Record the second monitored smoke failure: Stage `3` correctly rejected duplicate-only inserts, but exhausted the fixed retry budget after a provider `504` and repeated sensory-architecture retries
+- [x] Harden insert fallback again so it saves raw insert attempts, strips cross-paragraph repetition after merge, and changes retry lanes toward dialogue / protocol / consequence instead of replaying corridor or palace imagery
+- [x] Record the third monitored smoke failure: Stage `3` recovered one additive insert to `5,385` words, then Kimi copied the accepted base on the remaining duplicate-recovery attempts instead of producing the final `636` new words
+- [x] Add duplicate-recovery routing so late insert retries omit the full accepted draft from the prompt and switch to the control model after repeated duplicate-only Kimi outputs
+- [x] Stop the next monitored run when Stage `3` again collapsed under full-chapter Kimi rewrite, before spending another long repair cycle
+- [x] Switch Stage `3+` growth to insert-first mode so accepted prose is preserved and later stages no longer pay for known-compressive full-chapter rewrites
+- [x] Detect and clean up orphaned Chapter `01` expansion processes after `nep_stop` killed the wrapper but not the child model call
+- [x] Harden `nep_stop` to terminate the task process group, and switch Stage `2+` growth to insert-first mode because Stage `2` full rewrites also repeatedly compressed accepted prose
+- [x] Record the fourth monitored smoke failure: Stage `4` reached `9,041` words, but the final inserts failed the control gate for weak wit lanes, weak double-meaning density, fragile braid balance, and a flattened lyrical/clinical register
+- [x] Add a final-stage voice/style acceptance repair after the word floor is met so the runner fixes braid, wit, pressure-release, and pronoun consistency instead of only adding more prose
+- [x] Re-run the monitored `Book 1 / Chapter 01` smoke after insert de-duplication
+- [x] Verify the expanded Chapter `01` preserves canon while materially increasing length against the baseline
+- [x] Verify the expanded Chapter `01` preserves the trilogy's biology / philosophy / technology braid and does not drift into over-clinical prose
+- [x] Verify the expanded Chapter `01` carries layered meaning, character-true wit lanes, and sentence-temperature variation instead of one solemn register
+- [x] Record the before/after word count for `Chapter 01` so later chapter waves use the same comparison contract
+
+### NEP-013 Smoke Acceptance Review
+
+- [x] Monitored helper status: `NEP-013-SMOKE=ok`
+- [x] Final control gate passed after voice repair: `braid_balance=9`, `wit_lane_distinction=8`, `temperature_variation=8`, `double_meaning_density=7`, `humor_pressure_release=8`
+- [x] Post-run canon cleanup removed unsupported `Rook` references from the accepted working chapter and raw artifact
+- [x] Verified no production preamble residue, unsupported `Rook`, `PubMed`, or `doi` markers remain in the accepted working/raw outputs
+- [x] Verified working and raw Chapter `01` outputs are byte-identical after cleanup
+- [x] Recorded final Chapter `01` growth: `1,598` -> `8,846` words (`5.54x` baseline)
 
 ### NEP-006 Matrix Revision
 

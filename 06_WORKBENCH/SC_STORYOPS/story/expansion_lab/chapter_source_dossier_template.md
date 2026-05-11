@@ -117,6 +117,7 @@ List the best expansion opportunities:
 - banned terms
 - preferred terms
 - dialogue voice reminders by character
+- supplemental structured-tone reference, if needed: `/Volumes/madara/2026/twc-vault/.claude/skills/noesis-writer-skill/SKILL.md`
 - anti-sermon warnings
 - anti-lore-dump warnings
 - anti-explicit-symbolism warning: keep tarot / enneagram / endocrine-muse logic implicit unless the dossier explicitly authorizes overt naming

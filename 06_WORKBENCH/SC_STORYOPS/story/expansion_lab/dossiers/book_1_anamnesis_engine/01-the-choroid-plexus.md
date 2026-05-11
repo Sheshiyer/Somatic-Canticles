@@ -111,6 +111,7 @@
 - **Anti‑explicit-symbolism warning:** keep the tarot / enneagram / endocrine-muse scaffold submerged in pacing and image pressure rather than naming it directly on the page.
 - **Tone-balance warning:** do not let biology overwhelm the chapter. Maintain the braid of anatomy, field-philosophical pressure, and protocol/technology atmosphere, with short declarative punches cutting through the denser lyrical passages.
 - **Wordplay / humor / emotional-flow note:** allow layered meanings, sly pressure-release wit, and shifts between dread, awe, irony, tenderness, and precision so the chapter does not read in one uninterrupted temperature.
+- **Character-specific wit lanes:** Jian gets dry precision wit; Gideon gets blunt defensive wit; Corv gets oblique double-meaning wit; Sona gets gentle relational wit. Use them sparingly but deliberately so the chapter can breathe under pressure.
 
 ## 11. Model Routing
 - **Synthesis model:** `openai/gpt-oss-120b`  

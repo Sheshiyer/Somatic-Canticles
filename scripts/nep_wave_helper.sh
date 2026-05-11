@@ -60,7 +60,10 @@ _nep_write_status() {
 _nep_read_file() {
   local path="$1"
   if [[ -f "$path" ]]; then
-    tr -d '\n' < "$path"
+    local content
+    content="$(<"$path")"
+    content="${content//$'\n'/}"
+    printf '%s' "$content"
   fi
 }
 
@@ -171,20 +174,20 @@ nep_status() {
   printf '%-12s %-10s %-8s %-24s %s\n' "TASK" "STATUS" "PID" "STARTED" "EXIT"
 
   local found=0
-  local status_file task_id status pid started exit_code pid_file
+  local status_file task_id task_state pid started exit_code pid_file
   for status_file in "$(_nep_status_dir)"/*.status; do
     [[ -e "$status_file" ]] || continue
     found=1
     task_id="$(basename "$status_file" .status)"
-    status="$(_nep_read_file "$status_file")"
+    task_state="$(_nep_read_file "$status_file")"
     pid_file="$(_nep_path_pid "$task_id")"
     pid="$(_nep_read_file "$pid_file")"
     started="$(_nep_read_file "$(_nep_path_started "$task_id")")"
     exit_code="$(_nep_read_file "$(_nep_path_exit "$task_id")")"
-    if [[ "$status" == "running" ]] && ! _nep_pid_alive "$pid"; then
-      status="stale"
+    if [[ "$task_state" == "running" ]] && ! _nep_pid_alive "$pid"; then
+      task_state="stale"
     fi
-    printf '%-12s %-10s %-8s %-24s %s\n' "$task_id" "$status" "${pid:-"-"}" "${started:-"-"}" "${exit_code:-"-"}"
+    printf '%-12s %-10s %-8s %-24s %s\n' "$task_id" "$task_state" "${pid:-"-"}" "${started:-"-"}" "${exit_code:-"-"}"
   done
 
   if [[ "$found" -eq 0 ]]; then
@@ -211,14 +214,14 @@ nep_tail() {
 nep_failures() {
   nep_init
   local found=0
-  local status_file task_id status
+  local status_file task_id task_state
   for status_file in "$(_nep_status_dir)"/*.status; do
     [[ -e "$status_file" ]] || continue
     task_id="$(basename "$status_file" .status)"
-    status="$(_nep_read_file "$status_file")"
-    if [[ "$status" == "failed" || "$status" == "stale" ]]; then
+    task_state="$(_nep_read_file "$status_file")"
+    if [[ "$task_state" == "failed" || "$task_state" == "stale" ]]; then
       found=1
-      printf '=== %s (%s) ===\n' "$task_id" "$status"
+      printf '=== %s (%s) ===\n' "$task_id" "$task_state"
       nep_tail "$task_id" 20
       printf '\n'
     fi
@@ -240,7 +243,11 @@ nep_stop() {
     printf 'task %s is not running\n' "$task_id" >&2
     return 1
   fi
-  kill "$pid"
+  kill -TERM "-$pid" 2>/dev/null || kill "$pid"
+  sleep 1
+  if _nep_pid_alive "$pid"; then
+    kill -KILL "-$pid" 2>/dev/null || kill -KILL "$pid"
+  fi
   printf '%s\n' "$(_nep_now)" > "$(_nep_path_finished "$task_id")"
   _nep_write_status "$task_id" "stopped"
   printf 'stopped %s pid=%s\n' "$task_id" "$pid"
@@ -298,6 +305,19 @@ _nep_dispatch() {
   esac
 }
 
-if [[ "${BASH_SOURCE[0]}" == "$0" ]]; then
+_nep_should_dispatch=0
+if [[ -n "${BASH_SOURCE:-}" ]]; then
+  if [[ "${BASH_SOURCE[0]}" == "$0" ]]; then
+    _nep_should_dispatch=1
+  fi
+elif [[ -n "${ZSH_VERSION:-}" ]]; then
+  if [[ "${ZSH_EVAL_CONTEXT:-}" != *:file* ]]; then
+    _nep_should_dispatch=1
+  fi
+else
+  _nep_should_dispatch=1
+fi
+
+if [[ "$_nep_should_dispatch" == 1 ]]; then
   _nep_dispatch "$@"
 fi
