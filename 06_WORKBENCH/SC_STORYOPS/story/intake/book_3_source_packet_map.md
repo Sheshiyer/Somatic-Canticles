@@ -2,9 +2,9 @@
 
 ## Purpose
 
-This file is the chapter-cluster handoff between projection and any future `Book 3` packet scaffolding.
+This file is the chapter-cluster source handoff that was used to open the late `Book 3` lane and remains the source archive for any future revision of `Chapter 16-27`.
 
-It does not open packets by itself. It defines which source families each late-trilogy cluster is allowed to inherit, which sources are optional support only, which image families are strong enough to travel with the cluster, and which gates still block downstream chapter packets.
+It is no longer a gate to opening packets. It records which source families each late-trilogy cluster inherited, which sources remained support only, which image families traveled with the cluster, and which cautions should still govern future revision.
 
 ## Operating Rule
 
@@ -13,18 +13,18 @@ It does not open packets by itself. It defines which source families each late-t
 - Pull `04_WORLD_BUILDING` and mounted `/Volumes/madara/2026/twc-vault/03-Resources/` files only as `review-required` support.
 - Pair image families with authority families; no image cluster may drive a packet by itself.
 - Preserve the current projection ruling:
-  - `16-18` may move through source mapping now, but only `Chapter 16-18` may open as working copies at present
-  - `Chapter 19` may open as a starter packet only; `20-24` remain soft
-  - `25-27` remain projection-heavy
+  - `16-18` may move through source mapping now, and the currently validated prose opening now extends through `Chapter 27`
+  - `Chapter 19-24` may operate as active prose lanes under recorded-delta constraints
+  - `25-27` are no longer projection-only; they are active prose lanes under post-Severance authorship constraints
 
 ## Cluster Summary
 
 | Cluster | Chapter burden | Mandatory source packet | Support packet | Image packet | Current posture | Next safe move |
 | --- | --- | --- | --- | --- | --- | --- |
-| `16-18` | `Wilt`, `Gardener`, `Synthesis Protocol` | hard-authority strong | debug / inherited-pattern support | concealed-truth + strategic-deception families | `Chapter 16-18` compiled deltas recorded | review the recorded `Chapter 18` deltas before considering any wider Book `3` opening |
-| `19-21` | `Three-Point Problem`, `Convergence Point`, `Test Fire` | protocol and vector logic strong | triangulation and coherence support | tetramorphic + witness-support families | `Chapter 19` starter packet open; `20-21` soft-high | validate `Chapter 19` under exact vector, continuity, and anti-sermon constraints before any prose opening or later-cluster widening |
-| `22-24` | `Perfect World`, `Flaw in the Code`, `Final Procedure` | temptation / refusal / severance pressure strong | preservation-law and structural-lie support | concealed-truth + strategic-deception families | `soft-high` | remain packet-closed under the current delta-ledger ruling |
-| `25-27` | `Void`, `Architecture of New Reality`, `New Beginning` | authorship and Amrita logic strong in concept | macro-governance and continuous-creation support only | cellular-polity + tetramorphic + remnant-guidance families | `projection-heavy` | hold at projection until authored-reality claims are corroborated more tightly |
+| `16-18` | `Wilt`, `Gardener`, `Synthesis Protocol` | hard-authority strong | debug / inherited-pattern support | concealed-truth + strategic-deception families | `Chapter 16-18` compiled deltas recorded and merged | future edits must still honor hotspot, lexicon, and anti-sermon constraints |
+| `19-21` | `Three-Point Problem`, `Convergence Point`, `Test Fire` | protocol and vector logic strong | triangulation and coherence support | tetramorphic + witness-support families | `Chapter 19-21` compiled deltas recorded and merged | future edits must still preserve exact vector logic, non-merger discipline, and bounded Test Fire pressure |
+| `22-24` | `Perfect World`, `Flaw in the Code`, `Final Procedure` | temptation / refusal / severance pressure strong | preservation-law and structural-lie support | concealed-truth + strategic-deception families | `Chapter 22-24` compiled deltas recorded and merged | future edits must still prevent sermon inflation, governance overreach, and boundary bleed |
+| `25-27` | `Void`, `Architecture of New Reality`, `New Beginning` | authorship and Amrita logic strong in concept | macro-governance and continuous-creation support only | cellular-polity + tetramorphic + remnant-guidance families | `Chapter 25-27` compiled deltas recorded and merged | future edits must still keep macro-governance rhetoric bounded and scene-first |
 
 ## Cluster Packets
 
@@ -115,8 +115,11 @@ It does not open packets by itself. It defines which source families each late-t
 #### Carryover constraints
 
 - build from `Book 2` `Chapter 13-15` coherence and distributed witness rather than treating triangulation as a brand-new invention
+- inherit the active `Chapter 18 -> 19 -> 20` handoff directly rather than resetting the lane inside a fresh chamber exercise
 - keep the three vectors operational and embodied
+- preserve `distinct witnesses, shared field, disciplined exchange`; do not let convergence collapse into merged identity
 - do not let geometry, sacred math, or symbolic systems outrun team relation and live procedure
+- keep `Chapter 20` bounded to convergence and readiness; do not let it consume the actual `Test Fire` pressure that belongs to `Chapter 21`
 
 #### Do not harden yet
 
@@ -219,12 +222,12 @@ It does not open packets by itself. It defines which source families each late-t
 ## Safe Use Outcome
 
 - `16-18` now has a usable source packet map and starter packets open under delta constraints.
-- `19-21` now has a constrained source inheritance set, and `Chapter 19` is allowed to open as a starter packet only.
-- `22-24` now has a constrained temptation / structural-lie inheritance set, but still waits on compiled-surface audit.
-- `25-27` now has a bounded authorship-support stack, but remains projection-heavy.
+- `19-21` now has a constrained source inheritance set, and `Chapter 19-21` are allowed as active prose lanes under Test Fire constraints.
+- `22-24` now has a constrained temptation / structural-lie inheritance set, and `Chapter 22-24` are active prose lanes with recorded compiled deltas.
+- `25-27` now has a bounded authorship-support stack, and `Chapter 25-27` are active prose lanes with recorded compiled deltas.
 
 ## Handoff Rule
 
-- Use this file to build any future `Book 3` starter packets.
-- Do not skip from this map directly into `working/` chapter copies.
-- Re-check `book_projection_board.md`, `book_3_concept_authority_matrix.md`, `book_3_compiled_surface_audit.md`, `book_3_entry_carryover_validation.md`, `book_3_delta_ledger.md`, and `world_bible_authority_registry.md` before any packet is opened.
+- Use this file to audit source inheritance before any future revision of compiled `Book 3`.
+- Treat it as a source archive, not as an unopened-lane decision surface.
+- Re-check `book_projection_board.md`, `book_3_concept_authority_matrix.md`, `book_3_compiled_surface_audit.md`, `book_3_entry_carryover_validation.md`, `book_3_delta_ledger.md`, and `world_bible_authority_registry.md` before any late-book chapter is revised again.

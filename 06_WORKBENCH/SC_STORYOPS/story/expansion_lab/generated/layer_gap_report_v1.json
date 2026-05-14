@@ -1,0 +1,286 @@
+{
+  "by_book": {
+    "Book 1: The Anamnesis Engine": {
+      "world": [
+        "01. The Choroid Plexus",
+        "03. The Blood-Brain Barrier",
+        "04. The Emperor's Genome",
+        "05. The Endocrine Dogma",
+        "07. The Breathfield Weaver"
+      ],
+      "mystery": [
+        "01. The Choroid Plexus",
+        "02. Signal Transduction",
+        "05. The Endocrine Dogma"
+      ],
+      "prose": [
+        "01. The Choroid Plexus",
+        "02. Signal Transduction",
+        "04. The Emperor's Genome",
+        "05. The Endocrine Dogma",
+        "06. The Synaptic Crossroads"
+      ],
+      "relationships": [
+        "02. Signal Transduction",
+        "03. The Blood-Brain Barrier",
+        "06. The Synaptic Crossroads",
+        "07. The Breathfield Weaver",
+        "08. The Compass Calibration"
+      ],
+      "meaning": [
+        "03. The Blood-Brain Barrier",
+        "06. The Synaptic Crossroads",
+        "08. The Compass Calibration"
+      ],
+      "character": [
+        "04. The Emperor's Genome"
+      ]
+    },
+    "Book 2: The Myocardial Chorus": {
+      "world": [
+        "09. The Sigil Smith",
+        "11. The Avatar Mutation",
+        "13. The Myocardial Chorus",
+        "14. The Three-Body Coordination"
+      ],
+      "prose": [
+        "09. The Sigil Smith",
+        "10. The Debug Protocol",
+        "12. The Anamnesis Engine",
+        "13. The Myocardial Chorus"
+      ],
+      "character": [
+        "10. The Debug Protocol",
+        "11. The Avatar Mutation"
+      ],
+      "relationships": [
+        "10. The Debug Protocol",
+        "13. The Myocardial Chorus",
+        "14. The Three-Body Coordination",
+        "15. The Witness Integration"
+      ],
+      "plot": [
+        "12. The Anamnesis Engine"
+      ],
+      "meaning": [
+        "12. The Anamnesis Engine",
+        "14. The Three-Body Coordination",
+        "15. The Witness Integration"
+      ]
+    },
+    "Book 3: The Ripening": {
+      "mystery": [
+        "16. The Wilt"
+      ],
+      "world": [
+        "16. The Wilt",
+        "17. The Gardener",
+        "19. The Three-Point Problem",
+        "20. The Convergence Point",
+        "21. The Test Fire",
+        "22. The Perfect World",
+        "23. The Flaw in the Code",
+        "24. The Final Procedure",
+        "25. The Void of Pure Potential",
+        "26. The Architecture of New Reality",
+        "27. The New Beginning"
+      ],
+      "relationships": [
+        "16. The Wilt",
+        "18. The Synthesis Protocol",
+        "19. The Three-Point Problem",
+        "20. The Convergence Point",
+        "21. The Test Fire",
+        "22. The Perfect World",
+        "23. The Flaw in the Code",
+        "24. The Final Procedure",
+        "25. The Void of Pure Potential",
+        "27. The New Beginning"
+      ],
+      "meaning": [
+        "17. The Gardener",
+        "18. The Synthesis Protocol",
+        "19. The Three-Point Problem",
+        "20. The Convergence Point",
+        "21. The Test Fire",
+        "22. The Perfect World",
+        "23. The Flaw in the Code",
+        "24. The Final Procedure",
+        "25. The Void of Pure Potential",
+        "26. The Architecture of New Reality",
+        "27. The New Beginning"
+      ],
+      "prose": [
+        "17. The Gardener",
+        "18. The Synthesis Protocol",
+        "26. The Architecture of New Reality"
+      ]
+    }
+  },
+  "global_layers": {
+    "world": [
+      "01. The Choroid Plexus",
+      "03. The Blood-Brain Barrier",
+      "04. The Emperor's Genome",
+      "05. The Endocrine Dogma",
+      "07. The Breathfield Weaver",
+      "09. The Sigil Smith",
+      "11. The Avatar Mutation",
+      "13. The Myocardial Chorus",
+      "14. The Three-Body Coordination",
+      "16. The Wilt",
+      "17. The Gardener",
+      "19. The Three-Point Problem",
+      "20. The Convergence Point",
+      "21. The Test Fire",
+      "22. The Perfect World",
+      "23. The Flaw in the Code",
+      "24. The Final Procedure",
+      "25. The Void of Pure Potential",
+      "26. The Architecture of New Reality",
+      "27. The New Beginning"
+    ],
+    "mystery": [
+      "01. The Choroid Plexus",
+      "02. Signal Transduction",
+      "05. The Endocrine Dogma",
+      "16. The Wilt"
+    ],
+    "prose": [
+      "01. The Choroid Plexus",
+      "02. Signal Transduction",
+      "04. The Emperor's Genome",
+      "05. The Endocrine Dogma",
+      "06. The Synaptic Crossroads",
+      "09. The Sigil Smith",
+      "10. The Debug Protocol",
+      "12. The Anamnesis Engine",
+      "13. The Myocardial Chorus",
+      "17. The Gardener",
+      "18. The Synthesis Protocol",
+      "26. The Architecture of New Reality"
+    ],
+    "relationships": [
+      "02. Signal Transduction",
+      "03. The Blood-Brain Barrier",
+      "06. The Synaptic Crossroads",
+      "07. The Breathfield Weaver",
+      "08. The Compass Calibration",
+      "10. The Debug Protocol",
+      "13. The Myocardial Chorus",
+      "14. The Three-Body Coordination",
+      "15. The Witness Integration",
+      "16. The Wilt",
+      "18. The Synthesis Protocol",
+      "19. The Three-Point Problem",
+      "20. The Convergence Point",
+      "21. The Test Fire",
+      "22. The Perfect World",
+      "23. The Flaw in the Code",
+      "24. The Final Procedure",
+      "25. The Void of Pure Potential",
+      "27. The New Beginning"
+    ],
+    "meaning": [
+      "03. The Blood-Brain Barrier",
+      "06. The Synaptic Crossroads",
+      "08. The Compass Calibration",
+      "12. The Anamnesis Engine",
+      "14. The Three-Body Coordination",
+      "15. The Witness Integration",
+      "17. The Gardener",
+      "18. The Synthesis Protocol",
+      "19. The Three-Point Problem",
+      "20. The Convergence Point",
+      "21. The Test Fire",
+      "22. The Perfect World",
+      "23. The Flaw in the Code",
+      "24. The Final Procedure",
+      "25. The Void of Pure Potential",
+      "26. The Architecture of New Reality",
+      "27. The New Beginning"
+    ],
+    "character": [
+      "04. The Emperor's Genome",
+      "10. The Debug Protocol",
+      "11. The Avatar Mutation"
+    ],
+    "plot": [
+      "12. The Anamnesis Engine"
+    ]
+  },
+  "high_priority_chapters": [
+    {
+      "chapter": "01. The Choroid Plexus",
+      "book": "Book 1: The Anamnesis Engine",
+      "primary_deficit": "immersion",
+      "dossier_priority": "wave-1"
+    },
+    {
+      "chapter": "03. The Blood-Brain Barrier",
+      "book": "Book 1: The Anamnesis Engine",
+      "primary_deficit": "membrane conflict",
+      "dossier_priority": "wave-1"
+    },
+    {
+      "chapter": "07. The Breathfield Weaver",
+      "book": "Book 1: The Anamnesis Engine",
+      "primary_deficit": "breathfield inheritance",
+      "dossier_priority": "wave-1"
+    },
+    {
+      "chapter": "08. The Compass Calibration",
+      "book": "Book 1: The Anamnesis Engine",
+      "primary_deficit": "orientation consequence",
+      "dossier_priority": "wave-1"
+    },
+    {
+      "chapter": "09. The Sigil Smith",
+      "book": "Book 2: The Myocardial Chorus",
+      "primary_deficit": "forge atmosphere",
+      "dossier_priority": "wave-2"
+    },
+    {
+      "chapter": "14. The Three-Body Coordination",
+      "book": "Book 2: The Myocardial Chorus",
+      "primary_deficit": "living governance pressure",
+      "dossier_priority": "wave-2"
+    },
+    {
+      "chapter": "15. The Witness Integration",
+      "book": "Book 2: The Myocardial Chorus",
+      "primary_deficit": "distributed witness consequence",
+      "dossier_priority": "wave-2"
+    },
+    {
+      "chapter": "16. The Wilt",
+      "book": "Book 3: The Ripening",
+      "primary_deficit": "regression pressure aftermath",
+      "dossier_priority": "wave-3"
+    },
+    {
+      "chapter": "17. The Gardener",
+      "book": "Book 3: The Ripening",
+      "primary_deficit": "Gardener encounter dwell",
+      "dossier_priority": "wave-3"
+    },
+    {
+      "chapter": "23. The Flaw in the Code",
+      "book": "Book 3: The Ripening",
+      "primary_deficit": "flaw in the code revelation",
+      "dossier_priority": "wave-3"
+    },
+    {
+      "chapter": "24. The Final Procedure",
+      "book": "Book 3: The Ripening",
+      "primary_deficit": "final procedure authorship",
+      "dossier_priority": "wave-3"
+    },
+    {
+      "chapter": "25. The Void of Pure Potential",
+      "book": "Book 3: The Ripening",
+      "primary_deficit": "void of pure potential",
+      "dossier_priority": "wave-3"
+    }
+  ]
+}

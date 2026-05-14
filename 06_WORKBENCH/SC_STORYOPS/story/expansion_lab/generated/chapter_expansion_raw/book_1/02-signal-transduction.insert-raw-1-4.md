@@ -1,0 +1,21 @@
+The amber pulse at the base of Jian’s skull shifted from migraine-lilac to a patient, coppery gold—same hue the vanished coin had left in Corv’s palm. It was, Jian realized, the Engine’s way of acknowledging the receipt Corv had planted: a quiet escrow of guilt. He tried not to savor the warmth; interest always accrued.
+
+Corv, meanwhile, studied the seam where corridor met aperture. Under the green blade’s thin aurora, the join showed no weld, no stitch—only a lazy diffraction spiral, turning clockwise as if stirred by an unseen spoon. He let the image linger a half-second longer than necessary, memorizing the delay between each twist. That lag would be the only map they’d have on the return; the library had already begun forgetting its own geometry.
+
+Gideon flexed the blade-flat cube once more, watching the seam split into twin threads that braided, unbraided, then braided again. “The aperture’s tasting us,” he said. “Every heartbeat widens the tolerance by a micron. Too many beats and the margin eats itself.” He angled the weapon so the green light painted a ruler across the floor: twelve centimeters of safe passage, shrinking at the speed of capillary refill. “We step on the downswing, or we become annotation on someone else’s margin.”
+
+Sona exhaled, the motion dragging a faint shimmer across her translucent sternum. “I’ll ride the drift last,” she said. “Someone has to keep the pulse honest.” She didn’t add that her outline was the only one light enough to slip margin without registering as mass; the others had already done the math.
+
+Jian rolled the amber between finger and thumb until it clicked—an almost biological sound, like cartilage popping in cold weather. The click triggered a minuscule data packet that unfurled across the shared HUD: `Phase shear 0.4 mrad north, trending positive`. He looked up, eyes reflecting the dawn-glow aperture. “We’ll cross in pairs,” he said. “Two meters apart, vectors matching the deleted trust. I’ll mirror Corv’s cadence; Gideon mirrors mine. Sona shadows the residual warmth at plus twenty-two seconds.”
+
+Corv nodded, the gesture economical. He lifted his left hand, palm open, and tapped the air twice—old signal-code for *count now*. No one spoke. They simply aligned breaths: four beats inhale, two hold, six exhale, the rhythm borrowed from the absent owner’s last recorded HRV. On the seventh exhale, Corv stepped through.
+
+The aperture parted around him with a sensation neither hot nor cold, simply… precise, like a scalpel slicing silence. He felt the coin’s remaining warmth streak across his palm, vaporizing into data, then re-enter his bloodstream as a single, irrefutable timestamp. He catalogued it, neutral as a mortician, and waited.
+
+Jian followed, one heartbeat behind. The migraine, robbed of its timer, shifted into a lower register: drum rather than drill. He tasted benzoin again, but thinner—memory rinsed of residue. The aperture accepted him with the same polite incision, and for an instant he felt the copper warmth braid through his own pulse, a fleeting partnership of debts. Then the membrane sealed behind him, the light shifting from dawn to something closer to overcast afternoon.
+
+Gideon crossed third, blade held vertical. The seam snagged for a single frame, then let go. He noted the snag, logged it as `interface lag 3 ms`, and filed it under ‘acceptable friction’. The blade’s green glow dulled to pewter as the corridor’s iridescence faded; the library had closed the loan and reclaimed its color.
+
+Sona came last, stepping through the memory of warmth rather than the warmth itself. The aperture hesitated, threads of light quivering like startled fish. She waited—no longer translucent, no longer solid, only potential—until the threads recognized the copper’s echo inside her. They parted. She passed, and the membrane folded into a thin vertical line, then nothing.
+
+Ahead, the corridor resolved into a narrower passage—limestone walls, damp and faintly ammoniac, lit by veins of bioluminescent lichen pulsing at 0.7 hertz. The pulse matched the migraine’s new rhythm; Jian felt his skull relax another notch. They walked without speaking, footfalls soft as breath. Behind them, the library’s heartbeat faded to a rumor. Ahead, the lichen brightened, guiding them toward whatever ledger demanded the next payment.

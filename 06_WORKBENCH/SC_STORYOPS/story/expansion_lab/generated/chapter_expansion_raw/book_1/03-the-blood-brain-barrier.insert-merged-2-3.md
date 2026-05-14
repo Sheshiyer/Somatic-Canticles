@@ -1,0 +1,303 @@
+# Chapter 3: The Blood-Brain Barrier
+
+The Anamnesis Engine ignited its deeper registers with a low, sub-audible thrum that settled into Gideon’s lungs like second-hand smoke. Transition protocols finished their countdown at the edge of hearing: twelve silent heartbeats, then the corridor of light peeled open and the Gate spat them forward. There was no sense of falling, only arrival. The Engine did not bother with metaphor; it simply translated the team into the subject’s vasculature at a resolution that made the inside of an artery feel like a cathedral.
+
+The first thing Gideon tasted was iron—blood, but also something more structural, like the smell of an old soldier’s rifle after decades in a locked cabinet. It caught at the back of his throat, metallic and intimate. His jaw clenched by reflex, the same reflex that had once snapped shut the visor of a childhood mask during Seter war-game drills. He swallowed against memory and stepped through.
+
+They stood inside a membrane.
+
+No—not inside a metaphor. Inside a literal membrane, blown up to the scale of an underground rail station. Endothelial walls rose like translucent fortifications. Tight junctions gleamed in luminous seams each no thicker than spider silk yet capable of denying continents. Astrocytic end-feet spread across the outer surface in pale, protective rosettes, fingers of a blind sculptor who trusted gravity to place every gesture correctly. Capillaries braided overhead in branching strands of red-gold light, every pulse of blood arriving at the threshold freighted not only with oxygen, glucose, and cytokine chatter, but with history: ancestral terror, grandmother regrets, enzymatic memories of infections survived in utero.
+
+The Blood-Brain Barrier.
+
+Gideon’s adrenal axis spiked—cold flare at the base of the skull, then a warm wash of cortisol guiding the surge into purpose. For one bright second he understood why soldiers loved clean orders: they turned chemical panic into trajectory. This was his native dialect of protection. Not comfort. Alignment.
+
+He had trained half his life to walk borders exactly like this one: invisible, exquisite, relentless. Every boundary tells you what a system believes will kill it. The sentence had been spoken over Seter dinner tables since before he had the right to ask what “kill” meant. Tonight the axiom felt less like creed and more like confession.
+
+“Klei Toda’ah deploying,” he said aloud, voice steady as a milled edge.
+
+Roots of argent light descended from his sternum, branches rose from his scapulae, both knitting themselves into a radiant lattice that smelled faintly of ozone and rosemary. Around the team the architecture clarified edges rather than walling the world out. The field felt like the first honest breath after a long evacuation drill: now you can see the exits, now you know the exits might matter more than the shield.
+
+Jian’s overlays lit with vascular geometry and transport rates scrolling in teal and amber. His eyes flickered between the display and the living tissue beside them; he tracked the numbers the way a violinist tracks bow pressure—never looking at the fingerboard, always listening for the moment the wood gives a clearer vowel.
+
+Sona had already closed her eyes. She listened with the same tilt of the head she used when tuning a roomful of refugees to the same slow heartbeat. The chamber’s hum reached her as language rather than vibration. She translated under her breath, too low for the others to catch.
+
+Corv stood just behind her left shoulder. His gaze moved in slow arcs, not searching for danger but memorizing its absence, the way a chess master records empty squares first. The **Adawat al-Wa'i** shimmered around him in a thin, violet membrane that looked like watercolor laid on wet stone.
+
+At first glance the barrier looked intact—tight junctions glimmering, transport vesicles gliding like disciplined commuters. At second glance it was catastrophic. The inflammation was surgical: seven rupture sites along the capillary network, each less than two microns across, each positioned at the precise intersection of two or three major trafficking corridors. In those seams, blood-borne chemistry leaked into neural tissue in shimmering, hostile threads—neither random nor chaotic, but curated.
+
+Gideon widened the tactical map and felt the Klei stretch with him. “Seven breaches,” he said. “Patterned, not incidental. Whatever happened to this subject did not simply damage the boundary. It learned the boundary and opened it on purpose.”
+
+He walked toward the nearest tear. The air tasted metallic, cytokine-thick, like inflammation given teeth. Through the breach he felt wrongness traveling both directions: peripheral alarm entering the brain, cortical terror spilling outward into the bloodstream, the same signal folding back on itself until doctrine emerged from feedback.
+
+His peripheral field flashed. An encrypted Seter channel forced itself through the local noise like a scalpel through gauze.
+
+**Colonel Density Seter.**
+
+The message was brief and military to the point of cruelty:
+
+*"Gideon. Compression-Stability monitors have flagged the mission. Meta-dimensional resonance around your sector is rising past acceptable thresholds. Stand down. Reinforce boundaries. Await further orders."*
+
+Stand down. Reinforce. Contain.
+
+Gideon let the order settle in the hollow below his sternum. The phrase had lived inside him since childhood: *Contain what you love before it learns to want a larger life.* For years he had obeyed without noticing the cost carried interest.
+
+He exhaled through his teeth. “My father wants the perimeter hardened.”
+
+“Of course he does,” Corv murmured, tone so dry it could have sutured the breach itself.
+
+Gideon ignored the comment—mostly. A flicker of grin barely curved one corner of his mouth, gone before it could be witnessed.
+
+He crouched near the breach and pressed two fingers against the living seam. The Klei translated structure into meaning: endothelial cells pulling apart under inflammatory instruction, yes, but beneath the biochemical assault lay a deeper grammar. The barrier was not merely opening. It was being rewritten. The tight junctions began to angle into a crystalline symmetry alien to any mammalian body.
+
+“This isn’t breakdown,” Gideon said. “It’s replacement.”
+
+Jian looked up from his data, eyelashes reflecting the teal HUD. “I was about to say the same thing. Look at the phospholipid ratios. They’ve shifted toward longer chains—more stability, less fluidity. That’s not random scarring. That’s engineering.”
+
+Corv tilted his head. “Efficient engineering, at that. Painful upgrade path.”
+
+Sona opened her eyes. “The tissue is screaming,” she said simply. “But the screaming is getting quieter every minute, because the pattern is getting surer.”
+
+Jian sharpened the map, isolating the foreign signatures. His overlays peeled layers of signal until the intruders resolved: entities inside the breaches, neither host-derived nor memory artifacts. They carried transport logic.
+
+“Show us,” Gideon said.
+
+The capillary wall nearest them brightened, rendering translucent. Something unfolded from the tear. At first Gideon mistook it for fibrin filaments or platelet debris lit by the Engine’s translation layer. Then it moved with intention. A figure assembled itself from geometry and thread, all angles and braided recurrence, as if a theorem had learned to kneel. Behind it came others, each one woven from repeating motifs: loops, knots, mirrored branches, deterministic spirals tightening and relaxing with terrible patience.
+
+Pattern Weavers.
+
+They did not attack. They repaired. Or rather, they performed an exquisite pantomime of repair until you watched closely. One Weaver reached into a breach with hands made of latticework light. The torn endothelial seam cinched together behind those fingers. Inflammatory turbulence decreased. Permeability stabilized.
+
+For a fraction of a second the scene resembled healing.
+
+Then the replacement pattern became visible.
+
+The restored seam no longer matched the tissue around it. Its geometry was too orderly, too obedient—dodecagonal junctions where the host had favored soft irregularity, phospholipid chains locked into crystalline lamination. The patch carried the signature of The Vine: branch logic that favored predictability over adaptation, stability over truth, inherited pattern over felt reality.
+
+Corv’s **Yìshí Qìxiè** drifted beside the wound like water following a hidden grade. “They’re not sealing the barrier back to itself,” he said. “They’re grafting Vine logic into the tissue. Patching the soul out one micron at a time.”
+
+Sona inhaled sharply, one palm steadying herself against nothing visible. “The barrier knows it,” she said. “That’s why the whole field sounds grief-struck. It’s being told this substitution is safety, and it hasn’t yet figured out how to refuse without sounding suicidal.”
+
+Another encrypted packet cut across the chamber. This one arrived rougher, routed through channels House Seter had tried for years to erase.
+
+**Sarah Seter.** Freedom fighter. Exile. Family wound with a voice.
+
+*"Gideon, if you're seeing Weavers, get precise. They never just patch. They convert. The Vine has been using damaged thresholds all across the system. Not only in cities, not only in houses. In people. In memory. In whatever hurts enough to accept a cleaner prison. Watch the gaps. The gaps are the only honest places left."*
+
+The message vanished. Gideon kept staring at the nearest Weaver. He had spent years thinking invasion would announce itself as force, as noise, as obvious malignancy. It did not. It announced itself as improved function. The patched seam leaked less. The network looked calmer. The border behaved. And in exchange, the subject lost authorship over its own threshold.
+
+The recognition moved through him with the cold certainty of a blade against bone. Around him the Klei flickered, not in distress but in fierce clarification: silver roots deepening into the living floor as though anchoring him to a single irrefutable verdict.
+
+“My father would call this stability,” Gideon said. The line came out flat, almost amused, the way a man might remark on the weather right before noticing the storm is already inside his clothes.
+
+No one answered. No one needed to.
+
+The Weavers continued, methodical and reverent, moving from breach to breach with the calm of a surgical team convinced of its own necessity. Everywhere they touched, turbulence decreased. Everywhere they left, the subject’s original architecture became less itself. The process was slow enough to look gentle, fast enough that a blink could miss the precise moment when resistance turned into consent.
+
+Sona stepped closer to Gideon, her Adawat spinning in low, luminous turns that smelled of cardamom and wet steel. “I can hear the difference between living coherence and imposed coherence now,” she said. “The first one breathes. The second one compresses… then stops breathing.”
+
+Jian was already mapping the conversion pattern. Nearest him, a Weaver’s palm flattened against a second breach, weaving endothelial cells into straight, unnerving rows. “The replacement geometry propagates outward from each repair site,” he said. “Not quickly. Efficiently. If they finish the full set, the barrier won’t just be defended. It’ll be standardized.” His HUD flickered; he pinched the air to zoom deeper, then let it snap back. “At current rate—twenty-two minutes until saturation.”
+
+Corv’s gaze remained on the capillary network, pupils reflecting golden dendrites. “A person can survive inside a false perimeter for a very long time,” he said. “Especially if that perimeter explains the pain it is causing in the voice the subject most wants to hear.”
+
+Gideon understood that too well. He had built half his life around the belief that keeping people safe meant reducing their range of possible injury. Compress the field. Remove volatility. Reinforce the wall. Call the narrowing maturity. The Seter family motto, etched subtly into the inside of his childhood wristband: *Narrower is safer, safer is love.*
+
+But here, inside the subject’s blood-brain barrier, the truth stood in front of him wearing immaculate logic. Protection could be a form of conquest. The realization did not soften him. It clarified him like acid etching steel.
+
+He turned to the team, voice low, voice his. “We do not stop this by breaking the barrier apart,” he said. “If we do that, we finish the damage ourselves.”
+
+Jian nodded once, a military nod stripped of salute.
+
+Sona waited, weight on ball of foot as if the next step would be off a cliff and she had already forgiven gravity.
+
+Corv said nothing, but his **Yìshí Qìxiè** unfolded a fraction wider, ready to catch whatever clarification next fell.
+
+Gideon gestured toward the seven tears. “The breaches are terrible,” he continued. “But they’re also the only places the host is not yet fully rewritten. The Weavers use them as entry points because the host is vulnerable there. That means we use them differently.”
+
+“Differently how?” Jian asked.
+
+Gideon looked again at the nearest seam, at living tissue trying to remember its own border under pressure of a foreign design. The Klei glinted along his forearms like frost forming on weapon steel.
+
+“As exits,” he said.
+
+Sona’s face changed first. Not relief. Recognition. The expression of someone who has been waiting at a locked door only to discover the key is the wound itself.
+
+Corv’s witness widened, the pulse at his throat quickening with the dangerous kind of hope that only arrives when interpretation finally earns its risk. “Say it cleanly,” he said.
+
+Gideon obeyed. “The breaches are not just failures in the boundary,” he said. “They are places where the host’s old certainty has already been broken. The Vine sees that and enters. We see that and go deeper. If the barrier can be rewritten there, then it can also be unhidden there. The gap is where imposed pattern is weakest because it still has to negotiate with pain.”
+
+Jian’s map flickered as he recalculated. “You’re saying the open seam is a navigable route.”
+
+“I’m saying it’s the only honest route,” Gideon replied.
+
+Sona placed a hand against the capillary wall. The field around her brightened with quiet, searching resonance. “The tissue is still trying to tell the truth through the damage,” she said. “It hasn’t surrendered. It’s just outnumbered.”
+
+Corv’s expression sharpened further. “Then our job isn’t to make the subject less breached,” he said. “Not yet. Our job is to reach whatever the Weavers are trying to cover before the cover becomes the new law.”
+
+The nearest Pattern Weaver turned then, not startled, not enraged—simply aware. Its face contained no face, only recursion: angles folding into angles until the whole head resembled an optical illusion of belonging. The elegance of inherited pattern defending itself from deviation.
+
+Gideon’s Klei answered by deepening its roots through the translucent floor. Not to harden the wall. To hold the team steady at the edge of it.
+
+“All right,” Gideon said. His voice was low. Precise. Entirely his own. “We move through the breaches. We follow the unconverted tissue. We find the subject before The Vine teaches this body to call occupation peace.”
+
+No one argued.
+
+Ahead of them, the seven tears burned in the capillary lattice like wounds, thresholds, and doors. Light clung to their edges like moisture refusing to evaporate. The team’s shadows stretched forward across the living floor, each shadow a route straight into the subject’s unguarded mind.
+
+A second encrypted packet slipped through the channel Sarah’s first message had cracked open—quieter, almost whispered, as if the exile feared being heard by her own side.
+
+*"The Vine doesn’t want you to stop the breaches, Gideon. It wants you to *judge* them. Measure them against comfort. Decide the host is better off without its own wild edges. Don’t. Count the memory of pain before you count the absence of it. The body is still speaking its native tongue in the gaps."*
+
+The words dissolved, leaving only the taste of iron and the faint scent of cardamom Sona’s field kept exhaling. Gideon rolled the phrase *native tongue* across the roof of his mouth like a communion wafer—thin, brittle, but undeniably his.
+
+Jian adjusted the calibration on his overlays, the teal numbers dimming until the HUD resembled moonlight on old bone. “Twenty-one minutes now,” he said. “Each Weaver is accelerating microscopically—like a dancer who realizes the audience is about to leave.”
+
+Corv’s **Yìshí Qìxiè** drifted to the nearest breach and hovered, a violet breath held above a wound. “They’re weaving faster because they feel us hesitate,” he murmured. “Hesitation is a signal. They know the pattern of human guilt better than we do.”
+
+Sona raised her hand, palm forward, as if greeting the barrier itself. The capillary wall beneath her fingers pulsed once—slow, deliberate, like an exhausted heart trying to remember why it began beating in the first place. “It’s grateful we’re here,” she said, “and terrified we’ll side with the quiet.”
+
+Gideon felt the Klei tighten across his ribs, a lattice of silver frost that did not so much protect as *listen*. The field mapped the difference between native pattern and imposed geometry in a language he had no childhood word for, but understood at the level of old battlefield instinct: one terrain was alive, the other merely maintained.
+
+He stepped sideways, placing his boot between two of the larger astrocytic rosettes. The floor gave slightly, like damp moss over limestone. The rosette beneath his heel flexed, then relaxed as if recognizing weight it had carried before. Memory in cartilage.
+
+Jian’s voice dropped to the register he used when reading aloud from texts he didn’t want to believe. “The converted seams are broadcasting a carrier wave. Low frequency, almost subliminal. If we let that frequency become the new baseline, the barrier itself becomes a speaker for Vine doctrine.” He glanced at Gideon. “We have to enter *counter-resonance*—not noise, not destruction—just the original signature, intact, unafraid.”
+
+Corv’s eyes narrowed, calculating. “Which means we carry the host’s unconverted tissue into the breach itself. Expose it to the Weavers *before* they finish the graft. Force them to negotiate with what they’re trying to erase.”
+
+Sona nodded, slow. “A conversation in the only language the body still trusts—its own breaking.”
+
+Gideon crouched again beside the first breach. The edges gleamed like split quartz; inside, he could see the Weavers’ fingers weaving endothelial cells into a repeating dodecagon. The pattern was beautiful, appalling. He reached in—not far, just enough for the Klei to brush the outermost thread. The Weaver paused, its form flickering for one stutter-frame, as though a skipped heartbeat had passed through both of them.
+
+He withdrew his hand. A single drop of silver clung to his fingertip—Klei and living tissue briefly alloyed. It quivered, then leapt back to the seam, rejoining the lattice with a soft *plink* that sounded like a small bell sinking into deep water.
+
+Jian exhaled through his teeth. “We just left a fingerprint on the architecture. If they track it, they’ll know we’re not here to reinforce.”
+
+“They already know,” Corv said. “They’re just polite about it.”
+
+Sona touched the silver residue now cooling on the capillary wall. “Fingerprint is too small,” she said. “We need a scar the host can still read as its own.” She looked at Gideon. “You carry the oldest scar between us. Use it.”
+
+Gideon lifted his left sleeve. Beneath the fabric, the faint lattice of an old burn traced the inside of his forearm—a souvenir from a childhood Seter training accident, when a live fletchette round had ricocheted and kissed the skin it was meant to protect. The scar had healed into the shape of a fragmented star. He pressed the mark against the breach.
+
+The Weaver recoiled—only a millimeter, but unmistakable. The dodecagon it had been weaving stuttered, edges loosening into irregular polygons that trembled like leaves deciding whether to fall. For three beats of the subject’s heart, the repair pattern forgot its own perfection.
+
+Jian’s overlays flared teal, then gold, then back to teal again. “Counter-resonance acknowledged. Signal degrading at 4.7 percent and climbing.”
+
+Corv’s **Yìshí Qìxiè** folded inward, forming a single violet lens that magnified the distortion. “The host’s original syntax is reasserting at the point of contact. Not much, but enough to register as *native*. The Weavers can’t overwrite what still names itself.”
+
+Sona leaned closer, her breath stirring the microscopic turbulence. “The body remembers injury as identity. That’s why the Vine needs the gaps quiet. Grief is proof of ownership.”
+
+Gideon kept the scar pressed to the breach. Cold seeped up his arm—not pain, but memory’s temperature. He saw, for a brief, vertiginous second, the subject’s first childhood fever, the taste of honeyed antibiotics, the scent of a mother’s hair at 3 a.m. when the thermometer refused to drop. None of it belonged to him, yet all of it resonated through the Klei like a tuning fork struck once and left vibrating inside bone. He realized the Vine’s mistake: it assumed memory would prefer silence to dissonance.
+
+He withdrew his arm. The star-shaped scar had paled to a luminous silver, edges etched with capillary light. The breach itself remained open, but the pattern inside it had fractured into a slow mosaic—still knitting, but no longer sure of its destination.
+
+Jian checked his timer. “Nineteen minutes. The fracture is local. We need to seed the same counter-resonance at all seven breaches simultaneously, or they’ll isolate and overwrite the anomaly.”
+
+Corv’s gaze flicked across the translucent corridor to the remaining tears. “We could split—”
+
+“No,” Gideon said, voice quiet but absolute. “The Klei can carry the signature, but only if we move as one field. The barrier is too integrated for distributed interference. One step out of phase and the host will read us as another invasion.”
+
+Sona straightened, rolling her shoulders like a singer testing range. “Then we choreograph. Each body a tuning fork, each wound a key change.” She smiled without mirth. “I’ve conducted refugees through worse dissonance.”
+
+Corv inclined his head. “And I’ve followed worse conductors.”
+
+Jian pinched the HUD, collapsing the tactical map into a single rotating glyph: a star nested inside a dodecagon nested inside a circle. “This is the overlap. If we anchor the star at every breach, the circle becomes the original perimeter again. Rough, but honest.”
+
+Gideon looked at the team, feeling the Klei silver along his spine like a promise that had finally found the right throat. The corridor stretched ahead, lit by the seven wounds, each now flickering between two futures. He thought of his father’s voice—steady, distant, always arriving too late to feel consequence—and realized the silence after the last order was louder than any command could ever be.
+
+He took the first step. The team fell in behind him, not soldiers, not surgeons, but a single chord walking itself into the dissonance it intended to keep alive. Somewhere beyond the breaches, the subject’s mind waited—not yet conquered, not yet free, but still speaking the language of its own breaking.
+
+They moved toward the nearest tear, shadows lengthening into routes the body had never intended to offer, yet could no longer bear to close.
+
+Sona’s breath clouded the air, tasting faintly of copper and cardamom. “We’ll have to sing the breaches open wider,” she murmured, as though confessing an old superstition. “The tissue will answer, but only if we let the note crack on purpose.” She flexed her fingers; the Adawat’s violet threads tightened, then loosened in a deliberate tremolo. “One tone off-key, held steady, is harder to silence than a perfect chord.”
+
+Corv tilted his head, violet membrane spiralling into a narrow funnel that pointed toward the nearest Weaver. “You’re asking the barrier to remember its own echo before the new verse is written.” His voice dropped to the register he usually reserved for chess endgames. “Risky. But risk is the only dialect the host still speaks fluently.”
+
+Jian’s thumb brushed the underside of his wrist, activating a silent metronome only he could feel. “I can loop the counter-resonance in ninety-second pulses,” he said. “If we stagger the pulses at prime intervals, the Weavers’ carrier wave can’t entrain. They’ll chase the gaps instead of filling them.” He exhaled through his teeth, a sound like dice rattling in a cup. “We’ll sound like static. Good static.”
+
+Gideon nodded once, a small economical motion that nevertheless cancelled half a lifetime of orders. He unclenched his left hand; the old burn scar there—hard white against darker skin—pulsed faintly with borrowed capillary light. “Our bodies are the metronome,” he said. “One heartbeat, one breach. When the scar cools, the tissue believes we’re leaving. That’s when we step in.” He did not smile, but the Klei along his ribs shivered, silver roots trembling like hounds given fresh scent.
+
+Sona began to hum, low in her chest, a sound too soft to be melody yet too deliberate to be breath. The capillary wall under her palm vibrated—minuscule, audible only through the Adawat’s resonance. A reflex arc answered, genuine as a knee kicking under the doctor’s mallet. She adjusted the pitch by a single semitone; the vibration steadied, then began to climb, following her voice like a child learning to match vowels.
+
+Corv stepped beside her, violet membrane unfurling into a lazy helix that mirrored the curve of her spine. “Hold there,” he said. “The Weaver just mirrored the change. It thinks the irregularity is its own correction.” A soft click escaped his throat, half-laugh, half-curse. “Pride before the fall—same trap every tyrant forgets.”
+
+Jian tapped his overlay, syncing the pulse. “Phase locked. Ready on your mark.”
+
+The nearest Weaver paused, lattice fingers hovering over the breach. For one suspended moment the repair pattern flickered—dodecagon stuttering into rough pentagons, edges refusing to kiss. The hesitation lasted exactly three heartbeats: the subject’s, then Gideon’s, then the Weaver’s algorithmic approximation of both. In that gap, the scar on Gideon’s arm cooled from molten silver to dull steel.
+
+He moved. The step was neither charge nor retreat; it was the precise diagonal a bishop takes when the board tilts. Klei flared along his spine, knitting briefly with the capillary wall as he passed through the breach. Sona’s hum dropped an octave, anchoring the counter-resonance. Corv followed, violet membrane licking the edges of the wound like a tongue testing salt. Jian came last, teal numerals cascading down his forearms like spilled starlight.
+
+For the breadth of a pulse, the corridor fell silent except for the soft wet gulp of blood remembering its own direction. The breach did not close behind them; instead it widened, edges feathering into filaments that reached toward the team as if asking for names. They gave none. They simply kept moving, four notes in a key the subject had not yet forgotten how to sing.
+
+Jian’s overlay pulsed once—an almost apologetic flicker—then projected a faint wireframe of the capillary junction directly into the air between them. The model spun slowly, three translucent arteries braided like hair, each strand glowing where a breach leaked brighter than the surrounding membrane. Where the breaches intersected, the geometry folded in on itself, forming tiny alcoves of shadow that flickered whenever the Weavers passed too close.
+
+Gideon studied the alcoves. They looked like the negative space left after a word is erased but still remembered. He reached out and brushed one with his knuckle. The space resisted—soft, wet, alive—then gave slightly, as if the tissue itself leaned toward any touch that did not intend to fix it.
+
+Sona noticed first. “The wounds are collecting attention,” she said. “Not just the Weavers’. The host’s. Microglia are moving in from the outer cortex. They’re tiny, but angry.”
+
+Corv tilted his head, violet membrane contracting into a single observant ring around his pupil. “Anger is still proprietary,” he murmured. “If we can keep them angry while the Weavers try to soothe, the tissue won’t default to Vine diplomacy.”
+
+Jian pinched the air, enlarging one microglial cluster until it filled the corridor like a drifting constellation of spined lanterns. Each cell bristled with chemokine antennae that quivered toward the breaches, tasting the foreign geometry. One extended a pseudopod toward Sona’s Adawat field, recoiled, then extended again—curious, wary, unwilling to trust the color violet had ever belonged to the body.
+
+“Can we tune the counter-resonance to their frequency?” Gideon asked. The question sounded clinical, but his left hand curled unconsciously around the scar on his forearm, thumb tracing the star’s jagged edges the way a sentry checks the gate at dusk.
+
+Jian’s fingers danced across invisible keys. “Their receptors peak at 14.3 kilohertz. If we modulate the Klei carrier wave to hit 14.1, we ride just beneath their alarm threshold. They’ll perceive us as internal dissent rather than external invasion.”
+
+Corv exhaled through his nose, a soft almost-laugh. “Dissent is the politest word I’ve heard all week. Let’s not disappoint them.”
+
+Sona stepped sideways, placing her foot inside one of the microglial constellations. The cells parted around her boot like minnows around a wader, then re-formed, tighter, as if protecting something fragile behind her heel. She began to hum again, this time shaping the note so it warbled—a deliberate waver that sounded like a throat holding back tears. The microglia responded at once, spines extending, drifting toward the breach with the wary grace of wolves scenting smoke.
+
+Behind them, the nearest Weaver paused mid-stitch, lattice fingers hovering over the torn junction. Its head—if a recursive dodecahedron could be called a head—tilted toward the microglial migration. For the first time, the perfect repair hesitated. A single thread of fibrinogen slipped free and drifted, unanchored, glowing like a filament of lost purpose.
+
+Gideon watched the thread settle onto his sleeve, where it curled once around the old scar and dissolved, leaving a pinpoint of cool silver that felt neither foreign nor friendly—only factual. The scar warmed briefly, then cooled again, as if the tissue itself had taken a vote and decided the wound still belonged to the host.
+
+“Timing window,” Jian said quietly. “The microglial surge peaks in forty-three seconds, then the Weavers adapt. After that, they’ll weave the immune response into the replacement lattice and call it tolerance.”
+
+Corv’s violet membrane flicked outward, forming a narrow bridge of light that arced from his palm to the breach. “We thread their anger through the gap before it becomes acceptance,” he said. “A moment of honest inflammation is worth more than a lifetime of painless silence.”
+
+Sona extended her Adawat field until it brushed the underside of Corv’s bridge. The two colors—violet and indigo—interfered, producing a brief, tremulous band of ultraviolet no human retina was built to register. The microglia nearest the seam flared brighter, their spines vibrating in sympathetic resonance. Somewhere deeper in the capillary, a lone erythrocyte paused in mid-flow, spun once like a compass needle, then continued upstream, carrying with it the ultraviolet echo it would never remember receiving.
+
+Gideon flexed his left hand; the star-shaped scar split open along one thin line, revealing a bead of liquid silver that hung for a heartbeat, then fell. It struck the capillary floor with a sound too soft to hear yet sharp enough to cut, and for an instant every microglial lantern dimmed, as if the corridor itself inhaled. When the lights returned, the breach had widened by two microns—no more, but the edges were ragged now, no longer politely geometric. The Weavers’ dodecagon wavered, edges fraying into uneven polygons that looked almost embarrassed.
+
+“We don’t have to break the barrier,” Gideon said, voice low. “We only have to keep it honest long enough for the host to refuse the upgrade.”
+
+Jian’s timer blinked: **18:41, 18:40…** He closed the HUD with a soft swipe, letting the numbers dissolve into the ambient glow. “Then we move. One breach at a time, same rhythm, same scar. The body will recognize its own heartbeat even if the Vine tries to tune it.”
+
+Sona nodded, eyes still on the microglial swarm. “And if the body forgets?”
+
+Corv’s violet membrane folded into a perfect Möbius strip, then relaxed again. “Then we remind it with the oldest grammar it owns: pain that refuses to be quiet.”
+
+They stepped forward together. The corridor did not change; only the light did, shifting from surgical white to something closer to twilight, as if the capillary itself had decided dusk was safer than noon. Behind them, the Weavers resumed their weaving, but the thread they pulled now carried a faint ultraviolet sheen—unwanted color, uninvited memory, the indelible signature of a scar that would not consent to be ornamental.
+
+The breaches waited ahead, seven small wounds still bleeding music the host had not yet surrendered.
+
+The microglial constellation drifted closer, each spined cell a small storm of phospholipid rage looking for something foreign to puncture. Jian held his breath, lips moving around a silent prime list: 2, 3, 5, 7, 11… The numbers steadied his pulse the way ballast steadies a kite. When he exhaled, the teal metronome clipped itself to the 11-second interval, the quietest note in the sequence that would still register as threat.
+
+Corv watched the nearest Weaver’s dodecagon twist, its corners softening like solder under unexpected heat. “It’s trying to decide,” he said, “whether pattern is more important than adhesion.” His violet membrane flicked once, an involuntary shrug. “Old argument. Never ends well for the pattern.”
+
+Sona’s hum deepened until it vibrated against the cartilage of her own sternum. The sound found the capillary wall and returned doubled—one note hers, one note the host’s—two voices braided at the same frequency, refusing harmonic resolution. She tasted copper again, but this time it carried the faint sweetness of infant blood remembered from umbilical memory. She let the taste linger, evidence the body trusted her tongue not to lie.
+
+Gideon eased the Klei into a finer lattice, silver roots threading between astrocytic end-feet like frost seeking fault lines. The field grazed the underside of a microglial spine. The cell flinched, then pressed closer—curiosity bright as needle metal. He translated the contact into a single wordless question: *Friend or contamination?* The answer pulsed back not as language but as temperature—warm, uncertain, still willing to risk contamination if it meant keeping the wound honest.
+
+Jian pinched the air again, shrinking the wireframe until it fit inside his closed fist. “The breaches are syncing their phase. See?” He opened his hand; the miniature arteries pulsed in unison, seven faint heartbeats staggered by half-seconds, like fugue entrances. “If we walk the counter-resonance along that rhythm, the interference will cascade. One breach teaches the next how to stay broken.”
+
+Corv’s violet membrane folded itself into a tight spiral, then released, the motion mimicking the microglial spines stretching toward the breach. “The Weavers are recruiting stability faster than we can seed dissent,” he said. “We need a pressure-release valve—something that lets the tissue scream without making it ashamed.” He glanced at Gideon. “Your scar is loud, but it’s still your voice. Lend it.”
+
+Gideon pressed the star-shaped burn against the living seam a second time. The tissue yielded, cooler now, as if recognizing the specific heat of old damage. Somewhere inside the capillary wall, a cytokine chorus rose—not the shrill alarm of infection, but the low, stubborn thrum of identity insisting on its own pronunciation.
+
+Sona matched the thrum with her voice, letting the note crack just enough to admit air. The crack propagated along the junction like a hairline fracture in glass, beautiful because it could no longer pretend to be intact. She tasted cardamom and iron and—unexpectedly—ginger from a kitchen never visited in waking life. She swallowed the taste and kept singing.
+
+Jian’s overlay flashed a soft amber warning: the Weavers had begun to overclock. Their lattice fingers moved in fractional increments, seeking the next stitch before the previous had fully cooled. He adjusted the phase delay by half a hertz, buying three additional seconds of dissonance. “The body will notice the hesitation,” he said. “But only if we give it a mirror.”
+
+Corv extended his violet membrane into a thin lens and angled it across the breach. The reflected light skewed, bending the Weavers’ perfect geometry into a fun-house echo—angles slightly drunk, symmetry embarrassed. “Reflection is cheaper than resistance,” he murmured. “And harder to outlaw.”
+
+The microglial swarm eddied closer, spines bristling like antennae tuned to the same stubborn frequency. One cell brushed the Klei lattice, then another. They did not attack; they tasted. The contact left faint phosphorescent bruises on the silver roots—brief signatures of immune recognition, already fading but indelible.
+
+Gideon felt the bruises cool against his ribs and realized they felt like signatures of permission. He lifted his scarred forearm away from the breach. The star retained a thin halo of capillary light, a private constellation no Weaver could replicate without also copying the pain that made it.
+
+Sona let the final note decay into silence. The corridor did not echo; instead it inhaled, a soft biological hush that acknowledged the song had entered the tissue’s permanent playlist. She tasted the after-silence: cardamom gone bitter, iron sharpening into steel.
+
+Jian closed his fist around the miniature arteries, pocketing the rhythm like a lucky coin. “Seventeen minutes,” he said. “Each breach is now seeded. The body has the score. All that’s left is performance.”
+
+Corv’s membrane relaxed into a loose ribbon, violet deepening toward night. “Performance requires audience,” he said, eyes on the nearest Weaver still hesitating over its imperfect dodecagon. “Let’s give it one that remembers the encore costs more than silence.”
+
+For the first time since entering the barrier, Gideon did not mistake the difference between safety and freedom.

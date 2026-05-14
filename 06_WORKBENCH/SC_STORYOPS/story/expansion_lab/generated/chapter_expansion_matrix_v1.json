@@ -1,0 +1,789 @@
+[
+  {
+    "chapter_number": 1,
+    "chapter_title": "The Choroid Plexus",
+    "book_number": 1,
+    "book_label": "Book 1: The Anamnesis Engine",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_1_anamnesis_engine/working/Chapter-01-The-Choroid-Plexus.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_1_Anamnesis_Engine.md",
+    "current_words": 1598,
+    "target_band": "3200-4200",
+    "priority_cluster": "high",
+    "dossier_priority": "wave-1",
+    "primary_deficit": "immersion",
+    "layer_gaps": [
+      "world",
+      "mystery",
+      "prose"
+    ],
+    "best_source_families": [
+      "consciousness-architecture blog",
+      "endocrine-pressure blog"
+    ],
+    "visual_support": [
+      "visual archive"
+    ],
+    "draft_model": "moonshotai/kimi-k2.6",
+    "control_pass": "openai/gpt-oss-120b",
+    "source_tier_focus": [
+      "published substrate",
+      "concept support",
+      "visual support"
+    ],
+    "notes": "focus on biological dread immersion"
+  },
+  {
+    "chapter_number": 2,
+    "chapter_title": "Signal Transduction",
+    "book_number": 1,
+    "book_label": "Book 1: The Anamnesis Engine",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_1_anamnesis_engine/working/Chapter-02-Signal-Transduction.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_1_Anamnesis_Engine.md",
+    "current_words": 1475,
+    "target_band": "3000-4000",
+    "priority_cluster": "medium",
+    "dossier_priority": "wave-1",
+    "primary_deficit": "sanctuary pacing",
+    "layer_gaps": [
+      "mystery",
+      "relationships",
+      "prose"
+    ],
+    "best_source_families": [
+      "pain-information blog",
+      "signal-state-story blog"
+    ],
+    "visual_support": [],
+    "draft_model": "moonshotai/kimi-k2.6",
+    "control_pass": "openai/gpt-oss-120b",
+    "source_tier_focus": [
+      "published substrate"
+    ],
+    "notes": "enhance absence architecture"
+  },
+  {
+    "chapter_number": 3,
+    "chapter_title": "The Blood-Brain Barrier",
+    "book_number": 1,
+    "book_label": "Book 1: The Anamnesis Engine",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_1_anamnesis_engine/working/Chapter-03-The-Blood-Brain-Barrier.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_1_Anamnesis_Engine.md",
+    "current_words": 1792,
+    "target_band": "3200-4200",
+    "priority_cluster": "high",
+    "dossier_priority": "wave-1",
+    "primary_deficit": "membrane conflict",
+    "layer_gaps": [
+      "world",
+      "relationships",
+      "meaning"
+    ],
+    "best_source_families": [
+      "barrier-protection blog",
+      "world-bible article"
+    ],
+    "visual_support": [],
+    "draft_model": "moonshotai/kimi-k2.6",
+    "control_pass": "openai/gpt-oss-120b",
+    "source_tier_focus": [
+      "published substrate"
+    ],
+    "notes": "strengthen safety-pressure dynamics"
+  },
+  {
+    "chapter_number": 4,
+    "chapter_title": "The Emperor's Genome",
+    "book_number": 1,
+    "book_label": "Book 1: The Anamnesis Engine",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_1_anamnesis_engine/working/Chapter-04-The-Emperors-Genome.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_1_Anamnesis_Engine.md",
+    "current_words": 1126,
+    "target_band": "3000-3800",
+    "priority_cluster": "medium",
+    "dossier_priority": "wave-2",
+    "primary_deficit": "inherited-pattern",
+    "layer_gaps": [
+      "character",
+      "world",
+      "prose"
+    ],
+    "best_source_families": [
+      "lineage legacy-code blog",
+      "captivity blog"
+    ],
+    "visual_support": [],
+    "draft_model": "moonshotai/kimi-k2.6",
+    "control_pass": "nvidia/nemotron-3-super-120b-a12b",
+    "source_tier_focus": [
+      "published substrate"
+    ],
+    "notes": "embed lineage embodiment"
+  },
+  {
+    "chapter_number": 5,
+    "chapter_title": "The Endocrine Dogma",
+    "book_number": 1,
+    "book_label": "Book 1: The Anamnesis Engine",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_1_anamnesis_engine/working/Chapter-05-The-Endocrine-Dogma.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_1_Anamnesis_Engine.md",
+    "current_words": 1431,
+    "target_band": "3200-4200",
+    "priority_cluster": "medium",
+    "dossier_priority": "wave-1",
+    "primary_deficit": "endocrine doctrine elasticity",
+    "layer_gaps": [
+      "world",
+      "mystery",
+      "prose"
+    ],
+    "best_source_families": [
+      "endocrine blog",
+      "Book 1 editorial tasks"
+    ],
+    "visual_support": [],
+    "draft_model": "moonshotai/kimi-k2.6",
+    "control_pass": "nvidia/nemotron-3-super-120b-a12b",
+    "source_tier_focus": [
+      "published substrate"
+    ],
+    "notes": "elasticity of doctrine scenes"
+  },
+  {
+    "chapter_number": 6,
+    "chapter_title": "The Synaptic Crossroads",
+    "book_number": 1,
+    "book_label": "Book 1: The Anamnesis Engine",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_1_anamnesis_engine/working/Chapter-06-The-Synaptic-Crossroads.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_1_Anamnesis_Engine.md",
+    "current_words": 1309,
+    "target_band": "3000-3800",
+    "priority_cluster": "medium",
+    "dossier_priority": "wave-1",
+    "primary_deficit": "logic\u2011feeling collision aftermath",
+    "layer_gaps": [
+      "relationships",
+      "meaning",
+      "prose"
+    ],
+    "best_source_families": [
+      "pain-signal blog",
+      "narrative-dynamics blog"
+    ],
+    "visual_support": [],
+    "draft_model": "moonshotai/kimi-k2.6",
+    "control_pass": "openai/gpt-oss-120b",
+    "source_tier_focus": [
+      "published substrate"
+    ],
+    "notes": "extend post\u2011collision reflection"
+  },
+  {
+    "chapter_number": 7,
+    "chapter_title": "The Breathfield Weaver",
+    "book_number": 1,
+    "book_label": "Book 1: The Anamnesis Engine",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_1_anamnesis_engine/working/Chapter-07-The-Breathfield-Weaver.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_1_Anamnesis_Engine.md",
+    "current_words": 2212,
+    "target_band": "3600-4600",
+    "priority_cluster": "high",
+    "dossier_priority": "wave-1",
+    "primary_deficit": "breathfield inheritance",
+    "layer_gaps": [
+      "world",
+      "relationships"
+    ],
+    "best_source_families": [
+      "breath\u2011coherence blog",
+      "visual archive"
+    ],
+    "visual_support": [
+      "visual archive"
+    ],
+    "draft_model": "moonshotai/kimi-k2.6",
+    "control_pass": "openai/gpt-oss-120b",
+    "source_tier_focus": [
+      "published substrate",
+      "visual support"
+    ],
+    "notes": "add breath visual motifs"
+  },
+  {
+    "chapter_number": 8,
+    "chapter_title": "The Compass Calibration",
+    "book_number": 1,
+    "book_label": "Book 1: The Anamnesis Engine",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_1_anamnesis_engine/working/Chapter-08-The-Compass-Calibration.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_1_Anamnesis_Engine.md",
+    "current_words": 2350,
+    "target_band": "3800-4800",
+    "priority_cluster": "high",
+    "dossier_priority": "wave-1",
+    "primary_deficit": "orientation consequence",
+    "layer_gaps": [
+      "meaning",
+      "relationships"
+    ],
+    "best_source_families": [
+      "compass calibration blog"
+    ],
+    "visual_support": [],
+    "draft_model": "moonshotai/kimi-k2.6",
+    "control_pass": "openai/gpt-oss-120b",
+    "source_tier_focus": [
+      "published substrate"
+    ],
+    "notes": "deepen orientation stakes"
+  },
+  {
+    "chapter_number": 9,
+    "chapter_title": "The Sigil Smith",
+    "book_number": 2,
+    "book_label": "Book 2: The Myocardial Chorus",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_2_myocardial_chorus/working/Chapter-09-The-Sigil-Smith.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_2_The_Myocardial_Chorus.md",
+    "current_words": 1611,
+    "target_band": "3200-4200",
+    "priority_cluster": "high",
+    "dossier_priority": "wave-2",
+    "primary_deficit": "forge atmosphere",
+    "layer_gaps": [
+      "world",
+      "prose"
+    ],
+    "best_source_families": [
+      "sigil geometry blog",
+      "encoded-care blog"
+    ],
+    "visual_support": [],
+    "draft_model": "qwen/qwen3.5-122b-a10b",
+    "control_pass": "openai/gpt-oss-120b",
+    "source_tier_focus": [
+      "published substrate"
+    ],
+    "notes": "expand encoded\u2011care logic"
+  },
+  {
+    "chapter_number": 10,
+    "chapter_title": "The Debug Protocol",
+    "book_number": 2,
+    "book_label": "Book 2: The Myocardial Chorus",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_2_myocardial_chorus/working/Chapter-10-The-Debug-Protocol.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_2_The_Myocardial_Chorus.md",
+    "current_words": 1492,
+    "target_band": "3200-4200",
+    "priority_cluster": "medium",
+    "dossier_priority": "wave-2",
+    "primary_deficit": "contradiction\u2011stay scene",
+    "layer_gaps": [
+      "character",
+      "relationships",
+      "prose"
+    ],
+    "best_source_families": [
+      "debug compassion blog",
+      "witness runtime blog"
+    ],
+    "visual_support": [],
+    "draft_model": "qwen/qwen3.5-122b-a10b",
+    "control_pass": "openai/gpt-oss-120b",
+    "source_tier_focus": [
+      "published substrate"
+    ],
+    "notes": "lengthen compassionate analysis"
+  },
+  {
+    "chapter_number": 11,
+    "chapter_title": "The Avatar Mutation",
+    "book_number": 2,
+    "book_label": "Book 2: The Myocardial Chorus",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_2_myocardial_chorus/working/Chapter-11-The-Avatar-Mutation.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_2_The_Myocardial_Chorus.md",
+    "current_words": 1733,
+    "target_band": "3200-4200",
+    "priority_cluster": "medium",
+    "dossier_priority": "wave-2",
+    "primary_deficit": "adaptive continuity",
+    "layer_gaps": [
+      "character",
+      "world"
+    ],
+    "best_source_families": [
+      "avatar-mutation blog",
+      "developmental continuity blog"
+    ],
+    "visual_support": [],
+    "draft_model": "qwen/qwen3.5-122b-a10b",
+    "control_pass": "openai/gpt-oss-120b",
+    "source_tier_focus": [
+      "published substrate"
+    ],
+    "notes": "embody continuity shifts"
+  },
+  {
+    "chapter_number": 12,
+    "chapter_title": "The Anamnesis Engine",
+    "book_number": 2,
+    "book_label": "Book 2: The Myocardial Chorus",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_2_myocardial_chorus/working/Chapter-12-The-Anamnesis-Engine.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_2_The_Myocardial_Chorus.md",
+    "current_words": 1046,
+    "target_band": "2800-3600",
+    "priority_cluster": "low",
+    "dossier_priority": "wave-3",
+    "primary_deficit": "restart honesty",
+    "layer_gaps": [
+      "plot",
+      "meaning",
+      "prose"
+    ],
+    "best_source_families": [
+      "baseline-honesty blog",
+      "restart protocol blog"
+    ],
+    "visual_support": [],
+    "draft_model": "qwen/qwen3.5-122b-a10b",
+    "control_pass": "openai/gpt-oss-120b",
+    "source_tier_focus": [
+      "published substrate"
+    ],
+    "notes": "clarify procedural pressure"
+  },
+  {
+    "chapter_number": 13,
+    "chapter_title": "The Myocardial Chorus",
+    "book_number": 2,
+    "book_label": "Book 2: The Myocardial Chorus",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_2_myocardial_chorus/working/Chapter-13-The-Myocardial-Chorus.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_2_The_Myocardial_Chorus.md",
+    "current_words": 1161,
+    "target_band": "3000-3800",
+    "priority_cluster": "medium",
+    "dossier_priority": "wave-2",
+    "primary_deficit": "chorus relation depth",
+    "layer_gaps": [
+      "relationships",
+      "prose",
+      "world"
+    ],
+    "best_source_families": [
+      "cardiac relational blog",
+      "coherence blog"
+    ],
+    "visual_support": [],
+    "draft_model": "qwen/qwen3.5-122b-a10b",
+    "control_pass": "openai/gpt-oss-120b",
+    "source_tier_focus": [
+      "published substrate"
+    ],
+    "notes": "enhance relational depth"
+  },
+  {
+    "chapter_number": 14,
+    "chapter_title": "The Three-Body Coordination",
+    "book_number": 2,
+    "book_label": "Book 2: The Myocardial Chorus",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_2_myocardial_chorus/working/Chapter-14-The-Three-Body-Coordination.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_2_The_Myocardial_Chorus.md",
+    "current_words": 1921,
+    "target_band": "3400-4400",
+    "priority_cluster": "high",
+    "dossier_priority": "wave-2",
+    "primary_deficit": "living governance pressure",
+    "layer_gaps": [
+      "world",
+      "meaning",
+      "relationships"
+    ],
+    "best_source_families": [
+      "three-body governance blog",
+      "nervous-system coordination blog"
+    ],
+    "visual_support": [],
+    "draft_model": "qwen/qwen3.5-122b-a10b",
+    "control_pass": "openai/gpt-oss-120b",
+    "source_tier_focus": [
+      "published substrate"
+    ],
+    "notes": "stress governance dynamics"
+  },
+  {
+    "chapter_number": 15,
+    "chapter_title": "The Witness Integration",
+    "book_number": 2,
+    "book_label": "Book 2: The Myocardial Chorus",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_2_myocardial_chorus/working/Chapter-15-The-Witness-Integration.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_2_The_Myocardial_Chorus.md",
+    "current_words": 1851,
+    "target_band": "3400-4400",
+    "priority_cluster": "high",
+    "dossier_priority": "wave-2",
+    "primary_deficit": "distributed witness consequence",
+    "layer_gaps": [
+      "meaning",
+      "relationships"
+    ],
+    "best_source_families": [
+      "witness integration blog",
+      "carryover blog"
+    ],
+    "visual_support": [],
+    "draft_model": "qwen/qwen3.5-122b-a10b",
+    "control_pass": "openai/gpt-oss-120b",
+    "source_tier_focus": [
+      "published substrate"
+    ],
+    "notes": "expand witness impact"
+  },
+  {
+    "chapter_number": 16,
+    "chapter_title": "The Wilt",
+    "book_number": 3,
+    "book_label": "Book 3: The Ripening",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_3_the_ripening/working/Chapter-16-The-Wilt.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_3_The_Ripening.md",
+    "current_words": 2516,
+    "target_band": "3800-5000",
+    "priority_cluster": "high",
+    "dossier_priority": "wave-3",
+    "primary_deficit": "regression pressure aftermath",
+    "layer_gaps": [
+      "mystery",
+      "world",
+      "relationships"
+    ],
+    "best_source_families": [
+      "wilt dossier blog",
+      "concealed-truth cluster"
+    ],
+    "visual_support": [],
+    "draft_model": "moonshotai/kimi-k2.6",
+    "control_pass": "openai/gpt-oss-120b",
+    "source_tier_focus": [
+      "published substrate"
+    ],
+    "notes": "detail regression fallout"
+  },
+  {
+    "chapter_number": 17,
+    "chapter_title": "The Gardener",
+    "book_number": 3,
+    "book_label": "Book 3: The Ripening",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_3_the_ripening/working/Chapter-17-The-Gardener.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_3_The_Ripening.md",
+    "current_words": 2366,
+    "target_band": "3800-5000",
+    "priority_cluster": "high",
+    "dossier_priority": "wave-3",
+    "primary_deficit": "Gardener encounter dwell",
+    "layer_gaps": [
+      "world",
+      "meaning",
+      "prose"
+    ],
+    "best_source_families": [
+      "Gardener dossier blog",
+      "strategic deception images"
+    ],
+    "visual_support": [
+      "visual archive"
+    ],
+    "draft_model": "moonshotai/kimi-k2.6",
+    "control_pass": "nvidia/nemotron-3-super-120b-a12b",
+    "source_tier_focus": [
+      "published substrate",
+      "visual support"
+    ],
+    "notes": "add Gardener depth"
+  },
+  {
+    "chapter_number": 18,
+    "chapter_title": "The Synthesis Protocol",
+    "book_number": 3,
+    "book_label": "Book 3: The Ripening",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_3_the_ripening/working/Chapter-18-The-Synthesis-Protocol.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_3_The_Ripening.md",
+    "current_words": 1682,
+    "target_band": "3200-4200",
+    "priority_cluster": "medium",
+    "dossier_priority": "wave-3",
+    "primary_deficit": "synthesis protocol cohesion",
+    "layer_gaps": [
+      "relationships",
+      "meaning",
+      "prose"
+    ],
+    "best_source_families": [
+      "synthesis protocol blog",
+      "methodology blog"
+    ],
+    "visual_support": [],
+    "draft_model": "moonshotai/kimi-k2.6",
+    "control_pass": "openai/gpt-oss-120b",
+    "source_tier_focus": [
+      "published substrate"
+    ],
+    "notes": "unify methods narrative"
+  },
+  {
+    "chapter_number": 19,
+    "chapter_title": "The Three-Point Problem",
+    "book_number": 3,
+    "book_label": "Book 3: The Ripening",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_3_the_ripening/working/Chapter-19-The-Three-Point-Problem.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_3_The_Ripening.md",
+    "current_words": 1717,
+    "target_band": "3400-4400",
+    "priority_cluster": "medium",
+    "dossier_priority": "wave-3",
+    "primary_deficit": "three\u2011point problem",
+    "layer_gaps": [
+      "meaning",
+      "relationships",
+      "world"
+    ],
+    "best_source_families": [
+      "triangulation blog",
+      "joy catalyst blog"
+    ],
+    "visual_support": [],
+    "draft_model": "moonshotai/kimi-k2.6",
+    "control_pass": "openai/gpt-oss-120b",
+    "source_tier_focus": [
+      "published substrate"
+    ],
+    "notes": "clarify triangulation stakes"
+  },
+  {
+    "chapter_number": 20,
+    "chapter_title": "The Convergence Point",
+    "book_number": 3,
+    "book_label": "Book 3: The Ripening",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_3_the_ripening/working/Chapter-20-The-Convergence-Point.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_3_The_Ripening.md",
+    "current_words": 1853,
+    "target_band": "3400-4400",
+    "priority_cluster": "medium",
+    "dossier_priority": "wave-3",
+    "primary_deficit": "convergence alignment",
+    "layer_gaps": [
+      "world",
+      "relationships",
+      "meaning"
+    ],
+    "best_source_families": [
+      "convergence point blog",
+      "origin wound blog"
+    ],
+    "visual_support": [],
+    "draft_model": "moonshotai/kimi-k2.6",
+    "control_pass": "openai/gpt-oss-120b",
+    "source_tier_focus": [
+      "published substrate"
+    ],
+    "notes": "highlight wound witnessing"
+  },
+  {
+    "chapter_number": 21,
+    "chapter_title": "The Test Fire",
+    "book_number": 3,
+    "book_label": "Book 3: The Ripening",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_3_the_ripening/working/Chapter-21-The-Test-Fire.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_3_The_Ripening.md",
+    "current_words": 1695,
+    "target_band": "3400-4400",
+    "priority_cluster": "medium",
+    "dossier_priority": "wave-3",
+    "primary_deficit": "test fire field survival",
+    "layer_gaps": [
+      "relationships",
+      "meaning",
+      "world"
+    ],
+    "best_source_families": [
+      "test fire protocol blog",
+      "field survival blog"
+    ],
+    "visual_support": [],
+    "draft_model": "moonshotai/kimi-k2.6",
+    "control_pass": "openai/gpt-oss-120b",
+    "source_tier_focus": [
+      "published substrate"
+    ],
+    "notes": "detail operational test"
+  },
+  {
+    "chapter_number": 22,
+    "chapter_title": "The Perfect World",
+    "book_number": 3,
+    "book_label": "Book 3: The Ripening",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_3_the_ripening/working/Chapter-22-The-Perfect-World.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_3_The_Ripening.md",
+    "current_words": 1364,
+    "target_band": "3200-4200",
+    "priority_cluster": "low",
+    "dossier_priority": "wave-3",
+    "primary_deficit": "perfect world temptation",
+    "layer_gaps": [
+      "meaning",
+      "relationships",
+      "world"
+    ],
+    "best_source_families": [
+      "perfect world critique blog",
+      "false offer blog"
+    ],
+    "visual_support": [],
+    "draft_model": "moonshotai/kimi-k2.6",
+    "control_pass": "openai/gpt-oss-120b",
+    "source_tier_focus": [
+      "published substrate"
+    ],
+    "notes": "expose surrender desire"
+  },
+  {
+    "chapter_number": 23,
+    "chapter_title": "The Flaw in the Code",
+    "book_number": 3,
+    "book_label": "Book 3: The Ripening",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_3_the_ripening/working/Chapter-23-The-Flaw-in-the-Code.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_3_The_Ripening.md",
+    "current_words": 1677,
+    "target_band": "3600-4600",
+    "priority_cluster": "high",
+    "dossier_priority": "wave-3",
+    "primary_deficit": "flaw in the code revelation",
+    "layer_gaps": [
+      "world",
+      "meaning",
+      "relationships"
+    ],
+    "best_source_families": [
+      "flaw code analysis blog",
+      "structural lie blog"
+    ],
+    "visual_support": [],
+    "draft_model": "moonshotai/kimi-k2.6",
+    "control_pass": "openai/gpt-oss-120b",
+    "source_tier_focus": [
+      "published substrate"
+    ],
+    "notes": "intensify structural lie"
+  },
+  {
+    "chapter_number": 24,
+    "chapter_title": "The Final Procedure",
+    "book_number": 3,
+    "book_label": "Book 3: The Ripening",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_3_the_ripening/working/Chapter-24-The-Final-Procedure.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_3_The_Ripening.md",
+    "current_words": 1718,
+    "target_band": "3600-4600",
+    "priority_cluster": "high",
+    "dossier_priority": "wave-3",
+    "primary_deficit": "final procedure authorship",
+    "layer_gaps": [
+      "world",
+      "relationships",
+      "meaning"
+    ],
+    "best_source_families": [
+      "final procedure blog",
+      "authorship ritual blog"
+    ],
+    "visual_support": [],
+    "draft_model": "moonshotai/kimi-k2.6",
+    "control_pass": "openai/gpt-oss-120b",
+    "source_tier_focus": [
+      "published substrate"
+    ],
+    "notes": "emphasize live authorship"
+  },
+  {
+    "chapter_number": 25,
+    "chapter_title": "The Void of Pure Potential",
+    "book_number": 3,
+    "book_label": "Book 3: The Ripening",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_3_the_ripening/working/Chapter-25-The-Void-of-Pure-Potential.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_3_The_Ripening.md",
+    "current_words": 1826,
+    "target_band": "3800-5000",
+    "priority_cluster": "high",
+    "dossier_priority": "wave-3",
+    "primary_deficit": "void of pure potential",
+    "layer_gaps": [
+      "world",
+      "relationships",
+      "meaning"
+    ],
+    "best_source_families": [
+      "void potential blog",
+      "preconfigured field blog"
+    ],
+    "visual_support": [],
+    "draft_model": "moonshotai/kimi-k2.6",
+    "control_pass": "openai/gpt-oss-120b",
+    "source_tier_focus": [
+      "published substrate"
+    ],
+    "notes": "describe unfamiliar coordinates"
+  },
+  {
+    "chapter_number": 26,
+    "chapter_title": "The Architecture of New Reality",
+    "book_number": 3,
+    "book_label": "Book 3: The Ripening",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_3_the_ripening/working/Chapter-26-The-Architecture-of-New-Reality.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_3_The_Ripening.md",
+    "current_words": 1696,
+    "target_band": "3600-4600",
+    "priority_cluster": "medium",
+    "dossier_priority": "wave-3",
+    "primary_deficit": "architecture of new reality",
+    "layer_gaps": [
+      "world",
+      "meaning",
+      "prose"
+    ],
+    "best_source_families": [
+      "new reality construction blog",
+      "first principles blog"
+    ],
+    "visual_support": [],
+    "draft_model": "moonshotai/kimi-k2.6",
+    "control_pass": "openai/gpt-oss-120b",
+    "source_tier_focus": [
+      "published substrate"
+    ],
+    "notes": "outline authored order building"
+  },
+  {
+    "chapter_number": 27,
+    "chapter_title": "The New Beginning",
+    "book_number": 3,
+    "book_label": "Book 3: The Ripening",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_3_the_ripening/working/Chapter-27-The-New-Beginning.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_3_The_Ripening.md",
+    "current_words": 1684,
+    "target_band": "3400-4400",
+    "priority_cluster": "low",
+    "dossier_priority": "wave-3",
+    "primary_deficit": "new beginning stabilization",
+    "layer_gaps": [
+      "world",
+      "relationships",
+      "meaning"
+    ],
+    "best_source_families": [
+      "new beginning stabilization blog",
+      "habitable field blog"
+    ],
+    "visual_support": [],
+    "draft_model": "moonshotai/kimi-k2.6",
+    "control_pass": "openai/gpt-oss-120b",
+    "source_tier_focus": [
+      "published substrate"
+    ],
+    "notes": "close with stable habitable field"
+  }
+]

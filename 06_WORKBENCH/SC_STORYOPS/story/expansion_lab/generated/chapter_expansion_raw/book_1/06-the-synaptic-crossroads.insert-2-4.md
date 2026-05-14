@@ -1,0 +1,12 @@
+“Quiet is my favorite flavor,” Corv says again, softer, as if testing whether the phrase still tastes of bravado.  
+Sona’s laugh is almost nothing—air leaving the nose in a single puff that still manages to sound like a fault line shifting. “Inventory check,” she murmurs, turning the cracked Klei sphere a few degrees so the fracture flashes at them like a muted lighthouse. “One embryonic heartbeat, ninety-one percent intact. Four nervous systems, all currently arguing over custody.”
+
+Jian’s glove is half off, thumb rubbing the neat scar the neural lace left years ago. “Custody only lasts while we’re breathing,” he says. “After that it’s just another orphan file in the Engine’s foster queue.” He hesitates, then adds, almost as an afterthought, “I wrote my sister a postcard once. Never sent it. Couldn’t afford the postage of admitting I missed her.” The confession hangs between them like condensation, thin and soon to vanish, but the Klei sphere’s warmth flares in recognition. Corv’s eyebrow twitches. “Post it now,” he says, “and the Engine will stamp it ‘insufficient postage’ and keep the change.”
+
+Gideon lets the silence settle again, then palms the sphere back to Sona. “One more calibration,” he says. “Hold it at arm’s length, let the fracture face the door.” She obeys; the silver seam catches the last of the violet light and projects a wavering line across the threshold, a fragile bridge neither red nor blue. “If the line breaks before we cross,” he warns, “we’ll be walking on our own reflections until the corridor spits us back into REM.”
+
+Adrasteia rolls her shoulders, tether sliding across her spine with a sound like dry rain. “I vote we walk before the metaphor finishes assembling itself.” She steps aside just enough to let Corv slip the obsidian shard into the hollow where the sphere had nested. The shard seats with a soft click, exactly the same note the old elevator made when it reached the basement lab. For a single suspended second they feel the building remember that sound—then remember forgetting it.
+
+Sona draws a long inhale that tastes of nothing and everything: iodine, dust from a childhood window, the metallic edge of a promise she never delivered. “One,” she counts, quiet. Corv’s hand finds her pulse at the wrist, reassures itself, releases. “Two.” Jian’s thumb hovers over the cuff, ready to archive the instant, then thinks better and drops the hand to his side.
+
+“Two-point-eight,” Gideon says. “Rounding up.” They step.

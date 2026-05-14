@@ -5,22 +5,20 @@
 > This file is a high-level repository snapshot, not the operational task board.
 
 ## Current Status
-**TRILOGY-WIDE `v0.2` INTAKE & MAPPING PHASE** - Canonical manuscripts are `canon/export ready`; research and image mapping are still incomplete.
+**COMPILED TRILOGY PACKAGE COMPLETE** - Canonical manuscripts and omnibus are `canon/export ready`; the `SC_STORYOPS` intake and image-mapping layer remains available as a research/support surface and is still incomplete in places.
 
 ## Locked Project Truths
 - [x] Canonical chapter count is `27`
 - [x] Arcana remains `22` assets but is not chapter parity
-- [x] Current sequencing is `clarify -> intake -> projection -> book assignment`
+- [x] Future revision sequencing is `clarify -> intake -> projection -> packet / lane revision -> compiled merge-back`
 - [x] Readiness language should use `canon/export ready` plus `research/image mapping incomplete`
 
 ## Current Workstreams
 
-- Keep trilogy intake authoritative in `06_WORKBENCH/SC_STORYOPS/story/intake/`
-- Continue concept-to-book justification in `intake/book_projection_board.md` before expanding downstream packet work
-- Continue image-principle and source-lattice mapping so chapter packets are evidence-backed rather than intuitive
-- Ratify working-canon vs legacy world-bible surfaces before broader prose rewrites
-- Expand book-lane packeting only after trilogy intake gates are satisfied
-- Reassess release and marketing language only after source/image mapping is complete
+- Maintain the compiled trilogy package and omnibus as the canonical export surface
+- Keep `06_WORKBENCH/SC_STORYOPS/story/intake/` available as the supporting research and authority archive behind the finished manuscript
+- Revisit image-principle, source-lattice, or world-bible mapping only if a deeper research edition or future revision requires it
+- Reassess release and marketing language separately from the now-finished manuscript package
 
 ## Historical Archive
 

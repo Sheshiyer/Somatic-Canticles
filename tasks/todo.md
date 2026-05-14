@@ -4,7 +4,597 @@ This file is the active source of truth for repository execution status.
 
 ## Next Up
 
-- [ ] Review `Packet 19` and decide whether `Chapter 19` may promote into an active prose lane while `Chapter 20-27` remain closed
+- [x] Establish a committed pre-expansion baseline for chapter growth:
+  - [x] Generate a per-chapter baseline word-count report from the active `working/Chapter-*.md` lane
+  - [x] Record a `3x` growth target for each chapter so later expansion passes have a measurable floor
+  - [x] Commit the completed dossier wave, runner hardening, and baseline metrics on `codex/nvidia-expansion-lab`
+- [ ] Reset the expansion architecture to the real trilogy target:
+  - [x] Generate a trilogy-scale target profile that treats `300,000-400,000` words as the actual objective
+  - [x] Reframe the old `3x` numbers as an intermediate safety floor only
+  - [x] Mark the old v1 matrix length bands as interim so the next expansion wave aims at the macro target profile instead
+- [ ] Launch the actual chapter expansion wave by book from the populated dossiers and macro target bands:
+  - [ ] `Book 1` dossier-driven long-form expansion
+  - [x] `Book 2` dossier-driven long-form expansion
+  - [ ] `Book 3` dossier-driven long-form expansion
+- [x] Complete the Book `2` expansion lane only after applying Book `1` runner lessons:
+  - [x] Review Book `1` compression, duplicate-insert, style-gate, and named-operator lessons before selecting routes
+  - [x] Probe current NVIDIA model availability instead of trusting the original Kimi/MiniMax plan
+  - [x] Patch NVIDIA `202` polling so caller timeouts control hung model probes and monitored runs
+  - [x] Reroute Book `2` dossiers and matrix rows to `qwen/qwen3.5-122b-a10b` for draft and `openai/gpt-oss-120b` for control
+  - [x] Validate the resolved `Chapter 09` route with `--print-route`
+  - [x] Start the monitored `Chapter 09` Book `2` smoke expansion only after route validation passes
+- [x] Launch Wave `P2/W2` in parallel:
+  - `NEP-003` / issue `#26`: repo-wide synthesis over canon and StoryOps surfaces
+  - `NEP-004` / issue `#27`: source-root filters for blog, vault, and area corpora
+  - `NEP-005` / issue `#28`: multimodal asset inventory and extraction registry
+- [x] Execute the real NVIDIA-backed `P2/W2` model wave:
+  - [x] Smoke-check NVIDIA settings load from the saved Codex config without exposing secrets
+  - [x] Run `openai/gpt-oss-120b` over `generated/repo_synthesis_input_pack_v1.md`
+  - [x] Run `minimaxai/minimax-m2.7` over the source-intake and filter-spec pair
+  - [x] Run the curated visual seed set through a resilient multimodal lane with parser fallback
+  - [x] Watch helper status and logs for graceful fallback if any model job fails
+  - [x] Inspect the generated outputs before opening the next dossier/tooling wave
+- [x] Close `P2/W2`, then execute `NEP-006` / `#29` and `NEP-007` / `#30` before dossier production starts
+  - `NEP-006`: chapter-expansion matrix population from the synthesis report and source priority map
+  - `NEP-007`: dossier builder/tooling scripts tied to the approved source tiers and visual registry
+- [x] Launch `P3/W1` dossier generation in parallel:
+  - [x] `NEP-008` / issue `#31`: generate Book `1` chapter dossiers from the scaffolds and approved source tiers
+  - [x] `NEP-009` / issue `#32`: generate Book `2` chapter dossiers from the scaffolds and approved source tiers
+  - [x] `NEP-010` / issue `#33`: generate Book `3` chapter dossiers from the scaffolds and approved source tiers
+- [x] Stabilize the dossier population runner before full fan-out:
+  - [x] Distinguish selected evidence from follow-up research needs in prompt instructions and validation
+  - [x] Prevent unsupported placeholder sources or invented visual assets from landing in populated dossiers
+  - [x] Re-run the monitored `NEP-008` smoke pass on `Chapter 01` until the output is source-bound and clean
+  - [x] Launch `NEP-008`, `NEP-009`, and `NEP-010` in parallel only after the smoke dossier validates
+  - [x] Verify all populated dossiers write to the expected book folders and preserve the `## 1` through `## 12` contract
+- [ ] Optional release checkpoint: push the completed late-Book-3 and endmatter package after review
+
+### NEP-008 / NEP-009 / NEP-010 Review
+
+- [x] Verified `27` populated dossier files exist across Books `1-3`
+- [x] Verified every dossier contains `# Chapter Source Dossier:`, `## 11. Model Routing`, and `## 12. Validation Checklist`
+- [x] Verified no scaffold residue remains in populated dossiers
+- [x] Verified no unsupported placeholder-source tokens remain in populated dossiers
+- [x] Verified monitored helper statuses: `NEP-008=ok`, `NEP-009=ok`, `NEP-010=ok`
+
+### NEP-011 Wordcount Baseline Review
+
+- [x] Generated `generated/chapter_wordcount_baseline_v1.md`
+- [x] Generated `generated/chapter_wordcount_baseline_v1.json`
+- [x] Recorded trilogy pre-expansion baseline: `45,902` words
+- [x] Recorded trilogy `3x` floor: `137,706` words
+- [x] Recorded that only `4 / 27` current matrix target bands already cover the requested `3x` floor, so future chapter expansion must treat the baseline artifact as the growth floor
+
+### NEP-012 Trilogy Length Target Reset
+
+- [x] Generate `generated/trilogy_length_target_profile_v1.md`
+- [x] Generate `generated/trilogy_length_target_profile_v1.json`
+- [x] Record the macro trilogy objective: `300,000-400,000` words
+- [x] Record the operational book bands that sum to the macro trilogy objective
+- [x] Mark the v1 matrix target bands as interim dossier-era length bands rather than the final expansion target
+
+### NEP-013 Book 1 Expansion Smoke
+
+- [x] Build the first dossier-driven chapter expansion runner using the populated Chapter `01` dossier and the trilogy target profile
+- [x] Repair the monitored helper so live wave status works cleanly under `zsh`
+- [x] Add a prose-quality gate so Chapter `01` cannot pass on word count alone if wit, humor, and sentence-temperature variation are still under target
+- [x] Harden the repair pass so failed stage drafts strip preamble residue and must add real material before validation
+- [x] Add an insert-only fallback when full-chapter repairs keep compressing the accepted draft
+- [x] Route initial partial-growth candidates, style-gate failures, non-additive repairs, and late-stage drafts over `5,000` words into additive insert fallback instead of repeated full rewrites
+- [x] Add visible model-call logging and repair/insert call failure handling so the monitor shows where a smoke run is waiting
+- [x] Run a monitored smoke expansion for `Book 1 / Chapter 01`
+- [x] Record the first full monitored smoke failure: final Stage `4` reached `8,952` words but failed the control gate because late inserts repeated base material and collapsed voice/temperature
+- [x] Harden insert normalization so generated inserts cannot repeat accepted-base paragraphs before merge
+- [x] Record the second monitored smoke failure: Stage `3` correctly rejected duplicate-only inserts, but exhausted the fixed retry budget after a provider `504` and repeated sensory-architecture retries
+- [x] Harden insert fallback again so it saves raw insert attempts, strips cross-paragraph repetition after merge, and changes retry lanes toward dialogue / protocol / consequence instead of replaying corridor or palace imagery
+- [x] Record the third monitored smoke failure: Stage `3` recovered one additive insert to `5,385` words, then Kimi copied the accepted base on the remaining duplicate-recovery attempts instead of producing the final `636` new words
+- [x] Add duplicate-recovery routing so late insert retries omit the full accepted draft from the prompt and switch to the control model after repeated duplicate-only Kimi outputs
+- [x] Stop the next monitored run when Stage `3` again collapsed under full-chapter Kimi rewrite, before spending another long repair cycle
+- [x] Switch Stage `3+` growth to insert-first mode so accepted prose is preserved and later stages no longer pay for known-compressive full-chapter rewrites
+- [x] Detect and clean up orphaned Chapter `01` expansion processes after `nep_stop` killed the wrapper but not the child model call
+- [x] Harden `nep_stop` to terminate the task process group, and switch Stage `2+` growth to insert-first mode because Stage `2` full rewrites also repeatedly compressed accepted prose
+- [x] Record the fourth monitored smoke failure: Stage `4` reached `9,041` words, but the final inserts failed the control gate for weak wit lanes, weak double-meaning density, fragile braid balance, and a flattened lyrical/clinical register
+- [x] Add a final-stage voice/style acceptance repair after the word floor is met so the runner fixes braid, wit, pressure-release, and pronoun consistency instead of only adding more prose
+- [x] Re-run the monitored `Book 1 / Chapter 01` smoke after insert de-duplication
+- [x] Verify the expanded Chapter `01` preserves canon while materially increasing length against the baseline
+- [x] Verify the expanded Chapter `01` preserves the trilogy's biology / philosophy / technology braid and does not drift into over-clinical prose
+- [x] Verify the expanded Chapter `01` carries layered meaning, character-true wit lanes, and sentence-temperature variation instead of one solemn register
+- [x] Record the before/after word count for `Chapter 01` so later chapter waves use the same comparison contract
+
+### NEP-013 Smoke Acceptance Review
+
+- [x] Monitored helper status: `NEP-013-SMOKE=ok`
+- [x] Final control gate passed after voice repair: `braid_balance=9`, `wit_lane_distinction=8`, `temperature_variation=8`, `double_meaning_density=7`, `humor_pressure_release=8`
+- [x] Post-run canon cleanup removed unsupported `Rook` references from the accepted working chapter and raw artifact
+- [x] Verified no production preamble residue, unsupported `Rook`, `PubMed`, or `doi` markers remain in the accepted working/raw outputs
+- [x] Verified working and raw Chapter `01` outputs are byte-identical after cleanup
+- [x] Recorded final Chapter `01` growth: `1,598` -> `8,846` words (`5.54x` baseline)
+
+### NEP-014 Book 1 Style Alignment Gate
+
+- [x] Generate a Book `1` cross-chapter style audit that compares Chapters `01-08` against the accepted StoryOps prose contract, not just per-chapter word growth
+- [x] Identify any style/length outliers, especially chapters whose saved gates pass locally but still drift against the Book `1` lane
+- [x] Record the two most likely repair candidates with evidence: word-count gap, gate depth, braid balance, wit/temperature, raw/working parity, and residue checks
+- [x] Start the highest-priority repair pass only after the audit produces a durable ledger artifact
+- [x] Verify the repaired chapter still matches its raw artifact and does not introduce production scaffolding or unsupported names
+
+### NEP-014 Book 1 Style Alignment Review
+
+- [x] Generated `generated/book_1_style_alignment_input_pack_v1.md`
+- [x] Generated `generated/book_1_style_alignment_local_metrics_v1.json`
+- [x] Generated `generated/book_1_style_alignment_audit_v1.md`
+- [x] Initial audit flagged repair order `Chapter 04`, then `Chapter 07`
+- [x] Repaired `Chapter 04` manually after Kimi timed out and the control-model tail candidate under-shot the word floor and invented unsupported material
+- [x] Verified `Chapter 04` now reaches `7,829` words, working/raw parity is clean, and saved `gate-4` passes with `braid_balance=8`, `wit_lane_distinction=8`, `temperature_variation=7`, `double_meaning_density=7`, `humor_pressure_release=8`
+- [x] Re-ran the Book `1` style audit after `Chapter 04`; refreshed repair order is `Chapter 01`, then `Chapter 07`, with `Chapter 04` passing
+- [x] Run a dedicated `Chapter 07` structural cleanup before treating it as a simple length pass; current late inserts include repeated extraction/debrief loops, explicit tarot/Crowley mentions, and apparent local-only names that need authority review
+  - [x] Preserve the stable breathfield intervention spine through the unassisted-stability proof
+  - [x] Consolidate the late extraction/debrief material into one chronological arc instead of repeated corridor/lift/triage loops
+  - [x] Demote or remove local-only support names unless already backed by authority surfaces
+  - [x] Remove explicit tarot/Crowley language and keep the scaffold subliminal
+  - [x] Sync the repaired working chapter to raw, run saved style gate, and rerun the Book `1` audit
+- [x] Decide whether `Chapter 01` needs another macro-length expansion or should remain accepted as the original smoke baseline despite the refreshed audit's macro-length watch
+  - Decision: `Chapter 01` remains accepted only as the style/routing smoke baseline; it still needs a constrained macro-length expansion before the Book `1` lane can be called stable.
+  - Evidence: refreshed audit repair order is `Chapter 07`, then `Chapter 01`; `Chapter 01` is `8,846 / 10,800` low macro target with local risk `3`, while `Chapter 07` is structurally clean but still `9,227 / 15,000` with local risk `4`.
+  - `Chapter 07` cleanup result: working/raw parity restored, residue scan clean, saved `gate-5` passed with `braid_balance=9`, `wit_lane_distinction=8`, `temperature_variation=8`, `double_meaning_density=7`, `humor_pressure_release=8`.
+- [x] Run a constrained macro-length expansion on cleaned `Chapter 07` first, then a smaller `Chapter 01` macro-length expansion, preserving the current smoke baseline voice as the control sample.
+  - [x] Run `Chapter 07` additive length expansion from the cleaned structural baseline, targeting the Book `1` macro low band without reintroducing corridor/debrief loops or explicit scaffold language
+  - [x] Inspect expanded `Chapter 07` for additive growth, chronology, voice lanes, residue, and working/raw parity
+  - [x] Save a fresh `Chapter 07` style gate and rerun the Book `1` audit
+  - [x] Run `Chapter 01` additive macro-length expansion only after `Chapter 07` is accepted, using the current smoke chapter as the voice-control sample
+  - [x] Save a fresh `Chapter 01` style gate, rerun the Book `1` audit, and record the final Book `1` readiness decision
+  - `Chapter 07` result: `15,000` words, working/raw parity clean, residue scan clean, saved `gate-6` passed with `braid_balance=9`, `wit_lane_distinction=8`, `temperature_variation=9`, `double_meaning_density=8`, `humor_pressure_release=8`.
+  - `Chapter 01` result: `10,801` words, working/raw parity clean, residue scan clean, saved `gate-7` passed with `braid_balance=9`, `wit_lane_distinction=8`, `temperature_variation=8`, `double_meaning_density=7`, `humor_pressure_release=8`.
+  - Book `1` readiness decision: not yet stable for commit-back as a full lane. The refreshed audit still returns `flag`, with repair order `Chapter 03`, then `Chapter 05`; `Chapter 02` and `Chapter 08` remain secondary watch items for macro-length shortfall.
+- [ ] Next live step: expand and rebalance `Chapter 03` first, then `Chapter 05`, using the latest Book `1` audit as the control ledger.
+  - [ ] Run `Chapter 03` additive expansion toward its `12,150` macro low target while deepening safety/freedom tension and adding pressure-release beats
+  - [ ] Gate `Chapter 03`, verify raw parity/residue, and refresh the Book `1` audit
+  - [ ] Run `Chapter 05` additive expansion toward its `9,700` macro low target while preserving endocrine doctrine stakes without flattening into biology-heavy exposition
+  - [ ] Gate `Chapter 05`, verify raw parity/residue, and refresh the Book `1` audit
+
+### NEP-015 Book 2 Routing Prep
+
+- [x] Recorded model probe results in `generated/book_2_model_routing_probe_v1.md`
+- [x] Classified current routes: `qwen/qwen3.5-122b-a10b` as guarded Book `2` draft, `openai/gpt-oss-120b` as control, Kimi/MiniMax as opt-in only, Mistral Large as opt-in slow lane only
+- [x] Updated the runner to resolve both `control_pass` and legacy `control_model`
+- [x] Added `--control-model` and `--print-route` so a chapter route can be validated without launching prose generation
+- [x] Updated Book `2` matrix and all seven Book `2` dossiers to the fresh default route
+- [x] Validate initial route for `Chapter 09` with `--print-route`: effective draft `mistralai/mistral-large-3-675b-instruct-2512`, effective control `openai/gpt-oss-120b`, default floor `9,520`
+- [x] Stop the initial monitored `Chapter 09` smoke after Stage `1` produced no artifact for several minutes on Mistral Large
+- [x] Re-probe fallback candidates and update the NVIDIA client to extract `reasoning_content` / `reasoning` response text
+- [x] Validate rerouted `Chapter 09` path with Qwen: effective draft `qwen/qwen3.5-122b-a10b`, effective control `openai/gpt-oss-120b`
+- [x] Stop the first Qwen smoke before the 900-second timeout because the large full-chapter Stage `1` rewrite still produced no artifact inside the smoke threshold
+- [x] Switch the expansion runner to insert-first from Stage `1` so Book `2` begins with additive growth instead of another full rewrite path
+- [x] Stop the first insert-first smoke after it proved the Chapter `09` working baseline still carried old preamble metadata into merged candidates
+- [x] Normalize the accepted working baseline inside the expansion runner before merge/growth validation
+- [x] Launch a fresh monitored insert-first smoke run from the normalized baseline
+- [x] Promote the clean Stage `3` accepted candidate to the working lane after stopping the oversized final insert: `6,900` words, no residue, gate scores `8/7/8/6/7`
+- [x] Cap per-insert requests at `1,100` words so final-stage growth uses smaller additive chunks instead of another oversized generation
+- [x] Stop the first resume when even a small insert slowed down from resending the full `6,900`-word accepted base
+- [x] Omit full accepted-base context for long insert prompts and use tail/context continuity instead
+- [x] Resume `Chapter 09` again from the accepted `6,900`-word baseline to the `9,520` floor with `--minimum-words 9520`
+- [x] Mark the completed numeric run as not accepted after post-run scan found unsupported `Kael` / `Jory` names and overt Toth/Crowley/Enneagram scaffold terms
+- [x] Add validator hard bans for those unsupported names and explicit symbolic scaffold terms
+- [x] Attempt a control-model canon cleanup on the `10,977`-word candidate; reject it because the model refused instead of repairing
+- [x] Deterministically remove contaminated paragraphs and promote a clean `7,266`-word forge-native baseline with raw parity
+- [x] Regrow attempt from the clean baseline failed safely because Stage `3` repeatedly produced explicit `Toth` and the new validator rejected every contaminated candidate
+- [x] Patch hard-ban failures to switch the next insert attempt to the GPT-OSS control model instead of spending all retries on the same draft model
+- [x] Regrow the clean `7,266`-word baseline to the `9,520` floor with hard bans and control-model fallback active
+  - Result: `NEP-015-B2-C09-CANON3` completed successfully at `10,295` words, with working/raw parity restored and saved gate scores `8/7/8/6/7`.
+  - Verification: post-run scan found no unsupported `Kael` / `Jory` / `Mara`, no overt Toth/Crowley/Enneagram scaffold terms, no ship-setting drift terms, and no preamble residue in the accepted working/raw surface.
+  - Process note: rejected insert scratch artifacts from the run were not committed because they contained hard-ban terms; the durable artifacts are the accepted raw chapter, final voice repair, and gate reports.
+- [x] Start `Chapter 10` Book `2` expansion with the same guarded insert-first route, hard-ban rollback, and raw/parity acceptance scan.
+  - Result: `NEP-015-B2-C10-GPT5` completed successfully after the first Qwen insert was stopped for no artifact and Chapter `10` was rerouted through GPT-OSS draft override.
+  - Runner hardening: removed explicit hidden-scaffold terms from generative prompts, sanitized hard-failure notes before prompt reuse, added smaller post-hard-failure insert chunks, and added `Lira` / `Juna` to local-only hard bans while preserving valid Chapter `10` authority for `Aurora Luminth`.
+  - Verification: accepted Chapter `10` is `8,950` words, working/raw/accepted-voice parity is clean, saved `gate-4` passes with `braid_balance=9`, `wit_lane_distinction=8`, `temperature_variation=8`, `double_meaning_density=7`, `humor_pressure_release=8`, and hard-ban scan is clean.
+  - Process note: rejected insert scratch artifacts and the failed voice-repair artifact were not committed because they contained hard-ban terms or unsupported helper material.
+- [x] Start `Chapter 11` Book `2` expansion with the cleaned submerged-scaffold prompts, guarded insert-first route, and raw/parity acceptance scan.
+  - Result: `NEP-015-B2-C11-CASTLOCK` completed successfully at `10,653` words after the runner was hardened with Chapter `11` cast authority and chapter-scoped local-name bans.
+  - Verification: working/raw parity is clean, saved `gate-4` passes with `braid_balance=9`, `wit_lane_distinction=8`, `temperature_variation=8`, `double_meaning_density=7`, `humor_pressure_release=8`, and the hard-ban scan is clean.
+  - Process note: rejected insert scratch artifacts from failed attempts were not committed because they contained local-only helper names or setting-drift terms.
+- [x] Start `Chapter 12` Book `2` expansion with the same cast-aware runner, guarded insert-first route, and raw/parity acceptance scan.
+  - Result: `NEP-015-B2-C12-FINAL` completed successfully at `8,332` words after promoting a clean `6,129`-word near-miss voice repair and adding only the final margin.
+  - Runner hardening: added Book `2` cast hints for Chapters `12-15`, treated over-floor non-final style failures as eligible for final acceptance repair, and allowed an already-over-floor insert-first stage to gate instead of forcing unnecessary growth.
+  - Verification: working/raw parity is clean, saved `gate-3` passes with `braid_balance=8`, `wit_lane_distinction=7`, `temperature_variation=8`, `double_meaning_density=6`, `humor_pressure_release=7`, and the hard-ban scan is clean.
+  - Process note: rejected scratch artifacts from failed tone/setting/operator lanes were not committed.
+- [x] Start `Chapter 13` Book `2` expansion with the same cast-aware runner, guarded insert-first route, and raw/parity acceptance scan.
+  - Result: `NEP-015-B2-C13-GPT` completed successfully at `7,136` words after final-stage voice repair.
+  - Verification: working/raw/accepted-voice parity is clean, saved `gate-3` passes with `braid_balance=8`, `wit_lane_distinction=8`, `temperature_variation=7`, `double_meaning_density=6`, `humor_pressure_release=7`, and the hard-ban scan is clean.
+  - Process note: rejected insert scratch artifacts were not committed.
+- [x] Start `Chapter 14` Book `2` expansion with the same cast-aware runner, guarded insert-first route, and raw/parity acceptance scan.
+  - Result: `NEP-015-B2-C14-GPT` completed successfully at `11,672` words.
+  - Verification: working/raw parity is clean, saved `gate-4` passes with `braid_balance=9`, `wit_lane_distinction=8`, `temperature_variation=9`, `double_meaning_density=7`, `humor_pressure_release=8`, and the hard-ban scan is clean.
+  - Lexical cleanup: normalized accepted Book `2` Chapters `09-14` working/raw surfaces to remove remaining `vibration` / `quantum` / related style-sheet carryovers while preserving working/raw parity.
+  - Runner hardening: promoted those style-sheet carryovers into hard validation so Chapter `15` cannot reintroduce them.
+  - Process note: rejected insert scratch artifacts were not committed.
+- [x] Start `Chapter 15` Book `2` expansion with the same cast-aware and lexical-hard-ban runner, guarded insert-first route, and raw/parity acceptance scan.
+  - Result: `NEP-015-B2-C15-NORM` completed successfully at `11,321` words.
+  - Runner hardening: added deterministic lexical normalization before insert/chapter validation so legacy `quantum` / `vibration` / `manifestation` carryovers are removed before acceptance, not only after post-run cleanup.
+  - Verification: working/raw/accepted-voice parity is clean, saved `gate-4` passes with `braid_balance=8`, `wit_lane_distinction=7`, `temperature_variation=7`, `double_meaning_density=6`, `humor_pressure_release=7`, and the hard-ban / lexical scan is clean.
+  - Process note: rejected insert scratch artifacts were excluded from the durable acceptance set.
+
+### NEP-015 Book 2 Acceptance Review
+
+- [x] Accepted all Book `2` working chapters `09-15` through the guarded insert-first expansion lane.
+- [x] Recorded final Book `2` expanded working word count: `68,359` words by the repo `word_count` function.
+- [x] Verified each accepted Book `2` chapter has working/raw parity.
+- [x] Verified each accepted Book `2` chapter has a saved passing style gate.
+- [x] Verified the accepted Book `2` working/raw surfaces are clean of local-name bans, overt symbolic scaffold terms, production preamble residue, and lexical carryovers.
+- [ ] Next live step: run the Book `2` compiled-surface coherence comparison before promoting this lane back into compiled manuscript surfaces.
+
+### NEP-016 Book 3 Expansion Lane
+
+- [x] Verify the Book `3` working lane starts from a clean git checkpoint after Book `2` acceptance.
+- [x] Validate Chapter `16` route before generation: default Kimi route is rerouted to `qwen/qwen3.5-122b-a10b`, control remains `openai/gpt-oss-120b`, and the pass floor is `12,000` words.
+- [x] Harden the expansion runner for Book `3` before launch:
+  - [x] Add deterministic cleanup for `frequency` / `shatter` style-sheet carryovers.
+  - [x] Add Chapter `16` cast guidance: Corv, Sona, Jian, Gideon, and Mira Verath only; no on-page Gardener speaker yet.
+- [x] Start monitored Chapter `16` expansion from the populated dossier and accepted Book `2` carryover state.
+  - Result: the default insert runner repeatedly drifted into hardware/action-repair imagery, on-page descent, or premature cure posture, so the accepted lane uses a constrained custom insert/merge with the same Chapter `16` validator.
+  - Runner hardening: Chapter `16` now bans the observed bad outputs directly: invented House names, packet/relay/export mechanics, hardware-repair vocabulary, premature descent, and false-success language such as the field being willing to cooperate.
+- [x] Verify Chapter `16` acceptance:
+  - [x] Working/raw parity clean.
+  - [x] Saved style gate passes braid, wit lanes, temperature variation, double meaning, and pressure-release thresholds.
+  - [x] Hard-ban and lexical scan clean.
+  - [x] Rejected scratch inserts excluded from commit.
+  - Result: `Chapter 16` accepted at `12,219` words with saved `gate-9` scores: `braid_balance=9`, `wit_lane_distinction=8`, `temperature_variation=8`, `double_meaning_density=7`, `humor_pressure_release=8`.
+- [x] Commit and push Chapter `16` only after it passes acceptance.
+- [ ] Continue Book `3` serially through Chapters `17-27`, widening only if a chapter route proves safe and has no dependency on unresolved prior-chapter prose.
+  - Current live step: expand `Chapter 19` from its populated dossier and accepted `Chapter 18` handoff, preserving the Three-Point Problem as unresolved procedure rather than solved triangulation.
+
+### NEP-017 Book 3 Chapter 17 Expansion
+
+- [x] Review `Chapter 17` dossier, route, current working draft, and Gardener tone authority.
+  - Route: default Kimi route is rerouted to `qwen/qwen3.5-122b-a10b`; control is rerouted from `nvidia/nemotron-3-super-120b-a12b` to `openai/gpt-oss-120b`; pass floor is `11,280` words.
+  - Current draft issues: preamble residue, under-length at roughly `2.3k` words, legacy lexical carryovers, rushed Gardener motive, and thin post-encounter relational aftermath.
+- [x] Harden the runner for `Chapter 17` before launch:
+  - [x] Add Chapter `17` cast guidance allowing only Corv, Sona, Jian, Gideon, Mira Verath as subject/terrain/case trace, and The Gardener as calm conservational intelligence.
+  - [x] Ban observed/probable Gardener drift: villain coding, over-mechanized `law/universe/homeostasis` explanation, and Mira-as-helper dialogue.
+- [x] Expand `Chapter 17` from the populated dossier and accepted `Chapter 16` handoff.
+  - Result: accepted at `11,282` words using constrained encounter, refusal, aftermath, and protocol-handoff inserts.
+  - Tone correction: The Gardener now speaks as calm conservational intelligence, not as a cartoon antagonist or abstract system monologue; the four refusal lanes remain distinct.
+- [x] Verify `Chapter 17` acceptance:
+  - [x] Working/raw parity clean.
+  - [x] Saved style gate passes braid, wit lanes, temperature variation, double meaning, and pressure-release thresholds.
+  - [x] Hard-ban and lexical scan clean.
+  - [x] Rejected scratch inserts excluded from commit.
+  - Result: saved `gate-9` scores are `braid_balance=9`, `wit_lane_distinction=8`, `temperature_variation=8`, `double_meaning_density=7`, `humor_pressure_release=7`.
+- [x] Commit and push `Chapter 17` only after it passes acceptance.
+- [ ] Next live step: expand `Chapter 18` from its populated dossier and the accepted Gardener handoff, preserving the move from encounter aftermath into synthesis protocol rather than repeating the Gardener sermon.
+
+### NEP-018 Book 3 Chapter 18 Expansion
+
+- [x] Review `Chapter 18` dossier, route, current working draft, and compiled-hotspot ledger.
+  - Route: default Kimi route is rerouted to `qwen/qwen3.5-122b-a10b`; control remains `openai/gpt-oss-120b`; pass floor is `8,040` words.
+  - Current draft issues: old preamble metadata, under-length at `1,577` normalized words, vector-definition compression, and high risk of sermon voice / role flattening.
+  - Governing constraint: convert the accepted Gardener handoff into enacted field surgery and threshold discipline, not another explanation of the Gardener.
+- [x] Harden the runner for `Chapter 18` before launch:
+  - [x] Add Chapter `18` cast guidance allowing only Corv, Sona, Jian, Gideon, and Mira Verath as case trace / recovery consequence.
+  - [x] Ban observed/probable synthesis drift: new Gardener dialogue, law/homeostasis/system-sermon language, protocol-complete posture, and merger/fusion/unity phrasing.
+  - [x] Add Chapter `18` insert guidance that keeps Pure Joy / Catalyst Clarity / Present Coherence exact and builds toward the Three-Point Problem without solving it.
+- [x] Expand `Chapter 18` from the populated dossier and accepted `Chapter 17` handoff.
+  - Result: accepted at `8,055` words after the default Qwen route stalled/false-failed on over-broad validation, the draft lane was rerouted through GPT-OSS, and the closing third was surgically rewritten to replace repeated calibration/spec loops with House-pressure, body consequence, distinct voice, and semantic-correction stakes.
+- [x] Verify `Chapter 18` acceptance:
+  - [x] Working/raw parity clean.
+  - [x] Saved style gate passes braid, wit lanes, temperature variation, double meaning, and pressure-release thresholds.
+  - [x] Hard-ban and lexical scan clean.
+  - [x] Rejected scratch inserts excluded from commit.
+  - Result: saved `gate-9` scores are `braid_balance=8`, `wit_lane_distinction=8`, `temperature_variation=7`, `double_meaning_density=8`, `humor_pressure_release=7`.
+- [x] Commit and push `Chapter 18` only after it passes acceptance.
+- [x] Next live step after commit: expand `Chapter 19` from its populated dossier and the accepted `Chapter 18` handoff, preserving the Three-Point Problem as unresolved procedure rather than solved triangulation.
+
+### NEP-019 Book 3 Chapter 19 Expansion
+
+- [x] Review `Chapter 19` dossier, route, current working draft, and accepted `Chapter 18` handoff.
+  - Route: default Kimi route is rerouted to `qwen/qwen3.5-122b-a10b`; control remains `openai/gpt-oss-120b`; pass floor is `8,200` words.
+  - Macro target: low band is `10,250` words, but this pass uses the proven chapter-floor acceptance gate before later macro rebalancing.
+  - Current draft issues: old preamble metadata, under-length at `1,598` normalized words, residual legacy cadence term, and high risk of solving triangulation too early.
+  - Governing constraint: deepen the Three-Point Problem as live procedure under House-review pressure, not as completed alignment, merged witness, or Chapter `21` Test Fire.
+- [x] Harden the runner for `Chapter 19` before launch:
+  - [x] Add Chapter `19` cast guidance allowing only Corv, Sona, Jian, Gideon, and Mira Verath as proof case / trace / review consequence.
+  - [x] Ban observed/probable triangulation drift: new Gardener dialogue, system-sermon language, solved-triangle posture, Test Fire bleed, new operators, and merger/unified-witness phrasing.
+  - [x] Add Chapter `19` insert guidance that keeps Pure Joy / Catalyst Clarity / Present Coherence exact and unresolved while deepening geometry, House pressure, Jian's false-elegance temptation, and Corv/Gideon discipline tension.
+- [x] Expand `Chapter 19` from the populated dossier and accepted `Chapter 18` handoff.
+  - Result: accepted at `8,239` words after rejecting the first automated `8,262`-word output despite its passing gate because manual review found repeated calibration passages, unsupported prop logic, and false countdown pressure.
+  - Repair: rebuilt the accepted surface from the clean chapter spine with controlled additions for higher-dimensional relation, House-review pressure, body cost, Mira-as-person-before-evidence, and a dry interval that defines convergence preparation without executing it.
+  - Runner hardening: added Chapter `19` bans for unsupported prop/countdown drift and clarified that Mira Verath has no dialogue or wit lane in this chapter.
+- [x] Verify `Chapter 19` acceptance:
+  - [x] Working/raw parity clean.
+  - [x] Saved style gate passes braid, wit lanes, temperature variation, double meaning, and pressure-release thresholds.
+  - [x] Hard-ban and lexical scan clean.
+  - [x] Rejected scratch inserts excluded from commit.
+  - Result: saved `gate-9` scores are `braid_balance=8`, `wit_lane_distinction=7`, `temperature_variation=8`, `double_meaning_density=7`, `humor_pressure_release=8`.
+- [x] Commit and push `Chapter 19` only after it passes acceptance.
+- [x] Next live step after commit: expand `Chapter 20` from its populated dossier and accepted `Chapter 19` handoff, preserving convergence as threshold preparation rather than live-fire execution.
+
+### NEP-020 Book 3 Chapter 20 Expansion
+
+- [x] Review `Chapter 20` dossier, route, current working draft, and accepted `Chapter 19` handoff.
+  - Route: default Kimi route is rerouted to `qwen/qwen3.5-122b-a10b`; control remains `openai/gpt-oss-120b`; pass floor is `8,840` words.
+  - Macro target: low band is `11,050` words, but this pass uses the proven chapter-floor acceptance gate before later macro rebalancing.
+  - Current draft issues: old preamble metadata, under-length at `1,728` normalized words, threshold timing compressed, and risk of treating convergence visibility as completed passage.
+  - Governing constraint: convergence may reach the threshold and make the gap legible, but it must not begin Chapter `21` hostile-contact testing or claim mastery.
+- [x] Harden the runner for `Chapter 20` before launch:
+  - [x] Add Chapter `20` cast guidance allowing Corv, Sona, Jian, Gideon, Mira Verath as proof case / trace, and Anvel Verath only as historical wound coordinate.
+  - [x] Ban observed/probable convergence drift: new Gardener dialogue, solved/mastered convergence posture, Test Fire bleed, unsupported props, new House speakers, and merger/unified-witness phrasing.
+  - [x] Add Chapter `20` insert guidance that keeps Pure Joy / Catalyst Clarity / Present Coherence exact while deepening the negative-vertex, body cost, House-review pressure, and wound-without-doctrine logic.
+- [x] Expand `Chapter 20` from the populated dossier and accepted `Chapter 19` handoff.
+  - Result: accepted at `8,840` words after rejecting the first automated `9,857`-word output despite its passing gate because manual review found repeated late calibration beats, quasi-speaker Engine behavior, generic `universe` phrasing, and prop/interface clutter.
+  - Repair: rebuilt the accepted surface from the clean convergence spine with controlled additions for failure rehearsal, body-cost accounting, House audit pressure, negative-vertex geometry, deliberate threshold visibility, and a non-contact boundary into Chapter `21`.
+  - Runner hardening: added Chapter `20` bans for generic universe language, prop/interface drift, Engine-as-speaker language, stale Triangulation Engine naming, and House-speaker bleed.
+- [x] Verify `Chapter 20` acceptance:
+  - [x] Working/raw parity clean.
+  - [x] Saved style gate passes braid, wit lanes, temperature variation, double meaning, and pressure-release thresholds.
+  - [x] Hard-ban and lexical scan clean.
+  - [x] Rejected scratch inserts excluded from commit.
+  - Result: saved `gate-9` scores are `braid_balance=8`, `wit_lane_distinction=8`, `temperature_variation=7`, `double_meaning_density=7`, `humor_pressure_release=8`.
+- [x] Commit and push `Chapter 20` only after it passes acceptance.
+- [x] Next live step after commit: expand `Chapter 21` from its populated dossier and accepted `Chapter 20` handoff, preserving hostile-contact Test Fire as local procedure without bleeding into Chapter `22` temptation logic.
+
+### NEP-021 Book 3 Chapter 21 Expansion
+
+- [x] Review `Chapter 21` dossier, route, current working draft, and accepted `Chapter 20` handoff.
+  - Route: default Kimi route is rerouted to `qwen/qwen3.5-122b-a10b`; control remains `openai/gpt-oss-120b`; pass floor is `8,080` words.
+  - Macro target: low band is `10,100` words, but this pass uses the proven chapter-floor acceptance gate before later macro rebalancing.
+  - Current draft issues: old preamble metadata, under-length at `1,565` normalized words, stale `frequency` / `Triangulation Engine` drift, compressed hostile-contact pressure, and risk of bleeding into Chapter `22` temptation logic.
+  - Governing constraint: the Test Fire is a bounded hostile-contact exposure only; it may discover counterfeit kindness / relief as the next danger, but it must not cross, sever, complete passage, or open personal temptation offers.
+- [x] Harden the runner for `Chapter 21` before launch:
+  - [x] Add Chapter `21` cast guidance allowing Corv, Sona, Jian, Gideon, Mira Verath as proof case / trace, Anvel Verath only as historical wound coordinate, and the Gardener only as hostile load / correction attention.
+  - [x] Ban observed/probable Test Fire drift: new Gardener dialogue, solved/mastered passage posture, Test Fire bleed into Chapter `22`, unsupported props, new House speakers, stale Triangulation Engine naming, and merger/unified-witness phrasing.
+  - [x] Add Chapter `21` insert guidance that keeps the one controlled hostile-contact window exact while deepening vessel hum, metallic taste, edge discipline, review pressure, and counterfeit-kindness discovery.
+- [x] Expand `Chapter 21` from the populated dossier and accepted `Chapter 20` handoff.
+  - Result: the monitored GPT-OSS insert-first run failed safely after repeated hard-ban contamination and style-gate flattening, so the accepted lane uses a controlled dossier/source-bound rebuild from the clean Test Fire spine.
+  - Repair: expanded the one-second hostile-contact exposure with vessel hum, metallic taste, body-signal timing, House-review simulation pressure, counterfeit-kindness detection, and differentiated witness humor while preserving the boundary against Chapter `22` personal temptation.
+- [x] Verify `Chapter 21` acceptance:
+  - [x] Working/raw parity clean at `8,265` words.
+  - [x] Saved `gate-9` passes with `braid_balance=8`, `wit_lane_distinction=8`, `temperature_variation=7`, `double_meaning_density=7`, `humor_pressure_release=8`.
+  - [x] Hard-ban and lexical scan clean.
+  - [x] Rejected scratch inserts excluded from commit.
+- [x] Commit `Chapter 21` only after it passes acceptance.
+- [x] Push the accepted `Chapter 21` checkpoint.
+- [x] Next live step after push: expand `Chapter 22` from its populated dossier and accepted `Chapter 21` handoff, preserving individualized temptation logic without bleeding into Chapter `23` safety/control temptation.
+
+### NEP-022 Book 3 Chapter 22 Expansion
+
+- [x] Review `Chapter 22` dossier, route, current working draft, and accepted `Chapter 21` handoff.
+  - Route: default Kimi route is rerouted to `qwen/qwen3.5-122b-a10b`; control remains `openai/gpt-oss-120b`; pass floor is `6,520` words.
+  - Current draft issues: under-length at `1,364` words, stale `frequency` / `corridor` language, over-smooth harmony, and a packet-era contradiction where Gideon's Chapter `23` safety/control lane must stay boundary-only in Chapter `22`.
+  - Governing constraint: Chapter `22` may enact Jian's certainty offer, Sona's painless-peace offer, and Corv's perfect-meaning offer, but it must not reveal the Chapter `23` structural lie or move Gideon into his safety/control temptation.
+- [x] Harden the runner for `Chapter 22` before launch:
+  - [x] Add Chapter `22` cast guidance limiting live voice lanes to Corv, Sona, Jian, and Gideon, with Mira / Anvel only as proof-case or historical wound coordinates.
+  - [x] Ban observed/probable Perfect World drift: explicit tarot scaffold terms, stale `frequency` / `corridor` language, Gardener dialogue/body, solved passage posture, unsupported props, new House speakers, and Gideon safety/control bleed.
+  - [x] Add Chapter `22` insert guidance that keeps the false-offer phase individualized, subliminally source-bound, and closed before Chapter `23` structural-lie pressure.
+- [x] Expand `Chapter 22` from the populated dossier and accepted `Chapter 21` handoff.
+  - Result: rebuilt the chapter from the active temptation spine rather than accepting the short baseline, preserving Jian's solved-map refusal, Sona's false-rest refusal, Corv's beautiful-closure refusal, and Gideon's unopened Chapter `23` lane.
+  - Repair: removed stale `frequency` / `corridor` language, kept the tarot/world-completion source motifs submerged, and ended on satisfaction-as-pressure rather than a structural-lie reveal.
+- [x] Verify `Chapter 22` acceptance:
+  - [x] Working/raw parity clean at `6,520` words.
+  - [x] Saved `gate-9` passes with `braid_balance=8`, `wit_lane_distinction=8`, `temperature_variation=8`, `double_meaning_density=7`, `humor_pressure_release=8`.
+  - [x] Hard-ban and lexical scan clean.
+  - [x] Rejected scratch inserts excluded from commit.
+- [x] Commit and push `Chapter 22` only after it passes acceptance.
+- [x] Next live step after commit: expand `Chapter 23` from its populated dossier and accepted `Chapter 22` handoff, preserving structural-lie discovery without bleeding into Chapter `24` severance pressure.
+
+### NEP-023 Book 3 Chapter 23 Expansion
+
+- [x] Review `Chapter 23` dossier, route, current working draft, and accepted `Chapter 22` handoff.
+  - Route: default Kimi route is rerouted to `qwen/qwen3.5-122b-a10b`; control remains `openai/gpt-oss-120b`; pass floor is `8,000` words.
+  - Current draft issues: under-length at `1,677` words, stale `harmonized` / `shattered`-family risk, thin relational aftermath, and a rushed move from structural-lie recognition toward Chapter `24` severance.
+  - Governing constraint: Chapter `23` may reveal hidden authorship and Gideon's manageability/protection temptation, but it must end at the cut-line for Chapter `24`, not enact severance.
+- [x] Harden the runner for `Chapter 23` before launch:
+  - [x] Add Chapter `23` cast guidance limiting live voice lanes to Corv, Sona, Jian, and Gideon, with Mira / Anvel only as proof-case or historical wound coordinates.
+  - [x] Ban observed/probable Flaw-in-the-Code drift: explicit source scaffold terms, stale `frequency` / `resonant` / `harmonized` language, Gardener dialogue/body, severance enactment, unsupported props, and new House speakers.
+  - [x] Add Chapter `23` insert guidance that opens hidden authorship and Gideon's manageability refusal while keeping Chapter `24` severance closed.
+- [x] Expand `Chapter 23` from the populated dossier and accepted `Chapter 22` handoff.
+  - Result: rebuilt the chapter around clean-state deception, Gideon's manageability refusal, hidden-authorship testing, review-language propagation, and a Chapter `24` entry-conditions cut-line.
+  - Repair: the first accepted-length surface failed style gate for technical flattening and quasi-personified Gardener/hidden-author language; the final pass removes unsupported review-role/simulator language, replaces Gardener personhood with pruning-layer logic, and adds a display-off relational beat to restore warmth, panic, and pressure release.
+- [x] Verify `Chapter 23` acceptance:
+  - [x] Working/raw parity clean at `8,495` words.
+  - [x] Saved `gate-9` passes with `braid_balance=8`, `wit_lane_distinction=7`, `temperature_variation=8`, `double_meaning_density=6`, `humor_pressure_release=7`.
+  - [x] Hard-ban and lexical scan clean.
+  - [x] Rejected scratch inserts excluded from commit.
+- [x] Commit and push `Chapter 23` only after it passes acceptance.
+- [x] Next live step after commit: expand `Chapter 24` from its populated dossier and accepted `Chapter 23` cut-line, preserving severance as a live act without bleeding into Chapter `25` void aftermath.
+
+### NEP-024 Book 3 Chapter 24 Expansion
+
+- [x] Review `Chapter 24` dossier, route, current working draft, and accepted `Chapter 23` cut-line.
+  - Route: default Kimi route is rerouted to `qwen/qwen3.5-122b-a10b`; control remains `openai/gpt-oss-120b`; pass floor is `8,200` words.
+  - Current draft issues: under-length at `1,718` words, stale `universe` / `Triangulation Engine` / `Gardener did not scream` drift, compressed `13.7` sequence, and risk of bleeding into Chapter `25` void aftermath.
+  - Governing constraint: Chapter `24` may enact the final procedure / severance against hidden authorship's exclusive claim, but it must end at release with relation intact before Chapter `25` adaptation begins.
+- [x] Harden the runner for `Chapter 24` before launch:
+  - [x] Add Chapter `24` cast guidance limiting live voice lanes to Corv, Sona, Jian, and Gideon, with Mira / Anvel only as proof-case or historical wound coordinates.
+  - [x] Ban observed/probable Final Procedure drift: stale field terms, explicit scaffold terms, Gardener dialogue/body/scream, new House speakers, triumph/coronation posture, and Chapter `25` void aftermath.
+  - [x] Add Chapter `24` insert guidance that permits the severance act while preserving distinct witnesses, embodied procedure, and a clean stop before aftermath.
+- [x] Expand `Chapter 24` from the populated dossier and accepted `Chapter 23` cut-line.
+  - Result: rebuilt the live severance lane around the Chapter `23` cut-line, the moving refusal seam, a `13.7`-second anti-spectacular procedure, and a release boundary that stops before Chapter `25` void aftermath.
+  - Repair: the first style-gated surface was rejected for procedural flattening and `Corvan` drift; the accepted pass normalizes `Corv`, removes the duplicate activation replay, and turns the replay pressure into a record-custody temptation that strengthens body/philosophy/technology braid.
+- [x] Verify `Chapter 24` acceptance:
+  - [x] Working/raw parity clean at `8,287` words.
+  - [x] Saved `gate-9` passes with `braid_balance=8`, `wit_lane_distinction=7`, `temperature_variation=8`, `double_meaning_density=7`, `humor_pressure_release=8`.
+  - [x] Hard-ban and lexical scan clean.
+  - [x] Rejected scratch inserts excluded from commit.
+- [x] Commit and push `Chapter 24` only after it passes acceptance.
+- [x] Next live step after commit: expand `Chapter 25` from its populated dossier and accepted `Chapter 24` release, preserving void aftermath without premature authored-reality stabilization.
+
+### NEP-025 Book 3 Chapter 25 Expansion
+
+- [x] Review `Chapter 25` dossier, route, current working draft, and accepted `Chapter 24` release.
+  - Route: default Kimi route is rerouted to `qwen/qwen3.5-122b-a10b`; control remains `openai/gpt-oss-120b`; pass floor is `8,720` words.
+  - Current draft issues: under-length at `1,826` words, legacy `Corvan` naming, rushed void-aftershock, thin source-substrate embodiment, and risk of jumping too early into Chapter `26` authored-world construction.
+  - Governing constraint: Chapter `25` may deepen void aftermath, invalidity, keptness, and potential-before-allocation, but it must not stabilize a new reality or begin the architecture-building phase.
+- [x] Harden the runner for `Chapter 25` before launch:
+  - [x] Normalize `Corvan` to `Corv` in runner lexical cleanup.
+  - [x] Add Chapter `25` cast guidance limiting live voice lanes to Corv, Sona, Jian, and Gideon.
+  - [x] Ban observed/probable Void drift: explicit scaffold terms, stale field terms, Gardener dialogue/body, new-role contamination, triumph posture, and Chapter `26` new-reality/architecture bleed.
+  - [x] Add Chapter `25` insert guidance that privileges silence, failed measurement, body inventory, relation without coordinates, and source-substrate pattern logic without exposition.
+- [x] Expand `Chapter 25` from the populated dossier and accepted `Chapter 24` release.
+  - Result: stabilized the void aftermath lane around invalidity, no inherited coordinates, Sona's Note without sweetness, Jian's no-score status check, Corv's refusal of premature story, and Gideon's keptness without walls.
+  - Repair: the first monitored pass reached word floor but was rejected editorially for repeated `lattice/thrum/raw` drift and sci-fi props; the accepted surface uses a controlled reconstruction plus final voice repair with Chapter `25` anti-drift guidance included in the voice-repair prompt.
+- [x] Verify `Chapter 25` acceptance:
+  - [x] Working/raw parity clean at `9,962` words.
+  - [x] Saved `gate-9` passes with `braid_balance=9`, `wit_lane_distinction=8`, `temperature_variation=8`, `double_meaning_density=7`, `humor_pressure_release=8`.
+  - [x] Hard-ban and lexical scan clean.
+  - [x] Rejected scratch inserts excluded from commit.
+- [x] Commit and push `Chapter 25` only after it passes acceptance.
+- [x] Next live step after commit: open `Chapter 26` from its populated dossier and accepted `Chapter 25` threshold, opening authored architecture only after the void lane is stable.
+
+### NEP-026 Book 3 Chapter 26 Expansion
+
+- [x] Review `Chapter 26` dossier, route, current working draft, and accepted `Chapter 25` threshold.
+  - Route: default Kimi route is rerouted to `qwen/qwen3.5-122b-a10b`; control remains `openai/gpt-oss-120b`; pass floor is `8,080` words.
+  - Current draft issues: under-length at `1,696` words, legacy `Corvan` naming, stale `ground frequency` / `manifestation` carryovers, compressed condition-building, and risk of overclaiming a finished world.
+  - Governing constraint: Chapter `26` may establish provisional ground, joy-as-permission, living boundary, direction, and responsibility, but it must not stabilize Chapter `27` habitation or open contact with others.
+- [x] Harden the runner for `Chapter 26` before launch:
+  - [x] Remove runner encouragement toward repeated `lattice/thrum/resonance` shorthand.
+  - [x] Normalize `Corvan`, `ground frequency`, `manifestation`, and `resonance` carryovers before validation.
+  - [x] Add Chapter `26` cast guidance limiting live voice lanes to Corv, Sona, Jian, and Gideon.
+  - [x] Ban observed/probable architecture drift: explicit source/blog scaffold terms, stale field terms, Gardener presence, sci-fi equipment, new roles, paradise/omnipotence posture, and Chapter `27` bridge/contact bleed.
+- [x] Expand `Chapter 26` from the populated dossier and accepted `Chapter 25` threshold.
+  - Result: the monitored GPT-OSS insert-first run reached the word floor but stalled in voice repair after repeated `boot` prop drift and an over-solemn final candidate, so the accepted lane promotes the clean near-floor spine and applies a controlled final architecture/practice repair.
+  - Repair: kept ground, joy, boundary, direction, and responsibility provisional; added character-specific wit, agreement-vs-rule logic, Manas Interface restraint, and support-without-ownership pressure while avoiding Chapter `27` habitation/contact bleed.
+- [x] Verify `Chapter 26` acceptance:
+  - [x] Working/raw parity clean at `8,147` words.
+  - [x] Saved `gate-9` passes with `braid_balance=8`, `wit_lane_distinction=8`, `temperature_variation=8`, `double_meaning_density=7`, `humor_pressure_release=8`.
+  - [x] Hard-ban and lexical scan clean.
+  - [x] Rejected scratch inserts excluded from commit.
+- [x] Commit and push `Chapter 26` only after it passes acceptance.
+- [x] Next live step after commit: open `Chapter 27` from accepted `Chapter 26`, preserving first habitation and bridge-to-others as bounded beginning rather than utopian closure.
+
+### NEP-027 Book 3 Chapter 27 Expansion
+
+- [x] Review `Chapter 27` dossier, route, current working draft, and accepted `Chapter 26` handoff.
+  - Route: default Kimi route is rerouted to `qwen/qwen3.5-122b-a10b`; control remains `openai/gpt-oss-120b`; pass floor is `8,040` words.
+  - Current draft issues: under-length at `1,684` words, legacy `Corvan` naming, stale `frequency/resonate` carryovers, explicit symbolic-role risk from dossier language, and sequel-horizon overstatement risk.
+  - Governing constraint: Chapter `27` may stabilize first habitation, rest, relationship, tree/ground, and a bounded horizon toward others, but it must not become utopia, coronation, solved society, or Noetic Network sequel bait.
+- [x] Harden the runner for `Chapter 27` before launch:
+  - [x] Normalize `Corvan` and `resonate` carryovers before validation.
+  - [x] Add Chapter `27` cast guidance limiting live voice lanes to Corv, Sona, Jian, and Gideon.
+  - [x] Ban explicit tarot/Thoth/Crowley role names, stale field terms, Gardener presence, sci-fi equipment, new roles, paradise/omnipotence posture, Noetic Network naming, and over-explicit future-team sequel language.
+- [x] Expand `Chapter 27` from the populated dossier and accepted `Chapter 26` threshold.
+  - Result: the monitored GPT-OSS route produced a clean `5,094`-word surface before repeated later-stage prop/cliche drift; the accepted lane uses that clean spine plus a controlled final habitation repair.
+  - Repair: removed mesh/sensor/implant/creature drift, kept bridge/contact language as distant horizon only, and landed the four final arcs around relation without capture, living-system revision, guarded passage, and refusal of premature meaning.
+- [x] Verify `Chapter 27` acceptance:
+  - [x] Working/raw parity clean at `8,138` words.
+  - [x] Saved `gate-9` passes with `braid_balance=8`, `wit_lane_distinction=8`, `temperature_variation=7`, `double_meaning_density=7`, `humor_pressure_release=8`.
+  - [x] Hard-ban and lexical scan clean.
+  - [x] Rejected scratch inserts excluded from commit.
+- [x] Commit and push `Chapter 27` only after it passes acceptance.
+- [x] Next live step after commit: run the Book `3` expanded-lane review before rebuilding compiled surfaces and endmatter.
+  - [x] Reconcile tracker drift between the old completed late-Book-3 compiled package and the newer NVIDIA-expanded Chapter `16-27` lane.
+  - [x] Clean the expanded working/raw lane before merge-back where review scans found stale vocabulary or duplicated generated prose, especially Chapters `16-18`.
+  - [x] Re-run raw parity, hard-ban, style-gate, and word-count checks after cleanup.
+  - [x] Only rebuild compiled Book `3`, omnibus, and endmatter surfaces after the expanded lane passes review.
+  - Result: expanded Book `3` now compiles from the accepted working lane at `106,312` words; all Chapter `16-27` source files match the working lane; the omnibus contains all `27` chapters with refreshed Book `3`, glossary, bibliography, closing note, and backmatter.
+  - Verification: working/raw parity clean, broad Book `3` stale-term scan clean, refreshed gates saved for touched chapters, `scan_consistency.py` clean, and `git diff --check` clean.
+
+### NEP-006 Matrix Revision
+
+- [x] Generate `generated/chapter_expansion_matrix_v1.md` from the current matrix plus `repo_synthesis_report_v1.md` and `source_family_priority_map_v1.md`
+- [x] Generate a machine-readable `generated/chapter_expansion_matrix_v1.json`
+- [x] Update the canonical lab matrix at `story/expansion_lab/chapter_expansion_matrix.md` so it reflects the v1 revision instead of the pre-synthesis placeholder
+- [x] Verify the revised matrix still respects chapter summaries, book boundaries, and source-tier admissibility rules
+
+### NEP-007 Dossier Tooling
+
+- [x] Implement a repeatable script to scaffold chapter dossiers from the template and matrix metadata
+- [x] Implement a repeatable script to generate a layer-gap report by book, layer, and priority cluster
+- [x] Generate an initial dossier manifest/index so `NEP-008` to `NEP-010` can batch-create dossiers without re-deciding file layout
+- [x] Verify the tooling only emits source-bound scaffolds and does not invent canon or prose
+
+### NEP-006 / NEP-007 Review
+
+- [x] Recover baseline target bands from the frozen input pack and explicit late-book fallback map instead of trusting the already-mutated live matrix
+- [x] Add a `--reuse-raw` recovery path to `run_nep_006_matrix_revision.py` so parser fixes do not require a fresh model call
+- [x] Regenerate `chapter_expansion_matrix_v1.{md,json}` from validated raw output and verify field admissibility
+- [x] Regenerate `dossier_manifest_v1.{md,json}` and `layer_gap_report_v1.{md,json}` from the corrected matrix
+- [x] Emit all `27` dossier scaffold files under `story/expansion_lab/dossiers/`
+
+### Monitored Wave Runner
+
+- [x] Create a sourceable shell helper for background task launch, status checks, log tailing, and failure summaries
+- [x] Standardize runtime state under a repo-local `.wave_runtime/` directory so runs are inspectable and restartable
+- [x] Smoke-test the helper with a safe command and verify `running`, `ok`, and `failed` states
+- [x] Keep a dedicated monitoring terminal session available before launching the real P2/W2 jobs
+
+### P2/W2 Source Understanding Launch
+
+- [x] `P2/W2-A` Profile the four named source roots into concrete text, concept, and vision families with exclusions and priority slices
+- [x] `P2/W2-B` Create the first operational intake artifact that synthesis, tooling, and vision lanes can all consume without re-reading chat
+- [x] `P2/W2-C` Record which parts of `03-Resources` and `02-Areas` are admissible by default versus review-required versus excluded
+- [x] `P2/W2-D` Record the first-pass blog post families most likely to deepen Book `1`, Book `2`, and Book `3`
+- [x] `P2/W2-E` Record the first-pass noesis/blog visual families that should enter the multimodal extraction registry before chapter work begins
+
+### P2/W2 Review
+
+- [x] Generate `generated/repo_synthesis_report_v1.md` from the repo synthesis input pack with `openai/gpt-oss-120b`
+- [x] Generate `generated/source_family_priority_map_v1.md` from the intake + filter spec with `minimaxai/minimax-m2.7`
+- [x] Generate `generated/visual_motif_registry_seed_v1.json` and `generated/visual_motif_registry_seed_v1.md` from the curated multimodal seed set
+- [x] Harden the monitored wave runner so long-running jobs survive shell exit via detached subprocess launch
+- [x] Harden the NVIDIA client for explicit CA-bundle loading and 202/status polling
+- [x] Record the multimodal fallback path: `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning` primary, `meta/llama-3.2-11b-vision-instruct` fallback
+
+### Swarm Architecture and GitHub Sync
+
+- [x] Create a durable project spec for the NVIDIA expansion program that captures goal, source material roots, authority boundaries, and target outputs
+- [x] Create a project architecture document that captures model routing, parallel execution boundaries, validation gates, and merge-back flow
+- [x] Create a milestone and phase-wave execution map so the repo has a durable rollout plan independent of chat history
+- [x] Create a GitHub issue map and issue-ready bodies for the expansion program
+- [x] If GitHub auth is available, open the issue set and record the issue IDs back into the repo docs
+- [x] Verify the persistent docs point back to the existing `expansion_lab` control surfaces instead of duplicating conflicting truth
+
+### NVIDIA Expansion Lab
+
+- [x] Create an isolated git lane for long-form expansion work at worktree `../Somatic-Canticles-nvidia-expansion` on branch `codex/nvidia-expansion-lab`
+- [x] Define the multi-model routing architecture so `gpt-oss-120b`, `MiniMax M2.7`, `Kimi`, and control models have non-overlapping jobs
+- [x] Create `story/expansion_lab/repo_synthesis_manifest.md` as the control document for canon understanding, source families, chapter targets, and model roles
+- [x] Create `story/expansion_lab/chapter_expansion_matrix.md` with chapter-by-chapter current length, target length band, missing layers, and source dossier pointers
+- [x] Create `story/expansion_lab/chapter_source_dossier_template.md` so each chapter expansion pass is source-bound to StoryOps, editorial, world-bible, and synchronocities-blog surfaces
+- [x] Verify the expansion lab is isolated from `main`, documented clearly, and ready for the first repo-synthesis pass
+- [x] Classify the four external source roots into published substrate, vault support, area-notebook support, and vision-first support tiers
+- [x] Add a dedicated multimodal ingestion plan so `Documents/noesis/Research`, blog cards/images, and approved vault visuals can deepen lore and worldbuilding without becoming silent canon
+- [x] Extend the chapter dossier template so every non-repo source carries admissibility tags, provenance, and visual-evidence tracking
+
+### Completed Optional Cleanup
+
+- [x] Normalize the remaining compiled `**Somatic Event:**` preamble markers out of Book `1`, Book `2`, and the omnibus for a stricter prose-only export surface
+
+### Active Serial Wave: Finish Book 3 and Endmatter
+
+- [x] `23` Open the structural-lie lane from `Chapter 22` without importing `Chapter 24` severance pressure too early
+- [x] `23a` Keep Gideon's safety/control temptation exact, local, and anti-heroic; keep Corv's false-mercy refusal exact and anti-sermonic
+- [x] `23b` Compare active `Chapter 23` against the compiled Book `3` surface and record the meaningful divergences
+- [x] `24` Open the final-procedure lane as live enacted authorship, not battle spectacle or deterministic countdown myth
+- [x] `24a` Hold the Tryambakam / triangulation vocabulary exact while keeping the scene embodied and role-bound
+- [x] `24b` Compare active `Chapter 24` against the compiled Book `3` surface and record the meaningful divergences
+- [x] `25` Open the void lane only after severance is clean, removing `RESONANCE PROFILE`, `Chapter Status`, and all other embedded production residue
+- [x] `25a` Use the topological-pocket and timelessness substrate only to sharpen orientation loss, not to replace scene logic with essay logic
+- [x] `25b` Compare active `Chapter 25` against the compiled Book `3` surface and record the meaningful divergences
+- [x] `26` Open the architecture lane as chosen constraint, shared authorship, and first-principles creation rather than omnipotent metaphysical declaration
+- [x] `26a` Use source-code / compiler language only where it stays embodied and narratively earned
+- [x] `26b` Compare active `Chapter 26` against the compiled Book `3` surface and record the meaningful divergences
+- [x] `27` Open the new-beginning lane as habitable field formation, relational future, and first bridge to others without utopian flattening
+- [x] `27a` Strip all remaining end-of-draft scaffolding and keep `Noetic Network` emergence as later-horizon promise rather than sequel bait
+- [x] `27b` Compare active `Chapter 27` against the compiled Book `3` surface and record the meaningful divergences
+- [x] `B1` Create `02_MANUSCRIPTS/COMPILED/Bibliography.md`
+- [x] `B2` Create `02_MANUSCRIPTS/COMPILED/Closing_Note.md`
+- [x] `B3` Update `Preface.md`, `Backmatter.md`, and `Glossary.md` to match the final trilogy vocabulary and conceptual posture
+- [x] `B4` Merge the refreshed Book `3` and endmatter into the compiled canonical surfaces
+
+### Complete the Late Book 3 and Endmatter Package
+
+- [x] Open, stabilize, and compare `Chapter 23` as the structural-lie lane, making hidden authorship explicit without bleeding into `Chapter 24` procedure
+- [x] Open, stabilize, and compare `Chapter 24` as the live severance lane, keeping the 13.7-second cut exact and anti-spectacular
+- [x] Open, stabilize, and compare `Chapter 25` as the first post-Severance lane, stripping all embedded production residue and grounding the void in lived disorientation
+- [x] Open, stabilize, and compare `Chapter 26` as authored reality in practice, building the new field through chosen conditions rather than manifesto abstraction
+- [x] Open, stabilize, and compare `Chapter 27` as first habitation, relational future, and bounded horizon without sugary transcendence
+- [x] Update the Book `3` packet board, workbench README, source packet map, projection board, concept-authority matrix, and chapter-lane surfaces so `Chapter 16-27` now read as a full constrained prose lane
+- [x] Create `02_MANUSCRIPTS/COMPILED/Bibliography.md` from the research references and synchronocities-blog substrate
+- [x] Create `02_MANUSCRIPTS/COMPILED/Closing_Note.md`
+- [x] Refine `Frontmatter.md`, `Preface.md`, `Backmatter.md`, and `Glossary.md` to match the final late-book authorship frame
+- [x] Rebuild `02_MANUSCRIPTS/COMPILED/Book_3_The_Ripening.md` from the active `working/Chapter-16-27` lane with lane-only metadata stripped from the compiled surface
+- [x] Rebuild `02_MANUSCRIPTS/COMPILED/Somatic_Canticles_Trilogy_Omnibus_CLEAN.md` so the refreshed Book `3`, glossary, bibliography, closing note, and backmatter are all present in one canonical export surface
+- [x] Verify the rebuilt package with `git diff --check`, `scan_consistency.py`, and direct residual-term searches against the compiled Book `3` surface
 
 ### Planned Next Wave: Book 3 Unfreeze Prep
 
@@ -187,6 +777,37 @@ This file is the active source of truth for repository execution status.
 - The recorded `Chapter 18` deltas are now judged sufficient to open `Chapter 19`, but only as a constrained starter packet rather than a prose lane.
 - `Packet 19` now exists as the first `19-21` packet surface: it captures the compiled branch's hinge reset, stale lexicon, merger drift, scaffolding contamination, and protocol-overexplanation risks without authorizing a `working/` copy yet.
 - `Chapter 19` prose remains closed for now; `Chapter 20-27` remain freeze-controlled until the new packet contract proves the triangulation lane can stay procedural, embodied, and non-sermonic.
+- `Packet 19` is now judged strong enough to promote `Chapter 19` into an active prose lane without widening the cluster beyond it.
+- [Chapter-19-The-Three-Point-Problem.md](/Volumes/madara/2026/twc-vault/01-Projects/tryambakam-noesis/Somatic-Canticles-book/Somatic-Canticles/06_WORKBENCH/SC_STORYOPS/story/chapters/book_3_the_ripening/working/Chapter-19-The-Three-Point-Problem.md) now inherits the live `Chapter 18` handoff directly, removes the stale three-day reset and old lexicon, keeps `Pure Joy` / `Catalyst Clarity` / `Present Coherence` exact, and preserves non-fusional shared-field discipline while turning triangulation back into live procedure.
+- `Chapter 19` is now the fourth active Book `3` prose lane; `Chapter 20-27` remain freeze-controlled pending a later gate decision.
+- `Chapter 19` is now stabilized to a compiled-comparison baseline: the working copy keeps triangulation procedural, removes the last filter-word residue from the active lane, and holds the old protocol labels beneath rather than above the earned `Pure Joy` / `Catalyst Clarity` / `Present Coherence` frame.
+- The concrete `Chapter 19` versus compiled-Book-3 deltas are now recorded in `Packet 19`: direct `Chapter 18 -> 19` handoff instead of a three-day reset, normalized lexicon and naming, exact vector language over older protocol-label drift, rejection of merger rhetoric, procedural rather than montage/manifesto triangulation, and removal of embedded compiled scaffolding.
+- `Packet 19` now marks the lane `compiled comparison recorded`, which is strong enough to open `Packet 20` but not yet strong enough to authorize a `working/Chapter 20` copy.
+- `Packet 20` now exists as a starter packet only: it captures the compiled/source branch's merger rhetoric, explanatory inflation, stale field branding, and premature `Test Fire` escalation without opening prose.
+- `Packet 20` is now judged strong enough to promote `Chapter 20` into an active prose lane without widening the cluster beyond it.
+- [Chapter-20-The-Convergence-Point.md](/Volumes/madara/2026/twc-vault/01-Projects/tryambakam-noesis/Somatic-Canticles-book/Somatic-Canticles/06_WORKBENCH/SC_STORYOPS/story/chapters/book_3_the_ripening/working/Chapter-20-The-Convergence-Point.md) now inherits the live `Chapter 19` exit directly, rejects merger rhetoric and stale field-brand language, keeps convergence procedural, and holds the `Chapter 20 -> 21` boundary by stopping at threshold rather than live fire.
+- `Chapter 20` is now the fifth active Book `3` prose lane; `Chapter 21-27` remain freeze-controlled pending a later gate decision.
+- `Chapter 20` is now stabilized to a compiled-comparison baseline: the working copy keeps convergence embodied and role-bound, removes packet corruption from the review surface, and preserves threshold-without-Test-Fire discipline.
+- The concrete `Chapter 20` versus compiled-Book-3 deltas are now recorded in `Packet 20`: direct `Chapter 19 -> 20` handoff instead of a fresh chamber reset, normalized lexicon over old field branding, rejection of merger rhetoric, embodied convergence over substrate sermon, exact wound-handling instead of uplifted explanation, and a clean stop before `Chapter 21` live-fire pressure.
+- `Packet 20` now marks the lane `compiled comparison recorded`, while `Chapter 21-27` remain freeze-controlled pending the next gate decision.
+- The recorded `Chapter 20` deltas are now judged sufficient to open `Packet 21`, but not yet a `working/Chapter 21` prose lane.
+- `Packet 21` now exists as a starter packet only: it captures the compiled/source branch's reset framing, merged-field rhetoric, stale field branding, live-fire inflation, and scaffolding residue without authorizing prose.
+- `Packet 21` is now judged strong enough to promote `Chapter 21` into an active prose lane without widening the cluster beyond it.
+- [Chapter-21-The-Test-Fire.md](/Volumes/madara/2026/twc-vault/01-Projects/tryambakam-noesis/Somatic-Canticles-book/Somatic-Canticles/06_WORKBENCH/SC_STORYOPS/story/chapters/book_3_the_ripening/working/Chapter-21-The-Test-Fire.md) now inherits the live `Chapter 20` exit directly, rejects reset framing and merger rhetoric, keeps the Test Fire local and procedural, and preserves the boundary to `Chapter 22` by ending at first hostile-contact consequence rather than temptation logic.
+- `Chapter 21` is now the sixth active Book `3` prose lane; `Chapter 22-27` remain freeze-controlled pending a later gate decision.
+- `Chapter 21` is now stabilized to a compiled-comparison baseline: the working copy keeps the Test Fire local, procedural, and role-bound, preserves differentiated shared-field discipline under notice pressure, and makes the House / station review consequence explicit without bleeding into `Chapter 22`.
+- The concrete `Chapter 21` versus compiled-Book-3 deltas are now recorded in `Packet 21`: direct `Chapter 20 -> 21` threshold carryover instead of a three-day reset, normalized vector and witness lexicon over stale field-brand language, rejection of merged-observation rhetoric, local first-contact pressure over proto-liberation theater, explicit House / station review consequence, and removal of embedded compiled scaffolding plus countdown urgency.
+- `Packet 21` now marks the lane `compiled comparison recorded`, while `Chapter 22-27` remain freeze-controlled pending the next gate decision.
+- The recorded `Chapter 21` deltas are now judged sufficient to open `Packet 22`, but not yet a `working/Chapter 22` prose lane.
+- `Packet 22` now exists as a starter packet only: it captures the compiled/source branch's false-peace and false-certainty temptations, reset softness, over-smooth harmony, and scaffolding residue without authorizing prose.
+- `Packet 22` review is now complete: the chapter stays prose-closed because the current branch still lacks the full `Chapter 22` custom-temptation contract, especially Corv's false-mercy / perfect-ending lane.
+- `Packet 22` is now refined against the full `Chapter 22` custom-temptation contract: Jian, Sona, and Corv each have an explicit required offer/refusal lane on the packet surface, and Gideon's `Chapter 23` safety lane is now enforced as a boundary rather than backfilled early.
+- `Packet 22` is now judged strong enough to promote `Chapter 22` into an active prose lane without widening the cluster beyond it.
+- [Chapter-22-The-Perfect-World.md](/Volumes/madara/2026/twc-vault/01-Projects/tryambakam-noesis/Somatic-Canticles-book/Somatic-Canticles/06_WORKBENCH/SC_STORYOPS/story/chapters/book_3_the_ripening/working/Chapter-22-The-Perfect-World.md) now inherits the live `Chapter 21` exit directly, adds Corv's `Perfect Ending / False Mercy of Meaning` refusal lane, and keeps Gideon's `Chapter 23` safety temptation out of the chapter.
+- `Chapter 22` is now the seventh active Book `3` prose lane; `Chapter 23-27` remain freeze-controlled pending the next gate decision.
+- `Chapter 22` is now stabilized to a compiled-comparison baseline: the working copy keeps counterfeit-kindness pressure live from `Chapter 21`, makes Corv's refusal lane local rather than sermonic, and preserves the boundary so Gideon's safety temptation does not bleed forward from `Chapter 23`.
+- The concrete `Chapter 22` versus compiled-Book-3 deltas are now recorded in `Packet 22`: direct `Chapter 21 -> 22` counterfeit-kindness carryover instead of softened aftermath glow, cleaner and less cosmetically elevated refusal language, a fully restored Corv false-mercy lane that the compiled branch lacks entirely, a harder boundary against `Chapter 23` safety pressure, and removal of all embedded compiled scaffolding.
+- `Packet 22` now marks the lane `compiled comparison recorded`, while `Chapter 23-27` remain freeze-controlled pending the next gate decision.
 - GitHub umbrella issues `#18-23` are now closed with completion notes, so the remote backlog once again matches the local StoryOps tracker state.
 - `02_MANUSCRIPTS/COMPILED/Book_2_The_Myocardial_Chorus.md` now matches the active Book 2 working lane rather than the older compiled prose branch.
 - `02_MANUSCRIPTS/COMPILED/Somatic_Canticles_Trilogy_Omnibus_CLEAN.md` is no longer hybrid at the Book 1 / Book 2 boundary; it now carries the merged Book 1 `Chapter 08` exit directly into the merged Book 2 `Chapter 09` opening.

@@ -1,0 +1,9 @@
+Corv felt the tether’s tension transfer through Sona’s metacarpals like a slow-motion handshake. The black-gold filament flexed once, then slackened; a pulse of cortisol mist rose from the lesions and condensed on Jian’s visor in pin-prick droplets that rolled left to right, obeying microgravity. In the bead closest to the medial seam, Corv saw a refracted eye—his own, but younger, the iris still round with curiosity instead of the flat ring it had become. The droplet quivered, then slid off the edge and vanished into the lattice hush.
+
+“Borrowed heartbeat,” Sona whispered, more to herself than to the others. She angled her wrist so the tether’s gold seam ran flush against the filament’s outer sheath. A low, solicitous hush—half sigh, half servo—answered her. The lattice dimmed three lumens, a diplomatic recession that granted the team a pocket of private dusk.
+
+Jian tapped once on his cuff; the silent gesture sent a packet of subject vitals scrolling across the inside of Corv’s left lens: HRV 12 ms, glucose trending up, cort slope flattening. No alarms. Only the polite knock of a body beginning to dream the same dream the genome had rehearsed for centuries. “We’re riding someone else’s REM,” Jian said. “Don’t wake the patient until the edit finishes dreaming.”
+
+Gideon folded the Klei ring until it kissed the pulse at the base of his thumb. “Three minutes subjective, tops,” he said. “After that the adrenal tide peaks and we either surf or drown.” He offered Corv a flicker of eyebrow—the exact look he’d used when they were twelve and about to leap the parish wall at midnight. A dare and an apology braided tight.
+
+Corv inhaled, tasting the mix of fear and algorithm that passed for air inside the genome. He let the word *ancestor* settle on the back of his tongue like a communion wafer made of rust. Then he nodded—once, small, enough. The tether brightened again, a second sun rising inside a marrow dusk.

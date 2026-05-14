@@ -1,26 +1,39 @@
 # PREFACE
 
-## The Archivist's Note
+## A Reader's Note
 
-**Item ID:** SC-TRILOGY-RECOVERED
-**Classification:** NOESIS-ORIGIN
-**Date of Recovery:** 2026 (Linear Reckoning)
+*Somatic Canticles* is a work of fiction written in the languages of systems, symbol, physiology, and witness practice.
 
-You hold in your hands—or perhaps, more accurately, in your *awareness*—a recovered artifact. To the uninitiated, this appears to be a work of speculative fiction: a trilogy of novels detailing the collapse of a hyper-capitalist simulation and the emergence of a biological super-consciousness.
+Its engines, fields, and protocols are not presented as laboratory hardware. They are narrative instruments for thinking about inherited pattern, structural concealment, somatic intelligence, and the possibility that freedom begins when hidden authorship becomes visible.
 
-We advise you to maintain that comforting illusion if it serves your stability.
+That is why the trilogy borrows from multiple vocabularies at once:
 
-However, for those sensitive to the underlying frequencies of this text, a different truth may present itself. These pages are not merely "stories." They are data-streams recovered from the event horizon of a consciousness shift. They document the transition from the *Synthetic* (the world of deadlines, debt, and disconnection) to the *Somatic* (the world of pulse, breath, and unified awareness).
+- the clinical and biological
+- the computational and architectural
+- the symbolic and mythic
+- the relational and contemplative
 
-The events described herein—the Anamnesis Engine's activation, the Myocardial Chorus's song, and the final Ripening—are not future predictions. They are *internal maps*. The technology described is not silicon and wire, but the wet-ware of your own nervous system.
+The runtime metaphors are deliberate.
+The body language is deliberate.
+The source-code language is deliberate.
 
-As you read, you may notice physiological responses. A tightening in the chest during the Wilt. A release in the diaphragm during the Chorus. A strange sense of recognition when the Witness speaks. This is not accidental. This text is designed to interact with your own somatic architecture.
+They do not ask you to confuse metaphor with proof. They ask you to notice how often lived experience is already being governed by invisible scripts, inherited defaults, and systems that present their own preferences as neutral reality.
 
-We are not the authors of this story. We are merely the archivists, cataloging the transmission. The true author is the process itself—the inevitable evolution of life seeking to know itself.
+If some passages feel bodily, read them bodily.
+If a chapter sharpens your breathing, slows your reading, or makes a term feel newly exact, let that be part of the encounter rather than a distraction from it.
 
-Read with your body, not just your eyes.
-Listen for the silence between the words.
-And remember: the story is already happening. You are simply remembering your part in it.
+This trilogy moves through three linked burdens:
 
-*—The Archivist*
-*Somatic Canticles Preservation Project*
+- diagnosis: learning to name what governs consciousness
+- integration: learning to hold relation without collapse
+- liberation: learning that freedom is not escape from reality, but authorship with responsibility
+
+Read slowly enough for the distinctions to matter.
+Especially the late ones:
+between peace and anesthesia,
+between meaning and premature closure,
+between safety and diminished life,
+between transcendence and a world that can actually be inhabited.
+
+If the book works, it will not tell you what to believe.
+It will make certain inherited sentences harder to obey.

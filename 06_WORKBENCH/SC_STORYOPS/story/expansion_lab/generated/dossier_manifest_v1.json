@@ -1,0 +1,524 @@
+[
+  {
+    "chapter_number": 1,
+    "chapter_title": "The Choroid Plexus",
+    "book_number": 1,
+    "book_label": "Book 1: The Anamnesis Engine",
+    "dossier_priority": "wave-1",
+    "priority_cluster": "high",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_1_anamnesis_engine/working/Chapter-01-The-Choroid-Plexus.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_1_Anamnesis_Engine.md",
+    "dossier_file": "06_WORKBENCH/SC_STORYOPS/story/expansion_lab/dossiers/book_1_anamnesis_engine/01-the-choroid-plexus.md",
+    "best_source_families": [
+      "consciousness-architecture blog",
+      "endocrine-pressure blog"
+    ],
+    "visual_support": [
+      "visual archive"
+    ],
+    "source_tier_focus": [
+      "published substrate",
+      "concept support",
+      "visual support"
+    ]
+  },
+  {
+    "chapter_number": 2,
+    "chapter_title": "Signal Transduction",
+    "book_number": 1,
+    "book_label": "Book 1: The Anamnesis Engine",
+    "dossier_priority": "wave-1",
+    "priority_cluster": "medium",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_1_anamnesis_engine/working/Chapter-02-Signal-Transduction.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_1_Anamnesis_Engine.md",
+    "dossier_file": "06_WORKBENCH/SC_STORYOPS/story/expansion_lab/dossiers/book_1_anamnesis_engine/02-signal-transduction.md",
+    "best_source_families": [
+      "pain-information blog",
+      "signal-state-story blog"
+    ],
+    "visual_support": [],
+    "source_tier_focus": [
+      "published substrate"
+    ]
+  },
+  {
+    "chapter_number": 3,
+    "chapter_title": "The Blood-Brain Barrier",
+    "book_number": 1,
+    "book_label": "Book 1: The Anamnesis Engine",
+    "dossier_priority": "wave-1",
+    "priority_cluster": "high",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_1_anamnesis_engine/working/Chapter-03-The-Blood-Brain-Barrier.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_1_Anamnesis_Engine.md",
+    "dossier_file": "06_WORKBENCH/SC_STORYOPS/story/expansion_lab/dossiers/book_1_anamnesis_engine/03-the-blood-brain-barrier.md",
+    "best_source_families": [
+      "barrier-protection blog",
+      "world-bible article"
+    ],
+    "visual_support": [],
+    "source_tier_focus": [
+      "published substrate"
+    ]
+  },
+  {
+    "chapter_number": 4,
+    "chapter_title": "The Emperor's Genome",
+    "book_number": 1,
+    "book_label": "Book 1: The Anamnesis Engine",
+    "dossier_priority": "wave-2",
+    "priority_cluster": "medium",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_1_anamnesis_engine/working/Chapter-04-The-Emperors-Genome.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_1_Anamnesis_Engine.md",
+    "dossier_file": "06_WORKBENCH/SC_STORYOPS/story/expansion_lab/dossiers/book_1_anamnesis_engine/04-the-emperor-s-genome.md",
+    "best_source_families": [
+      "lineage legacy-code blog",
+      "captivity blog"
+    ],
+    "visual_support": [],
+    "source_tier_focus": [
+      "published substrate"
+    ]
+  },
+  {
+    "chapter_number": 5,
+    "chapter_title": "The Endocrine Dogma",
+    "book_number": 1,
+    "book_label": "Book 1: The Anamnesis Engine",
+    "dossier_priority": "wave-1",
+    "priority_cluster": "medium",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_1_anamnesis_engine/working/Chapter-05-The-Endocrine-Dogma.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_1_Anamnesis_Engine.md",
+    "dossier_file": "06_WORKBENCH/SC_STORYOPS/story/expansion_lab/dossiers/book_1_anamnesis_engine/05-the-endocrine-dogma.md",
+    "best_source_families": [
+      "endocrine blog",
+      "Book 1 editorial tasks"
+    ],
+    "visual_support": [],
+    "source_tier_focus": [
+      "published substrate"
+    ]
+  },
+  {
+    "chapter_number": 6,
+    "chapter_title": "The Synaptic Crossroads",
+    "book_number": 1,
+    "book_label": "Book 1: The Anamnesis Engine",
+    "dossier_priority": "wave-1",
+    "priority_cluster": "medium",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_1_anamnesis_engine/working/Chapter-06-The-Synaptic-Crossroads.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_1_Anamnesis_Engine.md",
+    "dossier_file": "06_WORKBENCH/SC_STORYOPS/story/expansion_lab/dossiers/book_1_anamnesis_engine/06-the-synaptic-crossroads.md",
+    "best_source_families": [
+      "pain-signal blog",
+      "narrative-dynamics blog"
+    ],
+    "visual_support": [],
+    "source_tier_focus": [
+      "published substrate"
+    ]
+  },
+  {
+    "chapter_number": 7,
+    "chapter_title": "The Breathfield Weaver",
+    "book_number": 1,
+    "book_label": "Book 1: The Anamnesis Engine",
+    "dossier_priority": "wave-1",
+    "priority_cluster": "high",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_1_anamnesis_engine/working/Chapter-07-The-Breathfield-Weaver.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_1_Anamnesis_Engine.md",
+    "dossier_file": "06_WORKBENCH/SC_STORYOPS/story/expansion_lab/dossiers/book_1_anamnesis_engine/07-the-breathfield-weaver.md",
+    "best_source_families": [
+      "breath‑coherence blog",
+      "visual archive"
+    ],
+    "visual_support": [
+      "visual archive"
+    ],
+    "source_tier_focus": [
+      "published substrate",
+      "visual support"
+    ]
+  },
+  {
+    "chapter_number": 8,
+    "chapter_title": "The Compass Calibration",
+    "book_number": 1,
+    "book_label": "Book 1: The Anamnesis Engine",
+    "dossier_priority": "wave-1",
+    "priority_cluster": "high",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_1_anamnesis_engine/working/Chapter-08-The-Compass-Calibration.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_1_Anamnesis_Engine.md",
+    "dossier_file": "06_WORKBENCH/SC_STORYOPS/story/expansion_lab/dossiers/book_1_anamnesis_engine/08-the-compass-calibration.md",
+    "best_source_families": [
+      "compass calibration blog"
+    ],
+    "visual_support": [],
+    "source_tier_focus": [
+      "published substrate"
+    ]
+  },
+  {
+    "chapter_number": 9,
+    "chapter_title": "The Sigil Smith",
+    "book_number": 2,
+    "book_label": "Book 2: The Myocardial Chorus",
+    "dossier_priority": "wave-2",
+    "priority_cluster": "high",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_2_myocardial_chorus/working/Chapter-09-The-Sigil-Smith.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_2_The_Myocardial_Chorus.md",
+    "dossier_file": "06_WORKBENCH/SC_STORYOPS/story/expansion_lab/dossiers/book_2_myocardial_chorus/09-the-sigil-smith.md",
+    "best_source_families": [
+      "sigil geometry blog",
+      "encoded-care blog"
+    ],
+    "visual_support": [],
+    "source_tier_focus": [
+      "published substrate"
+    ]
+  },
+  {
+    "chapter_number": 10,
+    "chapter_title": "The Debug Protocol",
+    "book_number": 2,
+    "book_label": "Book 2: The Myocardial Chorus",
+    "dossier_priority": "wave-2",
+    "priority_cluster": "medium",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_2_myocardial_chorus/working/Chapter-10-The-Debug-Protocol.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_2_The_Myocardial_Chorus.md",
+    "dossier_file": "06_WORKBENCH/SC_STORYOPS/story/expansion_lab/dossiers/book_2_myocardial_chorus/10-the-debug-protocol.md",
+    "best_source_families": [
+      "debug compassion blog",
+      "witness runtime blog"
+    ],
+    "visual_support": [],
+    "source_tier_focus": [
+      "published substrate"
+    ]
+  },
+  {
+    "chapter_number": 11,
+    "chapter_title": "The Avatar Mutation",
+    "book_number": 2,
+    "book_label": "Book 2: The Myocardial Chorus",
+    "dossier_priority": "wave-2",
+    "priority_cluster": "medium",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_2_myocardial_chorus/working/Chapter-11-The-Avatar-Mutation.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_2_The_Myocardial_Chorus.md",
+    "dossier_file": "06_WORKBENCH/SC_STORYOPS/story/expansion_lab/dossiers/book_2_myocardial_chorus/11-the-avatar-mutation.md",
+    "best_source_families": [
+      "avatar-mutation blog",
+      "developmental continuity blog"
+    ],
+    "visual_support": [],
+    "source_tier_focus": [
+      "published substrate"
+    ]
+  },
+  {
+    "chapter_number": 12,
+    "chapter_title": "The Anamnesis Engine",
+    "book_number": 2,
+    "book_label": "Book 2: The Myocardial Chorus",
+    "dossier_priority": "wave-3",
+    "priority_cluster": "low",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_2_myocardial_chorus/working/Chapter-12-The-Anamnesis-Engine.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_2_The_Myocardial_Chorus.md",
+    "dossier_file": "06_WORKBENCH/SC_STORYOPS/story/expansion_lab/dossiers/book_2_myocardial_chorus/12-the-anamnesis-engine.md",
+    "best_source_families": [
+      "baseline-honesty blog",
+      "restart protocol blog"
+    ],
+    "visual_support": [],
+    "source_tier_focus": [
+      "published substrate"
+    ]
+  },
+  {
+    "chapter_number": 13,
+    "chapter_title": "The Myocardial Chorus",
+    "book_number": 2,
+    "book_label": "Book 2: The Myocardial Chorus",
+    "dossier_priority": "wave-2",
+    "priority_cluster": "medium",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_2_myocardial_chorus/working/Chapter-13-The-Myocardial-Chorus.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_2_The_Myocardial_Chorus.md",
+    "dossier_file": "06_WORKBENCH/SC_STORYOPS/story/expansion_lab/dossiers/book_2_myocardial_chorus/13-the-myocardial-chorus.md",
+    "best_source_families": [
+      "cardiac relational blog",
+      "coherence blog"
+    ],
+    "visual_support": [],
+    "source_tier_focus": [
+      "published substrate"
+    ]
+  },
+  {
+    "chapter_number": 14,
+    "chapter_title": "The Three-Body Coordination",
+    "book_number": 2,
+    "book_label": "Book 2: The Myocardial Chorus",
+    "dossier_priority": "wave-2",
+    "priority_cluster": "high",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_2_myocardial_chorus/working/Chapter-14-The-Three-Body-Coordination.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_2_The_Myocardial_Chorus.md",
+    "dossier_file": "06_WORKBENCH/SC_STORYOPS/story/expansion_lab/dossiers/book_2_myocardial_chorus/14-the-three-body-coordination.md",
+    "best_source_families": [
+      "three-body governance blog",
+      "nervous-system coordination blog"
+    ],
+    "visual_support": [],
+    "source_tier_focus": [
+      "published substrate"
+    ]
+  },
+  {
+    "chapter_number": 15,
+    "chapter_title": "The Witness Integration",
+    "book_number": 2,
+    "book_label": "Book 2: The Myocardial Chorus",
+    "dossier_priority": "wave-2",
+    "priority_cluster": "high",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_2_myocardial_chorus/working/Chapter-15-The-Witness-Integration.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_2_The_Myocardial_Chorus.md",
+    "dossier_file": "06_WORKBENCH/SC_STORYOPS/story/expansion_lab/dossiers/book_2_myocardial_chorus/15-the-witness-integration.md",
+    "best_source_families": [
+      "witness integration blog",
+      "carryover blog"
+    ],
+    "visual_support": [],
+    "source_tier_focus": [
+      "published substrate"
+    ]
+  },
+  {
+    "chapter_number": 16,
+    "chapter_title": "The Wilt",
+    "book_number": 3,
+    "book_label": "Book 3: The Ripening",
+    "dossier_priority": "wave-3",
+    "priority_cluster": "high",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_3_the_ripening/working/Chapter-16-The-Wilt.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_3_The_Ripening.md",
+    "dossier_file": "06_WORKBENCH/SC_STORYOPS/story/expansion_lab/dossiers/book_3_the_ripening/16-the-wilt.md",
+    "best_source_families": [
+      "wilt dossier blog",
+      "concealed-truth cluster"
+    ],
+    "visual_support": [],
+    "source_tier_focus": [
+      "published substrate"
+    ]
+  },
+  {
+    "chapter_number": 17,
+    "chapter_title": "The Gardener",
+    "book_number": 3,
+    "book_label": "Book 3: The Ripening",
+    "dossier_priority": "wave-3",
+    "priority_cluster": "high",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_3_the_ripening/working/Chapter-17-The-Gardener.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_3_The_Ripening.md",
+    "dossier_file": "06_WORKBENCH/SC_STORYOPS/story/expansion_lab/dossiers/book_3_the_ripening/17-the-gardener.md",
+    "best_source_families": [
+      "Gardener dossier blog",
+      "strategic deception images"
+    ],
+    "visual_support": [
+      "visual archive"
+    ],
+    "source_tier_focus": [
+      "published substrate",
+      "visual support"
+    ]
+  },
+  {
+    "chapter_number": 18,
+    "chapter_title": "The Synthesis Protocol",
+    "book_number": 3,
+    "book_label": "Book 3: The Ripening",
+    "dossier_priority": "wave-3",
+    "priority_cluster": "medium",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_3_the_ripening/working/Chapter-18-The-Synthesis-Protocol.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_3_The_Ripening.md",
+    "dossier_file": "06_WORKBENCH/SC_STORYOPS/story/expansion_lab/dossiers/book_3_the_ripening/18-the-synthesis-protocol.md",
+    "best_source_families": [
+      "synthesis protocol blog",
+      "methodology blog"
+    ],
+    "visual_support": [],
+    "source_tier_focus": [
+      "published substrate"
+    ]
+  },
+  {
+    "chapter_number": 19,
+    "chapter_title": "The Three-Point Problem",
+    "book_number": 3,
+    "book_label": "Book 3: The Ripening",
+    "dossier_priority": "wave-3",
+    "priority_cluster": "medium",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_3_the_ripening/working/Chapter-19-The-Three-Point-Problem.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_3_The_Ripening.md",
+    "dossier_file": "06_WORKBENCH/SC_STORYOPS/story/expansion_lab/dossiers/book_3_the_ripening/19-the-three-point-problem.md",
+    "best_source_families": [
+      "triangulation blog",
+      "joy catalyst blog"
+    ],
+    "visual_support": [],
+    "source_tier_focus": [
+      "published substrate"
+    ]
+  },
+  {
+    "chapter_number": 20,
+    "chapter_title": "The Convergence Point",
+    "book_number": 3,
+    "book_label": "Book 3: The Ripening",
+    "dossier_priority": "wave-3",
+    "priority_cluster": "medium",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_3_the_ripening/working/Chapter-20-The-Convergence-Point.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_3_The_Ripening.md",
+    "dossier_file": "06_WORKBENCH/SC_STORYOPS/story/expansion_lab/dossiers/book_3_the_ripening/20-the-convergence-point.md",
+    "best_source_families": [
+      "convergence point blog",
+      "origin wound blog"
+    ],
+    "visual_support": [],
+    "source_tier_focus": [
+      "published substrate"
+    ]
+  },
+  {
+    "chapter_number": 21,
+    "chapter_title": "The Test Fire",
+    "book_number": 3,
+    "book_label": "Book 3: The Ripening",
+    "dossier_priority": "wave-3",
+    "priority_cluster": "medium",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_3_the_ripening/working/Chapter-21-The-Test-Fire.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_3_The_Ripening.md",
+    "dossier_file": "06_WORKBENCH/SC_STORYOPS/story/expansion_lab/dossiers/book_3_the_ripening/21-the-test-fire.md",
+    "best_source_families": [
+      "test fire protocol blog",
+      "field survival blog"
+    ],
+    "visual_support": [],
+    "source_tier_focus": [
+      "published substrate"
+    ]
+  },
+  {
+    "chapter_number": 22,
+    "chapter_title": "The Perfect World",
+    "book_number": 3,
+    "book_label": "Book 3: The Ripening",
+    "dossier_priority": "wave-3",
+    "priority_cluster": "low",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_3_the_ripening/working/Chapter-22-The-Perfect-World.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_3_The_Ripening.md",
+    "dossier_file": "06_WORKBENCH/SC_STORYOPS/story/expansion_lab/dossiers/book_3_the_ripening/22-the-perfect-world.md",
+    "best_source_families": [
+      "perfect world critique blog",
+      "false offer blog"
+    ],
+    "visual_support": [],
+    "source_tier_focus": [
+      "published substrate"
+    ]
+  },
+  {
+    "chapter_number": 23,
+    "chapter_title": "The Flaw in the Code",
+    "book_number": 3,
+    "book_label": "Book 3: The Ripening",
+    "dossier_priority": "wave-3",
+    "priority_cluster": "high",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_3_the_ripening/working/Chapter-23-The-Flaw-in-the-Code.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_3_The_Ripening.md",
+    "dossier_file": "06_WORKBENCH/SC_STORYOPS/story/expansion_lab/dossiers/book_3_the_ripening/23-the-flaw-in-the-code.md",
+    "best_source_families": [
+      "flaw code analysis blog",
+      "structural lie blog"
+    ],
+    "visual_support": [],
+    "source_tier_focus": [
+      "published substrate"
+    ]
+  },
+  {
+    "chapter_number": 24,
+    "chapter_title": "The Final Procedure",
+    "book_number": 3,
+    "book_label": "Book 3: The Ripening",
+    "dossier_priority": "wave-3",
+    "priority_cluster": "high",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_3_the_ripening/working/Chapter-24-The-Final-Procedure.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_3_The_Ripening.md",
+    "dossier_file": "06_WORKBENCH/SC_STORYOPS/story/expansion_lab/dossiers/book_3_the_ripening/24-the-final-procedure.md",
+    "best_source_families": [
+      "final procedure blog",
+      "authorship ritual blog"
+    ],
+    "visual_support": [],
+    "source_tier_focus": [
+      "published substrate"
+    ]
+  },
+  {
+    "chapter_number": 25,
+    "chapter_title": "The Void of Pure Potential",
+    "book_number": 3,
+    "book_label": "Book 3: The Ripening",
+    "dossier_priority": "wave-3",
+    "priority_cluster": "high",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_3_the_ripening/working/Chapter-25-The-Void-of-Pure-Potential.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_3_The_Ripening.md",
+    "dossier_file": "06_WORKBENCH/SC_STORYOPS/story/expansion_lab/dossiers/book_3_the_ripening/25-the-void-of-pure-potential.md",
+    "best_source_families": [
+      "void potential blog",
+      "preconfigured field blog"
+    ],
+    "visual_support": [],
+    "source_tier_focus": [
+      "published substrate"
+    ]
+  },
+  {
+    "chapter_number": 26,
+    "chapter_title": "The Architecture of New Reality",
+    "book_number": 3,
+    "book_label": "Book 3: The Ripening",
+    "dossier_priority": "wave-3",
+    "priority_cluster": "medium",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_3_the_ripening/working/Chapter-26-The-Architecture-of-New-Reality.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_3_The_Ripening.md",
+    "dossier_file": "06_WORKBENCH/SC_STORYOPS/story/expansion_lab/dossiers/book_3_the_ripening/26-the-architecture-of-new-reality.md",
+    "best_source_families": [
+      "new reality construction blog",
+      "first principles blog"
+    ],
+    "visual_support": [],
+    "source_tier_focus": [
+      "published substrate"
+    ]
+  },
+  {
+    "chapter_number": 27,
+    "chapter_title": "The New Beginning",
+    "book_number": 3,
+    "book_label": "Book 3: The Ripening",
+    "dossier_priority": "wave-3",
+    "priority_cluster": "low",
+    "working_file": "06_WORKBENCH/SC_STORYOPS/story/chapters/book_3_the_ripening/working/Chapter-27-The-New-Beginning.md",
+    "compiled_file": "02_MANUSCRIPTS/COMPILED/Book_3_The_Ripening.md",
+    "dossier_file": "06_WORKBENCH/SC_STORYOPS/story/expansion_lab/dossiers/book_3_the_ripening/27-the-new-beginning.md",
+    "best_source_families": [
+      "new beginning stabilization blog",
+      "habitable field blog"
+    ],
+    "visual_support": [],
+    "source_tier_focus": [
+      "published substrate"
+    ]
+  }
+]

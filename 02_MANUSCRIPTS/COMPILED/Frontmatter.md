@@ -33,6 +33,9 @@ All rights reserved. No part of this book may be reproduced in any form without 
 
 ## Table of Contents
 
+### Frontmatter
+*   **Preface:** A Reader's Note
+
 ### Book I: The Anamnesis Engine
 *   **Chapter 1:** The Choroid Plexus
 *   **Chapter 2:** Signal Transduction
@@ -65,5 +68,10 @@ All rights reserved. No part of this book may be reproduced in any form without 
 *   **Chapter 25:** The Void of Pure Potential
 *   **Chapter 26:** The Architecture of New Reality
 *   **Chapter 27:** The New Beginning
+
+### Backmatter
+*   **Glossary of Terms & Concepts**
+*   **Selected Bibliography and Substrate**
+*   **Closing Note**
 
 ---
