@@ -393,7 +393,7 @@ This file is the active source of truth for repository execution status.
   - [x] Saved `gate-9` passes with `braid_balance=8`, `wit_lane_distinction=7`, `temperature_variation=8`, `double_meaning_density=6`, `humor_pressure_release=7`.
   - [x] Hard-ban and lexical scan clean.
   - [x] Rejected scratch inserts excluded from commit.
-- [ ] Commit and push `Chapter 23` only after it passes acceptance.
+- [x] Commit and push `Chapter 23` only after it passes acceptance.
 - [ ] Next live step after commit: expand `Chapter 24` from its populated dossier and accepted `Chapter 23` cut-line, preserving severance as a live act without bleeding into Chapter `25` void aftermath.
 
 ### NEP-006 Matrix Revision
