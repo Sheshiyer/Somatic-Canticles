@@ -332,6 +332,59 @@ CHAPTER_FORBIDDEN_TOKENS = {
         "Mira stood",
         "Mira moved",
     ],
+    19: [
+        "The Gardener said",
+        "The Gardener asked",
+        "The Gardener answered",
+        "The Gardener replied",
+        "The Gardener spoke",
+        "Gardener said",
+        "Gardener asked",
+        "Gardener answered",
+        "Gardener replied",
+        "Gardener spoke",
+        "law of nature",
+        "homeostasis",
+        "maintenance algorithm",
+        "mechanism was the universe",
+        "system sermon",
+        "crystal",
+        "crystals",
+        "conduit",
+        "conduits",
+        "temporal regulator",
+        "opalescent slab",
+        "side console",
+        "countdown",
+        "timer ticked",
+        "triangulation solved",
+        "triangulation was solved",
+        "triangulation complete",
+        "triangulation was complete",
+        "the problem was solved",
+        "problem solved",
+        "alignment achieved",
+        "perfect alignment",
+        "stable triangle",
+        "single vector",
+        "unified witness",
+        "merged field",
+        "single voice",
+        "became one",
+        "fused into",
+        "Test Fire",
+        "test fire",
+        "live fire",
+        "live-fire",
+        "Noetic Network",
+        "operator",
+        "operators",
+        "Mira said",
+        "Mira asked",
+        "Mira answered",
+        "Mira stood",
+        "Mira moved",
+    ],
     11: [
         "Mira",
         "Jax",
@@ -359,6 +412,13 @@ CHAPTER_CAST_HINTS = {
         "For Chapter 18, keep named people limited to Corv, Sona, Jian, Gideon, and Mira Verath. "
         "Mira Verath may appear only as the case subject, data trace, lineage lattice, or recovery consequence; do not make her speak or act as a helper. "
         "The Gardener may be referenced only as the prior encounter, residue, pressure, or correction logic; do not give it new dialogue or an on-page presence."
+    ),
+    19: (
+        "For Chapter 19, keep named people limited to Corv, Sona, Jian, Gideon, and Mira Verath. "
+        "Mira Verath may appear only as the proof case, data trace, lineage lattice, or House-review consequence; do not make her speak or act as a helper. "
+        "Mira Verath has no dialogue or wit lane in Chapter 19; evaluate live voice distinction only for Corv, Sona, Jian, and Gideon. "
+        "The Gardener may be referenced only as prior pressure or correction logic; do not give it new dialogue or on-page agency. "
+        "No new operators, assistants, monitors, named House delegates, or extra spoken roles."
     ),
     11: (
         "For Chapter 11, keep named people limited to Corv, Sona, Jian, and Gideon. "
@@ -519,6 +579,16 @@ def chapter_insert_guidance(chapter_number: int) -> str:
             "Deepen field-surgery pressure: hands on interfaces, telemetry lag, House classification risk, Verath-lattice evidence, failed timing attempts, and exact threshold discipline. "
             "Keep the three vectors exact and role-bound: Sona holds Pure Joy as calibrated aliveness, Corv holds Catalyst Clarity as the undecorated Bell moment, Gideon holds Present Coherence as passage discipline, and Jian tracks the moving constellation without pretending the map is sovereign. "
             "Build toward Chapter 19 by making the Three-Point Problem harder and more concrete, not by solving it."
+        )
+    if chapter_number == 19:
+        return (
+            "Chapter 19 insertion lane: remain in the immediate aftermath of Chapter 18 inside the Anamnesis Engine chamber. "
+            "The chapter must define and stress-test the Three-Point Problem as unresolved procedure, not solve triangulation, cross the threshold, or begin the Chapter 21 Test Fire. "
+            "Do not repeat the Gardener sermon, add new Gardener dialogue, or explain the problem as universe/law/homeostasis/system theory. "
+            "Do not present the team as merged, unified into one witness, perfectly aligned, or done with the problem; the correct ending posture is disciplined readiness with no guarantee. "
+            "Deepen the exact roles: Sona holds Pure Joy without bargain or anesthesia, Corv holds Catalyst Clarity without story inflation, Gideon holds Present Coherence as passage discipline rather than suppression, and Jian tracks exact relation without letting mathematics replace lived witness. "
+            "Use geometric and endocrine-muse pressure only as embodied metaphor and scene behavior; keep the symbolic scaffold submerged and never name it aloud. "
+            "Add House-review consequence, Corv/Gideon discipline tension, Jian's temptation toward elegant false simplification, and breath/body telemetry around the 13.7-second, 0.1-tolerance, 24-hour recovery stakes."
         )
     return "No extra chapter-specific insert guidance."
 

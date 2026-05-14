@@ -240,7 +240,7 @@ This file is the active source of truth for repository execution status.
   - Result: `Chapter 16` accepted at `12,219` words with saved `gate-9` scores: `braid_balance=9`, `wit_lane_distinction=8`, `temperature_variation=8`, `double_meaning_density=7`, `humor_pressure_release=8`.
 - [x] Commit and push Chapter `16` only after it passes acceptance.
 - [ ] Continue Book `3` serially through Chapters `17-27`, widening only if a chapter route proves safe and has no dependency on unresolved prior-chapter prose.
-  - Next live step after commit: expand `Chapter 17` from its populated dossier while preserving the Chapter `16` handoff into an unresolved Gardener-facing descent.
+  - Current live step: expand `Chapter 19` from its populated dossier and accepted `Chapter 18` handoff, preserving the Three-Point Problem as unresolved procedure rather than solved triangulation.
 
 ### NEP-017 Book 3 Chapter 17 Expansion
 
@@ -274,14 +274,38 @@ This file is the active source of truth for repository execution status.
   - [x] Add Chapter `18` insert guidance that keeps Pure Joy / Catalyst Clarity / Present Coherence exact and builds toward the Three-Point Problem without solving it.
 - [x] Expand `Chapter 18` from the populated dossier and accepted `Chapter 17` handoff.
   - Result: accepted at `8,055` words after the default Qwen route stalled/false-failed on over-broad validation, the draft lane was rerouted through GPT-OSS, and the closing third was surgically rewritten to replace repeated calibration/spec loops with House-pressure, body consequence, distinct voice, and semantic-correction stakes.
-- [ ] Verify `Chapter 18` acceptance:
+- [x] Verify `Chapter 18` acceptance:
   - [x] Working/raw parity clean.
   - [x] Saved style gate passes braid, wit lanes, temperature variation, double meaning, and pressure-release thresholds.
   - [x] Hard-ban and lexical scan clean.
   - [x] Rejected scratch inserts excluded from commit.
   - Result: saved `gate-9` scores are `braid_balance=8`, `wit_lane_distinction=8`, `temperature_variation=7`, `double_meaning_density=8`, `humor_pressure_release=7`.
 - [x] Commit and push `Chapter 18` only after it passes acceptance.
-- [ ] Next live step after commit: expand `Chapter 19` from its populated dossier and the accepted `Chapter 18` handoff, preserving the Three-Point Problem as unresolved procedure rather than solved triangulation.
+- [x] Next live step after commit: expand `Chapter 19` from its populated dossier and the accepted `Chapter 18` handoff, preserving the Three-Point Problem as unresolved procedure rather than solved triangulation.
+
+### NEP-019 Book 3 Chapter 19 Expansion
+
+- [x] Review `Chapter 19` dossier, route, current working draft, and accepted `Chapter 18` handoff.
+  - Route: default Kimi route is rerouted to `qwen/qwen3.5-122b-a10b`; control remains `openai/gpt-oss-120b`; pass floor is `8,200` words.
+  - Macro target: low band is `10,250` words, but this pass uses the proven chapter-floor acceptance gate before later macro rebalancing.
+  - Current draft issues: old preamble metadata, under-length at `1,598` normalized words, residual legacy cadence term, and high risk of solving triangulation too early.
+  - Governing constraint: deepen the Three-Point Problem as live procedure under House-review pressure, not as completed alignment, merged witness, or Chapter `21` Test Fire.
+- [x] Harden the runner for `Chapter 19` before launch:
+  - [x] Add Chapter `19` cast guidance allowing only Corv, Sona, Jian, Gideon, and Mira Verath as proof case / trace / review consequence.
+  - [x] Ban observed/probable triangulation drift: new Gardener dialogue, system-sermon language, solved-triangle posture, Test Fire bleed, new operators, and merger/unified-witness phrasing.
+  - [x] Add Chapter `19` insert guidance that keeps Pure Joy / Catalyst Clarity / Present Coherence exact and unresolved while deepening geometry, House pressure, Jian's false-elegance temptation, and Corv/Gideon discipline tension.
+- [x] Expand `Chapter 19` from the populated dossier and accepted `Chapter 18` handoff.
+  - Result: accepted at `8,239` words after rejecting the first automated `8,262`-word output despite its passing gate because manual review found repeated calibration passages, unsupported prop logic, and false countdown pressure.
+  - Repair: rebuilt the accepted surface from the clean chapter spine with controlled additions for higher-dimensional relation, House-review pressure, body cost, Mira-as-person-before-evidence, and a dry interval that defines convergence preparation without executing it.
+  - Runner hardening: added Chapter `19` bans for unsupported prop/countdown drift and clarified that Mira Verath has no dialogue or wit lane in this chapter.
+- [x] Verify `Chapter 19` acceptance:
+  - [x] Working/raw parity clean.
+  - [x] Saved style gate passes braid, wit lanes, temperature variation, double meaning, and pressure-release thresholds.
+  - [x] Hard-ban and lexical scan clean.
+  - [x] Rejected scratch inserts excluded from commit.
+  - Result: saved `gate-9` scores are `braid_balance=8`, `wit_lane_distinction=7`, `temperature_variation=8`, `double_meaning_density=7`, `humor_pressure_release=8`.
+- [ ] Commit and push `Chapter 19` only after it passes acceptance.
+- [ ] Next live step after commit: expand `Chapter 20` from its populated dossier and accepted `Chapter 19` handoff, preserving convergence as threshold preparation rather than live-fire execution.
 
 ### NEP-006 Matrix Revision
 
