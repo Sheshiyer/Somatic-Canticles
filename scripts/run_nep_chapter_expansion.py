@@ -461,6 +461,88 @@ CHAPTER_FORBIDDEN_TOKENS = {
         "Anvel asked",
         "Anvel answered",
     ],
+    21: [
+        "The Gardener said",
+        "The Gardener asked",
+        "The Gardener answered",
+        "The Gardener replied",
+        "The Gardener spoke",
+        "Gardener said",
+        "Gardener asked",
+        "Gardener answered",
+        "Gardener replied",
+        "Gardener spoke",
+        "law of nature",
+        "homeostasis",
+        "maintenance algorithm",
+        "mechanism was the universe",
+        "universe",
+        "system sermon",
+        "crystal",
+        "crystals",
+        "conduit",
+        "conduits",
+        "copper rim",
+        "wrist-pad",
+        "wrist-band",
+        "holo-grid",
+        "data packet",
+        "Review Board",
+        "Engine offered",
+        "the Engine offered",
+        "Engine whispered",
+        "algorithm whispered",
+        "console's glass",
+        "Catalyst Clarity dial",
+        "temporal regulator",
+        "opalescent slab",
+        "side console",
+        "countdown",
+        "timer ticked",
+        "Triangulation Engine",
+        "passage attempted",
+        "entered the gap",
+        "crossed the gap",
+        "crossed the threshold",
+        "stepped through",
+        "severance complete",
+        "Severance complete",
+        "severed the lineage",
+        "cut the Vine",
+        "convergence complete",
+        "convergence was complete",
+        "opening mastered",
+        "passage mastered",
+        "alignment achieved",
+        "perfect alignment",
+        "single vector",
+        "unified witness",
+        "merged field",
+        "single voice",
+        "became one",
+        "fused into",
+        "Perfect World",
+        "perfect world",
+        "painless meaning",
+        "flawless explanation",
+        "false mercy",
+        "custom temptation",
+        "Noetic Network",
+        "operator",
+        "operators",
+        "House envoy",
+        "house envoy",
+        "House delegate",
+        "house delegate",
+        "Mira said",
+        "Mira asked",
+        "Mira answered",
+        "Mira stood",
+        "Mira moved",
+        "Anvel said",
+        "Anvel asked",
+        "Anvel answered",
+    ],
     11: [
         "Mira",
         "Jax",
@@ -501,6 +583,13 @@ CHAPTER_CAST_HINTS = {
         "Mira Verath may appear only as proof case, data trace, lineage lattice, or review consequence; Anvel Verath may appear only as the remembered origin point, not an on-page speaker. "
         "Mira and Anvel have no dialogue or wit lanes in Chapter 20; evaluate live voice distinction only for Corv, Sona, Jian, and Gideon. "
         "The Gardener may be referenced only as prior pressure or correction logic; do not give it new dialogue or on-page agency. "
+        "No new operators, assistants, monitors, House envoys, House delegates, named officials, or extra spoken roles."
+    ),
+    21: (
+        "For Chapter 21, keep named people limited to Corv, Sona, Jian, Gideon, Mira Verath, and Anvel Verath as a historical wound coordinate only. "
+        "Mira Verath may appear only as proof case, data trace, lineage lattice, or review consequence; Anvel Verath may appear only as the remembered origin point, not an on-page speaker. "
+        "Mira and Anvel have no dialogue or wit lanes in Chapter 21; evaluate live voice distinction only for Corv, Sona, Jian, and Gideon. "
+        "The Gardener may be present only as hostile load, pressure, or correction attention; do not give it dialogue, image-body, or on-page personhood. "
         "No new operators, assistants, monitors, House envoys, House delegates, named officials, or extra spoken roles."
     ),
     11: (
@@ -682,6 +771,16 @@ def chapter_insert_guidance(chapter_number: int) -> str:
             "Deepen the originating wound without domesticating it: Corv holds Catalyst Clarity at the Bell coordinate without turning pain into doctrine, Sona holds Pure Joy without uplift or anesthesia, Gideon keeps Present Coherence as spacing rather than wall-building, and Jian tracks the negative vertex without smoothing the model. "
             "Use hypercube/negative-vertex and endocrine rhythm only as embodied metaphor and scene behavior; keep the symbolic scaffold submerged and never name it aloud. "
             "Show House-review pressure through report traces, classification risk, and institutional language, not through new on-page speakers."
+        )
+    if chapter_number == 21:
+        return (
+            "Chapter 21 insertion lane: inherit accepted Chapter 20 convergence visibility and enact only the first controlled hostile-contact Test Fire. "
+            "The test may expose the held field to one bounded pressure/contact window, but it must not cross, enter, sever, complete passage, or begin Chapter 22's individualized temptation logic. "
+            "The Gardener may register only as hostile load, pressure, or correction attention; do not add Gardener dialogue, image-body, explanation, or sermon. "
+            "Do not present the Test Fire as solved, complete, mastered, salvific, or as merger/fusion/unity of the team. "
+            "Keep the local procedure exact: Sona holds Pure Joy as unbought aliveness, Corv holds Catalyst Clarity at the wound without myth, Jian keeps the interval raw and kills smoothing, and Gideon maintains edges without wall-building. "
+            "Deepen body stakes with metallic taste, vessel hum, skin-tightening, breath load, and Amrita pressure only where scene-native; keep biological metaphor grounded and do not import literal reptilian mechanics. "
+            "End with counterfeit kindness / relief as the discovered next danger, but do not open Chapter 22's Perfect World or personal temptation offers."
         )
     return "No extra chapter-specific insert guidance."
 

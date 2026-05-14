@@ -329,7 +329,29 @@ This file is the active source of truth for repository execution status.
   - [x] Rejected scratch inserts excluded from commit.
   - Result: saved `gate-9` scores are `braid_balance=8`, `wit_lane_distinction=8`, `temperature_variation=7`, `double_meaning_density=7`, `humor_pressure_release=8`.
 - [x] Commit and push `Chapter 20` only after it passes acceptance.
-- [ ] Next live step after commit: expand `Chapter 21` from its populated dossier and accepted `Chapter 20` handoff, preserving hostile-contact Test Fire as local procedure without bleeding into Chapter `22` temptation logic.
+- [x] Next live step after commit: expand `Chapter 21` from its populated dossier and accepted `Chapter 20` handoff, preserving hostile-contact Test Fire as local procedure without bleeding into Chapter `22` temptation logic.
+
+### NEP-021 Book 3 Chapter 21 Expansion
+
+- [x] Review `Chapter 21` dossier, route, current working draft, and accepted `Chapter 20` handoff.
+  - Route: default Kimi route is rerouted to `qwen/qwen3.5-122b-a10b`; control remains `openai/gpt-oss-120b`; pass floor is `8,080` words.
+  - Macro target: low band is `10,100` words, but this pass uses the proven chapter-floor acceptance gate before later macro rebalancing.
+  - Current draft issues: old preamble metadata, under-length at `1,565` normalized words, stale `frequency` / `Triangulation Engine` drift, compressed hostile-contact pressure, and risk of bleeding into Chapter `22` temptation logic.
+  - Governing constraint: the Test Fire is a bounded hostile-contact exposure only; it may discover counterfeit kindness / relief as the next danger, but it must not cross, sever, complete passage, or open personal temptation offers.
+- [x] Harden the runner for `Chapter 21` before launch:
+  - [x] Add Chapter `21` cast guidance allowing Corv, Sona, Jian, Gideon, Mira Verath as proof case / trace, Anvel Verath only as historical wound coordinate, and the Gardener only as hostile load / correction attention.
+  - [x] Ban observed/probable Test Fire drift: new Gardener dialogue, solved/mastered passage posture, Test Fire bleed into Chapter `22`, unsupported props, new House speakers, stale Triangulation Engine naming, and merger/unified-witness phrasing.
+  - [x] Add Chapter `21` insert guidance that keeps the one controlled hostile-contact window exact while deepening vessel hum, metallic taste, edge discipline, review pressure, and counterfeit-kindness discovery.
+- [x] Expand `Chapter 21` from the populated dossier and accepted `Chapter 20` handoff.
+  - Result: the monitored GPT-OSS insert-first run failed safely after repeated hard-ban contamination and style-gate flattening, so the accepted lane uses a controlled dossier/source-bound rebuild from the clean Test Fire spine.
+  - Repair: expanded the one-second hostile-contact exposure with vessel hum, metallic taste, body-signal timing, House-review simulation pressure, counterfeit-kindness detection, and differentiated witness humor while preserving the boundary against Chapter `22` personal temptation.
+- [x] Verify `Chapter 21` acceptance:
+  - [x] Working/raw parity clean at `8,265` words.
+  - [x] Saved `gate-9` passes with `braid_balance=8`, `wit_lane_distinction=8`, `temperature_variation=7`, `double_meaning_density=7`, `humor_pressure_release=8`.
+  - [x] Hard-ban and lexical scan clean.
+  - [x] Rejected scratch inserts excluded from commit.
+- [ ] Commit and push `Chapter 21` only after it passes acceptance.
+- [ ] Next live step after commit: expand `Chapter 22` from its populated dossier and accepted `Chapter 21` handoff, preserving individualized temptation logic without bleeding into Chapter `23` safety/control temptation.
 
 ### NEP-006 Matrix Revision
 
