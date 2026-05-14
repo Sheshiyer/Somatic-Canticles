@@ -90,6 +90,7 @@ def chat_completion(
                         context=context,
                         response_body=parsed,
                         location=response.headers.get("Location"),
+                        timeout_seconds=timeout_seconds,
                     )
                 if parsed.get("requestId") and not parsed.get("choices"):
                     return poll_request_result(
@@ -97,6 +98,7 @@ def chat_completion(
                         context=context,
                         response_body=parsed,
                         location=response.headers.get("Location"),
+                        timeout_seconds=timeout_seconds,
                     )
                 return parsed
         except urllib.error.HTTPError as exc:
@@ -120,7 +122,8 @@ def chat_completion(
 
 def extract_text(response: dict[str, Any]) -> str:
     try:
-        content = response["choices"][0]["message"]["content"]
+        message = response["choices"][0]["message"]
+        content = message.get("content")
         if isinstance(content, str):
             return content
         if isinstance(content, list):
@@ -132,6 +135,10 @@ def extract_text(response: dict[str, Any]) -> str:
                         parts.append(text)
             if parts:
                 return "\n".join(parts)
+        for fallback_key in ("reasoning_content", "reasoning"):
+            fallback = message.get(fallback_key)
+            if isinstance(fallback, str) and fallback.strip():
+                return fallback
         raise TypeError(f"Unsupported content type: {type(content)!r}")
     except Exception as exc:
         raise RuntimeError(f"Unexpected response shape: {json.dumps(response)[:1000]}") from exc
@@ -171,13 +178,14 @@ def poll_request_result(
 
     deadline = time.time() + timeout_seconds
     while time.time() < deadline:
+        request_timeout = max(1, min(120, int(deadline - time.time())))
         req = urllib.request.Request(
             location,
             headers={"Authorization": f"Bearer {settings['api_key']}"},
             method="GET",
         )
         try:
-            with urllib.request.urlopen(req, timeout=120, context=context) as response:
+            with urllib.request.urlopen(req, timeout=request_timeout, context=context) as response:
                 raw = response.read().decode("utf-8")
                 parsed = json.loads(raw) if raw else {}
                 if response.status == 202:

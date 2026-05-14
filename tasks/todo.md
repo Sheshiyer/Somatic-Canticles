@@ -16,6 +16,13 @@ This file is the active source of truth for repository execution status.
   - `Book 1` dossier-driven long-form expansion
   - `Book 2` dossier-driven long-form expansion
   - `Book 3` dossier-driven long-form expansion
+- [ ] Begin the Book `2` expansion lane only after applying Book `1` runner lessons:
+  - [x] Review Book `1` compression, duplicate-insert, style-gate, and named-operator lessons before selecting routes
+  - [x] Probe current NVIDIA model availability instead of trusting the original Kimi/MiniMax plan
+  - [x] Patch NVIDIA `202` polling so caller timeouts control hung model probes and monitored runs
+  - [x] Reroute Book `2` dossiers and matrix rows to `qwen/qwen3.5-122b-a10b` for draft and `openai/gpt-oss-120b` for control
+  - [x] Validate the resolved `Chapter 09` route with `--print-route`
+  - [x] Start the monitored `Chapter 09` Book `2` smoke expansion only after route validation passes
 - [x] Launch Wave `P2/W2` in parallel:
   - `NEP-003` / issue `#26`: repo-wide synthesis over canon and StoryOps surfaces
   - `NEP-004` / issue `#27`: source-root filters for blog, vault, and area corpora
@@ -144,6 +151,39 @@ This file is the active source of truth for repository execution status.
   - [ ] Gate `Chapter 03`, verify raw parity/residue, and refresh the Book `1` audit
   - [ ] Run `Chapter 05` additive expansion toward its `9,700` macro low target while preserving endocrine doctrine stakes without flattening into biology-heavy exposition
   - [ ] Gate `Chapter 05`, verify raw parity/residue, and refresh the Book `1` audit
+
+### NEP-015 Book 2 Routing Prep
+
+- [x] Recorded model probe results in `generated/book_2_model_routing_probe_v1.md`
+- [x] Classified current routes: `qwen/qwen3.5-122b-a10b` as guarded Book `2` draft, `openai/gpt-oss-120b` as control, Kimi/MiniMax as opt-in only, Mistral Large as opt-in slow lane only
+- [x] Updated the runner to resolve both `control_pass` and legacy `control_model`
+- [x] Added `--control-model` and `--print-route` so a chapter route can be validated without launching prose generation
+- [x] Updated Book `2` matrix and all seven Book `2` dossiers to the fresh default route
+- [x] Validate initial route for `Chapter 09` with `--print-route`: effective draft `mistralai/mistral-large-3-675b-instruct-2512`, effective control `openai/gpt-oss-120b`, default floor `9,520`
+- [x] Stop the initial monitored `Chapter 09` smoke after Stage `1` produced no artifact for several minutes on Mistral Large
+- [x] Re-probe fallback candidates and update the NVIDIA client to extract `reasoning_content` / `reasoning` response text
+- [x] Validate rerouted `Chapter 09` path with Qwen: effective draft `qwen/qwen3.5-122b-a10b`, effective control `openai/gpt-oss-120b`
+- [x] Stop the first Qwen smoke before the 900-second timeout because the large full-chapter Stage `1` rewrite still produced no artifact inside the smoke threshold
+- [x] Switch the expansion runner to insert-first from Stage `1` so Book `2` begins with additive growth instead of another full rewrite path
+- [x] Stop the first insert-first smoke after it proved the Chapter `09` working baseline still carried old preamble metadata into merged candidates
+- [x] Normalize the accepted working baseline inside the expansion runner before merge/growth validation
+- [x] Launch a fresh monitored insert-first smoke run from the normalized baseline
+- [x] Promote the clean Stage `3` accepted candidate to the working lane after stopping the oversized final insert: `6,900` words, no residue, gate scores `8/7/8/6/7`
+- [x] Cap per-insert requests at `1,100` words so final-stage growth uses smaller additive chunks instead of another oversized generation
+- [x] Stop the first resume when even a small insert slowed down from resending the full `6,900`-word accepted base
+- [x] Omit full accepted-base context for long insert prompts and use tail/context continuity instead
+- [x] Resume `Chapter 09` again from the accepted `6,900`-word baseline to the `9,520` floor with `--minimum-words 9520`
+- [x] Mark the completed numeric run as not accepted after post-run scan found unsupported `Kael` / `Jory` names and overt Toth/Crowley/Enneagram scaffold terms
+- [x] Add validator hard bans for those unsupported names and explicit symbolic scaffold terms
+- [x] Attempt a control-model canon cleanup on the `10,977`-word candidate; reject it because the model refused instead of repairing
+- [x] Deterministically remove contaminated paragraphs and promote a clean `7,266`-word forge-native baseline with raw parity
+- [x] Regrow attempt from the clean baseline failed safely because Stage `3` repeatedly produced explicit `Toth` and the new validator rejected every contaminated candidate
+- [x] Patch hard-ban failures to switch the next insert attempt to the GPT-OSS control model instead of spending all retries on the same draft model
+- [x] Regrow the clean `7,266`-word baseline to the `9,520` floor with hard bans and control-model fallback active
+  - Result: `NEP-015-B2-C09-CANON3` completed successfully at `10,295` words, with working/raw parity restored and saved gate scores `8/7/8/6/7`.
+  - Verification: post-run scan found no unsupported `Kael` / `Jory` / `Mara`, no overt Toth/Crowley/Enneagram scaffold terms, no ship-setting drift terms, and no preamble residue in the accepted working/raw surface.
+  - Process note: rejected insert scratch artifacts from the run were not committed because they contained hard-ban terms; the durable artifacts are the accepted raw chapter, final voice repair, and gate reports.
+- [ ] Next live step: start `Chapter 10` Book `2` expansion with the same guarded insert-first route, hard-ban rollback, and raw/parity acceptance scan.
 
 ### NEP-006 Matrix Revision
 

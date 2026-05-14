@@ -132,29 +132,30 @@ Vision-derived output from this root is `review-required support`, not canon.
 | Model | Primary job | Why this model |
 | --- | --- | --- |
 | `openai/gpt-oss-120b` | repo-wide canon synthesis, chapter gap analysis, source-family mapping | strongest repo-scale reasoning lane in the current NVIDIA plan |
-| `minimaxai/minimax-m2.7` | automation design, dossier-build helpers, chunking and processing utilities | best fit for agentic workflow design and complex productivity scripts |
-| `moonshotai/kimi-k2-instruct` | expanded chapter drafting | better fit for longer-form generative prose than the current same-model control loop |
-| `moonshotai/kimi-k2-thinking` | pre-draft scene reasoning and restructuring | useful before prose generation when a chapter is rushed, dry, or structurally over-compressed |
-| `nvidia/nemotron-3-super-120b-a12b` or `openai/gpt-oss-120b` | control pass, canon drift check, doctrine inflation check | keeps draft growth bounded by the authority stack |
+| `qwen/qwen3.5-122b-a10b` | Book 2 expanded chapter drafting and additive insert generation | fastest usable Book 2 prose probe after client support for reasoning-content responses; must stay under source-bound style gates |
+| `openai/gpt-oss-120b` | control pass, canon drift check, doctrine inflation check, acceptance repair | fastest reliable control route in current probes and keeps draft growth bounded by the authority stack |
+| `mistralai/mistral-large-3-675b-instruct-2512` | opt-in slow-lane prose experiment | callable on small probes but stopped as too slow at Chapter 09 Stage 1 scale |
+| `minimaxai/minimax-m2.7` | optional automation design only after a fresh probe | current endpoint probes timed out, so it is no longer a default processing path |
+| `moonshotai/kimi-k2-instruct` / `moonshotai/kimi-k2.6` | opt-in only prose or synthesis experiments | Book 1 runs showed compression/copy-repeat behavior and current probes timed out |
 | `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning` | primary multimodal visual/archive pass | use for image-family extraction, motif captioning, and worldbuilding-support intake |
-| `moonshotai/kimi-k2.6` | optional multimodal synthesis pass | use only after visual evidence is extracted and needs chapter-bound narrative interpretation |
+| `qwen/qwen3-next-80b-a3b-instruct` | emergency diagnostic fallback only | fast in probes but drifted toward generic lab language, so it is not a prose authority |
 
 ## Visual Flow
 
 ```mermaid
 flowchart TD
     A["Current Canon and StoryOps Control Plane"] --> B["GPT-OSS-120B Repo Synthesis"]
-    A --> C["MiniMax M2.7 Automation Layer"]
+    A --> C["Fresh Probe and Helper Tooling Layer"]
     A --> D["Source Dossier Builder"]
     J["Vault and Blog Text Roots"] --> D
     K["Noesis and Visual Roots"] --> L["Omni Vision Extraction"]
     B --> E["Chapter Expansion Matrix"]
     C --> D
     L --> D
-    D --> F["Kimi K2 Thinking Chapter Diagnosis"]
+    D --> F["GPT-OSS Control Diagnosis"]
     E --> F
-    F --> G["Kimi K2 Instruct Prose Expansion"]
-    G --> H["Control Model Validation"]
+    F --> G["Qwen 3.5 Guarded Prose Expansion"]
+    G --> H["GPT-OSS Control Validation"]
     H --> I["Compiled Merge-Back Candidate"]
 ```
 

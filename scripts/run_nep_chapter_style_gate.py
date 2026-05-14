@@ -6,7 +6,15 @@ import re
 from pathlib import Path
 
 from lib_storyops_expansion import REPO_ROOT, word_count
-from run_nep_chapter_expansion import RAW_ROOT, load_matrix_row, run_style_gate, validate_style_gate, working_meta
+from run_nep_chapter_expansion import (
+    RAW_ROOT,
+    load_matrix_row,
+    matrix_control_model,
+    resolve_control_model,
+    run_style_gate,
+    validate_style_gate,
+    working_meta,
+)
 
 
 def parse_args() -> argparse.Namespace:
@@ -14,6 +22,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--book", type=int, required=True, choices=[1, 2, 3])
     parser.add_argument("--chapter", type=int, required=True)
     parser.add_argument("--stage", type=int, default=None)
+    parser.add_argument("--control-model", default=None)
     return parser.parse_args()
 
 
@@ -49,8 +58,13 @@ def main() -> None:
     raw_text = raw_path.read_text(encoding="utf-8") if raw_path.exists() else ""
     if raw_text != working_text:
         raise RuntimeError(f"Raw artifact does not match working chapter: {raw_path}")
+    control_model, route_notes = resolve_control_model(matrix_row=matrix_row, override=args.control_model)
+    print(f"matrix_control_model={matrix_control_model(matrix_row)}")
+    print(f"effective_control_model={control_model}")
+    for note in route_notes:
+        print(f"route_note={note}")
     gate = run_style_gate(
-        model=matrix_row.get("control_model", "openai/gpt-oss-120b"),
+        model=control_model,
         chapter_number=args.chapter,
         chapter_title=meta.chapter_title,
         candidate_text=working_text,

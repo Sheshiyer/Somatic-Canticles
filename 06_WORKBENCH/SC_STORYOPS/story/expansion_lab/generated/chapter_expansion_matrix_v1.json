@@ -256,8 +256,8 @@
       "encoded-care blog"
     ],
     "visual_support": [],
-    "draft_model": "moonshotai/kimi-k2.6",
-    "control_pass": "nvidia/nemotron-3-super-120b-a12b",
+    "draft_model": "qwen/qwen3.5-122b-a10b",
+    "control_pass": "openai/gpt-oss-120b",
     "source_tier_focus": [
       "published substrate"
     ],
@@ -285,7 +285,7 @@
       "witness runtime blog"
     ],
     "visual_support": [],
-    "draft_model": "moonshotai/kimi-k2.6",
+    "draft_model": "qwen/qwen3.5-122b-a10b",
     "control_pass": "openai/gpt-oss-120b",
     "source_tier_focus": [
       "published substrate"
@@ -313,7 +313,7 @@
       "developmental continuity blog"
     ],
     "visual_support": [],
-    "draft_model": "moonshotai/kimi-k2.6",
+    "draft_model": "qwen/qwen3.5-122b-a10b",
     "control_pass": "openai/gpt-oss-120b",
     "source_tier_focus": [
       "published substrate"
@@ -342,8 +342,8 @@
       "restart protocol blog"
     ],
     "visual_support": [],
-    "draft_model": "moonshotai/kimi-k2.6",
-    "control_pass": "nvidia/nemotron-3-super-120b-a12b",
+    "draft_model": "qwen/qwen3.5-122b-a10b",
+    "control_pass": "openai/gpt-oss-120b",
     "source_tier_focus": [
       "published substrate"
     ],
@@ -371,7 +371,7 @@
       "coherence blog"
     ],
     "visual_support": [],
-    "draft_model": "moonshotai/kimi-k2.6",
+    "draft_model": "qwen/qwen3.5-122b-a10b",
     "control_pass": "openai/gpt-oss-120b",
     "source_tier_focus": [
       "published substrate"
@@ -400,7 +400,7 @@
       "nervous-system coordination blog"
     ],
     "visual_support": [],
-    "draft_model": "moonshotai/kimi-k2.6",
+    "draft_model": "qwen/qwen3.5-122b-a10b",
     "control_pass": "openai/gpt-oss-120b",
     "source_tier_focus": [
       "published substrate"
@@ -428,8 +428,8 @@
       "carryover blog"
     ],
     "visual_support": [],
-    "draft_model": "moonshotai/kimi-k2.6",
-    "control_pass": "nvidia/nemotron-3-super-120b-a12b",
+    "draft_model": "qwen/qwen3.5-122b-a10b",
+    "control_pass": "openai/gpt-oss-120b",
     "source_tier_focus": [
       "published substrate"
     ],

@@ -50,6 +50,20 @@ RAW_ROOT = (
     / "chapter_expansion_raw"
 )
 CONTROL_MODEL_DEFAULT = "openai/gpt-oss-120b"
+SAFE_DRAFT_MODEL_DEFAULT = "qwen/qwen3.5-122b-a10b"
+PROBED_UNSAFE_DEFAULT_DRAFT_MODELS = {
+    "moonshotai/kimi-k2.6",
+    "moonshotai/kimi-k2-instruct",
+    "moonshotai/kimi-k2-thinking",
+    "minimaxai/minimax-m2.7",
+    "z-ai/glm-5.1",
+    "deepseek-ai/deepseek-v4-pro",
+    "writer/palmyra-creative-122b",
+    "mistralai/mistral-large-3-675b-instruct-2512",
+}
+PROBED_UNSAFE_DEFAULT_CONTROL_MODELS = {
+    "nvidia/nemotron-3-super-120b-a12b",
+}
 STAGE_TIMEOUT_SECONDS = 900
 REPAIR_TIMEOUT_SECONDS = 420
 INSERT_TIMEOUT_SECONDS = 480
@@ -59,7 +73,9 @@ LATE_STAGE_FULL_REPAIR_WORD_LIMIT = 5000
 INSERT_FALLBACK_ATTEMPTS = 5
 VOICE_REPAIR_ATTEMPTS = 2
 DUPLICATE_INSERT_FALLBACK_AFTER = 2
-INSERT_FIRST_STAGE_START = 2
+INSERT_FIRST_STAGE_START = 1
+MAX_INSERT_REQUEST_WORDS = 1100
+LONG_INSERT_CONTEXT_WORDS = 5000
 STYLE_FAILURE_MARKERS = (
     "below 6",
     "solemn",
@@ -93,6 +109,27 @@ FORBIDDEN_TOKENS = [
     "CLIP-Vision",
     "WORLD_BIBLE.md",
     "Preface.md",
+    "Kael",
+    "Jory",
+    "Mara",
+    "Toth",
+    "Tothian",
+    "Crowley",
+    "Crowleyan",
+    "Enneagram",
+    "Hanged Man",
+    "Tarot",
+    "tarot",
+    "corridor",
+    "bulkhead",
+    "reactor",
+    "pipes",
+    "plumbing",
+    "marshmallow",
+    "cockpit",
+    "parachute",
+    "lower deck",
+    "lower-deck",
 ]
 
 
@@ -110,6 +147,16 @@ def parse_args() -> argparse.Namespace:
         "--draft-model",
         default=None,
         help="Override the matrix draft model when the preferred creative route is unavailable.",
+    )
+    parser.add_argument(
+        "--control-model",
+        default=None,
+        help="Override the matrix control_pass/control_model route for gates and acceptance repair.",
+    )
+    parser.add_argument(
+        "--print-route",
+        action="store_true",
+        help="Print the resolved model route and exit without generating prose.",
     )
     parser.add_argument("--force", action="store_true")
     return parser.parse_args()
@@ -144,6 +191,37 @@ def load_target_row(chapter_number: int) -> dict:
         if row["chapter_number"] == chapter_number:
             return row
     raise RuntimeError(f"Missing target profile row for chapter {chapter_number:02d}")
+
+
+def matrix_control_model(matrix_row: dict) -> str:
+    return matrix_row.get("control_model") or matrix_row.get("control_pass") or CONTROL_MODEL_DEFAULT
+
+
+def resolve_draft_model(*, book_number: int, matrix_row: dict, override: str | None) -> tuple[str, list[str]]:
+    matrix_model = matrix_row.get("draft_model")
+    notes: list[str] = []
+    if override:
+        return override, ["draft override supplied"]
+    if matrix_model in PROBED_UNSAFE_DEFAULT_DRAFT_MODELS:
+        notes.append(f"draft rerouted from probed unsafe/default-slow model {matrix_model}")
+        return SAFE_DRAFT_MODEL_DEFAULT, notes
+    if not matrix_model:
+        notes.append("draft missing from matrix; using safe default draft route")
+        return SAFE_DRAFT_MODEL_DEFAULT, notes
+    if book_number == 2 and matrix_model != SAFE_DRAFT_MODEL_DEFAULT:
+        notes.append(f"Book 2 draft route preserved from matrix: {matrix_model}")
+    return matrix_model, notes
+
+
+def resolve_control_model(*, matrix_row: dict, override: str | None) -> tuple[str, list[str]]:
+    matrix_model = matrix_control_model(matrix_row)
+    notes: list[str] = []
+    if override:
+        return override, ["control override supplied"]
+    if matrix_model in PROBED_UNSAFE_DEFAULT_CONTROL_MODELS:
+        notes.append(f"control rerouted from unverified matrix route {matrix_model}")
+        return CONTROL_MODEL_DEFAULT, notes
+    return matrix_model, notes
 
 
 def working_meta(chapter_number: int):
@@ -189,6 +267,17 @@ def find_preamble_residue(text: str) -> str | None:
         if label_line.match(line) or heading_line.match(line):
             return line.strip()
     return None
+
+
+def find_forbidden_token(text: str) -> str | None:
+    for token in FORBIDDEN_TOKENS:
+        if token in text:
+            return token
+    return None
+
+
+def has_hard_validation_failure(text: str) -> bool:
+    return bool(find_preamble_residue(text) or find_forbidden_token(text))
 
 
 def normalize_insert_text(text: str) -> str:
@@ -528,6 +617,7 @@ def build_insert_repair_prompt(
 ) -> str:
     base_paragraphs = [part.strip() for part in re.split(r"\n\s*\n", accepted_draft.strip()) if part.strip()]
     base_tail = "\n\n".join(base_paragraphs[-5:])
+    accepted_draft_words = word_count(accepted_draft)
     attempt_directives = {
         1: (
             "Attempt lane 1: write a clean bridge beat that expands consequence before the final paragraph. "
@@ -552,13 +642,13 @@ def build_insert_repair_prompt(
         ),
     }
     attempt_directive = attempt_directives.get(insert_attempt, attempt_directives[5])
-    if insert_attempt >= 3:
+    if insert_attempt >= 3 or accepted_draft_words > LONG_INSERT_CONTEXT_WORDS:
         accepted_reference = (
-            "The full accepted base draft is intentionally omitted for this late duplicate-recovery attempt because earlier retries copied it. "
+            "The full accepted base draft is intentionally omitted for this long-base or late duplicate-recovery attempt because earlier retries copied it or made calls too slow. "
             "Use only the forbidden ending/context excerpt above for continuity, and write fresh material that can be inserted before that ending."
         )
         failed_reference = (
-            "The failed candidate is intentionally omitted for this late duplicate-recovery attempt because it may reinforce compression or repetition."
+            "The failed candidate is intentionally omitted for this long-base or late duplicate-recovery attempt because it may reinforce compression, repetition, or context bloat."
         )
     else:
         accepted_reference = f"""```md
@@ -736,9 +826,9 @@ def validate_chapter(text: str, *, chapter_number: int, chapter_title: str, curr
     residue = find_preamble_residue(text)
     if residue:
         raise RuntimeError(f"Expanded chapter contains preamble residue: {residue}")
-    for token in FORBIDDEN_TOKENS:
-        if token in text:
-            raise RuntimeError(f"Expanded chapter contains forbidden token: {token}")
+    forbidden = find_forbidden_token(text)
+    if forbidden:
+        raise RuntimeError(f"Expanded chapter contains forbidden token: {forbidden}")
     expanded_words = word_count(text)
     if expanded_words <= current_words:
         raise RuntimeError(f"Expanded chapter did not grow: current={current_words}, expanded={expanded_words}")
@@ -1151,7 +1241,11 @@ def main() -> None:
         for stale_path in raw_dir.glob(f"{slug}*.md"):
             stale_path.unlink()
 
-    current_text = working_path.read_text(encoding="utf-8")
+    current_text = normalize_chapter_text(
+        working_path.read_text(encoding="utf-8"),
+        chapter_number=args.chapter,
+        chapter_title=meta.chapter_title,
+    )
     dossier_text = dossier_path.read_text(encoding="utf-8")
     dossier_context = build_dossier_context(dossier_text)
     current_words = word_count(current_text)
@@ -1166,11 +1260,28 @@ def main() -> None:
         flush=True,
     )
 
+    draft_model, draft_route_notes = resolve_draft_model(
+        book_number=args.book,
+        matrix_row=matrix_row,
+        override=args.draft_model,
+    )
+    control_model, control_route_notes = resolve_control_model(
+        matrix_row=matrix_row,
+        override=args.control_model,
+    )
+    route_notes = draft_route_notes + control_route_notes
+    print(f"[chapter {args.chapter:02d}] matrix_draft_model={matrix_row.get('draft_model')}", flush=True)
+    print(f"[chapter {args.chapter:02d}] effective_draft_model={draft_model}", flush=True)
+    print(f"[chapter {args.chapter:02d}] matrix_control_model={matrix_control_model(matrix_row)}", flush=True)
+    print(f"[chapter {args.chapter:02d}] effective_control_model={control_model}", flush=True)
+    for note in route_notes:
+        print(f"[chapter {args.chapter:02d}] route_note={note}", flush=True)
+    if args.print_route:
+        return
+
     stage_targets = build_stage_targets(current_words=current_words, minimum_words=minimum_words)
     draft = current_text
     previous_words = current_words
-    draft_model = args.draft_model or matrix_row["draft_model"]
-    control_model = matrix_row.get("control_model", CONTROL_MODEL_DEFAULT)
     for stage_index, stage_low in enumerate(stage_targets, start=1):
         final_stage = stage_index == len(stage_targets)
         stage_high = min(target_row["macro_target_low"], stage_low + 1200)
@@ -1250,6 +1361,14 @@ def main() -> None:
             failed_candidate = "" if insert_first_stage else candidate
             repair_notes = str(exc)
             failed_candidate_words = previous_words if insert_first_stage else word_count(failed_candidate)
+            if failed_candidate and has_hard_validation_failure(failed_candidate):
+                failed_candidate = ""
+                failed_candidate_words = previous_words
+                repair_notes = f"{repair_notes} | failed candidate rejected before repair prompt"
+                print(
+                    f"[chapter {args.chapter:02d}] stage={stage_index} failed_candidate_hard_failure_omitted_from_repair",
+                    flush=True,
+                )
             required_min_words = (
                 minimum_words
                 if final_stage
@@ -1282,7 +1401,7 @@ def main() -> None:
                     flush=True,
                 )
             repaired = False
-            if failed_candidate_words > previous_words and not find_preamble_residue(failed_candidate):
+            if failed_candidate_words > previous_words and not has_hard_validation_failure(failed_candidate):
                 best_candidate = failed_candidate
                 best_candidate_words = failed_candidate_words
             else:
@@ -1319,7 +1438,7 @@ def main() -> None:
                     f"[chapter {args.chapter:02d}] stage={stage_index} repair_attempt={repair_attempt} repair_words={repair_words}",
                     flush=True,
                 )
-                if repair_words > best_candidate_words and not find_preamble_residue(candidate):
+                if repair_words > best_candidate_words and not has_hard_validation_failure(candidate):
                     best_candidate = candidate
                     best_candidate_words = repair_words
                 try:
@@ -1351,13 +1470,21 @@ def main() -> None:
                     repaired = True
                     break
                 except RuntimeError as repair_exc:
-                    failed_candidate = candidate
                     repair_notes = f"{repair_notes} | repair attempt {repair_attempt}: {repair_exc}"
                     print(
                         f"[chapter {args.chapter:02d}] stage={stage_index} repair_attempt={repair_attempt} failed={repair_exc}",
                         flush=True,
                     )
                     repair_failure = str(repair_exc)
+                    if "forbidden token" in repair_failure.lower() or "preamble residue" in repair_failure.lower():
+                        failed_candidate = ""
+                        candidate = draft
+                        print(
+                            f"[chapter {args.chapter:02d}] stage={stage_index} repair_attempt={repair_attempt} hard_failure_reverted_to_last_clean",
+                            flush=True,
+                        )
+                        break
+                    failed_candidate = candidate
                     if any(marker in repair_failure.lower() for marker in STYLE_FAILURE_MARKERS):
                         print(
                             f"[chapter {args.chapter:02d}] stage={stage_index} repair_attempt={repair_attempt} style_failure_escalate_to_insert",
@@ -1389,23 +1516,25 @@ def main() -> None:
                 duplicate_insert_failures = 0
                 for insert_attempt in range(1, INSERT_FALLBACK_ATTEMPTS + 1):
                     required_new_words = max(required_min_words - word_count(candidate), 300)
+                    requested_new_words = min(required_new_words, MAX_INSERT_REQUEST_WORDS)
                     insert_model = (
                         control_model
                         if duplicate_insert_failures >= DUPLICATE_INSERT_FALLBACK_AFTER
                         else draft_model
                     )
                     print(
-                        f"[chapter {args.chapter:02d}] stage={stage_index} insert_fallback attempt={insert_attempt} required_new_words={required_new_words} model={insert_model}",
+                        f"[chapter {args.chapter:02d}] stage={stage_index} insert_fallback attempt={insert_attempt} required_new_words={required_new_words} requested_new_words={requested_new_words} model={insert_model}",
                         flush=True,
                     )
+                    candidate_before_insert = candidate
                     try:
                         candidate = run_insert_repair(
                             model=insert_model,
                             chapter_number=args.chapter,
                             chapter_title=meta.chapter_title,
-                            accepted_draft=candidate,
+                            accepted_draft=candidate_before_insert,
                             failed_candidate="" if duplicate_insert_failures >= DUPLICATE_INSERT_FALLBACK_AFTER else failed_candidate,
-                            required_new_words=required_new_words,
+                            required_new_words=requested_new_words,
                             focus_notes=insert_notes,
                             raw_dir=raw_dir,
                             slug=slug,
@@ -1454,12 +1583,31 @@ def main() -> None:
                         break
                     except RuntimeError as insert_exc:
                         insert_failure = str(insert_exc)
-                        failed_candidate = candidate
-                        insert_notes = f"{insert_notes} | insert attempt {insert_attempt}: {insert_failure}"
+                        hard_insert_failure = "forbidden token" in insert_failure.lower() or "preamble residue" in insert_failure.lower()
+                        failed_candidate = "" if hard_insert_failure else candidate
+                        if hard_insert_failure:
+                            contaminated_words = word_count(candidate)
+                            candidate = candidate_before_insert
+                            insert_notes = (
+                                f"{insert_notes} | insert attempt {insert_attempt}: {insert_failure} "
+                                f"| contaminated candidate rejected at {contaminated_words} words"
+                            )
+                        else:
+                            insert_notes = f"{insert_notes} | insert attempt {insert_attempt}: {insert_failure}"
                         print(
                             f"[chapter {args.chapter:02d}] stage={stage_index} insert_attempt={insert_attempt} failed={insert_failure}",
                             flush=True,
                         )
+                        if hard_insert_failure:
+                            duplicate_insert_failures = max(
+                                duplicate_insert_failures,
+                                DUPLICATE_INSERT_FALLBACK_AFTER,
+                            )
+                            print(
+                                f"[chapter {args.chapter:02d}] stage={stage_index} insert_attempt={insert_attempt} hard_failure_reverted_to_last_clean_switch_to_control clean_words={word_count(candidate)}",
+                                flush=True,
+                            )
+                            continue
                         if final_stage and word_count(candidate) >= minimum_words and is_style_failure(insert_failure):
                             voice_repaired = False
                             for voice_attempt in range(1, VOICE_REPAIR_ATTEMPTS + 1):

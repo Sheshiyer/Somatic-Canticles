@@ -188,6 +188,19 @@ It is not allowed to invent new plot-critical rules alone.
 - identify missing story layers by chapter
 - classify where prose is rushed versus where doctrine is merely compressed
 
+### `qwen/qwen3.5-122b-a10b`
+
+- write Book 2 expanded chapter prose
+- generate additive insert material under strict source and style constraints
+- deepen atmosphere, scene dwell time, aftermath, and relational pressure
+- keep output under GPT-OSS control validation because the model can drift into abstract mysticism without concrete embodied anchors
+
+### `mistralai/mistral-large-3-675b-instruct-2512`
+
+- opt-in slow-lane prose experiment only
+- callable on small probes, but stopped during `Chapter 09` Stage `1` because it produced no artifact after several minutes
+- do not use as the default Book `2` route unless a later monitored run proves acceptable throughput
+
 ### `minimaxai/minimax-m2.7`
 
 - design helper scripts and processing utilities
@@ -195,18 +208,20 @@ It is not allowed to invent new plot-critical rules alone.
 - build source-to-chapter mapping helpers
 - build repeatable processing for length audits and layer-gap reports
 - build source-root filters so excluded material does not leak into dossiers
+- opt-in only until a fresh endpoint probe passes; current Book 2 probe timed out
 
 ### `moonshotai/kimi-k2-thinking`
 
 - diagnose scene failures before drafting
 - propose chapter-level pacing correction
 - identify where concept load outruns embodiment
+- opt-in only until a fresh endpoint probe passes; current Book 2 probe timed out
 
 ### `moonshotai/kimi-k2-instruct`
 
-- write the expanded chapter prose
-- deepen atmosphere, scene dwell time, aftermath, and relational pressure
-- integrate lore through scene behavior instead of explanation
+- no longer a default Book 2 prose route
+- Book 1 smoke runs showed compression and copy-repeat failure modes
+- use only as an explicitly requested experiment after route probing
 
 ### `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning`
 
@@ -218,11 +233,10 @@ It is not allowed to invent new plot-critical rules alone.
 
 - `moonshotai/kimi-k2.6`
 
-Use only after visual evidence exists and needs long-context narrative interpretation.
+Use only after visual evidence exists and needs long-context narrative interpretation, and only after a fresh probe passes.
 
 ### Control models
 
-- `nvidia/nemotron-3-super-120b-a12b`
 - `openai/gpt-oss-120b`
 
 Use for:
@@ -231,6 +245,8 @@ Use for:
 - vocabulary drift review
 - doctrine inflation review
 - source-dossier compliance review
+
+`nvidia/nemotron-3-super-120b-a12b` remains an archived matrix value, not a default Book 2 route, until it is explicitly re-probed.
 
 ## Required Outputs Before Drafting
 

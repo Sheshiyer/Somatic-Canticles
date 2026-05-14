@@ -262,3 +262,35 @@ Review this file at session start when the task touches planning, intake authori
   - explicitly forbid invented Somanaut teammates or named operators in stage, repair, insert, voice-repair, and control-gate prompts
   - after a model pass, run a concrete named-entity sanity scan against the chapter dossier and current working draft, not only a style score
   - patch both the working chapter and raw generated artifact when making post-run canon cleanup so the saved artifact matches the accepted prose lane
+
+### L-030: Model lists are not route guarantees
+
+- Pattern:
+  - Book `2` prep found several listed NVIDIA models that were not safe defaults: Kimi, MiniMax, GLM, and DeepSeek timed out on small probes, and Palmyra Creative was listed but unavailable to the account
+  - Mistral Large was callable on a small probe but too slow at Chapter `09` Stage `1` scale, producing no artifact before the smoke threshold
+  - Qwen was fast on a small probe, but the same runner path still stalled when asked for a large full-chapter Stage `1` rewrite
+  - Chapter `09` still had old preamble metadata in the working baseline, so valid inserts failed after merge because the accepted base itself was contaminated
+  - final-stage requests for thousands of new words in one insert repeated the same slow-call behavior as full rewrites
+  - after promoting a `6,900`-word accepted base, even a small insert call slowed down because the prompt resent the entire long chapter
+  - style gates missed unsupported named helpers (`Kael`, `Jory`) and explicit symbolic scaffold language after a numerically successful Chapter `09` run
+  - after hard bans were added, Qwen still repeated explicit `Toth` across every final-stage retry instead of adapting to the forbidden-token failure
+  - failed hard-ban insert candidates can poison the next prompt if the runner keeps the contaminated merge as the active accepted draft
+  - the control model can still introduce a plausible but unsupported helper name (`Mara`) during high-pressure final inserts, so newly caught local-only names must graduate into validator bans
+  - some NVIDIA chat-compatible routes returned useful text under `reasoning_content` or `reasoning` instead of `message.content`, which made the old extractor reject otherwise callable responses
+  - the NVIDIA client also allowed pending `202` polling to exceed the caller timeout, leaving monitor output stale during a hung probe
+  - the expansion matrix used `control_pass`, but runners only checked legacy `control_model`, so route intent could be silently ignored
+- Prevention:
+  - probe a model with a small live request before making it a default prose or control route
+  - run a monitored chapter-scale smoke before trusting a model that only passed a tiny prompt
+  - for expansion waves, start with additive inserts rather than full-chapter rewrites when the goal is length growth from an accepted baseline
+  - normalize the accepted working baseline before any merge so legacy packet metadata cannot poison otherwise clean generated inserts
+  - cap individual insert requests and let the runner accumulate several smaller additions when the remaining word gap is large
+  - omit the full accepted base from insert prompts once the chapter is long; use tail/context excerpts to preserve continuity without context bloat
+  - hard-ban unsupported names and overt tarot/enneagram/Crowley/Toth markers in validation instead of relying on the literary style gate to notice them
+  - route the next insert attempt to the control model after a forbidden-token failure, because retrying the same draft model can exhaust the budget on the same violation
+  - after any preamble or forbidden-token failure, roll the active candidate back to the last clean draft and omit the failed candidate from the next prompt
+  - do not commit rejected scratch insert artifacts that contain hard-ban terms; keep the accepted raw chapter and gate reports as the durable baseline
+  - keep Kimi/MiniMax opt-in unless a fresh probe passes and a chapter-specific quality review justifies the risk
+  - pass caller timeouts through all pending/polling branches in the NVIDIA client
+  - support provider-specific text fields before classifying a model as unusable
+  - resolve both `control_pass` and `control_model` in every runner that performs validation or repair

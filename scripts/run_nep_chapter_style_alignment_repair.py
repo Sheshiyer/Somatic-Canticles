@@ -17,7 +17,10 @@ from run_nep_chapter_expansion import (
     load_manifest_row,
     load_matrix_row,
     load_target_row,
+    matrix_control_model,
     normalize_chapter_text,
+    resolve_control_model,
+    resolve_draft_model,
     run_style_gate,
     validate_chapter,
     validate_style_gate,
@@ -51,6 +54,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--min-new-words", type=int, default=1500)
     parser.add_argument("--max-new-words", type=int, default=2300)
     parser.add_argument("--model", default=None)
+    parser.add_argument("--control-model", default=None)
     parser.add_argument("--audit-json", default=str(AUDIT_JSON))
     parser.add_argument("--tail-anchor", default="Corv turned the prism over one more time")
     parser.add_argument("--timeout-seconds", type=int, default=600)
@@ -384,7 +388,21 @@ def main() -> None:
     matrix_row = load_matrix_row(args.chapter)
     target_row = load_target_row(args.chapter)
     audit_item = load_audit_item(Path(args.audit_json), args.chapter)
-    model = args.model or matrix_row["draft_model"]
+    model, draft_route_notes = resolve_draft_model(
+        book_number=args.book,
+        matrix_row=matrix_row,
+        override=args.model,
+    )
+    control_model, control_route_notes = resolve_control_model(
+        matrix_row=matrix_row,
+        override=args.control_model,
+    )
+    print(f"[chapter {args.chapter:02d}] matrix_draft_model={matrix_row.get('draft_model')}", flush=True)
+    print(f"[chapter {args.chapter:02d}] effective_draft_model={model}", flush=True)
+    print(f"[chapter {args.chapter:02d}] matrix_control_model={matrix_control_model(matrix_row)}", flush=True)
+    print(f"[chapter {args.chapter:02d}] effective_control_model={control_model}", flush=True)
+    for note in draft_route_notes + control_route_notes:
+        print(f"[chapter {args.chapter:02d}] route_note={note}", flush=True)
 
     current_text = working_path.read_text(encoding="utf-8")
     current_words = word_count(current_text)
@@ -472,7 +490,7 @@ def main() -> None:
 
     gate_stage = next_gate_stage(raw_dir, slug)
     style_gate = run_style_gate(
-        model=matrix_row.get("control_model", "openai/gpt-oss-120b"),
+        model=control_model,
         chapter_number=args.chapter,
         chapter_title=meta.chapter_title,
         candidate_text=candidate,
