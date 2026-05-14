@@ -137,6 +137,14 @@ LEXICAL_REPLACEMENTS = (
     ("Filaments", "Threads"),
     ("filament", "thread"),
     ("Filament", "Thread"),
+    ("corridors", "passages"),
+    ("Corridors", "Passages"),
+    ("corridor", "passage"),
+    ("Corridor", "Passage"),
+    ("energies", "forces"),
+    ("Energies", "Forces"),
+    ("energy", "charge"),
+    ("Energy", "Charge"),
 )
 PREAMBLE_LABELS = [
     "Somatic Event",
@@ -262,6 +270,32 @@ CHAPTER_FORBIDDEN_TOKENS = {
         "Mira gave",
         "Mira felt",
     ],
+    17: [
+        "Crystallization Interface protocols",
+        "Quantum Systems",
+        "Chetana Yantra",
+        "energy",
+        "energies",
+        "homeostasis",
+        "mechanism was the universe",
+        "law of nature",
+        "maintenance algorithm",
+        "villain",
+        "evil",
+        "sneer",
+        "sneered",
+        "gloat",
+        "gloated",
+        "hatred",
+        "defeat the Gardener",
+        "destroy the Gardener",
+        "kill the Gardener",
+        "Mira said",
+        "Mira asked",
+        "Mira answered",
+        "Mira stood",
+        "Mira moved",
+    ],
     11: [
         "Mira",
         "Jax",
@@ -279,6 +313,11 @@ CHAPTER_CAST_HINTS = {
         "Mira Verath may appear only as a subject, memory, data trace, or resonance reference; do not make her speak, operate equipment, "
         "stand in the chamber, or act as a semi-corporeal helper. The Gardener and Entropy Plague may be named as concepts or distant pressure, "
         "but not as on-page speaking roles yet."
+    ),
+    17: (
+        "For Chapter 17, keep named people limited to Corv, Sona, Jian, Gideon, Mira Verath, and The Gardener. "
+        "Mira Verath may appear only as subject, interior terrain, memory, or case trace; do not make her speak or operate as a helper. "
+        "The Gardener may appear and communicate, but its voice must remain conservational, calm, sorrowfully necessary, and non-villainous."
     ),
     11: (
         "For Chapter 11, keep named people limited to Corv, Sona, Jian, and Gideon. "
@@ -422,6 +461,14 @@ def chapter_insert_guidance(chapter_number: int) -> str:
             "Do not solve or stabilize the Wilt; any counter-move must fail, clarify the threat, or buy only diagnostic humility. "
             "Do not invent House names, export a data packet, transmit a relay, or begin the descent on-page. "
             "Deepen discovery, dread, House-political consequence, team disagreement, chamber ecology, Mira as a distant subject/data trace, and the unresolved decision to descend toward Chapter 17."
+        )
+    if chapter_number == 17:
+        return (
+            "Chapter 17 insertion lane: remain inside Mira Verath's interior terrain and the post-encounter chamber aftermath. "
+            "Do not villain-code The Gardener; do not make it sneer, rage, gloat, or seek cruelty. "
+            "Do not over-mechanize it into universe/law/homeostasis/system-theory monologue; dramatize sorrowful necessity through encounter pressure, pruning action, and calm offer language. "
+            "Deepen the four refusals: Corv refuses false mercy of meaning, Sona refuses anesthetic peace, Jian refuses the cage of explanation, and Gideon allows protection to be reclassified rather than broken. "
+            "Keep the close embodied and procedural: ejected from depth, field-lock breath exchange, and a concrete handoff into Chapter 18's synthesis work."
         )
     return "No extra chapter-specific insert guidance."
 

@@ -242,6 +242,26 @@ This file is the active source of truth for repository execution status.
 - [ ] Continue Book `3` serially through Chapters `17-27`, widening only if a chapter route proves safe and has no dependency on unresolved prior-chapter prose.
   - Next live step after commit: expand `Chapter 17` from its populated dossier while preserving the Chapter `16` handoff into an unresolved Gardener-facing descent.
 
+### NEP-017 Book 3 Chapter 17 Expansion
+
+- [x] Review `Chapter 17` dossier, route, current working draft, and Gardener tone authority.
+  - Route: default Kimi route is rerouted to `qwen/qwen3.5-122b-a10b`; control is rerouted from `nvidia/nemotron-3-super-120b-a12b` to `openai/gpt-oss-120b`; pass floor is `11,280` words.
+  - Current draft issues: preamble residue, under-length at roughly `2.3k` words, legacy lexical carryovers, rushed Gardener motive, and thin post-encounter relational aftermath.
+- [x] Harden the runner for `Chapter 17` before launch:
+  - [x] Add Chapter `17` cast guidance allowing only Corv, Sona, Jian, Gideon, Mira Verath as subject/terrain/case trace, and The Gardener as calm conservational intelligence.
+  - [x] Ban observed/probable Gardener drift: villain coding, over-mechanized `law/universe/homeostasis` explanation, and Mira-as-helper dialogue.
+- [x] Expand `Chapter 17` from the populated dossier and accepted `Chapter 16` handoff.
+  - Result: accepted at `11,282` words using constrained encounter, refusal, aftermath, and protocol-handoff inserts.
+  - Tone correction: The Gardener now speaks as calm conservational intelligence, not as a cartoon antagonist or abstract system monologue; the four refusal lanes remain distinct.
+- [x] Verify `Chapter 17` acceptance:
+  - [x] Working/raw parity clean.
+  - [x] Saved style gate passes braid, wit lanes, temperature variation, double meaning, and pressure-release thresholds.
+  - [x] Hard-ban and lexical scan clean.
+  - [x] Rejected scratch inserts excluded from commit.
+  - Result: saved `gate-9` scores are `braid_balance=9`, `wit_lane_distinction=8`, `temperature_variation=8`, `double_meaning_density=7`, `humor_pressure_release=7`.
+- [x] Commit and push `Chapter 17` only after it passes acceptance.
+- [ ] Next live step: expand `Chapter 18` from its populated dossier and the accepted Gardener handoff, preserving the move from encounter aftermath into synthesis protocol rather than repeating the Gardener sermon.
+
 ### NEP-006 Matrix Revision
 
 - [x] Generate `generated/chapter_expansion_matrix_v1.md` from the current matrix plus `repo_synthesis_report_v1.md` and `source_family_priority_map_v1.md`
