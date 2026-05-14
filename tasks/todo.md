@@ -280,7 +280,7 @@ This file is the active source of truth for repository execution status.
   - [x] Hard-ban and lexical scan clean.
   - [x] Rejected scratch inserts excluded from commit.
   - Result: saved `gate-9` scores are `braid_balance=8`, `wit_lane_distinction=8`, `temperature_variation=7`, `double_meaning_density=8`, `humor_pressure_release=7`.
-- [ ] Commit and push `Chapter 18` only after it passes acceptance.
+- [x] Commit and push `Chapter 18` only after it passes acceptance.
 - [ ] Next live step after commit: expand `Chapter 19` from its populated dossier and the accepted `Chapter 18` handoff, preserving the Three-Point Problem as unresolved procedure rather than solved triangulation.
 
 ### NEP-006 Matrix Revision
