@@ -192,7 +192,12 @@ This file is the active source of truth for repository execution status.
   - Result: `NEP-015-B2-C11-CASTLOCK` completed successfully at `10,653` words after the runner was hardened with Chapter `11` cast authority and chapter-scoped local-name bans.
   - Verification: working/raw parity is clean, saved `gate-4` passes with `braid_balance=9`, `wit_lane_distinction=8`, `temperature_variation=8`, `double_meaning_density=7`, `humor_pressure_release=8`, and the hard-ban scan is clean.
   - Process note: rejected insert scratch artifacts from failed attempts were not committed because they contained local-only helper names or setting-drift terms.
-- [ ] Next live step: start `Chapter 12` Book `2` expansion with the same cast-aware runner, guarded insert-first route, and raw/parity acceptance scan.
+- [x] Start `Chapter 12` Book `2` expansion with the same cast-aware runner, guarded insert-first route, and raw/parity acceptance scan.
+  - Result: `NEP-015-B2-C12-FINAL` completed successfully at `8,332` words after promoting a clean `6,129`-word near-miss voice repair and adding only the final margin.
+  - Runner hardening: added Book `2` cast hints for Chapters `12-15`, treated over-floor non-final style failures as eligible for final acceptance repair, and allowed an already-over-floor insert-first stage to gate instead of forcing unnecessary growth.
+  - Verification: working/raw parity is clean, saved `gate-3` passes with `braid_balance=8`, `wit_lane_distinction=7`, `temperature_variation=8`, `double_meaning_density=6`, `humor_pressure_release=7`, and the hard-ban scan is clean.
+  - Process note: rejected scratch artifacts from failed tone/setting/operator lanes were not committed.
+- [ ] Next live step: start `Chapter 13` Book `2` expansion with the same cast-aware runner, guarded insert-first route, and raw/parity acceptance scan.
 
 ### NEP-006 Matrix Revision
 

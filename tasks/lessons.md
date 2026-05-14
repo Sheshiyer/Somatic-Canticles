@@ -310,3 +310,12 @@ Review this file at session start when the task touches planning, intake authori
   - keep chapter-scoped forbidden-name lists when a name is invalid for one chapter but valid elsewhere in the trilogy
   - add chapter cast hints to generation and gate prompts so the model does not solve pressure-release beats by inventing operators or assistants
   - if a hard-failed candidate is long enough, salvage only by deterministic paragraph stripping and revalidation; never preserve contaminated material as the accepted base
+
+### L-032: Over-floor non-final candidates need acceptance repair, not more growth
+
+- Pattern:
+  - Chapter `12` exceeded its final word floor during a mid-stage insert, but the runner treated it as a non-final style failure and kept stacking additional inserts, degrading tone into repetition and technical wash.
+- Prevention:
+  - if any insert candidate reaches the final floor, allow final-style voice repair even when the nominal stage is not final
+  - if a later insert-first stage starts above the final floor, run the style gate before forcing more growth
+  - preserve clean near-miss voice repairs as baselines when they miss the floor by a small margin; add only the missing margin instead of regrowing from a degraded candidate

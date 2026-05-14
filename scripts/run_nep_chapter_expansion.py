@@ -151,6 +151,23 @@ CHAPTER_CAST_HINTS = {
         "For Chapter 11, keep named people limited to Corv, Sona, Jian, and Gideon. "
         "Council monitors, operators, avatars, or assistants may appear only as unnamed roles."
     ),
+    12: (
+        "For Chapter 12, keep the on-page cast limited to Corv, Sona, Jian, and Gideon. "
+        "Do not add operators, assistants, monitors, observers, patients, council voices, helper names, or extra spoken roles; "
+        "show external/system pressure through instruments, status text, silence, and the existing team's dialogue."
+    ),
+    13: (
+        "For Chapter 13, keep the on-page cast limited to Corv, Sona, Jian, and Gideon. "
+        "The chorus may appear as field behavior or unnamed collective pressure, not as new named speakers."
+    ),
+    14: (
+        "For Chapter 14, keep the on-page cast limited to Corv, Sona, Jian, and Gideon. "
+        "House names such as Seter are lineage/field terms here, not permission to add new named people."
+    ),
+    15: (
+        "For Chapter 15, keep the on-page cast limited to Corv, Sona, Jian, and Gideon. "
+        "Witness systems, councils, or distributed observers must remain environmental pressure unless already named in the accepted draft."
+    ),
 }
 
 
@@ -995,6 +1012,9 @@ def is_hard_failure_reason(reason: str) -> bool:
         "introduced unsupported",
         "introduces unsupported",
         "invented named",
+        "unnamed operator",
+        "extra spoken role",
+        "new spoken role",
         "additional somanaut teammate",
     )
     return any(marker in reason_lower for marker in hard_markers)
@@ -1403,7 +1423,8 @@ def main() -> None:
                         stage_index=stage_index,
                     )
                 )
-                raise RuntimeError(f"Insert-first stage growth required: {previous_words} < {insert_floor}")
+                if previous_words < insert_floor:
+                    raise RuntimeError(f"Insert-first stage growth required: {previous_words} < {insert_floor}")
             validate_candidate_progress(
                 candidate,
                 chapter_number=args.chapter,
@@ -1699,7 +1720,8 @@ def main() -> None:
                                 flush=True,
                             )
                             continue
-                        if final_stage and word_count(candidate) >= minimum_words and is_style_failure(insert_failure):
+                        candidate_reached_minimum = word_count(candidate) >= minimum_words
+                        if candidate_reached_minimum and is_style_failure(insert_failure):
                             voice_repaired = False
                             for voice_attempt in range(1, VOICE_REPAIR_ATTEMPTS + 1):
                                 voice_candidate = candidate
@@ -1729,7 +1751,7 @@ def main() -> None:
                                         previous_words=previous_words,
                                         stage_floor=stage_low,
                                         stage_index=stage_index,
-                                        final_stage=final_stage,
+                                        final_stage=final_stage or candidate_reached_minimum,
                                         minimum_words=minimum_words,
                                     )
                                     style_gate = run_style_gate(
