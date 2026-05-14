@@ -415,7 +415,29 @@ This file is the active source of truth for repository execution status.
   - [x] Hard-ban and lexical scan clean.
   - [x] Rejected scratch inserts excluded from commit.
 - [x] Commit and push `Chapter 24` only after it passes acceptance.
-- [ ] Next live step after commit: expand `Chapter 25` from its populated dossier and accepted `Chapter 24` release, preserving void aftermath without premature authored-reality stabilization.
+- [x] Next live step after commit: expand `Chapter 25` from its populated dossier and accepted `Chapter 24` release, preserving void aftermath without premature authored-reality stabilization.
+
+### NEP-025 Book 3 Chapter 25 Expansion
+
+- [x] Review `Chapter 25` dossier, route, current working draft, and accepted `Chapter 24` release.
+  - Route: default Kimi route is rerouted to `qwen/qwen3.5-122b-a10b`; control remains `openai/gpt-oss-120b`; pass floor is `8,720` words.
+  - Current draft issues: under-length at `1,826` words, legacy `Corvan` naming, rushed void-aftershock, thin source-substrate embodiment, and risk of jumping too early into Chapter `26` authored-world construction.
+  - Governing constraint: Chapter `25` may deepen void aftermath, invalidity, keptness, and potential-before-allocation, but it must not stabilize a new reality or begin the architecture-building phase.
+- [x] Harden the runner for `Chapter 25` before launch:
+  - [x] Normalize `Corvan` to `Corv` in runner lexical cleanup.
+  - [x] Add Chapter `25` cast guidance limiting live voice lanes to Corv, Sona, Jian, and Gideon.
+  - [x] Ban observed/probable Void drift: explicit scaffold terms, stale field terms, Gardener dialogue/body, new-role contamination, triumph posture, and Chapter `26` new-reality/architecture bleed.
+  - [x] Add Chapter `25` insert guidance that privileges silence, failed measurement, body inventory, relation without coordinates, and source-substrate pattern logic without exposition.
+- [x] Expand `Chapter 25` from the populated dossier and accepted `Chapter 24` release.
+  - Result: stabilized the void aftermath lane around invalidity, no inherited coordinates, Sona's Note without sweetness, Jian's no-score status check, Corv's refusal of premature story, and Gideon's keptness without walls.
+  - Repair: the first monitored pass reached word floor but was rejected editorially for repeated `lattice/thrum/raw` drift and sci-fi props; the accepted surface uses a controlled reconstruction plus final voice repair with Chapter `25` anti-drift guidance included in the voice-repair prompt.
+- [x] Verify `Chapter 25` acceptance:
+  - [x] Working/raw parity clean at `9,962` words.
+  - [x] Saved `gate-9` passes with `braid_balance=9`, `wit_lane_distinction=8`, `temperature_variation=8`, `double_meaning_density=7`, `humor_pressure_release=8`.
+  - [x] Hard-ban and lexical scan clean.
+  - [x] Rejected scratch inserts excluded from commit.
+- [ ] Commit and push `Chapter 25` only after it passes acceptance.
+- [ ] Next live step after commit: expand `Chapter 26` from its populated dossier and accepted `Chapter 25` threshold, opening authored architecture only after the void lane is stable.
 
 ### NEP-006 Matrix Revision
 

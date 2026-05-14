@@ -91,6 +91,7 @@ LEXICAL_STYLE_GUIDANCE = (
     "avoid legacy subatomic-mechanics jargon and generic oscillation wording."
 )
 LEXICAL_REPLACEMENTS = (
+    ("Corvan", "Corv"),
     ("Quantum Systems", "field systems"),
     ("Chetana Yantra", "awareness instrument"),
     ("quantum foam", "deep-field substrate"),
@@ -844,6 +845,111 @@ CHAPTER_FORBIDDEN_TOKENS = {
         "Anvel asked",
         "Anvel answered",
     ],
+    25: [
+        "Corvan",
+        "Mira",
+        "Anvel",
+        "The Gardener said",
+        "The Gardener asked",
+        "The Gardener answered",
+        "The Gardener replied",
+        "The Gardener spoke",
+        "Gardener said",
+        "Gardener asked",
+        "Gardener answered",
+        "Gardener replied",
+        "Gardener spoke",
+        "law of nature",
+        "homeostasis",
+        "maintenance algorithm",
+        "mechanism was the universe",
+        "universe",
+        "system sermon",
+        "crew",
+        "Crew",
+        "visor",
+        "visors",
+        "boots",
+        "armor",
+        "armour",
+        "gloved",
+        "wrist-sensor",
+        "last jump",
+        "planet",
+        "sea of stars",
+        "crystal",
+        "azure",
+        "vacuum",
+        "lattice hummed",
+        "lattice of the void",
+        "low-grade thrum",
+        "thrum",
+        "thrummed",
+        "thrumming",
+        "resonance",
+        "resonances",
+        "choir",
+        "raw of the void",
+        "raw field",
+        "we have the raw",
+        "blank canvas",
+        "canvas of potential",
+        "Triangulation Engine",
+        "Noetic Network",
+        "countdown",
+        "timer ticked",
+        "frequency",
+        "frequencies",
+        "vibrate",
+        "vibrates",
+        "vibrated",
+        "vibrating",
+        "resonant",
+        "energy",
+        "harmonized",
+        "harmonization",
+        "shatter",
+        "shattered",
+        "shattering",
+        "Quantum",
+        "quantum",
+        "Tarot",
+        "tarot",
+        "Thoth",
+        "Crowley",
+        "Major Arcana",
+        "Amrita Protocol",
+        "Architecture of New Reality",
+        "architecture of new reality",
+        "new reality",
+        "New Reality",
+        "new world",
+        "New World",
+        "world stabilizes",
+        "stable architecture",
+        "first architecture",
+        "designed the world",
+        "built the new",
+        "coronation",
+        "ascension",
+        "apotheosis",
+        "became gods",
+        "godhood",
+        "operator",
+        "operators",
+        "House envoy",
+        "house envoy",
+        "House delegate",
+        "house delegate",
+        "Mira said",
+        "Mira asked",
+        "Mira answered",
+        "Mira stood",
+        "Mira moved",
+        "Anvel said",
+        "Anvel asked",
+        "Anvel answered",
+    ],
     11: [
         "Mira",
         "Jax",
@@ -912,6 +1018,13 @@ CHAPTER_CAST_HINTS = {
         "Mira Verath may appear only as proof case, data trace, lineage lattice, or review consequence; Anvel Verath may appear only as remembered origin pressure, not an on-page speaker. "
         "The chapter may enact the final procedure / severance act, but it must preserve four distinct witnesses and stop before Chapter 25's void aftermath or new-coordinate adaptation. "
         "The Gardener may be present only as silent maintenance pressure or pruning logic losing exclusive claim; do not give it dialogue, image-body, scream, or personhood. "
+        "No new operators, assistants, monitors, House envoys, House delegates, named officials, or extra spoken roles."
+    ),
+    25: (
+        "For Chapter 25, keep named people limited to Corv, Sona, Jian, and Gideon. "
+        "Do not invoke Mira Verath or Anvel Verath here; Chapter 25 should remain with the live four only. "
+        "This chapter is void aftermath and pre-configuration: the team may discover keptness, invalidity, relation without coordinates, and potential before allocation, but must not start Chapter 26's authored-world construction or stabilize a new reality. "
+        "The Gardener may register only as absent old-maintenance pressure losing relevance; do not give it dialogue, image-body, or personhood. "
         "No new operators, assistants, monitors, House envoys, House delegates, named officials, or extra spoken roles."
     ),
     11: (
@@ -1131,6 +1244,15 @@ def chapter_insert_guidance(chapter_number: int) -> str:
             "Keep the procedure embodied with breath, rail pressure, metallic taste, vessel hum, hand tension, and changing light geometry; avoid abstract sermon or clean triumph. "
             "The Gardener may register only as silent maintenance pressure losing exclusive claim; no dialogue, scream, body, villain monologue, or revelation. "
             "End at release / loss of old jurisdiction with relation intact, before Chapter 25's void or aftermath processing begins."
+        )
+    if chapter_number == 25:
+        return (
+            "Chapter 25 insertion lane: inherit Chapter 24's release boundary and keep the team inside void aftermath / pre-configuration. "
+            "Deepen the experience of no coordinates, no inherited time, no surrounding field, and relation as the first stable fact; do not build Chapter 26's authored architecture or name a new reality. "
+            "Preserve four distinct lanes: Sona learns to feel relation without atmospheric chorus, Corv refuses premature story or false mercy of meaning, Jian permits invalidity without forcing measurement, and Gideon practices keptness without walls. "
+            "Use silence, white space, body inventory, failed measurement, and sparse pressure-release dialogue; keep source-blog ideas submerged as pattern logic, not exposition. "
+            "Do not use sci-fi equipment drift, crew/visor/boots/armor language, azure-lattice imagery, vacuum/space spectacle, crystal/chime imagery, raw/canvas metaphors, or repetitive thrum/resonance wording. "
+            "No on-page Gardener, no new roles, no coronation/triumph, no final habitat; end with exposure held together long enough to become the threshold before creation."
         )
     return "No extra chapter-specific insert guidance."
 
@@ -1719,6 +1841,7 @@ Hard requirements:
 - Do not introduce new architecture, new lore dumps, new named systems, or a new plot turn.
 - Do not invent additional Somanaut teammates or named operators. Any named person in the repaired chapter must already exist in the candidate or the dialogue matrix excerpt.
 - {chapter_cast_hint(chapter_number)}
+- {chapter_insert_guidance(chapter_number)}
 - Do not add preamble labels such as `Somatic Event`, `Character Focus`, `Political Context`, `RESONANCE PROFILE`, or `Chapter Status`.
 - Treat character identity as canon. Corv uses he/him pronouns. Sona uses she/her. Jian and Gideon use he/him. Remove any pronoun drift.
 - Fix style locally and surgically: revise flat passages, add connective tissue, sharpen exchanges, and rebalance paragraphs without replacing the chapter's substance.
