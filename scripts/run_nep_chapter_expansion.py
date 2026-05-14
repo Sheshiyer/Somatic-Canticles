@@ -119,6 +119,24 @@ LEXICAL_REPLACEMENTS = (
     ("Vibrate", "Tremble"),
     ("manifestation", "appearance"),
     ("Manifestation", "Appearance"),
+    ("manifesting", "appearing"),
+    ("Manifesting", "Appearing"),
+    ("manifested", "appeared"),
+    ("Manifested", "Appeared"),
+    ("frequencies", "cadences"),
+    ("Frequencies", "Cadences"),
+    ("frequency", "cadence"),
+    ("Frequency", "Cadence"),
+    ("shattering", "splintering"),
+    ("Shattering", "Splintering"),
+    ("shattered", "splintered"),
+    ("Shattered", "Splintered"),
+    ("shatter", "splinter"),
+    ("Shatter", "Splinter"),
+    ("filaments", "threads"),
+    ("Filaments", "Threads"),
+    ("filament", "thread"),
+    ("Filament", "Thread"),
 )
 PREAMBLE_LABELS = [
     "Somatic Event",
@@ -149,7 +167,14 @@ FORBIDDEN_TOKENS = [
     "vibrate",
     "vibrated",
     "vibrating",
+    "frequency",
+    "frequencies",
+    "shatter",
+    "shattered",
+    "shattering",
     "manifestation",
+    "manifested",
+    "manifesting",
     "Chetana Yantra",
     "WORLD_BIBLE.md",
     "Preface.md",
@@ -178,6 +203,65 @@ FORBIDDEN_TOKENS = [
     "lower-deck",
 ]
 CHAPTER_FORBIDDEN_TOKENS = {
+    16: [
+        "Atrium",
+        "atrium",
+        "filament",
+        "filaments",
+        "injector",
+        "injectors",
+        "nanofiber",
+        "side-arm",
+        "suit",
+        "suits",
+        "gauntlet",
+        "gauntlets",
+        "fragment",
+        "fragments",
+        "spectrometer",
+        "spectrometers",
+        "respirator",
+        "propulsion fields",
+        "holo-grid",
+        "data core",
+        "optic lenses",
+        "field-generator",
+        "modulators",
+        "actuators",
+        "emitter",
+        "emitters",
+        "conduit",
+        "conduits",
+        "secondary feed",
+        "secondary lattice",
+        "semi-corporeal",
+        "broadcast",
+        "controlled wilt",
+        "data packet",
+        "external relay",
+        "portable data",
+        "protocol offered",
+        "weaponized protocol",
+        "House of Continuity",
+        "House of Resonance",
+        "Hall of Governance",
+        "Veridian",
+        "Cormac",
+        "House of Lumen",
+        "descent shaft",
+        "hidden corridors",
+        "The descent began",
+        "field was willing to listen",
+        "field was willing to cooperate",
+        "Mira's outline",
+        "Mira’s outline",
+        "Mira stood",
+        "Mira closed",
+        "Mira kept",
+        "Mira asked",
+        "Mira gave",
+        "Mira felt",
+    ],
     11: [
         "Mira",
         "Jax",
@@ -190,6 +274,12 @@ CHAPTER_FORBIDDEN_TOKENS = {
     ],
 }
 CHAPTER_CAST_HINTS = {
+    16: (
+        "For Chapter 16, keep named people limited to Corv, Sona, Jian, Gideon, and Mira Verath. "
+        "Mira Verath may appear only as a subject, memory, data trace, or resonance reference; do not make her speak, operate equipment, "
+        "stand in the chamber, or act as a semi-corporeal helper. The Gardener and Entropy Plague may be named as concepts or distant pressure, "
+        "but not as on-page speaking roles yet."
+    ),
     11: (
         "For Chapter 11, keep named people limited to Corv, Sona, Jian, and Gideon. "
         "Council monitors, operators, avatars, or assistants may appear only as unnamed roles."
@@ -322,6 +412,18 @@ def chapter_cast_hint(chapter_number: int) -> str:
         chapter_number,
         "Do not invent additional named people; keep any new person unnamed unless the current chapter authority already names them.",
     )
+
+
+def chapter_insert_guidance(chapter_number: int) -> str:
+    if chapter_number == 16:
+        return (
+            "Chapter 16 insertion lane: stay inside the Anamnesis Engine chamber and the Verath lineage visualization. "
+            "Do not turn the chapter into an action repair, hardware procedure, atrium mission, lattice-splice, injector, conduit, suit, gauntlet, fragment, or spectrometer sequence. "
+            "Do not solve or stabilize the Wilt; any counter-move must fail, clarify the threat, or buy only diagnostic humility. "
+            "Do not invent House names, export a data packet, transmit a relay, or begin the descent on-page. "
+            "Deepen discovery, dread, House-political consequence, team disagreement, chamber ecology, Mira as a distant subject/data trace, and the unresolved decision to descend toward Chapter 17."
+        )
+    return "No extra chapter-specific insert guidance."
 
 
 def cleaned_heading(chapter_number: int, chapter_title: str) -> str:
@@ -792,6 +894,7 @@ Requirements:
 - The insert must preserve canon and feel like it belongs inside the accepted base draft.
 - Do not invent additional Somanaut teammates or named operators. Any new named person must already be present in the accepted base draft or failed candidate.
 - {chapter_cast_hint(chapter_number)}
+- {chapter_insert_guidance(chapter_number)}
 - Use the failed candidate only as a source of salvageable tone, imagery, wit, or pressure-release moves.
 - Add scene dwell time, relational consequence, atmosphere, and one pressure-release beat.
 - Keep the biology / philosophy / technology braid intact.

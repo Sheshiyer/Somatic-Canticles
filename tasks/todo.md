@@ -222,6 +222,26 @@ This file is the active source of truth for repository execution status.
 - [x] Verified the accepted Book `2` working/raw surfaces are clean of local-name bans, overt symbolic scaffold terms, production preamble residue, and lexical carryovers.
 - [ ] Next live step: run the Book `2` compiled-surface coherence comparison before promoting this lane back into compiled manuscript surfaces.
 
+### NEP-016 Book 3 Expansion Lane
+
+- [x] Verify the Book `3` working lane starts from a clean git checkpoint after Book `2` acceptance.
+- [x] Validate Chapter `16` route before generation: default Kimi route is rerouted to `qwen/qwen3.5-122b-a10b`, control remains `openai/gpt-oss-120b`, and the pass floor is `12,000` words.
+- [x] Harden the expansion runner for Book `3` before launch:
+  - [x] Add deterministic cleanup for `frequency` / `shatter` style-sheet carryovers.
+  - [x] Add Chapter `16` cast guidance: Corv, Sona, Jian, Gideon, and Mira Verath only; no on-page Gardener speaker yet.
+- [x] Start monitored Chapter `16` expansion from the populated dossier and accepted Book `2` carryover state.
+  - Result: the default insert runner repeatedly drifted into hardware/action-repair imagery, on-page descent, or premature cure posture, so the accepted lane uses a constrained custom insert/merge with the same Chapter `16` validator.
+  - Runner hardening: Chapter `16` now bans the observed bad outputs directly: invented House names, packet/relay/export mechanics, hardware-repair vocabulary, premature descent, and false-success language such as the field being willing to cooperate.
+- [x] Verify Chapter `16` acceptance:
+  - [x] Working/raw parity clean.
+  - [x] Saved style gate passes braid, wit lanes, temperature variation, double meaning, and pressure-release thresholds.
+  - [x] Hard-ban and lexical scan clean.
+  - [x] Rejected scratch inserts excluded from commit.
+  - Result: `Chapter 16` accepted at `12,219` words with saved `gate-9` scores: `braid_balance=9`, `wit_lane_distinction=8`, `temperature_variation=8`, `double_meaning_density=7`, `humor_pressure_release=8`.
+- [x] Commit and push Chapter `16` only after it passes acceptance.
+- [ ] Continue Book `3` serially through Chapters `17-27`, widening only if a chapter route proves safe and has no dependency on unresolved prior-chapter prose.
+  - Next live step after commit: expand `Chapter 17` from its populated dossier while preserving the Chapter `16` handoff into an unresolved Gardener-facing descent.
+
 ### NEP-006 Matrix Revision
 
 - [x] Generate `generated/chapter_expansion_matrix_v1.md` from the current matrix plus `repo_synthesis_report_v1.md` and `source_family_priority_map_v1.md`
