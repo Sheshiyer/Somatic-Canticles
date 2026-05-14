@@ -1,0 +1,1 @@
+The corridor exhales a single, audible click—like a bead dropping into an empty bowl. It is the sound of a gate latching behind them, not before. Sona feels the air move against the inside of her wrist, warm, intimate, gone. No one speaks. The pressure-release has arrived as silence, and silence is invitation enough.

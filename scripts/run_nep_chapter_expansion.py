@@ -100,6 +100,17 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Expand a working chapter from its dossier and macro target band.")
     parser.add_argument("--book", type=int, required=True, choices=[1, 2, 3])
     parser.add_argument("--chapter", type=int, required=True)
+    parser.add_argument(
+        "--minimum-words",
+        type=int,
+        default=None,
+        help="Override the default pass floor for constrained macro-length repairs.",
+    )
+    parser.add_argument(
+        "--draft-model",
+        default=None,
+        help="Override the matrix draft model when the preferred creative route is unavailable.",
+    )
     parser.add_argument("--force", action="store_true")
     return parser.parse_args()
 
@@ -1144,15 +1155,21 @@ def main() -> None:
     dossier_text = dossier_path.read_text(encoding="utf-8")
     dossier_context = build_dossier_context(dossier_text)
     current_words = word_count(current_text)
-    minimum_words = max(int(target_row["macro_target_low"] * 0.8), current_words * 2)
+    default_minimum_words = max(int(target_row["macro_target_low"] * 0.8), current_words * 2)
+    minimum_words = args.minimum_words if args.minimum_words is not None else default_minimum_words
+    if minimum_words <= current_words:
+        raise RuntimeError(
+            f"--minimum-words must be greater than current chapter length: {minimum_words} <= {current_words}"
+        )
     print(
-        f"[chapter {args.chapter:02d}] current_words={current_words} minimum_words={minimum_words}",
+        f"[chapter {args.chapter:02d}] current_words={current_words} minimum_words={minimum_words} default_minimum_words={default_minimum_words}",
         flush=True,
     )
 
     stage_targets = build_stage_targets(current_words=current_words, minimum_words=minimum_words)
     draft = current_text
     previous_words = current_words
+    draft_model = args.draft_model or matrix_row["draft_model"]
     control_model = matrix_row.get("control_model", CONTROL_MODEL_DEFAULT)
     for stage_index, stage_low in enumerate(stage_targets, start=1):
         final_stage = stage_index == len(stage_targets)
@@ -1170,7 +1187,7 @@ def main() -> None:
             )
         else:
             candidate = run_stage(
-                model=matrix_row["draft_model"],
+                model=draft_model,
                 chapter_number=args.chapter,
                 chapter_title=meta.chapter_title,
                 dossier_context=dossier_context,
@@ -1275,7 +1292,7 @@ def main() -> None:
             for repair_attempt in range(1, repair_attempt_count + 1):
                 try:
                     candidate = run_stage_repair(
-                        model=matrix_row["draft_model"],
+                        model=draft_model,
                         chapter_number=args.chapter,
                         chapter_title=meta.chapter_title,
                         accepted_draft=draft,
@@ -1375,7 +1392,7 @@ def main() -> None:
                     insert_model = (
                         control_model
                         if duplicate_insert_failures >= DUPLICATE_INSERT_FALLBACK_AFTER
-                        else matrix_row["draft_model"]
+                        else draft_model
                     )
                     print(
                         f"[chapter {args.chapter:02d}] stage={stage_index} insert_fallback attempt={insert_attempt} required_new_words={required_new_words} model={insert_model}",

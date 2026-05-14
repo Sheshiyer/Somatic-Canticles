@@ -103,6 +103,48 @@ This file is the active source of truth for repository execution status.
 - [x] Verified working and raw Chapter `01` outputs are byte-identical after cleanup
 - [x] Recorded final Chapter `01` growth: `1,598` -> `8,846` words (`5.54x` baseline)
 
+### NEP-014 Book 1 Style Alignment Gate
+
+- [x] Generate a Book `1` cross-chapter style audit that compares Chapters `01-08` against the accepted StoryOps prose contract, not just per-chapter word growth
+- [x] Identify any style/length outliers, especially chapters whose saved gates pass locally but still drift against the Book `1` lane
+- [x] Record the two most likely repair candidates with evidence: word-count gap, gate depth, braid balance, wit/temperature, raw/working parity, and residue checks
+- [x] Start the highest-priority repair pass only after the audit produces a durable ledger artifact
+- [x] Verify the repaired chapter still matches its raw artifact and does not introduce production scaffolding or unsupported names
+
+### NEP-014 Book 1 Style Alignment Review
+
+- [x] Generated `generated/book_1_style_alignment_input_pack_v1.md`
+- [x] Generated `generated/book_1_style_alignment_local_metrics_v1.json`
+- [x] Generated `generated/book_1_style_alignment_audit_v1.md`
+- [x] Initial audit flagged repair order `Chapter 04`, then `Chapter 07`
+- [x] Repaired `Chapter 04` manually after Kimi timed out and the control-model tail candidate under-shot the word floor and invented unsupported material
+- [x] Verified `Chapter 04` now reaches `7,829` words, working/raw parity is clean, and saved `gate-4` passes with `braid_balance=8`, `wit_lane_distinction=8`, `temperature_variation=7`, `double_meaning_density=7`, `humor_pressure_release=8`
+- [x] Re-ran the Book `1` style audit after `Chapter 04`; refreshed repair order is `Chapter 01`, then `Chapter 07`, with `Chapter 04` passing
+- [x] Run a dedicated `Chapter 07` structural cleanup before treating it as a simple length pass; current late inserts include repeated extraction/debrief loops, explicit tarot/Crowley mentions, and apparent local-only names that need authority review
+  - [x] Preserve the stable breathfield intervention spine through the unassisted-stability proof
+  - [x] Consolidate the late extraction/debrief material into one chronological arc instead of repeated corridor/lift/triage loops
+  - [x] Demote or remove local-only support names unless already backed by authority surfaces
+  - [x] Remove explicit tarot/Crowley language and keep the scaffold subliminal
+  - [x] Sync the repaired working chapter to raw, run saved style gate, and rerun the Book `1` audit
+- [x] Decide whether `Chapter 01` needs another macro-length expansion or should remain accepted as the original smoke baseline despite the refreshed audit's macro-length watch
+  - Decision: `Chapter 01` remains accepted only as the style/routing smoke baseline; it still needs a constrained macro-length expansion before the Book `1` lane can be called stable.
+  - Evidence: refreshed audit repair order is `Chapter 07`, then `Chapter 01`; `Chapter 01` is `8,846 / 10,800` low macro target with local risk `3`, while `Chapter 07` is structurally clean but still `9,227 / 15,000` with local risk `4`.
+  - `Chapter 07` cleanup result: working/raw parity restored, residue scan clean, saved `gate-5` passed with `braid_balance=9`, `wit_lane_distinction=8`, `temperature_variation=8`, `double_meaning_density=7`, `humor_pressure_release=8`.
+- [x] Run a constrained macro-length expansion on cleaned `Chapter 07` first, then a smaller `Chapter 01` macro-length expansion, preserving the current smoke baseline voice as the control sample.
+  - [x] Run `Chapter 07` additive length expansion from the cleaned structural baseline, targeting the Book `1` macro low band without reintroducing corridor/debrief loops or explicit scaffold language
+  - [x] Inspect expanded `Chapter 07` for additive growth, chronology, voice lanes, residue, and working/raw parity
+  - [x] Save a fresh `Chapter 07` style gate and rerun the Book `1` audit
+  - [x] Run `Chapter 01` additive macro-length expansion only after `Chapter 07` is accepted, using the current smoke chapter as the voice-control sample
+  - [x] Save a fresh `Chapter 01` style gate, rerun the Book `1` audit, and record the final Book `1` readiness decision
+  - `Chapter 07` result: `15,000` words, working/raw parity clean, residue scan clean, saved `gate-6` passed with `braid_balance=9`, `wit_lane_distinction=8`, `temperature_variation=9`, `double_meaning_density=8`, `humor_pressure_release=8`.
+  - `Chapter 01` result: `10,801` words, working/raw parity clean, residue scan clean, saved `gate-7` passed with `braid_balance=9`, `wit_lane_distinction=8`, `temperature_variation=8`, `double_meaning_density=7`, `humor_pressure_release=8`.
+  - Book `1` readiness decision: not yet stable for commit-back as a full lane. The refreshed audit still returns `flag`, with repair order `Chapter 03`, then `Chapter 05`; `Chapter 02` and `Chapter 08` remain secondary watch items for macro-length shortfall.
+- [ ] Next live step: expand and rebalance `Chapter 03` first, then `Chapter 05`, using the latest Book `1` audit as the control ledger.
+  - [ ] Run `Chapter 03` additive expansion toward its `12,150` macro low target while deepening safety/freedom tension and adding pressure-release beats
+  - [ ] Gate `Chapter 03`, verify raw parity/residue, and refresh the Book `1` audit
+  - [ ] Run `Chapter 05` additive expansion toward its `9,700` macro low target while preserving endocrine doctrine stakes without flattening into biology-heavy exposition
+  - [ ] Gate `Chapter 05`, verify raw parity/residue, and refresh the Book `1` audit
+
 ### NEP-006 Matrix Revision
 
 - [x] Generate `generated/chapter_expansion_matrix_v1.md` from the current matrix plus `repo_synthesis_report_v1.md` and `source_family_priority_map_v1.md`

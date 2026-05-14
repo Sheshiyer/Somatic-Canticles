@@ -23,7 +23,7 @@
     "visual_support": [
       "visual archive"
     ],
-    "draft_model": "moonshotai/kimi-k2-instruct",
+    "draft_model": "moonshotai/kimi-k2.6",
     "control_pass": "openai/gpt-oss-120b",
     "source_tier_focus": [
       "published substrate",
@@ -54,7 +54,7 @@
       "signal-state-story blog"
     ],
     "visual_support": [],
-    "draft_model": "moonshotai/kimi-k2-instruct",
+    "draft_model": "moonshotai/kimi-k2.6",
     "control_pass": "openai/gpt-oss-120b",
     "source_tier_focus": [
       "published substrate"
@@ -83,7 +83,7 @@
       "world-bible article"
     ],
     "visual_support": [],
-    "draft_model": "moonshotai/kimi-k2-instruct",
+    "draft_model": "moonshotai/kimi-k2.6",
     "control_pass": "openai/gpt-oss-120b",
     "source_tier_focus": [
       "published substrate"
@@ -112,7 +112,7 @@
       "captivity blog"
     ],
     "visual_support": [],
-    "draft_model": "moonshotai/kimi-k2-instruct",
+    "draft_model": "moonshotai/kimi-k2.6",
     "control_pass": "nvidia/nemotron-3-super-120b-a12b",
     "source_tier_focus": [
       "published substrate"
@@ -141,7 +141,7 @@
       "Book 1 editorial tasks"
     ],
     "visual_support": [],
-    "draft_model": "moonshotai/kimi-k2-instruct",
+    "draft_model": "moonshotai/kimi-k2.6",
     "control_pass": "nvidia/nemotron-3-super-120b-a12b",
     "source_tier_focus": [
       "published substrate"
@@ -159,7 +159,7 @@
     "target_band": "3000-3800",
     "priority_cluster": "medium",
     "dossier_priority": "wave-1",
-    "primary_deficit": "logic‑feeling collision aftermath",
+    "primary_deficit": "logic\u2011feeling collision aftermath",
     "layer_gaps": [
       "relationships",
       "meaning",
@@ -170,12 +170,12 @@
       "narrative-dynamics blog"
     ],
     "visual_support": [],
-    "draft_model": "moonshotai/kimi-k2-instruct",
+    "draft_model": "moonshotai/kimi-k2.6",
     "control_pass": "openai/gpt-oss-120b",
     "source_tier_focus": [
       "published substrate"
     ],
-    "notes": "extend post‑collision reflection"
+    "notes": "extend post\u2011collision reflection"
   },
   {
     "chapter_number": 7,
@@ -194,13 +194,13 @@
       "relationships"
     ],
     "best_source_families": [
-      "breath‑coherence blog",
+      "breath\u2011coherence blog",
       "visual archive"
     ],
     "visual_support": [
       "visual archive"
     ],
-    "draft_model": "moonshotai/kimi-k2-instruct",
+    "draft_model": "moonshotai/kimi-k2.6",
     "control_pass": "openai/gpt-oss-120b",
     "source_tier_focus": [
       "published substrate",
@@ -228,7 +228,7 @@
       "compass calibration blog"
     ],
     "visual_support": [],
-    "draft_model": "moonshotai/kimi-k2-instruct",
+    "draft_model": "moonshotai/kimi-k2.6",
     "control_pass": "openai/gpt-oss-120b",
     "source_tier_focus": [
       "published substrate"
@@ -256,12 +256,12 @@
       "encoded-care blog"
     ],
     "visual_support": [],
-    "draft_model": "moonshotai/kimi-k2-instruct",
+    "draft_model": "moonshotai/kimi-k2.6",
     "control_pass": "nvidia/nemotron-3-super-120b-a12b",
     "source_tier_focus": [
       "published substrate"
     ],
-    "notes": "expand encoded‑care logic"
+    "notes": "expand encoded\u2011care logic"
   },
   {
     "chapter_number": 10,
@@ -274,7 +274,7 @@
     "target_band": "3200-4200",
     "priority_cluster": "medium",
     "dossier_priority": "wave-2",
-    "primary_deficit": "contradiction‑stay scene",
+    "primary_deficit": "contradiction\u2011stay scene",
     "layer_gaps": [
       "character",
       "relationships",
@@ -285,7 +285,7 @@
       "witness runtime blog"
     ],
     "visual_support": [],
-    "draft_model": "moonshotai/kimi-k2-instruct",
+    "draft_model": "moonshotai/kimi-k2.6",
     "control_pass": "openai/gpt-oss-120b",
     "source_tier_focus": [
       "published substrate"
@@ -313,7 +313,7 @@
       "developmental continuity blog"
     ],
     "visual_support": [],
-    "draft_model": "moonshotai/kimi-k2-instruct",
+    "draft_model": "moonshotai/kimi-k2.6",
     "control_pass": "openai/gpt-oss-120b",
     "source_tier_focus": [
       "published substrate"
@@ -342,7 +342,7 @@
       "restart protocol blog"
     ],
     "visual_support": [],
-    "draft_model": "moonshotai/kimi-k2-instruct",
+    "draft_model": "moonshotai/kimi-k2.6",
     "control_pass": "nvidia/nemotron-3-super-120b-a12b",
     "source_tier_focus": [
       "published substrate"
@@ -371,7 +371,7 @@
       "coherence blog"
     ],
     "visual_support": [],
-    "draft_model": "moonshotai/kimi-k2-instruct",
+    "draft_model": "moonshotai/kimi-k2.6",
     "control_pass": "openai/gpt-oss-120b",
     "source_tier_focus": [
       "published substrate"
@@ -400,7 +400,7 @@
       "nervous-system coordination blog"
     ],
     "visual_support": [],
-    "draft_model": "moonshotai/kimi-k2-instruct",
+    "draft_model": "moonshotai/kimi-k2.6",
     "control_pass": "openai/gpt-oss-120b",
     "source_tier_focus": [
       "published substrate"
@@ -428,7 +428,7 @@
       "carryover blog"
     ],
     "visual_support": [],
-    "draft_model": "moonshotai/kimi-k2-instruct",
+    "draft_model": "moonshotai/kimi-k2.6",
     "control_pass": "nvidia/nemotron-3-super-120b-a12b",
     "source_tier_focus": [
       "published substrate"
@@ -457,7 +457,7 @@
       "concealed-truth cluster"
     ],
     "visual_support": [],
-    "draft_model": "moonshotai/kimi-k2-instruct",
+    "draft_model": "moonshotai/kimi-k2.6",
     "control_pass": "openai/gpt-oss-120b",
     "source_tier_focus": [
       "published substrate"
@@ -488,7 +488,7 @@
     "visual_support": [
       "visual archive"
     ],
-    "draft_model": "moonshotai/kimi-k2-instruct",
+    "draft_model": "moonshotai/kimi-k2.6",
     "control_pass": "nvidia/nemotron-3-super-120b-a12b",
     "source_tier_focus": [
       "published substrate",
@@ -518,7 +518,7 @@
       "methodology blog"
     ],
     "visual_support": [],
-    "draft_model": "moonshotai/kimi-k2-instruct",
+    "draft_model": "moonshotai/kimi-k2.6",
     "control_pass": "openai/gpt-oss-120b",
     "source_tier_focus": [
       "published substrate"
@@ -536,7 +536,7 @@
     "target_band": "3400-4400",
     "priority_cluster": "medium",
     "dossier_priority": "wave-3",
-    "primary_deficit": "three‑point problem",
+    "primary_deficit": "three\u2011point problem",
     "layer_gaps": [
       "meaning",
       "relationships",
@@ -547,7 +547,7 @@
       "joy catalyst blog"
     ],
     "visual_support": [],
-    "draft_model": "moonshotai/kimi-k2-instruct",
+    "draft_model": "moonshotai/kimi-k2.6",
     "control_pass": "openai/gpt-oss-120b",
     "source_tier_focus": [
       "published substrate"
@@ -576,7 +576,7 @@
       "origin wound blog"
     ],
     "visual_support": [],
-    "draft_model": "moonshotai/kimi-k2-instruct",
+    "draft_model": "moonshotai/kimi-k2.6",
     "control_pass": "openai/gpt-oss-120b",
     "source_tier_focus": [
       "published substrate"
@@ -605,7 +605,7 @@
       "field survival blog"
     ],
     "visual_support": [],
-    "draft_model": "moonshotai/kimi-k2-instruct",
+    "draft_model": "moonshotai/kimi-k2.6",
     "control_pass": "openai/gpt-oss-120b",
     "source_tier_focus": [
       "published substrate"
@@ -634,7 +634,7 @@
       "false offer blog"
     ],
     "visual_support": [],
-    "draft_model": "moonshotai/kimi-k2-instruct",
+    "draft_model": "moonshotai/kimi-k2.6",
     "control_pass": "openai/gpt-oss-120b",
     "source_tier_focus": [
       "published substrate"
@@ -663,7 +663,7 @@
       "structural lie blog"
     ],
     "visual_support": [],
-    "draft_model": "moonshotai/kimi-k2-instruct",
+    "draft_model": "moonshotai/kimi-k2.6",
     "control_pass": "openai/gpt-oss-120b",
     "source_tier_focus": [
       "published substrate"
@@ -692,7 +692,7 @@
       "authorship ritual blog"
     ],
     "visual_support": [],
-    "draft_model": "moonshotai/kimi-k2-instruct",
+    "draft_model": "moonshotai/kimi-k2.6",
     "control_pass": "openai/gpt-oss-120b",
     "source_tier_focus": [
       "published substrate"
@@ -721,7 +721,7 @@
       "preconfigured field blog"
     ],
     "visual_support": [],
-    "draft_model": "moonshotai/kimi-k2-instruct",
+    "draft_model": "moonshotai/kimi-k2.6",
     "control_pass": "openai/gpt-oss-120b",
     "source_tier_focus": [
       "published substrate"
@@ -750,7 +750,7 @@
       "first principles blog"
     ],
     "visual_support": [],
-    "draft_model": "moonshotai/kimi-k2-instruct",
+    "draft_model": "moonshotai/kimi-k2.6",
     "control_pass": "openai/gpt-oss-120b",
     "source_tier_focus": [
       "published substrate"
@@ -779,7 +779,7 @@
       "habitable field blog"
     ],
     "visual_support": [],
-    "draft_model": "moonshotai/kimi-k2-instruct",
+    "draft_model": "moonshotai/kimi-k2.6",
     "control_pass": "openai/gpt-oss-120b",
     "source_tier_focus": [
       "published substrate"
