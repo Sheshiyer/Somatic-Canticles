@@ -186,6 +186,12 @@ FORBIDDEN_TOKENS = [
     "Chetana Yantra",
     "WORLD_BIBLE.md",
     "Preface.md",
+    "failed candidate",
+    "failed candidate’s",
+    "failed candidate's",
+    "Crystal Conductor",
+    "living tapestry",
+    "newborn star",
     "Kael",
     "Jory",
     "Mara",
@@ -296,6 +302,36 @@ CHAPTER_FORBIDDEN_TOKENS = {
         "Mira stood",
         "Mira moved",
     ],
+    18: [
+        "The Gardener said",
+        "The Gardener asked",
+        "The Gardener answered",
+        "The Gardener replied",
+        "The Gardener spoke",
+        "Gardener said",
+        "Gardener asked",
+        "Gardener answered",
+        "Gardener replied",
+        "Gardener spoke",
+        "law of nature",
+        "homeostasis",
+        "maintenance algorithm",
+        "mechanism was the universe",
+        "system sermon",
+        "The Synthesis Protocol was complete",
+        "protocol was complete",
+        "merged field",
+        "single voice",
+        "became one",
+        "fused into",
+        "operator",
+        "operators",
+        "Mira said",
+        "Mira asked",
+        "Mira answered",
+        "Mira stood",
+        "Mira moved",
+    ],
     11: [
         "Mira",
         "Jax",
@@ -318,6 +354,11 @@ CHAPTER_CAST_HINTS = {
         "For Chapter 17, keep named people limited to Corv, Sona, Jian, Gideon, Mira Verath, and The Gardener. "
         "Mira Verath may appear only as subject, interior terrain, memory, or case trace; do not make her speak or operate as a helper. "
         "The Gardener may appear and communicate, but its voice must remain conservational, calm, sorrowfully necessary, and non-villainous."
+    ),
+    18: (
+        "For Chapter 18, keep named people limited to Corv, Sona, Jian, Gideon, and Mira Verath. "
+        "Mira Verath may appear only as the case subject, data trace, lineage lattice, or recovery consequence; do not make her speak or act as a helper. "
+        "The Gardener may be referenced only as the prior encounter, residue, pressure, or correction logic; do not give it new dialogue or an on-page presence."
     ),
     11: (
         "For Chapter 11, keep named people limited to Corv, Sona, Jian, and Gideon. "
@@ -469,6 +510,15 @@ def chapter_insert_guidance(chapter_number: int) -> str:
             "Do not over-mechanize it into universe/law/homeostasis/system-theory monologue; dramatize sorrowful necessity through encounter pressure, pruning action, and calm offer language. "
             "Deepen the four refusals: Corv refuses false mercy of meaning, Sona refuses anesthetic peace, Jian refuses the cage of explanation, and Gideon allows protection to be reclassified rather than broken. "
             "Keep the close embodied and procedural: ejected from depth, field-lock breath exchange, and a concrete handoff into Chapter 18's synthesis work."
+        )
+    if chapter_number == 18:
+        return (
+            "Chapter 18 insertion lane: stay in the immediate post-Gardener Anamnesis Engine chamber and turn the encounter into enacted procedure. "
+            "Do not repeat the Gardener sermon, add new Gardener dialogue, or explain the encounter as universe/law/homeostasis/system theory. "
+            "Do not present the Synthesis Protocol as complete, perfect, mastered, salvific, or as merger/fusion/unity of the team. "
+            "Deepen field-surgery pressure: hands on interfaces, telemetry lag, House classification risk, Verath-lattice evidence, failed timing attempts, and exact threshold discipline. "
+            "Keep the three vectors exact and role-bound: Sona holds Pure Joy as calibrated aliveness, Corv holds Catalyst Clarity as the undecorated Bell moment, Gideon holds Present Coherence as passage discipline, and Jian tracks the moving constellation without pretending the map is sovereign. "
+            "Build toward Chapter 19 by making the Three-Point Problem harder and more concrete, not by solving it."
         )
     return "No extra chapter-specific insert guidance."
 

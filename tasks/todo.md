@@ -262,6 +262,27 @@ This file is the active source of truth for repository execution status.
 - [x] Commit and push `Chapter 17` only after it passes acceptance.
 - [ ] Next live step: expand `Chapter 18` from its populated dossier and the accepted Gardener handoff, preserving the move from encounter aftermath into synthesis protocol rather than repeating the Gardener sermon.
 
+### NEP-018 Book 3 Chapter 18 Expansion
+
+- [x] Review `Chapter 18` dossier, route, current working draft, and compiled-hotspot ledger.
+  - Route: default Kimi route is rerouted to `qwen/qwen3.5-122b-a10b`; control remains `openai/gpt-oss-120b`; pass floor is `8,040` words.
+  - Current draft issues: old preamble metadata, under-length at `1,577` normalized words, vector-definition compression, and high risk of sermon voice / role flattening.
+  - Governing constraint: convert the accepted Gardener handoff into enacted field surgery and threshold discipline, not another explanation of the Gardener.
+- [x] Harden the runner for `Chapter 18` before launch:
+  - [x] Add Chapter `18` cast guidance allowing only Corv, Sona, Jian, Gideon, and Mira Verath as case trace / recovery consequence.
+  - [x] Ban observed/probable synthesis drift: new Gardener dialogue, law/homeostasis/system-sermon language, protocol-complete posture, and merger/fusion/unity phrasing.
+  - [x] Add Chapter `18` insert guidance that keeps Pure Joy / Catalyst Clarity / Present Coherence exact and builds toward the Three-Point Problem without solving it.
+- [x] Expand `Chapter 18` from the populated dossier and accepted `Chapter 17` handoff.
+  - Result: accepted at `8,055` words after the default Qwen route stalled/false-failed on over-broad validation, the draft lane was rerouted through GPT-OSS, and the closing third was surgically rewritten to replace repeated calibration/spec loops with House-pressure, body consequence, distinct voice, and semantic-correction stakes.
+- [ ] Verify `Chapter 18` acceptance:
+  - [x] Working/raw parity clean.
+  - [x] Saved style gate passes braid, wit lanes, temperature variation, double meaning, and pressure-release thresholds.
+  - [x] Hard-ban and lexical scan clean.
+  - [x] Rejected scratch inserts excluded from commit.
+  - Result: saved `gate-9` scores are `braid_balance=8`, `wit_lane_distinction=8`, `temperature_variation=7`, `double_meaning_density=8`, `humor_pressure_release=7`.
+- [ ] Commit and push `Chapter 18` only after it passes acceptance.
+- [ ] Next live step after commit: expand `Chapter 19` from its populated dossier and the accepted `Chapter 18` handoff, preserving the Three-Point Problem as unresolved procedure rather than solved triangulation.
+
 ### NEP-006 Matrix Revision
 
 - [x] Generate `generated/chapter_expansion_matrix_v1.md` from the current matrix plus `repo_synthesis_report_v1.md` and `source_family_priority_map_v1.md`
