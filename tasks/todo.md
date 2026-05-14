@@ -197,7 +197,11 @@ This file is the active source of truth for repository execution status.
   - Runner hardening: added Book `2` cast hints for Chapters `12-15`, treated over-floor non-final style failures as eligible for final acceptance repair, and allowed an already-over-floor insert-first stage to gate instead of forcing unnecessary growth.
   - Verification: working/raw parity is clean, saved `gate-3` passes with `braid_balance=8`, `wit_lane_distinction=7`, `temperature_variation=8`, `double_meaning_density=6`, `humor_pressure_release=7`, and the hard-ban scan is clean.
   - Process note: rejected scratch artifacts from failed tone/setting/operator lanes were not committed.
-- [ ] Next live step: start `Chapter 13` Book `2` expansion with the same cast-aware runner, guarded insert-first route, and raw/parity acceptance scan.
+- [x] Start `Chapter 13` Book `2` expansion with the same cast-aware runner, guarded insert-first route, and raw/parity acceptance scan.
+  - Result: `NEP-015-B2-C13-GPT` completed successfully at `7,136` words after final-stage voice repair.
+  - Verification: working/raw/accepted-voice parity is clean, saved `gate-3` passes with `braid_balance=8`, `wit_lane_distinction=8`, `temperature_variation=7`, `double_meaning_density=6`, `humor_pressure_release=7`, and the hard-ban scan is clean.
+  - Process note: rejected insert scratch artifacts were not committed.
+- [ ] Next live step: start `Chapter 14` Book `2` expansion with the same cast-aware runner, guarded insert-first route, and raw/parity acceptance scan.
 
 ### NEP-006 Matrix Revision
 
