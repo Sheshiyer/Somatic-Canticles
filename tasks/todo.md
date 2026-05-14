@@ -459,7 +459,28 @@ This file is the active source of truth for repository execution status.
   - [x] Hard-ban and lexical scan clean.
   - [x] Rejected scratch inserts excluded from commit.
 - [x] Commit and push `Chapter 26` only after it passes acceptance.
-- [ ] Next live step after commit: expand `Chapter 27` from accepted `Chapter 26`, preserving first habitation and bridge-to-others as bounded beginning rather than utopian closure.
+- [x] Next live step after commit: open `Chapter 27` from accepted `Chapter 26`, preserving first habitation and bridge-to-others as bounded beginning rather than utopian closure.
+
+### NEP-027 Book 3 Chapter 27 Expansion
+
+- [x] Review `Chapter 27` dossier, route, current working draft, and accepted `Chapter 26` handoff.
+  - Route: default Kimi route is rerouted to `qwen/qwen3.5-122b-a10b`; control remains `openai/gpt-oss-120b`; pass floor is `8,040` words.
+  - Current draft issues: under-length at `1,684` words, legacy `Corvan` naming, stale `frequency/resonate` carryovers, explicit symbolic-role risk from dossier language, and sequel-horizon overstatement risk.
+  - Governing constraint: Chapter `27` may stabilize first habitation, rest, relationship, tree/ground, and a bounded horizon toward others, but it must not become utopia, coronation, solved society, or Noetic Network sequel bait.
+- [x] Harden the runner for `Chapter 27` before launch:
+  - [x] Normalize `Corvan` and `resonate` carryovers before validation.
+  - [x] Add Chapter `27` cast guidance limiting live voice lanes to Corv, Sona, Jian, and Gideon.
+  - [x] Ban explicit tarot/Thoth/Crowley role names, stale field terms, Gardener presence, sci-fi equipment, new roles, paradise/omnipotence posture, Noetic Network naming, and over-explicit future-team sequel language.
+- [x] Expand `Chapter 27` from the populated dossier and accepted `Chapter 26` threshold.
+  - Result: the monitored GPT-OSS route produced a clean `5,094`-word surface before repeated later-stage prop/cliche drift; the accepted lane uses that clean spine plus a controlled final habitation repair.
+  - Repair: removed mesh/sensor/implant/creature drift, kept bridge/contact language as distant horizon only, and landed the four final arcs around relation without capture, living-system revision, guarded passage, and refusal of premature meaning.
+- [x] Verify `Chapter 27` acceptance:
+  - [x] Working/raw parity clean at `8,138` words.
+  - [x] Saved `gate-9` passes with `braid_balance=8`, `wit_lane_distinction=8`, `temperature_variation=7`, `double_meaning_density=7`, `humor_pressure_release=8`.
+  - [x] Hard-ban and lexical scan clean.
+  - [x] Rejected scratch inserts excluded from commit.
+- [x] Commit and push `Chapter 27` only after it passes acceptance.
+- [ ] Next live step after commit: run the Book `3` expanded-lane review before rebuilding compiled surfaces and endmatter.
 
 ### NEP-006 Matrix Revision
 
