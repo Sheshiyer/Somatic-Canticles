@@ -300,3 +300,13 @@ Review this file at session start when the task touches planning, intake authori
   - pass caller timeouts through all pending/polling branches in the NVIDIA client
   - support provider-specific text fields before classifying a model as unusable
   - resolve both `control_pass` and `control_model` in every runner that performs validation or repair
+
+### L-031: Below-floor candidates still need canon/name validation before becoming retry bases
+
+- Pattern:
+  - Chapter `11` produced a below-floor partial-growth candidate that carried unsupported helper names; because the candidate failed on word count before the style gate, it became the next insert base and contaminated later retries.
+- Prevention:
+  - treat unsupported-character style-gate findings as hard canon failures, not ordinary prose-style failures
+  - keep chapter-scoped forbidden-name lists when a name is invalid for one chapter but valid elsewhere in the trilogy
+  - add chapter cast hints to generation and gate prompts so the model does not solve pressure-release beats by inventing operators or assistants
+  - if a hard-failed candidate is long enough, salvage only by deterministic paragraph stripping and revalidation; never preserve contaminated material as the accepted base

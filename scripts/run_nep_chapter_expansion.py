@@ -134,6 +134,24 @@ FORBIDDEN_TOKENS = [
     "lower deck",
     "lower-deck",
 ]
+CHAPTER_FORBIDDEN_TOKENS = {
+    11: [
+        "Mira",
+        "Jax",
+        "Arlen",
+        "Selene",
+        "Asha",
+        "Kian",
+        "J-X",
+        "J‑X",
+    ],
+}
+CHAPTER_CAST_HINTS = {
+    11: (
+        "For Chapter 11, keep named people limited to Corv, Sona, Jian, and Gideon. "
+        "Council monitors, operators, avatars, or assistants may appear only as unnamed roles."
+    ),
+}
 
 
 def parse_args() -> argparse.Namespace:
@@ -239,6 +257,13 @@ def chapter_slug(chapter_number: int, chapter_title: str) -> str:
     return f"{chapter_number:02d}-{slug}"
 
 
+def chapter_cast_hint(chapter_number: int) -> str:
+    return CHAPTER_CAST_HINTS.get(
+        chapter_number,
+        "Do not invent additional named people; keep any new person unnamed unless the current chapter authority already names them.",
+    )
+
+
 def cleaned_heading(chapter_number: int, chapter_title: str) -> str:
     return f"# Chapter {chapter_number}: {chapter_title}\n"
 
@@ -272,20 +297,27 @@ def find_preamble_residue(text: str) -> str | None:
     return None
 
 
-def find_forbidden_token(text: str) -> str | None:
-    for token in FORBIDDEN_TOKENS:
+def forbidden_tokens_for(chapter_number: int | None = None) -> list[str]:
+    tokens = list(FORBIDDEN_TOKENS)
+    if chapter_number is not None:
+        tokens.extend(CHAPTER_FORBIDDEN_TOKENS.get(chapter_number, []))
+    return tokens
+
+
+def find_forbidden_token(text: str, *, chapter_number: int | None = None) -> str | None:
+    for token in forbidden_tokens_for(chapter_number):
         if token in text:
             return token
     return None
 
 
-def has_hard_validation_failure(text: str) -> bool:
-    return bool(find_preamble_residue(text) or find_forbidden_token(text))
+def has_hard_validation_failure(text: str, *, chapter_number: int | None = None) -> bool:
+    return bool(find_preamble_residue(text) or find_forbidden_token(text, chapter_number=chapter_number))
 
 
-def sanitize_failure_note(reason: str) -> str:
+def sanitize_failure_note(reason: str, *, chapter_number: int | None = None) -> str:
     cleaned = reason
-    for token in sorted(FORBIDDEN_TOKENS, key=len, reverse=True):
+    for token in sorted(forbidden_tokens_for(chapter_number), key=len, reverse=True):
         cleaned = re.sub(re.escape(token), "[hard-banned term]", cleaned, flags=re.IGNORECASE)
     cleaned = re.sub(
         r"unsupported new teammate\s+[\"“][^\"”]+[\"”]",
@@ -489,6 +521,7 @@ Rules:
 - Do not include notes, explanations, or bullet lists.
 - Preserve canon, scene order, and the outbound obligation from the dossier.
 - Do not invent additional Somanaut teammates or named operators. Any new named person must already be present in the current draft, dossier, chapter summary, or required source context.
+- {chapter_cast_hint(chapter_number)}
 - Treat the current draft as a base text that must survive. Do not compress, omit, summarize, or skip existing beats.
 - Every existing paragraph and scene skeleton from the current draft must visibly survive in order unless a microscopic line edit is unavoidable for continuity.
 - The correct operation is insertion, not replacement. If your output is shorter than the input draft, it is invalid.
@@ -577,6 +610,7 @@ Requirements:
 - The accepted base draft is `{accepted_words:,}` words, so add at least `{required_new_words:,}` words of scene-native material.
 - Preserve all existing canon beats and invented prose that is already working.
 - Do not invent additional Somanaut teammates or named operators. Any new named person must already be present in the accepted draft, failed candidate, or dossier context.
+- {chapter_cast_hint(chapter_number)}
 - Do not compress or summarize the draft you are given.
 - Every existing paragraph and scene skeleton must still be present in order after repair unless a microscopic line edit is unavoidable for continuity.
 - The correct operation is insertion, not replacement. If the repaired output is shorter than the input draft, it is invalid.
@@ -688,6 +722,7 @@ Requirements:
 - Write `{required_new_words:,}` to `{required_new_words + 350:,}` words of new material.
 - The insert must preserve canon and feel like it belongs inside the accepted base draft.
 - Do not invent additional Somanaut teammates or named operators. Any new named person must already be present in the accepted base draft or failed candidate.
+- {chapter_cast_hint(chapter_number)}
 - Use the failed candidate only as a source of salvageable tone, imagery, wit, or pressure-release moves.
 - Add scene dwell time, relational consequence, atmosphere, and one pressure-release beat.
 - Keep the biology / philosophy / technology braid intact.
@@ -768,6 +803,9 @@ Pass rules:
 Target chapter:
 - Chapter {chapter_number}: {chapter_title}
 
+Cast authority:
+- {chapter_cast_hint(chapter_number)}
+
 Candidate text:
 
 ```md
@@ -798,6 +836,7 @@ Hard requirements:
 - Preserve canon, scene order, and the existing chapter spine. Do not delete whole beats to tighten style.
 - Do not introduce new architecture, new lore dumps, new named systems, or a new plot turn.
 - Do not invent additional Somanaut teammates or named operators. Any named person in the repaired chapter must already exist in the candidate or the dialogue matrix excerpt.
+- {chapter_cast_hint(chapter_number)}
 - Do not add preamble labels such as `Somatic Event`, `Character Focus`, `Political Context`, `RESONANCE PROFILE`, or `Chapter Status`.
 - Treat character identity as canon. Corv uses he/him pronouns. Sona uses she/her. Jian and Gideon use he/him. Remove any pronoun drift.
 - Fix style locally and surgically: revise flat passages, add connective tissue, sharpen exchanges, and rebalance paragraphs without replacing the chapter's substance.
@@ -842,7 +881,7 @@ def validate_chapter(text: str, *, chapter_number: int, chapter_title: str, curr
     residue = find_preamble_residue(text)
     if residue:
         raise RuntimeError(f"Expanded chapter contains preamble residue: {residue}")
-    forbidden = find_forbidden_token(text)
+    forbidden = find_forbidden_token(text, chapter_number=chapter_number)
     if forbidden:
         raise RuntimeError(f"Expanded chapter contains forbidden token: {forbidden}")
     expanded_words = word_count(text)
@@ -938,6 +977,27 @@ def validate_style_gate(result: dict) -> None:
 def is_style_failure(reason: str) -> bool:
     reason_lower = reason.lower()
     return any(marker in reason_lower for marker in STYLE_FAILURE_MARKERS)
+
+
+def is_hard_failure_reason(reason: str) -> bool:
+    reason_lower = reason.lower()
+    hard_markers = (
+        "forbidden token",
+        "preamble residue",
+        "unsupported new character",
+        "unsupported new characters",
+        "unsupported character",
+        "unsupported characters",
+        "unsupported new teammate",
+        "unsupported teammate",
+        "unsupported new operator",
+        "unsupported operator",
+        "introduced unsupported",
+        "introduces unsupported",
+        "invented named",
+        "additional somanaut teammate",
+    )
+    return any(marker in reason_lower for marker in hard_markers)
 
 
 def stage_output_path(raw_dir: Path, slug: str, stage_index: int, kind: str = "stage") -> Path:
@@ -1377,7 +1437,7 @@ def main() -> None:
             failed_candidate = "" if insert_first_stage else candidate
             repair_notes = str(exc)
             failed_candidate_words = previous_words if insert_first_stage else word_count(failed_candidate)
-            if failed_candidate and has_hard_validation_failure(failed_candidate):
+            if failed_candidate and has_hard_validation_failure(failed_candidate, chapter_number=args.chapter):
                 failed_candidate = ""
                 failed_candidate_words = previous_words
                 repair_notes = f"{repair_notes} | failed candidate rejected before repair prompt"
@@ -1417,7 +1477,10 @@ def main() -> None:
                     flush=True,
                 )
             repaired = False
-            if failed_candidate_words > previous_words and not has_hard_validation_failure(failed_candidate):
+            if failed_candidate_words > previous_words and not has_hard_validation_failure(
+                failed_candidate,
+                chapter_number=args.chapter,
+            ):
                 best_candidate = failed_candidate
                 best_candidate_words = failed_candidate_words
             else:
@@ -1454,7 +1517,10 @@ def main() -> None:
                     f"[chapter {args.chapter:02d}] stage={stage_index} repair_attempt={repair_attempt} repair_words={repair_words}",
                     flush=True,
                 )
-                if repair_words > best_candidate_words and not has_hard_validation_failure(candidate):
+                if repair_words > best_candidate_words and not has_hard_validation_failure(
+                    candidate,
+                    chapter_number=args.chapter,
+                ):
                     best_candidate = candidate
                     best_candidate_words = repair_words
                 try:
@@ -1492,7 +1558,7 @@ def main() -> None:
                         flush=True,
                     )
                     repair_failure = str(repair_exc)
-                    if "forbidden token" in repair_failure.lower() or "preamble residue" in repair_failure.lower():
+                    if is_hard_failure_reason(repair_failure):
                         failed_candidate = ""
                         candidate = draft
                         print(
@@ -1528,7 +1594,7 @@ def main() -> None:
                     last_repair_words = repair_words
             if not repaired:
                 candidate = best_candidate
-                insert_notes = sanitize_failure_note(repair_notes)
+                insert_notes = sanitize_failure_note(repair_notes, chapter_number=args.chapter)
                 duplicate_insert_failures = 0
                 for insert_attempt in range(1, INSERT_FALLBACK_ATTEMPTS + 1):
                     required_new_words = max(required_min_words - word_count(candidate), 300)
@@ -1564,7 +1630,7 @@ def main() -> None:
                             duplicate_insert_failures += 1
                         insert_notes = (
                             f"{insert_notes} | insert attempt {insert_attempt} call failed: "
-                            f"{sanitize_failure_note(str(insert_call_exc))}"
+                            f"{sanitize_failure_note(str(insert_call_exc), chapter_number=args.chapter)}"
                         )
                         print(
                             f"[chapter {args.chapter:02d}] stage={stage_index} insert_attempt={insert_attempt} call_failed={insert_call_exc}",
@@ -1604,7 +1670,7 @@ def main() -> None:
                         break
                     except RuntimeError as insert_exc:
                         insert_failure = str(insert_exc)
-                        hard_insert_failure = "forbidden token" in insert_failure.lower() or "preamble residue" in insert_failure.lower()
+                        hard_insert_failure = is_hard_failure_reason(insert_failure)
                         failed_candidate = "" if hard_insert_failure else candidate
                         if hard_insert_failure:
                             contaminated_words = word_count(candidate)
@@ -1615,7 +1681,10 @@ def main() -> None:
                                 f"| next insert must avoid explicit scaffold, unsupported names, and setting drift"
                             )
                         else:
-                            insert_notes = f"{insert_notes} | insert attempt {insert_attempt}: {sanitize_failure_note(insert_failure)}"
+                            insert_notes = (
+                                f"{insert_notes} | insert attempt {insert_attempt}: "
+                                f"{sanitize_failure_note(insert_failure, chapter_number=args.chapter)}"
+                            )
                         print(
                             f"[chapter {args.chapter:02d}] stage={stage_index} insert_attempt={insert_attempt} failed={insert_failure}",
                             flush=True,
@@ -1682,7 +1751,10 @@ def main() -> None:
                                     break
                                 except RuntimeError as voice_exc:
                                     failed_candidate = voice_candidate
-                                    insert_notes = f"{insert_notes} | voice repair attempt {voice_attempt}: {voice_exc}"
+                                    insert_notes = (
+                                        f"{insert_notes} | voice repair attempt {voice_attempt}: "
+                                        f"{sanitize_failure_note(str(voice_exc), chapter_number=args.chapter)}"
+                                    )
                                     print(
                                         f"[chapter {args.chapter:02d}] stage={stage_index} voice_repair_attempt={voice_attempt} failed={voice_exc}",
                                         flush=True,

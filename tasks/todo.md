@@ -188,7 +188,11 @@ This file is the active source of truth for repository execution status.
   - Runner hardening: removed explicit hidden-scaffold terms from generative prompts, sanitized hard-failure notes before prompt reuse, added smaller post-hard-failure insert chunks, and added `Lira` / `Juna` to local-only hard bans while preserving valid Chapter `10` authority for `Aurora Luminth`.
   - Verification: accepted Chapter `10` is `8,950` words, working/raw/accepted-voice parity is clean, saved `gate-4` passes with `braid_balance=9`, `wit_lane_distinction=8`, `temperature_variation=8`, `double_meaning_density=7`, `humor_pressure_release=8`, and hard-ban scan is clean.
   - Process note: rejected insert scratch artifacts and the failed voice-repair artifact were not committed because they contained hard-ban terms or unsupported helper material.
-- [ ] Next live step: start `Chapter 11` Book `2` expansion with the cleaned submerged-scaffold prompts, guarded insert-first route, and raw/parity acceptance scan.
+- [x] Start `Chapter 11` Book `2` expansion with the cleaned submerged-scaffold prompts, guarded insert-first route, and raw/parity acceptance scan.
+  - Result: `NEP-015-B2-C11-CASTLOCK` completed successfully at `10,653` words after the runner was hardened with Chapter `11` cast authority and chapter-scoped local-name bans.
+  - Verification: working/raw parity is clean, saved `gate-4` passes with `braid_balance=9`, `wit_lane_distinction=8`, `temperature_variation=8`, `double_meaning_density=7`, `humor_pressure_release=8`, and the hard-ban scan is clean.
+  - Process note: rejected insert scratch artifacts from failed attempts were not committed because they contained local-only helper names or setting-drift terms.
+- [ ] Next live step: start `Chapter 12` Book `2` expansion with the same cast-aware runner, guarded insert-first route, and raw/parity acceptance scan.
 
 ### NEP-006 Matrix Revision
 
