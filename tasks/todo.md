@@ -328,7 +328,7 @@ This file is the active source of truth for repository execution status.
   - [x] Hard-ban and lexical scan clean.
   - [x] Rejected scratch inserts excluded from commit.
   - Result: saved `gate-9` scores are `braid_balance=8`, `wit_lane_distinction=8`, `temperature_variation=7`, `double_meaning_density=7`, `humor_pressure_release=8`.
-- [ ] Commit and push `Chapter 20` only after it passes acceptance.
+- [x] Commit and push `Chapter 20` only after it passes acceptance.
 - [ ] Next live step after commit: expand `Chapter 21` from its populated dossier and accepted `Chapter 20` handoff, preserving hostile-contact Test Fire as local procedure without bleeding into Chapter `22` temptation logic.
 
 ### NEP-006 Matrix Revision
