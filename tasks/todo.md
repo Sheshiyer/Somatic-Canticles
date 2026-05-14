@@ -458,7 +458,7 @@ This file is the active source of truth for repository execution status.
   - [x] Saved `gate-9` passes with `braid_balance=8`, `wit_lane_distinction=8`, `temperature_variation=8`, `double_meaning_density=7`, `humor_pressure_release=8`.
   - [x] Hard-ban and lexical scan clean.
   - [x] Rejected scratch inserts excluded from commit.
-- [ ] Commit and push `Chapter 26` only after it passes acceptance.
+- [x] Commit and push `Chapter 26` only after it passes acceptance.
 - [ ] Next live step after commit: expand `Chapter 27` from accepted `Chapter 26`, preserving first habitation and bridge-to-others as bounded beginning rather than utopian closure.
 
 ### NEP-006 Matrix Revision
