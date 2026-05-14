@@ -328,3 +328,12 @@ Review this file at session start when the task touches planning, intake authori
   - put project style-sheet carryovers in `FORBIDDEN_TOKENS` whenever they are non-negotiable
   - scan the accepted working/raw lane after each chapter for prompt-banned vocabulary, not only names and production residue
   - normalize accepted working/raw artifacts together so parity survives deterministic lexical cleanup
+
+### L-034: Deterministic lexical cleanup belongs before acceptance, not after it
+
+- Pattern:
+  - Chapter `15` inherited the newly hardened style-sheet bans, so otherwise viable generated material could fail late if legacy `quantum` / `vibration` / `manifestation` language survived until the post-run scan.
+- Prevention:
+  - normalize known lexical carryovers inside insert and chapter normalization before word-count, gate, and hard-ban validation
+  - keep the normalization map explicit and conservative so it removes known stale terminology without rewriting the novel's conceptual vocabulary wholesale
+  - still run the final hard-ban scan after normalization; deterministic cleanup is a guardrail, not a substitute for acceptance proof

@@ -13,10 +13,10 @@ This file is the active source of truth for repository execution status.
   - [x] Reframe the old `3x` numbers as an intermediate safety floor only
   - [x] Mark the old v1 matrix length bands as interim so the next expansion wave aims at the macro target profile instead
 - [ ] Launch the actual chapter expansion wave by book from the populated dossiers and macro target bands:
-  - `Book 1` dossier-driven long-form expansion
-  - `Book 2` dossier-driven long-form expansion
-  - `Book 3` dossier-driven long-form expansion
-- [ ] Begin the Book `2` expansion lane only after applying Book `1` runner lessons:
+  - [ ] `Book 1` dossier-driven long-form expansion
+  - [x] `Book 2` dossier-driven long-form expansion
+  - [ ] `Book 3` dossier-driven long-form expansion
+- [x] Complete the Book `2` expansion lane only after applying Book `1` runner lessons:
   - [x] Review Book `1` compression, duplicate-insert, style-gate, and named-operator lessons before selecting routes
   - [x] Probe current NVIDIA model availability instead of trusting the original Kimi/MiniMax plan
   - [x] Patch NVIDIA `202` polling so caller timeouts control hung model probes and monitored runs
@@ -207,7 +207,20 @@ This file is the active source of truth for repository execution status.
   - Lexical cleanup: normalized accepted Book `2` Chapters `09-14` working/raw surfaces to remove remaining `vibration` / `quantum` / related style-sheet carryovers while preserving working/raw parity.
   - Runner hardening: promoted those style-sheet carryovers into hard validation so Chapter `15` cannot reintroduce them.
   - Process note: rejected insert scratch artifacts were not committed.
-- [ ] Next live step: start `Chapter 15` Book `2` expansion with the same cast-aware and lexical-hard-ban runner, guarded insert-first route, and raw/parity acceptance scan.
+- [x] Start `Chapter 15` Book `2` expansion with the same cast-aware and lexical-hard-ban runner, guarded insert-first route, and raw/parity acceptance scan.
+  - Result: `NEP-015-B2-C15-NORM` completed successfully at `11,321` words.
+  - Runner hardening: added deterministic lexical normalization before insert/chapter validation so legacy `quantum` / `vibration` / `manifestation` carryovers are removed before acceptance, not only after post-run cleanup.
+  - Verification: working/raw/accepted-voice parity is clean, saved `gate-4` passes with `braid_balance=8`, `wit_lane_distinction=7`, `temperature_variation=7`, `double_meaning_density=6`, `humor_pressure_release=7`, and the hard-ban / lexical scan is clean.
+  - Process note: rejected insert scratch artifacts were excluded from the durable acceptance set.
+
+### NEP-015 Book 2 Acceptance Review
+
+- [x] Accepted all Book `2` working chapters `09-15` through the guarded insert-first expansion lane.
+- [x] Recorded final Book `2` expanded working word count: `68,359` words by the repo `word_count` function.
+- [x] Verified each accepted Book `2` chapter has working/raw parity.
+- [x] Verified each accepted Book `2` chapter has a saved passing style gate.
+- [x] Verified the accepted Book `2` working/raw surfaces are clean of local-name bans, overt symbolic scaffold terms, production preamble residue, and lexical carryovers.
+- [ ] Next live step: run the Book `2` compiled-surface coherence comparison before promoting this lane back into compiled manuscript surfaces.
 
 ### NEP-006 Matrix Revision
 

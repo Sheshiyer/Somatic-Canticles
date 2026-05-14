@@ -86,6 +86,40 @@ STYLE_FAILURE_MARKERS = (
     "double_meaning",
     "braid",
 )
+LEXICAL_STYLE_GUIDANCE = (
+    "Use field, lattice, deep-field, pulse, thrum, tremor, pressure, cadence, and resonance language; "
+    "avoid legacy subatomic-mechanics jargon and generic oscillation wording."
+)
+LEXICAL_REPLACEMENTS = (
+    ("Quantum Systems", "field systems"),
+    ("Chetana Yantra", "awareness instrument"),
+    ("quantum foam", "deep-field substrate"),
+    ("quantum core", "chamber core"),
+    ("quantum lattice", "field lattice"),
+    ("quantum states", "field states"),
+    ("quantum state", "field state"),
+    ("quantum cache", "lattice cache"),
+    ("quantum filaments", "lattice filaments"),
+    ("quantum filament", "lattice filament"),
+    ("quantum substrate", "field substrate"),
+    ("quantum flux", "field flux"),
+    ("quantum conduits", "field conduits"),
+    ("quantum conduit", "field conduit"),
+    ("quantum", "field"),
+    ("Quantum", "Field"),
+    ("vibrations", "tremors"),
+    ("Vibrations", "Tremors"),
+    ("vibration", "tremor"),
+    ("Vibration", "Tremor"),
+    ("vibrating", "shivering"),
+    ("Vibrating", "Shivering"),
+    ("vibrated", "trembled"),
+    ("Vibrated", "Trembled"),
+    ("vibrate", "tremble"),
+    ("Vibrate", "Tremble"),
+    ("manifestation", "appearance"),
+    ("Manifestation", "Appearance"),
+)
 PREAMBLE_LABELS = [
     "Somatic Event",
     "Character Focus",
@@ -323,6 +357,13 @@ def find_preamble_residue(text: str) -> str | None:
     return None
 
 
+def normalize_lexical_carryovers(text: str) -> str:
+    cleaned = text
+    for old, replacement in LEXICAL_REPLACEMENTS:
+        cleaned = cleaned.replace(old, replacement)
+    return cleaned
+
+
 def forbidden_tokens_for(chapter_number: int | None = None) -> list[str]:
     tokens = list(FORBIDDEN_TOKENS)
     if chapter_number is not None:
@@ -355,7 +396,7 @@ def sanitize_failure_note(reason: str, *, chapter_number: int | None = None) -> 
 
 
 def normalize_insert_text(text: str) -> str:
-    cleaned = text.replace("\ufeff", "").strip()
+    cleaned = normalize_lexical_carryovers(text).replace("\ufeff", "").strip()
     lines = []
     for line in cleaned.splitlines():
         if re.match(r"^\s*#*\s*Chapter\s+\d+\b", line, flags=re.IGNORECASE):
@@ -455,7 +496,7 @@ def merge_insert_before_last_paragraph(base_text: str, insert_text: str) -> str:
 
 def normalize_chapter_text(text: str, *, chapter_number: int, chapter_title: str) -> str:
     expected = f"# Chapter {chapter_number}: {chapter_title}"
-    cleaned = text.replace("\ufeff", "").strip()
+    cleaned = normalize_lexical_carryovers(text).replace("\ufeff", "").strip()
     lines = cleaned.splitlines()
     chapter_line = re.compile(r"^\s*#*\s*Chapter\s+\d+\b", flags=re.IGNORECASE)
     for idx, line in enumerate(lines[:12]):
@@ -569,6 +610,7 @@ Rules:
 - Bring layered meanings and verbal play where natural. Let phrases do double duty without turning ornamental.
 - Allow intelligent pressure-release humor or dry wit when character-true. Do not make everyone speak in the same solemn register.
 - Use a supplemental structured-tone reference, not a replacement voice: grounded, direct, respectful-challenging; clinical precision at visionary scale; conviction over hedging.
+- {LEXICAL_STYLE_GUIDANCE}
 - Let humor be structural when it appears: funny because true at multiple scales, not because the chapter starts performing jokes.
 - Modulate the emotional temperature. Let fear, wonder, irony, intimacy, technical focus, and grief alter the sentence texture rather than flattening into one style.
 - Assign wit lanes by character where they appear:
@@ -650,6 +692,7 @@ Requirements:
 - Keep any symbolic-muse scaffolding implicit through scene pressure and tonal reversal rather than overtly explained.
 - Preserve the chapter's layered meaning, wit, and emotional temperature shifts. If humor or irony is already present or naturally available, sharpen it rather than sanding it away.
 - Keep the tone grounded, direct, and structurally intelligent. Borrow conviction and multi-scale humor if helpful, but do not drift into content-marketing voice.
+- {LEXICAL_STYLE_GUIDANCE}
 - Reinforce character-specific wit lanes instead of adding generic humor:
   - Jian: dry technical understatement
   - Gideon: blunt protective edge
@@ -753,6 +796,7 @@ Requirements:
 - Add scene dwell time, relational consequence, atmosphere, and one pressure-release beat.
 - Keep the biology / philosophy / technology braid intact.
 - Keep the submerged symbolic-muse logic implicit through pacing, pressure, reversal, and image selection.
+- {LEXICAL_STYLE_GUIDANCE}
 - Use character-specific wit sparingly and concretely where natural.
 - If this insert is repairing style gate failures, prioritize calm counter-rhythm, distinct character voice, one clean technical consequence, and one character-true pressure-release exchange over more visionary sensory escalation.
 - The insert must transition cleanly into the base draft's final paragraph.
@@ -878,6 +922,7 @@ Repair targets:
 - Add or sharpen one pressure-release beat that matters because it lowers tension without breaking stakes.
 - Increase double-meaning density through phrases that read both technically and emotionally. Do not decorate for its own sake.
 - Keep the submerged symbolic-muse lattice implicit through pacing, pressure, reversal, and image selection. Never name the scaffold.
+- {LEXICAL_STYLE_GUIDANCE}
 
 Style gate failures to repair:
 
