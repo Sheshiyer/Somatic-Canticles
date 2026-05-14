@@ -543,6 +543,110 @@ CHAPTER_FORBIDDEN_TOKENS = {
         "Anvel asked",
         "Anvel answered",
     ],
+    22: [
+        "The Gardener said",
+        "The Gardener asked",
+        "The Gardener answered",
+        "The Gardener replied",
+        "The Gardener spoke",
+        "Gardener said",
+        "Gardener asked",
+        "Gardener answered",
+        "Gardener replied",
+        "Gardener spoke",
+        "law of nature",
+        "homeostasis",
+        "maintenance algorithm",
+        "mechanism was the universe",
+        "universe",
+        "system sermon",
+        "crystal",
+        "crystals",
+        "conduit",
+        "conduits",
+        "copper rim",
+        "wrist-pad",
+        "wrist-band",
+        "holo-grid",
+        "data packet",
+        "Review Board",
+        "Engine offered",
+        "the Engine offered",
+        "Engine whispered",
+        "algorithm whispered",
+        "console's glass",
+        "Catalyst Clarity dial",
+        "temporal regulator",
+        "opalescent slab",
+        "side console",
+        "countdown",
+        "timer ticked",
+        "Triangulation Engine",
+        "frequency",
+        "frequencies",
+        "vibrate",
+        "vibrates",
+        "vibrated",
+        "vibrating",
+        "harmonization",
+        "shatter",
+        "shattered",
+        "shattering",
+        "Tarot",
+        "tarot",
+        "Thoth",
+        "Crowley",
+        "Major Arcana",
+        "The Fool",
+        "the Fool",
+        "The Hermit",
+        "the Hermit",
+        "The Tower",
+        "the Tower",
+        "card zero",
+        "Card Zero",
+        "passage attempted",
+        "entered the gap",
+        "crossed the gap",
+        "crossed the threshold",
+        "stepped through",
+        "severance complete",
+        "Severance complete",
+        "severed the lineage",
+        "cut the Vine",
+        "convergence complete",
+        "convergence was complete",
+        "opening mastered",
+        "passage mastered",
+        "alignment achieved",
+        "perfect alignment",
+        "single vector",
+        "unified witness",
+        "merged field",
+        "single voice",
+        "became one",
+        "fused into",
+        "Perfect Safety",
+        "perfect safety",
+        "risk-free protection",
+        "control temptation",
+        "safety temptation",
+        "Noetic Network",
+        "operator",
+        "operators",
+        "House envoy",
+        "house envoy",
+        "House delegate",
+        "house delegate",
+        "Mira said",
+        "Mira asked",
+        "Mira answered",
+        "Mira stood",
+        "Mira moved",
+        "Anvel said",
+        "Anvel asked",
+        "Anvel answered",
+    ],
     11: [
         "Mira",
         "Jax",
@@ -590,6 +694,13 @@ CHAPTER_CAST_HINTS = {
         "Mira Verath may appear only as proof case, data trace, lineage lattice, or review consequence; Anvel Verath may appear only as the remembered origin point, not an on-page speaker. "
         "Mira and Anvel have no dialogue or wit lanes in Chapter 21; evaluate live voice distinction only for Corv, Sona, Jian, and Gideon. "
         "The Gardener may be present only as hostile load, pressure, or correction attention; do not give it dialogue, image-body, or on-page personhood. "
+        "No new operators, assistants, monitors, House envoys, House delegates, named officials, or extra spoken roles."
+    ),
+    22: (
+        "For Chapter 22, keep named people limited to Corv, Sona, Jian, Gideon, Mira Verath, and Anvel Verath as a historical wound coordinate only. "
+        "Mira Verath may appear only as proof case, data trace, lineage lattice, or review consequence; Anvel Verath may appear only as remembered origin pressure, not an on-page speaker. "
+        "Live temptation lanes belong to Jian, Sona, and Corv; Gideon's Chapter 23 safety/control temptation must remain a visible boundary, not a Chapter 22 offer. "
+        "The Gardener may be present only as pressure, offer logic, or pruning intelligence; do not give it dialogue, image-body, or on-page personhood. "
         "No new operators, assistants, monitors, House envoys, House delegates, named officials, or extra spoken roles."
     ),
     11: (
@@ -781,6 +892,16 @@ def chapter_insert_guidance(chapter_number: int) -> str:
             "Keep the local procedure exact: Sona holds Pure Joy as unbought aliveness, Corv holds Catalyst Clarity at the wound without myth, Jian keeps the interval raw and kills smoothing, and Gideon maintains edges without wall-building. "
             "Deepen body stakes with metallic taste, vessel hum, skin-tightening, breath load, and Amrita pressure only where scene-native; keep biological metaphor grounded and do not import literal reptilian mechanics. "
             "End with counterfeit kindness / relief as the discovered next danger, but do not open Chapter 22's Perfect World or personal temptation offers."
+        )
+    if chapter_number == 22:
+        return (
+            "Chapter 22 insertion lane: inherit accepted Chapter 21 counterfeit-kindness discovery and enact only the personalized false-offer phase for Jian, Sona, and Corv. "
+            "Jian's offer is perfect certainty / complete explanation; Sona's offer is painless peace / anesthetized harmony; Corv's offer is perfect meaning / beautiful closure. "
+            "Gideon should remain present as boundary witness and pressure reader, but do not give him the Chapter 23 safety/control offer or resolve his protector arc here. "
+            "Keep the Gardener as offer logic and pruning pressure only; no Gardener dialogue, body, sermon, or revealed motive. "
+            "Use the approved blog-source motifs subliminally: leap-before-justification, stillness that can become avoidance, tower-like structural rigidity, and world-completion as a beautiful cage. "
+            "Do not name tarot, cards, Thoth, Crowley, Hermit, Tower, Fool, or Major Arcana in prose. "
+            "End with the team identifying satisfaction/beautiful closure as the pressure form and leave Chapter 23's structural-lie and safety/control lane unopened."
         )
     return "No extra chapter-specific insert guidance."
 

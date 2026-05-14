@@ -352,7 +352,28 @@ This file is the active source of truth for repository execution status.
   - [x] Rejected scratch inserts excluded from commit.
 - [x] Commit `Chapter 21` only after it passes acceptance.
 - [x] Push the accepted `Chapter 21` checkpoint.
-- [ ] Next live step after push: expand `Chapter 22` from its populated dossier and accepted `Chapter 21` handoff, preserving individualized temptation logic without bleeding into Chapter `23` safety/control temptation.
+- [x] Next live step after push: expand `Chapter 22` from its populated dossier and accepted `Chapter 21` handoff, preserving individualized temptation logic without bleeding into Chapter `23` safety/control temptation.
+
+### NEP-022 Book 3 Chapter 22 Expansion
+
+- [x] Review `Chapter 22` dossier, route, current working draft, and accepted `Chapter 21` handoff.
+  - Route: default Kimi route is rerouted to `qwen/qwen3.5-122b-a10b`; control remains `openai/gpt-oss-120b`; pass floor is `6,520` words.
+  - Current draft issues: under-length at `1,364` words, stale `frequency` / `corridor` language, over-smooth harmony, and a packet-era contradiction where Gideon's Chapter `23` safety/control lane must stay boundary-only in Chapter `22`.
+  - Governing constraint: Chapter `22` may enact Jian's certainty offer, Sona's painless-peace offer, and Corv's perfect-meaning offer, but it must not reveal the Chapter `23` structural lie or move Gideon into his safety/control temptation.
+- [x] Harden the runner for `Chapter 22` before launch:
+  - [x] Add Chapter `22` cast guidance limiting live voice lanes to Corv, Sona, Jian, and Gideon, with Mira / Anvel only as proof-case or historical wound coordinates.
+  - [x] Ban observed/probable Perfect World drift: explicit tarot scaffold terms, stale `frequency` / `corridor` language, Gardener dialogue/body, solved passage posture, unsupported props, new House speakers, and Gideon safety/control bleed.
+  - [x] Add Chapter `22` insert guidance that keeps the false-offer phase individualized, subliminally source-bound, and closed before Chapter `23` structural-lie pressure.
+- [x] Expand `Chapter 22` from the populated dossier and accepted `Chapter 21` handoff.
+  - Result: rebuilt the chapter from the active temptation spine rather than accepting the short baseline, preserving Jian's solved-map refusal, Sona's false-rest refusal, Corv's beautiful-closure refusal, and Gideon's unopened Chapter `23` lane.
+  - Repair: removed stale `frequency` / `corridor` language, kept the tarot/world-completion source motifs submerged, and ended on satisfaction-as-pressure rather than a structural-lie reveal.
+- [x] Verify `Chapter 22` acceptance:
+  - [x] Working/raw parity clean at `6,520` words.
+  - [x] Saved `gate-9` passes with `braid_balance=8`, `wit_lane_distinction=8`, `temperature_variation=8`, `double_meaning_density=7`, `humor_pressure_release=8`.
+  - [x] Hard-ban and lexical scan clean.
+  - [x] Rejected scratch inserts excluded from commit.
+- [ ] Commit and push `Chapter 22` only after it passes acceptance.
+- [ ] Next live step after commit: expand `Chapter 23` from its populated dossier and accepted `Chapter 22` handoff, preserving structural-lie discovery without bleeding into Chapter `24` severance pressure.
 
 ### NEP-006 Matrix Revision
 
