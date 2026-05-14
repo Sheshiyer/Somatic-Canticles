@@ -516,7 +516,7 @@ He continued before they could answer. "That has been my error and my tool. A sy
 
 Sona let the words pass through her body before speaking.
 
-"Reality is a resonance," she said. Then she grimaced. "No. I do not mean the pretty version. I mean the kind that hurts if you are false. The kind that tells the bone when the note is wrong. Joy has to stay exact enough to sting."
+"Reality is relation," she said. Then she grimaced. "No. I do not mean the pretty version. I mean the kind that hurts if you are false. The kind that tells the bone when the note is wrong. Joy has to stay exact enough to sting."
 
 Corv watched the Bell band. "Reality is a narrative," he said. "But not because story makes things true. Because sequence reveals consent, rupture, evasion, return. A bad narrative domesticates the wound. A true one keeps the witness broad enough that the wound cannot be conveniently renamed."
 

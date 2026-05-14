@@ -480,7 +480,13 @@ This file is the active source of truth for repository execution status.
   - [x] Hard-ban and lexical scan clean.
   - [x] Rejected scratch inserts excluded from commit.
 - [x] Commit and push `Chapter 27` only after it passes acceptance.
-- [ ] Next live step after commit: run the Book `3` expanded-lane review before rebuilding compiled surfaces and endmatter.
+- [x] Next live step after commit: run the Book `3` expanded-lane review before rebuilding compiled surfaces and endmatter.
+  - [x] Reconcile tracker drift between the old completed late-Book-3 compiled package and the newer NVIDIA-expanded Chapter `16-27` lane.
+  - [x] Clean the expanded working/raw lane before merge-back where review scans found stale vocabulary or duplicated generated prose, especially Chapters `16-18`.
+  - [x] Re-run raw parity, hard-ban, style-gate, and word-count checks after cleanup.
+  - [x] Only rebuild compiled Book `3`, omnibus, and endmatter surfaces after the expanded lane passes review.
+  - Result: expanded Book `3` now compiles from the accepted working lane at `106,312` words; all Chapter `16-27` source files match the working lane; the omnibus contains all `27` chapters with refreshed Book `3`, glossary, bibliography, closing note, and backmatter.
+  - Verification: working/raw parity clean, broad Book `3` stale-term scan clean, refreshed gates saved for touched chapters, `scan_consistency.py` clean, and `git diff --check` clean.
 
 ### NEP-006 Matrix Revision
 

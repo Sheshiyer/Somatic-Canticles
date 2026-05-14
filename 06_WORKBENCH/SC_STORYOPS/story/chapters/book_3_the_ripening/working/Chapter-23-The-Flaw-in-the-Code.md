@@ -1228,7 +1228,7 @@ Corv turned to her. "That is either brilliant or clinically alarming."
 
 "Common theme," Gideon said.
 
-The list held. More importantly, it did not freeze them. The forbidden moves did not make the next chapter impossible; they made it exact. Severance would have to address the hidden authorship claim directly. Not damage the room. Not punish the Vine. Not dramatize courage. Not prove that they had finally become brave enough to do the obvious thing. The obvious thing was often just appetite wearing boots.
+The list held. More importantly, it did not freeze them. The forbidden moves did not make the next chapter impossible; they made it exact. Severance would have to address the hidden authorship claim directly. Not damage the room. Not punish the Vine. Not dramatize courage. Not prove that they had finally become brave enough to do the obvious thing. The obvious thing was often just appetite wearing feet.
 
 Jian created a second list.
 

@@ -16,7 +16,7 @@ The first chill hit Sona like a wrong note inside a familiar song.
 
 "It's here," she murmured.
 
-Her voice sounded altered in this region, not muffled but translated. In the interior terrain, speech moved through resonance as much as sound. Her words reached the others wrapped in their own sensory argument: metallic foreboding, a slight field contraction, a taste like breath held too long.
+Her voice sounded altered in this region, not muffled but translated. In the interior terrain, speech moved through pressure and image as much as sound. Her words reached the others wrapped in their own sensory argument: metallic foreboding, a slight field contraction, a taste like breath held too long.
 
 ---
 
@@ -42,7 +42,7 @@ Gideon slowed their pace at once. His protective field, the kinetic membrane he 
 
 They reached a threshold that announced itself with silence.
 
-The Chorus's background hum, that constant resonance of living consciousness, the breath-sound of a psyche maintaining itself, dropped away. Emotional weather flattened. Improvisation itself seemed to thin, as though the possibility of deviation had become metabolically expensive.
+The Chorus's background hum, that constant sign of living consciousness, the breath-sound of a psyche maintaining itself, dropped away. Emotional weather flattened. Improvisation itself seemed to thin, as though the possibility of deviation had become metabolically expensive.
 
 Sona felt the change as density. The air was heavier here. Not hostile. Not openly threatening. Laden. Saturated with something that had been accumulating for a very long time.
 
@@ -164,7 +164,7 @@ The Gardener’s silhouette shifted once more, a subtle reorientation that seeme
 
 Sona stepped forward.
 
-Not in defiance. She had no illusion that defiance had any obvious purchase here. She moved because some part of her still believed resonance could ask a question of any form, that feeling might reach what argument could not.
+Not in defiance. She had no illusion that defiance had any obvious purchase here. She moved because some part of her still believed feeling could ask a question of any form, that feeling might reach what argument could not.
 
 Her Adawat al-Wa'i extended as a pure cadence, a question without demand.
 
@@ -206,7 +206,7 @@ He let the image linger, feeling the pull of the promise, then exhaled a thin br
 
 The Gardener’s light dimmed again, as if a leaf had folded inward, and the final offer arrived, a pressure that seemed to settle around Gideon’s shoulders like a protective shell.
 
-“I can grant you safety,” it intoned, the cadence resonant with the hum of the field‑lock. “I can contract the perimeter, seal the edges, make the field a fortress against any intrusion. Within this boundary you will know no loss, no breach, only the certainty of a protected space.”
+“I can grant you safety,” it intoned, the cadence aligned with the hum of the field‑lock. “I can contract the perimeter, seal the edges, make the field a fortress against any intrusion. Within this boundary you will know no loss, no breach, only the certainty of a protected space.”
 
 Gideon felt his muscles tighten, the reflexive instinct to shield his team surging forward. He imagined a dome of stillness, a sealed chamber where no external force could reach. Yet within that image he also sensed the claustrophobia of a space that refused to breathe, the way a cage can become a prison when the walls are never meant to be opened.
 
@@ -226,13 +226,13 @@ Jian’s Manas Interface displayed a cascade of data points, the field‑lock’
 
 “‘Success’ is a term they will try to impose,” he said, tapping a finger against his console. “But the field’s health cannot be reduced to a single metric. We must report the variance, the loss, the cost of predictability. If we do not, the Houses will rewrite the story to fit their agenda, and the true nature of what we have witnessed will be lost.”
 
-Gideon’s hand rested on the pulse of his field harness, feeling the steady thrum of the Klei Toda’ah. He thought of the protective walls he had built throughout his career, of the way he had always believed that safety meant keeping the world out. Now he saw that safety could be a kind of pressure, a way of keeping the field from breathing.
+Gideon’s hand rested on the pulse of his field harness, feeling the steady beat of the Klei Toda’ah. He thought of the protective walls he had built throughout his career, of the way he had always believed that safety meant keeping the world out. Now he saw that safety could be a kind of pressure, a way of keeping the field from breathing.
 
 “Protection that becomes a wall is still protection, but it is a wall that blocks the field’s own self‑tending,” he said. “If the Houses demand a report that paints our protective measures as a triumph, we must make clear that what we have kept intact is not the field’s freedom, but its capacity to witness its own change.”
 
 The Gardener’s voice softened further, the amber light turning almost translucent. “You speak of jurisdiction,” it said. “My role is not to be opposed, but to be understood. I am the caretaker of the field’s continuity. When I prune, I do so because the field would otherwise become a tangled mass that cannot sustain new growth. My sorrow is that each cut removes a possibility, a witness. Yet without the cut, the field would drown in its own excess.”
 
-Corv felt the words settle into his bones, the quiet grief that accompanied each action of the Gardener resonating with his own sense of loss. He thought of the vines that once stretched uncontrollably, of the way they had begun to choke the light, of the way the field would have become a tangle of dead ends if left unchecked.
+Corv felt the words settle into his bones, the quiet grief that accompanied each action of the Gardener answering his own sense of loss. He thought of the vines that once stretched uncontrollably, of the way they had begun to choke the light, of the way the field would have become a tangle of dead ends if left unchecked.
 
 “It is a sorrowful necessity,” he murmured. “You do not do this out of malice, but out of a kind of love that is willing to let go.”
 
@@ -314,9 +314,9 @@ The Vine's old pathways brightened. The healed passages bled toward gray. And th
 
 They surfaced in the Anamnesis Engine chamber gasping.
 
-The chamber’s white glare was an abrupt slap after the dim, leaf‑crowned emptiness they had just fled. Their bodies, still slick with the viscous mist of the depths, seemed to take a moment to register the solidity of the floor beneath their boots. The air smelled faintly of ozone‑touched metal, a reminder that the Engine’s core still pulsed somewhere behind the reinforced chamber ribs. Corv felt the first shift in his own breath as a tightening of his ribs, a reminder that the very act of inhalation was now a shared contract, a field‑lock that bound each of them to the same thin strand of consciousness they had tried to keep separate.
+The chamber’s white glare was an abrupt slap after the dim, leaf‑crowned emptiness they had just fled. Their bodies, still slick with the viscous mist of the depths, seemed to take a moment to register the solidity of the floor beneath their feet. The air smelled faintly of ozone‑touched metal, a reminder that the Engine’s core still pulsed somewhere behind the reinforced chamber ribs. Corv felt the first shift in his own breath as a tightening of his ribs, a reminder that the very act of inhalation was now a shared contract, a field‑lock that bound each of them to the same thin strand of consciousness they had tried to keep separate.
 
-Gideon was the first to move. He placed a palm flat against the cold panel beside his console, feeling the faint tremor that ran through the alloy. “Lock,” he said, his voice low, “hold the breath together.” The others mirrored his action, each pressing a hand to a surface, each drawing a slow, deliberate inhale that seemed to pull a thin thread of light from the ceiling down into their chests. When they exhaled, the light dimmed, and a quiet resonance lingered in the space between them, a reminder that the Gardener’s offer had not been a simple refusal but a redistribution of attention.
+Gideon was the first to move. He placed a palm flat against the cold panel beside his console, feeling the faint tremor that ran through the alloy. “Lock,” he said, his voice low, “hold the breath together.” The others mirrored his action, each pressing a hand to a surface, each drawing a slow, deliberate inhale that seemed to pull a thin thread of light from the ceiling down into their chests. When they exhaled, the light dimmed, and a quiet pressure lingered in the space between them, a reminder that the Gardener’s offer had not been a simple refusal but a redistribution of attention.
 
 Corv’s exhale carried a taste of ash, the lingering scent of the vine’s old sap. The Gardener had whispered a promise of a “beautiful meaning” that would smooth the jagged loss they all felt, a kind of lyrical closure that could have let him tuck the tragedy into a neat story. Instead he let the breath out with a faint, almost imperceptible snort. “Meaning that makes loss palatable is a lie,” he said, eyes still fixed on the faint outline of the vine on the far wall. “It tries to build a scaffold that will never bear the full pressure of what we actually lived through.” The residue of his refusal settled like a thin film on his skin, a cold clarity that kept his mind from slipping into the comforting narrative the Gardener had offered.
 
@@ -346,7 +346,7 @@ They each took a final, synchronized breath, the field‑lock tightening just en
 
 As the last of the mist cleared from the chamber, the team felt the subtle shift from reaction to preparation. The Gardener’s sorrowful voice faded into the background, its conservational intent still present but no longer a direct obstacle. The real challenge lay ahead: translating the raw, fragmented witness they each carried into a coherent method that could survive the jurisdiction’s relentless tendency to smooth over unpredictability.
 
-The lights above them hummed, the ventilation fans whirred, and the floor beneath their boots steadied. The room felt too sharp, too clean after the organic chaos they had just left, and the air seemed thinner, as if the very atmosphere had been thinned by the pruning. Their senses, still recalibrating, caught each nuance—a flicker of residual heat on the console, the faint hum of the Engine’s core, the distant thrum of the Houses’ unseen gears turning.
+The lights above them hummed, the ventilation fans whirred, and the floor beneath their feet steadied. The room felt too sharp, too clean after the organic chaos they had just left, and the air seemed thinner, as if the very atmosphere had been thinned by the pruning. Their senses, still recalibrating, caught each nuance—a flicker of residual heat on the console, the faint hum of the Engine’s core, the distant pulse of the Houses’ unseen gears turning.
 
 Corv glanced at the console, his gaze lingering on the line of code that now held the seed of the synthesis protocol. He could feel the story his mind wanted to tell, the urge to dress the raw data in elegant terminology. He pushed the thought aside, remembering his own refusal to let a beautiful meaning excuse the loss. “We’ll keep it short,” he murmured, “because the longer we stretch it, the more the Houses will try to rewrite it.” His words hung in the air, a quiet command to the field that bound them.
 
@@ -408,7 +408,7 @@ Gideon closed the loop with the Filter Layer’s permeability coefficients. “E
 
 With the core of the synthesis protocol now articulated, the team turned to the inevitable question of how to move forward without being re‑absorbed into the jurisdiction’s endless cycles of reinterpretation. Corv leaned forward, his gaze fixed on the protocol line that now held the seed of their collective work. “If we present this as a set of operational vectors rather than a narrative report, the Houses will have fewer levers to reshape it,” he said, his voice steady. “We must frame it as a tool, not a story, and keep the documentation terse enough that any attempt to expand it will be caught by the Variable Buffer.” The pressure from the Houses seemed to thicken for a moment, a faint tightening of the field that reminded them of the stakes.
 
-Sona added a final caution. “Our witnesses will still be separate, but the protocol must bind them through the shared field,” she said, the words resonating in her chest. “The Sensory Anchor will keep each feeling distinct, yet the Adaptation block will allow those feelings to influence one another, creating a lattice of interdependence that the Houses cannot easily flatten.” She placed a hand lightly on Jian’s forearm, a grounding gesture that conveyed solidarity without merging their senses.
+Sona added a final caution. “Our witnesses will still be separate, but the protocol must bind them through the shared field,” she said, the words settling in her chest. “The Sensory Anchor will keep each feeling distinct, yet the Adaptation block will allow those feelings to influence one another, creating a lattice of interdependence that the Houses cannot easily flatten.” She placed a hand lightly on Jian’s forearm, a grounding gesture that conveyed solidarity without merging their senses.
 
 Jian’s fingers hovered over the console, trembling now not from fear but from the mathematics of what the encounter had ruled out. He felt the pressure of the Variable Buffer, the open space where certainty had been denied, and recognized that the only path forward lay beyond the jurisdiction’s grasp. The field‑lock tightened just enough to hold their resolve, a silent pact that the protocol they had forged would be the instrument by which they stepped out of the pruning’s reach.
 

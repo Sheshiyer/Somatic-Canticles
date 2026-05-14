@@ -13,7 +13,7 @@ Passage not attempted.
 
 Jian left the four lines visible above the Interface and made no attempt to improve them. Improvement was the oldest disease in a room like this. It arrived wearing the face of diligence, washed its hands in metrics, and added one more sentence until the truth started sounding employable.
 
-Sona stood with one hand open at her side, palm facing the floor as if she were listening through the bones of the chamber. The vessel hum had changed since Chapter 20's final alignment. It no longer rolled beneath the stone like weather. It tapped. Low, regular, almost rude. A boot-check hidden under ritual architecture.
+Sona stood with one hand open at her side, palm facing the floor as if she were listening through the bones of the chamber. The vessel hum had changed since Chapter 20's final alignment. It no longer rolled beneath the stone like weather. It tapped. Low, regular, almost rude. A foot-check hidden under ritual architecture.
 
 "It sounds awake," she said.
 
