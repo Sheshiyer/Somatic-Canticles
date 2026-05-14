@@ -757,6 +757,93 @@ CHAPTER_FORBIDDEN_TOKENS = {
         "Anvel asked",
         "Anvel answered",
     ],
+    24: [
+        "The Gardener said",
+        "The Gardener asked",
+        "The Gardener answered",
+        "The Gardener replied",
+        "The Gardener spoke",
+        "Gardener said",
+        "Gardener asked",
+        "Gardener answered",
+        "Gardener replied",
+        "Gardener spoke",
+        "Gardener screamed",
+        "Gardener did not scream",
+        "law of nature",
+        "homeostasis",
+        "maintenance algorithm",
+        "mechanism was the universe",
+        "universe",
+        "system sermon",
+        "crystal",
+        "crystals",
+        "conduit",
+        "conduits",
+        "copper rim",
+        "wrist-pad",
+        "wrist-band",
+        "holo-grid",
+        "data packet",
+        "Review Board",
+        "Engine offered",
+        "the Engine offered",
+        "Engine whispered",
+        "algorithm whispered",
+        "console's glass",
+        "Catalyst Clarity dial",
+        "temporal regulator",
+        "opalescent slab",
+        "side console",
+        "countdown",
+        "timer ticked",
+        "Triangulation Engine",
+        "frequency",
+        "frequencies",
+        "vibrate",
+        "vibrates",
+        "vibrated",
+        "vibrating",
+        "resonant",
+        "energy",
+        "harmonized",
+        "harmonization",
+        "shatter",
+        "shattered",
+        "shattering",
+        "Quantum",
+        "quantum",
+        "Tarot",
+        "tarot",
+        "Thoth",
+        "Crowley",
+        "Major Arcana",
+        "void of pure potential",
+        "Void of Pure Potential",
+        "void aftermath",
+        "empty cosmos",
+        "new universe",
+        "coronation",
+        "ascension",
+        "apotheosis",
+        "became gods",
+        "godhood",
+        "Noetic Network",
+        "operator",
+        "operators",
+        "House envoy",
+        "house envoy",
+        "House delegate",
+        "house delegate",
+        "Mira said",
+        "Mira asked",
+        "Mira answered",
+        "Mira stood",
+        "Mira moved",
+        "Anvel said",
+        "Anvel asked",
+        "Anvel answered",
+    ],
     11: [
         "Mira",
         "Jax",
@@ -818,6 +905,13 @@ CHAPTER_CAST_HINTS = {
         "Mira Verath may appear only as proof case, data trace, lineage lattice, or review consequence; Anvel Verath may appear only as remembered origin pressure, not an on-page speaker. "
         "Gideon's safety/control pressure is allowed in Chapter 23, but it must resolve as a refusal of manageability, not as a severance act or protector-arc completion. "
         "The Gardener may be present only as hidden authorship, maintenance pressure, or pruning logic; do not give it dialogue, image-body, or on-page personhood. "
+        "No new operators, assistants, monitors, House envoys, House delegates, named officials, or extra spoken roles."
+    ),
+    24: (
+        "For Chapter 24, keep named people limited to Corv, Sona, Jian, Gideon, Mira Verath, and Anvel Verath as historical/proof-case coordinates only. "
+        "Mira Verath may appear only as proof case, data trace, lineage lattice, or review consequence; Anvel Verath may appear only as remembered origin pressure, not an on-page speaker. "
+        "The chapter may enact the final procedure / severance act, but it must preserve four distinct witnesses and stop before Chapter 25's void aftermath or new-coordinate adaptation. "
+        "The Gardener may be present only as silent maintenance pressure or pruning logic losing exclusive claim; do not give it dialogue, image-body, scream, or personhood. "
         "No new operators, assistants, monitors, House envoys, House delegates, named officials, or extra spoken roles."
     ),
     11: (
@@ -1028,6 +1122,15 @@ def chapter_insert_guidance(chapter_number: int) -> str:
             "Use approved source motifs subliminally: status labels that lie by returning clean states, body/chemical timing as pattern recognition, and old debug/code language as hidden authorship. "
             "Do not name HTTP codes, Sanskrit texts, tarot, Enneagram, endocrine-constellation, Thoth, Crowley, or source-post scaffolds in prose. "
             "Do not enact severance, cut the Vine, cross the gap, or treat the discovery as final victory; end with a precise cut-line for Chapter 24."
+        )
+    if chapter_number == 24:
+        return (
+            "Chapter 24 insertion lane: inherit accepted Chapter 23 entry conditions and enact the final procedure as live authorship refusal. "
+            "This chapter may perform the severance/cut against hidden authorship's exclusive claim, but it must not enter Chapter 25's void aftermath, new-coordinate adaptation, or post-cut cosmology. "
+            "Preserve the live roles: Sona holds Pure Joy as unpurchased life, Corv holds Catalyst Clarity without explanation, Jian tracks the moving gap without auto-completion, and Gideon preserves Present Coherence as distinct witnesses in shared relation. "
+            "Keep the procedure embodied with breath, rail pressure, metallic taste, vessel hum, hand tension, and changing light geometry; avoid abstract sermon or clean triumph. "
+            "The Gardener may register only as silent maintenance pressure losing exclusive claim; no dialogue, scream, body, villain monologue, or revelation. "
+            "End at release / loss of old jurisdiction with relation intact, before Chapter 25's void or aftermath processing begins."
         )
     return "No extra chapter-specific insert guidance."
 

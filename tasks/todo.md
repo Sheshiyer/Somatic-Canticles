@@ -394,7 +394,28 @@ This file is the active source of truth for repository execution status.
   - [x] Hard-ban and lexical scan clean.
   - [x] Rejected scratch inserts excluded from commit.
 - [x] Commit and push `Chapter 23` only after it passes acceptance.
-- [ ] Next live step after commit: expand `Chapter 24` from its populated dossier and accepted `Chapter 23` cut-line, preserving severance as a live act without bleeding into Chapter `25` void aftermath.
+- [x] Next live step after commit: expand `Chapter 24` from its populated dossier and accepted `Chapter 23` cut-line, preserving severance as a live act without bleeding into Chapter `25` void aftermath.
+
+### NEP-024 Book 3 Chapter 24 Expansion
+
+- [x] Review `Chapter 24` dossier, route, current working draft, and accepted `Chapter 23` cut-line.
+  - Route: default Kimi route is rerouted to `qwen/qwen3.5-122b-a10b`; control remains `openai/gpt-oss-120b`; pass floor is `8,200` words.
+  - Current draft issues: under-length at `1,718` words, stale `universe` / `Triangulation Engine` / `Gardener did not scream` drift, compressed `13.7` sequence, and risk of bleeding into Chapter `25` void aftermath.
+  - Governing constraint: Chapter `24` may enact the final procedure / severance against hidden authorship's exclusive claim, but it must end at release with relation intact before Chapter `25` adaptation begins.
+- [x] Harden the runner for `Chapter 24` before launch:
+  - [x] Add Chapter `24` cast guidance limiting live voice lanes to Corv, Sona, Jian, and Gideon, with Mira / Anvel only as proof-case or historical wound coordinates.
+  - [x] Ban observed/probable Final Procedure drift: stale field terms, explicit scaffold terms, Gardener dialogue/body/scream, new House speakers, triumph/coronation posture, and Chapter `25` void aftermath.
+  - [x] Add Chapter `24` insert guidance that permits the severance act while preserving distinct witnesses, embodied procedure, and a clean stop before aftermath.
+- [x] Expand `Chapter 24` from the populated dossier and accepted `Chapter 23` cut-line.
+  - Result: rebuilt the live severance lane around the Chapter `23` cut-line, the moving refusal seam, a `13.7`-second anti-spectacular procedure, and a release boundary that stops before Chapter `25` void aftermath.
+  - Repair: the first style-gated surface was rejected for procedural flattening and `Corvan` drift; the accepted pass normalizes `Corv`, removes the duplicate activation replay, and turns the replay pressure into a record-custody temptation that strengthens body/philosophy/technology braid.
+- [x] Verify `Chapter 24` acceptance:
+  - [x] Working/raw parity clean at `8,287` words.
+  - [x] Saved `gate-9` passes with `braid_balance=8`, `wit_lane_distinction=7`, `temperature_variation=8`, `double_meaning_density=7`, `humor_pressure_release=8`.
+  - [x] Hard-ban and lexical scan clean.
+  - [x] Rejected scratch inserts excluded from commit.
+- [ ] Commit and push `Chapter 24` only after it passes acceptance.
+- [ ] Next live step after commit: expand `Chapter 25` from its populated dossier and accepted `Chapter 24` release, preserving void aftermath without premature authored-reality stabilization.
 
 ### NEP-006 Matrix Revision
 
