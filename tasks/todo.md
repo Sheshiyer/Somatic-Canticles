@@ -351,7 +351,7 @@ This file is the active source of truth for repository execution status.
   - [x] Hard-ban and lexical scan clean.
   - [x] Rejected scratch inserts excluded from commit.
 - [x] Commit `Chapter 21` only after it passes acceptance.
-- [ ] Push the accepted `Chapter 21` checkpoint.
+- [x] Push the accepted `Chapter 21` checkpoint.
 - [ ] Next live step after push: expand `Chapter 22` from its populated dossier and accepted `Chapter 21` handoff, preserving individualized temptation logic without bleeding into Chapter `23` safety/control temptation.
 
 ### NEP-006 Matrix Revision
