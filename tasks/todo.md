@@ -305,7 +305,31 @@ This file is the active source of truth for repository execution status.
   - [x] Rejected scratch inserts excluded from commit.
   - Result: saved `gate-9` scores are `braid_balance=8`, `wit_lane_distinction=7`, `temperature_variation=8`, `double_meaning_density=7`, `humor_pressure_release=8`.
 - [x] Commit and push `Chapter 19` only after it passes acceptance.
-- [ ] Next live step after commit: expand `Chapter 20` from its populated dossier and accepted `Chapter 19` handoff, preserving convergence as threshold preparation rather than live-fire execution.
+- [x] Next live step after commit: expand `Chapter 20` from its populated dossier and accepted `Chapter 19` handoff, preserving convergence as threshold preparation rather than live-fire execution.
+
+### NEP-020 Book 3 Chapter 20 Expansion
+
+- [x] Review `Chapter 20` dossier, route, current working draft, and accepted `Chapter 19` handoff.
+  - Route: default Kimi route is rerouted to `qwen/qwen3.5-122b-a10b`; control remains `openai/gpt-oss-120b`; pass floor is `8,840` words.
+  - Macro target: low band is `11,050` words, but this pass uses the proven chapter-floor acceptance gate before later macro rebalancing.
+  - Current draft issues: old preamble metadata, under-length at `1,728` normalized words, threshold timing compressed, and risk of treating convergence visibility as completed passage.
+  - Governing constraint: convergence may reach the threshold and make the gap legible, but it must not begin Chapter `21` hostile-contact testing or claim mastery.
+- [x] Harden the runner for `Chapter 20` before launch:
+  - [x] Add Chapter `20` cast guidance allowing Corv, Sona, Jian, Gideon, Mira Verath as proof case / trace, and Anvel Verath only as historical wound coordinate.
+  - [x] Ban observed/probable convergence drift: new Gardener dialogue, solved/mastered convergence posture, Test Fire bleed, unsupported props, new House speakers, and merger/unified-witness phrasing.
+  - [x] Add Chapter `20` insert guidance that keeps Pure Joy / Catalyst Clarity / Present Coherence exact while deepening the negative-vertex, body cost, House-review pressure, and wound-without-doctrine logic.
+- [x] Expand `Chapter 20` from the populated dossier and accepted `Chapter 19` handoff.
+  - Result: accepted at `8,840` words after rejecting the first automated `9,857`-word output despite its passing gate because manual review found repeated late calibration beats, quasi-speaker Engine behavior, generic `universe` phrasing, and prop/interface clutter.
+  - Repair: rebuilt the accepted surface from the clean convergence spine with controlled additions for failure rehearsal, body-cost accounting, House audit pressure, negative-vertex geometry, deliberate threshold visibility, and a non-contact boundary into Chapter `21`.
+  - Runner hardening: added Chapter `20` bans for generic universe language, prop/interface drift, Engine-as-speaker language, stale Triangulation Engine naming, and House-speaker bleed.
+- [x] Verify `Chapter 20` acceptance:
+  - [x] Working/raw parity clean.
+  - [x] Saved style gate passes braid, wit lanes, temperature variation, double meaning, and pressure-release thresholds.
+  - [x] Hard-ban and lexical scan clean.
+  - [x] Rejected scratch inserts excluded from commit.
+  - Result: saved `gate-9` scores are `braid_balance=8`, `wit_lane_distinction=8`, `temperature_variation=7`, `double_meaning_density=7`, `humor_pressure_release=8`.
+- [ ] Commit and push `Chapter 20` only after it passes acceptance.
+- [ ] Next live step after commit: expand `Chapter 21` from its populated dossier and accepted `Chapter 20` handoff, preserving hostile-contact Test Fire as local procedure without bleeding into Chapter `22` temptation logic.
 
 ### NEP-006 Matrix Revision
 
