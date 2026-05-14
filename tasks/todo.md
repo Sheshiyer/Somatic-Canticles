@@ -373,7 +373,28 @@ This file is the active source of truth for repository execution status.
   - [x] Hard-ban and lexical scan clean.
   - [x] Rejected scratch inserts excluded from commit.
 - [x] Commit and push `Chapter 22` only after it passes acceptance.
-- [ ] Next live step after commit: expand `Chapter 23` from its populated dossier and accepted `Chapter 22` handoff, preserving structural-lie discovery without bleeding into Chapter `24` severance pressure.
+- [x] Next live step after commit: expand `Chapter 23` from its populated dossier and accepted `Chapter 22` handoff, preserving structural-lie discovery without bleeding into Chapter `24` severance pressure.
+
+### NEP-023 Book 3 Chapter 23 Expansion
+
+- [x] Review `Chapter 23` dossier, route, current working draft, and accepted `Chapter 22` handoff.
+  - Route: default Kimi route is rerouted to `qwen/qwen3.5-122b-a10b`; control remains `openai/gpt-oss-120b`; pass floor is `8,000` words.
+  - Current draft issues: under-length at `1,677` words, stale `harmonized` / `shattered`-family risk, thin relational aftermath, and a rushed move from structural-lie recognition toward Chapter `24` severance.
+  - Governing constraint: Chapter `23` may reveal hidden authorship and Gideon's manageability/protection temptation, but it must end at the cut-line for Chapter `24`, not enact severance.
+- [x] Harden the runner for `Chapter 23` before launch:
+  - [x] Add Chapter `23` cast guidance limiting live voice lanes to Corv, Sona, Jian, and Gideon, with Mira / Anvel only as proof-case or historical wound coordinates.
+  - [x] Ban observed/probable Flaw-in-the-Code drift: explicit source scaffold terms, stale `frequency` / `resonant` / `harmonized` language, Gardener dialogue/body, severance enactment, unsupported props, and new House speakers.
+  - [x] Add Chapter `23` insert guidance that opens hidden authorship and Gideon's manageability refusal while keeping Chapter `24` severance closed.
+- [x] Expand `Chapter 23` from the populated dossier and accepted `Chapter 22` handoff.
+  - Result: rebuilt the chapter around clean-state deception, Gideon's manageability refusal, hidden-authorship testing, review-language propagation, and a Chapter `24` entry-conditions cut-line.
+  - Repair: the first accepted-length surface failed style gate for technical flattening and quasi-personified Gardener/hidden-author language; the final pass removes unsupported review-role/simulator language, replaces Gardener personhood with pruning-layer logic, and adds a display-off relational beat to restore warmth, panic, and pressure release.
+- [x] Verify `Chapter 23` acceptance:
+  - [x] Working/raw parity clean at `8,495` words.
+  - [x] Saved `gate-9` passes with `braid_balance=8`, `wit_lane_distinction=7`, `temperature_variation=8`, `double_meaning_density=6`, `humor_pressure_release=7`.
+  - [x] Hard-ban and lexical scan clean.
+  - [x] Rejected scratch inserts excluded from commit.
+- [ ] Commit and push `Chapter 23` only after it passes acceptance.
+- [ ] Next live step after commit: expand `Chapter 24` from its populated dossier and accepted `Chapter 23` cut-line, preserving severance as a live act without bleeding into Chapter `25` void aftermath.
 
 ### NEP-006 Matrix Revision
 

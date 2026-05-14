@@ -647,6 +647,116 @@ CHAPTER_FORBIDDEN_TOKENS = {
         "Anvel asked",
         "Anvel answered",
     ],
+    23: [
+        "The Gardener said",
+        "The Gardener asked",
+        "The Gardener answered",
+        "The Gardener replied",
+        "The Gardener spoke",
+        "Gardener said",
+        "Gardener asked",
+        "Gardener answered",
+        "Gardener replied",
+        "Gardener spoke",
+        "law of nature",
+        "homeostasis",
+        "maintenance algorithm",
+        "mechanism was the universe",
+        "universe",
+        "system sermon",
+        "crystal",
+        "crystals",
+        "conduit",
+        "conduits",
+        "copper rim",
+        "wrist-pad",
+        "wrist-band",
+        "holo-grid",
+        "data packet",
+        "Review Board",
+        "Engine offered",
+        "the Engine offered",
+        "Engine whispered",
+        "algorithm whispered",
+        "console's glass",
+        "Catalyst Clarity dial",
+        "temporal regulator",
+        "opalescent slab",
+        "side console",
+        "countdown",
+        "timer ticked",
+        "Triangulation Engine",
+        "frequency",
+        "frequencies",
+        "vibrate",
+        "vibrates",
+        "vibrated",
+        "vibrating",
+        "resonant",
+        "harmonized",
+        "harmonization",
+        "shatter",
+        "shattered",
+        "shattering",
+        "Quantum",
+        "quantum",
+        "endocrine-constellation",
+        "Endocrine-Constellation",
+        "Enneagram",
+        "Tarot",
+        "tarot",
+        "Thoth",
+        "Crowley",
+        "Major Arcana",
+        "root admin",
+        "ROOT_ADMIN",
+        "Sanskrit",
+        "Purusha",
+        "Shikshavalli",
+        "HTTP",
+        "200 OK",
+        "404",
+        "500 Internal Server Error",
+        "503 Service Unavailable",
+        "entered the gap",
+        "crossed the gap",
+        "crossed the threshold",
+        "stepped through",
+        "severance complete",
+        "Severance complete",
+        "severed the lineage",
+        "cut the Vine",
+        "final severance",
+        "performed severance",
+        "live severance",
+        "convergence complete",
+        "convergence was complete",
+        "opening mastered",
+        "passage mastered",
+        "alignment achieved",
+        "perfect alignment",
+        "single vector",
+        "unified witness",
+        "merged field",
+        "single voice",
+        "became one",
+        "fused into",
+        "Noetic Network",
+        "operator",
+        "operators",
+        "House envoy",
+        "house envoy",
+        "House delegate",
+        "house delegate",
+        "Mira said",
+        "Mira asked",
+        "Mira answered",
+        "Mira stood",
+        "Mira moved",
+        "Anvel said",
+        "Anvel asked",
+        "Anvel answered",
+    ],
     11: [
         "Mira",
         "Jax",
@@ -701,6 +811,13 @@ CHAPTER_CAST_HINTS = {
         "Mira Verath may appear only as proof case, data trace, lineage lattice, or review consequence; Anvel Verath may appear only as remembered origin pressure, not an on-page speaker. "
         "Live temptation lanes belong to Jian, Sona, and Corv; Gideon's Chapter 23 safety/control temptation must remain a visible boundary, not a Chapter 22 offer. "
         "The Gardener may be present only as pressure, offer logic, or pruning intelligence; do not give it dialogue, image-body, or on-page personhood. "
+        "No new operators, assistants, monitors, House envoys, House delegates, named officials, or extra spoken roles."
+    ),
+    23: (
+        "For Chapter 23, keep named people limited to Corv, Sona, Jian, Gideon, Mira Verath, and Anvel Verath as historical/proof-case coordinates only. "
+        "Mira Verath may appear only as proof case, data trace, lineage lattice, or review consequence; Anvel Verath may appear only as remembered origin pressure, not an on-page speaker. "
+        "Gideon's safety/control pressure is allowed in Chapter 23, but it must resolve as a refusal of manageability, not as a severance act or protector-arc completion. "
+        "The Gardener may be present only as hidden authorship, maintenance pressure, or pruning logic; do not give it dialogue, image-body, or on-page personhood. "
         "No new operators, assistants, monitors, House envoys, House delegates, named officials, or extra spoken roles."
     ),
     11: (
@@ -902,6 +1019,15 @@ def chapter_insert_guidance(chapter_number: int) -> str:
             "Use the approved blog-source motifs subliminally: leap-before-justification, stillness that can become avoidance, tower-like structural rigidity, and world-completion as a beautiful cage. "
             "Do not name tarot, cards, Thoth, Crowley, Hermit, Tower, Fool, or Major Arcana in prose. "
             "End with the team identifying satisfaction/beautiful closure as the pressure form and leave Chapter 23's structural-lie and safety/control lane unopened."
+        )
+    if chapter_number == 23:
+        return (
+            "Chapter 23 insertion lane: inherit accepted Chapter 22 satisfaction-as-pressure and open the structural-lie discovery. "
+            "Gideon's pressure may now appear as the offer of manageability/protection-through-narrowing, and his refusal should name that less life is not protection. "
+            "Jian should expose the hidden authored preference beneath the maintenance graph; Sona should name the betrayal of permission/full-range feeling; Corv should name authored fear disguised as neutral law. "
+            "Use approved source motifs subliminally: status labels that lie by returning clean states, body/chemical timing as pattern recognition, and old debug/code language as hidden authorship. "
+            "Do not name HTTP codes, Sanskrit texts, tarot, Enneagram, endocrine-constellation, Thoth, Crowley, or source-post scaffolds in prose. "
+            "Do not enact severance, cut the Vine, cross the gap, or treat the discovery as final victory; end with a precise cut-line for Chapter 24."
         )
     return "No extra chapter-specific insert guidance."
 
