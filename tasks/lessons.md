@@ -276,6 +276,9 @@ Review this file at session start when the task touches planning, intake authori
   - after hard bans were added, Qwen still repeated explicit `Toth` across every final-stage retry instead of adapting to the forbidden-token failure
   - failed hard-ban insert candidates can poison the next prompt if the runner keeps the contaminated merge as the active accepted draft
   - the control model can still introduce a plausible but unsupported helper name (`Mara`) during high-pressure final inserts, so newly caught local-only names must graduate into validator bans
+  - Chapter `10` proved that a route can be safe for one chapter and still too slow for the next; Qwen stalled on the first guarded insert while GPT-OSS completed the chapter after prompt cleanup
+  - generative prompts that explicitly name the hidden symbolic scaffold can cause the model to copy those words into prose, making the validator fight the prompt
+  - a passing style gate can still miss a late invented helper name (`Juna`), so post-run hard scans must remain independent from model gate verdicts
   - some NVIDIA chat-compatible routes returned useful text under `reasoning_content` or `reasoning` instead of `message.content`, which made the old extractor reject otherwise callable responses
   - the NVIDIA client also allowed pending `202` polling to exceed the caller timeout, leaving monitor output stale during a hung probe
   - the expansion matrix used `control_pass`, but runners only checked legacy `control_model`, so route intent could be silently ignored
@@ -289,6 +292,9 @@ Review this file at session start when the task touches planning, intake authori
   - hard-ban unsupported names and overt tarot/enneagram/Crowley/Toth markers in validation instead of relying on the literary style gate to notice them
   - route the next insert attempt to the control model after a forbidden-token failure, because retrying the same draft model can exhaust the budget on the same violation
   - after any preamble or forbidden-token failure, roll the active candidate back to the last clean draft and omit the failed candidate from the next prompt
+  - do not include hard-banned scaffold terms in generative instructions; describe the hidden system generically as submerged symbolic-muse pressure
+  - after repeated hard failures, shrink insert requests into smaller additive chunks before spending another large scene-level generation
+  - verify named-person authority before hard-banning: `Aurora Luminth` is valid for Chapter `10`, while `Lira`, `Mara`, and `Juna` are not locally authorized
   - do not commit rejected scratch insert artifacts that contain hard-ban terms; keep the accepted raw chapter and gate reports as the durable baseline
   - keep Kimi/MiniMax opt-in unless a fresh probe passes and a chapter-specific quality review justifies the risk
   - pass caller timeouts through all pending/polling branches in the NVIDIA client

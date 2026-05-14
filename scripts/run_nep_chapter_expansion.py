@@ -70,11 +70,12 @@ INSERT_TIMEOUT_SECONDS = 480
 STYLE_TIMEOUT_SECONDS = 420
 VOICE_REPAIR_TIMEOUT_SECONDS = 700
 LATE_STAGE_FULL_REPAIR_WORD_LIMIT = 5000
-INSERT_FALLBACK_ATTEMPTS = 5
+INSERT_FALLBACK_ATTEMPTS = 8
 VOICE_REPAIR_ATTEMPTS = 2
 DUPLICATE_INSERT_FALLBACK_AFTER = 2
 INSERT_FIRST_STAGE_START = 1
 MAX_INSERT_REQUEST_WORDS = 1100
+POST_HARD_FAILURE_MAX_INSERT_WORDS = 500
 LONG_INSERT_CONTEXT_WORDS = 5000
 STYLE_FAILURE_MARKERS = (
     "below 6",
@@ -112,6 +113,8 @@ FORBIDDEN_TOKENS = [
     "Kael",
     "Jory",
     "Mara",
+    "Lira",
+    "Juna",
     "Toth",
     "Tothian",
     "Crowley",
@@ -278,6 +281,19 @@ def find_forbidden_token(text: str) -> str | None:
 
 def has_hard_validation_failure(text: str) -> bool:
     return bool(find_preamble_residue(text) or find_forbidden_token(text))
+
+
+def sanitize_failure_note(reason: str) -> str:
+    cleaned = reason
+    for token in sorted(FORBIDDEN_TOKENS, key=len, reverse=True):
+        cleaned = re.sub(re.escape(token), "[hard-banned term]", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(
+        r"unsupported new teammate\s+[\"“][^\"”]+[\"”]",
+        "unsupported new teammate",
+        cleaned,
+        flags=re.IGNORECASE,
+    )
+    return cleaned
 
 
 def normalize_insert_text(text: str) -> str:
@@ -482,9 +498,9 @@ Rules:
 - Use dossier deepening sources only through scene, image, sensation, dialogue, behavior, and consequence. Do not lecture.
 - Keep dialogue role-bound per the voice matrix.
 - Preserve and correctly use project lexicon such as `Khalorēē field`, `Manas Interface`, `Adawat al-Wa'i`, `Klei Toda'ah`, and `The Vine` when relevant.
-- If the chapter draws on tarot / enneagram / endocrine-muse logic, default that symbolic lattice to **Toth/Crowley** semantics, not Rider–Waite.
-- The full submerged scaffold may also include zodiac recurrence and archetypal patterning. Use the whole chain as an emotional and stylistic regulator, not as overt exposition.
-- Keep that symbolic lattice subliminal: scene architecture, image pressure, pacing, tonal reversal, and biological emphasis. Do not have characters explain it aloud.
+- If the chapter draws on the project's submerged symbolic-muse logic, use it only as scene architecture, pressure, reversal, and image selection.
+- The full submerged scaffold may also include cyclical recurrence and archetypal patterning. Use the whole chain as an emotional and stylistic regulator, not as overt exposition.
+- Keep that symbolic lattice subliminal through pacing, tonal reversal, and biological emphasis. Do not have characters explain it aloud.
 - Maintain a three-lane braid at all times:
   - somatic / biological precision
   - philosophical or field-intelligence pressure
@@ -571,7 +587,7 @@ Requirements:
 - Do not include preamble labels or production markers such as `Somatic Event`, `Character Focus`, `Political Context`, `RESONANCE PROFILE`, or `Chapter Status`.
 - Increase scene dwell time, sensory embodiment, relational consequence, and aftermath.
 - Add only scene-native material; do not add essays or lore-dump paragraphs.
-- Keep any tarot / enneagram / endocrine-muse scaffolding implicit and Toth/Crowley-based rather than Rider–Waite-coded or overtly explained.
+- Keep any symbolic-muse scaffolding implicit through scene pressure and tonal reversal rather than overtly explained.
 - Preserve the chapter's layered meaning, wit, and emotional temperature shifts. If humor or irony is already present or naturally available, sharpen it rather than sanding it away.
 - Keep the tone grounded, direct, and structurally intelligent. Borrow conviction and multi-scale humor if helpful, but do not drift into content-marketing voice.
 - Reinforce character-specific wit lanes instead of adding generic humor:
@@ -675,7 +691,7 @@ Requirements:
 - Use the failed candidate only as a source of salvageable tone, imagery, wit, or pressure-release moves.
 - Add scene dwell time, relational consequence, atmosphere, and one pressure-release beat.
 - Keep the biology / philosophy / technology braid intact.
-- Keep tarot / enneagram / endocrine-muse logic implicit and Toth/Crowley-based.
+- Keep the submerged symbolic-muse logic implicit through pacing, pressure, reversal, and image selection.
 - Use character-specific wit sparingly and concretely where natural.
 - If this insert is repairing style gate failures, prioritize calm counter-rhythm, distinct character voice, one clean technical consequence, and one character-true pressure-release exchange over more visionary sensory escalation.
 - The insert must transition cleanly into the base draft's final paragraph.
@@ -796,7 +812,7 @@ Repair targets:
   - Gideon: blunt protective edge, boundary and load language
 - Add or sharpen one pressure-release beat that matters because it lowers tension without breaking stakes.
 - Increase double-meaning density through phrases that read both technically and emotionally. Do not decorate for its own sake.
-- Keep the tarot / enneagram / endocrine-muse lattice implicit and Toth/Crowley-inflected through pacing, pressure, reversal, and image selection. Never name the scaffold.
+- Keep the submerged symbolic-muse lattice implicit through pacing, pressure, reversal, and image selection. Never name the scaffold.
 
 Style gate failures to repair:
 
@@ -1512,11 +1528,13 @@ def main() -> None:
                     last_repair_words = repair_words
             if not repaired:
                 candidate = best_candidate
-                insert_notes = repair_notes
+                insert_notes = sanitize_failure_note(repair_notes)
                 duplicate_insert_failures = 0
                 for insert_attempt in range(1, INSERT_FALLBACK_ATTEMPTS + 1):
                     required_new_words = max(required_min_words - word_count(candidate), 300)
                     requested_new_words = min(required_new_words, MAX_INSERT_REQUEST_WORDS)
+                    if duplicate_insert_failures >= DUPLICATE_INSERT_FALLBACK_AFTER:
+                        requested_new_words = min(requested_new_words, POST_HARD_FAILURE_MAX_INSERT_WORDS)
                     insert_model = (
                         control_model
                         if duplicate_insert_failures >= DUPLICATE_INSERT_FALLBACK_AFTER
@@ -1544,7 +1562,10 @@ def main() -> None:
                     except RuntimeError as insert_call_exc:
                         if "duplicate material" in str(insert_call_exc).lower():
                             duplicate_insert_failures += 1
-                        insert_notes = f"{insert_notes} | insert attempt {insert_attempt} call failed: {insert_call_exc}"
+                        insert_notes = (
+                            f"{insert_notes} | insert attempt {insert_attempt} call failed: "
+                            f"{sanitize_failure_note(str(insert_call_exc))}"
+                        )
                         print(
                             f"[chapter {args.chapter:02d}] stage={stage_index} insert_attempt={insert_attempt} call_failed={insert_call_exc}",
                             flush=True,
@@ -1589,11 +1610,12 @@ def main() -> None:
                             contaminated_words = word_count(candidate)
                             candidate = candidate_before_insert
                             insert_notes = (
-                                f"{insert_notes} | insert attempt {insert_attempt}: {insert_failure} "
-                                f"| contaminated candidate rejected at {contaminated_words} words"
+                                f"{insert_notes} | insert attempt {insert_attempt}: hard validation failure "
+                                f"| contaminated candidate rejected at {contaminated_words} words "
+                                f"| next insert must avoid explicit scaffold, unsupported names, and setting drift"
                             )
                         else:
-                            insert_notes = f"{insert_notes} | insert attempt {insert_attempt}: {insert_failure}"
+                            insert_notes = f"{insert_notes} | insert attempt {insert_attempt}: {sanitize_failure_note(insert_failure)}"
                         print(
                             f"[chapter {args.chapter:02d}] stage={stage_index} insert_attempt={insert_attempt} failed={insert_failure}",
                             flush=True,

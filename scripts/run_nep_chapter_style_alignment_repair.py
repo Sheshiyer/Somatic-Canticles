@@ -134,7 +134,7 @@ Hard output rules:
 - First line must be exactly: `# Chapter {chapter_number}: {chapter_title}`
 - Do not include notes, analysis, bullets, section labels, or production metadata.
 - Do not include preamble labels such as `Somatic Event`, `Character Focus`, `Political Context`, `RESONANCE PROFILE`, or `Chapter Status`.
-- Do not mention PubMed, DOI, Alex Grey, CLIP-Vision, Rider-Waite, or the fact that a model/audit/runner exists.
+- Do not mention external citation handles, visual-model handles, deck names, or the fact that a model/audit/runner exists.
 - Do not invent additional Somanaut teammates, new operators, or new named systems.
 
 Additive preservation rules:
@@ -154,7 +154,7 @@ Style repair targets:
   - Sona: gentle relational wit where relevant
 - Keep the biology / philosophy / technology braid balanced. No long biological wash without a field implication or protocol consequence nearby.
 - Add double-meaning phrases that can read technically and emotionally at once.
-- Keep the endocrine / enneagram / Toth-Crowley tarot / zodiac / archetypal scaffold subliminal: pacing, pressure, image recurrence, and reversal only.
+- Keep the submerged symbolic-muse scaffold subliminal: pacing, pressure, image recurrence, and reversal only.
 - Deepen worldbuilding through lived consequence, lineage pressure, architecture, protocol, and embodied reaction rather than exposition.
 
 Audit item to repair:
@@ -230,7 +230,7 @@ Hard output rules:
 - Begin directly with prose that continues from the stable prefix context.
 - Do not include the chapter title, notes, labels, bullets, analysis, or metadata.
 - Do not include preamble labels such as `Somatic Event`, `Character Focus`, `Political Context`, `RESONANCE PROFILE`, or `Chapter Status`.
-- Do not mention PubMed, DOI, Alex Grey, CLIP-Vision, Rider-Waite, or the fact that a model/audit/runner exists.
+- Do not mention external citation handles, visual-model handles, deck names, or the fact that a model/audit/runner exists.
 - Do not invent additional Somanaut teammates, new operators, or new named systems.
 
 Length contract:
@@ -246,7 +246,7 @@ Style repair targets:
 - Balance biology, philosophy, and technology every few paragraphs.
 - Add worldbuilding around the Emperor's lineage and governance through architecture, protocol, lineage pressure, and lived consequence.
 - Use double meanings that are procedural and emotional at once: receipt, signature, inheritance, gate, pruning, consent, watermark.
-- Keep endocrine / enneagram / Toth-Crowley tarot / zodiac / archetypal structure subliminal through reversal, pressure, image recurrence, and pacing.
+- Keep the submerged symbolic-muse structure subliminal through reversal, pressure, image recurrence, and pacing.
 - End with a clean handoff toward the endocrine layer without over-explaining Chapter 5.
 
 Audit item to repair:
