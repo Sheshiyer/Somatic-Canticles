@@ -350,8 +350,9 @@ This file is the active source of truth for repository execution status.
   - [x] Saved `gate-9` passes with `braid_balance=8`, `wit_lane_distinction=8`, `temperature_variation=7`, `double_meaning_density=7`, `humor_pressure_release=8`.
   - [x] Hard-ban and lexical scan clean.
   - [x] Rejected scratch inserts excluded from commit.
-- [ ] Commit and push `Chapter 21` only after it passes acceptance.
-- [ ] Next live step after commit: expand `Chapter 22` from its populated dossier and accepted `Chapter 21` handoff, preserving individualized temptation logic without bleeding into Chapter `23` safety/control temptation.
+- [x] Commit `Chapter 21` only after it passes acceptance.
+- [ ] Push the accepted `Chapter 21` checkpoint.
+- [ ] Next live step after push: expand `Chapter 22` from its populated dossier and accepted `Chapter 21` handoff, preserving individualized temptation logic without bleeding into Chapter `23` safety/control temptation.
 
 ### NEP-006 Matrix Revision
 
