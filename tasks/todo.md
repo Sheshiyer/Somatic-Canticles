@@ -201,7 +201,13 @@ This file is the active source of truth for repository execution status.
   - Result: `NEP-015-B2-C13-GPT` completed successfully at `7,136` words after final-stage voice repair.
   - Verification: working/raw/accepted-voice parity is clean, saved `gate-3` passes with `braid_balance=8`, `wit_lane_distinction=8`, `temperature_variation=7`, `double_meaning_density=6`, `humor_pressure_release=7`, and the hard-ban scan is clean.
   - Process note: rejected insert scratch artifacts were not committed.
-- [ ] Next live step: start `Chapter 14` Book `2` expansion with the same cast-aware runner, guarded insert-first route, and raw/parity acceptance scan.
+- [x] Start `Chapter 14` Book `2` expansion with the same cast-aware runner, guarded insert-first route, and raw/parity acceptance scan.
+  - Result: `NEP-015-B2-C14-GPT` completed successfully at `11,672` words.
+  - Verification: working/raw parity is clean, saved `gate-4` passes with `braid_balance=9`, `wit_lane_distinction=8`, `temperature_variation=9`, `double_meaning_density=7`, `humor_pressure_release=8`, and the hard-ban scan is clean.
+  - Lexical cleanup: normalized accepted Book `2` Chapters `09-14` working/raw surfaces to remove remaining `vibration` / `quantum` / related style-sheet carryovers while preserving working/raw parity.
+  - Runner hardening: promoted those style-sheet carryovers into hard validation so Chapter `15` cannot reintroduce them.
+  - Process note: rejected insert scratch artifacts were not committed.
+- [ ] Next live step: start `Chapter 15` Book `2` expansion with the same cast-aware and lexical-hard-ban runner, guarded insert-first route, and raw/parity acceptance scan.
 
 ### NEP-006 Matrix Revision
 

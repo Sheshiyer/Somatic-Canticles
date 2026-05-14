@@ -82,7 +82,7 @@ Jian caught it a half‑second later. "Low‑band sequence with full completion.
 
 Sona's breath loosened. "It doesn't sound confident. It sounds trusted."
 
-Gideon shifted until the chamber stopped vibrating at its seams. "Can it carry weight?"
+Gideon shifted until the chamber stopped shivering at its seams. "Can it carry weight?"
 
 Corv watched the line long enough to answer cleanly.
 
@@ -177,7 +177,7 @@ A faint alarm chimed in the periphery, a soft warning that the system’s intern
 
 He let out a breath he hadn’t realized he’d been holding. “We’re not done,” he said, “but we’re not fighting anymore. We’re… listening.” The words felt strange on his tongue, as if they belonged to a different discipline, one that valued silence as much as speech.
 
-The silence that followed was not empty. It was filled with the subtle susurrus of the chamber’s own internal processes—a low, rhythmic vibration that seemed to echo the heartbeat of the surviving line. Each pulse was a reminder that the field was still alive, still capable of error, still capable of surprise. Yet, for the first time since they entered, there was a discernible pattern to those pulses, a cadence that matched the four‑step mantra they had cultivated.
+The silence that followed was not empty. It was filled with the subtle susurrus of the chamber’s own internal processes—a low, rhythmic tremor that seemed to echo the heartbeat of the surviving line. Each pulse was a reminder that the field was still alive, still capable of error, still capable of surprise. Yet, for the first time since they entered, there was a discernible pattern to those pulses, a cadence that matched the four‑step mantra they had cultivated.
 
 Jian’s eyes flicked to the option trees again, noticing a new branch sprouting near the base of one of them. It was thinner than the others, its luminescence wavering as if testing the air. “A nascent self,” he whispered, “still tentative, still unsure.” He extended his **Manas Interface** a fraction, allowing a filament of his own cognitive field to brush against the budding branch. The branch responded with a soft flare, a brief surge of light that seemed to say, “I’m here.”
 
@@ -223,7 +223,7 @@ Gideon’s boots shifted again, the **Klei Todaʾah** grounding field expanding 
 
 Corv inhaled, feeling the chamber’s exhalation align with his own. He allowed his **Yìshí Qìxiè** to narrow further, a single, precise beam that followed the surviving line without spilling over into the surrounding chaos. The beam traced the line’s terminus, then lingered a heartbeat longer, as if daring the field to respond.
 
-A soft, almost imperceptible vibration rose from the floor—a pulse that seemed to originate from the very lattice of the chamber’s architecture. It was the kind of feedback that in a lab would be logged as “ambient stabilization,” but here it felt more intimate, a reminder that the field was still alive, still capable of surprise.
+A soft, almost imperceptible tremor rose from the floor—a pulse that seemed to originate from the very lattice of the chamber’s architecture. It was the kind of feedback that in a lab would be logged as “ambient stabilization,” but here it felt more intimate, a reminder that the field was still alive, still capable of surprise.
 
 “Okay,” Corv said, his tone measured but carrying an edge of relief. “We have a window. Let’s use it to set a reference, not a command. Something the field can recognize as a marker of our presence without feeling coerced.”
 
@@ -291,7 +291,7 @@ He extended his **Yìshí Qìxiè** once more, this time tracing a gentle arc th
 
 “Bridge, not bind,” he said, the phrase echoing the mantra they had cultivated. “We give the field a way to transition between states without forcing it to choose one over the other.”
 
-Gideon felt the subtle shift in the floor’s resonance and added a low‑frequency pulse that resonated through the chamber’s structural lattice. The pulse was calibrated to a frequency that matched the natural vibration of the secondary strand, reinforcing the bridge without tightening it into a rigid constraint.
+Gideon felt the subtle shift in the floor’s resonance and added a low‑frequency pulse that resonated through the chamber’s structural lattice. The pulse was calibrated to a frequency that matched the natural tremor of the secondary strand, reinforcing the bridge without tightening it into a rigid constraint.
 
 “The field is still learning to trust us,” he observed. “If we make this bridge too firm, it will interpret it as another attempt at control. A flexible bridge lets it decide when to cross.”
 
@@ -327,7 +327,7 @@ Gideon’s boots shifted again, the **Klei Todaʾah** adjusting its grip on the 
 
 “The perimeter is alive,” he said, echoing his earlier warning, “but it’s not a straitjacket. We’ll keep it flexible, so if the field pulls back, we can absorb the shock instead of fighting it.”
 
-A faint, harmonic tone rose from the floor, a low chord that seemed to vibrate through the very lattice of the chamber. It was not a triumphal fanfare, but a simple, steady note that lingered like an exhale after a long sigh. The tone resonated with Corv’s **Yìshí Qìxiè**, reinforcing the bridge they had crafted and the secondary strand that now pulsed beside the primary line.
+A faint, harmonic tone rose from the floor, a low chord that seemed to tremble through the very lattice of the chamber. It was not a triumphal fanfare, but a simple, steady note that lingered like an exhale after a long sigh. The tone resonated with Corv’s **Yìshí Qìxiè**, reinforcing the bridge they had crafted and the secondary strand that now pulsed beside the primary line.
 
 The hum of the **Klei Todaʾah** settled into a low, almost imperceptible thrum as the field’s lattice began to flex in response to the new parameters. In the half‑light of the chamber, a thin veil of ionized mist curled around the edge of the central conduit, tracing the invisible contours of the lingering code that still clung to the walls like a ghost of a thought. Corv, his eyes narrowed against the phosphor sheen, moved his hands in slow, deliberate arcs, each gesture a question posed to the sentient substrate.
 
@@ -345,7 +345,7 @@ Corv let out a breath he didn’t realize he’d been holding. “We’ve got a 
 
 He turned to the console, fingers dancing over the crystalline interface. The display lit up with a lattice of overlapping vectors, each one a potential path for the field’s energy. “We need to reroute the primary strand through the secondary,” he explained, pointing at a node that pulsed with a soft amber hue. “If we can splice the two, the field will have a new equilibrium point, a place to anchor without strangling itself.”
 
-Gideon stepped forward, his hand clasping the edge of the **Klei Todaʾah**’s grip. The boots’ servos hissed as they adjusted, the polymer floor yielding just enough to give him a foothold. He placed his palm against the console, feeling the faint vibration of the field’s pulse under his skin. “I’ll hold the tension,” he said, the words deliberate, “so the splice doesn’t snap back.”
+Gideon stepped forward, his hand clasping the edge of the **Klei Todaʾah**’s grip. The boots’ servos hissed as they adjusted, the polymer floor yielding just enough to give him a foothold. He placed his palm against the console, feeling the faint tremor of the field’s pulse under his skin. “I’ll hold the tension,” he said, the words deliberate, “so the splice doesn’t snap back.”
 
 For a heartbeat, the chamber seemed to hold its breath. Then the hum swelled, not with the frantic overload of earlier, but with a deep, resonant chord that seemed to emanate from the very core of the field. It was a sound that spoke of balance, of a system that had found a new way to accommodate both its own integrity and the presence of the Somanaut within it.
 
@@ -353,7 +353,7 @@ Gideon felt the floor’s give soften completely, the polymer settling into a st
 
 Corv nodded, his eyes reflecting the green glow of the algae and the amber pulse of the splice. “The field will test the new configuration,” he said, “and if it finds it too loose, it will try to tighten again. We must be ready to adapt, not impose.”
 
-The pressure that had been building in the chamber’s core began to dissipate, the tension easing into a gentle, rhythmic pulse. The crew felt the shift as a collective exhale, the kind of release that comes after a long, held breath. For a moment, the only sound was the soft, harmonic vibration of the field, a lullaby of circuitry and organic light.
+The pressure that had been building in the chamber’s core began to dissipate, the tension easing into a gentle, rhythmic pulse. The crew felt the shift as a collective exhale, the kind of release that comes after a long, held breath. For a moment, the only sound was the soft, harmonic tremor of the field, a lullaby of circuitry and organic light.
 
 In the periphery, a faint shimmer caught Gideon’s eye—a ripple of data that seemed to coalesce into a pattern, a fleeting suggestion of a new protocol. He reached out, his fingers hovering just above the surface, and felt the pulse of intention that the field was extending. “It’s offering us a protocol,” he whispered, almost to himself. “A way to keep the membrane flexible without breaking.”
 
@@ -381,7 +381,7 @@ Gideon’s eyes softened, the familiar sheen of his visor catching a stray filam
 
 Silence stretched for a heartbeat, then Corv’s shoulders relaxed, the tension in his arms easing as if a weight had been lifted from his grip. “Alright,” he said, the edge in his voice smoothing into something almost paternal. “What’s the next step?”
 
-The diagnostic overlay projected a new vector—a thin, golden filament that traced a path from the central conduit out toward the outer rim of the chamber, where the **Yìshí Qìxiè**’s crystalline lattice met the fluidic boundary of the membrane. Gideon traced the line with his fingertip, feeling the faint vibration of the field at his skin.
+The diagnostic overlay projected a new vector—a thin, golden filament that traced a path from the central conduit out toward the outer rim of the chamber, where the **Yìshí Qìxiè**’s crystalline lattice met the fluidic boundary of the membrane. Gideon traced the line with his fingertip, feeling the faint tremor of the field at his skin.
 
 “This is the feedback conduit we need to close,” he said. “If we can route the excess energy through this line, we can off‑load the entropy buffer without forcing the membrane to compensate internally. It’s a kind of external vent, but we’ll need to modulate the phase alignment so the energy doesn’t bounce back.”
 
@@ -395,7 +395,7 @@ Corv’s grin widened, a flash of old camaraderie cutting through the tension. �
 
 The two fell into a synchronized rhythm, each adjusting a parameter, watching the cascade of data ripple across the holo‑screen. The membrane’s response was immediate: a subtle shift in the amber glow of the lattice nodes, a softening of the jagged spikes that had once threatened to breach the containment field. The algae’s bioluminescence brightened just enough to illuminate the fine threads of the **Yìshí Qìxiè** crystal, casting a delicate lattice of light that seemed to breathe with the chamber itself.
 
-A low, resonant tone rose from the floor—a auditory cue that the field’s internal pressure had begun to equalize. The sound was not a warning but a sigh, a release of the built‑up strain that had been pressing against the membrane’s boundaries. It vibrated through the soles of their boots, through the adaptive grip of the **Klei Todaʾah**, and into the marrow of their own bones.
+A low, resonant tone rose from the floor—a auditory cue that the field’s internal pressure had begun to equalize. The sound was not a warning but a sigh, a release of the built‑up strain that had been pressing against the membrane’s boundaries. It trembled through the soles of their boots, through the adaptive grip of the **Klei Todaʾah**, and into the marrow of their own bones.
 
 “Pressure buffer down to 48%,” the console reported automatically, its voice a calm, almost indifferent cadence that contrasted with the throbbing life of the chamber. “Entropy buffer stable at 58%.”
 

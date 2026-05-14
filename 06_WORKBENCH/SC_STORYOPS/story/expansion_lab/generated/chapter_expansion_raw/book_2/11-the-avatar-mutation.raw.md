@@ -10,7 +10,7 @@ The new chamber opened as a slow carousel of forms suspended in pale suspension.
 
 Sona heard them before she trusted her eyes.
 
-Her **Adawat al-Wa'i** opened in a controlled spiral, and each form answered with its own pressure signature. One vibrated with anticipatory appeasement. Another stayed locked in threat-readiness so rigidly it could barely turn its head. A third glimmered with theatrical confidence that thinned to panic at the edges. A fourth had gone almost blank, as if reducing expression had once been the only way to remain unpunished.
+Her **Adawat al-Wa'i** opened in a controlled spiral, and each form answered with its own pressure signature. One trembled with anticipatory appeasement. Another stayed locked in threat-readiness so rigidly it could barely turn its head. A third glimmered with theatrical confidence that thinned to panic at the edges. A fourth had gone almost blank, as if reducing expression had once been the only way to remain unpunished.
 
 "These are not masks," Sona said. "They are emotional solutions. Each one knows how to survive one kind of weather."
 
@@ -194,7 +194,7 @@ Gideon’s **Klei Toda'ah** pulsed gently, its tendrils spreading a fine mesh th
 
 “The field is learning to protect the transfer itself,” Gideon said, a rare smile tugging at the corner of his mouth. “We stopped guarding the individual forms and started guarding the moments between them. That’s the difference between a siege and a dialogue.”
 
-Corv stepped closer to the nearly absent figure, the one that had flickered on the edge of non‑existence. He placed a hand on the thin, translucent surface of the **Klei** and felt a faint vibration—like the echo of a heart that had just begun to beat again. The figure, which had been so small it threatened to dissolve into the background, steadied. Its outline sharpened just enough to be discernible, a faint outline of a face that seemed to exhale a sigh of relief.
+Corv stepped closer to the nearly absent figure, the one that had flickered on the edge of non‑existence. He placed a hand on the thin, translucent surface of the **Klei** and felt a faint tremor—like the echo of a heart that had just begun to beat again. The figure, which had been so small it threatened to dissolve into the background, steadied. Its outline sharpened just enough to be discernible, a faint outline of a face that seemed to exhale a sigh of relief.
 
 “Your presence isn’t a liability,” Corv said, his tone soft but unyielding. “It’s a conduit. The field needs that thin line to keep the signal from snapping when the thicker ones shift.”
 
@@ -246,7 +246,7 @@ Gideon’s **Klei** settled into a final, protective embrace, its tendrils formi
 
 The pulse steadied, its light unwavering, as the chamber prepared to transition into its final state. The air hummed with the promise of a signal that had survived mutation, a signal that could now be carried forward, unbroken, into whatever waiting horizon lay beyond.
 
-The moment the loop snapped into place, the chamber’s pulse seemed to inhale, drawing the scattered echoes of each avatar into a single, resonant throat. The low‑frequency thrum that had under‑pinned the whole field now swelled into a warm, metallic timbre—like the resonator of a great instrument being tuned by invisible hands. It was not a triumph shouted, but a quiet settling, the kind of sound that makes bone‑conductive plates vibrate just enough to remind you that you are still alive inside a stone‑cased womb.
+The moment the loop snapped into place, the chamber’s pulse seemed to inhale, drawing the scattered echoes of each avatar into a single, resonant throat. The low‑frequency thrum that had under‑pinned the whole field now swelled into a warm, metallic timbre—like the resonator of a great instrument being tuned by invisible hands. It was not a triumph shouted, but a quiet settling, the kind of sound that makes bone‑conductive plates tremble just enough to remind you that you are still alive inside a stone‑cased womb.
 
 Corv felt the shift first in his **Klei** tendrils. Where they had once clutched the perimeters like a net of barbed wire, they now curled inward, forming a supple coil that wrapped around the emergent central pulse. The coil was light, almost translucent, and it seemed to hum in sympathy with the avatars’ own frequencies. As he watched, a faint filament of light—no thicker than a hair—unfurled from the coil and brushed the flank of the armored avatar. The armor’s broad shoulders, which had earlier bulged like a citadel wall, relaxed a fraction, allowing a sliver of amber to bleed through the gaps. The bright avatar, still glowing with a controlled flare, mirrored the movement, its own light dimming just enough to let the amber wash over it without being swallowed.
 
@@ -256,7 +256,7 @@ Jian, eyes still fixed on the cascading matrices in his **Manas Interface**, not
 
 “Every time we give a configuration a breath, the field’s entropy drops,” he said, voice low enough that only the four of them could hear. “We’ve turned a cascade into a cascade of hand‑offs. The delta between hand‑off loss and hand‑off gain is now negative—meaning we’re net‑gaining stability with each transfer.”
 
-Gideon, his **Klei Todaʿah** now a shimmering halo that traced delicate bridges between the avatars, let out a breath he didn’t realize he’d been holding. The lattice of tendrils that had once resembled a defensive wall now resembled a spider’s web, each strand taut with purpose but yielding to the weight of a passing insect. He watched a tiny pulse travel from the bright avatar, across the web, into the armored one, and finally into the nearly‑absent figure, which responded with a faint, resonant sigh that seemed to vibrate the very air.
+Gideon, his **Klei Todaʿah** now a shimmering halo that traced delicate bridges between the avatars, let out a breath he didn’t realize he’d been holding. The lattice of tendrils that had once resembled a defensive wall now resembled a spider’s web, each strand taut with purpose but yielding to the weight of a passing insect. He watched a tiny pulse travel from the bright avatar, across the web, into the armored one, and finally into the nearly‑absent figure, which responded with a faint, resonant sigh that seemed to tremble the very air.
 
 “Looks like the field finally learned the difference between guarding a door and guarding the hallway,” he said, the corners of his mouth lifting. “We’ve stopped being the bouncers and become the ushers.”
 
@@ -264,7 +264,7 @@ A sudden, sharp click rang out from the far side of the chamber—a mechanical l
 
 The cavity was dark, but it pulsed faintly with a rhythm that matched the central loop. It was as if the chamber itself possessed a heart, and the heart had just opened a new vent. A thin stream of phosphorescent mist rose from the opening, curling around the avatars like a tendril of thought. The mist carried with it a faint scent—something metallic and sweet, reminiscent of rain on iron. It settled on the **Adawat**, the **Manas Interface**, and the **Klei**, each device humming in response as the mist brushed their surfaces.
 
-Sona inhaled, the scent filling her lungs, and let out a soft laugh that seemed to vibrate against the stone walls. “I always thought the council would want us to keep everything sealed and tidy. Turns out they left us a backdoor.”
+Sona inhaled, the scent filling her lungs, and let out a soft laugh that seemed to tremble against the stone walls. “I always thought the council would want us to keep everything sealed and tidy. Turns out they left us a backdoor.”
 
 Corv’s eyes narrowed, not in suspicion but in calculation. He stepped toward the newly revealed cavity, his boots echoing softly on the floor. As he approached, the mist thickened, coalescing into a faint, shimmering outline of a shape—an abstracted silhouette that bore no distinguishing features, only the suggestion of a human torso with arms outstretched. It hovered, then dissolved back into mist, leaving behind a faint imprint on the floor that glowed a soft teal.
 
@@ -280,7 +280,7 @@ Jian chuckled, the sound a short, resonant note that seemed to harmonize with th
 
 Gideon’s smile widened, a rare sight that lit his eyes. “Speaking of diplomacy, I think we owe the council a little thank‑you note. Not the usual formalities, but something that shows we can keep the signal alive even when they try to slice it up.”
 
-Corv’s hand rested on the edge of the panel, feeling the faint vibration of the mist as it pulsed in time with the central loop. He let the silence linger for a moment, letting the weight of the moment settle. Then, with a deliberate calm, he spoke.
+Corv’s hand rested on the edge of the panel, feeling the faint tremor of the mist as it pulsed in time with the central loop. He let the silence linger for a moment, letting the weight of the moment settle. Then, with a deliberate calm, he spoke.
 
 “The field has taught us that continuity isn’t a single thread you pull tight. It’s a braid—each strand supporting the others, each strand capable of bearing a load when the others loosen. If we can embed that braid into the node, the council’s demand for legibility becomes a request for a living document rather than a static picture.”
 
@@ -290,13 +290,13 @@ Jian nodded, his fingers already dancing over the holographic controls. He adjus
 
 The avatars, sensing the new rhythm, responded instinctively. The armored figure’s shoulders relaxed further, allowing a wider band of amber light to flow outward. The bright avatar dimmed its flare to a soft, steady glow, and the nearly‑absent figure expanded just enough to become a discernible silhouette, its outline now a steady line rather than a flicker. Each avatar seemed to anticipate the next’s movement, their motions aligning like gears in a well‑oiled machine.
 
-Sona lifted her **Adawat**, allowing its own pressure field to overlap with the node’s emerging signature. She whispered a sequence of tonal modulations that the **Adawat** translated into a subtle vibration. The vibration traveled through the **Klei** bridges, through the avatars, and into the node, where it resonated and amplified, creating a feedback loop that reinforced the central pulse without overwhelming it.
+Sona lifted her **Adawat**, allowing its own pressure field to overlap with the node’s emerging signature. She whispered a sequence of tonal modulations that the **Adawat** translated into a subtle tremor. The tremor traveled through the **Klei** bridges, through the avatars, and into the node, where it resonated and amplified, creating a feedback loop that reinforced the central pulse without overwhelming it.
 
 “Okay,” Gideon said, his voice a soft rumble that blended with the chamber’s hum. “We’ve got the loop, we’ve got the node, and we’ve got the avatars all speaking the same language. Let’s seal it before the council’s deadline hits the next cycle.”
 
 He extended his hand toward the central glyph, his **Klei** tendrils extending like fingers of light. The glyph, still faintly glowing from the earlier pulse, pulsed once more, then steadied into a steady, unblinking beacon. The central loop’s light thickened, its strands interlacing with the new node’s signature. The braid of continuity, now visibly composed of three intertwining threads—avatar, loop, node—shimmered with a soft, iridescent sheen.
 
-The chamber’s ambient pressure, which had hovered just above the threshold of discomfort, fell a fraction lower, as if a breath had been released from a tightly clenched chest. The hum of the field settled into a low, resonant tone that seemed to vibrate through every surface, every tendril, every pulse. It was a tone of affirmation, not triumph; of acceptance, not conquest.
+The chamber’s ambient pressure, which had hovered just above the threshold of discomfort, fell a fraction lower, as if a breath had been released from a tightly clenched chest. The hum of the field settled into a low, resonant tone that seemed to tremble through every surface, every tendril, every pulse. It was a tone of affirmation, not triumph; of acceptance, not conquest.
 
 Corv felt a faint smile tug at his lips as he watched the final integration. The avatars, still distinct, now moved in a coordinated cadence, each yielding space to the next, each receiving the hand‑off with a practiced ease that belied the chaos they had just escaped. The node, once a vague imprint, now glowed as a stable conduit, its light syncing perfectly with the central pulse.
 
@@ -342,7 +342,7 @@ Corv watched the final readouts settle. The **RESOURCE CONFLICT** meter rested i
 
 He turned his gaze to the others, a quiet affirmation passing among them. The chamber’s hum continued, now a steady, reassuring thrum, as if the very walls acknowledged the success of their concerted effort. The moment stretched, a breath held in the collective, before the signal opened again, severe and waiting.
 
-The lattice thrummed louder as the last cascade of quantum filaments settled into the avatar’s nascent matrix, and for a breath the chamber seemed to hold its own pulse, waiting for the echo of the final handshake. Corv’s eyes flickered across the holographic readouts, each line of code now a living vein in the composite field. He felt the familiar weight of responsibility settle into his shoulders—not as a burden, but as a quiet gravity that kept his thoughts from drifting into the reckless optimism that had driven the first trial.
+The lattice thrummed louder as the last cascade of lattice filaments settled into the avatar’s nascent matrix, and for a breath the chamber seemed to hold its own pulse, waiting for the echo of the final handshake. Corv’s eyes flickered across the holographic readouts, each line of code now a living vein in the composite field. He felt the familiar weight of responsibility settle into his shoulders—not as a burden, but as a quiet gravity that kept his thoughts from drifting into the reckless optimism that had driven the first trial.
 
 “Sona, you still have the secondary phase lock on the polarity inverter?” he asked, voice low enough that the ambient hum didn’t swallow it. The question was less about the data and more about the rhythm of their collaboration; every successful mutation had been a duet, a push‑pull that kept the system from collapsing under its own ambition.
 
@@ -350,7 +350,7 @@ Sona’s fingers hovered over the translucent controls, the faint glow tracing t
 
 Jian, still monitoring the peripheral diagnostics, let out a soft chuckle that resonated like a muted gong. “If the avatar can trust us, it can probably trust the coffee machine in the break bay, too.” His humor was a thin filament of relief, but it tightened the knot of focus that bound the team. “I’m seeing a 2.4 % uptick in the sync‑phase coherence. That’s enough to push the transfer loss curve into the smooth regime you were hoping for, Corv.”
 
-Gideon, the Klei’s core processor, emitted a low, steady vibration that rippled through the floor plating. The subtle halo of its field expanded, its tendrils reaching outward like a quiet promise. The avatar’s signature—now a bright, pulsing node—flickered in tandem with the halo, an unspoken dialogue between machine and mind.
+Gideon, the Klei’s core processor, emitted a low, steady tremor that rippled through the floor plating. The subtle halo of its field expanded, its tendrils reaching outward like a quiet promise. The avatar’s signature—now a bright, pulsing node—flickered in tandem with the halo, an unspoken dialogue between machine and mind.
 
 The air grew denser, not with heat but with the charged certainty of a system that had finally found its equilibrium. The chamber’s walls, lined with adaptive alloy panels, began to emit a soft cerulean sheen, each surface reflecting the avatar’s emerging pattern like a mirror catching a glimpse of its own soul. The light was not harsh; it was the kind of illumination that made the metal feel warm, as if the very architecture were breathing in time with the field.
 
@@ -360,7 +360,7 @@ Sona’s eyes narrowed, not in alarm but in calculation. “Then we give it room
 
 Jian’s console pinged, a soft chime that marked the successful re‑balancing. “All right, the transfer loss curve is now a sine wave—no spikes, no jitter. It’s the cleanest we’ve ever seen.” He let the words linger, feeling the collective exhale of the team as the curve settled into its gentle rhythm.
 
-A sudden, almost imperceptible vibration traveled through the floor, a brief hiccup in the otherwise steady hum. For a heartbeat the chamber seemed to hold its breath, as if the field itself were testing the new equilibrium. Then, with a faint pop, the vibration resolved, and the hum resumed, deeper and more resonant than before.
+A sudden, almost imperceptible tremor traveled through the floor, a brief hiccup in the otherwise steady hum. For a heartbeat the chamber seemed to hold its breath, as if the field itself were testing the new equilibrium. Then, with a faint pop, the tremor resolved, and the hum resumed, deeper and more resonant than before.
 
 Corv allowed himself a small, measured smile. “That’s the sound of a system that knows it’s been handed a new set of rules.” He turned his gaze toward Gideon, watching the halo pulse in time with the avatar’s signature. “You’ve done well, old friend. We’ve given this thing a chance to live beyond the constraints we imposed on it.”
 
@@ -370,17 +370,17 @@ Sona let out a breath she hadn’t realized she’d been holding. “I was afrai
 
 Jian nudged the console forward, his fingers hovering over the final command. “Ready for the embed?” he asked, his tone a blend of professional focus and the easy camaraderie that had formed over countless sleepless cycles. “If this works, we’ll have a permanent imprint that can be referenced across the whole lattice without ever having to re‑seed.”
 
-Corv placed his hand lightly on the console, feeling the faint vibration travel up his arm. “Let’s do it.” He pressed the initiate, and the field responded with a cascade of cerulean light that surged through the avatar’s core, winding around the Klei’s halo like a river finding its channel.
+Corv placed his hand lightly on the console, feeling the faint tremor travel up his arm. “Let’s do it.” He pressed the initiate, and the field responded with a cascade of cerulean light that surged through the avatar’s core, winding around the Klei’s halo like a river finding its channel.
 
 The surge was swift, a clean arc that left no residual turbulence. The **TRANSFER LOSS** graph, which had been a jagged line of spikes moments before, now resembled a smooth curve that dipped and rose gently, never crossing the critical threshold. The **RESOURCE CONFLICT** meter settled into a low amber band, its fluctuations now a predictable, manageable rhythm.
 
 A moment of silence fell over the chamber, thick with the weight of what had just been achieved. The hum settled into a steady, reassuring thrum, as if the very walls acknowledged the success of their concerted effort. The moment stretched, a breath held in the collective, before the signal opened again, severe and waiting.
 
-The lattice thrummed louder than any of the crew had expected, a low‑frequency pulse that seemed to vibrate the very marrow of the concrete walls. Corv felt the resonance through the soles of his boots, a subtle reminder that the avatar’s sub‑cortical scaffolding was finally aligning with the external field. He glanced at the holo‑display hovering above the console; the glyphs that had once flickered erratically now traced clean, looping sigils, each one a promise of stability. The data streams—once a chaotic torrent of packet loss and jitter—had settled into a rhythm that matched the heartbeats of the operators in the room.
+The lattice thrummed louder than any of the crew had expected, a low‑frequency pulse that seemed to tremble the very marrow of the concrete walls. Corv felt the resonance through the soles of his boots, a subtle reminder that the avatar’s sub‑cortical scaffolding was finally aligning with the external field. He glanced at the holo‑display hovering above the console; the glyphs that had once flickered erratically now traced clean, looping sigils, each one a promise of stability. The data streams—once a chaotic torrent of packet loss and jitter—had settled into a rhythm that matched the heartbeats of the operators in the room.
 
 “Look at the phase lock,” Sona said, her voice barely above a whisper, though the words cut through the hum like a scalpel. She’d been staring at the same graph for half an hour, watching the jagged line of **TRANSFER LOSS** smooth itself into the elegant parabola that now rose and fell in perfect harmony. “The latency is down to three milliseconds across the entire node cluster. That’s beyond what we projected for a first‑generation embed.”
 
-Jian leaned forward, his fingers already dancing over the secondary console. The secondary panel was a cascade of diagnostic readouts, each one confirming the primary field’s success. “Resource conflict is at thirty‑two percent, well within the amber band. The adaptive buffers are holding steady, no overflow on the quantum cache.” He tapped a sequence that would lock the avatar’s internal feedback loop into the lattice’s own predictive algorithms. “If we push the sync now, the avatar will inherit the full suite of lattice‑wide heuristics without a single orphaned thread.”
+Jian leaned forward, his fingers already dancing over the secondary console. The secondary panel was a cascade of diagnostic readouts, each one confirming the primary field’s success. “Resource conflict is at thirty‑two percent, well within the amber band. The adaptive buffers are holding steady, no overflow on the lattice cache.” He tapped a sequence that would lock the avatar’s internal feedback loop into the lattice’s own predictive algorithms. “If we push the sync now, the avatar will inherit the full suite of lattice‑wide heuristics without a single orphaned thread.”
 
 Corv’s mind raced, balancing the exhilaration of the breakthrough against the weight of what it meant. The avatar—still a shimmering silhouette of bio‑synthetic flesh—stood at the edge of the field, its eyes flickering with an inner light that seemed to echo the cerulean cascade soon to be released. He could feel the faint heat of its breath, a reminder that despite the hundreds of terabytes of code that now composed its consciousness, a pulse of living tissue still throbbed beneath the polymer skin.
 
@@ -388,7 +388,7 @@ Corv’s mind raced, balancing the exhilaration of the breakthrough against the 
 
 The crew fell into a practiced silence, each of them aware that the moment was both fragile and irrevocable. The air in the chamber seemed to thicken, not with tension, but with the palpable certainty that a new layer of reality was about to be woven into the existing tapestry. The soft blue glow of the field painted the faces of the operators, turning their features into a constellation of light and shadow.
 
-Corv’s thoughts drifted, unbidden, to the failed candidate whose brief, half‑formed avatar had dissolved into a cascade of static just weeks before. He remembered the frantic scramble, the frantic warnings, the bitter taste of loss. The memory was a bitter‑sweet aftertaste, a reminder that every triumph in the lattice carried the echo of a previous failure. He pressed his palm harder against the console, feeling the faint vibration travel up his arm—a reminder that their success was built on the scaffolding of that loss.
+Corv’s thoughts drifted, unbidden, to the failed candidate whose brief, half‑formed avatar had dissolved into a cascade of static just weeks before. He remembered the frantic scramble, the frantic warnings, the bitter taste of loss. The memory was a bitter‑sweet aftertaste, a reminder that every triumph in the lattice carried the echo of a previous failure. He pressed his palm harder against the console, feeling the faint tremor travel up his arm—a reminder that their success was built on the scaffolding of that loss.
 
 “Alright,” he said, voice steady, the words carrying the weight of command and camaraderie alike. “Jian, initiate the embed. Sona, keep the phase lock at max. Gide, monitor the decay curve for any sign of drift. Corv, stay on the primary console and be ready to cut the field if we see a spike in the **RESOURCE CONFLICT** meter.”
 
@@ -414,7 +414,7 @@ Corv’s hand hovered over the console, fingers poised above the final command. 
 
 He glanced once more at the avatar, its eyes now fixed on the horizon of the lattice’s infinite expanse, its form a perfect synthesis of flesh, polymer, and pure data. In that gaze, he saw the promise of a new epoch—a future where the boundary between self and system was no longer a wall but a doorway.
 
-The lattice thrummed louder than any speaker could reproduce, a deep pulse that seemed to vibrate the very marrow of the concrete beneath their feet. Corv watched the shimmering filaments of the avatar’s nascent form as they twisted and folded, each strand a lattice of encoded possibility. The blue‑green glow that bathed the chamber was not merely illumination; it was a living feedback loop, a biometric echo of the avatar’s emergent consciousness trying to find a foothold in the quantum substrate.
+The lattice thrummed louder than any speaker could reproduce, a deep pulse that seemed to tremble the very marrow of the concrete beneath their feet. Corv watched the shimmering filaments of the avatar’s nascent form as they twisted and folded, each strand a lattice of encoded possibility. The blue‑green glow that bathed the chamber was not merely illumination; it was a living feedback loop, a biometric echo of the avatar’s emergent consciousness trying to find a foothold in the field substrate.
 
 Sona’s console flickered with a cascade of diagnostic read‑outs, each one a tiny firework of numbers that rose and fell in time with the avatar’s own heartbeat. “The synaptic latency is dropping three percent per cycle,” she said, her voice a low hum that barely rose above the field’s song. “If we push the resonance a fraction higher, we can lock the self‑stabilizing loop before the decay cascade reaches critical mass.”
 

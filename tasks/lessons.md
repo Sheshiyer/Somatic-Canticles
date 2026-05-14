@@ -319,3 +319,12 @@ Review this file at session start when the task touches planning, intake authori
   - if any insert candidate reaches the final floor, allow final-style voice repair even when the nominal stage is not final
   - if a later insert-first stage starts above the final floor, run the style gate before forcing more growth
   - preserve clean near-miss voice repairs as baselines when they miss the floor by a small margin; add only the missing margin instead of regrowing from a degraded candidate
+
+### L-033: Style-sheet carryovers must be validator terms, not just prompt advice
+
+- Pattern:
+  - Book `2` accepted gates still allowed repeated `vibration` and `quantum` wording because those terms were present in prompt bans but absent from hard validation.
+- Prevention:
+  - put project style-sheet carryovers in `FORBIDDEN_TOKENS` whenever they are non-negotiable
+  - scan the accepted working/raw lane after each chapter for prompt-banned vocabulary, not only names and production residue
+  - normalize accepted working/raw artifacts together so parity survives deterministic lexical cleanup
