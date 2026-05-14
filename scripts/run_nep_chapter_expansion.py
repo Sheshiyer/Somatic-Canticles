@@ -87,8 +87,8 @@ STYLE_FAILURE_MARKERS = (
     "braid",
 )
 LEXICAL_STYLE_GUIDANCE = (
-    "Use field, lattice, deep-field, pulse, thrum, tremor, pressure, cadence, and resonance language; "
-    "avoid legacy subatomic-mechanics jargon and generic oscillation wording."
+    "Use concrete body-signal, relational pressure, instrument consequence, and civic/protocol texture; "
+    "avoid legacy subatomic-mechanics jargon, generic oscillation wording, and repeated field/lattice/thrum/resonance shorthand."
 )
 LEXICAL_REPLACEMENTS = (
     ("Corvan", "Corv"),
@@ -124,10 +124,26 @@ LEXICAL_REPLACEMENTS = (
     ("Manifesting", "Appearing"),
     ("manifested", "appeared"),
     ("Manifested", "Appeared"),
+    ("ground frequency", "ground condition"),
+    ("Ground frequency", "Ground condition"),
     ("frequencies", "cadences"),
     ("Frequencies", "Cadences"),
     ("frequency", "cadence"),
     ("Frequency", "Cadence"),
+    ("resonances", "responses"),
+    ("Resonances", "Responses"),
+    ("resonance", "response"),
+    ("Resonance", "Response"),
+    ("resonant", "responsive"),
+    ("Resonant", "Responsive"),
+    ("new world", "new condition"),
+    ("New World", "New Condition"),
+    ("paradise", "refuge"),
+    ("Paradise", "Refuge"),
+    ("utopian", "too-perfect"),
+    ("Utopian", "Too-perfect"),
+    ("utopia", "too-perfect order"),
+    ("Utopia", "Too-perfect order"),
     ("shattering", "splintering"),
     ("Shattering", "Splintering"),
     ("shattered", "splintered"),
@@ -867,6 +883,8 @@ CHAPTER_FORBIDDEN_TOKENS = {
         "system sermon",
         "crew",
         "Crew",
+        "boot",
+        "Boot",
         "visor",
         "visors",
         "boots",
@@ -950,6 +968,117 @@ CHAPTER_FORBIDDEN_TOKENS = {
         "Anvel asked",
         "Anvel answered",
     ],
+    26: [
+        "Corvan",
+        "Mira",
+        "Anvel",
+        "The Gardener",
+        "Gardener",
+        "law of nature",
+        "homeostasis",
+        "maintenance algorithm",
+        "mechanism was the universe",
+        "universe",
+        "system sermon",
+        "crew",
+        "Crew",
+        "visor",
+        "visors",
+        "boots",
+        "armor",
+        "armour",
+        "gloved",
+        "wrist-sensor",
+        "last jump",
+        "planet",
+        "sea of stars",
+        "crystal",
+        "azure",
+        "vacuum",
+        "lattice hummed",
+        "lattice of the void",
+        "low-grade thrum",
+        "thrum",
+        "thrummed",
+        "thrumming",
+        "resonance",
+        "resonances",
+        "resonant",
+        "raw field",
+        "we have the raw",
+        "blank canvas",
+        "canvas of potential",
+        "manifestation",
+        "manifested",
+        "manifesting",
+        "Triangulation Engine",
+        "Noetic Network",
+        "countdown",
+        "timer ticked",
+        "frequency",
+        "frequencies",
+        "vibrate",
+        "vibrates",
+        "vibrated",
+        "vibrating",
+        "energy",
+        "harmonized",
+        "harmonization",
+        "shatter",
+        "shattered",
+        "shattering",
+        "Quantum",
+        "quantum",
+        "Tarot",
+        "tarot",
+        "Thoth",
+        "Crowley",
+        "Major Arcana",
+        "Nine Muses",
+        "Endocrine System",
+        "endocrine system",
+        "mitochondrial subconsciousness",
+        "Reality.compile",
+        "reality.compile",
+        "ancient source",
+        "Synchronocities",
+        "blog post",
+        "new world",
+        "New World",
+        "perfect world",
+        "Perfect World",
+        "world stabilizes",
+        "world stabilized",
+        "field stabilizes",
+        "field stabilized",
+        "habitable field",
+        "habitable world",
+        "bridge to others",
+        "first bridge",
+        "others arrived",
+        "future contact",
+        "paradise",
+        "utopia",
+        "utopian",
+        "coronation",
+        "ascension",
+        "apotheosis",
+        "became gods",
+        "godhood",
+        "omnipotent",
+        "operator",
+        "operators",
+        "House envoy",
+        "house envoy",
+        "House delegate",
+        "house delegate",
+        "House speaker",
+        "house speaker",
+        "Review Board",
+        "Review Council",
+        "staff",
+        "slender rod",
+    ],
     11: [
         "Mira",
         "Jax",
@@ -1025,6 +1154,12 @@ CHAPTER_CAST_HINTS = {
         "Do not invoke Mira Verath or Anvel Verath here; Chapter 25 should remain with the live four only. "
         "This chapter is void aftermath and pre-configuration: the team may discover keptness, invalidity, relation without coordinates, and potential before allocation, but must not start Chapter 26's authored-world construction or stabilize a new reality. "
         "The Gardener may register only as absent old-maintenance pressure losing relevance; do not give it dialogue, image-body, or personhood. "
+        "No new operators, assistants, monitors, House envoys, House delegates, named officials, or extra spoken roles."
+    ),
+    26: (
+        "For Chapter 26, keep named people limited to Corv, Sona, Jian, and Gideon. "
+        "Do not invoke Mira Verath, Anvel Verath, or The Gardener on page; this chapter belongs to the live four learning authorship after the void. "
+        "This chapter may establish provisional ground, joy-as-permission, living boundary, direction, and responsibility, but it must not stabilize a finished habitat or open contact with others. "
         "No new operators, assistants, monitors, House envoys, House delegates, named officials, or extra spoken roles."
     ),
     11: (
@@ -1253,6 +1388,14 @@ def chapter_insert_guidance(chapter_number: int) -> str:
             "Use silence, white space, body inventory, failed measurement, and sparse pressure-release dialogue; keep source-blog ideas submerged as pattern logic, not exposition. "
             "Do not use sci-fi equipment drift, crew/visor/boots/armor language, azure-lattice imagery, vacuum/space spectacle, crystal/chime imagery, raw/canvas metaphors, or repetitive thrum/resonance wording. "
             "No on-page Gardener, no new roles, no coronation/triumph, no final habitat; end with exposure held together long enough to become the threshold before creation."
+        )
+    if chapter_number == 26:
+        return (
+            "Chapter 26 insertion lane: inherit Chapter 25's threshold without coordinates and move only into authored architecture as practice. "
+            "Build the first conditions in order: ground as non-coercive support, Sona's joy as unconcealed permission rather than mandatory happiness, Gideon's living boundary rather than wall, Jian's here/there direction rather than full map, and Corv's responsibility rather than totalizing story. "
+            "Keep all source material submerged as metaphor and behavior: old-source/code language may appear only as embodied audit pressure, not as a blog citation, software lecture, or explicit mythic scaffold. "
+            "Do not use frequency/resonance/thrum/raw-canvas shorthand, no sci-fi equipment drift, no Gardener presence, no new roles, no paradise, no omnipotence, no final habitat, and no Chapter 27 bridge/contact. "
+            "End with the first provisional conditions taking, not a finished world."
         )
     return "No extra chapter-specific insert guidance."
 
@@ -1533,7 +1676,7 @@ Rules:
 - Preserve and correctly use project lexicon such as `Khalorēē field`, `Manas Interface`, `Adawat al-Wa'i`, `Klei Toda'ah`, and `The Vine` when relevant.
 - If the chapter draws on the project's submerged symbolic-muse logic, use it only as scene architecture, pressure, reversal, and image selection.
 - The full submerged scaffold may also include cyclical recurrence and archetypal patterning. Use the whole chain as an emotional and stylistic regulator, not as overt exposition.
-- Keep that symbolic lattice subliminal through pacing, tonal reversal, and biological emphasis. Do not have characters explain it aloud.
+- Keep that symbolic pattern subliminal through pacing, tonal reversal, and biological emphasis. Do not have characters explain it aloud.
 - Maintain a three-lane braid at all times:
   - somatic / biological precision
   - philosophical or field-intelligence pressure
@@ -1856,7 +1999,7 @@ Repair targets:
   - Gideon: blunt protective edge, boundary and load language
 - Add or sharpen one pressure-release beat that matters because it lowers tension without breaking stakes.
 - Increase double-meaning density through phrases that read both technically and emotionally. Do not decorate for its own sake.
-- Keep the submerged symbolic-muse lattice implicit through pacing, pressure, reversal, and image selection. Never name the scaffold.
+- Keep the submerged symbolic-muse pattern implicit through pacing, pressure, reversal, and image selection. Never name the scaffold.
 - {LEXICAL_STYLE_GUIDANCE}
 
 Style gate failures to repair:

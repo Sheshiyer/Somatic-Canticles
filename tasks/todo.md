@@ -437,7 +437,29 @@ This file is the active source of truth for repository execution status.
   - [x] Hard-ban and lexical scan clean.
   - [x] Rejected scratch inserts excluded from commit.
 - [x] Commit and push `Chapter 25` only after it passes acceptance.
-- [ ] Next live step after commit: expand `Chapter 26` from its populated dossier and accepted `Chapter 25` threshold, opening authored architecture only after the void lane is stable.
+- [x] Next live step after commit: open `Chapter 26` from its populated dossier and accepted `Chapter 25` threshold, opening authored architecture only after the void lane is stable.
+
+### NEP-026 Book 3 Chapter 26 Expansion
+
+- [x] Review `Chapter 26` dossier, route, current working draft, and accepted `Chapter 25` threshold.
+  - Route: default Kimi route is rerouted to `qwen/qwen3.5-122b-a10b`; control remains `openai/gpt-oss-120b`; pass floor is `8,080` words.
+  - Current draft issues: under-length at `1,696` words, legacy `Corvan` naming, stale `ground frequency` / `manifestation` carryovers, compressed condition-building, and risk of overclaiming a finished world.
+  - Governing constraint: Chapter `26` may establish provisional ground, joy-as-permission, living boundary, direction, and responsibility, but it must not stabilize Chapter `27` habitation or open contact with others.
+- [x] Harden the runner for `Chapter 26` before launch:
+  - [x] Remove runner encouragement toward repeated `lattice/thrum/resonance` shorthand.
+  - [x] Normalize `Corvan`, `ground frequency`, `manifestation`, and `resonance` carryovers before validation.
+  - [x] Add Chapter `26` cast guidance limiting live voice lanes to Corv, Sona, Jian, and Gideon.
+  - [x] Ban observed/probable architecture drift: explicit source/blog scaffold terms, stale field terms, Gardener presence, sci-fi equipment, new roles, paradise/omnipotence posture, and Chapter `27` bridge/contact bleed.
+- [x] Expand `Chapter 26` from the populated dossier and accepted `Chapter 25` threshold.
+  - Result: the monitored GPT-OSS insert-first run reached the word floor but stalled in voice repair after repeated `boot` prop drift and an over-solemn final candidate, so the accepted lane promotes the clean near-floor spine and applies a controlled final architecture/practice repair.
+  - Repair: kept ground, joy, boundary, direction, and responsibility provisional; added character-specific wit, agreement-vs-rule logic, Manas Interface restraint, and support-without-ownership pressure while avoiding Chapter `27` habitation/contact bleed.
+- [x] Verify `Chapter 26` acceptance:
+  - [x] Working/raw parity clean at `8,147` words.
+  - [x] Saved `gate-9` passes with `braid_balance=8`, `wit_lane_distinction=8`, `temperature_variation=8`, `double_meaning_density=7`, `humor_pressure_release=8`.
+  - [x] Hard-ban and lexical scan clean.
+  - [x] Rejected scratch inserts excluded from commit.
+- [ ] Commit and push `Chapter 26` only after it passes acceptance.
+- [ ] Next live step after commit: expand `Chapter 27` from accepted `Chapter 26`, preserving first habitation and bridge-to-others as bounded beginning rather than utopian closure.
 
 ### NEP-006 Matrix Revision
 
