@@ -1,0 +1,11 @@
+{
+  "neighbor_seed_records": 40,
+  "full_neighbor_coverage": 40,
+  "partial_neighbor_coverage": 0,
+  "missing_neighbor_edges": 0,
+  "parent_seed_records": 40,
+  "parent_coverage": 40,
+  "vl_seed_success_for_first_40": 39,
+  "vl_seed_total_for_first_40": 40,
+  "assessment": "Seed hierarchy contract is structurally satisfiable for nv-embed-v1 outputs."
+}

@@ -1,0 +1,123 @@
+{
+  "vision_model": "meta/llama-3.2-11b-vision-instruct",
+  "embed_model": "nvidia/llama-nemotron-embed-vl-1b-v2",
+  "offset": 25,
+  "batch_size": 10,
+  "success_count": 10,
+  "fail_count": 0,
+  "vector_dim_set": [
+    2048
+  ],
+  "results": [
+    {
+      "node_id": "NODE-026",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield interpretation maps/Chakra21.jpg",
+      "success": true,
+      "caption_preview": "The image is a poster about yoga, featuring a central figure of a person in a meditative pose surrounded by various symbols and text. The title \"YOGA\" is written in black at the top, with the word \"YO",
+      "caption_chars": 813,
+      "latency_ms": 527.75,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-027",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/SES-infographic-subtleenergy-1.jpg",
+      "success": true,
+      "caption_preview": "The image presents a comprehensive visual representation of 45 unique names for subtle energy, organized into three distinct categories: \"Cultural and Religious Traditions,\" \"Indigenous Tribes,\" and \"",
+      "caption_chars": 904,
+      "latency_ms": 529.75,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-028",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield Viewer Future Eliya/20624266_10154871766767913_572055730_n.jpg",
+      "success": true,
+      "caption_preview": "The image presents a vibrant, abstract composition featuring a central black spiral surrounded by a kaleidoscope of colors. The spiral is set against a predominantly black background, with a subtle gr",
+      "caption_chars": 847,
+      "latency_ms": 521.91,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-029",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield Viewer Future Eliya/21363175_10154948161267913_1808121624_o.jpg",
+      "success": true,
+      "caption_preview": "The image presents a close-up view of a textured surface, characterized by a rough and uneven appearance. The surface features a predominantly gray coloration, punctuated by subtle variations in tone ",
+      "caption_chars": 863,
+      "latency_ms": 546.69,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-030",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield interpretation maps/67761_1573488850613_1037305960_31611772_7546209_s.jpg",
+      "success": true,
+      "caption_preview": "The image depicts a white silhouette of a human figure standing in front of a series of concentric circles, with a grid-like pattern superimposed over the entire composition. The human figure is posit",
+      "caption_chars": 944,
+      "latency_ms": 523.45,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-031",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield interpretation maps/13789_518435964857353_377864600_n.jpg",
+      "success": true,
+      "caption_preview": "The image presents a triptych of illustrations, each depicting a human figure in a distinct state. The left panel features a silhouette of a person standing in front of a periodic table, with their ar",
+      "caption_chars": 801,
+      "latency_ms": 550.72,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-032",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield Viewer Future Eliya/21329415_10154948152822913_2081738134_o.jpg",
+      "success": true,
+      "caption_preview": "The image presents a vibrant, abstract representation of a landscape, characterized by a predominantly black background with scattered white, blue, green, yellow, and pink dots. The landscape itself i",
+      "caption_chars": 581,
+      "latency_ms": 544.18,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-033",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield Viewer Future Eliya/21325583_10154942520712913_225346204_n.jpg",
+      "success": true,
+      "caption_preview": "The image presents a vibrant, multicolored graphic with a central black circle surrounded by a green ring. The black circle features yellow handwritten numbers and degrees, including 41.6\u00b0, 108.4\u00b0, an",
+      "caption_chars": 711,
+      "latency_ms": 534.92,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-034",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield Viewer Future Eliya/21329826_10154948169402913_281946457_o.jpg",
+      "success": true,
+      "caption_preview": "The image presents a close-up view of a green leaf, characterized by its vibrant color and intricate details. The leaf's surface features a network of veins that branch out from the center, creating a",
+      "caption_chars": 1035,
+      "latency_ms": 534.86,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-035",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield Viewer Future Eliya/21299019_10154948138132913_1114110350_o.jpg",
+      "success": true,
+      "caption_preview": "The image presents a vibrant, abstract composition featuring a central circle surrounded by a textured, multicolored pattern. The circle is rendered in yellow and pink hues, with a rough, textured sur",
+      "caption_chars": 659,
+      "latency_ms": 545.76,
+      "status_code": 200,
+      "vector_dim": 2048
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+node_id,image_path,error,source_file
+NODE-043,/Users/sheshnarayaniyer/Documents/noesis/Research/Pasted image 20240828002737.png,TimeoutError: The read operation timed out,SWA-051_vl_smoke_results_vl_o35.json
+NODE-047,/Users/sheshnarayaniyer/Documents/noesis/Research/Pasted image 20240316220701.png,TimeoutError: The read operation timed out,SWA-051_vl_smoke_results_vl_o45.json
+NODE-063,/Users/sheshnarayaniyer/Documents/noesis/Research/Pasted image 20240921171030.png,image_empty_0_bytes,SWA-051_vl_smoke_results_vl_retry_o61b.json

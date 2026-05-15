@@ -1,0 +1,12 @@
+{
+  "node_total": 100,
+  "provenance_refs_present": 100,
+  "source_path_exists": 100,
+  "source_path_nonempty": 99,
+  "provenance_score_0_5": 4.95,
+  "top_findings": [
+    "All 100 nodes have provenance_ref values.",
+    "One source file is empty and aligns with unresolved NODE-063.",
+    "Successful nv-embed-v1 outputs maintain full node-to-provenance linkage."
+  ]
+}

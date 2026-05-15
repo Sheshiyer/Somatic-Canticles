@@ -1,0 +1,212 @@
+{
+  "model": "nvidia/nv-embed-v1",
+  "offset": 0,
+  "batch_size": 25,
+  "success_count": 25,
+  "fail_count": 0,
+  "vector_dim_set": [
+    4096
+  ],
+  "results": [
+    {
+      "node_id": "NODE-001",
+      "bucket_type": "bio_field_charts",
+      "success": true,
+      "latency_ms": 531.73,
+      "status_code": 200,
+      "vector_dim": 4096
+    },
+    {
+      "node_id": "NODE-002",
+      "bucket_type": "bio_field_charts",
+      "success": true,
+      "latency_ms": 408.74,
+      "status_code": 200,
+      "vector_dim": 4096
+    },
+    {
+      "node_id": "NODE-003",
+      "bucket_type": "bio_field_charts",
+      "success": true,
+      "latency_ms": 442.97,
+      "status_code": 200,
+      "vector_dim": 4096
+    },
+    {
+      "node_id": "NODE-004",
+      "bucket_type": "bio_field_charts",
+      "success": true,
+      "latency_ms": 322.58,
+      "status_code": 200,
+      "vector_dim": 4096
+    },
+    {
+      "node_id": "NODE-005",
+      "bucket_type": "bio_field_charts",
+      "success": true,
+      "latency_ms": 533.91,
+      "status_code": 200,
+      "vector_dim": 4096
+    },
+    {
+      "node_id": "NODE-006",
+      "bucket_type": "bio_field_charts",
+      "success": true,
+      "latency_ms": 304.57,
+      "status_code": 200,
+      "vector_dim": 4096
+    },
+    {
+      "node_id": "NODE-007",
+      "bucket_type": "bio_field_charts",
+      "success": true,
+      "latency_ms": 1100.25,
+      "status_code": 200,
+      "vector_dim": 4096
+    },
+    {
+      "node_id": "NODE-008",
+      "bucket_type": "bio_field_charts",
+      "success": true,
+      "latency_ms": 539.18,
+      "status_code": 200,
+      "vector_dim": 4096
+    },
+    {
+      "node_id": "NODE-009",
+      "bucket_type": "bio_field_charts",
+      "success": true,
+      "latency_ms": 312.56,
+      "status_code": 200,
+      "vector_dim": 4096
+    },
+    {
+      "node_id": "NODE-010",
+      "bucket_type": "bio_field_charts",
+      "success": true,
+      "latency_ms": 527.81,
+      "status_code": 200,
+      "vector_dim": 4096
+    },
+    {
+      "node_id": "NODE-011",
+      "bucket_type": "bio_field_charts",
+      "success": true,
+      "latency_ms": 340.0,
+      "status_code": 200,
+      "vector_dim": 4096
+    },
+    {
+      "node_id": "NODE-012",
+      "bucket_type": "bio_field_charts",
+      "success": true,
+      "latency_ms": 319.54,
+      "status_code": 200,
+      "vector_dim": 4096
+    },
+    {
+      "node_id": "NODE-013",
+      "bucket_type": "bio_field_charts",
+      "success": true,
+      "latency_ms": 512.51,
+      "status_code": 200,
+      "vector_dim": 4096
+    },
+    {
+      "node_id": "NODE-014",
+      "bucket_type": "bio_field_charts",
+      "success": true,
+      "latency_ms": 415.36,
+      "status_code": 200,
+      "vector_dim": 4096
+    },
+    {
+      "node_id": "NODE-015",
+      "bucket_type": "bio_field_charts",
+      "success": true,
+      "latency_ms": 312.7,
+      "status_code": 200,
+      "vector_dim": 4096
+    },
+    {
+      "node_id": "NODE-016",
+      "bucket_type": "bio_field_charts",
+      "success": true,
+      "latency_ms": 309.34,
+      "status_code": 200,
+      "vector_dim": 4096
+    },
+    {
+      "node_id": "NODE-017",
+      "bucket_type": "bio_field_charts",
+      "success": true,
+      "latency_ms": 312.47,
+      "status_code": 200,
+      "vector_dim": 4096
+    },
+    {
+      "node_id": "NODE-018",
+      "bucket_type": "bio_field_charts",
+      "success": true,
+      "latency_ms": 415.72,
+      "status_code": 200,
+      "vector_dim": 4096
+    },
+    {
+      "node_id": "NODE-019",
+      "bucket_type": "bio_field_charts",
+      "success": true,
+      "latency_ms": 301.61,
+      "status_code": 200,
+      "vector_dim": 4096
+    },
+    {
+      "node_id": "NODE-020",
+      "bucket_type": "bio_field_charts",
+      "success": true,
+      "latency_ms": 316.76,
+      "status_code": 200,
+      "vector_dim": 4096
+    },
+    {
+      "node_id": "NODE-021",
+      "bucket_type": "bio_field_charts",
+      "success": true,
+      "latency_ms": 313.31,
+      "status_code": 200,
+      "vector_dim": 4096
+    },
+    {
+      "node_id": "NODE-022",
+      "bucket_type": "bio_field_charts",
+      "success": true,
+      "latency_ms": 530.67,
+      "status_code": 200,
+      "vector_dim": 4096
+    },
+    {
+      "node_id": "NODE-023",
+      "bucket_type": "bio_field_charts",
+      "success": true,
+      "latency_ms": 412.78,
+      "status_code": 200,
+      "vector_dim": 4096
+    },
+    {
+      "node_id": "NODE-024",
+      "bucket_type": "bio_field_charts",
+      "success": true,
+      "latency_ms": 302.34,
+      "status_code": 200,
+      "vector_dim": 4096
+    },
+    {
+      "node_id": "NODE-025",
+      "bucket_type": "bio_field_charts",
+      "success": true,
+      "latency_ms": 539.68,
+      "status_code": 200,
+      "vector_dim": 4096
+    }
+  ]
+}

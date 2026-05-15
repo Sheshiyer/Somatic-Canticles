@@ -1,0 +1,21 @@
+{
+  "model_a_failure_breakdown": [
+    [
+      "Something went wrong with the request.",
+      100
+    ]
+  ],
+  "vision_unresolved_rows": [
+    {
+      "node_id": "NODE-063",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/Pasted image 20240921171030.png",
+      "error": "image_empty_0_bytes",
+      "source_file": "SWA-051_vl_smoke_results_vl_retry_o61b.json"
+    }
+  ],
+  "remediation_actions": [
+    "Keep SWA-049 open and retry model A after provider runtime stabilizes.",
+    "Replace or regenerate empty source image for NODE-063, then re-run single-row VL embedding.",
+    "Promote preflight checks for empty files before caption/embed calls."
+  ]
+}

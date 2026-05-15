@@ -1,0 +1,122 @@
+{
+  "vision_model": "meta/llama-3.2-11b-vision-instruct",
+  "embed_model": "nvidia/llama-nemotron-embed-vl-1b-v2",
+  "batch_size": 10,
+  "success_count": 10,
+  "fail_count": 0,
+  "vector_dim_set": [
+    2048
+  ],
+  "results": [
+    {
+      "node_id": "NODE-001",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield interpretation maps/IMG_2581.jpg",
+      "success": true,
+      "caption_preview": "The image presents a vibrant, multicolored graphic of a person in a meditative pose, surrounded by seven chakras and their corresponding symbols. The individual is depicted in a seated position with t",
+      "caption_chars": 959,
+      "latency_ms": 512.06,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-002",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield Viewer Future Eliya/21363458_10154948160327913_117575874_o.jpg",
+      "success": true,
+      "caption_preview": "The image is a blurry, pixelated photograph of a gray surface with a vertical line of yellow and green streaks running down the center. The surface appears to be made of a rough, textured material, po",
+      "caption_chars": 622,
+      "latency_ms": 496.81,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-003",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield Viewer Future Eliya/25371019_10155189860952913_1561726014_o.jpg",
+      "success": true,
+      "caption_preview": "The image is a grayscale photograph of a person's torso, with the head cropped out of the frame. The person is standing upright, facing the camera, and their body is positioned in the center of the im",
+      "caption_chars": 941,
+      "latency_ms": 504.77,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-004",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield interpretation maps/11990533_413990388794138_2317091395093831501_n.jpg",
+      "success": true,
+      "caption_preview": "The image presents a diagram illustrating the relationship between emotions and Reichian somatization correspondences. The diagram features a yellow spine with a brain at the top, surrounded by seven ",
+      "caption_chars": 934,
+      "latency_ms": 502.94,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-005",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield interpretation maps/Biofield Anatomy, E McKusick.jpg",
+      "success": true,
+      "caption_preview": "The image presents a comprehensive diagram illustrating the significance of energetic imbalances in the human body, focusing on the biofield anatomy. The diagram features a gray silhouette of a person",
+      "caption_chars": 1115,
+      "latency_ms": 499.97,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-006",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield Viewer Future Eliya/Screen Shot 2017-09-03 at 9.11.11 am.png",
+      "success": true,
+      "caption_preview": "The image presents a circular graph with a central black dot, surrounded by a series of concentric circles and lines. The graph is divided into sections, each representing a different category or valu",
+      "caption_chars": 1116,
+      "latency_ms": 500.22,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-007",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield Viewer Future Eliya/21146633_10203820293385883_1098728975_o-1.jpg",
+      "success": true,
+      "caption_preview": "The image presents a vibrant, abstract representation of a star or celestial body, with a central red circle surrounded by a purple ring and yellow dots. The image is overlaid with lines and text in P",
+      "caption_chars": 932,
+      "latency_ms": 504.73,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-008",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield Viewer Future Eliya/25346629_10155188222247913_2125987151_o.jpg",
+      "success": true,
+      "caption_preview": "The image presents a striking visual representation of a black background with white and green abstract shapes, evoking a sense of mystery and intrigue. The composition is characterized by: * A predom",
+      "caption_chars": 677,
+      "latency_ms": 498.64,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-009",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield Viewer Future Eliya/18718217_10155413068157848_71209152_n.jpg",
+      "success": true,
+      "caption_preview": "The image depicts a vibrant, orange apple at the center of a radiant blue aura, set against a starry black background. The apple's stem is a warm yellow hue, and its surface features a mottled pattern",
+      "caption_chars": 568,
+      "latency_ms": 504.35,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-010",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield interpretation maps/Biofield Anatomy 3, Eileen Mckusick.jpg",
+      "success": true,
+      "caption_preview": "The image presents a comprehensive guide to the Biofield Anatomy Map, a detailed chart that outlines the various energy fields and their corresponding characteristics. The map is divided into two main",
+      "caption_chars": 1045,
+      "latency_ms": 518.22,
+      "status_code": 200,
+      "vector_dim": 2048
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "model": "baai/bge-m3",
+  "batch_size": 10,
+  "success_count": 0,
+  "fail_count": 10,
+  "vector_dim_set": [],
+  "results": [
+    {
+      "node_id": "NODE-001",
+      "bucket_type": "bio_field_charts",
+      "success": false,
+      "latency_ms": 638.77,
+      "status_code": 500,
+      "error": "Something went wrong with the request."
+    },
+    {
+      "node_id": "NODE-002",
+      "bucket_type": "bio_field_charts",
+      "success": false,
+      "latency_ms": 267.97,
+      "status_code": 500,
+      "error": "Something went wrong with the request."
+    },
+    {
+      "node_id": "NODE-003",
+      "bucket_type": "bio_field_charts",
+      "success": false,
+      "latency_ms": 261.64,
+      "status_code": 500,
+      "error": "Something went wrong with the request."
+    },
+    {
+      "node_id": "NODE-004",
+      "bucket_type": "bio_field_charts",
+      "success": false,
+      "latency_ms": 274.5,
+      "status_code": 500,
+      "error": "Something went wrong with the request."
+    },
+    {
+      "node_id": "NODE-005",
+      "bucket_type": "bio_field_charts",
+      "success": false,
+      "latency_ms": 273.79,
+      "status_code": 500,
+      "error": "Something went wrong with the request."
+    },
+    {
+      "node_id": "NODE-006",
+      "bucket_type": "bio_field_charts",
+      "success": false,
+      "latency_ms": 276.62,
+      "status_code": 500,
+      "error": "Something went wrong with the request."
+    },
+    {
+      "node_id": "NODE-007",
+      "bucket_type": "bio_field_charts",
+      "success": false,
+      "latency_ms": 271.7,
+      "status_code": 500,
+      "error": "Something went wrong with the request."
+    },
+    {
+      "node_id": "NODE-008",
+      "bucket_type": "bio_field_charts",
+      "success": false,
+      "latency_ms": 255.61,
+      "status_code": 500,
+      "error": "Something went wrong with the request."
+    },
+    {
+      "node_id": "NODE-009",
+      "bucket_type": "bio_field_charts",
+      "success": false,
+      "latency_ms": 264.99,
+      "status_code": 500,
+      "error": "Something went wrong with the request."
+    },
+    {
+      "node_id": "NODE-010",
+      "bucket_type": "bio_field_charts",
+      "success": false,
+      "latency_ms": 273.18,
+      "status_code": 500,
+      "error": "Something went wrong with the request."
+    }
+  ]
+}

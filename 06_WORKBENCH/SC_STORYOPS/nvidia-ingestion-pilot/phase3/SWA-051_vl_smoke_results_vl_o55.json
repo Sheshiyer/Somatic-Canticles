@@ -1,0 +1,119 @@
+{
+  "vision_model": "meta/llama-3.2-11b-vision-instruct",
+  "embed_model": "nvidia/llama-nemotron-embed-vl-1b-v2",
+  "offset": 55,
+  "batch_size": 10,
+  "success_count": 9,
+  "fail_count": 1,
+  "vector_dim_set": [
+    2048
+  ],
+  "results": [
+    {
+      "node_id": "NODE-057",
+      "bucket_type": "interpretation_maps",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Smoking and rolling/smudge-1.jpg",
+      "success": true,
+      "caption_preview": "The image presents a collection of items arranged on a red surface, likely a tablecloth or fabric. The items are: * A large, white, oval-shaped object resembling an abalone shell, featuring a hole in ",
+      "caption_chars": 735,
+      "latency_ms": 518.56,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-058",
+      "bucket_type": "interpretation_maps",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/Screenshot 2024-09-06 142534.png",
+      "success": true,
+      "caption_preview": "The image presents a microscopic view of a zygote, accompanied by a text description in Hebrew and English. The purpose of the image is to illustrate the concept of a zygote, which is the first cell o",
+      "caption_chars": 895,
+      "latency_ms": 528.28,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-059",
+      "bucket_type": "interpretation_maps",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/Screenshot 2024-09-05 102750.png",
+      "success": true,
+      "caption_preview": "The image presents a slide featuring a poem, an illustration, and a webpage. The title \"A-Zie and his Sister\" is prominently displayed in large black text at the top left of the image. **Poem:** The p",
+      "caption_chars": 981,
+      "latency_ms": 524.47,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-060",
+      "bucket_type": "interpretation_maps",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/Screenshot 2024-09-21 165746.png",
+      "success": true,
+      "caption_preview": "The image presents a detailed diagram of a cell, accompanied by labels and descriptions that provide insight into its various components. The diagram is set against a white background, with the cell d",
+      "caption_chars": 987,
+      "latency_ms": 555.28,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-061",
+      "bucket_type": "interpretation_maps",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/Pasted image 20240906135822.png",
+      "success": true,
+      "caption_preview": "The image presents a diagram illustrating the process of meiosis and mitosis, with a focus on the birth of Titans and Christ. The diagram is divided into two sections, each representing a different ty",
+      "caption_chars": 945,
+      "latency_ms": 526.99,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-062",
+      "bucket_type": "interpretation_maps",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/Pasted image 20240520200336.png",
+      "success": true,
+      "caption_preview": "The image presents a comprehensive visual representation of Thomas Aquinas' philosophical framework, featuring a portrait of the philosopher alongside a diagram illustrating his hierarchical classific",
+      "caption_chars": 944,
+      "latency_ms": 536.16,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-063",
+      "bucket_type": "interpretation_maps",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/Pasted image 20240921171030.png",
+      "success": false,
+      "error": "RuntimeError: NVIDIA API HTTP 400: {\"error\":{\"message\":\"cannot identify image file <_io.BytesIO object at 0x7ff6f41ed260> cannot identify image file <_io.BytesIO object at 0x7ff6f41ed260>\",\"type\":\"BadRequestError\",\"param\":null,\"code\":400}}"
+    },
+    {
+      "node_id": "NODE-064",
+      "bucket_type": "interpretation_maps",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/10-14-24-165634.png",
+      "success": true,
+      "caption_preview": "The image presents a detailed diagram of a cell, accompanied by labels and descriptions that provide insight into its various components. The diagram is set against a white background, with the cell d",
+      "caption_chars": 985,
+      "latency_ms": 518.66,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-065",
+      "bucket_type": "interpretation_maps",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/Pasted image 20240520202620.png",
+      "success": true,
+      "caption_preview": "The image presents a comprehensive visual representation of the concept of Sheol as Soul, featuring a diagram and an article excerpt. The diagram, titled \"Sheol as Soul,\" illustrates the connection be",
+      "caption_chars": 1004,
+      "latency_ms": 532.33,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-066",
+      "bucket_type": "interpretation_maps",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/Pasted image 20240304200924.png",
+      "success": true,
+      "caption_preview": "The image presents a comprehensive overview of the human body's interoception system, which enables us to perceive and respond to internal stimuli. The diagram is divided into two main sections: the l",
+      "caption_chars": 755,
+      "latency_ms": 540.6,
+      "status_code": 200,
+      "vector_dim": 2048
+    }
+  ]
+}

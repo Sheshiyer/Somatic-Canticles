@@ -1,0 +1,119 @@
+{
+  "vision_model": "meta/llama-3.2-11b-vision-instruct",
+  "embed_model": "nvidia/llama-nemotron-embed-vl-1b-v2",
+  "offset": 45,
+  "batch_size": 10,
+  "success_count": 9,
+  "fail_count": 1,
+  "vector_dim_set": [
+    2048
+  ],
+  "results": [
+    {
+      "node_id": "NODE-047",
+      "bucket_type": "interpretation_maps",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/Pasted image 20240316220701.png",
+      "success": false,
+      "error": "TimeoutError: The read operation timed out"
+    },
+    {
+      "node_id": "NODE-048",
+      "bucket_type": "interpretation_maps",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/Pasted image 20240921174633.png",
+      "success": true,
+      "caption_preview": "The image presents a diagram illustrating the relationship between the sun and God, with a central focus on the concept of \"witness.\" The diagram is divided into two sections: the left side represents",
+      "caption_chars": 1046,
+      "latency_ms": 522.77,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-049",
+      "bucket_type": "interpretation_maps",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/800px-Toroidal_Transformer_Poynting_Vector.jpg",
+      "success": true,
+      "caption_preview": "The image depicts a diagram of an electromagnetic field, showcasing the interaction between electric and magnetic fields. The diagram is divided into two main sections: the left side illustrates the e",
+      "caption_chars": 1027,
+      "latency_ms": 529.11,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-050",
+      "bucket_type": "interpretation_maps",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/Screenshot 2024-09-21 164229.png",
+      "success": true,
+      "caption_preview": "The image presents a list of 24 points, titled \"Christna and Christos,\" which appear to be a comparison between the Christian concept of Jesus Christ and the Hindu deity Krishna. The list is accompani",
+      "caption_chars": 1099,
+      "latency_ms": 545.29,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-051",
+      "bucket_type": "interpretation_maps",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/Pasted image 20240520195832.png",
+      "success": true,
+      "caption_preview": "The image presents a comprehensive visual representation of the Trinity, comprising three distinct sections that provide insight into the concept. **Section 1: Definition of Trinity** * The title \"Tri",
+      "caption_chars": 968,
+      "latency_ms": 526.97,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-052",
+      "bucket_type": "interpretation_maps",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/Pasted image 20240612224817.png",
+      "success": true,
+      "caption_preview": "The image presents a striking visual representation of a human head, accompanied by a thought-provoking quote. The artwork features a stylized, abstract depiction of a human head, with a vibrant color",
+      "caption_chars": 1044,
+      "latency_ms": 537.4,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-053",
+      "bucket_type": "interpretation_maps",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/Pasted image 20240827191449.png",
+      "success": true,
+      "caption_preview": "The image presents a comprehensive overview of the Limbic Universe, focusing on protein molecules that detect four distinct things: light, motion, chemical, and temperature. The visual content is orga",
+      "caption_chars": 835,
+      "latency_ms": 545.55,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-054",
+      "bucket_type": "interpretation_maps",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/Pasted image 20240612214645.png",
+      "success": true,
+      "caption_preview": "The image presents a simple yet striking visual representation of the concept of pain, with a bold and attention-grabbing design. The key elements of the image are: * **Text**: * The text is centered ",
+      "caption_chars": 595,
+      "latency_ms": 546.14,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-055",
+      "bucket_type": "interpretation_maps",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Smoking and rolling/HV-Sacred-Smoke-Blog-post.jpg",
+      "success": true,
+      "caption_preview": "The image depicts a man with a long beard and hair, holding a lit pipe in his right hand. The man's face is painted white, and he wears a red cloth tied around his wrist. He has a silver earring in hi",
+      "caption_chars": 586,
+      "latency_ms": 522.19,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-056",
+      "bucket_type": "interpretation_maps",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/Pasted image 20240324170936.png",
+      "success": true,
+      "caption_preview": "The image presents a detailed diagram of the human skull, accompanied by a descriptive text that highlights the importance of the skull and teeth in hearing. The diagram is titled \"Cranial Bones: Occi",
+      "caption_chars": 1159,
+      "latency_ms": 506.59,
+      "status_code": 200,
+      "vector_dim": 2048
+    }
+  ]
+}

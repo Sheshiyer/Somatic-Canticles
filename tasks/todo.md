@@ -881,3 +881,100 @@ This file is the active source of truth for repository execution status.
   - no active/high-visibility doc matches the old `22 chapters`, `26 chapters`, `Production / Final Polish`, `Interactive Experience Design & Easter Egg Implementation`, or `Moving to Final Production` claims
   - the only remaining `release-ready` hits in active docs are prevention rules, not status claims
   - `git diff --check` is clean
+
+
+## Swarm Architect Planning Track (NVIDIA Ingestion Pilot)
+
+- [x] Generate 100-node pilot manifest (`06_WORKBENCH/SC_STORYOPS/nvidia-ingestion-pilot/sample_manifest.csv`)
+- [x] Generate query evaluation template (`06_WORKBENCH/SC_STORYOPS/nvidia-ingestion-pilot/pilot_query_eval_template.csv`)
+- [x] Generate sampling strategy doc (`06_WORKBENCH/SC_STORYOPS/nvidia-ingestion-pilot/sampling_strategy.md`)
+- [x] Generate 80-task swarm execution plan (`06_WORKBENCH/SC_STORYOPS/nvidia-ingestion-pilot/swarm_execution_plan.md`)
+- [x] Open GitHub issues for `SWA-001` through `SWA-080` with dependencies
+  - [x] Prepared issue payload pack (`swa_issue_payloads.json`) and seed instructions (`github_issue_seed.md`)
+  - [x] Created `80` SWA issues on GitHub (`#40` through `#119`)
+  - [x] Added dependency-link comments using `swa_issue_number_map.tsv` + `swarm_tasks.json`
+- [x] Start Phase 0 execution from `SWA-001` through `SWA-010`
+  - [x] `SWA-001` state snapshot (`state_snapshot_2026-05-15.md`)
+  - [x] `SWA-002` inventory metadata (`nvidia_model_inventory_metadata_2026-05-15.json`)
+  - [x] `SWA-003` artifact registry (`artifact_registry.md`)
+  - [x] `SWA-004` boundary policy (`canonical_vs_noneditorial_boundary_policy.md`)
+  - [x] `SWA-005` risk register (`risk_register.md`)
+  - [x] `SWA-006` dependency map (`dependency_map.md`)
+  - [x] `SWA-007` naming conventions (`naming_conventions.md`)
+  - [x] `SWA-008` review cadence (`review_cadence_and_gates.md`)
+  - [x] `SWA-009` baseline metrics (`baseline_metrics.md`)
+  - [x] `SWA-010` kickoff summary (`phase0_kickoff_summary.md`)
+- [x] Start Phase 1 Wave 1 Swarm A contract freeze (`SWA-011` to `SWA-014`)
+  - [x] `SWA-011` objective and metrics contract (`contracts/W1_SwarmA_SWA-011_pilot_objective_success_metrics.md`)
+  - [x] `SWA-012` source admissibility rules (`contracts/W1_SwarmA_SWA-012_source_admissibility_rules.md`)
+  - [x] `SWA-013` anti-drift and contamination checks (`contracts/W1_SwarmA_SWA-013_antidrift_and_contamination_checks.md`)
+  - [x] `SWA-014` provenance field requirements (`contracts/W1_SwarmA_SWA-014_provenance_field_requirements.md`)
+- [x] Start Phase 1 Wave 1 Swarm B tracking contracts (`SWA-015` to `SWA-018`)
+  - [x] `SWA-015` swarm board structure (`contracts/W1_SwarmB_SWA-015_swarm_board_structure.md`)
+  - [x] `SWA-016` setup milestone backfill contract (`contracts/W1_SwarmB_SWA-016_backfill_setup_milestones.md`)
+  - [x] `SWA-017` status transition rules (`contracts/W1_SwarmB_SWA-017_status_transition_rules.md`)
+  - [x] `SWA-018` weekly checkpoint template (`contracts/W1_SwarmB_SWA-018_weekly_checkpoint_template.md`)
+- [x] Start Phase 1 Wave 2 Swarm A data contracts (`SWA-019` to `SWA-022`)
+  - [x] `SWA-019` node schema v1 (`contracts/W2_SwarmA_SWA-019_node_schema_v1.md`)
+  - [x] `SWA-020` relation schema v1 (`contracts/W2_SwarmA_SWA-020_relation_schema_v1.md`)
+  - [x] `SWA-021` language/locale metadata contract (`contracts/W2_SwarmA_SWA-021_language_locale_metadata_contract.md`)
+  - [x] `SWA-022` image-derived node contract (`contracts/W2_SwarmA_SWA-022_image_derived_node_contract.md`)
+- [x] Start Phase 1 Wave 2 Swarm B validation contracts (`SWA-023` to `SWA-026`)
+  - [x] `SWA-023` retrieval rubric formal spec (`contracts/W2_SwarmB_SWA-023_retrieval_rubric_formal_spec.md`)
+  - [x] `SWA-024` hierarchy coherence scoring guide (`contracts/W2_SwarmB_SWA-024_hierarchy_coherence_scoring_guide.md`)
+  - [x] `SWA-025` provenance traceability scoring guide (`contracts/W2_SwarmB_SWA-025_provenance_traceability_scoring_guide.md`)
+  - [x] `SWA-026` cross-language match scoring guide (`contracts/W2_SwarmB_SWA-026_crosslanguage_match_scoring_guide.md`)
+- [x] Start Phase 1 Wave 3 Swarm A ops contracts (`SWA-027` to `SWA-030`)
+  - [x] `SWA-027` batch processing runbook (`contracts/W3_SwarmA_SWA-027_batch_processing_runbook.md`)
+  - [x] `SWA-028` failure/retry policy (`contracts/W3_SwarmA_SWA-028_failure_retry_policy.md`)
+  - [x] `SWA-029` artifact versioning policy (`contracts/W3_SwarmA_SWA-029_artifact_versioning_policy.md`)
+  - [x] `SWA-030` wave acceptance gate checklist (`contracts/W3_SwarmA_SWA-030_wave_acceptance_gate_checklist.md`)
+- [x] Start Phase 2 data preparation execution (`SWA-031` to `SWA-034`)
+  - [x] `SWA-031` batch grouping artifact (`phase2/SWA-031_batch_groups_v1.json`)
+  - [x] `SWA-032` lineage tagging in enriched manifest (`phase2/SWA-032_033_manifest_enriched_v1.csv`)
+  - [x] `SWA-033` modality/language tagging in enriched manifest (`phase2/SWA-032_033_manifest_enriched_v1.csv`)
+  - [x] `SWA-034` path validation report (`phase2/SWA-034_path_validation_report_v1.md`)
+- [x] Continue Phase 2 extraction and mapping prep (`SWA-035` to `SWA-041`)
+  - [x] `SWA-035` text extraction normalization spec + preview (`phase2/SWA-035_text_extraction_normalization_spec_v1.md`, `phase2/SWA-035_text_extraction_preview_v1.json`)
+  - [x] `SWA-036` OCR normalization spec + queue (`phase2/SWA-036_ocr_extraction_normalization_spec_v1.md`, `phase2/SWA-036_ocr_queue_v1.csv`)
+  - [x] `SWA-037` extraction quality flags schema (`phase2/SWA-037_extraction_quality_flags_schema_v1.json`)
+  - [x] `SWA-038` canonical node-id mapping ledger (`phase2/SWA-038_node_id_mapping_ledger_v1.csv`)
+  - [x] `SWA-039` expected-neighbor seed sets (`phase2/SWA-039_expected_neighbors_seed_v1.json`)
+  - [x] `SWA-040` expected-parent seed sets (`phase2/SWA-040_expected_parent_seed_v1.json`)
+  - [x] `SWA-041` unresolved-node triage queue template (`phase2/SWA-041_unresolved_node_triage_queue_v1.csv`)
+- [x] Complete Phase 2 validation and readiness gate (`SWA-042` to `SWA-045`)
+  - [x] `SWA-042` dry validation report (`phase2/SWA-042_dry_validation_report_v1.md`)
+  - [x] `SWA-043` patched manifest (`phase2/SWA-043_manifest_patched_v1.csv`)
+  - [x] `SWA-044` data readiness checkpoint (`phase2/SWA-044_data_readiness_checkpoint_report_v1.md`)
+  - [x] `SWA-045` transition approval memo (`phase2/SWA-045_transition_approval_memo.md`)
+- [x] Start Phase 3 embedding input preparation (`SWA-046` to `SWA-048`)
+  - [x] `SWA-046` bge-m3 input set (`phase3/SWA-046_bge_m3_input_set_v1.jsonl`)
+  - [x] `SWA-047` nv-embed-v1 input set (`phase3/SWA-047_nv_embed_v1_input_set_v1.jsonl`)
+  - [x] `SWA-048` VL input set (`phase3/SWA-048_vl_input_set_v1.jsonl`)
+  - [x] Input-set summary (`phase3/SWA-046_048_input_set_summary_v1.json`)
+- [x] Run Phase 3 smoke embedding preflight (`10` text + `10` vision)
+  - [x] Smoke runner script (`scripts/run_swa_phase3_smoke.py`)
+  - [x] `SWA-049` smoke results (`phase3/SWA-049_bge_m3_smoke_results_v1.json`) -> `0/10` success, runtime `500` errors
+  - [x] `SWA-050` smoke results (`phase3/SWA-050_nv_embed_v1_smoke_results_v1.json`) -> `10/10` success, `4096` dim vectors
+  - [x] `SWA-051` smoke results (`phase3/SWA-051_vl_smoke_results_v1.json`) -> `10/10` success, `2048` dim vectors
+  - [x] Smoke summary (`phase3/SWA-049_051_smoke_summary_v1.md`)
+- [x] Run full-corpus Phase 3 embedding execution (`SWA-049` to `SWA-051`) over `100/100/69` rows
+  - [x] Extended `scripts/run_swa_phase3_smoke.py` with chunk offsets, lane toggles (`--skip-*`), and empty-image guards for resilient long runs
+  - [x] `SWA-049` full text lane result (`phase3/SWA-049_bge_m3_smoke_results_full_text_v1.json`) -> `0/100` success, provider runtime `500` errors persist
+  - [x] `SWA-050` full text lane result (`phase3/SWA-050_nv_embed_v1_smoke_results_full_text_v1.json`) -> `100/100` success, `4096` dim vectors
+  - [x] `SWA-051` chunked + retry execution completed (`phase3/SWA-051_vl_full_results_assembled_v2.json`) -> `68/69` success, `2048` dim vectors
+  - [x] Logged unresolved source row (`phase3/SWA-051_unresolved_rows_v2.csv`): `NODE-063` failed because source image is empty (`0` bytes)
+  - [x] Published consolidated full execution summary (`phase3/SWA-049_051_full_execution_summary_v2.md`)
+- [x] Publish Phase 3 experimentation checkpoint (`SWA-060`) for decision gating
+  - [x] `phase3/SWA-060_experimentation_checkpoint_package_v1.md`
+- [x] Proceed through Phase 4 decision and hardening artifacts (`SWA-061` to `SWA-071`) with explicit dependency waiver
+  - [x] Weighted score sheet and summary (`phase4/SWA-061_weighted_scores_modelA_modelB_v1.{json,md}`)
+  - [x] Modality summary (`phase4/SWA-062_modality_performance_summary_v1.{json,md}`)
+  - [x] Failure analysis (`phase4/SWA-063_failed_retrieval_error_analysis_v1.{json,md}`)
+  - [x] Language drift readiness audit (`phase4/SWA-064_language_drift_analysis_v1.{json,md}`)
+  - [x] Provenance fidelity audit (`phase4/SWA-065_provenance_fidelity_audit_v1.{json,md}`)
+  - [x] Hierarchy neighborhood sanity audit (`phase4/SWA-066_hierarchy_neighborhood_sanity_audit_v1.{json,md}`)
+  - [x] Decision memo, threshold review, hardening backlog, rollback criteria, and owner scope (`phase4/SWA-067..SWA-071`)
+- [ ] Keep Phase 5 transition approval (`SWA-072`) conditional until contractual experimentation tasks `SWA-052..SWA-059` are completed
+  - [x] Published conditional approval memo (`phase4/SWA-072_transition_to_integration_approval_v1.md`)
+  - [ ] Clear blocking conditions: finish `SWA-052..SWA-059`, resolve `NODE-063`, and replace proxy scoring with contractual rubric outputs

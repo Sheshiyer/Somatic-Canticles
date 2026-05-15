@@ -1,0 +1,6 @@
+{
+  "text_rows_bge_m3": 100,
+  "text_rows_nv_embed_v1": 100,
+  "vision_rows_vl": 69,
+  "manifest_source": "SWA-043_manifest_patched_v1.csv"
+}

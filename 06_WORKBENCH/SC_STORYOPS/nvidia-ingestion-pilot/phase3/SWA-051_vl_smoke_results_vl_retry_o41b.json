@@ -1,0 +1,24 @@
+{
+  "vision_model": "meta/llama-3.2-11b-vision-instruct",
+  "embed_model": "nvidia/llama-nemotron-embed-vl-1b-v2",
+  "offset": 41,
+  "batch_size": 1,
+  "success_count": 1,
+  "fail_count": 0,
+  "vector_dim_set": [
+    2048
+  ],
+  "results": [
+    {
+      "node_id": "NODE-043",
+      "bucket_type": "interpretation_maps",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/Pasted image 20240828002737.png",
+      "success": true,
+      "caption_preview": "The image presents a diagram of the brain, accompanied by text that reads \"Sensate Afferent\" and \"Invoke Efferent.\" The diagram is situated in the top-right corner, featuring a cross-section of the br",
+      "caption_chars": 841,
+      "latency_ms": 524.2,
+      "status_code": 200,
+      "vector_dim": 2048
+    }
+  ]
+}

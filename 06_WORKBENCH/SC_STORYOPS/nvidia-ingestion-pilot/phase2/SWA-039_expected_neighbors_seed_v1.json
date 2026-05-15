@@ -1,0 +1,433 @@
+[
+  {
+    "node_id": "NODE-001",
+    "bucket_type": "bio_field_charts",
+    "expected_neighbors": [
+      "NODE-002",
+      "NODE-003"
+    ],
+    "seed_rule": "same_bucket_local_adjacency"
+  },
+  {
+    "node_id": "NODE-002",
+    "bucket_type": "bio_field_charts",
+    "expected_neighbors": [
+      "NODE-001",
+      "NODE-003",
+      "NODE-004"
+    ],
+    "seed_rule": "same_bucket_local_adjacency"
+  },
+  {
+    "node_id": "NODE-003",
+    "bucket_type": "bio_field_charts",
+    "expected_neighbors": [
+      "NODE-001",
+      "NODE-002",
+      "NODE-004",
+      "NODE-005"
+    ],
+    "seed_rule": "same_bucket_local_adjacency"
+  },
+  {
+    "node_id": "NODE-004",
+    "bucket_type": "bio_field_charts",
+    "expected_neighbors": [
+      "NODE-002",
+      "NODE-003",
+      "NODE-005",
+      "NODE-006"
+    ],
+    "seed_rule": "same_bucket_local_adjacency"
+  },
+  {
+    "node_id": "NODE-005",
+    "bucket_type": "bio_field_charts",
+    "expected_neighbors": [
+      "NODE-003",
+      "NODE-004",
+      "NODE-006",
+      "NODE-007"
+    ],
+    "seed_rule": "same_bucket_local_adjacency"
+  },
+  {
+    "node_id": "NODE-006",
+    "bucket_type": "bio_field_charts",
+    "expected_neighbors": [
+      "NODE-004",
+      "NODE-005",
+      "NODE-007",
+      "NODE-008"
+    ],
+    "seed_rule": "same_bucket_local_adjacency"
+  },
+  {
+    "node_id": "NODE-007",
+    "bucket_type": "bio_field_charts",
+    "expected_neighbors": [
+      "NODE-005",
+      "NODE-006",
+      "NODE-008",
+      "NODE-009"
+    ],
+    "seed_rule": "same_bucket_local_adjacency"
+  },
+  {
+    "node_id": "NODE-008",
+    "bucket_type": "bio_field_charts",
+    "expected_neighbors": [
+      "NODE-006",
+      "NODE-007",
+      "NODE-009",
+      "NODE-010"
+    ],
+    "seed_rule": "same_bucket_local_adjacency"
+  },
+  {
+    "node_id": "NODE-009",
+    "bucket_type": "bio_field_charts",
+    "expected_neighbors": [
+      "NODE-007",
+      "NODE-008",
+      "NODE-010",
+      "NODE-011"
+    ],
+    "seed_rule": "same_bucket_local_adjacency"
+  },
+  {
+    "node_id": "NODE-010",
+    "bucket_type": "bio_field_charts",
+    "expected_neighbors": [
+      "NODE-008",
+      "NODE-009",
+      "NODE-011",
+      "NODE-012"
+    ],
+    "seed_rule": "same_bucket_local_adjacency"
+  },
+  {
+    "node_id": "NODE-011",
+    "bucket_type": "bio_field_charts",
+    "expected_neighbors": [
+      "NODE-009",
+      "NODE-010",
+      "NODE-012",
+      "NODE-013"
+    ],
+    "seed_rule": "same_bucket_local_adjacency"
+  },
+  {
+    "node_id": "NODE-012",
+    "bucket_type": "bio_field_charts",
+    "expected_neighbors": [
+      "NODE-010",
+      "NODE-011",
+      "NODE-013",
+      "NODE-014"
+    ],
+    "seed_rule": "same_bucket_local_adjacency"
+  },
+  {
+    "node_id": "NODE-013",
+    "bucket_type": "bio_field_charts",
+    "expected_neighbors": [
+      "NODE-011",
+      "NODE-012",
+      "NODE-014",
+      "NODE-015"
+    ],
+    "seed_rule": "same_bucket_local_adjacency"
+  },
+  {
+    "node_id": "NODE-014",
+    "bucket_type": "bio_field_charts",
+    "expected_neighbors": [
+      "NODE-012",
+      "NODE-013",
+      "NODE-015",
+      "NODE-016"
+    ],
+    "seed_rule": "same_bucket_local_adjacency"
+  },
+  {
+    "node_id": "NODE-015",
+    "bucket_type": "bio_field_charts",
+    "expected_neighbors": [
+      "NODE-013",
+      "NODE-014",
+      "NODE-016",
+      "NODE-017"
+    ],
+    "seed_rule": "same_bucket_local_adjacency"
+  },
+  {
+    "node_id": "NODE-016",
+    "bucket_type": "bio_field_charts",
+    "expected_neighbors": [
+      "NODE-014",
+      "NODE-015",
+      "NODE-017",
+      "NODE-018"
+    ],
+    "seed_rule": "same_bucket_local_adjacency"
+  },
+  {
+    "node_id": "NODE-017",
+    "bucket_type": "bio_field_charts",
+    "expected_neighbors": [
+      "NODE-015",
+      "NODE-016",
+      "NODE-018",
+      "NODE-019"
+    ],
+    "seed_rule": "same_bucket_local_adjacency"
+  },
+  {
+    "node_id": "NODE-018",
+    "bucket_type": "bio_field_charts",
+    "expected_neighbors": [
+      "NODE-016",
+      "NODE-017",
+      "NODE-019",
+      "NODE-020"
+    ],
+    "seed_rule": "same_bucket_local_adjacency"
+  },
+  {
+    "node_id": "NODE-019",
+    "bucket_type": "bio_field_charts",
+    "expected_neighbors": [
+      "NODE-017",
+      "NODE-018",
+      "NODE-020",
+      "NODE-021"
+    ],
+    "seed_rule": "same_bucket_local_adjacency"
+  },
+  {
+    "node_id": "NODE-020",
+    "bucket_type": "bio_field_charts",
+    "expected_neighbors": [
+      "NODE-018",
+      "NODE-019",
+      "NODE-021",
+      "NODE-022"
+    ],
+    "seed_rule": "same_bucket_local_adjacency"
+  },
+  {
+    "node_id": "NODE-021",
+    "bucket_type": "bio_field_charts",
+    "expected_neighbors": [
+      "NODE-019",
+      "NODE-020",
+      "NODE-022",
+      "NODE-023"
+    ],
+    "seed_rule": "same_bucket_local_adjacency"
+  },
+  {
+    "node_id": "NODE-022",
+    "bucket_type": "bio_field_charts",
+    "expected_neighbors": [
+      "NODE-020",
+      "NODE-021",
+      "NODE-023",
+      "NODE-024"
+    ],
+    "seed_rule": "same_bucket_local_adjacency"
+  },
+  {
+    "node_id": "NODE-023",
+    "bucket_type": "bio_field_charts",
+    "expected_neighbors": [
+      "NODE-021",
+      "NODE-022",
+      "NODE-024",
+      "NODE-025"
+    ],
+    "seed_rule": "same_bucket_local_adjacency"
+  },
+  {
+    "node_id": "NODE-024",
+    "bucket_type": "bio_field_charts",
+    "expected_neighbors": [
+      "NODE-022",
+      "NODE-023",
+      "NODE-025",
+      "NODE-026"
+    ],
+    "seed_rule": "same_bucket_local_adjacency"
+  },
+  {
+    "node_id": "NODE-025",
+    "bucket_type": "bio_field_charts",
+    "expected_neighbors": [
+      "NODE-023",
+      "NODE-024",
+      "NODE-026",
+      "NODE-027"
+    ],
+    "seed_rule": "same_bucket_local_adjacency"
+  },
+  {
+    "node_id": "NODE-026",
+    "bucket_type": "bio_field_charts",
+    "expected_neighbors": [
+      "NODE-024",
+      "NODE-025",
+      "NODE-027",
+      "NODE-028"
+    ],
+    "seed_rule": "same_bucket_local_adjacency"
+  },
+  {
+    "node_id": "NODE-027",
+    "bucket_type": "bio_field_charts",
+    "expected_neighbors": [
+      "NODE-025",
+      "NODE-026",
+      "NODE-028",
+      "NODE-029"
+    ],
+    "seed_rule": "same_bucket_local_adjacency"
+  },
+  {
+    "node_id": "NODE-028",
+    "bucket_type": "bio_field_charts",
+    "expected_neighbors": [
+      "NODE-026",
+      "NODE-027",
+      "NODE-029",
+      "NODE-030"
+    ],
+    "seed_rule": "same_bucket_local_adjacency"
+  },
+  {
+    "node_id": "NODE-029",
+    "bucket_type": "bio_field_charts",
+    "expected_neighbors": [
+      "NODE-027",
+      "NODE-028",
+      "NODE-030",
+      "NODE-031"
+    ],
+    "seed_rule": "same_bucket_local_adjacency"
+  },
+  {
+    "node_id": "NODE-030",
+    "bucket_type": "bio_field_charts",
+    "expected_neighbors": [
+      "NODE-028",
+      "NODE-029",
+      "NODE-031",
+      "NODE-032"
+    ],
+    "seed_rule": "same_bucket_local_adjacency"
+  },
+  {
+    "node_id": "NODE-031",
+    "bucket_type": "bio_field_charts",
+    "expected_neighbors": [
+      "NODE-029",
+      "NODE-030",
+      "NODE-032",
+      "NODE-033"
+    ],
+    "seed_rule": "same_bucket_local_adjacency"
+  },
+  {
+    "node_id": "NODE-032",
+    "bucket_type": "bio_field_charts",
+    "expected_neighbors": [
+      "NODE-030",
+      "NODE-031",
+      "NODE-033",
+      "NODE-034"
+    ],
+    "seed_rule": "same_bucket_local_adjacency"
+  },
+  {
+    "node_id": "NODE-033",
+    "bucket_type": "bio_field_charts",
+    "expected_neighbors": [
+      "NODE-031",
+      "NODE-032",
+      "NODE-034",
+      "NODE-035"
+    ],
+    "seed_rule": "same_bucket_local_adjacency"
+  },
+  {
+    "node_id": "NODE-034",
+    "bucket_type": "bio_field_charts",
+    "expected_neighbors": [
+      "NODE-032",
+      "NODE-033",
+      "NODE-035"
+    ],
+    "seed_rule": "same_bucket_local_adjacency"
+  },
+  {
+    "node_id": "NODE-035",
+    "bucket_type": "bio_field_charts",
+    "expected_neighbors": [
+      "NODE-033",
+      "NODE-034"
+    ],
+    "seed_rule": "same_bucket_local_adjacency"
+  },
+  {
+    "node_id": "NODE-036",
+    "bucket_type": "interpretation_maps",
+    "expected_neighbors": [
+      "NODE-037",
+      "NODE-038"
+    ],
+    "seed_rule": "same_bucket_local_adjacency"
+  },
+  {
+    "node_id": "NODE-037",
+    "bucket_type": "interpretation_maps",
+    "expected_neighbors": [
+      "NODE-036",
+      "NODE-038",
+      "NODE-039"
+    ],
+    "seed_rule": "same_bucket_local_adjacency"
+  },
+  {
+    "node_id": "NODE-038",
+    "bucket_type": "interpretation_maps",
+    "expected_neighbors": [
+      "NODE-036",
+      "NODE-037",
+      "NODE-039",
+      "NODE-040"
+    ],
+    "seed_rule": "same_bucket_local_adjacency"
+  },
+  {
+    "node_id": "NODE-039",
+    "bucket_type": "interpretation_maps",
+    "expected_neighbors": [
+      "NODE-037",
+      "NODE-038",
+      "NODE-040",
+      "NODE-041"
+    ],
+    "seed_rule": "same_bucket_local_adjacency"
+  },
+  {
+    "node_id": "NODE-040",
+    "bucket_type": "interpretation_maps",
+    "expected_neighbors": [
+      "NODE-038",
+      "NODE-039",
+      "NODE-041",
+      "NODE-042"
+    ],
+    "seed_rule": "same_bucket_local_adjacency"
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ExtractionQualityFlags",
+  "type": "object",
+  "required": [
+    "node_id",
+    "source_type",
+    "extraction_quality",
+    "flags"
+  ],
+  "properties": {
+    "node_id": {
+      "type": "string"
+    },
+    "source_type": {
+      "type": "string",
+      "enum": [
+        "image",
+        "document"
+      ]
+    },
+    "extraction_quality": {
+      "type": "string",
+      "enum": [
+        "high",
+        "medium",
+        "low",
+        "unscored"
+      ]
+    },
+    "flags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "missing_text",
+          "low_ocr_confidence",
+          "ambiguous_language",
+          "parser_required",
+          "manual_review_required"
+        ]
+      }
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

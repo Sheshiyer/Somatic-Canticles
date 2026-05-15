@@ -1,0 +1,288 @@
+{
+  "vision_model": "meta/llama-3.2-11b-vision-instruct",
+  "embed_model": "nvidia/llama-nemotron-embed-vl-1b-v2",
+  "offset": 0,
+  "batch_size": 25,
+  "success_count": 25,
+  "fail_count": 0,
+  "vector_dim_set": [
+    2048
+  ],
+  "results": [
+    {
+      "node_id": "NODE-001",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield interpretation maps/IMG_2581.jpg",
+      "success": true,
+      "caption_preview": "The image presents a vibrant, multicolored graphic of a person in a meditative pose, surrounded by seven chakras and their corresponding symbols. The individual is depicted in a seated position with t",
+      "caption_chars": 861,
+      "latency_ms": 528.34,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-002",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield Viewer Future Eliya/21363458_10154948160327913_117575874_o.jpg",
+      "success": true,
+      "caption_preview": "The image presents a blurry, pixelated photograph of a gray surface with a vertical line of yellow and green hues running down its center. The surface appears to be made of a rough, textured material,",
+      "caption_chars": 706,
+      "latency_ms": 518.17,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-003",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield Viewer Future Eliya/25371019_10155189860952913_1561726014_o.jpg",
+      "success": true,
+      "caption_preview": "The image is a grayscale photograph of a person's face, with the subject's face blurred and indistinct. The image is cropped to focus on the face, with the top of the head and shoulders cut off. * **F",
+      "caption_chars": 897,
+      "latency_ms": 526.86,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-004",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield interpretation maps/11990533_413990388794138_2317091395093831501_n.jpg",
+      "success": true,
+      "caption_preview": "The image presents a diagram illustrating the relationship between emotions and Reichian somatization correspondences. The diagram features a yellow spine with a brain at the top, surrounded by seven ",
+      "caption_chars": 937,
+      "latency_ms": 539.97,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-005",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield interpretation maps/Biofield Anatomy, E McKusick.jpg",
+      "success": true,
+      "caption_preview": "The image presents a comprehensive diagram illustrating the significance of energetic imbalances in the human body, focusing on the biofield anatomy. The diagram is divided into two main sections: the",
+      "caption_chars": 942,
+      "latency_ms": 533.52,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-006",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield Viewer Future Eliya/Screen Shot 2017-09-03 at 9.11.11 am.png",
+      "success": true,
+      "caption_preview": "The image presents a circular graph with a central axis, featuring a purple shape resembling a flower or a starburst. The graph is divided into sections by black lines, with each section containing a ",
+      "caption_chars": 701,
+      "latency_ms": 520.04,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-007",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield Viewer Future Eliya/21146633_10203820293385883_1098728975_o-1.jpg",
+      "success": true,
+      "caption_preview": "The image presents a vibrant, abstract representation of a celestial body or energy source, characterized by a central red circle surrounded by a purple ring and yellow dots. The image is overlaid wit",
+      "caption_chars": 897,
+      "latency_ms": 533.78,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-008",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield Viewer Future Eliya/25346629_10155188222247913_2125987151_o.jpg",
+      "success": true,
+      "caption_preview": "The image presents a striking visual representation of a person's face, characterized by a black background and white, jagged lines that evoke the appearance of sound waves or electrical activity. The",
+      "caption_chars": 881,
+      "latency_ms": 531.06,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-009",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield Viewer Future Eliya/18718217_10155413068157848_71209152_n.jpg",
+      "success": true,
+      "caption_preview": "The image depicts a vibrant, stylized apple set against a starry black background, evoking a sense of cosmic wonder. At the center of the image is an apple, rendered in warm, golden hues with subtle r",
+      "caption_chars": 577,
+      "latency_ms": 540.59,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-010",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield interpretation maps/Biofield Anatomy 3, Eileen Mckusick.jpg",
+      "success": true,
+      "caption_preview": "The image presents a comprehensive guide to the Biofield Anatomy Map, a holistic approach to understanding the human body's energy fields. The map is divided into two main sections: \"The Biofield Anat",
+      "caption_chars": 1023,
+      "latency_ms": 543.18,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-011",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Introducing The Biofield Viewer-page1.jpg",
+      "success": true,
+      "caption_preview": "The image presents a flyer for a workshop titled \"Journey into the Chakras and healing\" with Dr. Thornton Streeter, featuring a blue banner at the top with the title and a graphic of a person meditati",
+      "caption_chars": 956,
+      "latency_ms": 551.31,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-012",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield Viewer Future Eliya/25371043_10155189860807913_593137644_o.jpg",
+      "success": true,
+      "caption_preview": "The image presents a grayscale, blurry, and pixelated representation of a square shape, characterized by a dark center and a lighter border. The square is surrounded by a white background, which gradu",
+      "caption_chars": 958,
+      "latency_ms": 517.62,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-013",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield Viewer Future Eliya/25344752_10155188222172913_311737247_o.jpg",
+      "success": true,
+      "caption_preview": "The image presents a black and white graph with a jagged line, set against a white background. The graph's purpose is unclear, but it appears to be a visual representation of data. * A black and white",
+      "caption_chars": 1046,
+      "latency_ms": 529.07,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-014",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield Viewer Future Eliya/12440577_1774777246078915_5490769812823559389_o.jpg",
+      "success": true,
+      "caption_preview": "The image presents a digital artwork featuring a woman in a meditative pose, surrounded by vibrant colors and symbols. The artwork is divided into two main sections: the left side and the right side. ",
+      "caption_chars": 989,
+      "latency_ms": 520.68,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-015",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield Viewer Future Eliya/21390239_10154948169937913_1921212606_o.jpg",
+      "success": true,
+      "caption_preview": "The image is a blurry, green and white abstract design. The image is blurry, making it difficult to discern any specific details. The dominant colors are various shades of green, with some white areas",
+      "caption_chars": 468,
+      "latency_ms": 538.18,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-016",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield Viewer Future Eliya/21146922_10203820293785893_331657195_o.jpg",
+      "success": true,
+      "caption_preview": "The image presents a vibrant, multicolored sun-like object at its center, surrounded by a halo of green, yellow, orange, and blue hues. The object is encircled by a series of red lines that radiate ou",
+      "caption_chars": 991,
+      "latency_ms": 515.98,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-017",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield Viewer Future Eliya/25370994_10155189860867913_1238043252_o.jpg",
+      "success": true,
+      "caption_preview": "The image presents a grayscale, abstract composition featuring a series of blurred squares and rectangles. The dominant color palette consists of white, gray, and black, with varying shades of gray us",
+      "caption_chars": 970,
+      "latency_ms": 528.28,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-018",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield Viewer Future Eliya/25346344_10155188222837913_1298576434_o.jpg",
+      "success": true,
+      "caption_preview": "The image presents a pixelated, white and green graphic against a black background. The graphic is composed of various shapes, including rectangles, triangles, and lines, which are arranged in a seemi",
+      "caption_chars": 588,
+      "latency_ms": 533.28,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-019",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield interpretation maps/16864485_1255373824516892_929464754599263898_n.jpg",
+      "success": true,
+      "caption_preview": "The image presents a diagram of the human body, highlighting the locations of various chakras. The diagram is titled \"Ascension Chakras - Old & New\" and features a yellow border around the edges. **Ke",
+      "caption_chars": 965,
+      "latency_ms": 529.16,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-020",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield Viewer Future Eliya/20624399_10154871771292913_1933098926_n.jpg",
+      "success": true,
+      "caption_preview": "The image presents a vibrant, abstract composition featuring a central spiral shape surrounded by a kaleidoscope of colors and patterns. The spiral, rendered in black, is adorned with a gradient of pu",
+      "caption_chars": 605,
+      "latency_ms": 514.02,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-021",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield Viewer Future Eliya/25397982_10155191902547913_1051989663_o.jpg",
+      "success": true,
+      "caption_preview": "The image presents a pixelated, abstract design featuring a gradient of colors transitioning from light to dark. The dominant colors are shades of blue, gray, and white, with subtle hints of yellow an",
+      "caption_chars": 639,
+      "latency_ms": 525.86,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-022",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield interpretation maps/12033082_676938482406056_2173393825446135643_n.jpg",
+      "success": true,
+      "caption_preview": "The image presents a comprehensive guide to understanding the seven chakras, each associated with a specific color and symbol. The chakras are arranged in a vertical column, with the first chakra at t",
+      "caption_chars": 664,
+      "latency_ms": 530.72,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-023",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield interpretation maps/12963630_10153302478616841_2677942117444701816_n.jpg",
+      "success": true,
+      "caption_preview": "The image presents a comprehensive guide to understanding the connection between chakras and emotions, featuring a human body with seven distinct chakras. The title \"Transformation and the Chakras\" is",
+      "caption_chars": 960,
+      "latency_ms": 512.76,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-024",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield Viewer Future Eliya/21146939_10203820293745892_1849862203_o.jpg",
+      "success": true,
+      "caption_preview": "The image presents a collection of computer screens displaying various graphs and charts, likely related to bioenergetic analysis. The screens are arranged in a collage style, with some overlapping ot",
+      "caption_chars": 896,
+      "latency_ms": 546.43,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-025",
+      "bucket_type": "bio_field_charts",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Biofield Viewer Future Eliya/21268727_10154943498077913_1627040379_n.png",
+      "success": true,
+      "caption_preview": "The image presents a vibrant, abstract representation of a celestial body or energy field, characterized by a central spiral pattern surrounded by a halo of light and color. * **Central Spiral Pattern",
+      "caption_chars": 995,
+      "latency_ms": 551.27,
+      "status_code": 200,
+      "vector_dim": 2048
+    }
+  ]
+}

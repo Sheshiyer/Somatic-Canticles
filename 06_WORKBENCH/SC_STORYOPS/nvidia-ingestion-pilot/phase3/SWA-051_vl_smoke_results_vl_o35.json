@@ -1,0 +1,119 @@
+{
+  "vision_model": "meta/llama-3.2-11b-vision-instruct",
+  "embed_model": "nvidia/llama-nemotron-embed-vl-1b-v2",
+  "offset": 35,
+  "batch_size": 10,
+  "success_count": 9,
+  "fail_count": 1,
+  "vector_dim_set": [
+    2048
+  ],
+  "results": [
+    {
+      "node_id": "NODE-037",
+      "bucket_type": "interpretation_maps",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/Pasted image 20240520195322.png",
+      "success": true,
+      "caption_preview": "The image presents a detailed diagram of the human diaphragm, accompanied by a brief description of its function and historical context. The diagram is divided into two sections: a labeled illustratio",
+      "caption_chars": 905,
+      "latency_ms": 540.69,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-038",
+      "bucket_type": "interpretation_maps",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/Pasted image 20240305002325.png",
+      "success": true,
+      "caption_preview": "The image presents a comprehensive diagram illustrating the relationship between the Judgement of Agency (JOA) and the Feeling of Agency (FOA). The diagram is divided into two main sections: \"JOA - Ju",
+      "caption_chars": 932,
+      "latency_ms": 541.0,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-039",
+      "bucket_type": "interpretation_maps",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/Pasted image 20240906142538.png",
+      "success": true,
+      "caption_preview": "The image presents a microscopic view of a cell, accompanied by a text description on the left side. The cell is depicted in a circular shape, with a light gray background and a darker gray center. Th",
+      "caption_chars": 983,
+      "latency_ms": 531.08,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-040",
+      "bucket_type": "interpretation_maps",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Books\uf028/e2ca0c409c17538f41b5fd39fa497e2a--st-thomas-walter-obrien.jpg",
+      "success": true,
+      "caption_preview": "The image presents the title page of a book titled \"THE HUMAN ATMOSPHERE\" by Walter J. Kilner, B.A., M.B. Cantab., M.R.C.S., L.R.C.P., Late Resident at St. Thomas's Hospital, London. * **Title**: + Te",
+      "caption_chars": 659,
+      "latency_ms": 550.7,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-041",
+      "bucket_type": "interpretation_maps",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/Pasted image 20241208205024.png",
+      "success": true,
+      "caption_preview": "The image shows a screenshot of a video about astrology, with a whiteboard in the center featuring a chart and various words written on it. The chart is divided into sections, each with a different co",
+      "caption_chars": 941,
+      "latency_ms": 520.93,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-042",
+      "bucket_type": "interpretation_maps",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/Pasted image 20240612223045.png",
+      "success": true,
+      "caption_preview": "The image presents a detailed diagram of a dolphin's brain, accompanied by a descriptive text. The diagram is divided into two sections: the left side features a black background with white text, whil",
+      "caption_chars": 862,
+      "latency_ms": 522.12,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-043",
+      "bucket_type": "interpretation_maps",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/Pasted image 20240828002737.png",
+      "success": false,
+      "error": "TimeoutError: The read operation timed out"
+    },
+    {
+      "node_id": "NODE-044",
+      "bucket_type": "interpretation_maps",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/Screenshot 2024-09-19 031659.png",
+      "success": true,
+      "caption_preview": "The image presents a collection of scientific and medical information, featuring a mix of text, images, and diagrams. The content is organized into distinct sections, each with its own unique characte",
+      "caption_chars": 791,
+      "latency_ms": 515.64,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-045",
+      "bucket_type": "interpretation_maps",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/Pasted image 20240612224016.png",
+      "success": true,
+      "caption_preview": "The image presents a detailed diagram of the human brain and its cranial nerves, accompanied by a descriptive text. The diagram features a central illustration of the brain, with various cranial nerve",
+      "caption_chars": 1128,
+      "latency_ms": 518.14,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-046",
+      "bucket_type": "interpretation_maps",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/Pasted image 20240921172756.png",
+      "success": true,
+      "caption_preview": "The image presents a striking comparison between the sun's appearance in different lighting conditions, with the title \"White Sun\" and \"Black Sun\" displayed at the top of each section. The left side f",
+      "caption_chars": 890,
+      "latency_ms": 498.08,
+      "status_code": 200,
+      "vector_dim": 2048
+    }
+  ]
+}

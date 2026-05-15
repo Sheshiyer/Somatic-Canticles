@@ -1,0 +1,18 @@
+{
+  "vision_model": "meta/llama-3.2-11b-vision-instruct",
+  "embed_model": "nvidia/llama-nemotron-embed-vl-1b-v2",
+  "offset": 61,
+  "batch_size": 1,
+  "success_count": 0,
+  "fail_count": 1,
+  "vector_dim_set": [],
+  "results": [
+    {
+      "node_id": "NODE-063",
+      "bucket_type": "interpretation_maps",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/Pasted image 20240921171030.png",
+      "success": false,
+      "error": "image_empty_0_bytes"
+    }
+  ]
+}

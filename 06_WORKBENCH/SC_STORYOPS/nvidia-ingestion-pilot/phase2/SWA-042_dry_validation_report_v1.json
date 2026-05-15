@@ -1,0 +1,7 @@
+{
+  "input_manifest": "SWA-032_033_manifest_enriched_v1.csv",
+  "patched_manifest": "SWA-043_manifest_patched_v1.csv",
+  "pre_error_count": 200,
+  "post_error_count": 0,
+  "resolved_count": 200
+}

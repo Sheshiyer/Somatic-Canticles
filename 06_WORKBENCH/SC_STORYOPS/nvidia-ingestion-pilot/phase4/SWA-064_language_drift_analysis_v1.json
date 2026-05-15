@@ -1,0 +1,12 @@
+{
+  "language_distribution": {
+    "en": 100
+  },
+  "cross_language_evaluable": false,
+  "assessment": "No multilingual samples in pilot input; cross-language drift cannot be measured.",
+  "action_items": [
+    "Add at least 10 non-English query/document pairs before final model lock.",
+    "Populate query variants in pilot_query_eval_template.csv for multilingual checks.",
+    "Execute SWA-056/SWA-057 with language-tagged query packs."
+  ]
+}

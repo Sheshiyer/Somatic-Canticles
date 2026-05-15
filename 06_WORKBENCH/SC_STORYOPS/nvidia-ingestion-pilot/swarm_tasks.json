@@ -1,0 +1,1303 @@
+[
+  {
+    "id": "SWA-001",
+    "title": "Snapshot current setup state across docs and trackers",
+    "area": "product",
+    "owner_role": "StoryOps Planner",
+    "est_hours": 6,
+    "dependencies": [],
+    "deliverable": "Consolidated state snapshot markdown",
+    "acceptance": "Snapshot includes current models, manifests, and open gaps",
+    "validation": "State snapshot file exists and links resolve",
+    "phase": "Phase 0",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-002",
+    "title": "Capture NVIDIA model inventory checksum and timestamp",
+    "area": "data",
+    "owner_role": "Data Eng",
+    "est_hours": 4,
+    "dependencies": [
+      "SWA-001"
+    ],
+    "deliverable": "Model inventory metadata record",
+    "acceptance": "Inventory includes total/raw counts and fetch timestamp",
+    "validation": "Record matches latest inventory command output",
+    "phase": "Phase 0",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-003",
+    "title": "Record pilot artifact registry and paths",
+    "area": "product",
+    "owner_role": "StoryOps Planner",
+    "est_hours": 4,
+    "dependencies": [
+      "SWA-001"
+    ],
+    "deliverable": "Artifact registry table",
+    "acceptance": "Registry lists sample manifest, query template, strategy doc",
+    "validation": "Table entries open and file counts match",
+    "phase": "Phase 0",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-004",
+    "title": "Map canonical versus non-editorial boundaries",
+    "area": "product",
+    "owner_role": "StoryOps Planner",
+    "est_hours": 6,
+    "dependencies": [
+      "SWA-001"
+    ],
+    "deliverable": "Boundary policy page",
+    "acceptance": "Policy explicitly separates manuscript from worldbuilding network",
+    "validation": "Policy references existing canon constraints",
+    "phase": "Phase 0",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-005",
+    "title": "Define risk register for ingestion and embeddings",
+    "area": "qa",
+    "owner_role": "QA Eng",
+    "est_hours": 6,
+    "dependencies": [
+      "SWA-001",
+      "SWA-004"
+    ],
+    "deliverable": "Risk register with mitigations",
+    "acceptance": "Top risks include drift, provenance loss, multilingual mismatch",
+    "validation": "Risks have owners and mitigations",
+    "phase": "Phase 0",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-006",
+    "title": "Create dependency map across existing NEP lanes and pilot",
+    "area": "product",
+    "owner_role": "StoryOps Planner",
+    "est_hours": 8,
+    "dependencies": [
+      "SWA-001",
+      "SWA-003"
+    ],
+    "deliverable": "Dependency graph markdown",
+    "acceptance": "Graph shows ordering and parallelizable streams",
+    "validation": "Dependency graph reviewed against todo references",
+    "phase": "Phase 0",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-007",
+    "title": "Establish naming conventions for pilot outputs",
+    "area": "data",
+    "owner_role": "Data Eng",
+    "est_hours": 4,
+    "dependencies": [
+      "SWA-001"
+    ],
+    "deliverable": "Naming convention doc",
+    "acceptance": "Conventions cover node ids, query ids, batch ids",
+    "validation": "Two sample outputs follow naming convention",
+    "phase": "Phase 0",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-008",
+    "title": "Define review cadence and decision gates",
+    "area": "product",
+    "owner_role": "StoryOps Planner",
+    "est_hours": 4,
+    "dependencies": [
+      "SWA-005"
+    ],
+    "deliverable": "Cadence and gate schedule",
+    "acceptance": "Schedule defines weekly and wave-end reviews",
+    "validation": "Calendar checklist added to plan",
+    "phase": "Phase 0",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-009",
+    "title": "Pin baseline metrics for comparison",
+    "area": "qa",
+    "owner_role": "QA Eng",
+    "est_hours": 6,
+    "dependencies": [
+      "SWA-002",
+      "SWA-003"
+    ],
+    "deliverable": "Baseline metrics sheet",
+    "acceptance": "Sheet includes retrieval and quality baselines",
+    "validation": "Baseline values populated and signed off",
+    "phase": "Phase 0",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-010",
+    "title": "Publish kickoff summary for pilot program",
+    "area": "product",
+    "owner_role": "StoryOps Planner",
+    "est_hours": 4,
+    "dependencies": [
+      "SWA-001",
+      "SWA-006",
+      "SWA-009"
+    ],
+    "deliverable": "Kickoff summary note",
+    "acceptance": "Summary captures scope, constraints, and next wave",
+    "validation": "Summary file present and referenced by todo",
+    "phase": "Phase 0",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-011",
+    "title": "Freeze pilot objective and success metrics",
+    "area": "product",
+    "owner_role": "StoryOps Planner",
+    "est_hours": 6,
+    "dependencies": [
+      "SWA-010"
+    ],
+    "deliverable": "Freeze pilot objective and success metrics document and linked checklist",
+    "acceptance": "Document exists, is referenced, and has no TBD sections",
+    "validation": "File diff plus checklist cross-links validated",
+    "phase": "Phase 1",
+    "wave": "W1",
+    "swarm": "Swarm A"
+  },
+  {
+    "id": "SWA-012",
+    "title": "Freeze source admissibility rules for non-editorial data",
+    "area": "product",
+    "owner_role": "StoryOps Planner",
+    "est_hours": 8,
+    "dependencies": [
+      "SWA-010"
+    ],
+    "deliverable": "Freeze source admissibility rules for non-editorial data document and linked checklist",
+    "acceptance": "Document exists, is referenced, and has no TBD sections",
+    "validation": "File diff plus checklist cross-links validated",
+    "phase": "Phase 1",
+    "wave": "W1",
+    "swarm": "Swarm A"
+  },
+  {
+    "id": "SWA-013",
+    "title": "Freeze anti-drift and anti-editorial contamination checks",
+    "area": "qa",
+    "owner_role": "QA Eng",
+    "est_hours": 8,
+    "dependencies": [
+      "SWA-012"
+    ],
+    "deliverable": "Freeze anti-drift and anti-editorial contamination checks document and linked checklist",
+    "acceptance": "Document exists, is referenced, and has no TBD sections",
+    "validation": "File diff plus checklist cross-links validated",
+    "phase": "Phase 1",
+    "wave": "W1",
+    "swarm": "Swarm A"
+  },
+  {
+    "id": "SWA-014",
+    "title": "Freeze provenance field requirements",
+    "area": "data",
+    "owner_role": "Data Eng",
+    "est_hours": 6,
+    "dependencies": [
+      "SWA-012"
+    ],
+    "deliverable": "Freeze provenance field requirements document and linked checklist",
+    "acceptance": "Document exists, is referenced, and has no TBD sections",
+    "validation": "File diff plus checklist cross-links validated",
+    "phase": "Phase 1",
+    "wave": "W1",
+    "swarm": "Swarm A"
+  },
+  {
+    "id": "SWA-015",
+    "title": "Create swarm board structure in tasks tracker",
+    "area": "product",
+    "owner_role": "StoryOps Planner",
+    "est_hours": 6,
+    "dependencies": [
+      "SWA-010"
+    ],
+    "deliverable": "Create swarm board structure in tasks tracker document and linked checklist",
+    "acceptance": "Document exists, is referenced, and has no TBD sections",
+    "validation": "File diff plus checklist cross-links validated",
+    "phase": "Phase 1",
+    "wave": "W1",
+    "swarm": "Swarm B"
+  },
+  {
+    "id": "SWA-016",
+    "title": "Backfill completed setup milestones into swarm board",
+    "area": "product",
+    "owner_role": "StoryOps Planner",
+    "est_hours": 8,
+    "dependencies": [
+      "SWA-015"
+    ],
+    "deliverable": "Backfill completed setup milestones into swarm board document and linked checklist",
+    "acceptance": "Document exists, is referenced, and has no TBD sections",
+    "validation": "File diff plus checklist cross-links validated",
+    "phase": "Phase 1",
+    "wave": "W1",
+    "swarm": "Swarm B"
+  },
+  {
+    "id": "SWA-017",
+    "title": "Define status states and transition rules",
+    "area": "product",
+    "owner_role": "StoryOps Planner",
+    "est_hours": 4,
+    "dependencies": [
+      "SWA-015"
+    ],
+    "deliverable": "Define status states and transition rules document and linked checklist",
+    "acceptance": "Document exists, is referenced, and has no TBD sections",
+    "validation": "File diff plus checklist cross-links validated",
+    "phase": "Phase 1",
+    "wave": "W1",
+    "swarm": "Swarm B"
+  },
+  {
+    "id": "SWA-018",
+    "title": "Create weekly checkpoint template",
+    "area": "qa",
+    "owner_role": "QA Eng",
+    "est_hours": 4,
+    "dependencies": [
+      "SWA-017"
+    ],
+    "deliverable": "Create weekly checkpoint template document and linked checklist",
+    "acceptance": "Document exists, is referenced, and has no TBD sections",
+    "validation": "File diff plus checklist cross-links validated",
+    "phase": "Phase 1",
+    "wave": "W1",
+    "swarm": "Swarm B"
+  },
+  {
+    "id": "SWA-019",
+    "title": "Define node schema v1 for graph ingestion",
+    "area": "data",
+    "owner_role": "Data Eng",
+    "est_hours": 8,
+    "dependencies": [
+      "SWA-014"
+    ],
+    "deliverable": "Define node schema v1 for graph ingestion document and linked checklist",
+    "acceptance": "Document exists, is referenced, and has no TBD sections",
+    "validation": "File diff plus checklist cross-links validated",
+    "phase": "Phase 1",
+    "wave": "W2",
+    "swarm": "Swarm A"
+  },
+  {
+    "id": "SWA-020",
+    "title": "Define relation schema v1 for integration history edges",
+    "area": "data",
+    "owner_role": "Data Eng",
+    "est_hours": 8,
+    "dependencies": [
+      "SWA-019"
+    ],
+    "deliverable": "Define relation schema v1 for integration history edges document and linked checklist",
+    "acceptance": "Document exists, is referenced, and has no TBD sections",
+    "validation": "File diff plus checklist cross-links validated",
+    "phase": "Phase 1",
+    "wave": "W2",
+    "swarm": "Swarm A"
+  },
+  {
+    "id": "SWA-021",
+    "title": "Define language and locale metadata contract",
+    "area": "data",
+    "owner_role": "Data Eng",
+    "est_hours": 6,
+    "dependencies": [
+      "SWA-019"
+    ],
+    "deliverable": "Define language and locale metadata contract document and linked checklist",
+    "acceptance": "Document exists, is referenced, and has no TBD sections",
+    "validation": "File diff plus checklist cross-links validated",
+    "phase": "Phase 1",
+    "wave": "W2",
+    "swarm": "Swarm A"
+  },
+  {
+    "id": "SWA-022",
+    "title": "Define image-derived node contract",
+    "area": "data",
+    "owner_role": "Data Eng",
+    "est_hours": 6,
+    "dependencies": [
+      "SWA-019"
+    ],
+    "deliverable": "Define image-derived node contract document and linked checklist",
+    "acceptance": "Document exists, is referenced, and has no TBD sections",
+    "validation": "File diff plus checklist cross-links validated",
+    "phase": "Phase 1",
+    "wave": "W2",
+    "swarm": "Swarm A"
+  },
+  {
+    "id": "SWA-023",
+    "title": "Define retrieval evaluation rubric formal spec",
+    "area": "qa",
+    "owner_role": "QA Eng",
+    "est_hours": 8,
+    "dependencies": [
+      "SWA-013"
+    ],
+    "deliverable": "Define retrieval evaluation rubric formal spec document and linked checklist",
+    "acceptance": "Document exists, is referenced, and has no TBD sections",
+    "validation": "File diff plus checklist cross-links validated",
+    "phase": "Phase 1",
+    "wave": "W2",
+    "swarm": "Swarm B"
+  },
+  {
+    "id": "SWA-024",
+    "title": "Define hierarchy coherence scoring guide",
+    "area": "qa",
+    "owner_role": "QA Eng",
+    "est_hours": 6,
+    "dependencies": [
+      "SWA-023"
+    ],
+    "deliverable": "Define hierarchy coherence scoring guide document and linked checklist",
+    "acceptance": "Document exists, is referenced, and has no TBD sections",
+    "validation": "File diff plus checklist cross-links validated",
+    "phase": "Phase 1",
+    "wave": "W2",
+    "swarm": "Swarm B"
+  },
+  {
+    "id": "SWA-025",
+    "title": "Define provenance traceability scoring guide",
+    "area": "qa",
+    "owner_role": "QA Eng",
+    "est_hours": 6,
+    "dependencies": [
+      "SWA-023"
+    ],
+    "deliverable": "Define provenance traceability scoring guide document and linked checklist",
+    "acceptance": "Document exists, is referenced, and has no TBD sections",
+    "validation": "File diff plus checklist cross-links validated",
+    "phase": "Phase 1",
+    "wave": "W2",
+    "swarm": "Swarm B"
+  },
+  {
+    "id": "SWA-026",
+    "title": "Define cross-language match scoring guide",
+    "area": "qa",
+    "owner_role": "QA Eng",
+    "est_hours": 6,
+    "dependencies": [
+      "SWA-023"
+    ],
+    "deliverable": "Define cross-language match scoring guide document and linked checklist",
+    "acceptance": "Document exists, is referenced, and has no TBD sections",
+    "validation": "File diff plus checklist cross-links validated",
+    "phase": "Phase 1",
+    "wave": "W2",
+    "swarm": "Swarm B"
+  },
+  {
+    "id": "SWA-027",
+    "title": "Define batch processing runbook",
+    "area": "infra",
+    "owner_role": "DevOps Eng",
+    "est_hours": 8,
+    "dependencies": [
+      "SWA-021",
+      "SWA-022"
+    ],
+    "deliverable": "Define batch processing runbook document and linked checklist",
+    "acceptance": "Document exists, is referenced, and has no TBD sections",
+    "validation": "File diff plus checklist cross-links validated",
+    "phase": "Phase 1",
+    "wave": "W3",
+    "swarm": "Swarm A"
+  },
+  {
+    "id": "SWA-028",
+    "title": "Define failure handling and retry policy",
+    "area": "infra",
+    "owner_role": "DevOps Eng",
+    "est_hours": 8,
+    "dependencies": [
+      "SWA-027"
+    ],
+    "deliverable": "Define failure handling and retry policy document and linked checklist",
+    "acceptance": "Document exists, is referenced, and has no TBD sections",
+    "validation": "File diff plus checklist cross-links validated",
+    "phase": "Phase 1",
+    "wave": "W3",
+    "swarm": "Swarm A"
+  },
+  {
+    "id": "SWA-029",
+    "title": "Define artifact versioning policy",
+    "area": "infra",
+    "owner_role": "DevOps Eng",
+    "est_hours": 6,
+    "dependencies": [
+      "SWA-027"
+    ],
+    "deliverable": "Define artifact versioning policy document and linked checklist",
+    "acceptance": "Document exists, is referenced, and has no TBD sections",
+    "validation": "File diff plus checklist cross-links validated",
+    "phase": "Phase 1",
+    "wave": "W3",
+    "swarm": "Swarm A"
+  },
+  {
+    "id": "SWA-030",
+    "title": "Define acceptance gate checklist per wave",
+    "area": "qa",
+    "owner_role": "QA Eng",
+    "est_hours": 6,
+    "dependencies": [
+      "SWA-024",
+      "SWA-025",
+      "SWA-026"
+    ],
+    "deliverable": "Define acceptance gate checklist per wave document and linked checklist",
+    "acceptance": "Document exists, is referenced, and has no TBD sections",
+    "validation": "File diff plus checklist cross-links validated",
+    "phase": "Phase 1",
+    "wave": "W3",
+    "swarm": "Swarm A"
+  },
+  {
+    "id": "SWA-031",
+    "title": "Ingest and classify sample manifest into batch groups",
+    "area": "data",
+    "owner_role": "Data Eng",
+    "est_hours": 8,
+    "dependencies": [
+      "SWA-030"
+    ],
+    "deliverable": "Ingest and classify sample manifest into batch groups artifact",
+    "acceptance": "Output passes schema checks and checklist requirements",
+    "validation": "Validation script output and manual spot-check evidence",
+    "phase": "Phase 2",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-032",
+    "title": "Tag each sample node with source lineage metadata",
+    "area": "data",
+    "owner_role": "Data Eng",
+    "est_hours": 8,
+    "dependencies": [
+      "SWA-031"
+    ],
+    "deliverable": "Tag each sample node with source lineage metadata artifact",
+    "acceptance": "Output passes schema checks and checklist requirements",
+    "validation": "Validation script output and manual spot-check evidence",
+    "phase": "Phase 2",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-033",
+    "title": "Tag each sample node with modality and language hints",
+    "area": "data",
+    "owner_role": "Data Eng",
+    "est_hours": 6,
+    "dependencies": [
+      "SWA-031"
+    ],
+    "deliverable": "Tag each sample node with modality and language hints artifact",
+    "acceptance": "Output passes schema checks and checklist requirements",
+    "validation": "Validation script output and manual spot-check evidence",
+    "phase": "Phase 2",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-034",
+    "title": "Validate sample manifest paths and remove dead links",
+    "area": "qa",
+    "owner_role": "QA Eng",
+    "est_hours": 6,
+    "dependencies": [
+      "SWA-031"
+    ],
+    "deliverable": "Validate sample manifest paths and remove dead links artifact",
+    "acceptance": "Output passes schema checks and checklist requirements",
+    "validation": "Validation script output and manual spot-check evidence",
+    "phase": "Phase 2",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-035",
+    "title": "Normalize node text extraction for markdown and pdf sources",
+    "area": "backend",
+    "owner_role": "Backend Eng",
+    "est_hours": 10,
+    "dependencies": [
+      "SWA-032"
+    ],
+    "deliverable": "Normalize node text extraction for markdown and pdf sources artifact",
+    "acceptance": "Output passes schema checks and checklist requirements",
+    "validation": "Validation script output and manual spot-check evidence",
+    "phase": "Phase 2",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-036",
+    "title": "Normalize OCR extraction policy for image-heavy nodes",
+    "area": "backend",
+    "owner_role": "Backend Eng",
+    "est_hours": 10,
+    "dependencies": [
+      "SWA-033"
+    ],
+    "deliverable": "Normalize OCR extraction policy for image-heavy nodes artifact",
+    "acceptance": "Output passes schema checks and checklist requirements",
+    "validation": "Validation script output and manual spot-check evidence",
+    "phase": "Phase 2",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-037",
+    "title": "Create extraction quality flags schema",
+    "area": "data",
+    "owner_role": "Data Eng",
+    "est_hours": 6,
+    "dependencies": [
+      "SWA-035",
+      "SWA-036"
+    ],
+    "deliverable": "Create extraction quality flags schema artifact",
+    "acceptance": "Output passes schema checks and checklist requirements",
+    "validation": "Validation script output and manual spot-check evidence",
+    "phase": "Phase 2",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-038",
+    "title": "Create canonical node-id mapping ledger",
+    "area": "data",
+    "owner_role": "Data Eng",
+    "est_hours": 8,
+    "dependencies": [
+      "SWA-032",
+      "SWA-033"
+    ],
+    "deliverable": "Create canonical node-id mapping ledger artifact",
+    "acceptance": "Output passes schema checks and checklist requirements",
+    "validation": "Validation script output and manual spot-check evidence",
+    "phase": "Phase 2",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-039",
+    "title": "Generate expected-neighbor seed sets for first 40 nodes",
+    "area": "product",
+    "owner_role": "StoryOps Planner",
+    "est_hours": 10,
+    "dependencies": [
+      "SWA-038"
+    ],
+    "deliverable": "Generate expected-neighbor seed sets for first 40 nodes artifact",
+    "acceptance": "Output passes schema checks and checklist requirements",
+    "validation": "Validation script output and manual spot-check evidence",
+    "phase": "Phase 2",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-040",
+    "title": "Generate expected-parent seed sets for first 40 nodes",
+    "area": "product",
+    "owner_role": "StoryOps Planner",
+    "est_hours": 8,
+    "dependencies": [
+      "SWA-038"
+    ],
+    "deliverable": "Generate expected-parent seed sets for first 40 nodes artifact",
+    "acceptance": "Output passes schema checks and checklist requirements",
+    "validation": "Validation script output and manual spot-check evidence",
+    "phase": "Phase 2",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-041",
+    "title": "Define unresolved-node triage queue",
+    "area": "qa",
+    "owner_role": "QA Eng",
+    "est_hours": 6,
+    "dependencies": [
+      "SWA-039",
+      "SWA-040"
+    ],
+    "deliverable": "Define unresolved-node triage queue artifact",
+    "acceptance": "Output passes schema checks and checklist requirements",
+    "validation": "Validation script output and manual spot-check evidence",
+    "phase": "Phase 2",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-042",
+    "title": "Run dry validation of manifests against schema contracts",
+    "area": "qa",
+    "owner_role": "QA Eng",
+    "est_hours": 8,
+    "dependencies": [
+      "SWA-034",
+      "SWA-037",
+      "SWA-038"
+    ],
+    "deliverable": "Run dry validation of manifests against schema contracts artifact",
+    "acceptance": "Output passes schema checks and checklist requirements",
+    "validation": "Validation script output and manual spot-check evidence",
+    "phase": "Phase 2",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-043",
+    "title": "Patch manifest inconsistencies found in dry run",
+    "area": "data",
+    "owner_role": "Data Eng",
+    "est_hours": 8,
+    "dependencies": [
+      "SWA-042"
+    ],
+    "deliverable": "Patch manifest inconsistencies found in dry run artifact",
+    "acceptance": "Output passes schema checks and checklist requirements",
+    "validation": "Validation script output and manual spot-check evidence",
+    "phase": "Phase 2",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-044",
+    "title": "Publish data readiness checkpoint report",
+    "area": "product",
+    "owner_role": "StoryOps Planner",
+    "est_hours": 6,
+    "dependencies": [
+      "SWA-043"
+    ],
+    "deliverable": "Publish data readiness checkpoint report artifact",
+    "acceptance": "Output passes schema checks and checklist requirements",
+    "validation": "Validation script output and manual spot-check evidence",
+    "phase": "Phase 2",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-045",
+    "title": "Approve transition to embedding experimentation",
+    "area": "product",
+    "owner_role": "StoryOps Planner",
+    "est_hours": 4,
+    "dependencies": [
+      "SWA-044"
+    ],
+    "deliverable": "Approve transition to embedding experimentation artifact",
+    "acceptance": "Output passes schema checks and checklist requirements",
+    "validation": "Validation script output and manual spot-check evidence",
+    "phase": "Phase 2",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-046",
+    "title": "Prepare embedding input sets for bge-m3 lane",
+    "area": "data",
+    "owner_role": "Data Eng",
+    "est_hours": 8,
+    "dependencies": [
+      "SWA-045"
+    ],
+    "deliverable": "Prepare embedding input sets for bge-m3 lane output package",
+    "acceptance": "Outputs generated for full pilot set without silent failures",
+    "validation": "Run logs, metrics files, and artifact checksums",
+    "phase": "Phase 3",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-047",
+    "title": "Prepare embedding input sets for nv-embed-v1 lane",
+    "area": "data",
+    "owner_role": "Data Eng",
+    "est_hours": 8,
+    "dependencies": [
+      "SWA-045"
+    ],
+    "deliverable": "Prepare embedding input sets for nv-embed-v1 lane output package",
+    "acceptance": "Outputs generated for full pilot set without silent failures",
+    "validation": "Run logs, metrics files, and artifact checksums",
+    "phase": "Phase 3",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-048",
+    "title": "Prepare vision embedding input sets for VL lane",
+    "area": "data",
+    "owner_role": "Data Eng",
+    "est_hours": 8,
+    "dependencies": [
+      "SWA-045"
+    ],
+    "deliverable": "Prepare vision embedding input sets for VL lane output package",
+    "acceptance": "Outputs generated for full pilot set without silent failures",
+    "validation": "Run logs, metrics files, and artifact checksums",
+    "phase": "Phase 3",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-049",
+    "title": "Run text embeddings with bge-m3 over pilot corpus",
+    "area": "backend",
+    "owner_role": "Backend Eng",
+    "est_hours": 10,
+    "dependencies": [
+      "SWA-046"
+    ],
+    "deliverable": "Run text embeddings with bge-m3 over pilot corpus output package",
+    "acceptance": "Outputs generated for full pilot set without silent failures",
+    "validation": "Run logs, metrics files, and artifact checksums",
+    "phase": "Phase 3",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-050",
+    "title": "Run text embeddings with nv-embed-v1 over pilot corpus",
+    "area": "backend",
+    "owner_role": "Backend Eng",
+    "est_hours": 10,
+    "dependencies": [
+      "SWA-047"
+    ],
+    "deliverable": "Run text embeddings with nv-embed-v1 over pilot corpus output package",
+    "acceptance": "Outputs generated for full pilot set without silent failures",
+    "validation": "Run logs, metrics files, and artifact checksums",
+    "phase": "Phase 3",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-051",
+    "title": "Run vision embeddings for image-derived nodes",
+    "area": "backend",
+    "owner_role": "Backend Eng",
+    "est_hours": 10,
+    "dependencies": [
+      "SWA-048"
+    ],
+    "deliverable": "Run vision embeddings for image-derived nodes output package",
+    "acceptance": "Outputs generated for full pilot set without silent failures",
+    "validation": "Run logs, metrics files, and artifact checksums",
+    "phase": "Phase 3",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-052",
+    "title": "Build retrieval index for model A outputs",
+    "area": "infra",
+    "owner_role": "DevOps Eng",
+    "est_hours": 8,
+    "dependencies": [
+      "SWA-049"
+    ],
+    "deliverable": "Build retrieval index for model A outputs output package",
+    "acceptance": "Outputs generated for full pilot set without silent failures",
+    "validation": "Run logs, metrics files, and artifact checksums",
+    "phase": "Phase 3",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-053",
+    "title": "Build retrieval index for model B outputs",
+    "area": "infra",
+    "owner_role": "DevOps Eng",
+    "est_hours": 8,
+    "dependencies": [
+      "SWA-050"
+    ],
+    "deliverable": "Build retrieval index for model B outputs output package",
+    "acceptance": "Outputs generated for full pilot set without silent failures",
+    "validation": "Run logs, metrics files, and artifact checksums",
+    "phase": "Phase 3",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-054",
+    "title": "Build multimodal index for VL outputs",
+    "area": "infra",
+    "owner_role": "DevOps Eng",
+    "est_hours": 8,
+    "dependencies": [
+      "SWA-051"
+    ],
+    "deliverable": "Build multimodal index for VL outputs output package",
+    "acceptance": "Outputs generated for full pilot set without silent failures",
+    "validation": "Run logs, metrics files, and artifact checksums",
+    "phase": "Phase 3",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-055",
+    "title": "Execute query set against model A index",
+    "area": "qa",
+    "owner_role": "QA Eng",
+    "est_hours": 8,
+    "dependencies": [
+      "SWA-052"
+    ],
+    "deliverable": "Execute query set against model A index output package",
+    "acceptance": "Outputs generated for full pilot set without silent failures",
+    "validation": "Run logs, metrics files, and artifact checksums",
+    "phase": "Phase 3",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-056",
+    "title": "Execute query set against model B index",
+    "area": "qa",
+    "owner_role": "QA Eng",
+    "est_hours": 8,
+    "dependencies": [
+      "SWA-053"
+    ],
+    "deliverable": "Execute query set against model B index output package",
+    "acceptance": "Outputs generated for full pilot set without silent failures",
+    "validation": "Run logs, metrics files, and artifact checksums",
+    "phase": "Phase 3",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-057",
+    "title": "Execute query set against multimodal index",
+    "area": "qa",
+    "owner_role": "QA Eng",
+    "est_hours": 8,
+    "dependencies": [
+      "SWA-054"
+    ],
+    "deliverable": "Execute query set against multimodal index output package",
+    "acceptance": "Outputs generated for full pilot set without silent failures",
+    "validation": "Run logs, metrics files, and artifact checksums",
+    "phase": "Phase 3",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-058",
+    "title": "Collect per-query recall and match metrics",
+    "area": "qa",
+    "owner_role": "QA Eng",
+    "est_hours": 8,
+    "dependencies": [
+      "SWA-055",
+      "SWA-056"
+    ],
+    "deliverable": "Collect per-query recall and match metrics output package",
+    "acceptance": "Outputs generated for full pilot set without silent failures",
+    "validation": "Run logs, metrics files, and artifact checksums",
+    "phase": "Phase 3",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-059",
+    "title": "Collect hierarchy coherence metrics",
+    "area": "qa",
+    "owner_role": "QA Eng",
+    "est_hours": 8,
+    "dependencies": [
+      "SWA-055",
+      "SWA-056",
+      "SWA-057"
+    ],
+    "deliverable": "Collect hierarchy coherence metrics output package",
+    "acceptance": "Outputs generated for full pilot set without silent failures",
+    "validation": "Run logs, metrics files, and artifact checksums",
+    "phase": "Phase 3",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-060",
+    "title": "Publish experimentation checkpoint package",
+    "area": "product",
+    "owner_role": "StoryOps Planner",
+    "est_hours": 6,
+    "dependencies": [
+      "SWA-058",
+      "SWA-059"
+    ],
+    "deliverable": "Publish experimentation checkpoint package output package",
+    "acceptance": "Outputs generated for full pilot set without silent failures",
+    "validation": "Run logs, metrics files, and artifact checksums",
+    "phase": "Phase 3",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-061",
+    "title": "Compute weighted scores for model A and B",
+    "area": "data",
+    "owner_role": "Data Eng",
+    "est_hours": 8,
+    "dependencies": [
+      "SWA-060"
+    ],
+    "deliverable": "Compute weighted scores for model A and B artifact",
+    "acceptance": "Decision artifacts signed with explicit rationale and evidence",
+    "validation": "Decision memo, audit logs, and score sheets committed",
+    "phase": "Phase 4",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-062",
+    "title": "Compute modality-specific performance summary",
+    "area": "data",
+    "owner_role": "Data Eng",
+    "est_hours": 8,
+    "dependencies": [
+      "SWA-060"
+    ],
+    "deliverable": "Compute modality-specific performance summary artifact",
+    "acceptance": "Decision artifacts signed with explicit rationale and evidence",
+    "validation": "Decision memo, audit logs, and score sheets committed",
+    "phase": "Phase 4",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-063",
+    "title": "Run error analysis on failed retrieval queries",
+    "area": "qa",
+    "owner_role": "QA Eng",
+    "est_hours": 8,
+    "dependencies": [
+      "SWA-061"
+    ],
+    "deliverable": "Run error analysis on failed retrieval queries artifact",
+    "acceptance": "Decision artifacts signed with explicit rationale and evidence",
+    "validation": "Decision memo, audit logs, and score sheets committed",
+    "phase": "Phase 4",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-064",
+    "title": "Run language drift analysis on multilingual samples",
+    "area": "qa",
+    "owner_role": "QA Eng",
+    "est_hours": 8,
+    "dependencies": [
+      "SWA-061"
+    ],
+    "deliverable": "Run language drift analysis on multilingual samples artifact",
+    "acceptance": "Decision artifacts signed with explicit rationale and evidence",
+    "validation": "Decision memo, audit logs, and score sheets committed",
+    "phase": "Phase 4",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-065",
+    "title": "Run provenance fidelity audit on top-ranked nodes",
+    "area": "qa",
+    "owner_role": "QA Eng",
+    "est_hours": 8,
+    "dependencies": [
+      "SWA-062"
+    ],
+    "deliverable": "Run provenance fidelity audit on top-ranked nodes artifact",
+    "acceptance": "Decision artifacts signed with explicit rationale and evidence",
+    "validation": "Decision memo, audit logs, and score sheets committed",
+    "phase": "Phase 4",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-066",
+    "title": "Run hierarchy neighborhood sanity audit",
+    "area": "qa",
+    "owner_role": "QA Eng",
+    "est_hours": 8,
+    "dependencies": [
+      "SWA-062"
+    ],
+    "deliverable": "Run hierarchy neighborhood sanity audit artifact",
+    "acceptance": "Decision artifacts signed with explicit rationale and evidence",
+    "validation": "Decision memo, audit logs, and score sheets committed",
+    "phase": "Phase 4",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-067",
+    "title": "Draft model selection decision memo",
+    "area": "product",
+    "owner_role": "StoryOps Planner",
+    "est_hours": 8,
+    "dependencies": [
+      "SWA-061",
+      "SWA-063",
+      "SWA-064",
+      "SWA-065",
+      "SWA-066"
+    ],
+    "deliverable": "Draft model selection decision memo artifact",
+    "acceptance": "Decision artifacts signed with explicit rationale and evidence",
+    "validation": "Decision memo, audit logs, and score sheets committed",
+    "phase": "Phase 4",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-068",
+    "title": "Review decision against threshold rule and constraints",
+    "area": "product",
+    "owner_role": "StoryOps Planner",
+    "est_hours": 6,
+    "dependencies": [
+      "SWA-067"
+    ],
+    "deliverable": "Review decision against threshold rule and constraints artifact",
+    "acceptance": "Decision artifacts signed with explicit rationale and evidence",
+    "validation": "Decision memo, audit logs, and score sheets committed",
+    "phase": "Phase 4",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-069",
+    "title": "Define hardening backlog for chosen model stack",
+    "area": "product",
+    "owner_role": "StoryOps Planner",
+    "est_hours": 8,
+    "dependencies": [
+      "SWA-068"
+    ],
+    "deliverable": "Define hardening backlog for chosen model stack artifact",
+    "acceptance": "Decision artifacts signed with explicit rationale and evidence",
+    "validation": "Decision memo, audit logs, and score sheets committed",
+    "phase": "Phase 4",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-070",
+    "title": "Define rollback criteria if post-pilot quality drops",
+    "area": "qa",
+    "owner_role": "QA Eng",
+    "est_hours": 6,
+    "dependencies": [
+      "SWA-069"
+    ],
+    "deliverable": "Define rollback criteria if post-pilot quality drops artifact",
+    "acceptance": "Decision artifacts signed with explicit rationale and evidence",
+    "validation": "Decision memo, audit logs, and score sheets committed",
+    "phase": "Phase 4",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-071",
+    "title": "Publish hardening wave scope and owners",
+    "area": "product",
+    "owner_role": "StoryOps Planner",
+    "est_hours": 6,
+    "dependencies": [
+      "SWA-070"
+    ],
+    "deliverable": "Publish hardening wave scope and owners artifact",
+    "acceptance": "Decision artifacts signed with explicit rationale and evidence",
+    "validation": "Decision memo, audit logs, and score sheets committed",
+    "phase": "Phase 4",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-072",
+    "title": "Approve transition to integration execution",
+    "area": "product",
+    "owner_role": "StoryOps Planner",
+    "est_hours": 4,
+    "dependencies": [
+      "SWA-071"
+    ],
+    "deliverable": "Approve transition to integration execution artifact",
+    "acceptance": "Decision artifacts signed with explicit rationale and evidence",
+    "validation": "Decision memo, audit logs, and score sheets committed",
+    "phase": "Phase 4",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-073",
+    "title": "Create integration epic map for graph deployment",
+    "area": "product",
+    "owner_role": "StoryOps Planner",
+    "est_hours": 8,
+    "dependencies": [
+      "SWA-072"
+    ],
+    "deliverable": "Create integration epic map for graph deployment package",
+    "acceptance": "Operationalization artifacts are actionable and assigned",
+    "validation": "Checklist evidence and ownership matrix reviewed",
+    "phase": "Phase 5",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-074",
+    "title": "Translate pilot tasks into implementation-ready issues",
+    "area": "product",
+    "owner_role": "StoryOps Planner",
+    "est_hours": 10,
+    "dependencies": [
+      "SWA-073"
+    ],
+    "deliverable": "Translate pilot tasks into implementation-ready issues package",
+    "acceptance": "Operationalization artifacts are actionable and assigned",
+    "validation": "Checklist evidence and ownership matrix reviewed",
+    "phase": "Phase 5",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-075",
+    "title": "Define CI checks for embedding pipeline regressions",
+    "area": "infra",
+    "owner_role": "DevOps Eng",
+    "est_hours": 8,
+    "dependencies": [
+      "SWA-074"
+    ],
+    "deliverable": "Define CI checks for embedding pipeline regressions package",
+    "acceptance": "Operationalization artifacts are actionable and assigned",
+    "validation": "Checklist evidence and ownership matrix reviewed",
+    "phase": "Phase 5",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-076",
+    "title": "Define monitoring metrics for retrieval quality drift",
+    "area": "infra",
+    "owner_role": "DevOps Eng",
+    "est_hours": 8,
+    "dependencies": [
+      "SWA-074"
+    ],
+    "deliverable": "Define monitoring metrics for retrieval quality drift package",
+    "acceptance": "Operationalization artifacts are actionable and assigned",
+    "validation": "Checklist evidence and ownership matrix reviewed",
+    "phase": "Phase 5",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-077",
+    "title": "Define incident playbook for ingestion failures",
+    "area": "qa",
+    "owner_role": "QA Eng",
+    "est_hours": 6,
+    "dependencies": [
+      "SWA-075"
+    ],
+    "deliverable": "Define incident playbook for ingestion failures package",
+    "acceptance": "Operationalization artifacts are actionable and assigned",
+    "validation": "Checklist evidence and ownership matrix reviewed",
+    "phase": "Phase 5",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-078",
+    "title": "Define release checklist for non-editorial network launch",
+    "area": "qa",
+    "owner_role": "QA Eng",
+    "est_hours": 8,
+    "dependencies": [
+      "SWA-075",
+      "SWA-076",
+      "SWA-077"
+    ],
+    "deliverable": "Define release checklist for non-editorial network launch package",
+    "acceptance": "Operationalization artifacts are actionable and assigned",
+    "validation": "Checklist evidence and ownership matrix reviewed",
+    "phase": "Phase 5",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-079",
+    "title": "Publish v1 operational roadmap and milestone dates",
+    "area": "product",
+    "owner_role": "StoryOps Planner",
+    "est_hours": 6,
+    "dependencies": [
+      "SWA-078"
+    ],
+    "deliverable": "Publish v1 operational roadmap and milestone dates package",
+    "acceptance": "Operationalization artifacts are actionable and assigned",
+    "validation": "Checklist evidence and ownership matrix reviewed",
+    "phase": "Phase 5",
+    "wave": null,
+    "swarm": null
+  },
+  {
+    "id": "SWA-080",
+    "title": "Close planning cycle with lessons and next action board",
+    "area": "product",
+    "owner_role": "StoryOps Planner",
+    "est_hours": 6,
+    "dependencies": [
+      "SWA-079"
+    ],
+    "deliverable": "Close planning cycle with lessons and next action board package",
+    "acceptance": "Operationalization artifacts are actionable and assigned",
+    "validation": "Checklist evidence and ownership matrix reviewed",
+    "phase": "Phase 5",
+    "wave": null,
+    "swarm": null
+  }
+]

@@ -1,0 +1,57 @@
+{
+  "vision_model": "meta/llama-3.2-11b-vision-instruct",
+  "embed_model": "nvidia/llama-nemotron-embed-vl-1b-v2",
+  "offset": 65,
+  "batch_size": 4,
+  "success_count": 4,
+  "fail_count": 0,
+  "vector_dim_set": [
+    2048
+  ],
+  "results": [
+    {
+      "node_id": "NODE-067",
+      "bucket_type": "interpretation_maps",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/Pasted image 20241208204741.png",
+      "success": true,
+      "caption_preview": "The image is a collage of various images, including a man's face, a map of the United States, and several illustrations of women in ancient Greek-style clothing. * The man's face is shown in the top-r",
+      "caption_chars": 971,
+      "latency_ms": 534.49,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-068",
+      "bucket_type": "interpretation_maps",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/ORIENTATION/Smoking and rolling/Wampanoag2.jpg",
+      "success": true,
+      "caption_preview": "The image depicts a scene of a group of people gathered in a room, with one individual seated on the floor and another standing nearby. The room is filled with various objects, including a clock, a ch",
+      "caption_chars": 1004,
+      "latency_ms": 522.74,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-069",
+      "bucket_type": "interpretation_maps",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/Pasted image 20240320133637.png",
+      "success": true,
+      "caption_preview": "The image presents a diagram illustrating the concept of homeostasis, which is the body's ability to maintain a stable internal environment despite changes in external conditions. The diagram features",
+      "caption_chars": 1084,
+      "latency_ms": 532.03,
+      "status_code": 200,
+      "vector_dim": 2048
+    },
+    {
+      "node_id": "NODE-070",
+      "bucket_type": "interpretation_maps",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/Screenshot 2024-10-23 133154.png",
+      "success": true,
+      "caption_preview": "The image presents a comprehensive overview of the human brain, focusing on the pineal gland and its relationship to the third ventricle. The top section features white text that reads: \"Pineal is pie",
+      "caption_chars": 1066,
+      "latency_ms": 537.34,
+      "status_code": 200,
+      "vector_dim": 2048
+    }
+  ]
+}

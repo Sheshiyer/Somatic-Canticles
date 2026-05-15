@@ -1,0 +1,24 @@
+{
+  "vision_model": "meta/llama-3.2-11b-vision-instruct",
+  "embed_model": "nvidia/llama-nemotron-embed-vl-1b-v2",
+  "offset": 62,
+  "batch_size": 1,
+  "success_count": 1,
+  "fail_count": 0,
+  "vector_dim_set": [
+    2048
+  ],
+  "results": [
+    {
+      "node_id": "NODE-064",
+      "bucket_type": "interpretation_maps",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/10-14-24-165634.png",
+      "success": true,
+      "caption_preview": "The image presents a detailed diagram of a cell, accompanied by labels and descriptions that provide insight into its various components and functions. The diagram is set against a white background, w",
+      "caption_chars": 1021,
+      "latency_ms": 545.38,
+      "status_code": 200,
+      "vector_dim": 2048
+    }
+  ]
+}

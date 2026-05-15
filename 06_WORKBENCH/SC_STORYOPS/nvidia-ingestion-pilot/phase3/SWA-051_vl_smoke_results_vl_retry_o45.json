@@ -1,0 +1,24 @@
+{
+  "vision_model": "meta/llama-3.2-11b-vision-instruct",
+  "embed_model": "nvidia/llama-nemotron-embed-vl-1b-v2",
+  "offset": 45,
+  "batch_size": 1,
+  "success_count": 1,
+  "fail_count": 0,
+  "vector_dim_set": [
+    2048
+  ],
+  "results": [
+    {
+      "node_id": "NODE-047",
+      "bucket_type": "interpretation_maps",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/Pasted image 20240316220701.png",
+      "success": true,
+      "caption_preview": "The image presents a list of nine topics related to reptiles, titled \"Talking to Reptiles\" in large black text at the top. The list is organized in a numbered format, with each topic written in smalle",
+      "caption_chars": 782,
+      "latency_ms": 517.64,
+      "status_code": 200,
+      "vector_dim": 2048
+    }
+  ]
+}

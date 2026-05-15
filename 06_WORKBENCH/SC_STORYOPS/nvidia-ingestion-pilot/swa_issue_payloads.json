@@ -1,0 +1,802 @@
+[
+  {
+    "id": "SWA-001",
+    "title": "SWA-001: Snapshot current setup state across docs and trackers",
+    "labels": [
+      "phase-0",
+      "area-product",
+      "swa"
+    ],
+    "body": "## Task\nSnapshot current setup state across docs and trackers\n\n## Metadata\n- Task ID: SWA-001\n- Phase: Phase 0\n- Wave: -\n- Swarm: -\n- Area: product\n- Owner Role: StoryOps Planner\n- Estimate (hours): 6\n\n## Dependencies\n- None\n\n## Deliverable\nConsolidated state snapshot markdown\n\n## Acceptance\nSnapshot includes current models, manifests, and open gaps\n\n## Validation\nState snapshot file exists and links resolve\n"
+  },
+  {
+    "id": "SWA-002",
+    "title": "SWA-002: Capture NVIDIA model inventory checksum and timestamp",
+    "labels": [
+      "phase-0",
+      "area-data",
+      "swa"
+    ],
+    "body": "## Task\nCapture NVIDIA model inventory checksum and timestamp\n\n## Metadata\n- Task ID: SWA-002\n- Phase: Phase 0\n- Wave: -\n- Swarm: -\n- Area: data\n- Owner Role: Data Eng\n- Estimate (hours): 4\n\n## Dependencies\n- SWA-001\n\n## Deliverable\nModel inventory metadata record\n\n## Acceptance\nInventory includes total/raw counts and fetch timestamp\n\n## Validation\nRecord matches latest inventory command output\n"
+  },
+  {
+    "id": "SWA-003",
+    "title": "SWA-003: Record pilot artifact registry and paths",
+    "labels": [
+      "phase-0",
+      "area-product",
+      "swa"
+    ],
+    "body": "## Task\nRecord pilot artifact registry and paths\n\n## Metadata\n- Task ID: SWA-003\n- Phase: Phase 0\n- Wave: -\n- Swarm: -\n- Area: product\n- Owner Role: StoryOps Planner\n- Estimate (hours): 4\n\n## Dependencies\n- SWA-001\n\n## Deliverable\nArtifact registry table\n\n## Acceptance\nRegistry lists sample manifest, query template, strategy doc\n\n## Validation\nTable entries open and file counts match\n"
+  },
+  {
+    "id": "SWA-004",
+    "title": "SWA-004: Map canonical versus non-editorial boundaries",
+    "labels": [
+      "phase-0",
+      "area-product",
+      "swa"
+    ],
+    "body": "## Task\nMap canonical versus non-editorial boundaries\n\n## Metadata\n- Task ID: SWA-004\n- Phase: Phase 0\n- Wave: -\n- Swarm: -\n- Area: product\n- Owner Role: StoryOps Planner\n- Estimate (hours): 6\n\n## Dependencies\n- SWA-001\n\n## Deliverable\nBoundary policy page\n\n## Acceptance\nPolicy explicitly separates manuscript from worldbuilding network\n\n## Validation\nPolicy references existing canon constraints\n"
+  },
+  {
+    "id": "SWA-005",
+    "title": "SWA-005: Define risk register for ingestion and embeddings",
+    "labels": [
+      "phase-0",
+      "area-qa",
+      "swa"
+    ],
+    "body": "## Task\nDefine risk register for ingestion and embeddings\n\n## Metadata\n- Task ID: SWA-005\n- Phase: Phase 0\n- Wave: -\n- Swarm: -\n- Area: qa\n- Owner Role: QA Eng\n- Estimate (hours): 6\n\n## Dependencies\n- SWA-001\n- SWA-004\n\n## Deliverable\nRisk register with mitigations\n\n## Acceptance\nTop risks include drift, provenance loss, multilingual mismatch\n\n## Validation\nRisks have owners and mitigations\n"
+  },
+  {
+    "id": "SWA-006",
+    "title": "SWA-006: Create dependency map across existing NEP lanes and pilot",
+    "labels": [
+      "phase-0",
+      "area-product",
+      "swa"
+    ],
+    "body": "## Task\nCreate dependency map across existing NEP lanes and pilot\n\n## Metadata\n- Task ID: SWA-006\n- Phase: Phase 0\n- Wave: -\n- Swarm: -\n- Area: product\n- Owner Role: StoryOps Planner\n- Estimate (hours): 8\n\n## Dependencies\n- SWA-001\n- SWA-003\n\n## Deliverable\nDependency graph markdown\n\n## Acceptance\nGraph shows ordering and parallelizable streams\n\n## Validation\nDependency graph reviewed against todo references\n"
+  },
+  {
+    "id": "SWA-007",
+    "title": "SWA-007: Establish naming conventions for pilot outputs",
+    "labels": [
+      "phase-0",
+      "area-data",
+      "swa"
+    ],
+    "body": "## Task\nEstablish naming conventions for pilot outputs\n\n## Metadata\n- Task ID: SWA-007\n- Phase: Phase 0\n- Wave: -\n- Swarm: -\n- Area: data\n- Owner Role: Data Eng\n- Estimate (hours): 4\n\n## Dependencies\n- SWA-001\n\n## Deliverable\nNaming convention doc\n\n## Acceptance\nConventions cover node ids, query ids, batch ids\n\n## Validation\nTwo sample outputs follow naming convention\n"
+  },
+  {
+    "id": "SWA-008",
+    "title": "SWA-008: Define review cadence and decision gates",
+    "labels": [
+      "phase-0",
+      "area-product",
+      "swa"
+    ],
+    "body": "## Task\nDefine review cadence and decision gates\n\n## Metadata\n- Task ID: SWA-008\n- Phase: Phase 0\n- Wave: -\n- Swarm: -\n- Area: product\n- Owner Role: StoryOps Planner\n- Estimate (hours): 4\n\n## Dependencies\n- SWA-005\n\n## Deliverable\nCadence and gate schedule\n\n## Acceptance\nSchedule defines weekly and wave-end reviews\n\n## Validation\nCalendar checklist added to plan\n"
+  },
+  {
+    "id": "SWA-009",
+    "title": "SWA-009: Pin baseline metrics for comparison",
+    "labels": [
+      "phase-0",
+      "area-qa",
+      "swa"
+    ],
+    "body": "## Task\nPin baseline metrics for comparison\n\n## Metadata\n- Task ID: SWA-009\n- Phase: Phase 0\n- Wave: -\n- Swarm: -\n- Area: qa\n- Owner Role: QA Eng\n- Estimate (hours): 6\n\n## Dependencies\n- SWA-002\n- SWA-003\n\n## Deliverable\nBaseline metrics sheet\n\n## Acceptance\nSheet includes retrieval and quality baselines\n\n## Validation\nBaseline values populated and signed off\n"
+  },
+  {
+    "id": "SWA-010",
+    "title": "SWA-010: Publish kickoff summary for pilot program",
+    "labels": [
+      "phase-0",
+      "area-product",
+      "swa"
+    ],
+    "body": "## Task\nPublish kickoff summary for pilot program\n\n## Metadata\n- Task ID: SWA-010\n- Phase: Phase 0\n- Wave: -\n- Swarm: -\n- Area: product\n- Owner Role: StoryOps Planner\n- Estimate (hours): 4\n\n## Dependencies\n- SWA-001\n- SWA-006\n- SWA-009\n\n## Deliverable\nKickoff summary note\n\n## Acceptance\nSummary captures scope, constraints, and next wave\n\n## Validation\nSummary file present and referenced by todo\n"
+  },
+  {
+    "id": "SWA-011",
+    "title": "SWA-011: Freeze pilot objective and success metrics",
+    "labels": [
+      "phase-1",
+      "area-product",
+      "swa"
+    ],
+    "body": "## Task\nFreeze pilot objective and success metrics\n\n## Metadata\n- Task ID: SWA-011\n- Phase: Phase 1\n- Wave: W1\n- Swarm: Swarm A\n- Area: product\n- Owner Role: StoryOps Planner\n- Estimate (hours): 6\n\n## Dependencies\n- SWA-010\n\n## Deliverable\nFreeze pilot objective and success metrics document and linked checklist\n\n## Acceptance\nDocument exists, is referenced, and has no TBD sections\n\n## Validation\nFile diff plus checklist cross-links validated\n"
+  },
+  {
+    "id": "SWA-012",
+    "title": "SWA-012: Freeze source admissibility rules for non-editorial data",
+    "labels": [
+      "phase-1",
+      "area-product",
+      "swa"
+    ],
+    "body": "## Task\nFreeze source admissibility rules for non-editorial data\n\n## Metadata\n- Task ID: SWA-012\n- Phase: Phase 1\n- Wave: W1\n- Swarm: Swarm A\n- Area: product\n- Owner Role: StoryOps Planner\n- Estimate (hours): 8\n\n## Dependencies\n- SWA-010\n\n## Deliverable\nFreeze source admissibility rules for non-editorial data document and linked checklist\n\n## Acceptance\nDocument exists, is referenced, and has no TBD sections\n\n## Validation\nFile diff plus checklist cross-links validated\n"
+  },
+  {
+    "id": "SWA-013",
+    "title": "SWA-013: Freeze anti-drift and anti-editorial contamination checks",
+    "labels": [
+      "phase-1",
+      "area-qa",
+      "swa"
+    ],
+    "body": "## Task\nFreeze anti-drift and anti-editorial contamination checks\n\n## Metadata\n- Task ID: SWA-013\n- Phase: Phase 1\n- Wave: W1\n- Swarm: Swarm A\n- Area: qa\n- Owner Role: QA Eng\n- Estimate (hours): 8\n\n## Dependencies\n- SWA-012\n\n## Deliverable\nFreeze anti-drift and anti-editorial contamination checks document and linked checklist\n\n## Acceptance\nDocument exists, is referenced, and has no TBD sections\n\n## Validation\nFile diff plus checklist cross-links validated\n"
+  },
+  {
+    "id": "SWA-014",
+    "title": "SWA-014: Freeze provenance field requirements",
+    "labels": [
+      "phase-1",
+      "area-data",
+      "swa"
+    ],
+    "body": "## Task\nFreeze provenance field requirements\n\n## Metadata\n- Task ID: SWA-014\n- Phase: Phase 1\n- Wave: W1\n- Swarm: Swarm A\n- Area: data\n- Owner Role: Data Eng\n- Estimate (hours): 6\n\n## Dependencies\n- SWA-012\n\n## Deliverable\nFreeze provenance field requirements document and linked checklist\n\n## Acceptance\nDocument exists, is referenced, and has no TBD sections\n\n## Validation\nFile diff plus checklist cross-links validated\n"
+  },
+  {
+    "id": "SWA-015",
+    "title": "SWA-015: Create swarm board structure in tasks tracker",
+    "labels": [
+      "phase-1",
+      "area-product",
+      "swa"
+    ],
+    "body": "## Task\nCreate swarm board structure in tasks tracker\n\n## Metadata\n- Task ID: SWA-015\n- Phase: Phase 1\n- Wave: W1\n- Swarm: Swarm B\n- Area: product\n- Owner Role: StoryOps Planner\n- Estimate (hours): 6\n\n## Dependencies\n- SWA-010\n\n## Deliverable\nCreate swarm board structure in tasks tracker document and linked checklist\n\n## Acceptance\nDocument exists, is referenced, and has no TBD sections\n\n## Validation\nFile diff plus checklist cross-links validated\n"
+  },
+  {
+    "id": "SWA-016",
+    "title": "SWA-016: Backfill completed setup milestones into swarm board",
+    "labels": [
+      "phase-1",
+      "area-product",
+      "swa"
+    ],
+    "body": "## Task\nBackfill completed setup milestones into swarm board\n\n## Metadata\n- Task ID: SWA-016\n- Phase: Phase 1\n- Wave: W1\n- Swarm: Swarm B\n- Area: product\n- Owner Role: StoryOps Planner\n- Estimate (hours): 8\n\n## Dependencies\n- SWA-015\n\n## Deliverable\nBackfill completed setup milestones into swarm board document and linked checklist\n\n## Acceptance\nDocument exists, is referenced, and has no TBD sections\n\n## Validation\nFile diff plus checklist cross-links validated\n"
+  },
+  {
+    "id": "SWA-017",
+    "title": "SWA-017: Define status states and transition rules",
+    "labels": [
+      "phase-1",
+      "area-product",
+      "swa"
+    ],
+    "body": "## Task\nDefine status states and transition rules\n\n## Metadata\n- Task ID: SWA-017\n- Phase: Phase 1\n- Wave: W1\n- Swarm: Swarm B\n- Area: product\n- Owner Role: StoryOps Planner\n- Estimate (hours): 4\n\n## Dependencies\n- SWA-015\n\n## Deliverable\nDefine status states and transition rules document and linked checklist\n\n## Acceptance\nDocument exists, is referenced, and has no TBD sections\n\n## Validation\nFile diff plus checklist cross-links validated\n"
+  },
+  {
+    "id": "SWA-018",
+    "title": "SWA-018: Create weekly checkpoint template",
+    "labels": [
+      "phase-1",
+      "area-qa",
+      "swa"
+    ],
+    "body": "## Task\nCreate weekly checkpoint template\n\n## Metadata\n- Task ID: SWA-018\n- Phase: Phase 1\n- Wave: W1\n- Swarm: Swarm B\n- Area: qa\n- Owner Role: QA Eng\n- Estimate (hours): 4\n\n## Dependencies\n- SWA-017\n\n## Deliverable\nCreate weekly checkpoint template document and linked checklist\n\n## Acceptance\nDocument exists, is referenced, and has no TBD sections\n\n## Validation\nFile diff plus checklist cross-links validated\n"
+  },
+  {
+    "id": "SWA-019",
+    "title": "SWA-019: Define node schema v1 for graph ingestion",
+    "labels": [
+      "phase-1",
+      "area-data",
+      "swa"
+    ],
+    "body": "## Task\nDefine node schema v1 for graph ingestion\n\n## Metadata\n- Task ID: SWA-019\n- Phase: Phase 1\n- Wave: W2\n- Swarm: Swarm A\n- Area: data\n- Owner Role: Data Eng\n- Estimate (hours): 8\n\n## Dependencies\n- SWA-014\n\n## Deliverable\nDefine node schema v1 for graph ingestion document and linked checklist\n\n## Acceptance\nDocument exists, is referenced, and has no TBD sections\n\n## Validation\nFile diff plus checklist cross-links validated\n"
+  },
+  {
+    "id": "SWA-020",
+    "title": "SWA-020: Define relation schema v1 for integration history edges",
+    "labels": [
+      "phase-1",
+      "area-data",
+      "swa"
+    ],
+    "body": "## Task\nDefine relation schema v1 for integration history edges\n\n## Metadata\n- Task ID: SWA-020\n- Phase: Phase 1\n- Wave: W2\n- Swarm: Swarm A\n- Area: data\n- Owner Role: Data Eng\n- Estimate (hours): 8\n\n## Dependencies\n- SWA-019\n\n## Deliverable\nDefine relation schema v1 for integration history edges document and linked checklist\n\n## Acceptance\nDocument exists, is referenced, and has no TBD sections\n\n## Validation\nFile diff plus checklist cross-links validated\n"
+  },
+  {
+    "id": "SWA-021",
+    "title": "SWA-021: Define language and locale metadata contract",
+    "labels": [
+      "phase-1",
+      "area-data",
+      "swa"
+    ],
+    "body": "## Task\nDefine language and locale metadata contract\n\n## Metadata\n- Task ID: SWA-021\n- Phase: Phase 1\n- Wave: W2\n- Swarm: Swarm A\n- Area: data\n- Owner Role: Data Eng\n- Estimate (hours): 6\n\n## Dependencies\n- SWA-019\n\n## Deliverable\nDefine language and locale metadata contract document and linked checklist\n\n## Acceptance\nDocument exists, is referenced, and has no TBD sections\n\n## Validation\nFile diff plus checklist cross-links validated\n"
+  },
+  {
+    "id": "SWA-022",
+    "title": "SWA-022: Define image-derived node contract",
+    "labels": [
+      "phase-1",
+      "area-data",
+      "swa"
+    ],
+    "body": "## Task\nDefine image-derived node contract\n\n## Metadata\n- Task ID: SWA-022\n- Phase: Phase 1\n- Wave: W2\n- Swarm: Swarm A\n- Area: data\n- Owner Role: Data Eng\n- Estimate (hours): 6\n\n## Dependencies\n- SWA-019\n\n## Deliverable\nDefine image-derived node contract document and linked checklist\n\n## Acceptance\nDocument exists, is referenced, and has no TBD sections\n\n## Validation\nFile diff plus checklist cross-links validated\n"
+  },
+  {
+    "id": "SWA-023",
+    "title": "SWA-023: Define retrieval evaluation rubric formal spec",
+    "labels": [
+      "phase-1",
+      "area-qa",
+      "swa"
+    ],
+    "body": "## Task\nDefine retrieval evaluation rubric formal spec\n\n## Metadata\n- Task ID: SWA-023\n- Phase: Phase 1\n- Wave: W2\n- Swarm: Swarm B\n- Area: qa\n- Owner Role: QA Eng\n- Estimate (hours): 8\n\n## Dependencies\n- SWA-013\n\n## Deliverable\nDefine retrieval evaluation rubric formal spec document and linked checklist\n\n## Acceptance\nDocument exists, is referenced, and has no TBD sections\n\n## Validation\nFile diff plus checklist cross-links validated\n"
+  },
+  {
+    "id": "SWA-024",
+    "title": "SWA-024: Define hierarchy coherence scoring guide",
+    "labels": [
+      "phase-1",
+      "area-qa",
+      "swa"
+    ],
+    "body": "## Task\nDefine hierarchy coherence scoring guide\n\n## Metadata\n- Task ID: SWA-024\n- Phase: Phase 1\n- Wave: W2\n- Swarm: Swarm B\n- Area: qa\n- Owner Role: QA Eng\n- Estimate (hours): 6\n\n## Dependencies\n- SWA-023\n\n## Deliverable\nDefine hierarchy coherence scoring guide document and linked checklist\n\n## Acceptance\nDocument exists, is referenced, and has no TBD sections\n\n## Validation\nFile diff plus checklist cross-links validated\n"
+  },
+  {
+    "id": "SWA-025",
+    "title": "SWA-025: Define provenance traceability scoring guide",
+    "labels": [
+      "phase-1",
+      "area-qa",
+      "swa"
+    ],
+    "body": "## Task\nDefine provenance traceability scoring guide\n\n## Metadata\n- Task ID: SWA-025\n- Phase: Phase 1\n- Wave: W2\n- Swarm: Swarm B\n- Area: qa\n- Owner Role: QA Eng\n- Estimate (hours): 6\n\n## Dependencies\n- SWA-023\n\n## Deliverable\nDefine provenance traceability scoring guide document and linked checklist\n\n## Acceptance\nDocument exists, is referenced, and has no TBD sections\n\n## Validation\nFile diff plus checklist cross-links validated\n"
+  },
+  {
+    "id": "SWA-026",
+    "title": "SWA-026: Define cross-language match scoring guide",
+    "labels": [
+      "phase-1",
+      "area-qa",
+      "swa"
+    ],
+    "body": "## Task\nDefine cross-language match scoring guide\n\n## Metadata\n- Task ID: SWA-026\n- Phase: Phase 1\n- Wave: W2\n- Swarm: Swarm B\n- Area: qa\n- Owner Role: QA Eng\n- Estimate (hours): 6\n\n## Dependencies\n- SWA-023\n\n## Deliverable\nDefine cross-language match scoring guide document and linked checklist\n\n## Acceptance\nDocument exists, is referenced, and has no TBD sections\n\n## Validation\nFile diff plus checklist cross-links validated\n"
+  },
+  {
+    "id": "SWA-027",
+    "title": "SWA-027: Define batch processing runbook",
+    "labels": [
+      "phase-1",
+      "area-infra",
+      "swa"
+    ],
+    "body": "## Task\nDefine batch processing runbook\n\n## Metadata\n- Task ID: SWA-027\n- Phase: Phase 1\n- Wave: W3\n- Swarm: Swarm A\n- Area: infra\n- Owner Role: DevOps Eng\n- Estimate (hours): 8\n\n## Dependencies\n- SWA-021\n- SWA-022\n\n## Deliverable\nDefine batch processing runbook document and linked checklist\n\n## Acceptance\nDocument exists, is referenced, and has no TBD sections\n\n## Validation\nFile diff plus checklist cross-links validated\n"
+  },
+  {
+    "id": "SWA-028",
+    "title": "SWA-028: Define failure handling and retry policy",
+    "labels": [
+      "phase-1",
+      "area-infra",
+      "swa"
+    ],
+    "body": "## Task\nDefine failure handling and retry policy\n\n## Metadata\n- Task ID: SWA-028\n- Phase: Phase 1\n- Wave: W3\n- Swarm: Swarm A\n- Area: infra\n- Owner Role: DevOps Eng\n- Estimate (hours): 8\n\n## Dependencies\n- SWA-027\n\n## Deliverable\nDefine failure handling and retry policy document and linked checklist\n\n## Acceptance\nDocument exists, is referenced, and has no TBD sections\n\n## Validation\nFile diff plus checklist cross-links validated\n"
+  },
+  {
+    "id": "SWA-029",
+    "title": "SWA-029: Define artifact versioning policy",
+    "labels": [
+      "phase-1",
+      "area-infra",
+      "swa"
+    ],
+    "body": "## Task\nDefine artifact versioning policy\n\n## Metadata\n- Task ID: SWA-029\n- Phase: Phase 1\n- Wave: W3\n- Swarm: Swarm A\n- Area: infra\n- Owner Role: DevOps Eng\n- Estimate (hours): 6\n\n## Dependencies\n- SWA-027\n\n## Deliverable\nDefine artifact versioning policy document and linked checklist\n\n## Acceptance\nDocument exists, is referenced, and has no TBD sections\n\n## Validation\nFile diff plus checklist cross-links validated\n"
+  },
+  {
+    "id": "SWA-030",
+    "title": "SWA-030: Define acceptance gate checklist per wave",
+    "labels": [
+      "phase-1",
+      "area-qa",
+      "swa"
+    ],
+    "body": "## Task\nDefine acceptance gate checklist per wave\n\n## Metadata\n- Task ID: SWA-030\n- Phase: Phase 1\n- Wave: W3\n- Swarm: Swarm A\n- Area: qa\n- Owner Role: QA Eng\n- Estimate (hours): 6\n\n## Dependencies\n- SWA-024\n- SWA-025\n- SWA-026\n\n## Deliverable\nDefine acceptance gate checklist per wave document and linked checklist\n\n## Acceptance\nDocument exists, is referenced, and has no TBD sections\n\n## Validation\nFile diff plus checklist cross-links validated\n"
+  },
+  {
+    "id": "SWA-031",
+    "title": "SWA-031: Ingest and classify sample manifest into batch groups",
+    "labels": [
+      "phase-2",
+      "area-data",
+      "swa"
+    ],
+    "body": "## Task\nIngest and classify sample manifest into batch groups\n\n## Metadata\n- Task ID: SWA-031\n- Phase: Phase 2\n- Wave: -\n- Swarm: -\n- Area: data\n- Owner Role: Data Eng\n- Estimate (hours): 8\n\n## Dependencies\n- SWA-030\n\n## Deliverable\nIngest and classify sample manifest into batch groups artifact\n\n## Acceptance\nOutput passes schema checks and checklist requirements\n\n## Validation\nValidation script output and manual spot-check evidence\n"
+  },
+  {
+    "id": "SWA-032",
+    "title": "SWA-032: Tag each sample node with source lineage metadata",
+    "labels": [
+      "phase-2",
+      "area-data",
+      "swa"
+    ],
+    "body": "## Task\nTag each sample node with source lineage metadata\n\n## Metadata\n- Task ID: SWA-032\n- Phase: Phase 2\n- Wave: -\n- Swarm: -\n- Area: data\n- Owner Role: Data Eng\n- Estimate (hours): 8\n\n## Dependencies\n- SWA-031\n\n## Deliverable\nTag each sample node with source lineage metadata artifact\n\n## Acceptance\nOutput passes schema checks and checklist requirements\n\n## Validation\nValidation script output and manual spot-check evidence\n"
+  },
+  {
+    "id": "SWA-033",
+    "title": "SWA-033: Tag each sample node with modality and language hints",
+    "labels": [
+      "phase-2",
+      "area-data",
+      "swa"
+    ],
+    "body": "## Task\nTag each sample node with modality and language hints\n\n## Metadata\n- Task ID: SWA-033\n- Phase: Phase 2\n- Wave: -\n- Swarm: -\n- Area: data\n- Owner Role: Data Eng\n- Estimate (hours): 6\n\n## Dependencies\n- SWA-031\n\n## Deliverable\nTag each sample node with modality and language hints artifact\n\n## Acceptance\nOutput passes schema checks and checklist requirements\n\n## Validation\nValidation script output and manual spot-check evidence\n"
+  },
+  {
+    "id": "SWA-034",
+    "title": "SWA-034: Validate sample manifest paths and remove dead links",
+    "labels": [
+      "phase-2",
+      "area-qa",
+      "swa"
+    ],
+    "body": "## Task\nValidate sample manifest paths and remove dead links\n\n## Metadata\n- Task ID: SWA-034\n- Phase: Phase 2\n- Wave: -\n- Swarm: -\n- Area: qa\n- Owner Role: QA Eng\n- Estimate (hours): 6\n\n## Dependencies\n- SWA-031\n\n## Deliverable\nValidate sample manifest paths and remove dead links artifact\n\n## Acceptance\nOutput passes schema checks and checklist requirements\n\n## Validation\nValidation script output and manual spot-check evidence\n"
+  },
+  {
+    "id": "SWA-035",
+    "title": "SWA-035: Normalize node text extraction for markdown and pdf sources",
+    "labels": [
+      "phase-2",
+      "area-backend",
+      "swa"
+    ],
+    "body": "## Task\nNormalize node text extraction for markdown and pdf sources\n\n## Metadata\n- Task ID: SWA-035\n- Phase: Phase 2\n- Wave: -\n- Swarm: -\n- Area: backend\n- Owner Role: Backend Eng\n- Estimate (hours): 10\n\n## Dependencies\n- SWA-032\n\n## Deliverable\nNormalize node text extraction for markdown and pdf sources artifact\n\n## Acceptance\nOutput passes schema checks and checklist requirements\n\n## Validation\nValidation script output and manual spot-check evidence\n"
+  },
+  {
+    "id": "SWA-036",
+    "title": "SWA-036: Normalize OCR extraction policy for image-heavy nodes",
+    "labels": [
+      "phase-2",
+      "area-backend",
+      "swa"
+    ],
+    "body": "## Task\nNormalize OCR extraction policy for image-heavy nodes\n\n## Metadata\n- Task ID: SWA-036\n- Phase: Phase 2\n- Wave: -\n- Swarm: -\n- Area: backend\n- Owner Role: Backend Eng\n- Estimate (hours): 10\n\n## Dependencies\n- SWA-033\n\n## Deliverable\nNormalize OCR extraction policy for image-heavy nodes artifact\n\n## Acceptance\nOutput passes schema checks and checklist requirements\n\n## Validation\nValidation script output and manual spot-check evidence\n"
+  },
+  {
+    "id": "SWA-037",
+    "title": "SWA-037: Create extraction quality flags schema",
+    "labels": [
+      "phase-2",
+      "area-data",
+      "swa"
+    ],
+    "body": "## Task\nCreate extraction quality flags schema\n\n## Metadata\n- Task ID: SWA-037\n- Phase: Phase 2\n- Wave: -\n- Swarm: -\n- Area: data\n- Owner Role: Data Eng\n- Estimate (hours): 6\n\n## Dependencies\n- SWA-035\n- SWA-036\n\n## Deliverable\nCreate extraction quality flags schema artifact\n\n## Acceptance\nOutput passes schema checks and checklist requirements\n\n## Validation\nValidation script output and manual spot-check evidence\n"
+  },
+  {
+    "id": "SWA-038",
+    "title": "SWA-038: Create canonical node-id mapping ledger",
+    "labels": [
+      "phase-2",
+      "area-data",
+      "swa"
+    ],
+    "body": "## Task\nCreate canonical node-id mapping ledger\n\n## Metadata\n- Task ID: SWA-038\n- Phase: Phase 2\n- Wave: -\n- Swarm: -\n- Area: data\n- Owner Role: Data Eng\n- Estimate (hours): 8\n\n## Dependencies\n- SWA-032\n- SWA-033\n\n## Deliverable\nCreate canonical node-id mapping ledger artifact\n\n## Acceptance\nOutput passes schema checks and checklist requirements\n\n## Validation\nValidation script output and manual spot-check evidence\n"
+  },
+  {
+    "id": "SWA-039",
+    "title": "SWA-039: Generate expected-neighbor seed sets for first 40 nodes",
+    "labels": [
+      "phase-2",
+      "area-product",
+      "swa"
+    ],
+    "body": "## Task\nGenerate expected-neighbor seed sets for first 40 nodes\n\n## Metadata\n- Task ID: SWA-039\n- Phase: Phase 2\n- Wave: -\n- Swarm: -\n- Area: product\n- Owner Role: StoryOps Planner\n- Estimate (hours): 10\n\n## Dependencies\n- SWA-038\n\n## Deliverable\nGenerate expected-neighbor seed sets for first 40 nodes artifact\n\n## Acceptance\nOutput passes schema checks and checklist requirements\n\n## Validation\nValidation script output and manual spot-check evidence\n"
+  },
+  {
+    "id": "SWA-040",
+    "title": "SWA-040: Generate expected-parent seed sets for first 40 nodes",
+    "labels": [
+      "phase-2",
+      "area-product",
+      "swa"
+    ],
+    "body": "## Task\nGenerate expected-parent seed sets for first 40 nodes\n\n## Metadata\n- Task ID: SWA-040\n- Phase: Phase 2\n- Wave: -\n- Swarm: -\n- Area: product\n- Owner Role: StoryOps Planner\n- Estimate (hours): 8\n\n## Dependencies\n- SWA-038\n\n## Deliverable\nGenerate expected-parent seed sets for first 40 nodes artifact\n\n## Acceptance\nOutput passes schema checks and checklist requirements\n\n## Validation\nValidation script output and manual spot-check evidence\n"
+  },
+  {
+    "id": "SWA-041",
+    "title": "SWA-041: Define unresolved-node triage queue",
+    "labels": [
+      "phase-2",
+      "area-qa",
+      "swa"
+    ],
+    "body": "## Task\nDefine unresolved-node triage queue\n\n## Metadata\n- Task ID: SWA-041\n- Phase: Phase 2\n- Wave: -\n- Swarm: -\n- Area: qa\n- Owner Role: QA Eng\n- Estimate (hours): 6\n\n## Dependencies\n- SWA-039\n- SWA-040\n\n## Deliverable\nDefine unresolved-node triage queue artifact\n\n## Acceptance\nOutput passes schema checks and checklist requirements\n\n## Validation\nValidation script output and manual spot-check evidence\n"
+  },
+  {
+    "id": "SWA-042",
+    "title": "SWA-042: Run dry validation of manifests against schema contracts",
+    "labels": [
+      "phase-2",
+      "area-qa",
+      "swa"
+    ],
+    "body": "## Task\nRun dry validation of manifests against schema contracts\n\n## Metadata\n- Task ID: SWA-042\n- Phase: Phase 2\n- Wave: -\n- Swarm: -\n- Area: qa\n- Owner Role: QA Eng\n- Estimate (hours): 8\n\n## Dependencies\n- SWA-034\n- SWA-037\n- SWA-038\n\n## Deliverable\nRun dry validation of manifests against schema contracts artifact\n\n## Acceptance\nOutput passes schema checks and checklist requirements\n\n## Validation\nValidation script output and manual spot-check evidence\n"
+  },
+  {
+    "id": "SWA-043",
+    "title": "SWA-043: Patch manifest inconsistencies found in dry run",
+    "labels": [
+      "phase-2",
+      "area-data",
+      "swa"
+    ],
+    "body": "## Task\nPatch manifest inconsistencies found in dry run\n\n## Metadata\n- Task ID: SWA-043\n- Phase: Phase 2\n- Wave: -\n- Swarm: -\n- Area: data\n- Owner Role: Data Eng\n- Estimate (hours): 8\n\n## Dependencies\n- SWA-042\n\n## Deliverable\nPatch manifest inconsistencies found in dry run artifact\n\n## Acceptance\nOutput passes schema checks and checklist requirements\n\n## Validation\nValidation script output and manual spot-check evidence\n"
+  },
+  {
+    "id": "SWA-044",
+    "title": "SWA-044: Publish data readiness checkpoint report",
+    "labels": [
+      "phase-2",
+      "area-product",
+      "swa"
+    ],
+    "body": "## Task\nPublish data readiness checkpoint report\n\n## Metadata\n- Task ID: SWA-044\n- Phase: Phase 2\n- Wave: -\n- Swarm: -\n- Area: product\n- Owner Role: StoryOps Planner\n- Estimate (hours): 6\n\n## Dependencies\n- SWA-043\n\n## Deliverable\nPublish data readiness checkpoint report artifact\n\n## Acceptance\nOutput passes schema checks and checklist requirements\n\n## Validation\nValidation script output and manual spot-check evidence\n"
+  },
+  {
+    "id": "SWA-045",
+    "title": "SWA-045: Approve transition to embedding experimentation",
+    "labels": [
+      "phase-2",
+      "area-product",
+      "swa"
+    ],
+    "body": "## Task\nApprove transition to embedding experimentation\n\n## Metadata\n- Task ID: SWA-045\n- Phase: Phase 2\n- Wave: -\n- Swarm: -\n- Area: product\n- Owner Role: StoryOps Planner\n- Estimate (hours): 4\n\n## Dependencies\n- SWA-044\n\n## Deliverable\nApprove transition to embedding experimentation artifact\n\n## Acceptance\nOutput passes schema checks and checklist requirements\n\n## Validation\nValidation script output and manual spot-check evidence\n"
+  },
+  {
+    "id": "SWA-046",
+    "title": "SWA-046: Prepare embedding input sets for bge-m3 lane",
+    "labels": [
+      "phase-3",
+      "area-data",
+      "swa"
+    ],
+    "body": "## Task\nPrepare embedding input sets for bge-m3 lane\n\n## Metadata\n- Task ID: SWA-046\n- Phase: Phase 3\n- Wave: -\n- Swarm: -\n- Area: data\n- Owner Role: Data Eng\n- Estimate (hours): 8\n\n## Dependencies\n- SWA-045\n\n## Deliverable\nPrepare embedding input sets for bge-m3 lane output package\n\n## Acceptance\nOutputs generated for full pilot set without silent failures\n\n## Validation\nRun logs, metrics files, and artifact checksums\n"
+  },
+  {
+    "id": "SWA-047",
+    "title": "SWA-047: Prepare embedding input sets for nv-embed-v1 lane",
+    "labels": [
+      "phase-3",
+      "area-data",
+      "swa"
+    ],
+    "body": "## Task\nPrepare embedding input sets for nv-embed-v1 lane\n\n## Metadata\n- Task ID: SWA-047\n- Phase: Phase 3\n- Wave: -\n- Swarm: -\n- Area: data\n- Owner Role: Data Eng\n- Estimate (hours): 8\n\n## Dependencies\n- SWA-045\n\n## Deliverable\nPrepare embedding input sets for nv-embed-v1 lane output package\n\n## Acceptance\nOutputs generated for full pilot set without silent failures\n\n## Validation\nRun logs, metrics files, and artifact checksums\n"
+  },
+  {
+    "id": "SWA-048",
+    "title": "SWA-048: Prepare vision embedding input sets for VL lane",
+    "labels": [
+      "phase-3",
+      "area-data",
+      "swa"
+    ],
+    "body": "## Task\nPrepare vision embedding input sets for VL lane\n\n## Metadata\n- Task ID: SWA-048\n- Phase: Phase 3\n- Wave: -\n- Swarm: -\n- Area: data\n- Owner Role: Data Eng\n- Estimate (hours): 8\n\n## Dependencies\n- SWA-045\n\n## Deliverable\nPrepare vision embedding input sets for VL lane output package\n\n## Acceptance\nOutputs generated for full pilot set without silent failures\n\n## Validation\nRun logs, metrics files, and artifact checksums\n"
+  },
+  {
+    "id": "SWA-049",
+    "title": "SWA-049: Run text embeddings with bge-m3 over pilot corpus",
+    "labels": [
+      "phase-3",
+      "area-backend",
+      "swa"
+    ],
+    "body": "## Task\nRun text embeddings with bge-m3 over pilot corpus\n\n## Metadata\n- Task ID: SWA-049\n- Phase: Phase 3\n- Wave: -\n- Swarm: -\n- Area: backend\n- Owner Role: Backend Eng\n- Estimate (hours): 10\n\n## Dependencies\n- SWA-046\n\n## Deliverable\nRun text embeddings with bge-m3 over pilot corpus output package\n\n## Acceptance\nOutputs generated for full pilot set without silent failures\n\n## Validation\nRun logs, metrics files, and artifact checksums\n"
+  },
+  {
+    "id": "SWA-050",
+    "title": "SWA-050: Run text embeddings with nv-embed-v1 over pilot corpus",
+    "labels": [
+      "phase-3",
+      "area-backend",
+      "swa"
+    ],
+    "body": "## Task\nRun text embeddings with nv-embed-v1 over pilot corpus\n\n## Metadata\n- Task ID: SWA-050\n- Phase: Phase 3\n- Wave: -\n- Swarm: -\n- Area: backend\n- Owner Role: Backend Eng\n- Estimate (hours): 10\n\n## Dependencies\n- SWA-047\n\n## Deliverable\nRun text embeddings with nv-embed-v1 over pilot corpus output package\n\n## Acceptance\nOutputs generated for full pilot set without silent failures\n\n## Validation\nRun logs, metrics files, and artifact checksums\n"
+  },
+  {
+    "id": "SWA-051",
+    "title": "SWA-051: Run vision embeddings for image-derived nodes",
+    "labels": [
+      "phase-3",
+      "area-backend",
+      "swa"
+    ],
+    "body": "## Task\nRun vision embeddings for image-derived nodes\n\n## Metadata\n- Task ID: SWA-051\n- Phase: Phase 3\n- Wave: -\n- Swarm: -\n- Area: backend\n- Owner Role: Backend Eng\n- Estimate (hours): 10\n\n## Dependencies\n- SWA-048\n\n## Deliverable\nRun vision embeddings for image-derived nodes output package\n\n## Acceptance\nOutputs generated for full pilot set without silent failures\n\n## Validation\nRun logs, metrics files, and artifact checksums\n"
+  },
+  {
+    "id": "SWA-052",
+    "title": "SWA-052: Build retrieval index for model A outputs",
+    "labels": [
+      "phase-3",
+      "area-infra",
+      "swa"
+    ],
+    "body": "## Task\nBuild retrieval index for model A outputs\n\n## Metadata\n- Task ID: SWA-052\n- Phase: Phase 3\n- Wave: -\n- Swarm: -\n- Area: infra\n- Owner Role: DevOps Eng\n- Estimate (hours): 8\n\n## Dependencies\n- SWA-049\n\n## Deliverable\nBuild retrieval index for model A outputs output package\n\n## Acceptance\nOutputs generated for full pilot set without silent failures\n\n## Validation\nRun logs, metrics files, and artifact checksums\n"
+  },
+  {
+    "id": "SWA-053",
+    "title": "SWA-053: Build retrieval index for model B outputs",
+    "labels": [
+      "phase-3",
+      "area-infra",
+      "swa"
+    ],
+    "body": "## Task\nBuild retrieval index for model B outputs\n\n## Metadata\n- Task ID: SWA-053\n- Phase: Phase 3\n- Wave: -\n- Swarm: -\n- Area: infra\n- Owner Role: DevOps Eng\n- Estimate (hours): 8\n\n## Dependencies\n- SWA-050\n\n## Deliverable\nBuild retrieval index for model B outputs output package\n\n## Acceptance\nOutputs generated for full pilot set without silent failures\n\n## Validation\nRun logs, metrics files, and artifact checksums\n"
+  },
+  {
+    "id": "SWA-054",
+    "title": "SWA-054: Build multimodal index for VL outputs",
+    "labels": [
+      "phase-3",
+      "area-infra",
+      "swa"
+    ],
+    "body": "## Task\nBuild multimodal index for VL outputs\n\n## Metadata\n- Task ID: SWA-054\n- Phase: Phase 3\n- Wave: -\n- Swarm: -\n- Area: infra\n- Owner Role: DevOps Eng\n- Estimate (hours): 8\n\n## Dependencies\n- SWA-051\n\n## Deliverable\nBuild multimodal index for VL outputs output package\n\n## Acceptance\nOutputs generated for full pilot set without silent failures\n\n## Validation\nRun logs, metrics files, and artifact checksums\n"
+  },
+  {
+    "id": "SWA-055",
+    "title": "SWA-055: Execute query set against model A index",
+    "labels": [
+      "phase-3",
+      "area-qa",
+      "swa"
+    ],
+    "body": "## Task\nExecute query set against model A index\n\n## Metadata\n- Task ID: SWA-055\n- Phase: Phase 3\n- Wave: -\n- Swarm: -\n- Area: qa\n- Owner Role: QA Eng\n- Estimate (hours): 8\n\n## Dependencies\n- SWA-052\n\n## Deliverable\nExecute query set against model A index output package\n\n## Acceptance\nOutputs generated for full pilot set without silent failures\n\n## Validation\nRun logs, metrics files, and artifact checksums\n"
+  },
+  {
+    "id": "SWA-056",
+    "title": "SWA-056: Execute query set against model B index",
+    "labels": [
+      "phase-3",
+      "area-qa",
+      "swa"
+    ],
+    "body": "## Task\nExecute query set against model B index\n\n## Metadata\n- Task ID: SWA-056\n- Phase: Phase 3\n- Wave: -\n- Swarm: -\n- Area: qa\n- Owner Role: QA Eng\n- Estimate (hours): 8\n\n## Dependencies\n- SWA-053\n\n## Deliverable\nExecute query set against model B index output package\n\n## Acceptance\nOutputs generated for full pilot set without silent failures\n\n## Validation\nRun logs, metrics files, and artifact checksums\n"
+  },
+  {
+    "id": "SWA-057",
+    "title": "SWA-057: Execute query set against multimodal index",
+    "labels": [
+      "phase-3",
+      "area-qa",
+      "swa"
+    ],
+    "body": "## Task\nExecute query set against multimodal index\n\n## Metadata\n- Task ID: SWA-057\n- Phase: Phase 3\n- Wave: -\n- Swarm: -\n- Area: qa\n- Owner Role: QA Eng\n- Estimate (hours): 8\n\n## Dependencies\n- SWA-054\n\n## Deliverable\nExecute query set against multimodal index output package\n\n## Acceptance\nOutputs generated for full pilot set without silent failures\n\n## Validation\nRun logs, metrics files, and artifact checksums\n"
+  },
+  {
+    "id": "SWA-058",
+    "title": "SWA-058: Collect per-query recall and match metrics",
+    "labels": [
+      "phase-3",
+      "area-qa",
+      "swa"
+    ],
+    "body": "## Task\nCollect per-query recall and match metrics\n\n## Metadata\n- Task ID: SWA-058\n- Phase: Phase 3\n- Wave: -\n- Swarm: -\n- Area: qa\n- Owner Role: QA Eng\n- Estimate (hours): 8\n\n## Dependencies\n- SWA-055\n- SWA-056\n\n## Deliverable\nCollect per-query recall and match metrics output package\n\n## Acceptance\nOutputs generated for full pilot set without silent failures\n\n## Validation\nRun logs, metrics files, and artifact checksums\n"
+  },
+  {
+    "id": "SWA-059",
+    "title": "SWA-059: Collect hierarchy coherence metrics",
+    "labels": [
+      "phase-3",
+      "area-qa",
+      "swa"
+    ],
+    "body": "## Task\nCollect hierarchy coherence metrics\n\n## Metadata\n- Task ID: SWA-059\n- Phase: Phase 3\n- Wave: -\n- Swarm: -\n- Area: qa\n- Owner Role: QA Eng\n- Estimate (hours): 8\n\n## Dependencies\n- SWA-055\n- SWA-056\n- SWA-057\n\n## Deliverable\nCollect hierarchy coherence metrics output package\n\n## Acceptance\nOutputs generated for full pilot set without silent failures\n\n## Validation\nRun logs, metrics files, and artifact checksums\n"
+  },
+  {
+    "id": "SWA-060",
+    "title": "SWA-060: Publish experimentation checkpoint package",
+    "labels": [
+      "phase-3",
+      "area-product",
+      "swa"
+    ],
+    "body": "## Task\nPublish experimentation checkpoint package\n\n## Metadata\n- Task ID: SWA-060\n- Phase: Phase 3\n- Wave: -\n- Swarm: -\n- Area: product\n- Owner Role: StoryOps Planner\n- Estimate (hours): 6\n\n## Dependencies\n- SWA-058\n- SWA-059\n\n## Deliverable\nPublish experimentation checkpoint package output package\n\n## Acceptance\nOutputs generated for full pilot set without silent failures\n\n## Validation\nRun logs, metrics files, and artifact checksums\n"
+  },
+  {
+    "id": "SWA-061",
+    "title": "SWA-061: Compute weighted scores for model A and B",
+    "labels": [
+      "phase-4",
+      "area-data",
+      "swa"
+    ],
+    "body": "## Task\nCompute weighted scores for model A and B\n\n## Metadata\n- Task ID: SWA-061\n- Phase: Phase 4\n- Wave: -\n- Swarm: -\n- Area: data\n- Owner Role: Data Eng\n- Estimate (hours): 8\n\n## Dependencies\n- SWA-060\n\n## Deliverable\nCompute weighted scores for model A and B artifact\n\n## Acceptance\nDecision artifacts signed with explicit rationale and evidence\n\n## Validation\nDecision memo, audit logs, and score sheets committed\n"
+  },
+  {
+    "id": "SWA-062",
+    "title": "SWA-062: Compute modality-specific performance summary",
+    "labels": [
+      "phase-4",
+      "area-data",
+      "swa"
+    ],
+    "body": "## Task\nCompute modality-specific performance summary\n\n## Metadata\n- Task ID: SWA-062\n- Phase: Phase 4\n- Wave: -\n- Swarm: -\n- Area: data\n- Owner Role: Data Eng\n- Estimate (hours): 8\n\n## Dependencies\n- SWA-060\n\n## Deliverable\nCompute modality-specific performance summary artifact\n\n## Acceptance\nDecision artifacts signed with explicit rationale and evidence\n\n## Validation\nDecision memo, audit logs, and score sheets committed\n"
+  },
+  {
+    "id": "SWA-063",
+    "title": "SWA-063: Run error analysis on failed retrieval queries",
+    "labels": [
+      "phase-4",
+      "area-qa",
+      "swa"
+    ],
+    "body": "## Task\nRun error analysis on failed retrieval queries\n\n## Metadata\n- Task ID: SWA-063\n- Phase: Phase 4\n- Wave: -\n- Swarm: -\n- Area: qa\n- Owner Role: QA Eng\n- Estimate (hours): 8\n\n## Dependencies\n- SWA-061\n\n## Deliverable\nRun error analysis on failed retrieval queries artifact\n\n## Acceptance\nDecision artifacts signed with explicit rationale and evidence\n\n## Validation\nDecision memo, audit logs, and score sheets committed\n"
+  },
+  {
+    "id": "SWA-064",
+    "title": "SWA-064: Run language drift analysis on multilingual samples",
+    "labels": [
+      "phase-4",
+      "area-qa",
+      "swa"
+    ],
+    "body": "## Task\nRun language drift analysis on multilingual samples\n\n## Metadata\n- Task ID: SWA-064\n- Phase: Phase 4\n- Wave: -\n- Swarm: -\n- Area: qa\n- Owner Role: QA Eng\n- Estimate (hours): 8\n\n## Dependencies\n- SWA-061\n\n## Deliverable\nRun language drift analysis on multilingual samples artifact\n\n## Acceptance\nDecision artifacts signed with explicit rationale and evidence\n\n## Validation\nDecision memo, audit logs, and score sheets committed\n"
+  },
+  {
+    "id": "SWA-065",
+    "title": "SWA-065: Run provenance fidelity audit on top-ranked nodes",
+    "labels": [
+      "phase-4",
+      "area-qa",
+      "swa"
+    ],
+    "body": "## Task\nRun provenance fidelity audit on top-ranked nodes\n\n## Metadata\n- Task ID: SWA-065\n- Phase: Phase 4\n- Wave: -\n- Swarm: -\n- Area: qa\n- Owner Role: QA Eng\n- Estimate (hours): 8\n\n## Dependencies\n- SWA-062\n\n## Deliverable\nRun provenance fidelity audit on top-ranked nodes artifact\n\n## Acceptance\nDecision artifacts signed with explicit rationale and evidence\n\n## Validation\nDecision memo, audit logs, and score sheets committed\n"
+  },
+  {
+    "id": "SWA-066",
+    "title": "SWA-066: Run hierarchy neighborhood sanity audit",
+    "labels": [
+      "phase-4",
+      "area-qa",
+      "swa"
+    ],
+    "body": "## Task\nRun hierarchy neighborhood sanity audit\n\n## Metadata\n- Task ID: SWA-066\n- Phase: Phase 4\n- Wave: -\n- Swarm: -\n- Area: qa\n- Owner Role: QA Eng\n- Estimate (hours): 8\n\n## Dependencies\n- SWA-062\n\n## Deliverable\nRun hierarchy neighborhood sanity audit artifact\n\n## Acceptance\nDecision artifacts signed with explicit rationale and evidence\n\n## Validation\nDecision memo, audit logs, and score sheets committed\n"
+  },
+  {
+    "id": "SWA-067",
+    "title": "SWA-067: Draft model selection decision memo",
+    "labels": [
+      "phase-4",
+      "area-product",
+      "swa"
+    ],
+    "body": "## Task\nDraft model selection decision memo\n\n## Metadata\n- Task ID: SWA-067\n- Phase: Phase 4\n- Wave: -\n- Swarm: -\n- Area: product\n- Owner Role: StoryOps Planner\n- Estimate (hours): 8\n\n## Dependencies\n- SWA-061\n- SWA-063\n- SWA-064\n- SWA-065\n- SWA-066\n\n## Deliverable\nDraft model selection decision memo artifact\n\n## Acceptance\nDecision artifacts signed with explicit rationale and evidence\n\n## Validation\nDecision memo, audit logs, and score sheets committed\n"
+  },
+  {
+    "id": "SWA-068",
+    "title": "SWA-068: Review decision against threshold rule and constraints",
+    "labels": [
+      "phase-4",
+      "area-product",
+      "swa"
+    ],
+    "body": "## Task\nReview decision against threshold rule and constraints\n\n## Metadata\n- Task ID: SWA-068\n- Phase: Phase 4\n- Wave: -\n- Swarm: -\n- Area: product\n- Owner Role: StoryOps Planner\n- Estimate (hours): 6\n\n## Dependencies\n- SWA-067\n\n## Deliverable\nReview decision against threshold rule and constraints artifact\n\n## Acceptance\nDecision artifacts signed with explicit rationale and evidence\n\n## Validation\nDecision memo, audit logs, and score sheets committed\n"
+  },
+  {
+    "id": "SWA-069",
+    "title": "SWA-069: Define hardening backlog for chosen model stack",
+    "labels": [
+      "phase-4",
+      "area-product",
+      "swa"
+    ],
+    "body": "## Task\nDefine hardening backlog for chosen model stack\n\n## Metadata\n- Task ID: SWA-069\n- Phase: Phase 4\n- Wave: -\n- Swarm: -\n- Area: product\n- Owner Role: StoryOps Planner\n- Estimate (hours): 8\n\n## Dependencies\n- SWA-068\n\n## Deliverable\nDefine hardening backlog for chosen model stack artifact\n\n## Acceptance\nDecision artifacts signed with explicit rationale and evidence\n\n## Validation\nDecision memo, audit logs, and score sheets committed\n"
+  },
+  {
+    "id": "SWA-070",
+    "title": "SWA-070: Define rollback criteria if post-pilot quality drops",
+    "labels": [
+      "phase-4",
+      "area-qa",
+      "swa"
+    ],
+    "body": "## Task\nDefine rollback criteria if post-pilot quality drops\n\n## Metadata\n- Task ID: SWA-070\n- Phase: Phase 4\n- Wave: -\n- Swarm: -\n- Area: qa\n- Owner Role: QA Eng\n- Estimate (hours): 6\n\n## Dependencies\n- SWA-069\n\n## Deliverable\nDefine rollback criteria if post-pilot quality drops artifact\n\n## Acceptance\nDecision artifacts signed with explicit rationale and evidence\n\n## Validation\nDecision memo, audit logs, and score sheets committed\n"
+  },
+  {
+    "id": "SWA-071",
+    "title": "SWA-071: Publish hardening wave scope and owners",
+    "labels": [
+      "phase-4",
+      "area-product",
+      "swa"
+    ],
+    "body": "## Task\nPublish hardening wave scope and owners\n\n## Metadata\n- Task ID: SWA-071\n- Phase: Phase 4\n- Wave: -\n- Swarm: -\n- Area: product\n- Owner Role: StoryOps Planner\n- Estimate (hours): 6\n\n## Dependencies\n- SWA-070\n\n## Deliverable\nPublish hardening wave scope and owners artifact\n\n## Acceptance\nDecision artifacts signed with explicit rationale and evidence\n\n## Validation\nDecision memo, audit logs, and score sheets committed\n"
+  },
+  {
+    "id": "SWA-072",
+    "title": "SWA-072: Approve transition to integration execution",
+    "labels": [
+      "phase-4",
+      "area-product",
+      "swa"
+    ],
+    "body": "## Task\nApprove transition to integration execution\n\n## Metadata\n- Task ID: SWA-072\n- Phase: Phase 4\n- Wave: -\n- Swarm: -\n- Area: product\n- Owner Role: StoryOps Planner\n- Estimate (hours): 4\n\n## Dependencies\n- SWA-071\n\n## Deliverable\nApprove transition to integration execution artifact\n\n## Acceptance\nDecision artifacts signed with explicit rationale and evidence\n\n## Validation\nDecision memo, audit logs, and score sheets committed\n"
+  },
+  {
+    "id": "SWA-073",
+    "title": "SWA-073: Create integration epic map for graph deployment",
+    "labels": [
+      "phase-5",
+      "area-product",
+      "swa"
+    ],
+    "body": "## Task\nCreate integration epic map for graph deployment\n\n## Metadata\n- Task ID: SWA-073\n- Phase: Phase 5\n- Wave: -\n- Swarm: -\n- Area: product\n- Owner Role: StoryOps Planner\n- Estimate (hours): 8\n\n## Dependencies\n- SWA-072\n\n## Deliverable\nCreate integration epic map for graph deployment package\n\n## Acceptance\nOperationalization artifacts are actionable and assigned\n\n## Validation\nChecklist evidence and ownership matrix reviewed\n"
+  },
+  {
+    "id": "SWA-074",
+    "title": "SWA-074: Translate pilot tasks into implementation-ready issues",
+    "labels": [
+      "phase-5",
+      "area-product",
+      "swa"
+    ],
+    "body": "## Task\nTranslate pilot tasks into implementation-ready issues\n\n## Metadata\n- Task ID: SWA-074\n- Phase: Phase 5\n- Wave: -\n- Swarm: -\n- Area: product\n- Owner Role: StoryOps Planner\n- Estimate (hours): 10\n\n## Dependencies\n- SWA-073\n\n## Deliverable\nTranslate pilot tasks into implementation-ready issues package\n\n## Acceptance\nOperationalization artifacts are actionable and assigned\n\n## Validation\nChecklist evidence and ownership matrix reviewed\n"
+  },
+  {
+    "id": "SWA-075",
+    "title": "SWA-075: Define CI checks for embedding pipeline regressions",
+    "labels": [
+      "phase-5",
+      "area-infra",
+      "swa"
+    ],
+    "body": "## Task\nDefine CI checks for embedding pipeline regressions\n\n## Metadata\n- Task ID: SWA-075\n- Phase: Phase 5\n- Wave: -\n- Swarm: -\n- Area: infra\n- Owner Role: DevOps Eng\n- Estimate (hours): 8\n\n## Dependencies\n- SWA-074\n\n## Deliverable\nDefine CI checks for embedding pipeline regressions package\n\n## Acceptance\nOperationalization artifacts are actionable and assigned\n\n## Validation\nChecklist evidence and ownership matrix reviewed\n"
+  },
+  {
+    "id": "SWA-076",
+    "title": "SWA-076: Define monitoring metrics for retrieval quality drift",
+    "labels": [
+      "phase-5",
+      "area-infra",
+      "swa"
+    ],
+    "body": "## Task\nDefine monitoring metrics for retrieval quality drift\n\n## Metadata\n- Task ID: SWA-076\n- Phase: Phase 5\n- Wave: -\n- Swarm: -\n- Area: infra\n- Owner Role: DevOps Eng\n- Estimate (hours): 8\n\n## Dependencies\n- SWA-074\n\n## Deliverable\nDefine monitoring metrics for retrieval quality drift package\n\n## Acceptance\nOperationalization artifacts are actionable and assigned\n\n## Validation\nChecklist evidence and ownership matrix reviewed\n"
+  },
+  {
+    "id": "SWA-077",
+    "title": "SWA-077: Define incident playbook for ingestion failures",
+    "labels": [
+      "phase-5",
+      "area-qa",
+      "swa"
+    ],
+    "body": "## Task\nDefine incident playbook for ingestion failures\n\n## Metadata\n- Task ID: SWA-077\n- Phase: Phase 5\n- Wave: -\n- Swarm: -\n- Area: qa\n- Owner Role: QA Eng\n- Estimate (hours): 6\n\n## Dependencies\n- SWA-075\n\n## Deliverable\nDefine incident playbook for ingestion failures package\n\n## Acceptance\nOperationalization artifacts are actionable and assigned\n\n## Validation\nChecklist evidence and ownership matrix reviewed\n"
+  },
+  {
+    "id": "SWA-078",
+    "title": "SWA-078: Define release checklist for non-editorial network launch",
+    "labels": [
+      "phase-5",
+      "area-qa",
+      "swa"
+    ],
+    "body": "## Task\nDefine release checklist for non-editorial network launch\n\n## Metadata\n- Task ID: SWA-078\n- Phase: Phase 5\n- Wave: -\n- Swarm: -\n- Area: qa\n- Owner Role: QA Eng\n- Estimate (hours): 8\n\n## Dependencies\n- SWA-075\n- SWA-076\n- SWA-077\n\n## Deliverable\nDefine release checklist for non-editorial network launch package\n\n## Acceptance\nOperationalization artifacts are actionable and assigned\n\n## Validation\nChecklist evidence and ownership matrix reviewed\n"
+  },
+  {
+    "id": "SWA-079",
+    "title": "SWA-079: Publish v1 operational roadmap and milestone dates",
+    "labels": [
+      "phase-5",
+      "area-product",
+      "swa"
+    ],
+    "body": "## Task\nPublish v1 operational roadmap and milestone dates\n\n## Metadata\n- Task ID: SWA-079\n- Phase: Phase 5\n- Wave: -\n- Swarm: -\n- Area: product\n- Owner Role: StoryOps Planner\n- Estimate (hours): 6\n\n## Dependencies\n- SWA-078\n\n## Deliverable\nPublish v1 operational roadmap and milestone dates package\n\n## Acceptance\nOperationalization artifacts are actionable and assigned\n\n## Validation\nChecklist evidence and ownership matrix reviewed\n"
+  },
+  {
+    "id": "SWA-080",
+    "title": "SWA-080: Close planning cycle with lessons and next action board",
+    "labels": [
+      "phase-5",
+      "area-product",
+      "swa"
+    ],
+    "body": "## Task\nClose planning cycle with lessons and next action board\n\n## Metadata\n- Task ID: SWA-080\n- Phase: Phase 5\n- Wave: -\n- Swarm: -\n- Area: product\n- Owner Role: StoryOps Planner\n- Estimate (hours): 6\n\n## Dependencies\n- SWA-079\n\n## Deliverable\nClose planning cycle with lessons and next action board package\n\n## Acceptance\nOperationalization artifacts are actionable and assigned\n\n## Validation\nChecklist evidence and ownership matrix reviewed\n"
+  }
+]

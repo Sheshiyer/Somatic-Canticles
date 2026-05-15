@@ -1,0 +1,20 @@
+{
+  "model": "nvidia/nv-embed-v1",
+  "offset": 45,
+  "batch_size": 1,
+  "success_count": 1,
+  "fail_count": 0,
+  "vector_dim_set": [
+    4096
+  ],
+  "results": [
+    {
+      "node_id": "NODE-046",
+      "bucket_type": "interpretation_maps",
+      "success": true,
+      "latency_ms": 2224.03,
+      "status_code": 200,
+      "vector_dim": 4096
+    }
+  ]
+}

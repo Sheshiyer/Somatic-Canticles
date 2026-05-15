@@ -1,0 +1,24 @@
+{
+  "vision_model": "meta/llama-3.2-11b-vision-instruct",
+  "embed_model": "nvidia/llama-nemotron-embed-vl-1b-v2",
+  "offset": 46,
+  "batch_size": 1,
+  "success_count": 1,
+  "fail_count": 0,
+  "vector_dim_set": [
+    2048
+  ],
+  "results": [
+    {
+      "node_id": "NODE-048",
+      "bucket_type": "interpretation_maps",
+      "image_path": "/Users/sheshnarayaniyer/Documents/noesis/Research/Pasted image 20240921174633.png",
+      "success": true,
+      "caption_preview": "The image presents a diagram illustrating the relationship between the sun and God, with a central focus on the concept of \"witness.\" The diagram is divided into two columns, each representing a diffe",
+      "caption_chars": 861,
+      "latency_ms": 528.62,
+      "status_code": 200,
+      "vector_dim": 2048
+    }
+  ]
+}

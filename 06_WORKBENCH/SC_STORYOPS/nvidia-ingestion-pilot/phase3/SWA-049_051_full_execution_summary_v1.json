@@ -1,0 +1,29 @@
+{
+  "SWA-049": {
+    "model": "baai/bge-m3",
+    "offset": 0,
+    "batch_size": 100,
+    "success_count": 0,
+    "fail_count": 100
+  },
+  "SWA-050": {
+    "model": "nvidia/nv-embed-v1",
+    "offset": 0,
+    "batch_size": 100,
+    "success_count": 100,
+    "fail_count": 0,
+    "vector_dim_set": [
+      4096
+    ]
+  },
+  "SWA-051": {
+    "vision_model": "meta/llama-3.2-11b-vision-instruct",
+    "embed_model": "nvidia/llama-nemotron-embed-vl-1b-v2",
+    "result_count_assembled": 69,
+    "success_count": 66,
+    "fail_count": 3,
+    "vector_dim_set": [
+      2048
+    ]
+  }
+}

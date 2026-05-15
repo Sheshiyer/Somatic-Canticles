@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-05-15T10:33:47+05:30",
+  "endpoint": "https://integrate.api.nvidia.com/v1/models",
+  "raw_count": 128,
+  "unique_count": 122,
+  "retrieved_via": "NVIDIA_API_KEY from local env source",
+  "note": "Model IDs were listed in session output and summarized into planning artifacts.",
+  "metadata_sha256": "cff7dd9c29d8bd71728f1efb55f1f78a2bcde285b1c27258331d6111cc53272b"
+}

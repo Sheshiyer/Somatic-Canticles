@@ -1,0 +1,79 @@
+{
+  "text_model_a": {
+    "model": "baai/bge-m3",
+    "row_count": 100,
+    "success_count": 0,
+    "fail_count": 100,
+    "success_rate": 0.0,
+    "bucket_coverage": [],
+    "latency": {
+      "mean_ms": null,
+      "median_ms": null,
+      "p95_ms": null,
+      "max_ms": null
+    },
+    "top_errors": [
+      [
+        "Something went wrong with the request.",
+        100
+      ]
+    ],
+    "latency_score_0_5": 0.0
+  },
+  "text_model_b": {
+    "model": "nvidia/nv-embed-v1",
+    "row_count": 100,
+    "success_count": 100,
+    "fail_count": 0,
+    "success_rate": 1.0,
+    "bucket_coverage": [
+      "bio_field_charts",
+      "cross_integration_histories",
+      "interpretation_maps"
+    ],
+    "latency": {
+      "mean_ms": 1228.23,
+      "median_ms": 1061.86,
+      "p95_ms": 2633.19,
+      "max_ms": 3975.17
+    },
+    "top_errors": [],
+    "latency_score_0_5": 3.0
+  },
+  "vision_lane": {
+    "model": "nvidia/llama-nemotron-embed-vl-1b-v2",
+    "row_count": 69,
+    "success_count": 68,
+    "fail_count": 1,
+    "success_rate": 0.9855,
+    "bucket_coverage": [
+      "bio_field_charts",
+      "interpretation_maps"
+    ],
+    "latency": {
+      "mean_ms": 531.81,
+      "median_ms": 530.24,
+      "p95_ms": 550.72,
+      "max_ms": 590.13
+    },
+    "top_errors": [
+      [
+        "image_empty_0_bytes",
+        1
+      ]
+    ],
+    "latency_score_0_5": 5.0
+  },
+  "source_type_counts": {
+    "image": 69,
+    "document": 31
+  },
+  "language_distribution": {
+    "en": 100
+  },
+  "extraction_status_counts": {
+    "extracted": 28,
+    "requires_pdf_parser": 2,
+    "requires_doc_parser": 1
+  }
+}
