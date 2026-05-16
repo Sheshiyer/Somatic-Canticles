@@ -1,0 +1,399 @@
+{
+  "generated_at": "2026-05-16T02:04:10.782251+00:00",
+  "task_id": "SWA-055",
+  "query_model": "baai/bge-m3",
+  "index_model": "baai/bge-m3",
+  "row_count": 30,
+  "results": [
+    {
+      "query_id": "Q001",
+      "bucket_focus": "bio_field_charts",
+      "anchor_node_id": "NODE-001",
+      "expected_node_ids": [
+        "NODE-001",
+        "NODE-002",
+        "NODE-003"
+      ],
+      "top10": [],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "index_blocked"
+    },
+    {
+      "query_id": "Q002",
+      "bucket_focus": "bio_field_charts",
+      "anchor_node_id": "NODE-002",
+      "expected_node_ids": [
+        "NODE-002",
+        "NODE-001",
+        "NODE-003"
+      ],
+      "top10": [],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "index_blocked"
+    },
+    {
+      "query_id": "Q003",
+      "bucket_focus": "bio_field_charts",
+      "anchor_node_id": "NODE-003",
+      "expected_node_ids": [
+        "NODE-003",
+        "NODE-001",
+        "NODE-002"
+      ],
+      "top10": [],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "index_blocked"
+    },
+    {
+      "query_id": "Q004",
+      "bucket_focus": "bio_field_charts",
+      "anchor_node_id": "NODE-004",
+      "expected_node_ids": [
+        "NODE-004",
+        "NODE-002",
+        "NODE-003"
+      ],
+      "top10": [],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "index_blocked"
+    },
+    {
+      "query_id": "Q005",
+      "bucket_focus": "bio_field_charts",
+      "anchor_node_id": "NODE-005",
+      "expected_node_ids": [
+        "NODE-005",
+        "NODE-003",
+        "NODE-004"
+      ],
+      "top10": [],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "index_blocked"
+    },
+    {
+      "query_id": "Q006",
+      "bucket_focus": "bio_field_charts",
+      "anchor_node_id": "NODE-006",
+      "expected_node_ids": [
+        "NODE-006",
+        "NODE-004",
+        "NODE-005"
+      ],
+      "top10": [],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "index_blocked"
+    },
+    {
+      "query_id": "Q007",
+      "bucket_focus": "bio_field_charts",
+      "anchor_node_id": "NODE-007",
+      "expected_node_ids": [
+        "NODE-007",
+        "NODE-005",
+        "NODE-006"
+      ],
+      "top10": [],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "index_blocked"
+    },
+    {
+      "query_id": "Q008",
+      "bucket_focus": "bio_field_charts",
+      "anchor_node_id": "NODE-008",
+      "expected_node_ids": [
+        "NODE-008",
+        "NODE-006",
+        "NODE-007"
+      ],
+      "top10": [],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "index_blocked"
+    },
+    {
+      "query_id": "Q009",
+      "bucket_focus": "bio_field_charts",
+      "anchor_node_id": "NODE-009",
+      "expected_node_ids": [
+        "NODE-009",
+        "NODE-007",
+        "NODE-008"
+      ],
+      "top10": [],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "index_blocked"
+    },
+    {
+      "query_id": "Q010",
+      "bucket_focus": "bio_field_charts",
+      "anchor_node_id": "NODE-010",
+      "expected_node_ids": [
+        "NODE-010",
+        "NODE-008",
+        "NODE-009"
+      ],
+      "top10": [],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "index_blocked"
+    },
+    {
+      "query_id": "Q011",
+      "bucket_focus": "interpretation_maps",
+      "anchor_node_id": "NODE-036",
+      "expected_node_ids": [
+        "NODE-036",
+        "NODE-037",
+        "NODE-038"
+      ],
+      "top10": [],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "index_blocked"
+    },
+    {
+      "query_id": "Q012",
+      "bucket_focus": "interpretation_maps",
+      "anchor_node_id": "NODE-037",
+      "expected_node_ids": [
+        "NODE-037",
+        "NODE-036",
+        "NODE-038"
+      ],
+      "top10": [],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "index_blocked"
+    },
+    {
+      "query_id": "Q013",
+      "bucket_focus": "interpretation_maps",
+      "anchor_node_id": "NODE-038",
+      "expected_node_ids": [
+        "NODE-038",
+        "NODE-036",
+        "NODE-037"
+      ],
+      "top10": [],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "index_blocked"
+    },
+    {
+      "query_id": "Q014",
+      "bucket_focus": "interpretation_maps",
+      "anchor_node_id": "NODE-039",
+      "expected_node_ids": [
+        "NODE-039",
+        "NODE-037",
+        "NODE-038"
+      ],
+      "top10": [],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "index_blocked"
+    },
+    {
+      "query_id": "Q015",
+      "bucket_focus": "interpretation_maps",
+      "anchor_node_id": "NODE-040",
+      "expected_node_ids": [
+        "NODE-040",
+        "NODE-038",
+        "NODE-039"
+      ],
+      "top10": [],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "index_blocked"
+    },
+    {
+      "query_id": "Q016",
+      "bucket_focus": "interpretation_maps",
+      "anchor_node_id": "NODE-041",
+      "expected_node_ids": [
+        "NODE-041"
+      ],
+      "top10": [],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "index_blocked"
+    },
+    {
+      "query_id": "Q017",
+      "bucket_focus": "interpretation_maps",
+      "anchor_node_id": "NODE-042",
+      "expected_node_ids": [
+        "NODE-042"
+      ],
+      "top10": [],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "index_blocked"
+    },
+    {
+      "query_id": "Q018",
+      "bucket_focus": "interpretation_maps",
+      "anchor_node_id": "NODE-043",
+      "expected_node_ids": [
+        "NODE-043"
+      ],
+      "top10": [],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "index_blocked"
+    },
+    {
+      "query_id": "Q019",
+      "bucket_focus": "interpretation_maps",
+      "anchor_node_id": "NODE-044",
+      "expected_node_ids": [
+        "NODE-044"
+      ],
+      "top10": [],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "index_blocked"
+    },
+    {
+      "query_id": "Q020",
+      "bucket_focus": "interpretation_maps",
+      "anchor_node_id": "NODE-045",
+      "expected_node_ids": [
+        "NODE-045"
+      ],
+      "top10": [],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "index_blocked"
+    },
+    {
+      "query_id": "Q021",
+      "bucket_focus": "cross_integration_histories",
+      "anchor_node_id": "NODE-071",
+      "expected_node_ids": [
+        "NODE-071"
+      ],
+      "top10": [],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "index_blocked"
+    },
+    {
+      "query_id": "Q022",
+      "bucket_focus": "cross_integration_histories",
+      "anchor_node_id": "NODE-072",
+      "expected_node_ids": [
+        "NODE-072"
+      ],
+      "top10": [],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "index_blocked"
+    },
+    {
+      "query_id": "Q023",
+      "bucket_focus": "cross_integration_histories",
+      "anchor_node_id": "NODE-073",
+      "expected_node_ids": [
+        "NODE-073"
+      ],
+      "top10": [],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "index_blocked"
+    },
+    {
+      "query_id": "Q024",
+      "bucket_focus": "cross_integration_histories",
+      "anchor_node_id": "NODE-074",
+      "expected_node_ids": [
+        "NODE-074"
+      ],
+      "top10": [],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "index_blocked"
+    },
+    {
+      "query_id": "Q025",
+      "bucket_focus": "cross_integration_histories",
+      "anchor_node_id": "NODE-075",
+      "expected_node_ids": [
+        "NODE-075"
+      ],
+      "top10": [],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "index_blocked"
+    },
+    {
+      "query_id": "Q026",
+      "bucket_focus": "cross_integration_histories",
+      "anchor_node_id": "NODE-076",
+      "expected_node_ids": [
+        "NODE-076"
+      ],
+      "top10": [],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "index_blocked"
+    },
+    {
+      "query_id": "Q027",
+      "bucket_focus": "cross_integration_histories",
+      "anchor_node_id": "NODE-077",
+      "expected_node_ids": [
+        "NODE-077"
+      ],
+      "top10": [],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "index_blocked"
+    },
+    {
+      "query_id": "Q028",
+      "bucket_focus": "cross_integration_histories",
+      "anchor_node_id": "NODE-078",
+      "expected_node_ids": [
+        "NODE-078"
+      ],
+      "top10": [],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "index_blocked"
+    },
+    {
+      "query_id": "Q029",
+      "bucket_focus": "cross_integration_histories",
+      "anchor_node_id": "NODE-079",
+      "expected_node_ids": [
+        "NODE-079"
+      ],
+      "top10": [],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "index_blocked"
+    },
+    {
+      "query_id": "Q030",
+      "bucket_focus": "cross_integration_histories",
+      "anchor_node_id": "NODE-080",
+      "expected_node_ids": [
+        "NODE-080"
+      ],
+      "top10": [],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "index_blocked"
+    }
+  ]
+}

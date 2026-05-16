@@ -975,6 +975,18 @@ This file is the active source of truth for repository execution status.
   - [x] Provenance fidelity audit (`phase4/SWA-065_provenance_fidelity_audit_v1.{json,md}`)
   - [x] Hierarchy neighborhood sanity audit (`phase4/SWA-066_hierarchy_neighborhood_sanity_audit_v1.{json,md}`)
   - [x] Decision memo, threshold review, hardening backlog, rollback criteria, and owner scope (`phase4/SWA-067..SWA-071`)
-- [ ] Keep Phase 5 transition approval (`SWA-072`) conditional until contractual experimentation tasks `SWA-052..SWA-059` are completed
-  - [x] Published conditional approval memo (`phase4/SWA-072_transition_to_integration_approval_v1.md`)
-  - [ ] Clear blocking conditions: finish `SWA-052..SWA-059`, resolve `NODE-063`, and replace proxy scoring with contractual rubric outputs
+- [x] Complete contractual experimentation arc (`SWA-052` to `SWA-059`)
+  - [x] Built model A index package (`phase3/SWA-052_modelA_retrieval_index_v1.json`) with blocked-lane evidence
+  - [x] Built model B retrieval index + vectors (`phase3/SWA-053_modelB_retrieval_index_v1.json`, `phase3/SWA-053_modelB_vectors_v1.npy`)
+  - [x] Built multimodal index + vectors (`phase3/SWA-054_multimodal_index_v1.json`, `phase3/SWA-054_multimodal_vectors_v1.npy`)
+  - [x] Executed query set against model A/B/multimodal indexes (`phase3/SWA-055_modelA_query_results_v1.json`, `phase3/SWA-056_modelB_query_results_v1.json`, `phase3/SWA-057_multimodal_query_results_v1.json`)
+  - [x] Published recall/match metrics (`phase3/SWA-058_recall_match_metrics_v1.{json,md}`)
+  - [x] Published hierarchy coherence metrics (`phase3/SWA-059_hierarchy_coherence_metrics_v1.{json,md}`)
+  - [x] Published checksums and run log (`phase3/SWA-052_059_artifact_checksums_v1.json`, `phase3/SWA-052_059_run_log_v1.json`)
+- [x] Resolve `NODE-063` gate blocker for SWA transition review
+  - [x] Documented quarantine resolution (`phase3/SWA-051_node063_resolution_v1.md`)
+- [x] Replace proxy scoring with contractual rubric outputs
+  - [x] Published weighted score v2 (`phase4/SWA-061_weighted_scores_modelA_modelB_v2.{json,md}`)
+  - [x] Published decision + threshold review v2 (`phase4/SWA-067_model_selection_decision_memo_v2.md`, `phase4/SWA-068_threshold_rule_constraints_review_v2.md`)
+- [x] Approve transition to Phase 5 integration execution (`SWA-072`)
+  - [x] Published approval memo v2 (`phase4/SWA-072_transition_to_integration_approval_v2.md`)

@@ -84,10 +84,35 @@ Directory: `06_WORKBENCH/SC_STORYOPS/nvidia-ingestion-pilot`
 | `phase4/SWA-070_rollback_criteria_v1.md` | Rollback triggers and response actions | complete |
 | `phase4/SWA-071_hardening_wave_scope_and_owners_v1.md` | Hardening scope, owners, and exit criteria | complete |
 | `phase4/SWA-072_transition_to_integration_approval_v1.md` | Conditional transition approval memo | complete |
+| `scripts/run_swa_phase3_retrieval_eval.py` | End-to-end runner for SWA-052 through SWA-059 | complete |
+| `phase3/SWA-052_modelA_retrieval_index_v1.json` | Model A retrieval index package (blocked lane evidence) | complete |
+| `phase3/SWA-053_modelB_retrieval_index_v1.json` | Model B retrieval index package metadata | complete |
+| `phase3/SWA-053_modelB_vectors_v1.npy` | Model B retrieval vector matrix | complete |
+| `phase3/SWA-054_multimodal_index_v1.json` | Multimodal retrieval index package metadata | complete |
+| `phase3/SWA-054_multimodal_vectors_v1.npy` | Multimodal retrieval vector matrix | complete |
+| `phase3/SWA-055_057_query_set_v1.json` | Structured query set for SWA-055 through SWA-057 | complete |
+| `phase3/SWA-055_057_query_set_v1.csv` | CSV query set for SWA-055 through SWA-057 | complete |
+| `phase3/SWA-055_modelA_query_results_v1.json` | Query execution output against model A index | complete |
+| `phase3/SWA-056_modelB_query_results_v1.json` | Query execution output against model B index | complete |
+| `phase3/SWA-057_multimodal_query_results_v1.json` | Query execution output against multimodal index | complete |
+| `phase3/SWA-058_recall_match_metrics_v1.json` | Per-lane recall and match metrics | complete |
+| `phase3/SWA-058_recall_match_metrics_v1.md` | Human-readable recall and match summary | complete |
+| `phase3/SWA-059_hierarchy_coherence_metrics_v1.json` | Per-lane hierarchy coherence metrics | complete |
+| `phase3/SWA-059_hierarchy_coherence_metrics_v1.md` | Human-readable hierarchy coherence summary | complete |
+| `phase3/SWA-052_059_artifact_checksums_v1.json` | SHA-256 checksums for SWA-052 through SWA-059 artifacts | complete |
+| `phase3/SWA-052_059_run_log_v1.json` | Run log for SWA-052 through SWA-059 execution | complete |
+| `phase3/SWA-051_node063_resolution_v1.md` | Quarantine resolution note for NODE-063 source defect | complete |
+| `phase4/SWA-061_weighted_scores_modelA_modelB_v2.json` | Contractual weighted scores after SWA-058 and SWA-059 completion | complete |
+| `phase4/SWA-061_weighted_scores_modelA_modelB_v2.md` | Human-readable contractual weighted score summary | complete |
+| `phase4/SWA-067_model_selection_decision_memo_v2.md` | Model selection memo updated with contractual metrics | complete |
+| `phase4/SWA-068_threshold_rule_constraints_review_v2.md` | Threshold/constraint review updated with contractual metrics | complete |
+| `phase4/SWA-072_transition_to_integration_approval_v2.md` | Transition approval memo updated to approved state | complete |
 
 ## Integrity Notes
 - Pilot manifest expected counts: `35/35/30` by bucket
 - Query template expected distribution: `10/10/10` by bucket
 - Phase 3 full execution state: `SWA-049=0/100`, `SWA-050=100/100`, `SWA-051=68/69`; unresolved node `NODE-063` points to an empty source image file
 - Phase 4 state: provisional model direction set to `nvidia/nv-embed-v1`; integration transition remains conditional on `SWA-052..SWA-059`
+- SWA-052 through SWA-059 state: complete with checksummed artifact package and query-evaluation outputs
+- SWA-072 state: approved in `phase4/SWA-072_transition_to_integration_approval_v2.md`
 - Any regenerated artifact should append a dated suffix or update this registry

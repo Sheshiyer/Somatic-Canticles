@@ -1,0 +1,25 @@
+{
+  "task_group": "SWA-052..SWA-059",
+  "started_at": "2026-05-16T02:05:38.811017+00:00",
+  "finished_at": "2026-05-16T02:05:38.811147+00:00",
+  "artifacts": [
+    "phase3/SWA-052_modelA_retrieval_index_v1.json",
+    "phase3/SWA-053_modelB_retrieval_index_v1.json",
+    "phase3/SWA-053_modelB_vectors_v1.npy",
+    "phase3/SWA-054_multimodal_index_v1.json",
+    "phase3/SWA-054_multimodal_vectors_v1.npy",
+    "phase3/SWA-055_057_query_set_v1.json",
+    "phase3/SWA-055_057_query_set_v1.csv",
+    "phase3/SWA-055_modelA_query_results_v1.json",
+    "phase3/SWA-056_modelB_query_results_v1.json",
+    "phase3/SWA-057_multimodal_query_results_v1.json",
+    "phase3/SWA-058_recall_match_metrics_v1.json",
+    "phase3/SWA-058_recall_match_metrics_v1.md",
+    "phase3/SWA-059_hierarchy_coherence_metrics_v1.json",
+    "phase3/SWA-059_hierarchy_coherence_metrics_v1.md",
+    "phase3/SWA-052_059_artifact_checksums_v1.json"
+  ],
+  "model_a_index_status": "blocked",
+  "model_b_index_success": 100,
+  "multimodal_index_success": 68
+}

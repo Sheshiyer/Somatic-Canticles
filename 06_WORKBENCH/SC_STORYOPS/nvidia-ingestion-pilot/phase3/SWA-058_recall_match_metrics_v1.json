@@ -1,0 +1,87 @@
+{
+  "generated_at": "2026-05-16T02:04:58.267118+00:00",
+  "task_id": "SWA-058",
+  "lanes": [
+    {
+      "lane": "model_a",
+      "query_count": 30,
+      "hit_count": 0,
+      "recall_at_10": 0.0,
+      "mean_match_count": 0.0,
+      "by_bucket": {
+        "bio_field_charts": {
+          "query_count": 10,
+          "hit_count": 0,
+          "recall_at_10": 0.0,
+          "mean_match_count": 0.0
+        },
+        "interpretation_maps": {
+          "query_count": 10,
+          "hit_count": 0,
+          "recall_at_10": 0.0,
+          "mean_match_count": 0.0
+        },
+        "cross_integration_histories": {
+          "query_count": 10,
+          "hit_count": 0,
+          "recall_at_10": 0.0,
+          "mean_match_count": 0.0
+        }
+      }
+    },
+    {
+      "lane": "model_b",
+      "query_count": 30,
+      "hit_count": 28,
+      "recall_at_10": 0.9333,
+      "mean_match_count": 1.2667,
+      "by_bucket": {
+        "bio_field_charts": {
+          "query_count": 10,
+          "hit_count": 9,
+          "recall_at_10": 0.9,
+          "mean_match_count": 1.4
+        },
+        "interpretation_maps": {
+          "query_count": 10,
+          "hit_count": 9,
+          "recall_at_10": 0.9,
+          "mean_match_count": 1.4
+        },
+        "cross_integration_histories": {
+          "query_count": 10,
+          "hit_count": 10,
+          "recall_at_10": 1.0,
+          "mean_match_count": 1.0
+        }
+      }
+    },
+    {
+      "lane": "multimodal",
+      "query_count": 30,
+      "hit_count": 6,
+      "recall_at_10": 0.2,
+      "mean_match_count": 0.2333,
+      "by_bucket": {
+        "bio_field_charts": {
+          "query_count": 10,
+          "hit_count": 4,
+          "recall_at_10": 0.4,
+          "mean_match_count": 0.5
+        },
+        "interpretation_maps": {
+          "query_count": 10,
+          "hit_count": 2,
+          "recall_at_10": 0.2,
+          "mean_match_count": 0.2
+        },
+        "cross_integration_histories": {
+          "query_count": 10,
+          "hit_count": 0,
+          "recall_at_10": 0.0,
+          "mean_match_count": 0.0
+        }
+      }
+    }
+  ]
+}

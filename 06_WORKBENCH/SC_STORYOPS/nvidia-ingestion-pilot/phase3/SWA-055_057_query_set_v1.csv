@@ -1,0 +1,31 @@
+query_id,bucket_focus,language,query_text,anchor_node_id,expected_node_ids,expected_parent
+Q001,bio_field_charts,en,bio_field_charts reference for IMG 2581,NODE-001,NODE-001|NODE-002|NODE-003,PARENT-BIOFIELD-ROOT
+Q002,bio_field_charts,en,bio_field_charts reference for 21363458 10154948160327913 117575874 o,NODE-002,NODE-002|NODE-001|NODE-003,PARENT-BIOFIELD-ROOT
+Q003,bio_field_charts,en,bio_field_charts reference for 25371019 10155189860952913 1561726014 o,NODE-003,NODE-003|NODE-001|NODE-002,PARENT-BIOFIELD-ROOT
+Q004,bio_field_charts,en,bio_field_charts reference for 11990533 413990388794138 2317091395093831501 n,NODE-004,NODE-004|NODE-002|NODE-003,PARENT-BIOFIELD-ROOT
+Q005,bio_field_charts,en,"bio_field_charts reference for Biofield Anatomy, E McKusick",NODE-005,NODE-005|NODE-003|NODE-004,PARENT-BIOFIELD-ROOT
+Q006,bio_field_charts,en,bio_field_charts reference for Screen Shot 2017 09 03 at 9.11.11 am,NODE-006,NODE-006|NODE-004|NODE-005,PARENT-BIOFIELD-ROOT
+Q007,bio_field_charts,en,bio_field_charts reference for 21146633 10203820293385883 1098728975 o 1,NODE-007,NODE-007|NODE-005|NODE-006,PARENT-BIOFIELD-ROOT
+Q008,bio_field_charts,en,bio_field_charts reference for 25346629 10155188222247913 2125987151 o,NODE-008,NODE-008|NODE-006|NODE-007,PARENT-BIOFIELD-ROOT
+Q009,bio_field_charts,en,bio_field_charts reference for 18718217 10155413068157848 71209152 n,NODE-009,NODE-009|NODE-007|NODE-008,PARENT-BIOFIELD-ROOT
+Q010,bio_field_charts,en,"bio_field_charts reference for Biofield Anatomy 3, Eileen Mckusick",NODE-010,NODE-010|NODE-008|NODE-009,PARENT-BIOFIELD-ROOT
+Q011,interpretation_maps,en,"## Chapter 1. Introduction 1.1. Overview of Living Systems and Consciousness - Defining living systems - Attributes of consciousness, intelligence, sapience, and",NODE-036,NODE-036|NODE-037|NODE-038,PARENT-INTERPRETATION-ROOT
+Q012,interpretation_maps,en,interpretation_maps reference for Pasted image 20240520195322,NODE-037,NODE-037|NODE-036|NODE-038,PARENT-INTERPRETATION-ROOT
+Q013,interpretation_maps,en,interpretation_maps reference for Pasted image 20240305002325,NODE-038,NODE-038|NODE-036|NODE-037,PARENT-INTERPRETATION-ROOT
+Q014,interpretation_maps,en,interpretation_maps reference for Pasted image 20240906142538,NODE-039,NODE-039|NODE-037|NODE-038,PARENT-INTERPRETATION-ROOT
+Q015,interpretation_maps,en,interpretation_maps reference for e2ca0c409c17538f41b5fd39fa497e2a st thomas walter obrien,NODE-040,NODE-040|NODE-038|NODE-039,PARENT-INTERPRETATION-ROOT
+Q016,interpretation_maps,en,interpretation_maps reference for Pasted image 20241208205024,NODE-041,NODE-041,
+Q017,interpretation_maps,en,interpretation_maps reference for Pasted image 20240612223045,NODE-042,NODE-042,
+Q018,interpretation_maps,en,interpretation_maps reference for Pasted image 20240828002737,NODE-043,NODE-043,
+Q019,interpretation_maps,en,interpretation_maps reference for Screenshot 2024 09 19 031659,NODE-044,NODE-044,
+Q020,interpretation_maps,en,interpretation_maps reference for Pasted image 20240612224016,NODE-045,NODE-045,
+Q021,cross_integration_histories,en,![Picture](https://www.michaeltsarion.com/uploads/3/1/3/5/31352851/published/isleofthedead.jpg?1635032136) | | | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | | _...all evolution can be described as the process of differentiation of the part from the,NODE-071,NODE-071,
+Q022,cross_integration_histories,en,| _Thou has saved us by shedding the eternal blood_ - Mithraic Dictum <br> <br>_...we are forced to conclude that Sol Invictus-Mithras,NODE-072,NODE-072,
+Q023,cross_integration_histories,en,# The Dark Side of Christian History ![Picture](https://www.astrotheologyzone.com/uploads/3/1/3/5/31352851/published/burningheretic.jpg?1627755190) | | | | |---|---|---| |---|_“Heresy” comes from the Greek hairesis meaning “choice”_ -,NODE-073,NODE-073,
+Q024,cross_integration_histories,en,![Picture](https://www.astrotheologyzone.com/uploads/3/1/3/5/31352851/jehova_orig.jpg) | | | |---|---| |---|_The name Yahweh appears to not even be Hebrew name at all_ - A. S. Holub (_The,NODE-074,NODE-074,
+Q025,cross_integration_histories,en,cross_integration_histories :: Energetic Lighting Energetic Destiny LED Panel IP20 36W 5000K 3400Lm at 600 x 600mm [222008]  MegaBuy Computer Parts.pdf ::,NODE-075,NODE-075,
+Q026,cross_integration_histories,en,"![Picture](https://www.michaeltsarion.com/uploads/3/1/3/5/31352851/redtres_orig.jpg) | | | | |---|---|---| |---|_There is pleasure in the pathless woods, there is rapture in the lonely shore, there is",NODE-076,NODE-076,
+Q027,cross_integration_histories,en,![Picture](https://www.michaeltsarion.com/uploads/3/1/3/5/31352851/nichroerich_orig.jpg) | | | ------------------------------------------------------- | | _To know oneself is the beginning of wisdom_ - Socrates | We’ve heard it said,NODE-077,NODE-077,
+Q028,cross_integration_histories,en,"I will create a primitive: Man shall be his name. I shall create a primitive worker, He will be charged with service",NODE-078,NODE-078,
+Q029,cross_integration_histories,en,"![Picture](https://www.femaleilluminati.com/uploads/3/1/3/5/31352851/moreau_orig.jpg) | | | -------------------------------------------------------------------------------------------- | | _I am the all-seeing eye of Horus, whose appearance strikes terror_ - (Egyptian Coffin Text)",NODE-079,NODE-079,
+Q030,cross_integration_histories,en,"[![Picture](https://www.astrotheologyzone.com/uploads/3/1/3/5/31352851/published/rgraves.jpg?1595869545)](https://en.wikipedia.org/wiki/Robert_Graves) | | | | |---|---|---| |---|_For many centuries, Jewish and Christian theologians agreed that the accounts of the world’s origin given",NODE-080,NODE-080,

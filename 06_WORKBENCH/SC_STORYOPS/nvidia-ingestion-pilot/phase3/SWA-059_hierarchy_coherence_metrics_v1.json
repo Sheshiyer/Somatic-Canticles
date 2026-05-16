@@ -1,0 +1,762 @@
+{
+  "generated_at": "2026-05-16T02:04:58.268837+00:00",
+  "task_id": "SWA-059",
+  "lanes": [
+    {
+      "lane": "model_a",
+      "query_count": 30,
+      "mean_hierarchy_score_0_5": 0.0,
+      "bucket_mean_scores": {
+        "bio_field_charts": 0.0,
+        "interpretation_maps": 0.0,
+        "cross_integration_histories": 0.0
+      },
+      "per_query": [
+        {
+          "query_id": "Q001",
+          "bucket_focus": "bio_field_charts",
+          "hierarchy_score_0_5": 0.0,
+          "bucket_alignment": 0.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q002",
+          "bucket_focus": "bio_field_charts",
+          "hierarchy_score_0_5": 0.0,
+          "bucket_alignment": 0.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q003",
+          "bucket_focus": "bio_field_charts",
+          "hierarchy_score_0_5": 0.0,
+          "bucket_alignment": 0.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q004",
+          "bucket_focus": "bio_field_charts",
+          "hierarchy_score_0_5": 0.0,
+          "bucket_alignment": 0.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q005",
+          "bucket_focus": "bio_field_charts",
+          "hierarchy_score_0_5": 0.0,
+          "bucket_alignment": 0.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q006",
+          "bucket_focus": "bio_field_charts",
+          "hierarchy_score_0_5": 0.0,
+          "bucket_alignment": 0.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q007",
+          "bucket_focus": "bio_field_charts",
+          "hierarchy_score_0_5": 0.0,
+          "bucket_alignment": 0.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q008",
+          "bucket_focus": "bio_field_charts",
+          "hierarchy_score_0_5": 0.0,
+          "bucket_alignment": 0.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q009",
+          "bucket_focus": "bio_field_charts",
+          "hierarchy_score_0_5": 0.0,
+          "bucket_alignment": 0.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q010",
+          "bucket_focus": "bio_field_charts",
+          "hierarchy_score_0_5": 0.0,
+          "bucket_alignment": 0.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q011",
+          "bucket_focus": "interpretation_maps",
+          "hierarchy_score_0_5": 0.0,
+          "bucket_alignment": 0.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q012",
+          "bucket_focus": "interpretation_maps",
+          "hierarchy_score_0_5": 0.0,
+          "bucket_alignment": 0.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q013",
+          "bucket_focus": "interpretation_maps",
+          "hierarchy_score_0_5": 0.0,
+          "bucket_alignment": 0.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q014",
+          "bucket_focus": "interpretation_maps",
+          "hierarchy_score_0_5": 0.0,
+          "bucket_alignment": 0.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q015",
+          "bucket_focus": "interpretation_maps",
+          "hierarchy_score_0_5": 0.0,
+          "bucket_alignment": 0.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q016",
+          "bucket_focus": "interpretation_maps",
+          "hierarchy_score_0_5": 0.0,
+          "bucket_alignment": 0.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q017",
+          "bucket_focus": "interpretation_maps",
+          "hierarchy_score_0_5": 0.0,
+          "bucket_alignment": 0.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q018",
+          "bucket_focus": "interpretation_maps",
+          "hierarchy_score_0_5": 0.0,
+          "bucket_alignment": 0.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q019",
+          "bucket_focus": "interpretation_maps",
+          "hierarchy_score_0_5": 0.0,
+          "bucket_alignment": 0.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q020",
+          "bucket_focus": "interpretation_maps",
+          "hierarchy_score_0_5": 0.0,
+          "bucket_alignment": 0.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q021",
+          "bucket_focus": "cross_integration_histories",
+          "hierarchy_score_0_5": 0.0,
+          "bucket_alignment": 0.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q022",
+          "bucket_focus": "cross_integration_histories",
+          "hierarchy_score_0_5": 0.0,
+          "bucket_alignment": 0.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q023",
+          "bucket_focus": "cross_integration_histories",
+          "hierarchy_score_0_5": 0.0,
+          "bucket_alignment": 0.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q024",
+          "bucket_focus": "cross_integration_histories",
+          "hierarchy_score_0_5": 0.0,
+          "bucket_alignment": 0.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q025",
+          "bucket_focus": "cross_integration_histories",
+          "hierarchy_score_0_5": 0.0,
+          "bucket_alignment": 0.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q026",
+          "bucket_focus": "cross_integration_histories",
+          "hierarchy_score_0_5": 0.0,
+          "bucket_alignment": 0.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q027",
+          "bucket_focus": "cross_integration_histories",
+          "hierarchy_score_0_5": 0.0,
+          "bucket_alignment": 0.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q028",
+          "bucket_focus": "cross_integration_histories",
+          "hierarchy_score_0_5": 0.0,
+          "bucket_alignment": 0.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q029",
+          "bucket_focus": "cross_integration_histories",
+          "hierarchy_score_0_5": 0.0,
+          "bucket_alignment": 0.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q030",
+          "bucket_focus": "cross_integration_histories",
+          "hierarchy_score_0_5": 0.0,
+          "bucket_alignment": 0.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "lane": "model_b",
+      "query_count": 30,
+      "mean_hierarchy_score_0_5": 2.7575,
+      "bucket_mean_scores": {
+        "bio_field_charts": 3.775,
+        "interpretation_maps": 2.6475,
+        "cross_integration_histories": 1.85
+      },
+      "per_query": [
+        {
+          "query_id": "Q001",
+          "bucket_focus": "bio_field_charts",
+          "hierarchy_score_0_5": 4.25,
+          "bucket_alignment": 1.0,
+          "neighbor_hit_ratio": 0.5,
+          "parent_hit_ratio": 1.0
+        },
+        {
+          "query_id": "Q002",
+          "bucket_focus": "bio_field_charts",
+          "hierarchy_score_0_5": 4.0,
+          "bucket_alignment": 1.0,
+          "neighbor_hit_ratio": 0.3333,
+          "parent_hit_ratio": 1.0
+        },
+        {
+          "query_id": "Q003",
+          "bucket_focus": "bio_field_charts",
+          "hierarchy_score_0_5": 3.875,
+          "bucket_alignment": 1.0,
+          "neighbor_hit_ratio": 0.25,
+          "parent_hit_ratio": 1.0
+        },
+        {
+          "query_id": "Q004",
+          "bucket_focus": "bio_field_charts",
+          "hierarchy_score_0_5": 3.875,
+          "bucket_alignment": 1.0,
+          "neighbor_hit_ratio": 0.25,
+          "parent_hit_ratio": 1.0
+        },
+        {
+          "query_id": "Q005",
+          "bucket_focus": "bio_field_charts",
+          "hierarchy_score_0_5": 3.875,
+          "bucket_alignment": 1.0,
+          "neighbor_hit_ratio": 0.25,
+          "parent_hit_ratio": 1.0
+        },
+        {
+          "query_id": "Q006",
+          "bucket_focus": "bio_field_charts",
+          "hierarchy_score_0_5": 3.875,
+          "bucket_alignment": 1.0,
+          "neighbor_hit_ratio": 0.25,
+          "parent_hit_ratio": 1.0
+        },
+        {
+          "query_id": "Q007",
+          "bucket_focus": "bio_field_charts",
+          "hierarchy_score_0_5": 3.5,
+          "bucket_alignment": 1.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 1.0
+        },
+        {
+          "query_id": "Q008",
+          "bucket_focus": "bio_field_charts",
+          "hierarchy_score_0_5": 3.5,
+          "bucket_alignment": 1.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 1.0
+        },
+        {
+          "query_id": "Q009",
+          "bucket_focus": "bio_field_charts",
+          "hierarchy_score_0_5": 3.5,
+          "bucket_alignment": 1.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 1.0
+        },
+        {
+          "query_id": "Q010",
+          "bucket_focus": "bio_field_charts",
+          "hierarchy_score_0_5": 3.5,
+          "bucket_alignment": 1.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 1.0
+        },
+        {
+          "query_id": "Q011",
+          "bucket_focus": "interpretation_maps",
+          "hierarchy_score_0_5": 1.45,
+          "bucket_alignment": 0.2,
+          "neighbor_hit_ratio": 0.5,
+          "parent_hit_ratio": 0.2
+        },
+        {
+          "query_id": "Q012",
+          "bucket_focus": "interpretation_maps",
+          "hierarchy_score_0_5": 3.2,
+          "bucket_alignment": 1.0,
+          "neighbor_hit_ratio": 0.3333,
+          "parent_hit_ratio": 0.2
+        },
+        {
+          "query_id": "Q013",
+          "bucket_focus": "interpretation_maps",
+          "hierarchy_score_0_5": 3.075,
+          "bucket_alignment": 1.0,
+          "neighbor_hit_ratio": 0.25,
+          "parent_hit_ratio": 0.2
+        },
+        {
+          "query_id": "Q014",
+          "bucket_focus": "interpretation_maps",
+          "hierarchy_score_0_5": 3.075,
+          "bucket_alignment": 1.0,
+          "neighbor_hit_ratio": 0.25,
+          "parent_hit_ratio": 0.2
+        },
+        {
+          "query_id": "Q015",
+          "bucket_focus": "interpretation_maps",
+          "hierarchy_score_0_5": 3.175,
+          "bucket_alignment": 1.0,
+          "neighbor_hit_ratio": 0.25,
+          "parent_hit_ratio": 0.3
+        },
+        {
+          "query_id": "Q016",
+          "bucket_focus": "interpretation_maps",
+          "hierarchy_score_0_5": 2.5,
+          "bucket_alignment": 1.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q017",
+          "bucket_focus": "interpretation_maps",
+          "hierarchy_score_0_5": 2.5,
+          "bucket_alignment": 1.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q018",
+          "bucket_focus": "interpretation_maps",
+          "hierarchy_score_0_5": 2.5,
+          "bucket_alignment": 1.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q019",
+          "bucket_focus": "interpretation_maps",
+          "hierarchy_score_0_5": 2.5,
+          "bucket_alignment": 1.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q020",
+          "bucket_focus": "interpretation_maps",
+          "hierarchy_score_0_5": 2.5,
+          "bucket_alignment": 1.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q021",
+          "bucket_focus": "cross_integration_histories",
+          "hierarchy_score_0_5": 1.5,
+          "bucket_alignment": 0.6,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q022",
+          "bucket_focus": "cross_integration_histories",
+          "hierarchy_score_0_5": 2.25,
+          "bucket_alignment": 0.9,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q023",
+          "bucket_focus": "cross_integration_histories",
+          "hierarchy_score_0_5": 2.0,
+          "bucket_alignment": 0.8,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q024",
+          "bucket_focus": "cross_integration_histories",
+          "hierarchy_score_0_5": 2.25,
+          "bucket_alignment": 0.9,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q025",
+          "bucket_focus": "cross_integration_histories",
+          "hierarchy_score_0_5": 0.5,
+          "bucket_alignment": 0.2,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q026",
+          "bucket_focus": "cross_integration_histories",
+          "hierarchy_score_0_5": 0.5,
+          "bucket_alignment": 0.2,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q027",
+          "bucket_focus": "cross_integration_histories",
+          "hierarchy_score_0_5": 2.25,
+          "bucket_alignment": 0.9,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q028",
+          "bucket_focus": "cross_integration_histories",
+          "hierarchy_score_0_5": 2.5,
+          "bucket_alignment": 1.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q029",
+          "bucket_focus": "cross_integration_histories",
+          "hierarchy_score_0_5": 2.25,
+          "bucket_alignment": 0.9,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q030",
+          "bucket_focus": "cross_integration_histories",
+          "hierarchy_score_0_5": 2.5,
+          "bucket_alignment": 1.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "lane": "multimodal",
+      "query_count": 30,
+      "mean_hierarchy_score_0_5": 1.2433,
+      "bucket_mean_scores": {
+        "bio_field_charts": 2.97,
+        "interpretation_maps": 0.76,
+        "cross_integration_histories": 0.0
+      },
+      "per_query": [
+        {
+          "query_id": "Q001",
+          "bucket_focus": "bio_field_charts",
+          "hierarchy_score_0_5": 2.8,
+          "bucket_alignment": 0.8,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.8
+        },
+        {
+          "query_id": "Q002",
+          "bucket_focus": "bio_field_charts",
+          "hierarchy_score_0_5": 3.3,
+          "bucket_alignment": 0.8,
+          "neighbor_hit_ratio": 0.3333,
+          "parent_hit_ratio": 0.8
+        },
+        {
+          "query_id": "Q003",
+          "bucket_focus": "bio_field_charts",
+          "hierarchy_score_0_5": 3.175,
+          "bucket_alignment": 0.8,
+          "neighbor_hit_ratio": 0.25,
+          "parent_hit_ratio": 0.8
+        },
+        {
+          "query_id": "Q004",
+          "bucket_focus": "bio_field_charts",
+          "hierarchy_score_0_5": 2.8,
+          "bucket_alignment": 0.8,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.8
+        },
+        {
+          "query_id": "Q005",
+          "bucket_focus": "bio_field_charts",
+          "hierarchy_score_0_5": 2.825,
+          "bucket_alignment": 0.7,
+          "neighbor_hit_ratio": 0.25,
+          "parent_hit_ratio": 0.7
+        },
+        {
+          "query_id": "Q006",
+          "bucket_focus": "bio_field_charts",
+          "hierarchy_score_0_5": 3.175,
+          "bucket_alignment": 0.8,
+          "neighbor_hit_ratio": 0.25,
+          "parent_hit_ratio": 0.8
+        },
+        {
+          "query_id": "Q007",
+          "bucket_focus": "bio_field_charts",
+          "hierarchy_score_0_5": 2.8,
+          "bucket_alignment": 0.8,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.8
+        },
+        {
+          "query_id": "Q008",
+          "bucket_focus": "bio_field_charts",
+          "hierarchy_score_0_5": 2.8,
+          "bucket_alignment": 0.8,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.8
+        },
+        {
+          "query_id": "Q009",
+          "bucket_focus": "bio_field_charts",
+          "hierarchy_score_0_5": 3.2,
+          "bucket_alignment": 0.7,
+          "neighbor_hit_ratio": 0.5,
+          "parent_hit_ratio": 0.7
+        },
+        {
+          "query_id": "Q010",
+          "bucket_focus": "bio_field_charts",
+          "hierarchy_score_0_5": 2.825,
+          "bucket_alignment": 0.7,
+          "neighbor_hit_ratio": 0.25,
+          "parent_hit_ratio": 0.7
+        },
+        {
+          "query_id": "Q011",
+          "bucket_focus": "interpretation_maps",
+          "hierarchy_score_0_5": 1.75,
+          "bucket_alignment": 0.7,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q012",
+          "bucket_focus": "interpretation_maps",
+          "hierarchy_score_0_5": 0.5,
+          "bucket_alignment": 0.2,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q013",
+          "bucket_focus": "interpretation_maps",
+          "hierarchy_score_0_5": 0.5,
+          "bucket_alignment": 0.2,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q014",
+          "bucket_focus": "interpretation_maps",
+          "hierarchy_score_0_5": 0.875,
+          "bucket_alignment": 0.2,
+          "neighbor_hit_ratio": 0.25,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q015",
+          "bucket_focus": "interpretation_maps",
+          "hierarchy_score_0_5": 1.475,
+          "bucket_alignment": 0.4,
+          "neighbor_hit_ratio": 0.25,
+          "parent_hit_ratio": 0.1
+        },
+        {
+          "query_id": "Q016",
+          "bucket_focus": "interpretation_maps",
+          "hierarchy_score_0_5": 0.5,
+          "bucket_alignment": 0.2,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q017",
+          "bucket_focus": "interpretation_maps",
+          "hierarchy_score_0_5": 0.5,
+          "bucket_alignment": 0.2,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q018",
+          "bucket_focus": "interpretation_maps",
+          "hierarchy_score_0_5": 0.5,
+          "bucket_alignment": 0.2,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q019",
+          "bucket_focus": "interpretation_maps",
+          "hierarchy_score_0_5": 0.5,
+          "bucket_alignment": 0.2,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q020",
+          "bucket_focus": "interpretation_maps",
+          "hierarchy_score_0_5": 0.5,
+          "bucket_alignment": 0.2,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q021",
+          "bucket_focus": "cross_integration_histories",
+          "hierarchy_score_0_5": 0.0,
+          "bucket_alignment": 0.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q022",
+          "bucket_focus": "cross_integration_histories",
+          "hierarchy_score_0_5": 0.0,
+          "bucket_alignment": 0.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q023",
+          "bucket_focus": "cross_integration_histories",
+          "hierarchy_score_0_5": 0.0,
+          "bucket_alignment": 0.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q024",
+          "bucket_focus": "cross_integration_histories",
+          "hierarchy_score_0_5": 0.0,
+          "bucket_alignment": 0.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q025",
+          "bucket_focus": "cross_integration_histories",
+          "hierarchy_score_0_5": 0.0,
+          "bucket_alignment": 0.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q026",
+          "bucket_focus": "cross_integration_histories",
+          "hierarchy_score_0_5": 0.0,
+          "bucket_alignment": 0.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q027",
+          "bucket_focus": "cross_integration_histories",
+          "hierarchy_score_0_5": 0.0,
+          "bucket_alignment": 0.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q028",
+          "bucket_focus": "cross_integration_histories",
+          "hierarchy_score_0_5": 0.0,
+          "bucket_alignment": 0.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q029",
+          "bucket_focus": "cross_integration_histories",
+          "hierarchy_score_0_5": 0.0,
+          "bucket_alignment": 0.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        },
+        {
+          "query_id": "Q030",
+          "bucket_focus": "cross_integration_histories",
+          "hierarchy_score_0_5": 0.0,
+          "bucket_alignment": 0.0,
+          "neighbor_hit_ratio": 0.0,
+          "parent_hit_ratio": 0.0
+        }
+      ]
+    }
+  ]
+}

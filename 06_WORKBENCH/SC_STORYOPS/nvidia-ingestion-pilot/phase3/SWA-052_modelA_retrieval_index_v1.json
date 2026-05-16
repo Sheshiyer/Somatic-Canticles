@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-05-16T01:52:07.475803+00:00",
+  "task_id": "SWA-052",
+  "model_lane": "baai/bge-m3",
+  "status": "blocked",
+  "row_count": 100,
+  "success_count": 0,
+  "fail_count": 100,
+  "vector_dim": null,
+  "vector_file": null,
+  "top_error": "Something went wrong with the request.",
+  "reason": "No successful model A vectors available for index build.",
+  "source_inputs": [
+    "phase3/SWA-046_bge_m3_input_set_v1.jsonl",
+    "phase3/SWA-049_bge_m3_smoke_results_full_text_v1.json"
+  ]
+}

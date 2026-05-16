@@ -1,0 +1,2259 @@
+{
+  "generated_at": "2026-05-16T02:04:58.264695+00:00",
+  "task_id": "SWA-057",
+  "query_model": "nvidia/llama-nemotron-embed-vl-1b-v2",
+  "index_model": "nvidia/llama-nemotron-embed-vl-1b-v2",
+  "row_count": 30,
+  "results": [
+    {
+      "query_id": "Q001",
+      "bucket_focus": "bio_field_charts",
+      "anchor_node_id": "NODE-001",
+      "expected_node_ids": [
+        "NODE-001",
+        "NODE-002",
+        "NODE-003"
+      ],
+      "query_latency_ms": 514.41,
+      "top10": [
+        {
+          "node_id": "NODE-021",
+          "bucket_type": "bio_field_charts",
+          "score": 0.239206,
+          "provenance_ref": "prov:f587fddfea92"
+        },
+        {
+          "node_id": "NODE-041",
+          "bucket_type": "interpretation_maps",
+          "score": 0.21932,
+          "provenance_ref": "prov:8333a7aad71a"
+        },
+        {
+          "node_id": "NODE-030",
+          "bucket_type": "bio_field_charts",
+          "score": 0.217811,
+          "provenance_ref": "prov:53450091ec55"
+        },
+        {
+          "node_id": "NODE-017",
+          "bucket_type": "bio_field_charts",
+          "score": 0.216681,
+          "provenance_ref": "prov:32f08e66f85c"
+        },
+        {
+          "node_id": "NODE-012",
+          "bucket_type": "bio_field_charts",
+          "score": 0.214846,
+          "provenance_ref": "prov:575ae31d4811"
+        },
+        {
+          "node_id": "NODE-015",
+          "bucket_type": "bio_field_charts",
+          "score": 0.213024,
+          "provenance_ref": "prov:94053ae055b5"
+        },
+        {
+          "node_id": "NODE-032",
+          "bucket_type": "bio_field_charts",
+          "score": 0.211432,
+          "provenance_ref": "prov:bac9e17d0869"
+        },
+        {
+          "node_id": "NODE-011",
+          "bucket_type": "bio_field_charts",
+          "score": 0.207148,
+          "provenance_ref": "prov:36e086ee7472"
+        },
+        {
+          "node_id": "NODE-004",
+          "bucket_type": "bio_field_charts",
+          "score": 0.198767,
+          "provenance_ref": "prov:52a4066db1c2"
+        },
+        {
+          "node_id": "NODE-055",
+          "bucket_type": "interpretation_maps",
+          "score": 0.198275,
+          "provenance_ref": "prov:8bc6eac91f3f"
+        }
+      ],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "ok"
+    },
+    {
+      "query_id": "Q002",
+      "bucket_focus": "bio_field_charts",
+      "anchor_node_id": "NODE-002",
+      "expected_node_ids": [
+        "NODE-002",
+        "NODE-001",
+        "NODE-003"
+      ],
+      "query_latency_ms": 525.37,
+      "top10": [
+        {
+          "node_id": "NODE-041",
+          "bucket_type": "interpretation_maps",
+          "score": 0.208257,
+          "provenance_ref": "prov:8333a7aad71a"
+        },
+        {
+          "node_id": "NODE-004",
+          "bucket_type": "bio_field_charts",
+          "score": 0.196736,
+          "provenance_ref": "prov:52a4066db1c2"
+        },
+        {
+          "node_id": "NODE-021",
+          "bucket_type": "bio_field_charts",
+          "score": 0.193472,
+          "provenance_ref": "prov:f587fddfea92"
+        },
+        {
+          "node_id": "NODE-011",
+          "bucket_type": "bio_field_charts",
+          "score": 0.179868,
+          "provenance_ref": "prov:36e086ee7472"
+        },
+        {
+          "node_id": "NODE-017",
+          "bucket_type": "bio_field_charts",
+          "score": 0.173934,
+          "provenance_ref": "prov:32f08e66f85c"
+        },
+        {
+          "node_id": "NODE-030",
+          "bucket_type": "bio_field_charts",
+          "score": 0.161531,
+          "provenance_ref": "prov:53450091ec55"
+        },
+        {
+          "node_id": "NODE-012",
+          "bucket_type": "bio_field_charts",
+          "score": 0.161504,
+          "provenance_ref": "prov:575ae31d4811"
+        },
+        {
+          "node_id": "NODE-044",
+          "bucket_type": "interpretation_maps",
+          "score": 0.160196,
+          "provenance_ref": "prov:d58f617ceec1"
+        },
+        {
+          "node_id": "NODE-015",
+          "bucket_type": "bio_field_charts",
+          "score": 0.160114,
+          "provenance_ref": "prov:94053ae055b5"
+        },
+        {
+          "node_id": "NODE-032",
+          "bucket_type": "bio_field_charts",
+          "score": 0.156947,
+          "provenance_ref": "prov:bac9e17d0869"
+        }
+      ],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "ok"
+    },
+    {
+      "query_id": "Q003",
+      "bucket_focus": "bio_field_charts",
+      "anchor_node_id": "NODE-003",
+      "expected_node_ids": [
+        "NODE-003",
+        "NODE-001",
+        "NODE-002"
+      ],
+      "query_latency_ms": 395.14,
+      "top10": [
+        {
+          "node_id": "NODE-041",
+          "bucket_type": "interpretation_maps",
+          "score": 0.20689,
+          "provenance_ref": "prov:8333a7aad71a"
+        },
+        {
+          "node_id": "NODE-011",
+          "bucket_type": "bio_field_charts",
+          "score": 0.187947,
+          "provenance_ref": "prov:36e086ee7472"
+        },
+        {
+          "node_id": "NODE-021",
+          "bucket_type": "bio_field_charts",
+          "score": 0.187662,
+          "provenance_ref": "prov:f587fddfea92"
+        },
+        {
+          "node_id": "NODE-004",
+          "bucket_type": "bio_field_charts",
+          "score": 0.184096,
+          "provenance_ref": "prov:52a4066db1c2"
+        },
+        {
+          "node_id": "NODE-017",
+          "bucket_type": "bio_field_charts",
+          "score": 0.1646,
+          "provenance_ref": "prov:32f08e66f85c"
+        },
+        {
+          "node_id": "NODE-044",
+          "bucket_type": "interpretation_maps",
+          "score": 0.163221,
+          "provenance_ref": "prov:d58f617ceec1"
+        },
+        {
+          "node_id": "NODE-030",
+          "bucket_type": "bio_field_charts",
+          "score": 0.158375,
+          "provenance_ref": "prov:53450091ec55"
+        },
+        {
+          "node_id": "NODE-015",
+          "bucket_type": "bio_field_charts",
+          "score": 0.155999,
+          "provenance_ref": "prov:94053ae055b5"
+        },
+        {
+          "node_id": "NODE-032",
+          "bucket_type": "bio_field_charts",
+          "score": 0.154744,
+          "provenance_ref": "prov:bac9e17d0869"
+        },
+        {
+          "node_id": "NODE-012",
+          "bucket_type": "bio_field_charts",
+          "score": 0.152334,
+          "provenance_ref": "prov:575ae31d4811"
+        }
+      ],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "ok"
+    },
+    {
+      "query_id": "Q004",
+      "bucket_focus": "bio_field_charts",
+      "anchor_node_id": "NODE-004",
+      "expected_node_ids": [
+        "NODE-004",
+        "NODE-002",
+        "NODE-003"
+      ],
+      "query_latency_ms": 564.46,
+      "top10": [
+        {
+          "node_id": "NODE-021",
+          "bucket_type": "bio_field_charts",
+          "score": 0.185337,
+          "provenance_ref": "prov:f587fddfea92"
+        },
+        {
+          "node_id": "NODE-041",
+          "bucket_type": "interpretation_maps",
+          "score": 0.184224,
+          "provenance_ref": "prov:8333a7aad71a"
+        },
+        {
+          "node_id": "NODE-011",
+          "bucket_type": "bio_field_charts",
+          "score": 0.168461,
+          "provenance_ref": "prov:36e086ee7472"
+        },
+        {
+          "node_id": "NODE-017",
+          "bucket_type": "bio_field_charts",
+          "score": 0.163683,
+          "provenance_ref": "prov:32f08e66f85c"
+        },
+        {
+          "node_id": "NODE-004",
+          "bucket_type": "bio_field_charts",
+          "score": 0.163652,
+          "provenance_ref": "prov:52a4066db1c2"
+        },
+        {
+          "node_id": "NODE-032",
+          "bucket_type": "bio_field_charts",
+          "score": 0.155635,
+          "provenance_ref": "prov:bac9e17d0869"
+        },
+        {
+          "node_id": "NODE-015",
+          "bucket_type": "bio_field_charts",
+          "score": 0.154813,
+          "provenance_ref": "prov:94053ae055b5"
+        },
+        {
+          "node_id": "NODE-012",
+          "bucket_type": "bio_field_charts",
+          "score": 0.153217,
+          "provenance_ref": "prov:575ae31d4811"
+        },
+        {
+          "node_id": "NODE-030",
+          "bucket_type": "bio_field_charts",
+          "score": 0.148611,
+          "provenance_ref": "prov:53450091ec55"
+        },
+        {
+          "node_id": "NODE-055",
+          "bucket_type": "interpretation_maps",
+          "score": 0.147339,
+          "provenance_ref": "prov:8bc6eac91f3f"
+        }
+      ],
+      "hit_at_10": 1,
+      "match_count": 1,
+      "status": "ok"
+    },
+    {
+      "query_id": "Q005",
+      "bucket_focus": "bio_field_charts",
+      "anchor_node_id": "NODE-005",
+      "expected_node_ids": [
+        "NODE-005",
+        "NODE-003",
+        "NODE-004"
+      ],
+      "query_latency_ms": 524.96,
+      "top10": [
+        {
+          "node_id": "NODE-010",
+          "bucket_type": "bio_field_charts",
+          "score": 0.286893,
+          "provenance_ref": "prov:ba96b1f339c9"
+        },
+        {
+          "node_id": "NODE-004",
+          "bucket_type": "bio_field_charts",
+          "score": 0.272,
+          "provenance_ref": "prov:52a4066db1c2"
+        },
+        {
+          "node_id": "NODE-011",
+          "bucket_type": "bio_field_charts",
+          "score": 0.260983,
+          "provenance_ref": "prov:36e086ee7472"
+        },
+        {
+          "node_id": "NODE-041",
+          "bucket_type": "interpretation_maps",
+          "score": 0.244018,
+          "provenance_ref": "prov:8333a7aad71a"
+        },
+        {
+          "node_id": "NODE-005",
+          "bucket_type": "bio_field_charts",
+          "score": 0.237264,
+          "provenance_ref": "prov:9e0ec464e35e"
+        },
+        {
+          "node_id": "NODE-019",
+          "bucket_type": "bio_field_charts",
+          "score": 0.233354,
+          "provenance_ref": "prov:e968f74142bf"
+        },
+        {
+          "node_id": "NODE-040",
+          "bucket_type": "interpretation_maps",
+          "score": 0.229194,
+          "provenance_ref": "prov:88cfe9b9507a"
+        },
+        {
+          "node_id": "NODE-043",
+          "bucket_type": "interpretation_maps",
+          "score": 0.218528,
+          "provenance_ref": "prov:dc642ab8fbfb"
+        },
+        {
+          "node_id": "NODE-024",
+          "bucket_type": "bio_field_charts",
+          "score": 0.218014,
+          "provenance_ref": "prov:b0367f3c016b"
+        },
+        {
+          "node_id": "NODE-021",
+          "bucket_type": "bio_field_charts",
+          "score": 0.211346,
+          "provenance_ref": "prov:f587fddfea92"
+        }
+      ],
+      "hit_at_10": 1,
+      "match_count": 2,
+      "status": "ok"
+    },
+    {
+      "query_id": "Q006",
+      "bucket_focus": "bio_field_charts",
+      "anchor_node_id": "NODE-006",
+      "expected_node_ids": [
+        "NODE-006",
+        "NODE-004",
+        "NODE-005"
+      ],
+      "query_latency_ms": 393.72,
+      "top10": [
+        {
+          "node_id": "NODE-041",
+          "bucket_type": "interpretation_maps",
+          "score": 0.237749,
+          "provenance_ref": "prov:8333a7aad71a"
+        },
+        {
+          "node_id": "NODE-024",
+          "bucket_type": "bio_field_charts",
+          "score": 0.207976,
+          "provenance_ref": "prov:b0367f3c016b"
+        },
+        {
+          "node_id": "NODE-021",
+          "bucket_type": "bio_field_charts",
+          "score": 0.206085,
+          "provenance_ref": "prov:f587fddfea92"
+        },
+        {
+          "node_id": "NODE-011",
+          "bucket_type": "bio_field_charts",
+          "score": 0.199046,
+          "provenance_ref": "prov:36e086ee7472"
+        },
+        {
+          "node_id": "NODE-004",
+          "bucket_type": "bio_field_charts",
+          "score": 0.184735,
+          "provenance_ref": "prov:52a4066db1c2"
+        },
+        {
+          "node_id": "NODE-017",
+          "bucket_type": "bio_field_charts",
+          "score": 0.179742,
+          "provenance_ref": "prov:32f08e66f85c"
+        },
+        {
+          "node_id": "NODE-010",
+          "bucket_type": "bio_field_charts",
+          "score": 0.179258,
+          "provenance_ref": "prov:ba96b1f339c9"
+        },
+        {
+          "node_id": "NODE-044",
+          "bucket_type": "interpretation_maps",
+          "score": 0.177368,
+          "provenance_ref": "prov:d58f617ceec1"
+        },
+        {
+          "node_id": "NODE-030",
+          "bucket_type": "bio_field_charts",
+          "score": 0.177265,
+          "provenance_ref": "prov:53450091ec55"
+        },
+        {
+          "node_id": "NODE-015",
+          "bucket_type": "bio_field_charts",
+          "score": 0.171562,
+          "provenance_ref": "prov:94053ae055b5"
+        }
+      ],
+      "hit_at_10": 1,
+      "match_count": 1,
+      "status": "ok"
+    },
+    {
+      "query_id": "Q007",
+      "bucket_focus": "bio_field_charts",
+      "anchor_node_id": "NODE-007",
+      "expected_node_ids": [
+        "NODE-007",
+        "NODE-005",
+        "NODE-006"
+      ],
+      "query_latency_ms": 397.39,
+      "top10": [
+        {
+          "node_id": "NODE-041",
+          "bucket_type": "interpretation_maps",
+          "score": 0.195743,
+          "provenance_ref": "prov:8333a7aad71a"
+        },
+        {
+          "node_id": "NODE-011",
+          "bucket_type": "bio_field_charts",
+          "score": 0.18519,
+          "provenance_ref": "prov:36e086ee7472"
+        },
+        {
+          "node_id": "NODE-021",
+          "bucket_type": "bio_field_charts",
+          "score": 0.179612,
+          "provenance_ref": "prov:f587fddfea92"
+        },
+        {
+          "node_id": "NODE-004",
+          "bucket_type": "bio_field_charts",
+          "score": 0.168304,
+          "provenance_ref": "prov:52a4066db1c2"
+        },
+        {
+          "node_id": "NODE-017",
+          "bucket_type": "bio_field_charts",
+          "score": 0.15536,
+          "provenance_ref": "prov:32f08e66f85c"
+        },
+        {
+          "node_id": "NODE-015",
+          "bucket_type": "bio_field_charts",
+          "score": 0.150239,
+          "provenance_ref": "prov:94053ae055b5"
+        },
+        {
+          "node_id": "NODE-012",
+          "bucket_type": "bio_field_charts",
+          "score": 0.149474,
+          "provenance_ref": "prov:575ae31d4811"
+        },
+        {
+          "node_id": "NODE-032",
+          "bucket_type": "bio_field_charts",
+          "score": 0.147409,
+          "provenance_ref": "prov:bac9e17d0869"
+        },
+        {
+          "node_id": "NODE-044",
+          "bucket_type": "interpretation_maps",
+          "score": 0.145335,
+          "provenance_ref": "prov:d58f617ceec1"
+        },
+        {
+          "node_id": "NODE-030",
+          "bucket_type": "bio_field_charts",
+          "score": 0.141987,
+          "provenance_ref": "prov:53450091ec55"
+        }
+      ],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "ok"
+    },
+    {
+      "query_id": "Q008",
+      "bucket_focus": "bio_field_charts",
+      "anchor_node_id": "NODE-008",
+      "expected_node_ids": [
+        "NODE-008",
+        "NODE-006",
+        "NODE-007"
+      ],
+      "query_latency_ms": 400.22,
+      "top10": [
+        {
+          "node_id": "NODE-041",
+          "bucket_type": "interpretation_maps",
+          "score": 0.212502,
+          "provenance_ref": "prov:8333a7aad71a"
+        },
+        {
+          "node_id": "NODE-021",
+          "bucket_type": "bio_field_charts",
+          "score": 0.196646,
+          "provenance_ref": "prov:f587fddfea92"
+        },
+        {
+          "node_id": "NODE-004",
+          "bucket_type": "bio_field_charts",
+          "score": 0.187181,
+          "provenance_ref": "prov:52a4066db1c2"
+        },
+        {
+          "node_id": "NODE-011",
+          "bucket_type": "bio_field_charts",
+          "score": 0.178093,
+          "provenance_ref": "prov:36e086ee7472"
+        },
+        {
+          "node_id": "NODE-017",
+          "bucket_type": "bio_field_charts",
+          "score": 0.170433,
+          "provenance_ref": "prov:32f08e66f85c"
+        },
+        {
+          "node_id": "NODE-030",
+          "bucket_type": "bio_field_charts",
+          "score": 0.163309,
+          "provenance_ref": "prov:53450091ec55"
+        },
+        {
+          "node_id": "NODE-012",
+          "bucket_type": "bio_field_charts",
+          "score": 0.161964,
+          "provenance_ref": "prov:575ae31d4811"
+        },
+        {
+          "node_id": "NODE-015",
+          "bucket_type": "bio_field_charts",
+          "score": 0.160794,
+          "provenance_ref": "prov:94053ae055b5"
+        },
+        {
+          "node_id": "NODE-032",
+          "bucket_type": "bio_field_charts",
+          "score": 0.160672,
+          "provenance_ref": "prov:bac9e17d0869"
+        },
+        {
+          "node_id": "NODE-044",
+          "bucket_type": "interpretation_maps",
+          "score": 0.156381,
+          "provenance_ref": "prov:d58f617ceec1"
+        }
+      ],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "ok"
+    },
+    {
+      "query_id": "Q009",
+      "bucket_focus": "bio_field_charts",
+      "anchor_node_id": "NODE-009",
+      "expected_node_ids": [
+        "NODE-009",
+        "NODE-007",
+        "NODE-008"
+      ],
+      "query_latency_ms": 512.99,
+      "top10": [
+        {
+          "node_id": "NODE-041",
+          "bucket_type": "interpretation_maps",
+          "score": 0.198665,
+          "provenance_ref": "prov:8333a7aad71a"
+        },
+        {
+          "node_id": "NODE-021",
+          "bucket_type": "bio_field_charts",
+          "score": 0.188148,
+          "provenance_ref": "prov:f587fddfea92"
+        },
+        {
+          "node_id": "NODE-011",
+          "bucket_type": "bio_field_charts",
+          "score": 0.180297,
+          "provenance_ref": "prov:36e086ee7472"
+        },
+        {
+          "node_id": "NODE-004",
+          "bucket_type": "bio_field_charts",
+          "score": 0.179103,
+          "provenance_ref": "prov:52a4066db1c2"
+        },
+        {
+          "node_id": "NODE-017",
+          "bucket_type": "bio_field_charts",
+          "score": 0.163283,
+          "provenance_ref": "prov:32f08e66f85c"
+        },
+        {
+          "node_id": "NODE-015",
+          "bucket_type": "bio_field_charts",
+          "score": 0.158244,
+          "provenance_ref": "prov:94053ae055b5"
+        },
+        {
+          "node_id": "NODE-055",
+          "bucket_type": "interpretation_maps",
+          "score": 0.155996,
+          "provenance_ref": "prov:8bc6eac91f3f"
+        },
+        {
+          "node_id": "NODE-030",
+          "bucket_type": "bio_field_charts",
+          "score": 0.154459,
+          "provenance_ref": "prov:53450091ec55"
+        },
+        {
+          "node_id": "NODE-044",
+          "bucket_type": "interpretation_maps",
+          "score": 0.152619,
+          "provenance_ref": "prov:d58f617ceec1"
+        },
+        {
+          "node_id": "NODE-010",
+          "bucket_type": "bio_field_charts",
+          "score": 0.152366,
+          "provenance_ref": "prov:ba96b1f339c9"
+        }
+      ],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "ok"
+    },
+    {
+      "query_id": "Q010",
+      "bucket_focus": "bio_field_charts",
+      "anchor_node_id": "NODE-010",
+      "expected_node_ids": [
+        "NODE-010",
+        "NODE-008",
+        "NODE-009"
+      ],
+      "query_latency_ms": 522.02,
+      "top10": [
+        {
+          "node_id": "NODE-011",
+          "bucket_type": "bio_field_charts",
+          "score": 0.293478,
+          "provenance_ref": "prov:36e086ee7472"
+        },
+        {
+          "node_id": "NODE-010",
+          "bucket_type": "bio_field_charts",
+          "score": 0.291905,
+          "provenance_ref": "prov:ba96b1f339c9"
+        },
+        {
+          "node_id": "NODE-004",
+          "bucket_type": "bio_field_charts",
+          "score": 0.276937,
+          "provenance_ref": "prov:52a4066db1c2"
+        },
+        {
+          "node_id": "NODE-019",
+          "bucket_type": "bio_field_charts",
+          "score": 0.256452,
+          "provenance_ref": "prov:e968f74142bf"
+        },
+        {
+          "node_id": "NODE-041",
+          "bucket_type": "interpretation_maps",
+          "score": 0.248073,
+          "provenance_ref": "prov:8333a7aad71a"
+        },
+        {
+          "node_id": "NODE-005",
+          "bucket_type": "bio_field_charts",
+          "score": 0.235321,
+          "provenance_ref": "prov:9e0ec464e35e"
+        },
+        {
+          "node_id": "NODE-040",
+          "bucket_type": "interpretation_maps",
+          "score": 0.227714,
+          "provenance_ref": "prov:88cfe9b9507a"
+        },
+        {
+          "node_id": "NODE-024",
+          "bucket_type": "bio_field_charts",
+          "score": 0.220973,
+          "provenance_ref": "prov:b0367f3c016b"
+        },
+        {
+          "node_id": "NODE-030",
+          "bucket_type": "bio_field_charts",
+          "score": 0.220336,
+          "provenance_ref": "prov:53450091ec55"
+        },
+        {
+          "node_id": "NODE-043",
+          "bucket_type": "interpretation_maps",
+          "score": 0.212319,
+          "provenance_ref": "prov:dc642ab8fbfb"
+        }
+      ],
+      "hit_at_10": 1,
+      "match_count": 1,
+      "status": "ok"
+    },
+    {
+      "query_id": "Q011",
+      "bucket_focus": "interpretation_maps",
+      "anchor_node_id": "NODE-036",
+      "expected_node_ids": [
+        "NODE-036",
+        "NODE-037",
+        "NODE-038"
+      ],
+      "query_latency_ms": 523.46,
+      "top10": [
+        {
+          "node_id": "NODE-052",
+          "bucket_type": "interpretation_maps",
+          "score": 0.236207,
+          "provenance_ref": "prov:61394345b56e"
+        },
+        {
+          "node_id": "NODE-043",
+          "bucket_type": "interpretation_maps",
+          "score": 0.228325,
+          "provenance_ref": "prov:dc642ab8fbfb"
+        },
+        {
+          "node_id": "NODE-011",
+          "bucket_type": "bio_field_charts",
+          "score": 0.224758,
+          "provenance_ref": "prov:36e086ee7472"
+        },
+        {
+          "node_id": "NODE-044",
+          "bucket_type": "interpretation_maps",
+          "score": 0.223831,
+          "provenance_ref": "prov:d58f617ceec1"
+        },
+        {
+          "node_id": "NODE-053",
+          "bucket_type": "interpretation_maps",
+          "score": 0.222367,
+          "provenance_ref": "prov:dd0e52d034c1"
+        },
+        {
+          "node_id": "NODE-041",
+          "bucket_type": "interpretation_maps",
+          "score": 0.220516,
+          "provenance_ref": "prov:8333a7aad71a"
+        },
+        {
+          "node_id": "NODE-032",
+          "bucket_type": "bio_field_charts",
+          "score": 0.21508,
+          "provenance_ref": "prov:bac9e17d0869"
+        },
+        {
+          "node_id": "NODE-047",
+          "bucket_type": "interpretation_maps",
+          "score": 0.21229,
+          "provenance_ref": "prov:6976b1c75fcc"
+        },
+        {
+          "node_id": "NODE-021",
+          "bucket_type": "bio_field_charts",
+          "score": 0.212267,
+          "provenance_ref": "prov:f587fddfea92"
+        },
+        {
+          "node_id": "NODE-069",
+          "bucket_type": "interpretation_maps",
+          "score": 0.20672,
+          "provenance_ref": "prov:410b2e9c6d7f"
+        }
+      ],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "ok"
+    },
+    {
+      "query_id": "Q012",
+      "bucket_focus": "interpretation_maps",
+      "anchor_node_id": "NODE-037",
+      "expected_node_ids": [
+        "NODE-037",
+        "NODE-036",
+        "NODE-038"
+      ],
+      "query_latency_ms": 526.27,
+      "top10": [
+        {
+          "node_id": "NODE-021",
+          "bucket_type": "bio_field_charts",
+          "score": 0.2244,
+          "provenance_ref": "prov:f587fddfea92"
+        },
+        {
+          "node_id": "NODE-004",
+          "bucket_type": "bio_field_charts",
+          "score": 0.211443,
+          "provenance_ref": "prov:52a4066db1c2"
+        },
+        {
+          "node_id": "NODE-041",
+          "bucket_type": "interpretation_maps",
+          "score": 0.210333,
+          "provenance_ref": "prov:8333a7aad71a"
+        },
+        {
+          "node_id": "NODE-017",
+          "bucket_type": "bio_field_charts",
+          "score": 0.203278,
+          "provenance_ref": "prov:32f08e66f85c"
+        },
+        {
+          "node_id": "NODE-012",
+          "bucket_type": "bio_field_charts",
+          "score": 0.198113,
+          "provenance_ref": "prov:575ae31d4811"
+        },
+        {
+          "node_id": "NODE-015",
+          "bucket_type": "bio_field_charts",
+          "score": 0.193436,
+          "provenance_ref": "prov:94053ae055b5"
+        },
+        {
+          "node_id": "NODE-011",
+          "bucket_type": "bio_field_charts",
+          "score": 0.192294,
+          "provenance_ref": "prov:36e086ee7472"
+        },
+        {
+          "node_id": "NODE-030",
+          "bucket_type": "bio_field_charts",
+          "score": 0.188822,
+          "provenance_ref": "prov:53450091ec55"
+        },
+        {
+          "node_id": "NODE-055",
+          "bucket_type": "interpretation_maps",
+          "score": 0.187165,
+          "provenance_ref": "prov:8bc6eac91f3f"
+        },
+        {
+          "node_id": "NODE-002",
+          "bucket_type": "bio_field_charts",
+          "score": 0.182838,
+          "provenance_ref": "prov:da92675b5e6b"
+        }
+      ],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "ok"
+    },
+    {
+      "query_id": "Q013",
+      "bucket_focus": "interpretation_maps",
+      "anchor_node_id": "NODE-038",
+      "expected_node_ids": [
+        "NODE-038",
+        "NODE-036",
+        "NODE-037"
+      ],
+      "query_latency_ms": 522.17,
+      "top10": [
+        {
+          "node_id": "NODE-021",
+          "bucket_type": "bio_field_charts",
+          "score": 0.218496,
+          "provenance_ref": "prov:f587fddfea92"
+        },
+        {
+          "node_id": "NODE-004",
+          "bucket_type": "bio_field_charts",
+          "score": 0.212412,
+          "provenance_ref": "prov:52a4066db1c2"
+        },
+        {
+          "node_id": "NODE-041",
+          "bucket_type": "interpretation_maps",
+          "score": 0.206977,
+          "provenance_ref": "prov:8333a7aad71a"
+        },
+        {
+          "node_id": "NODE-017",
+          "bucket_type": "bio_field_charts",
+          "score": 0.196755,
+          "provenance_ref": "prov:32f08e66f85c"
+        },
+        {
+          "node_id": "NODE-011",
+          "bucket_type": "bio_field_charts",
+          "score": 0.19612,
+          "provenance_ref": "prov:36e086ee7472"
+        },
+        {
+          "node_id": "NODE-012",
+          "bucket_type": "bio_field_charts",
+          "score": 0.189845,
+          "provenance_ref": "prov:575ae31d4811"
+        },
+        {
+          "node_id": "NODE-015",
+          "bucket_type": "bio_field_charts",
+          "score": 0.187231,
+          "provenance_ref": "prov:94053ae055b5"
+        },
+        {
+          "node_id": "NODE-055",
+          "bucket_type": "interpretation_maps",
+          "score": 0.183924,
+          "provenance_ref": "prov:8bc6eac91f3f"
+        },
+        {
+          "node_id": "NODE-030",
+          "bucket_type": "bio_field_charts",
+          "score": 0.183774,
+          "provenance_ref": "prov:53450091ec55"
+        },
+        {
+          "node_id": "NODE-002",
+          "bucket_type": "bio_field_charts",
+          "score": 0.178558,
+          "provenance_ref": "prov:da92675b5e6b"
+        }
+      ],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "ok"
+    },
+    {
+      "query_id": "Q014",
+      "bucket_focus": "interpretation_maps",
+      "anchor_node_id": "NODE-039",
+      "expected_node_ids": [
+        "NODE-039",
+        "NODE-037",
+        "NODE-038"
+      ],
+      "query_latency_ms": 393.96,
+      "top10": [
+        {
+          "node_id": "NODE-021",
+          "bucket_type": "bio_field_charts",
+          "score": 0.230637,
+          "provenance_ref": "prov:f587fddfea92"
+        },
+        {
+          "node_id": "NODE-041",
+          "bucket_type": "interpretation_maps",
+          "score": 0.214096,
+          "provenance_ref": "prov:8333a7aad71a"
+        },
+        {
+          "node_id": "NODE-004",
+          "bucket_type": "bio_field_charts",
+          "score": 0.211216,
+          "provenance_ref": "prov:52a4066db1c2"
+        },
+        {
+          "node_id": "NODE-017",
+          "bucket_type": "bio_field_charts",
+          "score": 0.205087,
+          "provenance_ref": "prov:32f08e66f85c"
+        },
+        {
+          "node_id": "NODE-012",
+          "bucket_type": "bio_field_charts",
+          "score": 0.200835,
+          "provenance_ref": "prov:575ae31d4811"
+        },
+        {
+          "node_id": "NODE-015",
+          "bucket_type": "bio_field_charts",
+          "score": 0.195383,
+          "provenance_ref": "prov:94053ae055b5"
+        },
+        {
+          "node_id": "NODE-030",
+          "bucket_type": "bio_field_charts",
+          "score": 0.192794,
+          "provenance_ref": "prov:53450091ec55"
+        },
+        {
+          "node_id": "NODE-011",
+          "bucket_type": "bio_field_charts",
+          "score": 0.192374,
+          "provenance_ref": "prov:36e086ee7472"
+        },
+        {
+          "node_id": "NODE-055",
+          "bucket_type": "interpretation_maps",
+          "score": 0.18804,
+          "provenance_ref": "prov:8bc6eac91f3f"
+        },
+        {
+          "node_id": "NODE-002",
+          "bucket_type": "bio_field_charts",
+          "score": 0.185409,
+          "provenance_ref": "prov:da92675b5e6b"
+        }
+      ],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "ok"
+    },
+    {
+      "query_id": "Q015",
+      "bucket_focus": "interpretation_maps",
+      "anchor_node_id": "NODE-040",
+      "expected_node_ids": [
+        "NODE-040",
+        "NODE-038",
+        "NODE-039"
+      ],
+      "query_latency_ms": 527.85,
+      "top10": [
+        {
+          "node_id": "NODE-004",
+          "bucket_type": "bio_field_charts",
+          "score": 0.203072,
+          "provenance_ref": "prov:52a4066db1c2"
+        },
+        {
+          "node_id": "NODE-011",
+          "bucket_type": "bio_field_charts",
+          "score": 0.182332,
+          "provenance_ref": "prov:36e086ee7472"
+        },
+        {
+          "node_id": "NODE-021",
+          "bucket_type": "bio_field_charts",
+          "score": 0.172826,
+          "provenance_ref": "prov:f587fddfea92"
+        },
+        {
+          "node_id": "NODE-041",
+          "bucket_type": "interpretation_maps",
+          "score": 0.16501,
+          "provenance_ref": "prov:8333a7aad71a"
+        },
+        {
+          "node_id": "NODE-040",
+          "bucket_type": "interpretation_maps",
+          "score": 0.159234,
+          "provenance_ref": "prov:88cfe9b9507a"
+        },
+        {
+          "node_id": "NODE-017",
+          "bucket_type": "bio_field_charts",
+          "score": 0.157206,
+          "provenance_ref": "prov:32f08e66f85c"
+        },
+        {
+          "node_id": "NODE-030",
+          "bucket_type": "bio_field_charts",
+          "score": 0.155704,
+          "provenance_ref": "prov:53450091ec55"
+        },
+        {
+          "node_id": "NODE-055",
+          "bucket_type": "interpretation_maps",
+          "score": 0.152149,
+          "provenance_ref": "prov:8bc6eac91f3f"
+        },
+        {
+          "node_id": "NODE-015",
+          "bucket_type": "bio_field_charts",
+          "score": 0.149627,
+          "provenance_ref": "prov:94053ae055b5"
+        },
+        {
+          "node_id": "NODE-052",
+          "bucket_type": "interpretation_maps",
+          "score": 0.148515,
+          "provenance_ref": "prov:61394345b56e"
+        }
+      ],
+      "hit_at_10": 1,
+      "match_count": 1,
+      "status": "ok"
+    },
+    {
+      "query_id": "Q016",
+      "bucket_focus": "interpretation_maps",
+      "anchor_node_id": "NODE-041",
+      "expected_node_ids": [
+        "NODE-041"
+      ],
+      "query_latency_ms": 523.98,
+      "top10": [
+        {
+          "node_id": "NODE-021",
+          "bucket_type": "bio_field_charts",
+          "score": 0.221426,
+          "provenance_ref": "prov:f587fddfea92"
+        },
+        {
+          "node_id": "NODE-004",
+          "bucket_type": "bio_field_charts",
+          "score": 0.21224,
+          "provenance_ref": "prov:52a4066db1c2"
+        },
+        {
+          "node_id": "NODE-041",
+          "bucket_type": "interpretation_maps",
+          "score": 0.204829,
+          "provenance_ref": "prov:8333a7aad71a"
+        },
+        {
+          "node_id": "NODE-017",
+          "bucket_type": "bio_field_charts",
+          "score": 0.197101,
+          "provenance_ref": "prov:32f08e66f85c"
+        },
+        {
+          "node_id": "NODE-012",
+          "bucket_type": "bio_field_charts",
+          "score": 0.189819,
+          "provenance_ref": "prov:575ae31d4811"
+        },
+        {
+          "node_id": "NODE-011",
+          "bucket_type": "bio_field_charts",
+          "score": 0.189677,
+          "provenance_ref": "prov:36e086ee7472"
+        },
+        {
+          "node_id": "NODE-015",
+          "bucket_type": "bio_field_charts",
+          "score": 0.187673,
+          "provenance_ref": "prov:94053ae055b5"
+        },
+        {
+          "node_id": "NODE-030",
+          "bucket_type": "bio_field_charts",
+          "score": 0.183644,
+          "provenance_ref": "prov:53450091ec55"
+        },
+        {
+          "node_id": "NODE-055",
+          "bucket_type": "interpretation_maps",
+          "score": 0.181563,
+          "provenance_ref": "prov:8bc6eac91f3f"
+        },
+        {
+          "node_id": "NODE-002",
+          "bucket_type": "bio_field_charts",
+          "score": 0.175654,
+          "provenance_ref": "prov:da92675b5e6b"
+        }
+      ],
+      "hit_at_10": 1,
+      "match_count": 1,
+      "status": "ok"
+    },
+    {
+      "query_id": "Q017",
+      "bucket_focus": "interpretation_maps",
+      "anchor_node_id": "NODE-042",
+      "expected_node_ids": [
+        "NODE-042"
+      ],
+      "query_latency_ms": 517.36,
+      "top10": [
+        {
+          "node_id": "NODE-021",
+          "bucket_type": "bio_field_charts",
+          "score": 0.224537,
+          "provenance_ref": "prov:f587fddfea92"
+        },
+        {
+          "node_id": "NODE-041",
+          "bucket_type": "interpretation_maps",
+          "score": 0.209554,
+          "provenance_ref": "prov:8333a7aad71a"
+        },
+        {
+          "node_id": "NODE-004",
+          "bucket_type": "bio_field_charts",
+          "score": 0.208342,
+          "provenance_ref": "prov:52a4066db1c2"
+        },
+        {
+          "node_id": "NODE-017",
+          "bucket_type": "bio_field_charts",
+          "score": 0.200437,
+          "provenance_ref": "prov:32f08e66f85c"
+        },
+        {
+          "node_id": "NODE-012",
+          "bucket_type": "bio_field_charts",
+          "score": 0.196498,
+          "provenance_ref": "prov:575ae31d4811"
+        },
+        {
+          "node_id": "NODE-015",
+          "bucket_type": "bio_field_charts",
+          "score": 0.193663,
+          "provenance_ref": "prov:94053ae055b5"
+        },
+        {
+          "node_id": "NODE-011",
+          "bucket_type": "bio_field_charts",
+          "score": 0.193389,
+          "provenance_ref": "prov:36e086ee7472"
+        },
+        {
+          "node_id": "NODE-030",
+          "bucket_type": "bio_field_charts",
+          "score": 0.186893,
+          "provenance_ref": "prov:53450091ec55"
+        },
+        {
+          "node_id": "NODE-055",
+          "bucket_type": "interpretation_maps",
+          "score": 0.185811,
+          "provenance_ref": "prov:8bc6eac91f3f"
+        },
+        {
+          "node_id": "NODE-002",
+          "bucket_type": "bio_field_charts",
+          "score": 0.179944,
+          "provenance_ref": "prov:da92675b5e6b"
+        }
+      ],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "ok"
+    },
+    {
+      "query_id": "Q018",
+      "bucket_focus": "interpretation_maps",
+      "anchor_node_id": "NODE-043",
+      "expected_node_ids": [
+        "NODE-043"
+      ],
+      "query_latency_ms": 524.97,
+      "top10": [
+        {
+          "node_id": "NODE-021",
+          "bucket_type": "bio_field_charts",
+          "score": 0.22619,
+          "provenance_ref": "prov:f587fddfea92"
+        },
+        {
+          "node_id": "NODE-041",
+          "bucket_type": "interpretation_maps",
+          "score": 0.214319,
+          "provenance_ref": "prov:8333a7aad71a"
+        },
+        {
+          "node_id": "NODE-004",
+          "bucket_type": "bio_field_charts",
+          "score": 0.210786,
+          "provenance_ref": "prov:52a4066db1c2"
+        },
+        {
+          "node_id": "NODE-017",
+          "bucket_type": "bio_field_charts",
+          "score": 0.202593,
+          "provenance_ref": "prov:32f08e66f85c"
+        },
+        {
+          "node_id": "NODE-011",
+          "bucket_type": "bio_field_charts",
+          "score": 0.198049,
+          "provenance_ref": "prov:36e086ee7472"
+        },
+        {
+          "node_id": "NODE-012",
+          "bucket_type": "bio_field_charts",
+          "score": 0.197373,
+          "provenance_ref": "prov:575ae31d4811"
+        },
+        {
+          "node_id": "NODE-015",
+          "bucket_type": "bio_field_charts",
+          "score": 0.194831,
+          "provenance_ref": "prov:94053ae055b5"
+        },
+        {
+          "node_id": "NODE-030",
+          "bucket_type": "bio_field_charts",
+          "score": 0.190375,
+          "provenance_ref": "prov:53450091ec55"
+        },
+        {
+          "node_id": "NODE-055",
+          "bucket_type": "interpretation_maps",
+          "score": 0.188884,
+          "provenance_ref": "prov:8bc6eac91f3f"
+        },
+        {
+          "node_id": "NODE-002",
+          "bucket_type": "bio_field_charts",
+          "score": 0.181911,
+          "provenance_ref": "prov:da92675b5e6b"
+        }
+      ],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "ok"
+    },
+    {
+      "query_id": "Q019",
+      "bucket_focus": "interpretation_maps",
+      "anchor_node_id": "NODE-044",
+      "expected_node_ids": [
+        "NODE-044"
+      ],
+      "query_latency_ms": 521.44,
+      "top10": [
+        {
+          "node_id": "NODE-021",
+          "bucket_type": "bio_field_charts",
+          "score": 0.23551,
+          "provenance_ref": "prov:f587fddfea92"
+        },
+        {
+          "node_id": "NODE-041",
+          "bucket_type": "interpretation_maps",
+          "score": 0.229267,
+          "provenance_ref": "prov:8333a7aad71a"
+        },
+        {
+          "node_id": "NODE-012",
+          "bucket_type": "bio_field_charts",
+          "score": 0.208787,
+          "provenance_ref": "prov:575ae31d4811"
+        },
+        {
+          "node_id": "NODE-017",
+          "bucket_type": "bio_field_charts",
+          "score": 0.204204,
+          "provenance_ref": "prov:32f08e66f85c"
+        },
+        {
+          "node_id": "NODE-004",
+          "bucket_type": "bio_field_charts",
+          "score": 0.201222,
+          "provenance_ref": "prov:52a4066db1c2"
+        },
+        {
+          "node_id": "NODE-015",
+          "bucket_type": "bio_field_charts",
+          "score": 0.200943,
+          "provenance_ref": "prov:94053ae055b5"
+        },
+        {
+          "node_id": "NODE-030",
+          "bucket_type": "bio_field_charts",
+          "score": 0.193731,
+          "provenance_ref": "prov:53450091ec55"
+        },
+        {
+          "node_id": "NODE-024",
+          "bucket_type": "bio_field_charts",
+          "score": 0.192723,
+          "provenance_ref": "prov:b0367f3c016b"
+        },
+        {
+          "node_id": "NODE-055",
+          "bucket_type": "interpretation_maps",
+          "score": 0.189404,
+          "provenance_ref": "prov:8bc6eac91f3f"
+        },
+        {
+          "node_id": "NODE-002",
+          "bucket_type": "bio_field_charts",
+          "score": 0.18596,
+          "provenance_ref": "prov:da92675b5e6b"
+        }
+      ],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "ok"
+    },
+    {
+      "query_id": "Q020",
+      "bucket_focus": "interpretation_maps",
+      "anchor_node_id": "NODE-045",
+      "expected_node_ids": [
+        "NODE-045"
+      ],
+      "query_latency_ms": 531.57,
+      "top10": [
+        {
+          "node_id": "NODE-021",
+          "bucket_type": "bio_field_charts",
+          "score": 0.229099,
+          "provenance_ref": "prov:f587fddfea92"
+        },
+        {
+          "node_id": "NODE-041",
+          "bucket_type": "interpretation_maps",
+          "score": 0.215302,
+          "provenance_ref": "prov:8333a7aad71a"
+        },
+        {
+          "node_id": "NODE-004",
+          "bucket_type": "bio_field_charts",
+          "score": 0.211385,
+          "provenance_ref": "prov:52a4066db1c2"
+        },
+        {
+          "node_id": "NODE-017",
+          "bucket_type": "bio_field_charts",
+          "score": 0.204536,
+          "provenance_ref": "prov:32f08e66f85c"
+        },
+        {
+          "node_id": "NODE-012",
+          "bucket_type": "bio_field_charts",
+          "score": 0.201199,
+          "provenance_ref": "prov:575ae31d4811"
+        },
+        {
+          "node_id": "NODE-011",
+          "bucket_type": "bio_field_charts",
+          "score": 0.19967,
+          "provenance_ref": "prov:36e086ee7472"
+        },
+        {
+          "node_id": "NODE-015",
+          "bucket_type": "bio_field_charts",
+          "score": 0.19755,
+          "provenance_ref": "prov:94053ae055b5"
+        },
+        {
+          "node_id": "NODE-030",
+          "bucket_type": "bio_field_charts",
+          "score": 0.192528,
+          "provenance_ref": "prov:53450091ec55"
+        },
+        {
+          "node_id": "NODE-055",
+          "bucket_type": "interpretation_maps",
+          "score": 0.187885,
+          "provenance_ref": "prov:8bc6eac91f3f"
+        },
+        {
+          "node_id": "NODE-002",
+          "bucket_type": "bio_field_charts",
+          "score": 0.184516,
+          "provenance_ref": "prov:da92675b5e6b"
+        }
+      ],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "ok"
+    },
+    {
+      "query_id": "Q021",
+      "bucket_focus": "cross_integration_histories",
+      "anchor_node_id": "NODE-071",
+      "expected_node_ids": [
+        "NODE-071"
+      ],
+      "query_latency_ms": 527.05,
+      "top10": [
+        {
+          "node_id": "NODE-021",
+          "bucket_type": "bio_field_charts",
+          "score": 0.252334,
+          "provenance_ref": "prov:f587fddfea92"
+        },
+        {
+          "node_id": "NODE-030",
+          "bucket_type": "bio_field_charts",
+          "score": 0.236818,
+          "provenance_ref": "prov:53450091ec55"
+        },
+        {
+          "node_id": "NODE-052",
+          "bucket_type": "interpretation_maps",
+          "score": 0.235554,
+          "provenance_ref": "prov:61394345b56e"
+        },
+        {
+          "node_id": "NODE-011",
+          "bucket_type": "bio_field_charts",
+          "score": 0.231849,
+          "provenance_ref": "prov:36e086ee7472"
+        },
+        {
+          "node_id": "NODE-041",
+          "bucket_type": "interpretation_maps",
+          "score": 0.22953,
+          "provenance_ref": "prov:8333a7aad71a"
+        },
+        {
+          "node_id": "NODE-044",
+          "bucket_type": "interpretation_maps",
+          "score": 0.228036,
+          "provenance_ref": "prov:d58f617ceec1"
+        },
+        {
+          "node_id": "NODE-012",
+          "bucket_type": "bio_field_charts",
+          "score": 0.227213,
+          "provenance_ref": "prov:575ae31d4811"
+        },
+        {
+          "node_id": "NODE-039",
+          "bucket_type": "interpretation_maps",
+          "score": 0.226427,
+          "provenance_ref": "prov:eee1706bcbcf"
+        },
+        {
+          "node_id": "NODE-043",
+          "bucket_type": "interpretation_maps",
+          "score": 0.22207,
+          "provenance_ref": "prov:dc642ab8fbfb"
+        },
+        {
+          "node_id": "NODE-059",
+          "bucket_type": "interpretation_maps",
+          "score": 0.221549,
+          "provenance_ref": "prov:83b1338b4dbb"
+        }
+      ],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "ok"
+    },
+    {
+      "query_id": "Q022",
+      "bucket_focus": "cross_integration_histories",
+      "anchor_node_id": "NODE-072",
+      "expected_node_ids": [
+        "NODE-072"
+      ],
+      "query_latency_ms": 392.97,
+      "top10": [
+        {
+          "node_id": "NODE-052",
+          "bucket_type": "interpretation_maps",
+          "score": 0.231074,
+          "provenance_ref": "prov:61394345b56e"
+        },
+        {
+          "node_id": "NODE-048",
+          "bucket_type": "interpretation_maps",
+          "score": 0.225913,
+          "provenance_ref": "prov:05fe824b9253"
+        },
+        {
+          "node_id": "NODE-055",
+          "bucket_type": "interpretation_maps",
+          "score": 0.223474,
+          "provenance_ref": "prov:8bc6eac91f3f"
+        },
+        {
+          "node_id": "NODE-059",
+          "bucket_type": "interpretation_maps",
+          "score": 0.2134,
+          "provenance_ref": "prov:83b1338b4dbb"
+        },
+        {
+          "node_id": "NODE-043",
+          "bucket_type": "interpretation_maps",
+          "score": 0.212398,
+          "provenance_ref": "prov:dc642ab8fbfb"
+        },
+        {
+          "node_id": "NODE-050",
+          "bucket_type": "interpretation_maps",
+          "score": 0.200686,
+          "provenance_ref": "prov:5c75464b53fa"
+        },
+        {
+          "node_id": "NODE-041",
+          "bucket_type": "interpretation_maps",
+          "score": 0.199691,
+          "provenance_ref": "prov:8333a7aad71a"
+        },
+        {
+          "node_id": "NODE-051",
+          "bucket_type": "interpretation_maps",
+          "score": 0.197598,
+          "provenance_ref": "prov:94c5ab047c7e"
+        },
+        {
+          "node_id": "NODE-019",
+          "bucket_type": "bio_field_charts",
+          "score": 0.191525,
+          "provenance_ref": "prov:e968f74142bf"
+        },
+        {
+          "node_id": "NODE-004",
+          "bucket_type": "bio_field_charts",
+          "score": 0.190681,
+          "provenance_ref": "prov:52a4066db1c2"
+        }
+      ],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "ok"
+    },
+    {
+      "query_id": "Q023",
+      "bucket_focus": "cross_integration_histories",
+      "anchor_node_id": "NODE-073",
+      "expected_node_ids": [
+        "NODE-073"
+      ],
+      "query_latency_ms": 526.53,
+      "top10": [
+        {
+          "node_id": "NODE-003",
+          "bucket_type": "bio_field_charts",
+          "score": 0.221289,
+          "provenance_ref": "prov:e38396621081"
+        },
+        {
+          "node_id": "NODE-051",
+          "bucket_type": "interpretation_maps",
+          "score": 0.213569,
+          "provenance_ref": "prov:94c5ab047c7e"
+        },
+        {
+          "node_id": "NODE-052",
+          "bucket_type": "interpretation_maps",
+          "score": 0.213212,
+          "provenance_ref": "prov:61394345b56e"
+        },
+        {
+          "node_id": "NODE-055",
+          "bucket_type": "interpretation_maps",
+          "score": 0.209799,
+          "provenance_ref": "prov:8bc6eac91f3f"
+        },
+        {
+          "node_id": "NODE-048",
+          "bucket_type": "interpretation_maps",
+          "score": 0.208184,
+          "provenance_ref": "prov:05fe824b9253"
+        },
+        {
+          "node_id": "NODE-021",
+          "bucket_type": "bio_field_charts",
+          "score": 0.201456,
+          "provenance_ref": "prov:f587fddfea92"
+        },
+        {
+          "node_id": "NODE-062",
+          "bucket_type": "interpretation_maps",
+          "score": 0.19541,
+          "provenance_ref": "prov:6727f4525f5c"
+        },
+        {
+          "node_id": "NODE-059",
+          "bucket_type": "interpretation_maps",
+          "score": 0.193874,
+          "provenance_ref": "prov:83b1338b4dbb"
+        },
+        {
+          "node_id": "NODE-004",
+          "bucket_type": "bio_field_charts",
+          "score": 0.190146,
+          "provenance_ref": "prov:52a4066db1c2"
+        },
+        {
+          "node_id": "NODE-012",
+          "bucket_type": "bio_field_charts",
+          "score": 0.180245,
+          "provenance_ref": "prov:575ae31d4811"
+        }
+      ],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "ok"
+    },
+    {
+      "query_id": "Q024",
+      "bucket_focus": "cross_integration_histories",
+      "anchor_node_id": "NODE-074",
+      "expected_node_ids": [
+        "NODE-074"
+      ],
+      "query_latency_ms": 513.44,
+      "top10": [
+        {
+          "node_id": "NODE-039",
+          "bucket_type": "interpretation_maps",
+          "score": 0.280868,
+          "provenance_ref": "prov:eee1706bcbcf"
+        },
+        {
+          "node_id": "NODE-058",
+          "bucket_type": "interpretation_maps",
+          "score": 0.268575,
+          "provenance_ref": "prov:b5bbcc6f3bf4"
+        },
+        {
+          "node_id": "NODE-015",
+          "bucket_type": "bio_field_charts",
+          "score": 0.261819,
+          "provenance_ref": "prov:94053ae055b5"
+        },
+        {
+          "node_id": "NODE-041",
+          "bucket_type": "interpretation_maps",
+          "score": 0.259198,
+          "provenance_ref": "prov:8333a7aad71a"
+        },
+        {
+          "node_id": "NODE-021",
+          "bucket_type": "bio_field_charts",
+          "score": 0.24989,
+          "provenance_ref": "prov:f587fddfea92"
+        },
+        {
+          "node_id": "NODE-040",
+          "bucket_type": "interpretation_maps",
+          "score": 0.246426,
+          "provenance_ref": "prov:88cfe9b9507a"
+        },
+        {
+          "node_id": "NODE-012",
+          "bucket_type": "bio_field_charts",
+          "score": 0.23739,
+          "provenance_ref": "prov:575ae31d4811"
+        },
+        {
+          "node_id": "NODE-048",
+          "bucket_type": "interpretation_maps",
+          "score": 0.236085,
+          "provenance_ref": "prov:05fe824b9253"
+        },
+        {
+          "node_id": "NODE-003",
+          "bucket_type": "bio_field_charts",
+          "score": 0.234564,
+          "provenance_ref": "prov:e38396621081"
+        },
+        {
+          "node_id": "NODE-055",
+          "bucket_type": "interpretation_maps",
+          "score": 0.231434,
+          "provenance_ref": "prov:8bc6eac91f3f"
+        }
+      ],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "ok"
+    },
+    {
+      "query_id": "Q025",
+      "bucket_focus": "cross_integration_histories",
+      "anchor_node_id": "NODE-075",
+      "expected_node_ids": [
+        "NODE-075"
+      ],
+      "query_latency_ms": 524.75,
+      "top10": [
+        {
+          "node_id": "NODE-021",
+          "bucket_type": "bio_field_charts",
+          "score": 0.194483,
+          "provenance_ref": "prov:f587fddfea92"
+        },
+        {
+          "node_id": "NODE-015",
+          "bucket_type": "bio_field_charts",
+          "score": 0.163002,
+          "provenance_ref": "prov:94053ae055b5"
+        },
+        {
+          "node_id": "NODE-013",
+          "bucket_type": "bio_field_charts",
+          "score": 0.159761,
+          "provenance_ref": "prov:78b926786bde"
+        },
+        {
+          "node_id": "NODE-002",
+          "bucket_type": "bio_field_charts",
+          "score": 0.15907,
+          "provenance_ref": "prov:da92675b5e6b"
+        },
+        {
+          "node_id": "NODE-017",
+          "bucket_type": "bio_field_charts",
+          "score": 0.158436,
+          "provenance_ref": "prov:32f08e66f85c"
+        },
+        {
+          "node_id": "NODE-032",
+          "bucket_type": "bio_field_charts",
+          "score": 0.157438,
+          "provenance_ref": "prov:bac9e17d0869"
+        },
+        {
+          "node_id": "NODE-011",
+          "bucket_type": "bio_field_charts",
+          "score": 0.152583,
+          "provenance_ref": "prov:36e086ee7472"
+        },
+        {
+          "node_id": "NODE-040",
+          "bucket_type": "interpretation_maps",
+          "score": 0.149743,
+          "provenance_ref": "prov:88cfe9b9507a"
+        },
+        {
+          "node_id": "NODE-055",
+          "bucket_type": "interpretation_maps",
+          "score": 0.149699,
+          "provenance_ref": "prov:8bc6eac91f3f"
+        },
+        {
+          "node_id": "NODE-020",
+          "bucket_type": "bio_field_charts",
+          "score": 0.14355,
+          "provenance_ref": "prov:7a39179ed1ad"
+        }
+      ],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "ok"
+    },
+    {
+      "query_id": "Q026",
+      "bucket_focus": "cross_integration_histories",
+      "anchor_node_id": "NODE-076",
+      "expected_node_ids": [
+        "NODE-076"
+      ],
+      "query_latency_ms": 401.53,
+      "top10": [
+        {
+          "node_id": "NODE-021",
+          "bucket_type": "bio_field_charts",
+          "score": 0.315196,
+          "provenance_ref": "prov:f587fddfea92"
+        },
+        {
+          "node_id": "NODE-055",
+          "bucket_type": "interpretation_maps",
+          "score": 0.313902,
+          "provenance_ref": "prov:8bc6eac91f3f"
+        },
+        {
+          "node_id": "NODE-030",
+          "bucket_type": "bio_field_charts",
+          "score": 0.306518,
+          "provenance_ref": "prov:53450091ec55"
+        },
+        {
+          "node_id": "NODE-017",
+          "bucket_type": "bio_field_charts",
+          "score": 0.304336,
+          "provenance_ref": "prov:32f08e66f85c"
+        },
+        {
+          "node_id": "NODE-032",
+          "bucket_type": "bio_field_charts",
+          "score": 0.304005,
+          "provenance_ref": "prov:bac9e17d0869"
+        },
+        {
+          "node_id": "NODE-015",
+          "bucket_type": "bio_field_charts",
+          "score": 0.296632,
+          "provenance_ref": "prov:94053ae055b5"
+        },
+        {
+          "node_id": "NODE-012",
+          "bucket_type": "bio_field_charts",
+          "score": 0.293499,
+          "provenance_ref": "prov:575ae31d4811"
+        },
+        {
+          "node_id": "NODE-052",
+          "bucket_type": "interpretation_maps",
+          "score": 0.29258,
+          "provenance_ref": "prov:61394345b56e"
+        },
+        {
+          "node_id": "NODE-035",
+          "bucket_type": "bio_field_charts",
+          "score": 0.286574,
+          "provenance_ref": "prov:794614089c5f"
+        },
+        {
+          "node_id": "NODE-013",
+          "bucket_type": "bio_field_charts",
+          "score": 0.281335,
+          "provenance_ref": "prov:78b926786bde"
+        }
+      ],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "ok"
+    },
+    {
+      "query_id": "Q027",
+      "bucket_focus": "cross_integration_histories",
+      "anchor_node_id": "NODE-077",
+      "expected_node_ids": [
+        "NODE-077"
+      ],
+      "query_latency_ms": 526.38,
+      "top10": [
+        {
+          "node_id": "NODE-052",
+          "bucket_type": "interpretation_maps",
+          "score": 0.346509,
+          "provenance_ref": "prov:61394345b56e"
+        },
+        {
+          "node_id": "NODE-059",
+          "bucket_type": "interpretation_maps",
+          "score": 0.29221,
+          "provenance_ref": "prov:83b1338b4dbb"
+        },
+        {
+          "node_id": "NODE-004",
+          "bucket_type": "bio_field_charts",
+          "score": 0.268172,
+          "provenance_ref": "prov:52a4066db1c2"
+        },
+        {
+          "node_id": "NODE-030",
+          "bucket_type": "bio_field_charts",
+          "score": 0.255292,
+          "provenance_ref": "prov:53450091ec55"
+        },
+        {
+          "node_id": "NODE-011",
+          "bucket_type": "bio_field_charts",
+          "score": 0.247678,
+          "provenance_ref": "prov:36e086ee7472"
+        },
+        {
+          "node_id": "NODE-055",
+          "bucket_type": "interpretation_maps",
+          "score": 0.244413,
+          "provenance_ref": "prov:8bc6eac91f3f"
+        },
+        {
+          "node_id": "NODE-026",
+          "bucket_type": "bio_field_charts",
+          "score": 0.241641,
+          "provenance_ref": "prov:3e172836aa5a"
+        },
+        {
+          "node_id": "NODE-041",
+          "bucket_type": "interpretation_maps",
+          "score": 0.216545,
+          "provenance_ref": "prov:8333a7aad71a"
+        },
+        {
+          "node_id": "NODE-062",
+          "bucket_type": "interpretation_maps",
+          "score": 0.211621,
+          "provenance_ref": "prov:6727f4525f5c"
+        },
+        {
+          "node_id": "NODE-012",
+          "bucket_type": "bio_field_charts",
+          "score": 0.210421,
+          "provenance_ref": "prov:575ae31d4811"
+        }
+      ],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "ok"
+    },
+    {
+      "query_id": "Q028",
+      "bucket_focus": "cross_integration_histories",
+      "anchor_node_id": "NODE-078",
+      "expected_node_ids": [
+        "NODE-078"
+      ],
+      "query_latency_ms": 264.58,
+      "top10": [
+        {
+          "node_id": "NODE-055",
+          "bucket_type": "interpretation_maps",
+          "score": 0.280151,
+          "provenance_ref": "prov:8bc6eac91f3f"
+        },
+        {
+          "node_id": "NODE-021",
+          "bucket_type": "bio_field_charts",
+          "score": 0.256695,
+          "provenance_ref": "prov:f587fddfea92"
+        },
+        {
+          "node_id": "NODE-032",
+          "bucket_type": "bio_field_charts",
+          "score": 0.24454,
+          "provenance_ref": "prov:bac9e17d0869"
+        },
+        {
+          "node_id": "NODE-030",
+          "bucket_type": "bio_field_charts",
+          "score": 0.243151,
+          "provenance_ref": "prov:53450091ec55"
+        },
+        {
+          "node_id": "NODE-002",
+          "bucket_type": "bio_field_charts",
+          "score": 0.24008,
+          "provenance_ref": "prov:da92675b5e6b"
+        },
+        {
+          "node_id": "NODE-059",
+          "bucket_type": "interpretation_maps",
+          "score": 0.238046,
+          "provenance_ref": "prov:83b1338b4dbb"
+        },
+        {
+          "node_id": "NODE-013",
+          "bucket_type": "bio_field_charts",
+          "score": 0.237092,
+          "provenance_ref": "prov:78b926786bde"
+        },
+        {
+          "node_id": "NODE-015",
+          "bucket_type": "bio_field_charts",
+          "score": 0.23175,
+          "provenance_ref": "prov:94053ae055b5"
+        },
+        {
+          "node_id": "NODE-012",
+          "bucket_type": "bio_field_charts",
+          "score": 0.230694,
+          "provenance_ref": "prov:575ae31d4811"
+        },
+        {
+          "node_id": "NODE-052",
+          "bucket_type": "interpretation_maps",
+          "score": 0.219815,
+          "provenance_ref": "prov:61394345b56e"
+        }
+      ],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "ok"
+    },
+    {
+      "query_id": "Q029",
+      "bucket_focus": "cross_integration_histories",
+      "anchor_node_id": "NODE-079",
+      "expected_node_ids": [
+        "NODE-079"
+      ],
+      "query_latency_ms": 526.41,
+      "top10": [
+        {
+          "node_id": "NODE-052",
+          "bucket_type": "interpretation_maps",
+          "score": 0.295941,
+          "provenance_ref": "prov:61394345b56e"
+        },
+        {
+          "node_id": "NODE-059",
+          "bucket_type": "interpretation_maps",
+          "score": 0.284501,
+          "provenance_ref": "prov:83b1338b4dbb"
+        },
+        {
+          "node_id": "NODE-041",
+          "bucket_type": "interpretation_maps",
+          "score": 0.27266,
+          "provenance_ref": "prov:8333a7aad71a"
+        },
+        {
+          "node_id": "NODE-011",
+          "bucket_type": "bio_field_charts",
+          "score": 0.256605,
+          "provenance_ref": "prov:36e086ee7472"
+        },
+        {
+          "node_id": "NODE-030",
+          "bucket_type": "bio_field_charts",
+          "score": 0.251745,
+          "provenance_ref": "prov:53450091ec55"
+        },
+        {
+          "node_id": "NODE-014",
+          "bucket_type": "bio_field_charts",
+          "score": 0.25148,
+          "provenance_ref": "prov:c17bf81167bf"
+        },
+        {
+          "node_id": "NODE-055",
+          "bucket_type": "interpretation_maps",
+          "score": 0.248799,
+          "provenance_ref": "prov:8bc6eac91f3f"
+        },
+        {
+          "node_id": "NODE-002",
+          "bucket_type": "bio_field_charts",
+          "score": 0.247358,
+          "provenance_ref": "prov:da92675b5e6b"
+        },
+        {
+          "node_id": "NODE-004",
+          "bucket_type": "bio_field_charts",
+          "score": 0.243015,
+          "provenance_ref": "prov:52a4066db1c2"
+        },
+        {
+          "node_id": "NODE-021",
+          "bucket_type": "bio_field_charts",
+          "score": 0.239603,
+          "provenance_ref": "prov:f587fddfea92"
+        }
+      ],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "ok"
+    },
+    {
+      "query_id": "Q030",
+      "bucket_focus": "cross_integration_histories",
+      "anchor_node_id": "NODE-080",
+      "expected_node_ids": [
+        "NODE-080"
+      ],
+      "query_latency_ms": 399.69,
+      "top10": [
+        {
+          "node_id": "NODE-039",
+          "bucket_type": "interpretation_maps",
+          "score": 0.197906,
+          "provenance_ref": "prov:eee1706bcbcf"
+        },
+        {
+          "node_id": "NODE-041",
+          "bucket_type": "interpretation_maps",
+          "score": 0.197481,
+          "provenance_ref": "prov:8333a7aad71a"
+        },
+        {
+          "node_id": "NODE-065",
+          "bucket_type": "interpretation_maps",
+          "score": 0.195643,
+          "provenance_ref": "prov:40377dd5af22"
+        },
+        {
+          "node_id": "NODE-040",
+          "bucket_type": "interpretation_maps",
+          "score": 0.193216,
+          "provenance_ref": "prov:88cfe9b9507a"
+        },
+        {
+          "node_id": "NODE-055",
+          "bucket_type": "interpretation_maps",
+          "score": 0.182411,
+          "provenance_ref": "prov:8bc6eac91f3f"
+        },
+        {
+          "node_id": "NODE-059",
+          "bucket_type": "interpretation_maps",
+          "score": 0.176811,
+          "provenance_ref": "prov:83b1338b4dbb"
+        },
+        {
+          "node_id": "NODE-058",
+          "bucket_type": "interpretation_maps",
+          "score": 0.175136,
+          "provenance_ref": "prov:b5bbcc6f3bf4"
+        },
+        {
+          "node_id": "NODE-021",
+          "bucket_type": "bio_field_charts",
+          "score": 0.172535,
+          "provenance_ref": "prov:f587fddfea92"
+        },
+        {
+          "node_id": "NODE-052",
+          "bucket_type": "interpretation_maps",
+          "score": 0.172353,
+          "provenance_ref": "prov:61394345b56e"
+        },
+        {
+          "node_id": "NODE-050",
+          "bucket_type": "interpretation_maps",
+          "score": 0.171253,
+          "provenance_ref": "prov:5c75464b53fa"
+        }
+      ],
+      "hit_at_10": 0,
+      "match_count": 0,
+      "status": "ok"
+    }
+  ]
+}

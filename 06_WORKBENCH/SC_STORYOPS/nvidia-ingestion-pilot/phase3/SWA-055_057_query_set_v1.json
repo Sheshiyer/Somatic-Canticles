@@ -1,0 +1,362 @@
+[
+  {
+    "query_id": "Q001",
+    "bucket_focus": "bio_field_charts",
+    "language": "en",
+    "query_text": "bio_field_charts reference for IMG 2581",
+    "anchor_node_id": "NODE-001",
+    "expected_node_ids": [
+      "NODE-001",
+      "NODE-002",
+      "NODE-003"
+    ],
+    "expected_parent": "PARENT-BIOFIELD-ROOT"
+  },
+  {
+    "query_id": "Q002",
+    "bucket_focus": "bio_field_charts",
+    "language": "en",
+    "query_text": "bio_field_charts reference for 21363458 10154948160327913 117575874 o",
+    "anchor_node_id": "NODE-002",
+    "expected_node_ids": [
+      "NODE-002",
+      "NODE-001",
+      "NODE-003"
+    ],
+    "expected_parent": "PARENT-BIOFIELD-ROOT"
+  },
+  {
+    "query_id": "Q003",
+    "bucket_focus": "bio_field_charts",
+    "language": "en",
+    "query_text": "bio_field_charts reference for 25371019 10155189860952913 1561726014 o",
+    "anchor_node_id": "NODE-003",
+    "expected_node_ids": [
+      "NODE-003",
+      "NODE-001",
+      "NODE-002"
+    ],
+    "expected_parent": "PARENT-BIOFIELD-ROOT"
+  },
+  {
+    "query_id": "Q004",
+    "bucket_focus": "bio_field_charts",
+    "language": "en",
+    "query_text": "bio_field_charts reference for 11990533 413990388794138 2317091395093831501 n",
+    "anchor_node_id": "NODE-004",
+    "expected_node_ids": [
+      "NODE-004",
+      "NODE-002",
+      "NODE-003"
+    ],
+    "expected_parent": "PARENT-BIOFIELD-ROOT"
+  },
+  {
+    "query_id": "Q005",
+    "bucket_focus": "bio_field_charts",
+    "language": "en",
+    "query_text": "bio_field_charts reference for Biofield Anatomy, E McKusick",
+    "anchor_node_id": "NODE-005",
+    "expected_node_ids": [
+      "NODE-005",
+      "NODE-003",
+      "NODE-004"
+    ],
+    "expected_parent": "PARENT-BIOFIELD-ROOT"
+  },
+  {
+    "query_id": "Q006",
+    "bucket_focus": "bio_field_charts",
+    "language": "en",
+    "query_text": "bio_field_charts reference for Screen Shot 2017 09 03 at 9.11.11 am",
+    "anchor_node_id": "NODE-006",
+    "expected_node_ids": [
+      "NODE-006",
+      "NODE-004",
+      "NODE-005"
+    ],
+    "expected_parent": "PARENT-BIOFIELD-ROOT"
+  },
+  {
+    "query_id": "Q007",
+    "bucket_focus": "bio_field_charts",
+    "language": "en",
+    "query_text": "bio_field_charts reference for 21146633 10203820293385883 1098728975 o 1",
+    "anchor_node_id": "NODE-007",
+    "expected_node_ids": [
+      "NODE-007",
+      "NODE-005",
+      "NODE-006"
+    ],
+    "expected_parent": "PARENT-BIOFIELD-ROOT"
+  },
+  {
+    "query_id": "Q008",
+    "bucket_focus": "bio_field_charts",
+    "language": "en",
+    "query_text": "bio_field_charts reference for 25346629 10155188222247913 2125987151 o",
+    "anchor_node_id": "NODE-008",
+    "expected_node_ids": [
+      "NODE-008",
+      "NODE-006",
+      "NODE-007"
+    ],
+    "expected_parent": "PARENT-BIOFIELD-ROOT"
+  },
+  {
+    "query_id": "Q009",
+    "bucket_focus": "bio_field_charts",
+    "language": "en",
+    "query_text": "bio_field_charts reference for 18718217 10155413068157848 71209152 n",
+    "anchor_node_id": "NODE-009",
+    "expected_node_ids": [
+      "NODE-009",
+      "NODE-007",
+      "NODE-008"
+    ],
+    "expected_parent": "PARENT-BIOFIELD-ROOT"
+  },
+  {
+    "query_id": "Q010",
+    "bucket_focus": "bio_field_charts",
+    "language": "en",
+    "query_text": "bio_field_charts reference for Biofield Anatomy 3, Eileen Mckusick",
+    "anchor_node_id": "NODE-010",
+    "expected_node_ids": [
+      "NODE-010",
+      "NODE-008",
+      "NODE-009"
+    ],
+    "expected_parent": "PARENT-BIOFIELD-ROOT"
+  },
+  {
+    "query_id": "Q011",
+    "bucket_focus": "interpretation_maps",
+    "language": "en",
+    "query_text": "## Chapter 1. Introduction 1.1. Overview of Living Systems and Consciousness - Defining living systems - Attributes of consciousness, intelligence, sapience, and",
+    "anchor_node_id": "NODE-036",
+    "expected_node_ids": [
+      "NODE-036",
+      "NODE-037",
+      "NODE-038"
+    ],
+    "expected_parent": "PARENT-INTERPRETATION-ROOT"
+  },
+  {
+    "query_id": "Q012",
+    "bucket_focus": "interpretation_maps",
+    "language": "en",
+    "query_text": "interpretation_maps reference for Pasted image 20240520195322",
+    "anchor_node_id": "NODE-037",
+    "expected_node_ids": [
+      "NODE-037",
+      "NODE-036",
+      "NODE-038"
+    ],
+    "expected_parent": "PARENT-INTERPRETATION-ROOT"
+  },
+  {
+    "query_id": "Q013",
+    "bucket_focus": "interpretation_maps",
+    "language": "en",
+    "query_text": "interpretation_maps reference for Pasted image 20240305002325",
+    "anchor_node_id": "NODE-038",
+    "expected_node_ids": [
+      "NODE-038",
+      "NODE-036",
+      "NODE-037"
+    ],
+    "expected_parent": "PARENT-INTERPRETATION-ROOT"
+  },
+  {
+    "query_id": "Q014",
+    "bucket_focus": "interpretation_maps",
+    "language": "en",
+    "query_text": "interpretation_maps reference for Pasted image 20240906142538",
+    "anchor_node_id": "NODE-039",
+    "expected_node_ids": [
+      "NODE-039",
+      "NODE-037",
+      "NODE-038"
+    ],
+    "expected_parent": "PARENT-INTERPRETATION-ROOT"
+  },
+  {
+    "query_id": "Q015",
+    "bucket_focus": "interpretation_maps",
+    "language": "en",
+    "query_text": "interpretation_maps reference for e2ca0c409c17538f41b5fd39fa497e2a st thomas walter obrien",
+    "anchor_node_id": "NODE-040",
+    "expected_node_ids": [
+      "NODE-040",
+      "NODE-038",
+      "NODE-039"
+    ],
+    "expected_parent": "PARENT-INTERPRETATION-ROOT"
+  },
+  {
+    "query_id": "Q016",
+    "bucket_focus": "interpretation_maps",
+    "language": "en",
+    "query_text": "interpretation_maps reference for Pasted image 20241208205024",
+    "anchor_node_id": "NODE-041",
+    "expected_node_ids": [
+      "NODE-041"
+    ],
+    "expected_parent": ""
+  },
+  {
+    "query_id": "Q017",
+    "bucket_focus": "interpretation_maps",
+    "language": "en",
+    "query_text": "interpretation_maps reference for Pasted image 20240612223045",
+    "anchor_node_id": "NODE-042",
+    "expected_node_ids": [
+      "NODE-042"
+    ],
+    "expected_parent": ""
+  },
+  {
+    "query_id": "Q018",
+    "bucket_focus": "interpretation_maps",
+    "language": "en",
+    "query_text": "interpretation_maps reference for Pasted image 20240828002737",
+    "anchor_node_id": "NODE-043",
+    "expected_node_ids": [
+      "NODE-043"
+    ],
+    "expected_parent": ""
+  },
+  {
+    "query_id": "Q019",
+    "bucket_focus": "interpretation_maps",
+    "language": "en",
+    "query_text": "interpretation_maps reference for Screenshot 2024 09 19 031659",
+    "anchor_node_id": "NODE-044",
+    "expected_node_ids": [
+      "NODE-044"
+    ],
+    "expected_parent": ""
+  },
+  {
+    "query_id": "Q020",
+    "bucket_focus": "interpretation_maps",
+    "language": "en",
+    "query_text": "interpretation_maps reference for Pasted image 20240612224016",
+    "anchor_node_id": "NODE-045",
+    "expected_node_ids": [
+      "NODE-045"
+    ],
+    "expected_parent": ""
+  },
+  {
+    "query_id": "Q021",
+    "bucket_focus": "cross_integration_histories",
+    "language": "en",
+    "query_text": "![Picture](https://www.michaeltsarion.com/uploads/3/1/3/5/31352851/published/isleofthedead.jpg?1635032136) | | | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | | _...all evolution can be described as the process of differentiation of the part from the",
+    "anchor_node_id": "NODE-071",
+    "expected_node_ids": [
+      "NODE-071"
+    ],
+    "expected_parent": ""
+  },
+  {
+    "query_id": "Q022",
+    "bucket_focus": "cross_integration_histories",
+    "language": "en",
+    "query_text": "| _Thou has saved us by shedding the eternal blood_ - Mithraic Dictum <br> <br>_...we are forced to conclude that Sol Invictus-Mithras",
+    "anchor_node_id": "NODE-072",
+    "expected_node_ids": [
+      "NODE-072"
+    ],
+    "expected_parent": ""
+  },
+  {
+    "query_id": "Q023",
+    "bucket_focus": "cross_integration_histories",
+    "language": "en",
+    "query_text": "# The Dark Side of Christian History ![Picture](https://www.astrotheologyzone.com/uploads/3/1/3/5/31352851/published/burningheretic.jpg?1627755190) | | | | |---|---|---| |---|_\u201cHeresy\u201d comes from the Greek hairesis meaning \u201cchoice\u201d_ -",
+    "anchor_node_id": "NODE-073",
+    "expected_node_ids": [
+      "NODE-073"
+    ],
+    "expected_parent": ""
+  },
+  {
+    "query_id": "Q024",
+    "bucket_focus": "cross_integration_histories",
+    "language": "en",
+    "query_text": "![Picture](https://www.astrotheologyzone.com/uploads/3/1/3/5/31352851/jehova_orig.jpg) | | | |---|---| |---|_The name Yahweh appears to not even be Hebrew name at all_ - A. S. Holub (_The",
+    "anchor_node_id": "NODE-074",
+    "expected_node_ids": [
+      "NODE-074"
+    ],
+    "expected_parent": ""
+  },
+  {
+    "query_id": "Q025",
+    "bucket_focus": "cross_integration_histories",
+    "language": "en",
+    "query_text": "cross_integration_histories :: Energetic Lighting Energetic Destiny LED Panel IP20 36W 5000K 3400Lm at 600 x 600mm [222008] \uf027 MegaBuy Computer Parts.pdf ::",
+    "anchor_node_id": "NODE-075",
+    "expected_node_ids": [
+      "NODE-075"
+    ],
+    "expected_parent": ""
+  },
+  {
+    "query_id": "Q026",
+    "bucket_focus": "cross_integration_histories",
+    "language": "en",
+    "query_text": "![Picture](https://www.michaeltsarion.com/uploads/3/1/3/5/31352851/redtres_orig.jpg) | | | | |---|---|---| |---|_There is pleasure in the pathless woods, there is rapture in the lonely shore, there is",
+    "anchor_node_id": "NODE-076",
+    "expected_node_ids": [
+      "NODE-076"
+    ],
+    "expected_parent": ""
+  },
+  {
+    "query_id": "Q027",
+    "bucket_focus": "cross_integration_histories",
+    "language": "en",
+    "query_text": "![Picture](https://www.michaeltsarion.com/uploads/3/1/3/5/31352851/nichroerich_orig.jpg) | | | ------------------------------------------------------- | | _To know oneself is the beginning of wisdom_ - Socrates | We\u2019ve heard it said",
+    "anchor_node_id": "NODE-077",
+    "expected_node_ids": [
+      "NODE-077"
+    ],
+    "expected_parent": ""
+  },
+  {
+    "query_id": "Q028",
+    "bucket_focus": "cross_integration_histories",
+    "language": "en",
+    "query_text": "I will create a primitive: Man shall be his name. I shall create a primitive worker, He will be charged with service",
+    "anchor_node_id": "NODE-078",
+    "expected_node_ids": [
+      "NODE-078"
+    ],
+    "expected_parent": ""
+  },
+  {
+    "query_id": "Q029",
+    "bucket_focus": "cross_integration_histories",
+    "language": "en",
+    "query_text": "![Picture](https://www.femaleilluminati.com/uploads/3/1/3/5/31352851/moreau_orig.jpg) | | | -------------------------------------------------------------------------------------------- | | _I am the all-seeing eye of Horus, whose appearance strikes terror_ - (Egyptian Coffin Text)",
+    "anchor_node_id": "NODE-079",
+    "expected_node_ids": [
+      "NODE-079"
+    ],
+    "expected_parent": ""
+  },
+  {
+    "query_id": "Q030",
+    "bucket_focus": "cross_integration_histories",
+    "language": "en",
+    "query_text": "[![Picture](https://www.astrotheologyzone.com/uploads/3/1/3/5/31352851/published/rgraves.jpg?1595869545)](https://en.wikipedia.org/wiki/Robert_Graves) | | | | |---|---|---| |---|_For many centuries, Jewish and Christian theologians agreed that the accounts of the world\u2019s origin given",
+    "anchor_node_id": "NODE-080",
+    "expected_node_ids": [
+      "NODE-080"
+    ],
+    "expected_parent": ""
+  }
+]

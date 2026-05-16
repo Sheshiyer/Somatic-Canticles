@@ -1,0 +1,72 @@
+[
+  {
+    "artifact": "phase3/SWA-052_modelA_retrieval_index_v1.json",
+    "sha256": "23ab5f56bdf83909a6a872ac222c3b8c8a02a5a9d765022e27a1899541a0b3b2",
+    "bytes": 505
+  },
+  {
+    "artifact": "phase3/SWA-053_modelB_retrieval_index_v1.json",
+    "sha256": "f803e2c7745261474003376440eeaf25aa31bfed85ff4cf66ae33797e8f90d3e",
+    "bytes": 50028
+  },
+  {
+    "artifact": "phase3/SWA-053_modelB_vectors_v1.npy",
+    "sha256": "9c72f97e84eed005fa54c6e818273a3bb993154df51fbc46f03bb979d68fedf0",
+    "bytes": 1638528
+  },
+  {
+    "artifact": "phase3/SWA-054_multimodal_index_v1.json",
+    "sha256": "089a77e104db7045b6caf576872e4d61c5b69110d1db8279befb59378e3eb725",
+    "bytes": 47522
+  },
+  {
+    "artifact": "phase3/SWA-054_multimodal_vectors_v1.npy",
+    "sha256": "e7e984a041d51a1c10b06ac2ce190c6710c051b847c8fa318cc8b05aad1cedcb",
+    "bytes": 557184
+  },
+  {
+    "artifact": "phase3/SWA-055_057_query_set_v1.json",
+    "sha256": "0aff511b696865e2712dcb86dbe1bd2d03991f5c8893879339052e0501a4f60c",
+    "bytes": 11514
+  },
+  {
+    "artifact": "phase3/SWA-055_057_query_set_v1.csv",
+    "sha256": "e5737d9739b4955f89a8953a27ff3901ba27308ee004eb0454919607f24f4a6f",
+    "bytes": 5867
+  },
+  {
+    "artifact": "phase3/SWA-055_modelA_query_results_v1.json",
+    "sha256": "edf6f9318927af54d440aa85c20efe7fe2c8896664a224b616b855ce06fb0bbb",
+    "bytes": 9052
+  },
+  {
+    "artifact": "phase3/SWA-056_modelB_query_results_v1.json",
+    "sha256": "d2142e3f0125a94324bfef24f1d6e9b64b92240876cba8e7ee1301b5a04e22db",
+    "bytes": 63910
+  },
+  {
+    "artifact": "phase3/SWA-057_multimodal_query_results_v1.json",
+    "sha256": "49c4d7bbc1232cf609dbe5cccac61fd8dbacdaf5443156e74a45a3ea9087367f",
+    "bytes": 63036
+  },
+  {
+    "artifact": "phase3/SWA-058_recall_match_metrics_v1.json",
+    "sha256": "cd1840f1a45510bbd586cb0a8affe8b81eb9d26078ecda029ba5744a68522138",
+    "bytes": 2115
+  },
+  {
+    "artifact": "phase3/SWA-058_recall_match_metrics_v1.md",
+    "sha256": "7ea7132d412389c57ec9c9d9e1ab20ac5a046c859faa29c7ff39c7d7ad2dca59",
+    "bytes": 290
+  },
+  {
+    "artifact": "phase3/SWA-059_hierarchy_coherence_metrics_v1.json",
+    "sha256": "c1ca595790e354c3ec0fef8cd5d33704182e55c5e1f11fdfb276616e8fe2fc81",
+    "bytes": 23122
+  },
+  {
+    "artifact": "phase3/SWA-059_hierarchy_coherence_metrics_v1.md",
+    "sha256": "5ce2b0a848c9ea56a464c65e1a1670cf8ca3c56cea85481d09740c6b3befd1ae",
+    "bytes": 598
+  }
+]

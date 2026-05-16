@@ -1,0 +1,38 @@
+{
+  "contract": {
+    "weights": {
+      "recall_at_10": 0.35,
+      "cross_language_alignment": 0.3,
+      "hierarchy_coherence": 0.25,
+      "provenance_traceability": 0.1
+    },
+    "decision_threshold_margin": 0.4,
+    "dependency_waiver": {
+      "reason": null,
+      "method": "Contractual retrieval metrics from SWA-058 and SWA-059 now available."
+    }
+  },
+  "model_a": {
+    "name": "baai/bge-m3",
+    "recall_0_5": 0.0,
+    "cross_language_0_5": 0.0,
+    "hierarchy_0_5": 0.0,
+    "provenance_0_5": 4.95,
+    "weighted_score_0_5": 0.495
+  },
+  "model_b": {
+    "name": "nvidia/nv-embed-v1",
+    "recall_0_5": 4.6665,
+    "cross_language_0_5": 0.0,
+    "hierarchy_0_5": 2.7575,
+    "provenance_0_5": 4.95,
+    "weighted_score_0_5": 2.8176
+  },
+  "margin_model_b_minus_model_a": 2.3226,
+  "threshold_pass": true,
+  "inputs": {
+    "swa_058": "phase3/SWA-058_recall_match_metrics_v1.json",
+    "swa_059": "phase3/SWA-059_hierarchy_coherence_metrics_v1.json",
+    "swa_065": "phase4/SWA-065_provenance_fidelity_audit_v1.json"
+  }
+}
