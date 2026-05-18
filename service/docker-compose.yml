@@ -1,0 +1,47 @@
+version: "3.9"
+
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    container_name: canticles-db
+    environment:
+      POSTGRES_DB: canticles_lore
+      POSTGRES_USER: lore
+      POSTGRES_PASSWORD: lore_local_dev
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./migrations:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U lore -d canticles_lore"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: canticles-api
+    environment:
+      DATABASE_URL: postgresql://lore:lore_local_dev@db:5432/canticles_lore
+      NVIDIA_BASE_URL: https://integrate.api.nvidia.com/v1
+      NVIDIA_API_KEY: ${NVIDIA_API_KEY:-}
+      EMBED_MODEL: nvidia/nv-embed-v1
+      VL_EMBED_MODEL: nvidia/llama-nemotron-embed-vl-1b-v2
+    ports:
+      - "8000:8000"
+    volumes:
+      - ../06_WORKBENCH/SC_STORYOPS/nvidia-ingestion-pilot:/data/pilot:ro
+    depends_on:
+      db:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 10s
+      timeout: 5s
+      retries: 6
+
+volumes:
+  pgdata:
