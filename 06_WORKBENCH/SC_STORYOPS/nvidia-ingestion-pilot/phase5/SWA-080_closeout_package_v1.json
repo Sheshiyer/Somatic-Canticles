@@ -1,0 +1,77 @@
+{
+  "task_id": "SWA-080",
+  "issue": 119,
+  "date": "2026-05-18",
+  "version": "v1",
+  "status": "complete",
+  "lessons_learned": [
+    {
+      "id": "LL-01",
+      "lesson": "Backend-neutral planning prevents lock-in",
+      "retained": "adapter-first specification pattern for future storage migration"
+    },
+    {
+      "id": "LL-02",
+      "lesson": "CI checks must mirror contractual baselines with safety margins",
+      "retained": "safety-margin threshold pattern (set CI threshold below observed baseline)"
+    },
+    {
+      "id": "LL-03",
+      "lesson": "Hard-blocked model lanes require explicit documentation",
+      "retained": "explicit per-lane status in CI and drift monitoring; Model A remains blocked"
+    },
+    {
+      "id": "LL-04",
+      "lesson": "Warning probes prevent silent degradation",
+      "retained": "warning-tier metrics in all drift monitoring with escalation paths"
+    },
+    {
+      "id": "LL-05",
+      "lesson": "Failure-class triage reduces MTTR",
+      "retained": "failure-class triage pattern for all operational incident response"
+    },
+    {
+      "id": "LL-06",
+      "lesson": "Independent release gates enable parallel signoff",
+      "retained": "gate-by-role signoff matrix for future release checklists"
+    }
+  ],
+  "retained_controls": [
+    "provenance_bound_node_edge_requirement",
+    "anti_drift_boundary_policy",
+    "backend_neutral_adapter_contract",
+    "ci_safety_margin_threshold_pattern",
+    "warning_probe_escalation_pattern",
+    "failure_class_triage_pattern",
+    "gate_by_role_signoff_matrix"
+  ],
+  "removed_assumptions": [
+    "Model_A_bge_m3_will_become_available",
+    "cross_language_scoring_supported_in_pilot",
+    "VL_unresolved_rate_will_converge_to_zero"
+  ],
+  "next_action_board": [
+    {"priority": 1, "action": "Deploy Postgres + pgvector + relation tables stack", "owner": "DevOps Eng", "timeline": "Week 1"},
+    {"priority": 2, "action": "Execute CI pipeline against live data", "owner": "DevOps Eng", "timeline": "Week 2"},
+    {"priority": 3, "action": "Activate drift monitoring dashboards", "owner": "DevOps Eng", "timeline": "Week 2"},
+    {"priority": 4, "action": "Conduct incident response dry run", "owner": "QA Eng", "timeline": "Week 3"},
+    {"priority": 5, "action": "Design multilingual pilot expansion phase", "owner": "StoryOps Planner", "timeline": "Month 2"}
+  ],
+  "carry_forward_risks": [
+    {"id": "R-01", "risk": "editorial_contamination_during_deployment", "mitigation": "G4_boundary_gate", "owner": "StoryOps Planner"},
+    {"id": "R-02", "risk": "provenance_weakness_in_expanded_node_set", "mitigation": "C4_provenance_check_plus_M4_monitoring", "owner": "QA Eng"},
+    {"id": "R-06", "risk": "model_runtime_variability_after_deployment", "mitigation": "C2_lane_health_plus_M1_M2_thresholds", "owner": "DevOps Eng"},
+    {"id": "R-07", "risk": "multilingual_expansion_scope_creep", "mitigation": "explicitly_out_of_scope_in_v2_approval", "owner": "StoryOps Planner"},
+    {"id": "R-08", "risk": "VL_unresolved_rate_increase_in_production", "mitigation": "M3_probe_plus_C5_warning", "owner": "DevOps Eng"}
+  ],
+  "artifact_index": [
+    {"swa": "SWA-073", "count": 5, "status": "complete"},
+    {"swa": "SWA-074", "count": 2, "status": "complete"},
+    {"swa": "SWA-075", "count": 5, "status": "complete"},
+    {"swa": "SWA-076", "count": 2, "status": "complete"},
+    {"swa": "SWA-077", "count": 2, "status": "complete"},
+    {"swa": "SWA-078", "count": 2, "status": "complete"},
+    {"swa": "SWA-079", "count": 2, "status": "complete"},
+    {"swa": "SWA-080", "count": 2, "status": "complete"}
+  ]
+}

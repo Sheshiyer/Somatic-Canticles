@@ -1,0 +1,71 @@
+{
+  "task_id": "SWA-076",
+  "issue": 115,
+  "date": "2026-05-18",
+  "version": "v1",
+  "metrics": [
+    {
+      "id": "M1",
+      "name": "recall_at_10_drift",
+      "lane": "model-B",
+      "baseline": 0.9333,
+      "warning_threshold": 0.92,
+      "critical_threshold": 0.90,
+      "cadence": "weekly",
+      "owner": "DevOps Eng"
+    },
+    {
+      "id": "M2",
+      "name": "mean_hierarchy_score_0_5_drift",
+      "lane": "model-B",
+      "baseline": 2.7575,
+      "warning_threshold": 2.60,
+      "critical_threshold": 2.50,
+      "cadence": "weekly",
+      "owner": "DevOps Eng"
+    },
+    {
+      "id": "M3",
+      "name": "unresolved_vl_rate",
+      "lane": "multimodal",
+      "baseline": 0.014493,
+      "warning_threshold": 0.03,
+      "critical_threshold": 0.05,
+      "cadence": "daily",
+      "owner": "DevOps Eng"
+    },
+    {
+      "id": "M4",
+      "name": "provenance_integrity_ratio",
+      "lane": "all",
+      "baseline": 1.0,
+      "warning_threshold": 0.99,
+      "critical_threshold": 0.95,
+      "cadence": "daily",
+      "owner": "QA Eng"
+    },
+    {
+      "id": "M5",
+      "name": "embedding_dimension_consistency",
+      "lane": "both",
+      "baseline_model_B": 4096,
+      "baseline_multimodal": 2048,
+      "warning_threshold": "any_deviation",
+      "critical_threshold": "N/A_investigate",
+      "cadence": "per_run",
+      "owner": "DevOps Eng"
+    }
+  ],
+  "alert_levels": [
+    {"level": "INFO", "trigger": "within_1sigma", "response_window": "next_cycle", "escalation": "none"},
+    {"level": "WARN", "trigger": "crosses_warning", "response_window": "24h", "escalation": "DevOps Eng"},
+    {"level": "CRITICAL", "trigger": "crosses_critical", "response_window": "4h", "escalation": "StoryOps Planner + DevOps Eng"},
+    {"level": "ROLLBACK", "trigger": "SWA-070_criterion_met", "response_window": "immediate", "escalation": "full_incident_playbook"}
+  ],
+  "rollback_alignment": {
+    "M1_critical": "SWA-070 R-01",
+    "M2_critical": "SWA-070 R-02",
+    "M3_critical": "SWA-070 R-03",
+    "M4_critical": "SWA-070 R-04"
+  }
+}

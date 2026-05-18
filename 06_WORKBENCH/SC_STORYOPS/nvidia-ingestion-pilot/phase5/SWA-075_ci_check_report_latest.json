@@ -1,0 +1,85 @@
+{
+  "generated_at": "2026-05-18T12:04:26.226838+00:00",
+  "task_id": "SWA-075",
+  "overall_status": "pass",
+  "checks": [
+    {
+      "check_id": "C1_fixture_integrity",
+      "severity": "hard_fail",
+      "status": "pass",
+      "details": {
+        "fixture_count": 7,
+        "missing": [],
+        "checksum_mismatches": []
+      }
+    },
+    {
+      "check_id": "C2_embedding_lane_health",
+      "severity": "hard_fail",
+      "status": "pass",
+      "details": {
+        "failures": [],
+        "observed": {
+          "model_b": {
+            "row_count": 100,
+            "success_count": 100,
+            "fail_count": 0,
+            "vector_dim": 4096
+          },
+          "multimodal": {
+            "row_count": 69,
+            "success_count": 68,
+            "fail_count": 1,
+            "vector_dim": 2048
+          }
+        }
+      }
+    },
+    {
+      "check_id": "C3_retrieval_quality_regression",
+      "severity": "hard_fail",
+      "status": "pass",
+      "details": {
+        "failures": [],
+        "observed": {
+          "recall_at_10": 0.9333,
+          "mean_match_count": 1.2667,
+          "mean_hierarchy_score_0_5": 2.7575,
+          "bucket_mean_scores": {
+            "bio_field_charts": 3.775,
+            "interpretation_maps": 2.6475,
+            "cross_integration_histories": 1.85
+          }
+        }
+      }
+    },
+    {
+      "check_id": "C4_provenance_completeness",
+      "severity": "hard_fail",
+      "status": "pass",
+      "details": {
+        "failures": [],
+        "observed": {
+          "provenance_rows": 169,
+          "provenance_non_empty": 169,
+          "provenance_ratio": 1.0,
+          "null_anchor_query_count": 0
+        }
+      }
+    },
+    {
+      "check_id": "C5_rollback_trigger_probe",
+      "severity": "warn",
+      "status": "pass",
+      "details": {
+        "observed": {
+          "unresolved_vl_rate": 0.014493,
+          "fail_count": 1,
+          "row_count": 69
+        },
+        "threshold": 0.03,
+        "source_contract": "phase4/SWA-070_rollback_criteria_v1.md"
+      }
+    }
+  ]
+}

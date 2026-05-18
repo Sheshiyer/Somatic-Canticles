@@ -1,0 +1,61 @@
+{
+  "task_id": "SWA-078",
+  "issue": 117,
+  "date": "2026-05-18",
+  "version": "v1",
+  "gates": [
+    {
+      "id": "G1",
+      "name": "CI Regression Checks",
+      "source": "SWA-075",
+      "checks": ["C1_fixture_integrity", "C2_embedding_lane_health", "C3_retrieval_quality_regression", "C4_provenance_completeness", "C5_rollback_trigger_probe"],
+      "signoff_role": "DevOps Eng",
+      "required": true
+    },
+    {
+      "id": "G2",
+      "name": "Drift Monitoring Active",
+      "source": "SWA-076",
+      "checks": ["M1-M5_metrics_defined", "daily_scan_operational", "weekly_eval_scheduled", "alert_levels_documented", "log_path_configured"],
+      "signoff_role": "DevOps Eng",
+      "required": true
+    },
+    {
+      "id": "G3",
+      "name": "Incident Playbook Ready",
+      "source": "SWA-077",
+      "checks": ["severity_matrix_published", "triage_flows_documented", "evidence_template_available", "communication_flow_defined", "closure_checklist_defined"],
+      "signoff_role": "QA Eng",
+      "required": true
+    },
+    {
+      "id": "G4",
+      "name": "Boundary Policy Verification",
+      "source": "SWA-013",
+      "checks": ["no_editorial_modification", "provenance_refs_enforced", "no_ontology_without_evidence"],
+      "signoff_role": "StoryOps Planner",
+      "required": true
+    },
+    {
+      "id": "G5",
+      "name": "Rollback Trigger Validation",
+      "source": "SWA-070",
+      "checks": ["rollback_criteria_documented", "actions_R01_R04_tested", "good_snapshot_checksummed"],
+      "signoff_role": "DevOps Eng",
+      "required": true
+    },
+    {
+      "id": "G6",
+      "name": "Provenance Completeness Check",
+      "source": "SWA-075-C4",
+      "checks": ["100_percent_node_provenance", "100_percent_edge_evidence", "completeness_scan_clean"],
+      "signoff_role": "QA Eng",
+      "required": true
+    }
+  ],
+  "post_release": {
+    "ci_check_within_24h": true,
+    "drift_monitoring_7days": true,
+    "incident_playbook_reachable": true
+  }
+}

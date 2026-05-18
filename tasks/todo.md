@@ -1001,3 +1001,27 @@ This file is the active source of truth for repository execution status.
   - [x] Published implementation translation package (`phase5/SWA-074_implementation_issue_translation_v1.md`)
   - [x] Published machine-readable issue templates (`phase5/SWA-074_issue_templates_v1.json`)
   - [x] Preserved dependency chain for operationalization: `SWA-074 -> {SWA-075,SWA-076} -> SWA-077 -> SWA-078 -> SWA-079 -> SWA-080`
+- [x] Define CI checks for embedding pipeline regressions (`SWA-075`)
+  - [x] Published CI regression check spec (`phase5/SWA-075_ci_regression_checks_spec_v1.md`)
+  - [x] Published CI threshold matrix (`phase5/SWA-075_ci_threshold_matrix_v1.json`)
+  - [x] Implemented CI check runner (`scripts/run_swa_phase5_ci_checks.py`)
+  - [x] Generated first CI report (`phase5/SWA-075_ci_check_report_latest.{json,md}`) with overall status `pass`
+  - [x] Review gate confirmed; SWA-075 complete
+- [x] Define drift monitoring metrics for retrieval quality (`SWA-076`)
+  - [x] Published drift monitoring spec (`phase5/SWA-076_drift_monitoring_spec_v1.md`)
+  - [x] Published drift metrics matrix (`phase5/SWA-076_drift_metrics_matrix_v1.json`)
+- [x] Define incident playbook for ingestion/embedding/retrieval failures (`SWA-077`)
+  - [x] Published incident playbook (`phase5/SWA-077_incident_playbook_v1.md`)
+  - [x] Published incident severity matrix (`phase5/SWA-077_incident_severity_matrix_v1.json`)
+- [x] Define release checklist for non-editorial network launch (`SWA-078`)
+  - [x] Published release checklist (`phase5/SWA-078_release_checklist_v1.md`)
+  - [x] Published release gates JSON (`phase5/SWA-078_release_gates_v1.json`)
+- [x] Publish v1 operational roadmap with milestone dates and owners (`SWA-079`)
+  - [x] Published operational roadmap (`phase5/SWA-079_operational_roadmap_v1.md`)
+  - [x] Published milestone schedule JSON (`phase5/SWA-079_roadmap_milestones_v1.json`)
+- [x] Close Phase 5 planning cycle with lessons and next-action board (`SWA-080`)
+  - [x] Published closeout document (`phase5/SWA-080_phase5_closeout_v1.md`)
+  - [x] Published closeout package JSON (`phase5/SWA-080_closeout_package_v1.json`)
+  - [x] Documented 6 lessons learned with retained controls and removed assumptions
+  - [x] Published next-action board with 5 ranked priorities and owners
+  - [x] Identified 5 carry-forward risks with mitigations and owners

@@ -1,0 +1,64 @@
+{
+  "task_id": "SWA-077",
+  "issue": 116,
+  "date": "2026-05-18",
+  "version": "v1",
+  "severity_matrix": [
+    {
+      "level": "SEV-1",
+      "definition": "Service-stopping: pipeline completely down or producing garbage results",
+      "ack_time": "30m",
+      "containment_time": "4h",
+      "escalation": "StoryOps Planner + DevOps Eng war room"
+    },
+    {
+      "level": "SEV-2",
+      "definition": "Degraded: pipeline functional but quality below contractual thresholds",
+      "ack_time": "4h",
+      "containment_time": "24h",
+      "escalation": "DevOps Eng leads, StoryOps Planner informed"
+    },
+    {
+      "level": "SEV-3",
+      "definition": "Watch: metrics deviating from baseline but within safe operating range",
+      "ack_time": "next_cycle",
+      "containment_time": "72h",
+      "escalation": "DevOps Eng monitors"
+    }
+  ],
+  "failure_classes": [
+    {
+      "id": "FC-1",
+      "name": "provider_failure",
+      "diagnose": "check API status, request IDs, error codes",
+      "contain": "switch to fallback or pause ingestion",
+      "recover": "re-run failed batch after provider recovery"
+    },
+    {
+      "id": "FC-2",
+      "name": "data_quality_failure",
+      "diagnose": "check extraction quality flags",
+      "contain": "quarantine affected nodes",
+      "recover": "re-extract from source or mark permanently unresolved"
+    },
+    {
+      "id": "FC-3",
+      "name": "provenance_failure",
+      "diagnose": "run provenance completeness scan (C4)",
+      "contain": "prevent nodes without provenance from entering graph",
+      "recover": "backfill provenance from source manifest"
+    },
+    {
+      "id": "FC-4",
+      "name": "schema_failure",
+      "diagnose": "check vector dimensions, index format, checksum matches",
+      "contain": "prevent malformed vectors from entering index",
+      "recover": "regenerate vectors and re-index"
+    }
+  ],
+  "rollback_actions": {
+    "SEV-1": {"contain": "halt_ingestion_retrieval", "rollback": "revert_to_last_good_snapshot", "recovery": "restore_from_checksummed_artifacts"},
+    "SEV-2": {"contain": "pause_ingestion_throttle_retrieval", "rollback": "conditional_if_no_recovery_24h", "recovery": "re_run_affected_batch"},
+    "SEV-3": {"contain": "log_and_monitor", "rollback": "none", "recovery": "N/A"}
+  }
+}

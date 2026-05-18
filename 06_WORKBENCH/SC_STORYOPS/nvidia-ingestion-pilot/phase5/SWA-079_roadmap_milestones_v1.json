@@ -1,0 +1,75 @@
+{
+  "task_id": "SWA-079",
+  "issue": 118,
+  "date": "2026-05-18",
+  "version": "v1",
+  "milestones": [
+    {
+      "id": "MS-1",
+      "name": "CI Pipeline Operational",
+      "swa": "SWA-075",
+      "target_week": 1,
+      "owner": "DevOps Eng",
+      "dependencies": ["SWA-074"],
+      "exit_criteria": "CI runner executes C1-C5; first report with overall_status=pass",
+      "status": "complete"
+    },
+    {
+      "id": "MS-2",
+      "name": "Drift Monitoring Deployed",
+      "swa": "SWA-076",
+      "target_week": 1,
+      "owner": "DevOps Eng",
+      "dependencies": ["SWA-074"],
+      "exit_criteria": "M1-M5 metrics defined; cadence documented; alerts assigned",
+      "status": "complete"
+    },
+    {
+      "id": "MS-3",
+      "name": "Incident Playbook Published",
+      "swa": "SWA-077",
+      "target_week": 2,
+      "owner": "QA Eng",
+      "dependencies": ["MS-1", "MS-2"],
+      "exit_criteria": "Severity matrix, triage flows, evidence template published",
+      "status": "complete"
+    },
+    {
+      "id": "MS-4",
+      "name": "Release Checklist Verified",
+      "swa": "SWA-078",
+      "target_week": 2,
+      "owner": "QA Eng + StoryOps Planner",
+      "dependencies": ["MS-1", "MS-2", "MS-3"],
+      "exit_criteria": "All six release gates pass with signoff",
+      "status": "complete"
+    },
+    {
+      "id": "MS-5",
+      "name": "Operational Roadmap Published",
+      "swa": "SWA-079",
+      "target_week": 3,
+      "owner": "StoryOps Planner",
+      "dependencies": ["MS-4"],
+      "exit_criteria": "Milestone roadmap published with dates and owners",
+      "status": "complete"
+    },
+    {
+      "id": "MS-6",
+      "name": "Closeout and Lessons",
+      "swa": "SWA-080",
+      "target_week": 3,
+      "owner": "StoryOps Planner",
+      "dependencies": ["MS-5"],
+      "exit_criteria": "Closeout package complete; next-action board published",
+      "status": "in_progress"
+    }
+  ],
+  "reporting_cadence": {
+    "daily": "automated CI check run + drift metrics snapshot",
+    "weekly": "milestone review + drift trend analysis",
+    "phase_end": "closeout review per SWA-080"
+  },
+  "risk_buffer": "2 days per milestone gate",
+  "escalation": "milestone_owner -> StoryOps Planner -> replanning if gate missed by >2 days"
+}

@@ -114,6 +114,21 @@ Directory: `06_WORKBENCH/SC_STORYOPS/nvidia-ingestion-pilot`
 | `phase5/SWA-073_checkpoint_summary_v1.md` | SWA-073 completion checkpoint summary | complete |
 | `phase5/SWA-074_implementation_issue_translation_v1.md` | Implementation-ready packet translation for SWA-075 through SWA-080 | complete |
 | `phase5/SWA-074_issue_templates_v1.json` | Machine-readable issue template packets for SWA-075 through SWA-080 | complete |
+| `phase5/SWA-075_ci_regression_checks_spec_v1.md` | SWA-075 CI regression check specification and gate contract | complete |
+| `phase5/SWA-075_ci_threshold_matrix_v1.json` | SWA-075 threshold matrix and check definitions | complete |
+| `scripts/run_swa_phase5_ci_checks.py` | SWA-075 CI check runner for fixtures, thresholds, and report generation | complete |
+| `phase5/SWA-075_ci_check_report_latest.json` | Latest machine-readable SWA-075 CI check report | complete |
+| `phase5/SWA-075_ci_check_report_latest.md` | Latest human-readable SWA-075 CI check report | complete |
+| `phase5/SWA-076_drift_monitoring_spec_v1.md` | SWA-076 drift monitoring specification with thresholds and alert logic | complete |
+| `phase5/SWA-076_drift_metrics_matrix_v1.json` | SWA-076 machine-readable metrics definitions and alert levels | complete |
+| `phase5/SWA-077_incident_playbook_v1.md` | SWA-077 incident playbook with severity matrix and triage flows | complete |
+| `phase5/SWA-077_incident_severity_matrix_v1.json` | SWA-077 machine-readable severity matrix and failure class definitions | complete |
+| `phase5/SWA-078_release_checklist_v1.md` | SWA-078 release checklist with six gates and signoff matrix | complete |
+| `phase5/SWA-078_release_gates_v1.json` | SWA-078 machine-readable gate definitions and post-release verification | complete |
+| `phase5/SWA-079_operational_roadmap_v1.md` | SWA-079 operational roadmap with milestones and owners | complete |
+| `phase5/SWA-079_roadmap_milestones_v1.json` | SWA-079 machine-readable milestone schedule | complete |
+| `phase5/SWA-080_phase5_closeout_v1.md` | SWA-080 closeout document with lessons and next-action board | complete |
+| `phase5/SWA-080_closeout_package_v1.json` | SWA-080 machine-readable closeout package | complete |
 
 ## Integrity Notes
 - Pilot manifest expected counts: `35/35/30` by bucket
@@ -122,5 +137,5 @@ Directory: `06_WORKBENCH/SC_STORYOPS/nvidia-ingestion-pilot`
 - Phase 4 state: model direction set to `nvidia/nv-embed-v1`; integration transition approved via `SWA-072`.
 - SWA-052 through SWA-059 state: complete with checksummed artifact package and query-evaluation outputs
 - SWA-072 state: approved in `phase4/SWA-072_transition_to_integration_approval_v2.md`
-- Phase 5 state: SWA-073 epic map package and SWA-074 implementation translation package are complete.
+- Phase 5 state: SWA-073 through SWA-080 are complete. All planning artifacts, CI checks, drift monitoring, incident playbook, release checklist, roadmap, and closeout are published.
 - Any regenerated artifact should append a dated suffix or update this registry

@@ -1,0 +1,77 @@
+{
+  "generated_at": "2026-05-16T00:00:00Z",
+  "task_id": "SWA-075",
+  "issue": 114,
+  "status": "in_progress",
+  "fixtures": [
+    "phase3/SWA-053_modelB_retrieval_index_v1.json",
+    "phase3/SWA-053_modelB_vectors_v1.npy",
+    "phase3/SWA-054_multimodal_index_v1.json",
+    "phase3/SWA-054_multimodal_vectors_v1.npy",
+    "phase3/SWA-058_recall_match_metrics_v1.json",
+    "phase3/SWA-059_hierarchy_coherence_metrics_v1.json",
+    "phase3/SWA-052_059_artifact_checksums_v1.json"
+  ],
+  "checks": [
+    {
+      "check_id": "C1_fixture_integrity",
+      "severity": "hard_fail",
+      "rules": [
+        "all_required_fixture_paths_exist",
+        "checksums_match_when_baseline_available"
+      ]
+    },
+    {
+      "check_id": "C2_embedding_lane_health",
+      "severity": "hard_fail",
+      "thresholds": {
+        "model_b": {
+          "row_count_eq": 100,
+          "success_count_eq": 100,
+          "fail_count_eq": 0,
+          "vector_dim_eq": 4096
+        },
+        "multimodal": {
+          "row_count_eq": 69,
+          "success_count_gte": 68,
+          "fail_count_lte": 1,
+          "vector_dim_eq": 2048
+        }
+      }
+    },
+    {
+      "check_id": "C3_retrieval_quality_regression",
+      "severity": "hard_fail",
+      "thresholds": {
+        "model_b_recall_at_10_gte": 0.9,
+        "model_b_mean_match_count_gte": 1.2,
+        "model_b_mean_hierarchy_score_0_5_gte": 2.5,
+        "model_b_bucket_mean_scores": {
+          "bio_field_charts_gte": 3.5,
+          "interpretation_maps_gte": 2.4,
+          "cross_integration_histories_gte": 1.7
+        }
+      }
+    },
+    {
+      "check_id": "C4_provenance_completeness",
+      "severity": "hard_fail",
+      "thresholds": {
+        "non_empty_provenance_ref_ratio_eq": 1.0,
+        "null_anchor_query_count_eq": 0
+      }
+    },
+    {
+      "check_id": "C5_rollback_trigger_probe",
+      "severity": "warn",
+      "thresholds": {
+        "unresolved_vl_rate_lte": 0.03
+      },
+      "source_contract": "phase4/SWA-070_rollback_criteria_v1.md"
+    }
+  ],
+  "report_outputs": {
+    "markdown": "phase5/SWA-075_ci_check_report_latest.md",
+    "json": "phase5/SWA-075_ci_check_report_latest.json"
+  }
+}
