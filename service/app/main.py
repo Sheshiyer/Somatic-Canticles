@@ -1,6 +1,9 @@
 from __future__ import annotations
 
+import json
+
 from fastapi import FastAPI, HTTPException
+from pydantic import BaseModel, Field
 
 from .config import settings
 from .db import get_db, get_db_readonly
@@ -356,7 +359,7 @@ async def reading(req: ReadingRequest):
     concept_list = ""
     for i, r in enumerate(resonance_results, 1):
         kosha_name = kosha_names.get(r.kosha_layer, r.kosha_layer or "unknown")
-        concept_list += f"\n{i}. [{r.bucket_type}] {r.text_preview[:120]}... (resonance={r.resonance_weight:.2f}, semantic={r.semantic_similarity:.3f if r.semantic_similarity else 'N/A'}, combined={r.combined_score:.3f}, kosha={kosha_name})"
+        concept_list += f"\n{i}. [{r.bucket_type}] {(r.text_preview or '')[:120]}... (resonance={r.resonance_weight:.2f}, semantic={'%.3f' % r.semantic_similarity if r.semantic_similarity is not None else 'N/A'}, combined={'%.3f' % r.combined_score if r.combined_score is not None else 'N/A'}, kosha={kosha_name})"
 
     reading_context = READING_TEMPLATE.format(
         enneagram=req.enneagram_type,

@@ -64,12 +64,12 @@ CREATE TABLE IF NOT EXISTS provenance_chain (
     created_at       TIMESTAMPTZ DEFAULT NOW()
 );
 
--- Vector search indexes (IVFFlat for ~1K-10K rows, will migrate to HNSW at scale)
-CREATE INDEX IF NOT EXISTS idx_node_embedding ON lore_node
-    USING ivfflat (embedding vector_cosine_ops) WITH (lists = 100);
-
-CREATE INDEX IF NOT EXISTS idx_node_vl_embedding ON lore_node
-    USING ivfflat (vl_embedding vector_cosine_ops) WITH (lists = 100);
+-- Vector search indexes
+-- NOTE: pgvector indexes (both IVFFlat and HNSW) support max 2000 dimensions as of pgvector 0.3.x.
+-- Our embedding vectors are 4096-dim and VL vectors are 2048-dim, both exceeding this limit.
+-- Exact nearest-neighbor search (no index) is used for vector similarity queries.
+-- At production scale, consider: (1) dimensionality reduction to ≤2000, or (2) upgrading to
+-- pgvector 0.7+ which may relax this constraint, or (3) using a dedicated vector DB.
 
 -- Standard indexes
 CREATE INDEX IF NOT EXISTS idx_node_bucket ON lore_node(bucket_type);

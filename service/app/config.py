@@ -2,7 +2,7 @@ from pydantic_settings import BaseSettings
 
 
 class Settings(BaseSettings):
-    database_url: str = "postgresql://lore:lore_local_dev@localhost:5432/canticles_lore"
+    database_url: str = "postgresql://lore:lore_local_dev@localhost:5434/canticles_lore"
     nvidia_base_url: str = "https://integrate.api.nvidia.com/v1"
     nvidia_api_key: str = ""
     embed_model: str = "nvidia/nv-embed-v1"
