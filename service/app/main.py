@@ -2,6 +2,8 @@ from __future__ import annotations
 
 import json
 
+import numpy as np
+import psycopg
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 
@@ -22,6 +24,8 @@ from .seed import seed_from_pilot
 from .affinity_mappings import BUCKET_AFFINITIES, ENNEAGRAM_HORMONE_MAP, KOSHA_DESCRIPTION
 from .lore_entries import INITIAL_LORE_ENTRIES
 from .embeddings import embed_text
+from .llm_client import generate_reading_discourse
+from .dim_reduction import VectorReducer, TARGET_DIM
 
 app = FastAPI(
     title="Somatic Canticles Lore Service",
@@ -451,3 +455,178 @@ async def seed_lore_entries():
         "total_lore_entries": len(INITIAL_LORE_ENTRIES),
         "errors": errors,
     }
+
+
+class GenerateReadingRequest(BaseModel):
+    enneagram_type: int = Field(ge=1, le=9)
+    kosha_layer: str | None = None
+    hormone_phase: str | None = None
+    query_text: str | None = None
+    top_k: int = 5
+    min_resonance: float = 0.3
+
+
+class GenerateReadingResponse(BaseModel):
+    discourse: str
+    reading_context: str
+    concept_cluster: list[dict]
+    enneagram_type: int
+    kosha_layer: str
+    hormone_phase: str
+    resonance_mode: str
+    llm_model: str
+    llm_provider: str
+
+
+@app.post("/generate-reading", response_model=GenerateReadingResponse)
+async def generate_reading(req: GenerateReadingRequest):
+    reading_req = ReadingRequest(
+        enneagram_type=req.enneagram_type,
+        kosha_layer=req.kosha_layer,
+        hormone_phase=req.hormone_phase,
+        query_text=req.query_text,
+        top_k=req.top_k,
+        min_resonance=req.min_resonance,
+    )
+
+    reading_resp = await reading(reading_req)
+
+    try:
+        discourse, model_used, metadata = await generate_reading_discourse(
+            reading_context=reading_resp.reading_context,
+            enneagram_type=reading_resp.enneagram_type,
+            kosha_layer=reading_resp.kosha_layer or "manomaya",
+            hormone_phase=reading_resp.hormone_phase or "unknown",
+            resonance_mode=reading_resp.resonance_mode,
+        )
+    except Exception as exc:
+        raise HTTPException(status_code=502, detail=f"LLM generation failed: {exc}")
+
+    return GenerateReadingResponse(
+        discourse=discourse,
+        reading_context=reading_resp.reading_context,
+        concept_cluster=reading_resp.concept_cluster,
+        enneagram_type=reading_resp.enneagram_type,
+        kosha_layer=reading_resp.kosha_layer,
+        hormone_phase=reading_resp.hormone_phase,
+        resonance_mode=reading_resp.resonance_mode,
+        llm_model=model_used,
+        llm_provider=metadata.get("provider", "unknown"),
+    )
+
+
+class ReduceResponse(BaseModel):
+    status: str
+    source_dim: int
+    target_dim: int
+    reduced_vectors: int
+    projection_saved: bool
+    errors: list[str] = []
+
+
+@app.post("/reduce-dimensions", response_model=ReduceResponse)
+async def reduce_dimensions():
+    """
+    Build PCA projection from pilot vectors and store reduced_embedding column.
+
+    Fits PCA on the nv-embed-v1 4096-dim vectors, reduces to 1536 dims,
+    and updates all lore_node rows with the reduced vectors.
+    Also adds an HNSW index on the reduced column for fast retrieval.
+    """
+    from pathlib import Path as P
+
+    errors: list[str] = []
+
+    pilot_dir = P("/data/pilot/phase3")
+    model_b_vectors_path = pilot_dir / "SWA-053_modelB_vectors_v1.npy"
+
+    if not model_b_vectors_path.exists():
+        return ReduceResponse(
+            status="error", source_dim=0, target_dim=TARGET_DIM,
+            reduced_vectors=0, projection_saved=False,
+            errors=[f"Pilot vectors not found at {model_b_vectors_path}"],
+        )
+
+    vectors = np.load(str(model_b_vectors_path))
+    source_dim = vectors.shape[1]
+    reducer = VectorReducer(source_dim=source_dim, target_dim=TARGET_DIM)
+
+    try:
+        reducer.fit(vectors)
+    except Exception as exc:
+        return ReduceResponse(
+            status="error", source_dim=source_dim, target_dim=TARGET_DIM,
+            reduced_vectors=0, projection_saved=False,
+            errors=[f"PCA fit failed: {exc}"],
+        )
+
+    projection_path = pilot_dir / "pca_projection.json"
+    try:
+        reducer.save(projection_path)
+    except Exception:
+        projection_path = P("/tmp/pca_projection.json")
+        try:
+            reducer.save(projection_path)
+        except Exception as exc:
+            errors.append(f"Projection save failed: {exc}")
+
+    autodb = psycopg.connect(settings.database_url, autocommit=True)
+    from pgvector.psycopg import register_vector as rv_register
+    rv_register(autodb)
+
+    has_col = autodb.execute(
+        "SELECT column_name FROM information_schema.columns WHERE table_name='lore_node' AND column_name='reduced_embedding'"
+    ).fetchone()
+    if not has_col:
+        autodb.execute("ALTER TABLE lore_node ADD COLUMN reduced_embedding vector(1536)")
+
+    reduced_count = 0
+    node_count = autodb.execute(
+        "SELECT COUNT(*) FROM lore_node WHERE embedding IS NOT NULL"
+    ).fetchone()[0]
+
+    batch_size = 10
+    offset = 0
+    while offset < node_count:
+        rows = autodb.execute(
+            "SELECT node_id FROM lore_node WHERE embedding IS NOT NULL ORDER BY node_id LIMIT %s OFFSET %s",
+            (batch_size, offset),
+        ).fetchall()
+
+        if not rows:
+            break
+
+        node_ids = [r[0] for r in rows]
+        placeholders = ",".join(["%s"] * len(node_ids))
+
+        vec_rows = autodb.execute(
+            f"SELECT node_id, embedding FROM lore_node WHERE node_id IN ({placeholders})",
+            node_ids,
+        ).fetchall()
+
+        for nid, emb_vec in vec_rows:
+            if emb_vec is None:
+                continue
+            try:
+                arr = np.array(emb_vec).flatten()
+                reduced = reducer.transform(arr)
+                autodb.execute(
+                    "UPDATE lore_node SET reduced_embedding = %s WHERE node_id = %s",
+                    (reduced.flatten().tolist(), nid),
+                )
+                reduced_count += 1
+            except Exception as exc:
+                errors.append(f"{nid}: {exc}")
+
+        offset += batch_size
+
+    autodb.execute(
+        "CREATE INDEX IF NOT EXISTS idx_node_reduced_embedding ON lore_node USING hnsw (reduced_embedding vector_cosine_ops)"
+    )
+    autodb.close()
+
+    return ReduceResponse(
+        status="ok", source_dim=source_dim, target_dim=TARGET_DIM,
+        reduced_vectors=reduced_count, projection_saved=projection_path.exists(),
+        errors=errors,
+    )
