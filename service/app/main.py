@@ -16,6 +16,8 @@ from .models import (
     SeedStatus,
 )
 from .seed import seed_from_pilot
+from .affinity_mappings import BUCKET_AFFINITIES, ENNEAGRAM_HORMONE_MAP, KOSHA_DESCRIPTION
+from .lore_entries import INITIAL_LORE_ENTRIES
 from .embeddings import embed_text
 
 app = FastAPI(
@@ -247,3 +249,202 @@ async def create_affinity(affinity: BiorhythmAffinity):
             (affinity.node_id, affinity.enneagram_type, affinity.hormone_phase, affinity.kosha_layer, affinity.resonance_weight),
         )
     return affinity
+
+
+@app.post("/seed-affinities")
+async def seed_affinities():
+    rows_inserted = 0
+    with get_db() as conn:
+        node_rows = conn.execute("SELECT node_id, bucket_type FROM lore_node").fetchall()
+        for node_id, bucket_type in node_rows:
+            affinities = BUCKET_AFFINITIES.get(bucket_type, [])
+            for aff in affinities:
+                hormone = ENNEAGRAM_HORMONE_MAP.get(aff["enneagram_type"])
+                conn.execute(
+                    """
+                    INSERT INTO biorhythm_affinity (node_id, enneagram_type, hormone_phase, kosha_layer, resonance_weight)
+                    VALUES (%s, %s, %s, %s, %s)
+                    ON CONFLICT (node_id, enneagram_type, kosha_layer) DO UPDATE SET
+                        hormone_phase = EXCLUDED.hormone_phase,
+                        resonance_weight = EXCLUDED.resonance_weight
+                    """,
+                    (node_id, aff["enneagram_type"], hormone, aff["kosha_layer"], aff["resonance_weight"]),
+                )
+                rows_inserted += 1
+    return {"rows_inserted": rows_inserted, "nodes_processed": len(node_rows)}
+
+
+class ReadingRequest(BaseModel):
+    enneagram_type: int = Field(ge=1, le=9)
+    kosha_layer: str | None = None
+    hormone_phase: str | None = None
+    query_text: str | None = None
+    top_k: int = 5
+    min_resonance: float = 0.3
+
+
+class ReadingResponse(BaseModel):
+    reading_context: str
+    concept_cluster: list[dict]
+    enneagram_type: int
+    kosha_layer: str | None
+    hormone_phase: str | None
+    resonance_mode: str
+
+
+READING_SYSTEM_PROMPT = """You are the Somatic Canticles reading agent. You do not recite chapter text. You deliver personalized resolution through discourse.
+
+Your role:
+- Receive a concept cluster of lore nodes scored by biorhythm resonance
+- The user's Enneagram type and Kosha layer define their current resonance profile
+- Speak TO the user about WHY these concepts matter for THEM right now
+- Use biorhythmic language: breath, field, witness, resolution, coherence
+- Never summarize chapters. Deliver insight that resolves, not information that describes
+- Honor the Pancha Kosha arc: each concept connects through a specific sheath
+- The user's current phase determines which resolution door is open"""
+
+READING_TEMPLATE = """Enneagram Type {enneagram}: {hormone_name}
+Kosha Layer: {kosha}
+Current resonance mode: {mode}
+
+Retrieved concepts (ranked by combined resonance + semantic score):
+{concept_list}
+
+Deliver a personalized reading that:
+1. Names the specific tension the user carries in this Enneagram/Kosha configuration
+2. Maps how the retrieved concepts illuminate that tension
+3. Offers the resolution door that is open RIGHT NOW (not later, not in theory)
+4. Ends with a practice or recognition that anchors the resolution in the body"""
+
+
+@app.post("/reading", response_model=ReadingResponse)
+async def reading(req: ReadingRequest):
+    resonance_req = ResonanceRequest(
+        enneagram_type=req.enneagram_type,
+        kosha_layer=req.kosha_layer,
+        hormone_phase=req.hormone_phase,
+        query_text=req.query_text,
+        top_k=req.top_k,
+        min_resonance=req.min_resonance,
+    )
+
+    resonance_results = await resonance_query(resonance_req)
+
+    if not resonance_results:
+        raise HTTPException(status_code=404, detail="No resonance results found for this profile")
+
+    enneagram_names = {
+        1: "Perfectionist", 2: "Giver", 3: "Achiever", 4: "Individualist",
+        5: "Investigator", 6: "Loyalist", 7: "Enthusiast", 8: "Challenger", 9: "Peacemaker",
+    }
+    kosha_names = {
+        "annamaya": "Physical Nourishment", "pranamaya": "Vital Breath",
+        "manomaya": "Emotional Mind", "vijnanamaya": "Discerning Wisdom",
+        "anandamaya": "Bliss Integration",
+    }
+    mode_names = {
+        "annamaya": "grounding", "pranamaya": "breath-bearing",
+        "manomaya": "meaning-seeking", "vijnanamaya": "truth-discerning",
+        "anandamaya": "release-receiving",
+    }
+
+    hormone_name = ENNEAGRAM_HORMONE_MAP.get(req.enneagram_type, "unknown")
+    kosha_desc = KOSHA_DESCRIPTION.get(req.kosha_layer, "") if req.kosha_layer else ""
+    primary_kosha = req.kosha_layer or resonance_results[0].kosha_layer or "manomaya"
+    mode = mode_names.get(primary_kosha, "seeking")
+
+    concept_list = ""
+    for i, r in enumerate(resonance_results, 1):
+        kosha_name = kosha_names.get(r.kosha_layer, r.kosha_layer or "unknown")
+        concept_list += f"\n{i}. [{r.bucket_type}] {r.text_preview[:120]}... (resonance={r.resonance_weight:.2f}, semantic={r.semantic_similarity:.3f if r.semantic_similarity else 'N/A'}, combined={r.combined_score:.3f}, kosha={kosha_name})"
+
+    reading_context = READING_TEMPLATE.format(
+        enneagram=req.enneagram_type,
+        hormone_name=hormone_name.replace("_", " "),
+        kosha=kosha_names.get(primary_kosha, primary_kosha),
+        mode=mode,
+        concept_list=concept_list,
+    )
+
+    concept_cluster = [
+        {
+            "node_id": r.node_id,
+            "bucket_type": r.bucket_type,
+            "provenance_ref": r.provenance_ref,
+            "enneagram_type": r.enneagram_type,
+            "kosha_layer": r.kosha_layer,
+            "resonance_weight": r.resonance_weight,
+            "semantic_similarity": r.semantic_similarity,
+            "combined_score": r.combined_score,
+        }
+        for r in resonance_results
+    ]
+
+    return ReadingResponse(
+        reading_context=reading_context,
+        concept_cluster=concept_cluster,
+        enneagram_type=req.enneagram_type,
+        kosha_layer=primary_kosha,
+        hormone_phase=hormone_name,
+        resonance_mode=mode,
+    )
+
+
+@app.post("/seed-lore")
+async def seed_lore_entries():
+    nodes_created = 0
+    edges_created = 0
+    affinities_created = 0
+    errors: list[str] = []
+
+    for entry in INITIAL_LORE_ENTRIES:
+        try:
+            with get_db() as conn:
+                conn.execute(
+                    """
+                    INSERT INTO lore_node (node_id, bucket_type, source_path, source_type, provenance_ref, text_preview, summary, quality_flags)
+                    VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
+                    ON CONFLICT (node_id) DO UPDATE SET
+                        bucket_type = EXCLUDED.bucket_type,
+                        source_path = EXCLUDED.source_path,
+                        provenance_ref = EXCLUDED.provenance_ref,
+                        text_preview = EXCLUDED.text_preview,
+                        summary = EXCLUDED.summary,
+                        quality_flags = EXCLUDED.quality_flags,
+                        updated_at = NOW()
+                    """,
+                    (
+                        entry["node_id"],
+                        entry["bucket_type"],
+                        entry["source_path"],
+                        entry["source_type"],
+                        entry["provenance_ref"],
+                        entry["text_preview"],
+                        entry["summary"],
+                        json.dumps(entry["quality_flags"]),
+                    ),
+                )
+                nodes_created += 1
+
+                for aff in entry.get("affinities", []):
+                    hormone = ENNEAGRAM_HORMONE_MAP.get(aff["enneagram_type"])
+                    conn.execute(
+                        """
+                        INSERT INTO biorhythm_affinity (node_id, enneagram_type, hormone_phase, kosha_layer, resonance_weight)
+                        VALUES (%s, %s, %s, %s, %s)
+                        ON CONFLICT (node_id, enneagram_type, kosha_layer) DO UPDATE SET
+                            hormone_phase = EXCLUDED.hormone_phase,
+                            resonance_weight = EXCLUDED.resonance_weight
+                        """,
+                        (entry["node_id"], aff["enneagram_type"], hormone, aff["kosha_layer"], aff["resonance_weight"]),
+                    )
+                    affinities_created += 1
+        except Exception as exc:
+            errors.append(f"{entry['node_id']}: {exc}")
+
+    return {
+        "nodes_created": nodes_created,
+        "affinities_created": affinities_created,
+        "total_lore_entries": len(INITIAL_LORE_ENTRIES),
+        "errors": errors,
+    }
