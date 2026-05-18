@@ -1,0 +1,127 @@
+{
+  "generated_at": "2026-05-16T00:00:00Z",
+  "task_id": "SWA-074",
+  "mission_continuity": "Operationalize extracted-data embeddings and provenance-bound relation graph retrieval without changing pilot scope.",
+  "issue_packets": [
+    {
+      "issue_number": 114,
+      "task_id": "SWA-075",
+      "owner_role": "DevOps Eng",
+      "depends_on": [
+        "SWA-074"
+      ],
+      "objective": "Define CI checks for embedding pipeline regressions.",
+      "checklist": [
+        "define_ci_input_fixtures",
+        "define_regression_thresholds",
+        "define_checksum_verification",
+        "define_provenance_fail_fast_rules",
+        "define_ci_reporting_contract"
+      ],
+      "acceptance": [
+        "ci_spec_has_executable_pass_fail_rules",
+        "thresholds_are_explicit_and_source_linked",
+        "handoff_to_incident_playbook_documented"
+      ]
+    },
+    {
+      "issue_number": 115,
+      "task_id": "SWA-076",
+      "owner_role": "DevOps Eng",
+      "depends_on": [
+        "SWA-074"
+      ],
+      "objective": "Define monitoring metrics for retrieval quality drift.",
+      "checklist": [
+        "define_metrics_and_thresholds",
+        "define_alert_levels",
+        "define_reporting_cadence",
+        "define_alert_ownership",
+        "map_rollback_triggers_to_swa_070"
+      ],
+      "acceptance": [
+        "drift_spec_includes_thresholds_and_owners",
+        "metrics_map_to_baseline_and_contract_fields"
+      ]
+    },
+    {
+      "issue_number": 116,
+      "task_id": "SWA-077",
+      "owner_role": "QA Eng",
+      "depends_on": [
+        "SWA-075"
+      ],
+      "objective": "Define incident playbook for ingestion failures.",
+      "checklist": [
+        "define_severity_matrix",
+        "define_triage_flow",
+        "define_containment_and_rollback_actions",
+        "define_evidence_capture_template",
+        "define_communication_and_closure_flow"
+      ],
+      "acceptance": [
+        "incident_playbook_is_actionable",
+        "every_incident_class_has_owner_and_recovery_steps"
+      ]
+    },
+    {
+      "issue_number": 117,
+      "task_id": "SWA-078",
+      "owner_role": "QA Eng",
+      "depends_on": [
+        "SWA-075",
+        "SWA-076",
+        "SWA-077"
+      ],
+      "objective": "Define release checklist for non-editorial network launch.",
+      "checklist": [
+        "define_pre_release_gates",
+        "define_boundary_policy_verification",
+        "define_provenance_completeness_checks",
+        "define_rollback_trigger_validation",
+        "define_final_signoff_matrix"
+      ],
+      "acceptance": [
+        "release_checklist_covers_all_dependency_gates",
+        "checklist_is_executable_without_external_assumptions"
+      ]
+    },
+    {
+      "issue_number": 118,
+      "task_id": "SWA-079",
+      "owner_role": "StoryOps Planner",
+      "depends_on": [
+        "SWA-078"
+      ],
+      "objective": "Publish v1 operational roadmap and milestone dates.",
+      "checklist": [
+        "convert_phase5_outputs_to_milestones",
+        "define_owners_and_dependencies",
+        "define_reporting_cadence",
+        "define_escalation_and_buffer_policy"
+      ],
+      "acceptance": [
+        "roadmap_has_dates_owners_and_dependencies"
+      ]
+    },
+    {
+      "issue_number": 119,
+      "task_id": "SWA-080",
+      "owner_role": "StoryOps Planner",
+      "depends_on": [
+        "SWA-079"
+      ],
+      "objective": "Close planning cycle with lessons and next action board.",
+      "checklist": [
+        "compile_lessons_from_phase5",
+        "record_retained_controls",
+        "publish_next_action_board",
+        "assign_follow_up_risk_owners"
+      ],
+      "acceptance": [
+        "closeout_package_complete",
+        "next_action_board_is_owner_assigned"
+      ]
+    }
+  ]
+}

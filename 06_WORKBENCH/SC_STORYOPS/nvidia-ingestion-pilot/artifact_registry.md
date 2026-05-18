@@ -107,12 +107,20 @@ Directory: `06_WORKBENCH/SC_STORYOPS/nvidia-ingestion-pilot`
 | `phase4/SWA-067_model_selection_decision_memo_v2.md` | Model selection memo updated with contractual metrics | complete |
 | `phase4/SWA-068_threshold_rule_constraints_review_v2.md` | Threshold/constraint review updated with contractual metrics | complete |
 | `phase4/SWA-072_transition_to_integration_approval_v2.md` | Transition approval memo updated to approved state | complete |
+| `phase5/SWA-073_integration_epic_map_v1.md` | Phase 5 epic map and scope lock for SWA-073 through SWA-080 | complete |
+| `phase5/SWA-073_integration_epic_map_v1.json` | Machine-readable epic dependency graph for Phase 5 | complete |
+| `phase5/SWA-073_ownership_matrix_v1.md` | Role ownership and handoff matrix for SWA-073 through SWA-080 | complete |
+| `phase5/SWA-073_gate_checklist_v1.md` | Gate checklist for SWA-073 operationalization handoff | complete |
+| `phase5/SWA-073_checkpoint_summary_v1.md` | SWA-073 completion checkpoint summary | complete |
+| `phase5/SWA-074_implementation_issue_translation_v1.md` | Implementation-ready packet translation for SWA-075 through SWA-080 | complete |
+| `phase5/SWA-074_issue_templates_v1.json` | Machine-readable issue template packets for SWA-075 through SWA-080 | complete |
 
 ## Integrity Notes
 - Pilot manifest expected counts: `35/35/30` by bucket
 - Query template expected distribution: `10/10/10` by bucket
 - Phase 3 full execution state: `SWA-049=0/100`, `SWA-050=100/100`, `SWA-051=68/69`; unresolved node `NODE-063` points to an empty source image file
-- Phase 4 state: provisional model direction set to `nvidia/nv-embed-v1`; integration transition remains conditional on `SWA-052..SWA-059`
+- Phase 4 state: model direction set to `nvidia/nv-embed-v1`; integration transition approved via `SWA-072`.
 - SWA-052 through SWA-059 state: complete with checksummed artifact package and query-evaluation outputs
 - SWA-072 state: approved in `phase4/SWA-072_transition_to_integration_approval_v2.md`
+- Phase 5 state: SWA-073 epic map package and SWA-074 implementation translation package are complete.
 - Any regenerated artifact should append a dated suffix or update this registry

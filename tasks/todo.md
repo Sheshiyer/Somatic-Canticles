@@ -990,3 +990,14 @@ This file is the active source of truth for repository execution status.
   - [x] Published decision + threshold review v2 (`phase4/SWA-067_model_selection_decision_memo_v2.md`, `phase4/SWA-068_threshold_rule_constraints_review_v2.md`)
 - [x] Approve transition to Phase 5 integration execution (`SWA-072`)
   - [x] Published approval memo v2 (`phase4/SWA-072_transition_to_integration_approval_v2.md`)
+- [x] Create integration epic map for graph deployment (`SWA-073`)
+  - [x] Published integration epic map (`phase5/SWA-073_integration_epic_map_v1.md`)
+  - [x] Published machine-readable epic graph (`phase5/SWA-073_integration_epic_map_v1.json`)
+  - [x] Published ownership matrix (`phase5/SWA-073_ownership_matrix_v1.md`)
+  - [x] Published gate checklist (`phase5/SWA-073_gate_checklist_v1.md`)
+  - [x] Published checkpoint summary (`phase5/SWA-073_checkpoint_summary_v1.md`)
+  - [x] Locked mission continuity: extracted-data embeddings + provenance-bound relation graph retrieval for non-editorial world-building knowledge
+- [x] Translate pilot tasks into implementation-ready issues (`SWA-074`)
+  - [x] Published implementation translation package (`phase5/SWA-074_implementation_issue_translation_v1.md`)
+  - [x] Published machine-readable issue templates (`phase5/SWA-074_issue_templates_v1.json`)
+  - [x] Preserved dependency chain for operationalization: `SWA-074 -> {SWA-075,SWA-076} -> SWA-077 -> SWA-078 -> SWA-079 -> SWA-080`

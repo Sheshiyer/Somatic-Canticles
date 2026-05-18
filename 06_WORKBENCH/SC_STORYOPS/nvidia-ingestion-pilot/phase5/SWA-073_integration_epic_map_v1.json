@@ -1,0 +1,146 @@
+{
+  "generated_at": "2026-05-16T00:00:00Z",
+  "task_id": "SWA-073",
+  "phase": "Phase 5",
+  "mission_continuity": "Operationalize extracted-data embeddings plus provenance-bound relation graph retrieval for non-editorial world-building knowledge.",
+  "scope_lock": {
+    "must_keep": [
+      "canonical_and_editorial_surfaces_read_only",
+      "extraction_embedding_retrieval_relation_graph_pipeline",
+      "provenance_required_for_nodes_and_edges",
+      "anti_drift_and_boundary_checks_active"
+    ],
+    "non_goals": [
+      "direct_manuscript_rewrites",
+      "editorial_doctrine_mutation",
+      "ontology_claims_without_evidence",
+      "planning_time_backend_lock_in"
+    ]
+  },
+  "epics": [
+    {
+      "epic_id": "E1",
+      "swa_tasks": [
+        "SWA-073"
+      ],
+      "title": "Integration control packet",
+      "owner_role": "StoryOps Planner",
+      "depends_on": [
+        "SWA-072"
+      ],
+      "entry_gate": "transition_approved",
+      "exit_gate": "integration_epic_map_package_complete",
+      "artifacts": [
+        "phase5/SWA-073_integration_epic_map_v1.md",
+        "phase5/SWA-073_integration_epic_map_v1.json",
+        "phase5/SWA-073_ownership_matrix_v1.md",
+        "phase5/SWA-073_gate_checklist_v1.md",
+        "phase5/SWA-073_checkpoint_summary_v1.md"
+      ]
+    },
+    {
+      "epic_id": "E2",
+      "swa_tasks": [
+        "SWA-074"
+      ],
+      "title": "Implementation translation packets",
+      "owner_role": "StoryOps Planner",
+      "depends_on": [
+        "SWA-073"
+      ],
+      "entry_gate": "integration_control_packet_approved",
+      "exit_gate": "implementation_issue_templates_ready",
+      "artifacts": [
+        "phase5/SWA-074_implementation_issue_translation_v1.md",
+        "phase5/SWA-074_issue_templates_v1.json"
+      ]
+    },
+    {
+      "epic_id": "E3",
+      "swa_tasks": [
+        "SWA-075"
+      ],
+      "title": "CI regression guardrails",
+      "owner_role": "DevOps Eng",
+      "depends_on": [
+        "SWA-074"
+      ],
+      "entry_gate": "implementation_packets_approved",
+      "exit_gate": "ci_gate_definitions_ready"
+    },
+    {
+      "epic_id": "E4",
+      "swa_tasks": [
+        "SWA-076"
+      ],
+      "title": "Retrieval drift monitoring",
+      "owner_role": "DevOps Eng",
+      "depends_on": [
+        "SWA-074"
+      ],
+      "entry_gate": "implementation_packets_approved",
+      "exit_gate": "monitoring_spec_ready"
+    },
+    {
+      "epic_id": "E5",
+      "swa_tasks": [
+        "SWA-077",
+        "SWA-078"
+      ],
+      "title": "Incident and release readiness",
+      "owner_role": "QA Eng",
+      "depends_on": [
+        "SWA-075",
+        "SWA-076"
+      ],
+      "entry_gate": "ci_and_monitoring_ready",
+      "exit_gate": "incident_and_release_checklists_signed"
+    },
+    {
+      "epic_id": "E6",
+      "swa_tasks": [
+        "SWA-079"
+      ],
+      "title": "Operational roadmap publication",
+      "owner_role": "StoryOps Planner",
+      "depends_on": [
+        "SWA-078"
+      ],
+      "entry_gate": "release_checklist_complete",
+      "exit_gate": "roadmap_published"
+    },
+    {
+      "epic_id": "E7",
+      "swa_tasks": [
+        "SWA-080"
+      ],
+      "title": "Planning closeout and next board",
+      "owner_role": "StoryOps Planner",
+      "depends_on": [
+        "SWA-079"
+      ],
+      "entry_gate": "roadmap_published",
+      "exit_gate": "closeout_board_approved"
+    }
+  ],
+  "critical_path": [
+    "SWA-073",
+    "SWA-074",
+    "SWA-075",
+    "SWA-077",
+    "SWA-078",
+    "SWA-079",
+    "SWA-080"
+  ],
+  "parallel_paths": [
+    [
+      "SWA-075",
+      "SWA-076"
+    ]
+  ],
+  "recommended_default_profile": {
+    "deployment_posture": "backend_neutral",
+    "default_runtime": "postgres_pgvector_relation_tables",
+    "adapter_required": true
+  }
+}
