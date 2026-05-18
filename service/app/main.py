@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+from pathlib import Path
 
 import numpy as np
 import psycopg
@@ -19,6 +20,8 @@ from .models import (
     ResonanceRequest,
     ResonanceResult,
     SeedStatus,
+    ReducedQueryRequest,
+    ReducedQueryResult,
 )
 from .seed import seed_from_pilot
 from .affinity_mappings import BUCKET_AFFINITIES, ENNEAGRAM_HORMONE_MAP, KOSHA_DESCRIPTION
@@ -630,3 +633,95 @@ async def reduce_dimensions():
         reduced_vectors=reduced_count, projection_saved=projection_path.exists(),
         errors=errors,
     )
+
+
+@app.post("/query-reduced", response_model=list[ReducedQueryResult])
+async def query_reduced(req: ReducedQueryRequest):
+    """
+    Fast similarity search using HNSW index on PCA-reduced vectors.
+
+    Embeds query text via NVIDIA API, reduces to 1536 dims with PCA,
+    then uses HNSW index for fast approximate nearest-neighbor retrieval.
+    Falls back to exact search on full embedding if reduced vectors unavailable.
+    """
+    try:
+        embeddings = await embed_text([req.query_text])
+        query_vec = embeddings[0]
+    except Exception:
+        raise HTTPException(status_code=502, detail="Embedding service unavailable")
+
+    projection_path = Path("/tmp/pca_projection.json")
+    db = psycopg.connect(settings.database_url, autocommit=True)
+    from pgvector.psycopg import register_vector as rv_qr
+    rv_qr(db)
+
+    has_reduced = db.execute(
+        "SELECT column_name FROM information_schema.columns WHERE table_name='lore_node' AND column_name='reduced_embedding'"
+    ).fetchone()
+
+    if has_reduced and projection_path.exists():
+        reducer = VectorReducer.load(projection_path)
+        query_reduced = reducer.transform(np.array(query_vec)).flatten().tolist()
+
+        sql = """
+            SELECT node_id, bucket_type, provenance_ref, text_preview, summary,
+                   1 - (reduced_embedding <=> %s::vector) AS similarity
+            FROM lore_node
+            WHERE reduced_embedding IS NOT NULL
+        """
+        params: list = [query_reduced]
+
+        if req.bucket_filter:
+            placeholders = ",".join(["%s"] * len(req.bucket_filter))
+            sql += f" AND bucket_type IN ({placeholders})"
+            params.extend(req.bucket_filter)
+
+        sql += " ORDER BY reduced_embedding <=> %s::vector LIMIT %s"
+        params.extend([query_reduced, req.top_k])
+
+        rows = db.execute(sql, params).fetchall()
+
+        results = []
+        for nid, bt, prov, tp, summ, sim in rows:
+            if sim >= req.min_similarity:
+                results.append(ReducedQueryResult(
+                    node_id=nid, bucket_type=bt, provenance_ref=prov,
+                    text_preview=tp, summary=summ, similarity=float(sim),
+                    search_mode="hnsw_reduced",
+                ))
+        db.close()
+        return results
+
+    db.close()
+    fallback_db = psycopg.connect(settings.database_url, autocommit=True)
+    from pgvector.psycopg import register_vector as rv_fb
+    rv_fb(fallback_db)
+
+    sql = """
+        SELECT node_id, bucket_type, provenance_ref, text_preview, summary,
+               1 - (embedding <=> %s::vector) AS similarity
+        FROM lore_node
+        WHERE embedding IS NOT NULL
+    """
+    params = [query_vec]
+
+    if req.bucket_filter:
+        placeholders = ",".join(["%s"] * len(req.bucket_filter))
+        sql += f" AND bucket_type IN ({placeholders})"
+        params.extend(req.bucket_filter)
+
+    sql += " ORDER BY embedding <=> %s::vector LIMIT %s"
+    params.extend([query_vec, req.top_k])
+
+    rows = fallback_db.execute(sql, params).fetchall()
+
+    results = []
+    for nid, bt, prov, tp, summ, sim in rows:
+        if sim >= req.min_similarity:
+            results.append(ReducedQueryResult(
+                node_id=nid, bucket_type=bt, provenance_ref=prov,
+                text_preview=tp, summary=summ, similarity=float(sim),
+                search_mode="exact_full_dim",
+            ))
+    fallback_db.close()
+    return results

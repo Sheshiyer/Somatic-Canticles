@@ -94,3 +94,20 @@ class HealthResponse(BaseModel):
     db_connected: bool
     node_count: int
     edge_count: int
+
+
+class ReducedQueryRequest(BaseModel):
+    query_text: str
+    top_k: int = Field(default=10, ge=1, le=50)
+    bucket_filter: list[str] | None = None
+    min_similarity: float = Field(default=0.5, ge=0.0, le=1.0)
+
+
+class ReducedQueryResult(BaseModel):
+    node_id: str
+    bucket_type: str
+    provenance_ref: str
+    text_preview: str | None = None
+    summary: str | None = None
+    similarity: float
+    search_mode: str = "hnsw_reduced"
