@@ -37,6 +37,23 @@ app = FastAPI(
 )
 
 
+@app.on_event("startup")
+async def ensure_schema():
+    db = psycopg.connect(settings.database_url, autocommit=True)
+    db.execute("""
+        CREATE TABLE IF NOT EXISTS system_config (
+            key TEXT PRIMARY KEY,
+            value TEXT NOT NULL,
+            created_at TIMESTAMPTZ DEFAULT NOW(),
+            updated_at TIMESTAMPTZ DEFAULT NOW()
+        )
+    """)
+    db.execute("""
+        CREATE INDEX IF NOT EXISTS idx_system_config_key ON system_config (key)
+    """)
+    db.close()
+
+
 @app.get("/health", response_model=HealthResponse)
 async def health():
     try:
@@ -564,18 +581,30 @@ async def reduce_dimensions():
         )
 
     projection_path = pilot_dir / "pca_projection.json"
+    projection_saved = False
     try:
         reducer.save(projection_path)
+        projection_saved = True
     except Exception:
         projection_path = P("/tmp/pca_projection.json")
         try:
             reducer.save(projection_path)
+            projection_saved = True
         except Exception as exc:
-            errors.append(f"Projection save failed: {exc}")
+            errors.append(f"File save failed: {exc}")
 
     autodb = psycopg.connect(settings.database_url, autocommit=True)
     from pgvector.psycopg import register_vector as rv_register
     rv_register(autodb)
+
+    try:
+        autodb.execute(
+            "INSERT INTO system_config (key, value, updated_at) VALUES (%s, %s, NOW()) ON CONFLICT (key) DO UPDATE SET value = EXCLUDED.value, updated_at = EXCLUDED.updated_at",
+            ("pca_projection", reducer.to_json()),
+        )
+        projection_saved = True
+    except Exception as exc:
+        errors.append(f"DB projection save failed: {exc}")
 
     has_col = autodb.execute(
         "SELECT column_name FROM information_schema.columns WHERE table_name='lore_node' AND column_name='reduced_embedding'"
@@ -630,7 +659,7 @@ async def reduce_dimensions():
 
     return ReduceResponse(
         status="ok", source_dim=source_dim, target_dim=TARGET_DIM,
-        reduced_vectors=reduced_count, projection_saved=projection_path.exists(),
+        reduced_vectors=reduced_count, projection_saved=projection_saved,
         errors=errors,
     )
 
@@ -659,8 +688,26 @@ async def query_reduced(req: ReducedQueryRequest):
         "SELECT column_name FROM information_schema.columns WHERE table_name='lore_node' AND column_name='reduced_embedding'"
     ).fetchone()
 
-    if has_reduced and projection_path.exists():
-        reducer = VectorReducer.load(projection_path)
+    reducer = None
+    if has_reduced:
+        row = db.execute(
+            "SELECT value FROM system_config WHERE key = %s", ("pca_projection",)
+        ).fetchone()
+        if row:
+            try:
+                reducer = VectorReducer.from_json(row[0])
+            except Exception:
+                pass
+
+        if reducer is None:
+            projection_path = Path("/tmp/pca_projection.json")
+            if projection_path.exists():
+                try:
+                    reducer = VectorReducer.load(projection_path)
+                except Exception:
+                    pass
+
+    if has_reduced and reducer is not None:
         query_reduced = reducer.transform(np.array(query_vec)).flatten().tolist()
 
         sql = """

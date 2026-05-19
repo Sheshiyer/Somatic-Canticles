@@ -74,6 +74,28 @@ class VectorReducer:
         self.fit(vectors)
         return self.transform(vectors)
 
+    def to_json(self) -> str:
+        """Serialize projection matrix and mean to JSON string."""
+        if self.projection_matrix is None or self.mean is None:
+            raise RuntimeError("Nothing to serialize. Call fit() first.")
+        data = {
+            "source_dim": self.source_dim,
+            "target_dim": self.target_dim,
+            "projection_matrix": self.projection_matrix.tolist(),
+            "mean": self.mean.tolist(),
+        }
+        return json.dumps(data)
+
+    @classmethod
+    def from_json(cls, json_str: str) -> "VectorReducer":
+        """Deserialize from JSON string (from DB)."""
+        data = json.loads(json_str)
+        reducer = cls(source_dim=data["source_dim"], target_dim=data["target_dim"])
+        reducer.projection_matrix = np.array(data["projection_matrix"])
+        reducer.mean = np.array(data["mean"])
+        reducer._fitted = True
+        return reducer
+
     def save(self, path: Path) -> None:
         """Save projection matrix and mean to disk."""
         if self.projection_matrix is None or self.mean is None:
