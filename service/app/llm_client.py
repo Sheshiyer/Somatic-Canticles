@@ -54,7 +54,7 @@ async def generate_reading_discourse(
         "LLM_MODEL",
         "meta/llama-3.3-70b-instruct",
     )
-    api_key = os.environ.get("LLM_API_KEY", os.environ.get("NVIDIA_API_KEY", ""))
+    api_key = os.environ.get("LLM_API_KEY") or os.environ.get("NVIDIA_API_KEY", "")
     base_url = os.environ.get("LLM_BASE_URL", "https://integrate.api.nvidia.com/v1")
     max_tokens = int(os.environ.get("LLM_MAX_TOKENS", "2048"))
     temperature = float(os.environ.get("LLM_TEMPERATURE", "0.7"))
