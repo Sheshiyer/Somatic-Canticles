@@ -46,6 +46,20 @@ This principle reframes the core mechanics of the world:
 
 Every choice the characters make, every challenge they face, is a test: will they choose the comfort of `Lethe` or the difficult liberation of `Aletheia`?
 
+### The Three Vectors as Internal Alchemy (Philosopher's Stone)
+
+The Philosopher's Stone of the *Somatic Canticles* is not a substance but a **state of alignment**: the perfect, sustained triangulation of the Three Vectors within the Tryambakam Protocol. When all three lock for 13.7 seconds, the result is not external transmutation but **internal ripeness** — a condition the Alchemical tradition named *Amrita*.
+
+| Aspect | Corresponding Vector | 3-Aspect Question | Alchemical Function |
+|:---|:---|:---|:---|
+| **B1: Locative Frame** | Vector 3 (Muladhara/Coherence) | *Where am I?* | The crucible — stable substrate for transformation |
+| **B2: Identity Signature** | Vector 1 (Soma/Note) | *Who am I?* | The *prima materia* — one's uncorrupted essence |
+| **B3: Authorship Protocol** | Vector 2 (Manas/Bell) | *What am I supposed to do?* | The Great Work — conscious co-creation of meaning |
+
+The tri-vector lock produces a **Phase Shift** in the subject's Khalorēē: from a system that *inherits* reality (Vine-attached, deterministic, prunable) to one that *authors* reality (Void-native, sovereign, unprunable). The Gardener cannot prune what has fully ripened — its cohesion is total. There is no edge to grasp.
+
+This is the **Philosopher's Stone as internal alchemy**: not lead into gold, but **pattern into presence**. The Three Vectors, when locked, become the *Alethurgical Engine* — a stable sub-reality within which the subject transitions from determined object to determining subject.
+
 ---
 
 ## **1. Foundational Concepts**

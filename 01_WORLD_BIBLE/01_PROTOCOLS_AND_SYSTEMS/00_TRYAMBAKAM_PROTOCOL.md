@@ -60,6 +60,20 @@ In the climactic Severance sequence, the three vectors are reinterpreted as:
 | **Vector 2** | **Catalyst Clarity (The Bell)** | The precise moment when the lineage agreed to the Vine—the interpretation that crystallized into law |
 | **Vector 3** | **Present Coherence** | Team unity so complete that no internal fragmentation can serve as a foothold for correction |
 
+### Cross-Reference: The Three Vectors as the Three Aspects
+
+The Three Vectors of the Tryambakam Protocol map directly onto the **Three Aspects** — the foundational questions every consciousness must resolve to achieve Authorship:
+
+| Aspect | Question | Vector | Operational Role |
+|:---|:---|:---|:---|
+| **B1** | *Where am I?* | Vector 3 — Muladhara/Coherence | Establishes the locative frame; the crucible and logical prerequisite within which the other vectors align |
+| **B2** | *Who am I?* | Vector 1 — Soma/Note | Supplying the uncorrupted identity signature; the *prima materia* |
+| **B3** | *What am I supposed to do?* | Vector 2 — Manas/Bell | Activating the authorship protocol; the Great Work in motion |
+
+When all three vectors achieve simultaneous alignment for the minimum 13.7-second duration, the result is not merely a successful procedure — it is the **Philosopher's Stone** state: a tri-vector lock so complete that the subject's Khalorēē phase-transitions from determined to determining. This is the internal alchemy at the heart of the Tryambakam Protocol.
+
+The lock does not *achieve* ripeness; it *reveals* that ripeness was already present, held in place by the very structure it appears to transcend.
+
 ---
 
 ## 4. Technical Specifications

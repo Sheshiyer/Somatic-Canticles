@@ -20,8 +20,8 @@ While the first 12 lenses are diagnostic (Analytic), the **13th Lens** is trans-
 
 | # | Lens Name | Primary Focus | Field Mapping |
 | :--- | :--- | :--- | :--- |
-| **1** | **Vimshottari Dasha** | Karmic Timing | Mapping the "Cycle of Manifestation" and planetary periods. |
-| **2** | **Nakshatra Engine** | Stellar Resonance | The subject's "Pre-Natal" metadata and lunar mansions. |
+| **1** | **Vimshottari Dasha** | Karmic Timing | A 120-year planetary period system (based on the 27 nakshatras at 120° arc each) mapping the subject's *adhikāra* — the window of karmic eligibility. Each mahadasha lordship (Sun, Moon, Ketu, Venus, etc.) defines which Chalice of the Vine is currently "in session": which inherited pattern-structure has the floor of consciousness. The Dasha Lens does not predict events; it reveals *what kind of time the subject is metabolizing*. |
+| **2** | **Nakshatra Engine** | Stellar Resonance | The 27 lunar mansions (each 13°20′) encoding the subject's *janma* (birth-star) metadata — the precise astronomical frequency at which the Vine "caught" this consciousness at entry. A nakshatra is not a constellation but a *time-locked field signature*: the exact phase of the lunar cycle at first breath, which determines the *tone* of the subject's Khalorēē compaction. The Engine reads this birth-signature against the current transit field to detect where inherited pattern is thickening or thinning. |
 | **3** | **Chakra-Kosha** | Bio-Energetic Flow | Identifying "Clogged" nodes in the subtle body layers. |
 | **4** | **TCM Organ Clock** | Biological Periodicity | Tracking metabolic "Tides" and organ activation windows. |
 | **5** | **Human Design** | Decision Mechanics | The subject's unique "Operating System" and authority type. |
@@ -53,6 +53,19 @@ Each Somanaut has deep mastery of specific lenses:
 - **Sona Vireth**: Lenses 3, 4, 11, 12 (The Somatic/Energetic Lenses)
 - **Corvan Luminth**: Lenses 6, 7, 8 (The Narrative/Archetypal Lenses)
 - **Gideon Seter**: Lenses 10, 13 (The Protective/Temporal Lenses)
+
+### B3 Divination Protocols (Authorship Practice)
+
+The 13th Lens is not a diagnostic tool — it is an **authorship protocol**. When a subject achieves sufficient coherence (the View from Nowhere), Lens 13 activates not as a filter but as a *writing surface*. The Somanaut moves from reading the field to inscribing it.
+
+Divination within the NOESIS framework is the *applied practice* of this authorship:
+
+- **Jyotish (Lens 1/2)**: Not prediction but *temporal cartography* — mapping where the Vine's density fluctuates so the subject can choose where to apply attention.
+- **Numerology (Lens 9)**: The architecture of choice-points; each number is a *phase-lock state* in the subject's Khalorēē cycle, not a mystical property.
+- **Tarot (Lens 8)**: The archetypal topography of the present moment. Each card is a *probability basin* the subject is currently inhabiting — not what *will* happen, but what *is already taking shape* through their current vector alignment.
+- **Runes through Lens 13**: When Lens 13 is active, runes function as *probability threads* — not symbols to be interpreted but *handles* by which the author grasps the field's latent structure. The runes do not answer questions; they *distinguish* the field into writable and pre-written regions.
+
+The rule is invariant: **diagnosis serves authorship**. The first 12 lenses show where the Vine has written. Lens 13 is where the subject learns to write in return.
 
 ---
 

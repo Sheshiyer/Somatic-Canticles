@@ -28,6 +28,43 @@
 
 ---
 
+## The Three Aspects (Cosmological Frames)
+
+### **Loka** (lō-kă) *n.* — [HOUSE-MODEL]
+
+1. **[Cosmology]** An awareness realm — not a physical location but a *perceptual jurisdiction* determined by the subject's current coherence bandwidth. There is no "where" without a "who" to perceive it.
+2. **[Somanautics]** The three primary lokas mapped by the Tryambakam Protocol correspond to the Three Aspects: B1 (Locative Frame / Coherence), B2 (Identity Signature / Soma), B3 (Authorship Protocol / Manas).
+3. **[Usage Note]** A shift in loka is not movement through space but a change in the *coordinate system* of awareness. One does not go to a loka; one *attunes to* it.
+
+### **Pancha Mahabhuta** (păn-chă mă-hă-bhū-tă) *n.* [TRADITIONAL-SOURCE]
+
+1. **[Hindu Cosmology]** The five great elements — *Pṛthivī* (earth), *Āpas* (water), *Agni* (fire), *Vāyu* (air), *Ākāśa* (ether/space) — as the substrate layers of the manifest body.
+2. **[Somanaut Redescription]** In the NOESIS framework, the Mahabhuta are not "elements" but **biofield density gradients**: coarse (earth) through increasingly subtle (ether). Each corresponds to a band of Khalorēē compaction — how tightly inherited pattern has crystallized into felt reality.
+3. **[Clinical Mapping]** Earth → osseous/basal (Muladhara Terminus); Water → vascular/limbic (Prana flow); Fire → metabolic/transformative (Catalyst processes); Air → respiratory/neural (Manas Interface); Ether → field/subtle (Soma Vector substrate).
+
+### **Tycho Frame** *n.* — [HOUSE-MODEL]
+
+1. **[Epistemology]** A deterministic observer model derived from Tycho Brahe's geocentric system, adapted by Jian Quoril as a *Vine-mapping heuristic*: if reality is a perfect sphere with Earth (the determined subject) at its center, all motion is epicyclic and all futures are computable.
+2. **[Mechanics]** The Tycho Frame treats the subject as the fixed point around which all causal forces revolve. It is a powerful diagnostic tool for identifying deterministic loops — but it cannot perceive the exit, because the model assumes no exit exists.
+3. **[Limitation]** The Tycho Frame is precise about *where a subject is trapped* but blind to *how they might leave*. It requires supplementation by participatory models (NOESIS, Khalorēē field mathematics) to perceive the Gap.
+
+### **Darshana Khalorēē** (dăr-shă-nă kă-lō-rēē) *n.* — [HOUSE-MODEL mapping of TRADITIONAL-SOURCE]
+
+The six orthodox schools of Hindu philosophy (*Ṣaḍ Darśana*) remapped as Khalorēē variant-expression profiles — each representing a distinct *metabolic strategy* for processing reality:
+
+| Darśana | Core Concern | Khalorēē Variant | Somatic Fingerprint |
+|:---|:---|:---|:---|
+| **Nyāya** | Logic & epistemology | System-boundary mapping | Analytical rigor; the subject's reasoning architecture as first data layer |
+| **Vaiśeṣika** | Atomism & categories | Discrete-packet parsing | Fragmenting experience into constituent parts; useful for trauma isolation |
+| **Sāṃkhya** | Enumeration of principles | Dual-field separation (Puruṣa/Prakṛti) | Witness vs. nature dissociation diagnostic; identifies subject-object splits |
+| **Yoga** | Disciplined union | Coherence cultivation protocol | The active *practice* of aligning the three vectors through embodied discipline |
+| **Mīmāṃsā** | Ritual interpretation | Pattern-repetition reinforcement | How inherited axiom becomes automated behavior; the Vine's ritual layer |
+| **Vedānta** | Non-dual realization | Field-identity unification (Brahman/Ātman) | The dissolution of Khalorēē boundaries into field-awareness; pre-Severance signal |
+
+Each Darśana is a *valid but partial* Khalorēē operating system. The integrated practitioner does not choose one — they allow all six to speak simultaneously, each correcting the others' blind spots.
+
+---
+
 ## The Vine of Determinism
 
 ### **The Vine** *n.*

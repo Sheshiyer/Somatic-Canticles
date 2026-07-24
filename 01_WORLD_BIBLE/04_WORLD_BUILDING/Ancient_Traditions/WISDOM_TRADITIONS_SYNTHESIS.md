@@ -29,6 +29,20 @@ Documents universal consciousness development patterns across major wisdom tradi
 - Raja Yoga → Breathfield discipline (Tryambakam)
 - Jñāna Yoga → Witness awareness (NOESIS)
 
+**Ṣaḍ Darśana as Khalorēē Variants** — [HOUSE-MODEL mapping of TRADITIONAL-SOURCE]:
+The six orthodox schools of Hindu philosophy are remapped within the NOESIS framework as distinct Khalorēē *variant-expression profiles* — each representing a metabolic strategy for processing inherited reality:
+
+| Darśana | Core Concern | Khalorēē Function | Diagnostic Application |
+|:---|:---|:---|:---|
+| **Nyāya** | Logic & epistemology | System-boundary mapping | Identifies where the subject's reasoning architecture forms the first data layer |
+| **Vaiśeṣika** | Atomism & categories | Discrete-packet parsing | Useful for trauma isolation — fragmenting experience into constituent, isolable events |
+| **Sāṃkhya** | Enumeration of principles | Dual-field (Puruṣa/Prakṛti) separation | Reveals where the subject-object split is actively maintained as a Khalorēē defense |
+| **Yoga** | Disciplined union | Coherence cultivation protocol | The embodied practice of aligning the three vectors through discipline, not belief |
+| **Mīmāṃsā** | Ritual interpretation | Pattern-repetition reinforcement | Shows how inherited axiom becomes automated behavior — the Vine's ritual substrate |
+| **Vedānta** | Non-dual realization | Field-identity unification (Brahman/Ātman) | Pre-Severance signal: the dissolution of Khalorēē boundaries into unified field-awareness |
+
+No single Darśana suffices for full ripening. Each corrects the others' blind spots. An integrated Somanaut allows all six to speak simultaneously, hearing their interplay as the full harmonics of the subject's Khalorēē.
+
 ### Buddhist (Anahata Galaxy - Compassion Focus)
 
 **Three Poisons + Buddha Nature**:
@@ -79,6 +93,14 @@ Documents universal consciousness development patterns across major wisdom tradi
 - Yetzirah (formation) → Astral/emotional
 - Beriah (creation) → Mental/causal
 - Atziluth (emanation) → Pure consciousness
+
+#### Tycho Contrast
+
+The Western esoteric tradition has long harbored a tension between **geocentric determinism** and **participatory cosmology**. Tycho Brahe's geo-heliocentric model — planets orbiting the Sun which orbits a fixed Earth — serves within the NOESIS framework as a precise metaphor for the **Vine-attached subject**: a system that believes itself central while being carried by a motion it cannot perceive itself as part of.
+
+The Tycho Frame, as Jian Quoril operationalizes it, is a *diagnostic tool for identifying where the subject has mistaken their position for their essence*. A subject operating under a Tycho Frame believes all causality radiates from or toward them — they are the fixed point. This is useful for mapping deterministic loops but fundamentally blind to the **Gap**: the exit from the system that can only be perceived by abandoning the fixed-point assumption.
+
+**Contrast with NOESIS**: Where the Tycho Frame sees a sphere with the subject at its immutable center, NOESIS sees a field with no privileged observer. The former is *deterministic description*; the latter is *participatory authorship*. The transition between them is the Severance Event itself — the moment the subject realizes they were never the center, only the *one who agreed to forget they were the field*.
 
 ---
 
