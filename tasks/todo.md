@@ -2,6 +2,9 @@
 
 This file is the active source of truth for repository execution status.
 
+> **2026-07-22 RECONCILIATION RULING** (see `../../MEMORY/WORK/20260722-deep-pass/PHASE-0-RECONCILIATION.md`):
+> `Somatic-Canticles-v2/` is the sole manuscript canon. The full-floor runs of 2026-05-22/24 and the v2 lock of 2026-06-03 superseded all workbench working lanes below. Board items targeting those lanes for further expansion or merge-back are marked **SUPERSEDED-BY-V2-LOCK**. Any future manuscript work amends v2 directly under the v2.1 policy (pending user ruling).
+
 ## Next Up
 
 - [x] Establish a committed pre-expansion baseline for chapter growth:
@@ -12,10 +15,10 @@ This file is the active source of truth for repository execution status.
   - [x] Generate a trilogy-scale target profile that treats `300,000-400,000` words as the actual objective
   - [x] Reframe the old `3x` numbers as an intermediate safety floor only
   - [x] Mark the old v1 matrix length bands as interim so the next expansion wave aims at the macro target profile instead
-- [ ] Launch the actual chapter expansion wave by book from the populated dossiers and macro target bands:
-  - [ ] `Book 1` dossier-driven long-form expansion
+- [ ] ~~Launch the actual chapter expansion wave by book from the populated dossiers and macro target bands~~ **SUPERSEDED-BY-V2-LOCK 2026-07-22:**
+  - [ ] ~~`Book 1` dossier-driven long-form expansion~~ — done by `NEP-B1-FULL-FLOOR-OAI-CLEAN-20260522` (119,666w, all floors met) → locked in v2
   - [x] `Book 2` dossier-driven long-form expansion
-  - [ ] `Book 3` dossier-driven long-form expansion
+  - [ ] ~~`Book 3` dossier-driven long-form expansion~~ — completed via NEP-016..027 + v2 lock
 - [x] Complete the Book `2` expansion lane only after applying Book `1` runner lessons:
   - [x] Review Book `1` compression, duplicate-insert, style-gate, and named-operator lessons before selecting routes
   - [x] Probe current NVIDIA model availability instead of trusting the original Kimi/MiniMax plan
@@ -146,7 +149,7 @@ This file is the active source of truth for repository execution status.
   - `Chapter 07` result: `15,000` words, working/raw parity clean, residue scan clean, saved `gate-6` passed with `braid_balance=9`, `wit_lane_distinction=8`, `temperature_variation=9`, `double_meaning_density=8`, `humor_pressure_release=8`.
   - `Chapter 01` result: `10,801` words, working/raw parity clean, residue scan clean, saved `gate-7` passed with `braid_balance=9`, `wit_lane_distinction=8`, `temperature_variation=8`, `double_meaning_density=7`, `humor_pressure_release=8`.
   - Book `1` readiness decision: not yet stable for commit-back as a full lane. The refreshed audit still returns `flag`, with repair order `Chapter 03`, then `Chapter 05`; `Chapter 02` and `Chapter 08` remain secondary watch items for macro-length shortfall.
-- [ ] Next live step: expand and rebalance `Chapter 03` first, then `Chapter 05`, using the latest Book `1` audit as the control ledger.
+- [ ] ~~Next live step: expand and rebalance `Chapter 03` first, then `Chapter 05`, using the latest Book `1` audit as the control ledger.~~ **SUPERSEDED-BY-V2-LOCK 2026-07-22** — v2 Ch03=13,156w / Ch05=15,851w from the full-floor run already exceed these targets
   - [ ] Run `Chapter 03` additive expansion toward its `12,150` macro low target while deepening safety/freedom tension and adding pressure-release beats
   - [ ] Gate `Chapter 03`, verify raw parity/residue, and refresh the Book `1` audit
   - [ ] Run `Chapter 05` additive expansion toward its `9,700` macro low target while preserving endocrine doctrine stakes without flattening into biology-heavy exposition
@@ -220,7 +223,7 @@ This file is the active source of truth for repository execution status.
 - [x] Verified each accepted Book `2` chapter has working/raw parity.
 - [x] Verified each accepted Book `2` chapter has a saved passing style gate.
 - [x] Verified the accepted Book `2` working/raw surfaces are clean of local-name bans, overt symbolic scaffold terms, production preamble residue, and lexical carryovers.
-- [ ] Next live step: run the Book `2` compiled-surface coherence comparison before promoting this lane back into compiled manuscript surfaces.
+- [ ] ~~Next live step: run the Book `2` compiled-surface coherence comparison before promoting this lane back into compiled manuscript surfaces.~~ **SUPERSEDED-BY-V2-LOCK 2026-07-22** — v2 Book 2 (106,526w) is the canonical surface; this older lane is historical
 
 ### NEP-016 Book 3 Expansion Lane
 
@@ -239,7 +242,7 @@ This file is the active source of truth for repository execution status.
   - [x] Rejected scratch inserts excluded from commit.
   - Result: `Chapter 16` accepted at `12,219` words with saved `gate-9` scores: `braid_balance=9`, `wit_lane_distinction=8`, `temperature_variation=8`, `double_meaning_density=7`, `humor_pressure_release=8`.
 - [x] Commit and push Chapter `16` only after it passes acceptance.
-- [ ] Continue Book `3` serially through Chapters `17-27`, widening only if a chapter route proves safe and has no dependency on unresolved prior-chapter prose.
+- [ ] ~~Continue Book `3` serially through Chapters `17-27`, widening only if a chapter route proves safe and has no dependency on unresolved prior-chapter prose.~~ **SUPERSEDED-BY-V2-LOCK 2026-07-22** — Chapters 17-27 all completed (NEP-017..027) and locked in v2
   - Current live step: expand `Chapter 19` from its populated dossier and accepted `Chapter 18` handoff, preserving the Three-Point Problem as unresolved procedure rather than solved triangulation.
 
 ### NEP-017 Book 3 Chapter 17 Expansion
